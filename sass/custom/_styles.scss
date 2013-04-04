@@ -1,2 +1,20 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+/* centre header title vertically with logo image */
+body > header h1 { vertical-align: middle !important; }
+
+/* header logo sizes for different widths */
+img.headerlogo {
+  vertical-align:middle;
+  width: 80px !important;
+}
+@media only screen and (min-width: 480px) {
+  img.headerlogo { width: 100px !important; }
+}
+@media only screen and (min-width: 768px) {
+  img.headerlogo { width: 120px !important; }
+}
+@media only screen and (min-width: 992px) {
+  img.headerlogo { width: 150px !important; }
+}
