@@ -1,12 +1,15 @@
 // Here you can easily change your sites's layout.
 // To give it a try, uncomment some of the lines below, make changes, rebuild your blog, and see how it works.
 
-//$header-font-size: 1em;
-//$header-padding-top: 1.5em;
-//$header-padding-bottom: 1.5em;
+/* set header title size */
+$header-font-size: 1.2em;
 
-//$max-width: 1350px;
-//$indented-lists: true;
+/* set header padding size */
+$header-padding-top: 0.5em;
+$header-padding-bottom: 0em;
+
+
+$max-width: 1200px !default;
 
 // Padding used for layout margins
 //$pad-min: 18px;
@@ -19,3 +22,6 @@
 //$sidebar-pad-medium: 15px;
 //$sidebar-pad-wide: 20px;
 //$sidebar-width-wide: 300px;
+
+$indented-lists: false !default;
+

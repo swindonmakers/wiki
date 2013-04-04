@@ -2,6 +2,73 @@
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works.
 // If you need a handy color picker try http://hslpicker.com
 
+/* main background colours */
+$header-bg:       #f2f2f2;
+$sidebar-bg:      $header-bg;
+$main-bg:         $header-bg;
+$nav-bg:          $header-bg;
+/*$page-bg:       #555555;*/
+
+/* remove gradient */
+$nav-bg-front:    $nav-bg;
+$nav-bg-back:     $nav-bg;
+
+/* navigation borders */
+$nav-border-top:  $nav-bg;
+$nav-border-bottom: darken($nav-bg, 15);
+
+/* header title colours */
+$title-color: #555555;
+/*$subtitle-color: #aaa;*/
+
+/*$nav-border-right:  $nav-bg;*/
+/*$nav-border-left:   $nav-bg;*/
+
+
+/* hide sidebar border top */
+aside.sidebar {
+  border-top: none !important;
+}
+
+/* image used for background */
+$noise-bg: top left !default;
+/* $noise-bg: image-url('noise.png') top left !default; */
+
+
+/* set colour of text */
+$text-color: #555555;
+$sidebar-color: $text-color;
+
+/* set colour of visited links */
+$link-color: lighten(#1863A1, 3);
+$link-color-visited: $link-color;
+/*$link-color-hover: $link-color;*/
+
+/* set colour of sidebar links on hover */
+$sidebar-link-color: #555555;
+$sidebar-link-color-hover: #555555;
+/*$sidebar-link-color: saturate(gray, 10);*/
+/*$sidebar-link-color-hover: darken(black, 9);*/
+
+
+
+/* code blocks theme */
+/*$solarized: light;*/
+
+/* solarized dark
+$base03:  darken(#003366, 4);     // background - dark blue
+$base02: lighten($base03, 2);     // border / gist footer
+$base01: lighten(#586e75, 20);    // comments
+$base1:  lighten(#93a1a1, 20);    // text
+*/
+
+/* solarized light */
+/*$base3: #ffffff;                  // background - white*/
+/*$base3: #f8f8ff;                  // background - blueish white*/
+/*$base2: lighten($base3, 2);       // border*/
+
+
+
 //$header-bg: #263347;
 //$subtitle-color: lighten($header-bg, 58);
 //$nav-bg: desaturate(lighten(#8fc17a, 18), 5);
