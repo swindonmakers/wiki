@@ -4,21 +4,6 @@
 /* centre header title vertically with logo image */
 body > header h1 { vertical-align: middle !important; }
 
-/* header logo sizes for different widths */
-img.headerlogo {
-  vertical-align:middle;
-  width: 80px !important;
-}
-@media only screen and (min-width: 480px) {
-  img.headerlogo { width: 100px !important; }
-}
-@media only screen and (min-width: 768px) {
-  img.headerlogo { width: 120px !important; }
-}
-@media only screen and (min-width: 992px) {
-  img.headerlogo { width: 150px !important; }
-}
-
 /* remove borders between navigation links */
 body > nav li + li { border-left: 0px; a { border-left: 0px; } }
 

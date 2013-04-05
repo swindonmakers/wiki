@@ -2,26 +2,66 @@
 // To give it a try, uncomment some of the lines below, make changes, rebuild your blog, and see how it works.
 
 /* set header title size */
-$header-font-size: 1.2em;
+$header-font-size: 1.1em;
 
 /* set header padding size */
-$header-padding-top: 0.5em;
-$header-padding-bottom: 0em;
+$header-padding-top: 1em;
+$header-padding-bottom: 1em;
 
-
+/* set main page width */
 $max-width: 1200px !default;
 
-// Padding used for layout margins
-//$pad-min: 18px;
-//$pad-narrow: 25px;
-//$pad-medium: 35px;
-//$pad-wide: 55px;
+/* Padding used for layout margins */
+$pad-min: 18px !default;
+$pad-narrow: 25px !default;
+$pad-medium: 35px !default;
+$pad-wide: 55px !default;
 
-// Sidebar widths used in media queries
+/* Sidebar widths used in media queries */
 //$sidebar-width-medium: 240px;
 //$sidebar-pad-medium: 15px;
 //$sidebar-pad-wide: 20px;
 //$sidebar-width-wide: 300px;
 
 $indented-lists: false !default;
+
+
+/* leave space for image */
+body > header h1 {
+  width: 70%;
+}
+/* add logo as background image */
+body:after {
+    content:"";
+    position:absolute;
+    overflow: visible;
+    background-image:url('/images/hackspace_logo.png');
+    background-repeat:no-repeat;
+    top:0.5em;
+
+    @media only screen and (min-width: 320px) {
+      right:$pad-min;
+      height: 80px;
+      width: 80px;
+      background-size:80px 80px;
+    }
+    @media only screen and (min-width: 400px) {
+      right:$pad-narrow;
+      height: 100px;
+      width: 100px;
+      background-size:100px 100px;
+    }
+    @media only screen and (min-width: 768px) {
+      right:$pad-medium;
+      height: 120px;
+      width: 120px;
+      background-size:120px 120px;
+    }
+    @media only screen and (min-width: 992px) {
+      right:$pad-wide;
+      height: 150px;
+      width: 150px;
+      background-size:150px 150px;
+    }
+}
 
