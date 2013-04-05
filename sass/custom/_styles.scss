@@ -18,3 +18,29 @@ img.headerlogo {
 @media only screen and (min-width: 992px) {
   img.headerlogo { width: 150px !important; }
 }
+
+/* remove borders between navigation links */
+body > nav li + li { border-left: 0px; a { border-left: 0px; } }
+
+
+/*
+  Mobile Browser Navigation Improvements
+*/
+
+@media only screen and (max-width: 400px) {
+  /* smaller title font */
+  body > header { font-size: $header-font-size * .8; }
+  /* body { -webkit-text-size-adjust: auto; } */
+
+  /* smaller navigation font */
+  body > nav { font-size: .8em; }
+
+  /* less padding between nav items */
+  body > nav li + li { margin-left: .3em; a { padding-left: .3em; } }
+
+  /* hide subscription links */
+  body > nav { .subscription { display: none; } }
+
+  /* don't wrap navigation links */
+  .main-navigation { white-space:nowrap; }
+}

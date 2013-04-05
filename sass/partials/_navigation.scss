@@ -36,7 +36,7 @@ body > nav {
     select{ width: 100%; font-size: .8em; border: 1px solid #888;}
   }
   ul { display: none; }
-  @media only screen and (min-width: 550px) {
+  @media only screen and (min-width: 320px) {
     font-size: .9em;
     ul {
       @include horizontal-list(0);
