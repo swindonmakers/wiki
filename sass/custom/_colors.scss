@@ -3,7 +3,7 @@
 // If you need a handy color picker try http://hslpicker.com
 
 /* main background colours */
-$header-bg:       #f2f2f2;
+$header-bg:       #ffffff;
 $sidebar-bg:      $header-bg;
 $main-bg:         $header-bg;
 $nav-bg:          $header-bg;
@@ -15,7 +15,11 @@ $nav-bg-back:     $nav-bg;
 
 /* navigation borders */
 $nav-border-top:  $nav-bg;
-$nav-border-bottom: darken($nav-bg, 15);
+$nav-border-bottom:  $nav-bg;
+/*$nav-border-bottom: darken($nav-bg, 15);*/
+
+/* navigation link colour */
+$nav-color: darken($nav-bg, 50);
 
 /* header title colours */
 $title-color: #555555;
