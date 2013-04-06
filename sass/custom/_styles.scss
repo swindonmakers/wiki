@@ -11,7 +11,7 @@ body > nav li + li { border-left: 0px; a { border-left: 0px; } }
 body > nav { .subscription { display: none; } }
 
 /* Less padding between nav items */
-body > nav li + li { margin-left: .6em; a { padding-left: .6em; } }
+body > nav > ul > li { margin-right: .6em; a { padding: 0; } }
 
 
 /*
@@ -24,10 +24,10 @@ body > nav li + li { margin-left: .6em; a { padding-left: .6em; } }
   /* body { -webkit-text-size-adjust: auto; } */
 
   /* smaller navigation font */
-  body > nav { font-size: .8em; }
+  body > nav { font-size: .75em; }
 
   /* less padding between nav items */
-  body > nav li + li { margin-left: .3em; a { padding-left: .3em; } }
+  body > nav > ul > li { margin-right: .2em; a { padding: 0; } }
 
   /* hide subscription links */
   body > nav { .subscription { display: none; } }
