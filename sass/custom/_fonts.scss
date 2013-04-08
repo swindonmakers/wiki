@@ -7,6 +7,38 @@ $sans: 'Open Sans', sans-serif;
 $serif: 'Open Sans', sans-serif;
 $heading-font-family: 'Open Sans', sans-serif;
 
+/* Increase size of body text */
+body {
+/*  font-size: 1.3em !important;*/
+}
+
+/* set all article h1 titles */
+article h1 {
+  font-size: 1.5em !important;
+  @media only screen and (min-width: 550px) {
+    font-size: 1.7em !important;
+  }
+  font-weight: normal;
+}
+
+/* set all article h2 titles */
+article h2 {
+  font-size: 1.4em !important;
+  font-weight: normal;
+}
+
+/* set all article h3 titles */
+article h3 {
+  font-size: 1.2em !important;
+  font-weight: normal;
+}
+
+/* don't highlight or underline titles */
+.blog-index article h1 a:hover {
+  text-decoration: none;
+  color: $text-color !important;
+}
+
 
 // Here you can easily change font faces which are used in your site.
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works. your sites's.
