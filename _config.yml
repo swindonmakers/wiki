@@ -51,7 +51,7 @@ titlecase: true       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
-default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.html, asides/delicious.html, asides/pinboard.html, asides/googleplus.html]
+default_asides: [asides/recent_posts.html, custom/asides/rss_feed.html, asides/github.html, asides/twitter.html]
 
 # Each layout uses the default asides, but they can have their own asides instead. Simply uncomment the lines below
 # and add an array with the asides you want to use.
@@ -62,6 +62,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 #   3rd Party Settings    #
 # ----------------------- #
+
+# RSS Feed
+rss_feed_title: "Google Group"
+rss_feed_title_url: http://groups.google.com/group/swindon-hackspace
+rss_feed_url: http://groups.google.com/group/swindon-hackspace/feed/rss_v2_0_topics.xml
+rss_feed_include_link_to_feed: false
+rss_feed_link_title: "Google Feed"
 
 # Github repositories
 github_user: snhack

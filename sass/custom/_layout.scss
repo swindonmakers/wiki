@@ -25,6 +25,11 @@ $pad-wide: 55px !default;
 
 $indented-lists: false !default;
 
+/* hide rss details and remove border */
+.rss_feed-description {
+  display: none !important;
+}
+
 
 /* leave space for image */
 body > header h1 {

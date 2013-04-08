@@ -1,0 +1,26 @@
+{% if site.rss_feed_url %}
+<section>
+  {% if site.rss_feed_title_url %}
+  <h1><a href="{{ site.rss_feed_title_url }}">{{ site.rss_feed_title }}</a></h1>
+  {% else %}
+  <h1>{{ site.rss_feed_title }}</h1>
+  {% endif %}
+  <ul id="rss_feed_linkroll">
+    <li class="loading">Fetching links...</li>
+  </ul>
+  {% if site.rss_feed_include_link_to_feed %}
+  <p><a href="{{ site.rss_feed_url }}">{{ site.rss_feed_link_title }} &raquo;</a></p>
+  {% endif %}
+</section>
+<script type="text/javascript">
+  var linkroll = 'rss_feed_linkroll';
+  var rss_feed_url = "http://rsstojson.herokuapp.com/?feed={{ site.rss_feed_url }}";
+  (function(){
+    var rss_feedInit = document.createElement('script');
+    rss_feedInit.type = 'text/javascript';
+    rss_feedInit.async = true;
+    rss_feedInit.src = '{{ root_url }}/javascripts/rss_feed.js';
+    document.getElementsByTagName('head')[0].appendChild(rss_feedInit);
+  })();
+</script>
+{% endif %}
