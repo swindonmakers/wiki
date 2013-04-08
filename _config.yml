@@ -73,7 +73,7 @@ rss_feed_link_title: "Google Feed"
 # Github repositories
 github_user: snhack
 github_repo_count: 5
-github_show_profile_link: true
+github_show_profile_link: false
 github_skip_forks: true
 
 # Twitter

@@ -25,6 +25,27 @@ $pad-wide: 55px !default;
 
 $indented-lists: false !default;
 
+
+/* sidebar elements */
+aside {
+  /* no underline for aside links */
+  a { text-decoration: none; }
+  /* no bottom borders and padding */
+  li {
+    border-bottom-width: 0px !important;;
+    padding-bottom: 0em !important;
+  }
+}
+
+/* hide git repo details and remove border */
+#gh_repos > li { p { display: none !important; } }
+
+/* reduce font and hide dated link */
+#tweets {
+  a[href*=status] { display: none !important; }
+  font-size: 90%;
+}
+
 /* hide rss details and remove border */
 .rss_feed-description {
   display: none !important;
