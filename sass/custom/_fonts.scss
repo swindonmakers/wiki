@@ -41,6 +41,10 @@ article h3 {
   color: $text-color !important;
 }
 
+/* normal font size for blockquotes */
+blockquote {
+  font-size: 1em !important;
+}
 
 // Here you can easily change font faces which are used in your site.
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works. your sites's.
