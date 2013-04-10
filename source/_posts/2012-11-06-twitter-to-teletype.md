@@ -49,7 +49,7 @@ Because the teletype is a mechanical device which uses moving parts to decode th
 
 A C# application was written to connect to the twitter API and pickup tweets sent to the museums twitter account.  Running under Mono on Linux, this software then communicates with the ATTiny micro-controller via a USB to serial converter and sends instructions to turn the teletype on.  It then sends the text of the tweet in 50 character chunks (due to memory limitations on the ATTiny) to be forwarded on to the current loop interface at 110 baud and finally the teletype prints out the tweet.
 
-{% youtube http://www.youtube.com/watch?v=_HGV4Ppnx14 %}
+{% youtube _HGV4Ppnx14 %}
 
 ![Complete](https://github.com/snhack/TwitterToTeletype/wiki/images/TeletypeComplete.jpg)
 ![Printing](https://github.com/snhack/TwitterToTeletype/wiki/images/TeletypePaper.jpg)
