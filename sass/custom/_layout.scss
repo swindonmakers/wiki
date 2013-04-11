@@ -36,6 +36,10 @@ aside {
     padding-bottom: 0em !important;
   }
 }
+/* keep bottom padding for tweets */
+#tweets, #tweets > li {
+  padding-bottom: 0.5em !important;
+}
 
 /* hide git repo details and remove border */
 #gh_repos > li { p { display: none !important; } }
