@@ -24,47 +24,17 @@ Use github's web interface to [create a new file], [naming it] according to the 
 [create a new file]: https://github.com/blog/1327-creating-files-on-github
 [naming it]: https://github.com/blog/1436-moving-and-renaming-files-on-github
 
-Add [suitable yaml] front matter as shown in the example below, followed by your content as plain text.  Optionally use \*simple\* [markdown formatting] such as headers, italics and links.  There are [various tools] available to preview standard markdown.
+Add [suitable yaml] front matter followed by your content as plain text, as shown in [this example post] \([preview]).  Optionally use \*simple\* [markdown formatting] such as headers, italics and links.  There are [various tools] available to preview standard markdown.
+
+[this example post]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-11-06-example-post.md
+[preview]: https://github.com/snhack/snhack.github.com/blob/source/source/_posts/_examples/2012-11-06-example-post.md
 
 Commit the new file.  Github will automatically prompt you to submit a pull request to this repo: set the base branch to 'source', review the changes, and hit send.
-
-
-### Example Post
-
-The following post uses standard markdown.  The `<!-- more -->` tag is standard html which is also supported.
-
-	---
-
-	layout: post
-	title: "Example Post"
-	date: 2012-11-06 20:06
-	author: Git User
-	categories: [demo, markdown]
-
-	---
-
-	Here's a [link to github](http://github.com), some text with *italic* and **bold** formatting, and an image:
-
-	![octocat](https://github.com/images/icons/emoji/octocat.png)
-
-    	Indent code with 1 tab or 4 spaces to prevent conversion by markdown
-
-	<!-- more -->
-
-	Content below a `<!-- more -->` comment tag will not be shown on the main index page.
-
-	## This is a H2 heading
-
-	> And this is a block quote
-
-	You can also use [reference style links][twttr] to keep things tidy.
-
-	[twttr]: http://twitter.com
-
 
 [suitable yaml]: http://octopress.org/docs/blogging
 [markdown formatting]: http://daringfireball.net/projects/markdown/basics
 [various tools]: http://daringfireball.net/projects/markdown/dingus
+
 
 
 ### Install Octopress
