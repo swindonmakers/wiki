@@ -17,6 +17,8 @@ var github = (function(){
           var repos = [];
           if (!data || !data.data) { return; }
           for (var i = 0; i < data.data.length; i++) {
+            var matchsite=new RegExp("^" + options.user + "\.github\.(com|io)$", "");
+            if (options.skip_sites && matchsite.exec(data.data[i].name)) { continue; }
             if (options.skip_forks && data.data[i].fork) { continue; }
             repos.push(data.data[i]);
           }
