@@ -69,7 +69,7 @@ body > footer {
   a { color: lighten(#555555, 25) !important; }
 }
 div#main {
-  border-bottom: 1px solid darken($sidebar-bg, 15) !important;
+  border-bottom: 0px solid darken($sidebar-bg, 15) !important;
 }
 
 
