@@ -15,6 +15,23 @@ body > nav > ul > li { margin-right: .6em; a { padding: 0; } }
 
 
 /*
+  Code Blocks
+*/
+
+/* don't show line-numbers in code blocks */
+td.gutter { display: none !important; }
+
+/* don't show line_numbers in gist blocks */
+td.line_numbers { display: none !important; }
+div.data > .highlight { width: 100%; }
+
+/* smaller gist footer and margin */
+.gist-meta { padding-top: .3em !important; }
+.gist-meta { padding-bottom: .3em !important; }
+div.data > .highlight { margin-bottom: 1px; }
+
+
+/*
   Mobile Browser Navigation Improvements
 */
 
