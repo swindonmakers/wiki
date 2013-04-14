@@ -6,8 +6,8 @@
 $sans: 'Open Sans', sans-serif;
 $serif: 'Open Sans', sans-serif;
 $heading-font-family: 'Open Sans', $sans;
-$header-title-font-family: "Futura", $sans;
-$header-subtitle-font-family: "Futura", $sans;
+$header-title-font-family: $sans;
+$header-subtitle-font-family: $sans;
 
 /* Increase size of body text */
 body {
