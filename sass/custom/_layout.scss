@@ -26,6 +26,17 @@ $pad-wide: 55px !default;
 $indented-lists: true;
 
 
+/* make article headers consistent and hide date */
+article > header {
+  padding-top: 0.5em !important;
+  padding-bottom: 0em !important;
+  background: none !important;
+  time { display:none; }
+}
+article[role=article] {
+  padding-top: 0.5em !important;
+}
+
 /* sidebar elements */
 aside {
   /* no underline for aside links */
