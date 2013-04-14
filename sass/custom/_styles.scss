@@ -19,7 +19,13 @@ body > nav > ul > li { margin-right: .6em; a { padding: 0; } }
 */
 
 /* don't show line-numbers in code blocks */
-td.gutter { display: none !important; }
+div.highlight {
+  td.gutter { display: none !important; }
+  td.code   {
+    padding-left: 0.15em !important;
+    padding-right: 0.15em !important;
+  }
+}
 
 /* don't show line_numbers in gist blocks */
 td.line_numbers { display: none !important; }
