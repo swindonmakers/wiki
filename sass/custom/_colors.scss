@@ -55,6 +55,23 @@ $sidebar-link-color-hover: #555555;
 /*$sidebar-link-color-hover: darken(black, 9);*/
 
 
+/* minimal page footer */
+body > footer {
+  color: lighten(#555555, 25) !important;
+  background-color: $main-bg !important;
+  background-image: none !important;
+  text-shadow: none !important;
+  padding-top: 0.35em !important;
+  padding-bottom: 0.35em !important;
+  margin-bottom: 0em !important;
+  border-radius: 0px !important;
+  border-top: 0px !important;
+  a { color: lighten(#555555, 25) !important; }
+}
+div#main {
+  border-bottom: 1px solid darken($sidebar-bg, 15) !important;
+}
+
 
 /* code blocks theme */
 /*$solarized: light;*/
