@@ -52,8 +52,8 @@ $link-color-visited: $link-color;
 $text-color-light: #aaa !default;
 
 /* set colour of sidebar links on hover */
-$sidebar-link-color: #555555;
-$sidebar-link-color-hover: #555555;
+$sidebar-link-color: $sidebar-color;
+$sidebar-link-color-hover: lighten($sidebar-color, 15);
 /*$sidebar-link-color: saturate(gray, 10);*/
 /*$sidebar-link-color-hover: darken(black, 9);*/
 
@@ -75,6 +75,7 @@ body > footer {
   a {
     color: $text-color-light !important;
     text-decoration: inherit;
+    &:hover { color: darken($text-color-light, 15) !important; }
   }
 }
 div#main {

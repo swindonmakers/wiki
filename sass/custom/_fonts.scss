@@ -35,10 +35,10 @@ article h3 {
   font-weight: normal;
 }
 
-/* don't highlight or underline titles */
+/* set title link colour and decoration */
 .blog-index article h1 a:hover {
   text-decoration: none;
-  color: $text-color !important;
+  color: lighten($title-color, 15) !important;
 }
 
 /* normal font size for blockquotes */
