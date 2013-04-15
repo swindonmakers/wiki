@@ -48,6 +48,9 @@ $link-color: lighten(#1863A1, 3);
 $link-color-visited: $link-color;
 /*$link-color-hover: $link-color;*/
 
+/* set light text colour */
+$text-color-light: #aaa !default;
+
 /* set colour of sidebar links on hover */
 $sidebar-link-color: #555555;
 $sidebar-link-color-hover: #555555;
@@ -60,7 +63,7 @@ a { @include transition(background-color false !important); }
 
 /* minimal page footer */
 body > footer {
-  color: lighten(#555555, 25) !important;
+  color: $text-color-light !important;
   background-color: $main-bg !important;
   background-image: none !important;
   text-shadow: none !important;
@@ -69,7 +72,10 @@ body > footer {
   margin-bottom: 0em !important;
   border-radius: 0px !important;
   border-top: 0px !important;
-  a { color: lighten(#555555, 25) !important; }
+  a {
+    color: $text-color-light !important;
+    text-decoration: inherit;
+  }
 }
 div#main {
   border-bottom: 0px solid darken($sidebar-bg, 15) !important;
