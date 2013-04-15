@@ -54,6 +54,9 @@ $sidebar-link-color-hover: #555555;
 /*$sidebar-link-color: saturate(gray, 10);*/
 /*$sidebar-link-color-hover: darken(black, 9);*/
 
+/* do not transition link colours */
+a { @include transition(background-color false !important); }
+
 
 /* minimal page footer */
 body > footer {
