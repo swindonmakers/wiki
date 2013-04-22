@@ -38,6 +38,31 @@ div.data > .highlight { margin-bottom: 1px; }
 
 
 /*
+  Page Footer
+*/
+
+/* minimal page footer */
+body > footer {
+  color: $text-color-light !important;
+  background-color: $main-bg !important;
+  background-image: none !important;
+  text-shadow: none !important;
+  padding-top: 1.35em !important;
+  margin-bottom: 0em !important;
+  border-radius: 0px !important;
+  border-top: 0px !important;
+  a {
+    color: $text-color-light !important;
+    text-decoration: inherit;
+    &:hover { color: darken($text-color-light, 15) !important; }
+  }
+}
+div#main {
+  border-bottom: 0px solid darken($sidebar-bg, 15) !important;
+}
+
+
+/*
   Mobile Browser Navigation Improvements
 */
 
