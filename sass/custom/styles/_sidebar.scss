@@ -1,0 +1,35 @@
+/*
+  Sidebar
+*/
+
+// hide sidebar border top
+aside.sidebar { border-top: none; }
+
+// sidebar elements
+aside {
+  // no underline for aside links
+  a { text-decoration: none; }
+  // no bottom borders and padding
+  li {
+    border-bottom-width: 0px !important;
+    padding-bottom: 0em !important;
+  }
+}
+
+
+/*
+  Improvements for smaller browser widths
+*/
+@media only screen and (min-width: 480px) and (max-width: 750px) {
+  // Set sidebar padding to match rest of page
+  aside.sidebar { padding: 1.2em $pad-narrow; }
+
+  // Use horizonal layout for sidebar at footer
+  aside.sidebar section { width:50%; float:left; }
+}
+
+
+// Use top padding that matches width: >= 992px
+@media only screen and (min-width: 768px) {
+  aside.sidebar { padding-top: 1.2em; }
+}

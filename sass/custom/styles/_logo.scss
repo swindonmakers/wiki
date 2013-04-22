@@ -1,0 +1,45 @@
+/*
+  Add logo image to header
+*/
+
+// centre header title vertically with logo image
+body > header h1 { vertical-align: middle !important; }
+
+// leave space for image
+body > header h1 { width: 70%; }
+
+// add logo as background image
+body:after {
+    content:"";
+    position:absolute;
+    overflow: visible;
+    background-image:url('/images/hackspace_logo.png');
+    background-repeat:no-repeat;
+    top:0.5em;
+
+    @media only screen and (min-width: 320px) {
+      right:$pad-min;
+      height: 80px;
+      width: 80px;
+      background-size:80px 80px;
+    }
+    @media only screen and (min-width: 400px) {
+      right:$pad-narrow;
+      height: 100px;
+      width: 100px;
+      background-size:100px 100px;
+    }
+    @media only screen and (min-width: 768px) {
+      right:$pad-medium;
+      height: 120px;
+      width: 120px;
+      background-size:120px 120px;
+    }
+    @media only screen and (min-width: 992px) {
+      right:$pad-wide;
+      height: 150px;
+      width: 150px;
+      background-size:150px 150px;
+    }
+}
+

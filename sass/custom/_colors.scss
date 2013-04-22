@@ -1,81 +1,75 @@
-// Here you can easily change your sites's color scheme.
-// To give it a try, uncomment some of the lines below rebuild your blog, and see how it works.
-// If you need a handy color picker try http://hslpicker.com
+/*
+  Theme changes for lighter background/text
+*/
 
-/* main background colours */
+// main background colours
 $header-bg:       #ffffff;
 $sidebar-bg:      $header-bg;
 $main-bg:         $header-bg;
 $nav-bg:          $header-bg;
-/*$page-bg:       #555555;*/
+//$page-bg:       #555555;
 
-/* remove gradient */
+// remove gradient
 $nav-bg-front:    $nav-bg;
 $nav-bg-back:     $nav-bg;
 
-/* navigation borders */
+// navigation borders
 $nav-border-top:  $nav-bg;
 $nav-border-bottom:  $nav-bg;
-/*$nav-border-bottom: darken($nav-bg, 15);*/
+//$nav-border-bottom: darken($nav-bg, 15);
 
-/* navigation link colour */
+// navigation link colour
 $nav-color: darken($nav-bg, 50);
 
-/* header title colours */
+// header title colours
 $title-color: #555555;
-/*$subtitle-color: #aaa;*/
+//$subtitle-color: #aaa;
 
-/*$nav-border-right:  $nav-bg;*/
-/*$nav-border-left:   $nav-bg;*/
+//$nav-border-right:  $nav-bg;
+//$nav-border-left:   $nav-bg;
 
-
-/* hide sidebar border top */
-aside.sidebar {
-  border-top: none !important;
-}
-
-/* image used for background */
+// image used for background
 $noise-bg: top left !default;
-/* $noise-bg: image-url('noise.png') top left !default; */
+// $noise-bg: image-url('noise.png') top left !default;
 
-
-/* set colour of text */
+// set colour of text
 $text-color: #555555;
 $sidebar-color: $text-color;
 
-/* set colour of visited links */
+// set colour of visited links
 $link-color: lighten(#1863A1, 3);
 $link-color-visited: $link-color;
-/*$link-color-hover: $link-color;*/
+//$link-color-hover: $link-color;
 
-/* set light text colour */
+// set light text colour
 $text-color-light: #aaa !default;
 
-/* set colour of sidebar links on hover */
+// set colour of sidebar links on hover
 $sidebar-link-color: $sidebar-color;
 $sidebar-link-color-hover: lighten($sidebar-color, 15);
-/*$sidebar-link-color: saturate(gray, 10);*/
-/*$sidebar-link-color-hover: darken(black, 9);*/
+//$sidebar-link-color: saturate(gray, 10);
+//$sidebar-link-color-hover: darken(black, 9);
 
-/* do not transition link colours */
-a { @include transition(background-color false !important); }
+// code blocks theme
+//$solarized: light;
 
-/* code blocks theme */
-/*$solarized: light;*/
+// solarized dark
+//$base03:  darken(#003366, 4);     // background - dark blue
+//$base02: lighten($base03, 2);     // border / gist footer
+//$base01: lighten(#586e75, 20);    // comments
+//$base1:  lighten(#93a1a1, 20);    // text
 
-/* solarized dark
-$base03:  darken(#003366, 4);     // background - dark blue
-$base02: lighten($base03, 2);     // border / gist footer
-$base01: lighten(#586e75, 20);    // comments
-$base1:  lighten(#93a1a1, 20);    // text
-*/
-
-/* solarized light */
-/*$base3: #ffffff;                  // background - white*/
-/*$base3: #f8f8ff;                  // background - blueish white*/
-/*$base2: lighten($base3, 2);       // border*/
+// solarized light
+//$base3: #ffffff;                  // background - white
+//$base3: #f8f8ff;                  // background - blueish white
+//$base2: lighten($base3, 2);       // border
 
 
+// -------
+
+// Here you can easily change your sites's color scheme.
+// To give it a try, uncomment some of the lines below rebuild your blog, and see how it works.
+// If you need a handy color picker try http://hslpicker.com
 
 //$header-bg: #263347;
 //$subtitle-color: lighten($header-bg, 58);

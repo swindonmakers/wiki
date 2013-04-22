@@ -1,0 +1,43 @@
+/*
+  Text and links
+*/
+
+// Increase size of body text
+body {
+//  font-size: 1.3em !important;
+}
+
+// set all article h1 titles
+article h1 {
+  font-size: 1.5em !important;
+  @media only screen and (min-width: 550px) {
+    font-size: 1.7em !important;
+  }
+  font-weight: normal;
+}
+
+// set all article h2 titles
+article h2 {
+  font-size: 1.4em !important;
+  font-weight: normal;
+}
+
+// set all article h3 titles
+article h3 {
+  font-size: 1.2em !important;
+  font-weight: normal;
+}
+
+// normal font size for blockquotes
+blockquote {
+  font-size: 1em !important;
+}
+
+// set title link colour and decoration
+.blog-index article h1 a:hover {
+  text-decoration: none;
+  color: lighten($title-color, 15) !important;
+}
+
+// do not transition link colours
+a { @include transition(background-color false !important); }

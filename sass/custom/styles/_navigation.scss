@@ -1,0 +1,34 @@
+/*
+  Navigation
+*/
+
+// remove borders between navigation links
+body > nav li + li { border-left: 0px; a { border-left: 0px; } }
+
+// hide subscription links
+body > nav { .subscription { display: none; } }
+
+// Less padding between nav items
+body > nav > ul > li { margin-right: .6em; a { padding: 0; } }
+
+
+/*
+  Improvements for mobile browsers
+*/
+@media only screen and (max-width: 400px) {
+  // smaller title font
+  body > header { font-size: $header-font-size * .8; }
+  // body { -webkit-text-size-adjust: auto; }
+
+  // smaller navigation font
+  body > nav { font-size: .75em; }
+
+  // less padding between nav items
+  body > nav > ul > li { margin-right: .2em; a { padding: 0; } }
+
+  // hide subscription links
+  body > nav { .subscription { display: none; } }
+
+  // don't wrap navigation links
+  .main-navigation { white-space:nowrap; }
+}

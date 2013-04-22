@@ -1,0 +1,19 @@
+// minimal page footer
+body > footer {
+  color: $text-color-light;
+  background-color: $main-bg;
+  background-image: none;
+  text-shadow: none;
+  padding-top: 1.35em;
+  margin-bottom: 0em;
+  border-radius: 0px;
+  border-top: 0px;
+  a {
+    color: $text-color-light !important;
+    text-decoration: inherit;
+    &:hover { color: darken($text-color-light, 15); }
+  }
+}
+div#main {
+  border-bottom: 0px solid darken($sidebar-bg, 15);
+}

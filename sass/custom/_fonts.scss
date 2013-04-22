@@ -1,50 +1,15 @@
-/* import fonts */
-/*@import url(http://fonts.googleapis.com/css?family=Droid+Sans);*/
+// import fonts
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-/* set fonts */
+// set fonts
 $sans: 'Open Sans', sans-serif;
 $serif: 'Open Sans', sans-serif;
 $heading-font-family: 'Open Sans', $sans;
 $header-title-font-family: $sans;
 $header-subtitle-font-family: $sans;
 
-/* Increase size of body text */
-body {
-/*  font-size: 1.3em !important;*/
-}
 
-/* set all article h1 titles */
-article h1 {
-  font-size: 1.5em !important;
-  @media only screen and (min-width: 550px) {
-    font-size: 1.7em !important;
-  }
-  font-weight: normal;
-}
-
-/* set all article h2 titles */
-article h2 {
-  font-size: 1.4em !important;
-  font-weight: normal;
-}
-
-/* set all article h3 titles */
-article h3 {
-  font-size: 1.2em !important;
-  font-weight: normal;
-}
-
-/* set title link colour and decoration */
-.blog-index article h1 a:hover {
-  text-decoration: none;
-  color: lighten($title-color, 15) !important;
-}
-
-/* normal font size for blockquotes */
-blockquote {
-  font-size: 1em !important;
-}
+// -------
 
 // Here you can easily change font faces which are used in your site.
 // To give it a try, uncomment some of the lines below rebuild your blog, and see how it works. your sites's.

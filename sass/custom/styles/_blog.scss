@@ -1,0 +1,15 @@
+/*
+  Page and post metadata
+*/
+
+// make article headers consistent and hide date
+article > header {
+  padding-top: 0.5em;
+  padding-bottom: 0em;
+  background: none;
+  .meta time { display: none; }
+}
+article[role=article] {
+  padding-top: 0.5em;
+}
+

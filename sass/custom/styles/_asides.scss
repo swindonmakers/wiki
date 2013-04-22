@@ -1,0 +1,22 @@
+/*
+  Styles for each type of aside
+*/
+
+// hide rss details and remove border
+.rss_feed-description {
+  display: none;
+}
+
+// hide git repo details and remove border
+#gh_repos > li { p { display: none; } }
+
+// reduce font and hide dated link
+#tweets {
+  a[href*=status] { display: none; }
+  font-size: 90%;
+}
+
+// bottom padding for tweets
+#tweets, #tweets > li {
+  padding-bottom: 0.5em !important;
+}
