@@ -9,7 +9,7 @@ This site is built with [octopress] and requires a ruby installation to render t
 [octopress documentation]: http://octopress.org/docs/setup/
 [source branch]: https://github.com/snhack/snhack.github.com/tree/source
 [fork this repo]: https://github.com/snhack/snhack.github.com/fork_select
-
+[pull request]: https://github.com/snhack/snhack.github.com/pulls
 
 ### Super minimal way to add a post
 
@@ -17,7 +17,7 @@ If you're submitting a post or edit that uses only standard markdown, you can sk
 
 Browse to the [source/_posts] folder within the source branch of this repo.
 
-[source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
+[source/_posts]: source/_posts
 
 Use github's web interface to [create a new file], [naming it] according to the pattern: ``YYYY-MM-DD-url-safe-title.md``.
 
@@ -37,7 +37,7 @@ Commit the new file.  Github will automatically prompt you to submit a pull requ
 
 
 
-### Install Octopress
+### Build Locally
 
 When using the extensions provided by octopress or jekyll, or making changes to the site, you should install octopress so you can preview your content before submission.
 
@@ -48,7 +48,7 @@ When using the extensions provided by octopress or jekyll, or making changes to 
 	ruby --version  		# Should report Ruby 1.9.3
 
 
-Install dependencies, ``rake install`` is not required.
+Install dependencies, but do not run ``rake install`` (it's been done already).
 
 	gem install bundler rake
 	rbenv rehash			# Only needed with rbenv
@@ -60,18 +60,19 @@ If you have any problems, see the [octopress documentation] for more info on ins
 
 ### Adding Content
 
-Create a [new post or page], usually as [markdown].  Use a topic branch if changing the site's source (templates, styles etc.)
+Creating a new topic branch is preferred, especially for changes to the site's source (including templates and styles).
+
+	git checkout -b myfix
+
+Make your changes, such as a [new post or page] in [markdown] format.
 
 	rake new_post["Zombie Ninjas Attack"]
-	# Creates source/_posts/2011-07-03-zombie-ninjas-attack.md
+
+	# Edit the new post created by rake
+	nano source/_posts/2011-07-03-zombie-ninjas-attack.md
 
 [new post or page]: http://octopress.org/docs/blogging
 [markdown]: http://daringfireball.net/projects/markdown
-
-
-Edit the new post with your favourite text editor.
-
-	nano source/_posts/2011-07-03-zombie-ninjas-attack.md
 
 
 Generate and preview your changes locally at ``http://localhost:4000``.
@@ -80,6 +81,11 @@ Generate and preview your changes locally at ``http://localhost:4000``.
 	rake preview	# Watches, and mounts a webserver at http://localhost:4000
 
 
-Commit changes to your fork, then submit a pull request to this repo.
+Commit changes, then push them to your fork.
+
+	git commit -am "That fix, for the thing."
+	git push origin myfix
+
+Submit a [pull request] to this repo (use the button shown on your new branch).
 
 Once your changes are accepted, an admin will need to generate the site using ``rake deploy`` before they become live.
