@@ -13,6 +13,11 @@ body > nav { .subscription { display: none; } }
 /* Less padding between nav items */
 body > nav > ul > li { margin-right: .6em; a { padding: 0; } }
 
+/* fix padding for sidebar at narrow width */
+@media only screen and (min-width: 480px) {
+  aside.sidebar { padding: 1.2em $pad-narrow $pad-narrow; }
+}
+
 
 /*
   Code Blocks
