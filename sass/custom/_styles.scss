@@ -18,6 +18,11 @@ body > nav > ul > li { margin-right: .6em; a { padding: 0; } }
   aside.sidebar { padding: 1.2em $pad-narrow $pad-narrow; }
 }
 
+/* Use horizonal layout for collapsed sidebar from 480px */
+@media only screen and (min-width: 480px) {
+  aside.sidebar section { width:50%; float:left; }
+}
+
 
 /*
   Code Blocks
