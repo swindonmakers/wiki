@@ -1,0 +1,7 @@
+/*
+  Layout
+*/
+
+// fix background leaking between light coloured elements when zoomed
+// FIXME: edges of nav, header, and footer elements remain softened
+body { > nav, > footer { margin-bottom: -2px; margin-top: -2px; }}
