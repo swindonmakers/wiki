@@ -34,8 +34,8 @@ blockquote {
 }
 
 // set title link colour and decoration
-.blog-index article h1 a:hover {
-  text-decoration: none;
+article h1 a:hover {
+  text-decoration: none !important;
   color: lighten($title-color, 15) !important;
 }
 
