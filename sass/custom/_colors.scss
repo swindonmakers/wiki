@@ -3,11 +3,12 @@
 */
 
 // main background colours
+$page-bg:         #252525;
+//$header-bg:     #f8f8f8;
 $header-bg:       #ffffff;
 $sidebar-bg:      $header-bg;
 $main-bg:         $header-bg;
 $nav-bg:          $header-bg;
-//$page-bg:       #555555;
 
 // remove gradient
 $nav-bg-front:    $nav-bg;
