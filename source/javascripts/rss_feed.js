@@ -22,7 +22,7 @@ function rss_feed_Linkroll() {
   }
   this.show_bmarks = function() {
     var lines = [];
-    var count = (this.items.length > 5) ? 5 : this.items.length;
+    var count = (this.items.length > rss_item_count) ? rss_item_count : this.items.length;
     for (var i = 0; i < count; i++) {
       var item = this.items[i];
       var str = this.format_item(item);

@@ -65,6 +65,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, custom/asides/rss
 
 # RSS Feed
 rss_feed_title: "Google Group"
+rss_item_count: 5
 rss_feed_title_url: http://groups.google.com/group/swindon-hackspace
 rss_feed_url: http://groups.google.com/group/swindon-hackspace/feed/rss_v2_0_topics.xml
 rss_feed_include_link_to_feed: false
