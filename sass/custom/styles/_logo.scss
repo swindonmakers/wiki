@@ -17,11 +17,16 @@ body:after {
     background-repeat:no-repeat;
     top:0.5em;
 
+    // Default to not showing the logo
+    display: none;
+
     @media only screen and (min-width: 320px) {
       right:$pad-min;
       height: 80px;
       width: 80px;
       background-size:80px 80px;
+
+      display: block;   // Enable showing the logo
     }
     @media only screen and (min-width: 400px) {
       right:$pad-narrow;
