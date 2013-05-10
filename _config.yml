@@ -82,6 +82,7 @@ github_skip_sites: true
 twitter_user: snhack
 twitter_tweet_count: 5
 twitter_show_replies: false
+twitter_show_retweets: true
 twitter_follow_button: true
 twitter_show_follower_count: false
 twitter_tweet_button: true
