@@ -9,6 +9,13 @@ author: Swindon Hackspace
 simple_search: http://google.com/search
 description:
 
+# License Info
+license_text: CC BY-NC-SA
+license_link: http://git.io/snhack-license
+# license_link: http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en
+# license_button: http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png
+# license_button: http://mirrors.creativecommons.org/presskit/icons/cc.large.png
+
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
 # http://www.ruby-doc.org/core-1.9.2/Time.html#method-i-strftime

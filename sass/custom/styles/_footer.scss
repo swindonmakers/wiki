@@ -16,9 +16,27 @@ body > footer {
   a {
     color: $text-color-light !important;
     text-decoration: inherit;
-    &:hover { color: $link-color-hover !important; }
+    &:hover { color: $nav-color-hover !important; }
   }
 }
 div#main {
   border-bottom: 0px solid darken($sidebar-bg, 15);
+}
+
+
+/*
+  Display footer elements split down or across the page
+*/
+body > footer {
+  // arrange divs in 2x2 grid
+  #copyright, #siteauthor   { float: left; clear: both; }
+  #license, #footer         { float: right; clear: right; }
+
+  // style for optional button image
+  #license img { border-width:0; padding-bottom: 4px; vertical-align: middle; }
+
+  // arrange on same line, 3 on left + 1 on right
+  @media only screen and (min-width: 630px) {
+    #license, #siteauthor { padding-left: 0.5em; float: left; clear: right; }
+  }
 }

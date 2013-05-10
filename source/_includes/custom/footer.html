@@ -1,4 +1,21 @@
-<p>
-  Copyright &copy; {{ site.time | date: "%Y" }} - {{ site.author }} -
+<div id="copyright">
+  Copyright &copy; 2012 - {{ site.time | date: "%Y" }}
+</div>
+
+{% if site.license_text or site.license_button %}
+<div id="license">
+  <a rel="license" href="{{ site.license_link }}">
+  {% if site.license_button %}
+    <img alt="{{ site.license_text }}" src="{{ site.license_button }}" />
+  {% else %}
+    <span id="license_text">{{ site.license_text }}</span>
+  {% endif %}
+  </a>
+</div>
+{% endif %}
+
+<div id="siteauthor">{{ site.author }}</div>
+
+<div id="footer">
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
-</p>
+</div>
