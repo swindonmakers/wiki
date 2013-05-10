@@ -70,6 +70,7 @@ rss_feed_title_url: http://groups.google.com/group/swindon-hackspace
 rss_feed_url: http://groups.google.com/group/swindon-hackspace/feed/rss_v2_0_topics.xml
 rss_feed_include_link_to_feed: false
 rss_feed_link_title: "Google Feed"
+rss_title_length: 30
 
 # Github repositories
 github_user: snhack
