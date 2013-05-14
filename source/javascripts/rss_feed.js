@@ -35,7 +35,6 @@ function rss_feed_Linkroll() {
   }
 
   this.format_item = function(it) {
-    console.log(it);
     if (it.title.length > rss_title_length) {
       it.title = it.title.substr(0, rss_title_length - 3);
       it.title = it.title.substr(0, Math.min(it.title.length, it.title.lastIndexOf(" "))) + ' ..'
