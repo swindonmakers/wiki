@@ -11,19 +11,28 @@ body > header h1 { width: 70%; }
 // mixin for setting size/position of logo at different widths
 @mixin size-logo($browser-width, $logo-size, $logo-pad) {
   @media only screen and (min-width: $browser-width) {
-    right:                $logo-pad;
+    // set image display size
     height:               $logo-size;
     width:                $logo-size;
     background-size:      $logo-size $logo-size;
-    display: block;       // Enable showing the logo
+
+    // fudge factor to adjust for image border
+    $adjusted-pad:        $logo-pad - 10;
+
+    // set distance from right
+    right:                $adjusted-pad;
+
+    // Enable showing the logo
+    display: block;
   }
 }
 
 // add logo as background image
-body:after {
+body > header h1:before {
     content:"";
     position:absolute;
     overflow: visible;
+    z-index: 1;
 
     // Use multiple background support to display SVG
     //  Uses standard PNG background as a fallback
@@ -32,7 +41,7 @@ body:after {
     background-image: url('/images/hackspace_logo.svg'), none;
 
     background-repeat:no-repeat;
-    top:0.5em;
+    top:0.15em;
 
     // Default to not showing the logo
     display: none;
