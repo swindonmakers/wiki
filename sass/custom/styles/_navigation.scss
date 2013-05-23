@@ -3,7 +3,7 @@
 */
 
 // remove borders between navigation links
-body > nav li + li { border-left: 0px; a { border-left: 0px; } }
+body > nav > ul li + li { border-left: 0px; a { border-left: 0px; } }
 
 // hide subscription links
 body > nav { .subscription { display: none; } }
