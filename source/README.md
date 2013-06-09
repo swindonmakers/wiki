@@ -13,11 +13,11 @@ This site is built with [octopress] and requires a ruby installation to render t
 
 ### Super minimal way to add a post
 
-If you're submitting a post or edit that uses only standard markdown, you can skip installing octopress and just provide the source.
+> If you're submitting a standard text or markdown post, you can follow this section to add your text using the github site.
 
 Browse to the [source/_posts] folder within the source branch of this repo.
 
-[source/_posts]: source/_posts
+[source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
 
 Use github's web interface to [create a new file], [naming it] according to the pattern: ``YYYY-MM-DD-url-safe-title.md``.
 
@@ -37,7 +37,10 @@ Commit the new file.  Github will automatically prompt you to submit a pull requ
 
 
 
-### Build Locally
+### Install and Build Locally
+
+> This section explains how to install the entire site and related tools to your local machine.
+> To simply submit a post, commit a standard text/markdown file as explained above.
 
 When using the extensions provided by octopress or jekyll, or making changes to the site, you should install octopress so you can preview your content before submission.
 
@@ -58,7 +61,9 @@ If you have any problems, see the [octopress documentation] for more info on ins
 
 
 
-### Adding Content
+### Adding Content or Changes
+
+> Regular users of git can submit content or changes to the site using the standard pull request workflow as shown below.
 
 Creating a new topic branch is preferred, especially for changes to the site's source (including templates and styles).
 
