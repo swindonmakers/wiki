@@ -4,7 +4,7 @@ layout: post
 title: "Example Post"
 date: 2012-11-06 20:06
 author: Git User
-categories: [demo, markdown]
+categories: [projects, demo, markdown]
 
 ---
 
@@ -21,6 +21,13 @@ Content below a `<!-- more -->` comment tag will not be shown on the main index 
 ## This is a H2 heading
 
 > And this is a block quote
+
+- This is
+- an unordered list
+    1. with an ordered
+    2. list embedded
+- done
+
 
 You can also use [reference style links][twttr] to keep things tidy.
 
