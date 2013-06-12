@@ -22,6 +22,13 @@ Content below a `<!-- more -->` comment tag will not be shown on the main index 
 
 > And this is a block quote
 
+- This is
+- an unordered list
+    1. with an ordered
+    2. list embedded
+- done
+
+
 You can also use [reference style links][twttr] to keep things tidy.
 
 [twttr]: http://twitter.com
