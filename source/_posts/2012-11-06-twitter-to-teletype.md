@@ -4,7 +4,7 @@ layout: post
 title: "Twitter To Teletype"
 date: 2012-11-06 20:06
 author: RobertCL
-categories: [tty, pi]
+categories: [project, tty, pi]
 
 ---
 
