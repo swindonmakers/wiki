@@ -18,6 +18,7 @@ We met at the [Museum of Computing](http://www.museum-of-computing.org.uk/ "http
 When we arrived at the pub, it was surprisingly busy, with all the tables seemingly taken. However we soon flexed our substantial muscles and hacked together a collection of smaller seats, stools, loungers to make some sort of makeshift eating area.
 
 **Our simple pub review:**
+
 >"Beer was great, prices were very cheap, food was 'fine', bartender girl was the most miserable ever, waitress however was nice and chatty."
 
 Those lucky attendees who turned up were rewarded with a hot off the printbed Swindon Hackspace multi-coloured poker chip, worth 1 Gigillion credits, accepted in no respectable establishments worldwide. Even the waitress was curious as to what it was, "a badge of shame" she was told, only surpassed by McDonald's zero stars:-
