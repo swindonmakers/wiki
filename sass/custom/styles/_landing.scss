@@ -1,0 +1,15 @@
+/*
+  Landing Page
+*/
+
+// pad headerimage at lower widths
+@media only screen and (max-width: 768px) {
+  img.headerimage { margin-top: 0.8em; }
+}
+
+// style blockquote
+blockquote.intro {
+  line-height: 2em;
+  margin-top: 1em;
+}
+
