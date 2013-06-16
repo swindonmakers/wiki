@@ -78,3 +78,19 @@ a[rel~="reference"] {
   font-size: smaller;
 }
 
+// style for kramdown toc
+#markdown-toc {
+  font-size: 0.8em;
+  line-height: 1.5em;
+  a { text-decoration: none; }
+}
+
+// style for h3 with id of 'contents'
+h3#contents {
+  margin-bottom: 0.5em;
+}
+
+// enable underline class
+.underline {
+  text-decoration: underline;
+}
