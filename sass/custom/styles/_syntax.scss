@@ -2,6 +2,9 @@
   Code Blocks
 */
 
+/* Increase size of code text */
+pre { font-size: 0.75em !important; }
+
 // don't show line-numbers in code blocks
 div.highlight {
   td.gutter { display: none; }
