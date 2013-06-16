@@ -33,10 +33,9 @@ blockquote {
   font-size: 1em !important;
 }
 
-// set title link colour and decoration
+// set title link decoration
 article h1 a:hover {
   text-decoration: none !important;
-  color: lighten($title-color, 15) !important;
 }
 
 // do not transition link colours
