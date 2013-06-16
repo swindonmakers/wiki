@@ -35,6 +35,11 @@ plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
 category_feeds: true
+rdiscount:
+  extensions:
+    - autolink
+    - footnotes
+    - smart
 pygments: false # default python pygments have been replaced by pygments.rb
 
 # Enable kramdown for footnote support
