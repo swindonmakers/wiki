@@ -2,6 +2,9 @@
   Sidebar
 */
 
+// Normal font-weight for header
+aside.sidebar section h1 { font-weight: normal; }
+
 // hide sidebar border top
 aside.sidebar { border-top: none; }
 
