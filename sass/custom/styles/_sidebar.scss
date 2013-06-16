@@ -19,7 +19,7 @@ aside.sidebar {
   li {
     border-bottom: 0px;
     @include box-shadow(lighten($sidebar-bg, 5) 0 0px);
-    padding-bottom: 0em !important;
+    padding-bottom: 0.3em !important;
   }
 }
 
