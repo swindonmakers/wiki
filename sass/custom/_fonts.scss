@@ -1,15 +1,24 @@
-// import fonts
+// Import google web fonts
 @import url(http://fonts.googleapis.com/css?family=Open+Sans);
 
-// set fonts
+// Set default fonts for sans and serif
 $sans: 'Open Sans', sans-serif;
-$serif: 'Open Sans', sans-serif;
-$heading-font-family: 'Open Sans', $sans;
+$serif: $sans;
+
+// Font to use for headings
+$heading-font-family: $sans;
 $header-title-font-family: $sans;
 $header-subtitle-font-family: $sans;
 
 // set header title size
 $header-font-size: 1.1em;
+
+// default font weights
+// .sans     { font-weight: 300; }
+// .serif    { font-weight: 300; }
+
+// Font to use for monospaced text
+// $mono: 'Source Code Pro', Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
 
 // -------
 
