@@ -41,3 +41,40 @@ article h1 a:hover {
 
 // do not transition link colours
 a { @include transition(background-color false !important); }
+
+
+/*
+  Special Text
+*/
+
+// superscript footnote text
+sup[id^=fnref] {
+  // super is the expected setting
+  vertical-align: middle;
+  // the default seems to be 'smaller'
+  font-size: 0.75em;
+}
+
+// footnote links
+a[rel~="footnote"] {
+  // don't underline footnote links
+  text-decoration: none;
+}
+
+// footnote return links
+a[rel~="reference"] {
+  font-size: smaller;
+  // don't underline footnote links
+  text-decoration: none;
+  // add padding before link
+  padding-left: 0.3em;
+}
+
+// style for footnotes
+.footnotes {
+  border-top: 1px solid darken($sidebar-border, 4);
+  margin-top: 45px;
+  padding-top: 15px;
+  font-size: smaller;
+}
+
