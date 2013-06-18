@@ -2,14 +2,17 @@
   Theme changes for lighter background/text
 */
 
+$basecolor:    #f70;
+$hi-lights: desaturate($basecolor, 10);
+$page-back: scale-color($basecolor, $lightness:  96%);
+
 // header title colours
-$title-color: #555555;
+$title-color: #555;
 //$subtitle-color: #aaa;
 
 // main background colours
 $page-bg:         #252525;
-//$header-bg:     #f8f8f8;
-$header-bg:       #ffffff;
+$header-bg:       $page-back;
 $sidebar-bg:      $header-bg;
 $main-bg:         $header-bg;
 $nav-bg:          $header-bg;
@@ -23,7 +26,7 @@ $text-color: #555555;
 $sidebar-color: $text-color;
 
 // set colour of visited links
-$link-color: lighten(#1863A1, 3);
+$link-color: $hi-lights;
 $link-color-visited: $link-color;
 $link-color-hover: $link-color;
 
@@ -41,8 +44,8 @@ $nav-bg-front:    $nav-bg;
 $nav-bg-back:     $nav-bg;
 
 // navigation link colour
-$nav-color: darken($nav-bg, 50);
-$nav-color-hover: $nav-color;
+$nav-color:  $title-color;
+$nav-color-hover: $hi-lights;
 
 
 // navigation borders
