@@ -2,11 +2,14 @@
   Sidebar
 */
 
-/* set sidebar h1 titles */
+// set sidebar h1 titles
 aside.sidebar section h1 {
   font-size: 1.4em;
   font-weight: normal;
 }
+
+// match main background colour when collapsed
+.collapse-sidebar aside.sidebar { background-color: $main-bg !important; }
 
 // hide border top (using background colour to avoid issues)
 aside.sidebar { border-top: 2px solid $sidebar-bg; }
