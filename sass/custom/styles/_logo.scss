@@ -6,50 +6,40 @@
 body > header h1 { vertical-align: middle !important; }
 
 // leave space for image
-body > header h1 { width: 70%; }
+body > header h1 { width: 75%; }
 
-// mixin for setting size/position of logo at different widths
-@mixin size-logo($browser-width, $logo-size, $logo-pad) {
-  @media only screen and (min-width: $browser-width) {
+// position logo relative to hgroup
+body > header > hgroup { position: relative; }
+
+// add logo as background image
+body > header hgroup:before {
     // set image display size
+    $logo-size:                  5em;
     height:               $logo-size;
     width:                $logo-size;
     background-size:      $logo-size $logo-size;
 
-    // fudge factor to adjust for image border
-    $adjusted-pad:        $logo-pad - 10;
-
-    // set distance from right
-    right:                $adjusted-pad;
-
-    // Enable showing the logo
-    display: block;
-  }
-}
-
-// add logo as background image
-body > header h1:before {
-    content:"";
-    position:absolute;
-    overflow: visible;
-    z-index: 1;
+    content:        "";
+    position: absolute;
+    overflow:  visible;
+    z-index:         1;
+    display:      none;   // enable logo by browser width
 
     // Use multiple background support to display SVG
     //  Uses standard PNG background as a fallback
     //  http://css-tricks.com/using-svg/
-    background: url('/images/hackspace_logo.png');
+    background:       url('/images/hackspace_logo.png');
     background-image: url('/images/hackspace_logo.svg'), none;
 
     background-repeat:no-repeat;
-    top:0.15em;
 
-    // Default to not showing the logo
-    display: none;
+    // Position from top right, relative to hgrounp
+    top:                       0.1em;
+    right:                    -0.4em;
 
-    // Logo sizes at various widths
-    @include size-logo(320px,  80px, $pad-min);
-    @include size-logo(400px, 100px, $pad-narrow);
-    @include size-logo(768px, 120px, $pad-medium);
-    @include size-logo(992px, 150px, $pad-wide);
+    // Remove padding at lower widths (when header title wraps)
+    @media only screen and (min-width: 768px) { top: -0.1em; }
+
+    // Only show the logo with browser width >= 320px
+    @media only screen and (min-width: 320px) { display: block; }
 }
-
