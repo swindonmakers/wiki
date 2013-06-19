@@ -8,8 +8,14 @@ aside.sidebar section h1 {
   font-weight: normal;
 }
 
-// match main background colour when collapsed
-.collapse-sidebar aside.sidebar { background-color: $main-bg !important; }
+// style for sidebar at footer
+.collapse-sidebar aside.sidebar {
+  // match main background colour when collapsed
+  background-color: $main-bg !important;
+  // centre align text (so sections distribute evenly)
+  // TODO: align left, with better distribution
+  text-align: center;
+}
 
 // hide border top (using background colour to avoid issues)
 aside.sidebar { border-top: 2px solid $sidebar-bg; }
