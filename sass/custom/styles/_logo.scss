@@ -13,12 +13,6 @@ body > header > hgroup { position: relative; }
 
 // add logo as background image
 body > header hgroup:before {
-    // set image display size
-    $logo-size:                  5em;
-    height:               $logo-size;
-    width:                $logo-size;
-    background-size:      $logo-size $logo-size;
-
     content:        "";
     position: absolute;
     overflow:  visible;
@@ -30,8 +24,13 @@ body > header hgroup:before {
     //  http://css-tricks.com/using-svg/
     background:       url('/images/hackspace_logo.png');
     // background-image: url('/images/hackspace_logo.svg'), none;
-
     background-repeat:no-repeat;
+
+    // set image display size
+    $logo-size:                  5em;
+    height:               $logo-size;
+    width:                $logo-size;
+    background-size:      $logo-size $logo-size;
 
     // Position from top right, relative to hgrounp
     top:                       0.1em;
