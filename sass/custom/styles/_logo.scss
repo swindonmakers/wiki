@@ -29,7 +29,7 @@ body > header hgroup:before {
     //  Uses standard PNG background as a fallback
     //  http://css-tricks.com/using-svg/
     background:       url('/images/hackspace_logo.png');
-    background-image: url('/images/hackspace_logo.svg'), none;
+    // background-image: url('/images/hackspace_logo.svg'), none;
 
     background-repeat:no-repeat;
 
