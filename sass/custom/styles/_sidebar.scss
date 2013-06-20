@@ -48,12 +48,19 @@ aside.sidebar {
 /*
   Improvements for smaller browser widths
 */
-@media only screen and (min-width: 480px) and (max-width: 750px) {
+@media only screen and (max-width: 750px) {
   // Set sidebar padding to match rest of page
-  aside.sidebar { padding: 1.2em $pad-narrow; }
+  aside.sidebar {
+    padding: 1.2em $pad-narrow;
 
-  // Use horizonal layout for sidebar at footer
-  aside.sidebar section { width:50%; float:left; }
+    // match main background colour when collapsed
+    background-color: $main-bg !important;
+
+    // Use horizonal layout for sidebar at footer
+    @media only screen and (min-width: 480px) {
+      & section { width:50%; float:left; }
+    }
+  }
 }
 
 
