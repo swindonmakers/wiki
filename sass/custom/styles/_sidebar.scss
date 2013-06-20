@@ -8,16 +8,24 @@ aside.sidebar section h1 {
   font-weight: normal;
 }
 
-// style for sidebar at footer
-.collapse-sidebar aside.sidebar {
+// mixin style for sidebar at footer
+@mixin footersidebar {
   // match main background colour when collapsed
   background-color: $main-bg !important;
+  // hide border top (using background colour to avoid issues)
+  border-top: 1px solid $main-bg !important;
   // centre align text (so sections distribute evenly)
   // TODO: align left, with better distribution
   text-align: center;
 }
 
-// hide border top (using background colour to avoid issues)
+// use footersidebar style when manually collapsed, or for smaller width
+aside.sidebar {
+  .collapse-sidebar & { @include footersidebar; }
+  @media only screen and (max-width: 768px) { @include footersidebar; }
+}
+
+// hide standard border top (using background colour to avoid issues)
 aside.sidebar { border-top: 2px solid $sidebar-bg; }
 
 // sidebar elements
@@ -52,9 +60,6 @@ aside.sidebar {
   // Set sidebar padding to match rest of page
   aside.sidebar {
     padding: 1.2em $pad-narrow;
-
-    // match main background colour when collapsed
-    background-color: $main-bg !important;
 
     // Use horizonal layout for sidebar at footer
     @media only screen and (min-width: 480px) {
