@@ -1,6 +1,6 @@
 ---
 layout: default
-sidebar: collapse
+sidebar: false
 ---
 
 <div>
@@ -8,26 +8,35 @@ sidebar: collapse
 
   <article role="article">
 
-    <blockquote class="intro">
-        <p>The hackspace meets from 6.30pm each Wednesday</p>
+    <div class="intro">
+      <h3 class="non-title">The hackspace meets from 6.30pm each Wednesday</h3>
 
-        <a href="/join">Join the Hackspace</a><br/>
+      <p><a href="/join">Join the Hackspace</a></p>
+      <p><a href="/about">About Swindon Hackspace</a></p>
 
-        <a href="/about">About Swindon Hackspace</a>
-    </blockquote>
-
-    <div>
-      <p class="recentposts">
-        {% for post in site.posts limit: 0 %}
-            <a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a><br/>
-        {% endfor %}
+      <p class='introlinks'>
+        <a href="{{ root_url }}/blog">Blog</a> -
+        <a href="https://github.com/{{site.github_user}}">GitHub</a> -
+        <a href="{{ site.rss_feed_title_url }}">Group</a> -
+        <a href="http://twitter.com/{{site.twitter_user}}">Twitter</a>
       </p>
+
+    </div>
+
+    <div class="recentposts">
+      <h3>Latest Posts</h3>
+
+      {% for post in site.posts limit: 2 %}
+        <p class>
+
+          <a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a><br/>
+
+          <span class='summary'>{% if post.summary %}{{ post.summary }}{% else %}{{ post.content | summary }}{% endif %}<br/></span>
+
+        </p>
+      {% endfor %}
     </div>
 
   </article>
 
 </div>
-
-<aside class="sidebar">
-    {% include_array default_asides %}
-</aside>

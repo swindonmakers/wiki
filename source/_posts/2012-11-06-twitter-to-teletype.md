@@ -2,6 +2,7 @@
 
 layout: post
 title: "Twitter To Teletype"
+summary: Getting a museum piece to print tweets
 date: 2012-11-06 20:06
 author: RobertCL
 categories: [projects, tty, pi]
