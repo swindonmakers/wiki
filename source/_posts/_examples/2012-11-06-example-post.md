@@ -1,7 +1,7 @@
 ---
 
 layout: post
-title: "Example Post"
+title: Example Post
 date: 2012-11-06 20:06
 author: Git User
 categories: [projects, demo, markdown]

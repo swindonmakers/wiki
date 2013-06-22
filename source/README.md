@@ -22,7 +22,7 @@ according to the pattern: `YYYY-MM-DD-url-safe-title.md`.
 [new file]: https://github.com/blog/1327-creating-files-on-github
 [naming it]: https://github.com/blog/1436-moving-and-renaming-files-on-github
 
-Enter basic [post metadata], followed by your content as plain text or [markdown].
+Enter basic post metadata, followed by your content as plain text or [markdown].
 See [this example post] for a template.
 
 [this example post]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-11-06-example-post.md
@@ -31,7 +31,7 @@ See [this example post] for a template.
 Use the `Propose New File` button to commit the post to a new branch in your fork and
 start a pull request.
 
-Ensure the base branch is set to this repo's `source` branch.  Check the `Files Changed` tab, then hit `Send pull request`.
+Ensure the base branch is set to this repo's `source` branch.  Check the `Files Changed` tab, and then hit `Send pull request`.
 
 [post metadata]: http://octopress.org/docs/blogging
 [markdown basics]: http://daringfireball.net/projects/markdown/basics
