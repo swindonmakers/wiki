@@ -8,7 +8,7 @@ categories: [meetups]
 
 ---
 
-![Sir Daniel Arms](/blog/images/2013-06-13/Sir Daniel Arms.jpg){:.right}
+![Sir Daniel Arms]({{ page.url }}Sir Daniel Arms.jpg){:.right}
 
 On June 5th we celebrated our 1st year anniversary. Rather than attend a usual meet we decided to relocate the Hackspace to the more informal surroundings of the [Sir Daniel Arms](http://swindonhistory.blogspot.co.uk/2011/12/sir-daniel-arms.html "http://swindonhistory.blogspot.co.uk/2011/12/sir-daniel-arms.html") for a bite to eat and some drinks:
 
@@ -23,7 +23,7 @@ When we arrived at the pub, it was surprisingly busy, with all the tables seemin
 
 Those lucky attendees who turned up were rewarded with a hot off the printbed Swindon Hackspace multi-coloured poker chip, worth 1 Gigillion credits, accepted in no respectable establishments worldwide. Even the waitress was curious as to what it was, "a badge of shame" she was told, only surpassed by McDonald's zero stars:-
 
-![Sneak preview of the new Swindon Hackspace Logo](/blog/images/2013-06-13/3D Prints.jpg){:.center}
+![Sneak preview of the new Swindon Hackspace Logo]({{ page.url }}3D Prints.jpg){:.center}
 
 Tony showed a collection of prints from his new Replicator 3D printer. Looking forward to seeing some more.
 
