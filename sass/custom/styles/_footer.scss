@@ -15,7 +15,7 @@ body > footer {
   a {
     color: $text-color-light !important;
     text-decoration: inherit;
-    &:hover { color: darken($text-color-light, 15); }
+    &:hover { color: $link-color-hover !important; }
   }
 }
 div#main {

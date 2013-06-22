@@ -3,7 +3,7 @@ layout: default
 sidebar: false
 ---
 
-<div>
+<div id="landing">
   <img class="headerimage" src="/images/site_pano.jpg" alt="Header Image" width=100% class="center">
 
   <article role="article">
@@ -24,7 +24,7 @@ sidebar: false
     </div>
 
     <div class="recentposts">
-      <h3>Latest Posts</h3>
+      <h3><a href="{{ root_url }}/blog/">Latest Posts</a></h3>
 
       {% for post in site.posts limit: 2 %}
         <p class>

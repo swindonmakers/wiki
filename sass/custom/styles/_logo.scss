@@ -11,6 +11,18 @@ body > header h1 { width: 75%; }
 // position logo relative to hgroup
 body > header > hgroup { position: relative; }
 
+// set image display size and position
+@mixin logosize($size, $top, $right) {
+  $size:                      $size;
+  height:                     $size;
+  width:                      $size;
+  background-size:      $size $size;
+
+  // Position relative to hgroup
+  top:                         $top;
+  right:                     $right;
+}
+
 // add logo as background image
 body > header hgroup:before {
     content:        "";
@@ -26,18 +38,13 @@ body > header hgroup:before {
     // background-image: url('/images/hackspace_logo.svg'), none;
     background-repeat:no-repeat;
 
-    // set image display size
-    $logo-size:                  5em;
-    height:               $logo-size;
-    width:                $logo-size;
-    background-size:      $logo-size $logo-size;
+    // set image display size and position
+    @include logosize(5em, 0.2em, -0.4em);
 
-    // Position from top right, relative to hgrounp
-    top:                       0.1em;
-    right:                    -0.4em;
-
-    // Remove padding at lower widths (when header title wraps)
-    @media only screen and (min-width: 768px) { top: -0.1em; }
+    // Adjust logo padding/size at larger widths (when header title isn't wrapped)
+    @media only screen and (min-width: 533px) {
+      @include logosize(4.5em, -0.1em, -0.4em);
+    }
 
     // Only show the logo with browser width >= 320px
     @media only screen and (min-width: 320px) { display: block; }
