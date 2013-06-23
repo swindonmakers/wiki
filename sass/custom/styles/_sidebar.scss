@@ -17,9 +17,6 @@ aside.sidebar section {
   background-color: $main-bg !important;
   // hide border top (using background colour to avoid issues)
   border-top: 1px solid $main-bg !important;
-  // centre align text (so sections distribute evenly)
-  // TODO: align left, with better distribution
-  text-align: center;
 }
 
 // use footersidebar style when manually collapsed, or for smaller width
@@ -59,15 +56,13 @@ aside.sidebar {
 /*
   Improvements for smaller browser widths
 */
-@media only screen and (max-width: 750px) {
+@media only screen and (min-width: 480px) and (max-width: 750px) {
   // Set sidebar padding to match rest of page
   aside.sidebar {
     padding: 1.2em $pad-narrow;
 
     // Use horizonal layout for sidebar at footer
-    @media only screen and (min-width: 480px) {
-      & section { width:50%; float:left; }
-    }
+    & section { width:50%; float:left; }
   }
 }
 
