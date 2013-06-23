@@ -1,0 +1,27 @@
+<section>
+
+{% if site.rss_feed_url %}
+  {% if site.rss_feed_title_url %}
+  <h1><a href="{{ site.rss_feed_title_url }}">{{ site.rss_feed_title }}</a></h1>
+  {% else %}
+  <h1>{{ site.rss_feed_title }}</h1>
+  {% endif %}
+  {% if site.rss_feed_include_link_to_feed %}
+  <p><a href="{{ site.rss_feed_url }}">{{ site.rss_feed_link_title }} &raquo;</a></p>
+  {% endif %}
+{% endif %}
+
+{% if site.twitter_user %}
+  <h1><a href="https://twitter.com/intent/user?screen_name={{site.twitter_user}}">Twitter</a></h1>
+{% endif %}
+
+{% if site.subscribe_show_in_sidebar %}
+  {% if site.subscribe_rss %}
+    <h1><a data-subscription="rss{% if site.subscribe_email %} email{% endif %}" href="{{ site.subscribe_rss }}" rel="sidebar-subscribe-rss" title="subscribe via RSS">Feed</a></h1>
+  {% endif %}
+  {% if site.subscribe_email %}
+    <h1><a href="{{ site.subscribe_email }}" rel="subscribe-email" title="subscribe via email">Email</a></h1>
+  {% endif %}
+{% endif %}
+
+</section>

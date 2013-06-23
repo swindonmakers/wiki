@@ -20,3 +20,6 @@
 #tweets, #tweets > li {
   padding-bottom: 0.5em !important;
 }
+
+// don't show loading status (fail gracefully)
+aside > section .loading { display: none; }
