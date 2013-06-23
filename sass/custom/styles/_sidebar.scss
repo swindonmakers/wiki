@@ -2,10 +2,13 @@
   Sidebar
 */
 
-// set sidebar h1 titles
-aside.sidebar section h1 {
-  font-size: 1.4em;
-  font-weight: normal;
+// set font size for titles and items
+aside.sidebar section {
+  h1 {
+    font-size: 1.4em;
+    font-weight: normal;
+  }
+  ul { font-size: 1.1em; }
 }
 
 // mixin style for sidebar at footer
