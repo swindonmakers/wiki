@@ -13,3 +13,9 @@ article[role=article] {
   padding-top: 0.5em;
 }
 
+// Don't float post text around images at smaller browser widths
+.entry-content .basic-alignment {
+  @media only screen and (max-width: 959px) {
+    &.right, &.left { float: none; display:block; margin: 0 auto 1.5em; }
+  }
+}
