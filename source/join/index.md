@@ -4,7 +4,7 @@ layout: page
 comments: false
 sharing: false
 footer: false
-sidebar: false
+sidebar: true
 
 ---
 
