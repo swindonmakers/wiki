@@ -1,14 +1,6 @@
 /*
-  Page and post metadata
+  Posts, Pages and Index
 */
-
-// hide date, padding and dotted underline
-article > header {
-  padding-top: 0em !important;
-  padding-bottom: 0em !important;
-  background: none;
-  .meta time { display: none; }
-}
 
 // make article padding consistent
 .blog-index > article { padding-top: 1em !important; }
