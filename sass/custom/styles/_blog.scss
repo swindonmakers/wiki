@@ -2,15 +2,21 @@
   Page and post metadata
 */
 
-// make article headers consistent and hide date
+// hide date, padding and dotted underline
 article > header {
-  padding-top: 0.5em;
-  padding-bottom: 0em;
+  padding-top: 0em !important;
+  padding-bottom: 0em !important;
   background: none;
   .meta time { display: none; }
 }
-article[role=article] {
-  padding-top: 0.5em;
+
+// make article padding consistent
+.blog-index > article { padding-top: 1em !important; }
+#content > div { padding: { top: 0.5em !important; bottom: 0em !important; }}
+
+// article padding on desktop browsers
+@media only screen and (min-width: 960px) {
+  #content > div { padding-top: 1.5em !important; }
 }
 
 // Don't float post text around images at smaller browser widths
