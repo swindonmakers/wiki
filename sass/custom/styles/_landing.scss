@@ -2,8 +2,11 @@
   Landing Page
 */
 
-// padding before image
-div#landing { padding-top: 0.6em; }
+// padding before image, after text
+div#landing {
+  padding-top: 0.6em !important;
+  padding-bottom: 1.5em !important;
+}
 
 // common styles for landing page text
 .intro, .recentposts {
@@ -19,34 +22,36 @@ div#landing { padding-top: 0.6em; }
 }
 
 // set intro header to size of p (matches metrics of recentposts)
-h3 {
-  &.non-title {
-    font-size: 0.92em !important;
-    margin-bottom: 0.5em;
-  }
-  a {
-    color: inherit !important;
-    text-decoration: inherit;
-    &:hover { color: $link-color-hover !important; }
-  }
+h3.non-title {
+  font-size: 0.92em !important;
+  margin-bottom: 0.5em;
+}
+.recentposts > h3 > a {
+  color: inherit !important;
+  text-decoration: inherit;
+  &:hover { color: $link-color-hover !important; }
 }
 
 // padding before links
 .introlinks { padding-top: 0.9em; }
 
-// padding before recentposts
-.recentposts { padding-top: 1em; }
+// remove padding from unused article
+article#landing-info { padding-top: 0em !important; }
+
+// margin after image
+.intro { margin-top: 0.5em; }
+
+// margin between intro and recent
+.recentposts { margin-top: 1.5em; }
 
 // styles for larger browser widths
 @media only screen and (min-width: 768px) {
 
   // padding before image
-  div#landing { padding-top: 1.0em; }
+  div#landing { padding-top: 1em !important; }
 
   // margin after image
-  .intro, .recentposts {
-    margin-top: 0.5em;
-  }
+  .intro, .recentposts { margin-top: 1em; }
 
   // float intro and recentposts across the page
   .intro {
