@@ -1,5 +1,4 @@
-snhack.github.com
-=================
+## snhack.github.com
 
 __Note:  master branch is overwritten during compilation.__
 
@@ -39,7 +38,7 @@ Check the `Files Changed` tab, then hit `Send pull request`.
 [markdown]: http://daringfireball.net/projects/markdown/dingus
 
 
-### Notes on Pull Requests:
+### Notes on Pull Requests
 
 Once you have sent a pull request, an admin will need to build the site locally to
 check it renders acceptably and then deploy your content to the live site.
@@ -57,14 +56,20 @@ For more info on pull requests, please check the [github help] pages.
 [github help]: https://help.github.com/articles/using-pull-requests
 
 
-### Other Notes
+### Uploading Images
 
-There is currently no easy to commit a binary file using the github website.
-However, once you've made a pull request you can attach images to its discussion thread,
-an admin can then manually upload your images into the correct folder.
+The [new file] icon on the github website only supports text files. You can reference
+images hosted elsewhere, but it's sometimes best to upload images to the site itself.
 
-The following markdown example will show an image `MyImageFile.jpg`, that has been
-uploaded to the folder `source/_posts/_images/<your-new-file-name>/`.
+If you're familiar with `git`, you can commit images into a new folder located within
+[source/_posts/_images] and named to match your post: `YYYY-MM-DD-name-of-post`.
+
+[source/_posts/_images]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_images
+
+An easier option is to attach images to the [discussion thread] of your newly created
+pull request, an admin can then commit them into the correct folder.
+
+Use `{{ page.url }}` in your post to automatically reference the correct folder.
 
     ![MyImage]({{ page.url }}/MyImageFile.jpg)
 
