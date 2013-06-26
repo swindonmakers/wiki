@@ -5,7 +5,7 @@ title: "First Year Anniversary Meet Up"
 summary: The hackspace has its first birthday
 date: 2013-06-13 20:06
 author: Steve Wood, AKA Gyrobot
-categories: [meetups]
+categories: [meetings]
 
 ---
 

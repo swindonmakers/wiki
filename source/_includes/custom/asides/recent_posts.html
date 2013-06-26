@@ -2,7 +2,7 @@
   <h1><a href="{{ root_url }}/blog/">Posts</a></h1>
   <ul id="recent_posts">
     {% for post in site.posts limit: site.recent_posts %}
-      {% if post.categories contains 'projects' %}
+      {% if post.categories contains 'projects' or post.categories contains 'meetings' %}
       {% else %}
         <li class="post">
           <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
@@ -14,6 +14,15 @@
   <h1><a href="{{ root_url }}/projects/">Projects</a></h1>
   <ul id="recent_posts">
     {% for post in site.categories['projects'] limit: site.recent_posts %}
+      <li class="post">
+        <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h1><a href="{{ root_url }}/meetings/">Meetings</a></h1>
+  <ul id="recent_posts">
+    {% for post in site.categories['meetings'] limit: site.recent_posts %}
       <li class="post">
         <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
       </li>
