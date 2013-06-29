@@ -24,10 +24,10 @@ according to the pattern: `YYYY-MM-DD-url-safe-title.md`.
 [naming it]: https://github.com/blog/1436-moving-and-renaming-files-on-github
 
 Enter basic post metadata, followed by your content as plain text or [markdown].
-See [this example post] for a template.
+Here's a [template] and some [example posts].
 
-[this example post]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-01-01-example-post.md
-[preview]: https://github.com/snhack/snhack.github.com/blob/source/source/_posts/_examples/2012-01-01-example-post.md
+[template]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-01-01-template.md
+[example posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_examples
 
 Use the `Propose New File` button to commit the post to a new branch in your fork and
 start a [pull request].
