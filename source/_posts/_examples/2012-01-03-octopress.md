@@ -30,7 +30,7 @@ site generator it uses.
 
 Fenced code blocks are [just one way][code] to include code with syntax highlighting:
 
-``` sh Initialise a new git repo http://git-scm.com/docs/git-init git-init
+``` sh
 $ cd my-project
 $ git init
 Initialized empty Git repository in my-project/.git/
