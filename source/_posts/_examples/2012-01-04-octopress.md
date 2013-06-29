@@ -1,12 +1,12 @@
 ---
 
 layout: post
-title: Octopress Extras
-date: 2012-01-03 18:12
+title: Octopress Plugins
+date: 2012-01-04 18:12
 updated: 2012-06-01 11:52
 author: Git User
 categories: [demo, octopress]
-summary: Extensions provided by Jekyll/Octopress
+summary: Plugins provided by Jekyll/Octopress
 
 ---
 
@@ -20,7 +20,7 @@ If you significantly update your post, you can note this in the metadata by addi
 `updated` tag. The newer date will be displayed with the post.
 
 
-## Octopress extensions
+## Octopress Plugins
 
 Octopress includes it's own [plugins], as well as those provided by [jekyll], the static
 site generator it uses.
@@ -53,9 +53,9 @@ The image tag allows left/right/centre placement and size parameters:
 [Octopress plugins]: http://octopress.org/docs/blogging/plugins/
 
 
-## Custom Extensions
+## Custom Plugins
 
-Extensions that are not standard in octopress, but are used on this site.
+Plugins that are not standard in octopress, but are used on this site.
 
 {% youtube _HGV4Ppnx14 %}
 

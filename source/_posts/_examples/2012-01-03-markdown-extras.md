@@ -2,7 +2,7 @@
 
 layout: post
 title: Markdown Extras
-date: 2012-01-02 15:56
+date: 2012-01-03 15:56
 author: Git User
 categories: [demo, markdown]
 summary: Some non-standard markdown extensions
