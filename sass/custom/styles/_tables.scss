@@ -1,0 +1,25 @@
+/*
+  Add missing table borders etc.
+*/
+
+* + table {
+  border-style     : solid;
+  border-width     : 1px;
+  border-color     : #e7e3e7;
+  margin-bottom    : 1.5em;
+}
+
+* + table th, * + table td {
+  border-style     : solid;
+  border-width     : 1px;
+  border-color     : #e7e3e7;
+  padding-left     : 5px;
+  padding-right    : 5px;
+}
+
+* + table th {
+  border-style     : solid;
+  font-weight      : bold;
+  background-color : #F7F3F7;
+}
+
