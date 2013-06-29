@@ -9,8 +9,8 @@ the [source branch] to master.
 [octopress]: http://octopress.org/docs
 [octopress documentation]: http://octopress.org/docs/setup/
 [source branch]: https://github.com/snhack/snhack.github.com/tree/source
-[fork this repo]: https://github.com/snhack/snhack.github.com/fork_select
-[pull request]: https://github.com/snhack/snhack.github.com/pulls
+[fork this repo]: https://help.github.com/articles/fork-a-repo
+[pull request]: https://help.github.com/articles/using-pull-requests
 
 
 ### Install Site Locally

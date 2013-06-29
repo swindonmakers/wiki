@@ -11,9 +11,11 @@ preview this site locally.
 > Use this workflow when submitting a blog post using standard text or markdown.
 
 Load the [source/_posts] folder and use the [new file] icon above its listing.
-Github will automatically fork this project as required.
+Github will automatically [fork] this project as required.
 
 [source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
+[fork]: https://help.github.com/articles/fork-a-repo
+[pull request]: https://help.github.com/articles/using-pull-requests
 
 Name the new file using your preferred post date and title,
 according to the pattern: `YYYY-MM-DD-url-safe-title.md`.
@@ -28,7 +30,7 @@ See [this example post] for a template.
 [preview]: https://github.com/snhack/snhack.github.com/blob/source/source/_posts/_examples/2012-11-06-example-post.md
 
 Use the `Propose New File` button to commit the post to a new branch in your fork and
-start a pull request.
+start a [pull request].
 
 Ensure the base branch is set to this repo's `source` branch.
 Check the `Files Changed` tab, then hit `Send pull request`.
@@ -40,8 +42,8 @@ Check the `Files Changed` tab, then hit `Send pull request`.
 
 ### Notes on Pull Requests
 
-Once you have sent a pull request, an admin will need to build the site locally to
-check it renders acceptably and then deploy your content to the live site.
+Once you have sent a [pull request] an admin will need to build the site locally, check
+it renders acceptably, and then deploy your content to the live site.
 
 You can view the progress of your pull request in its [discussion thread].
 Notifications will normally be sent by email to those active or mentioned
@@ -50,10 +52,10 @@ in the thread, as well as those watching either the thread or the related repo.
 Additional commits made to the same branch (named with the 'patch' prefix by default)
 will automatically be added to the pull request.
 
-For more info on pull requests, please check the [github help] pages.
+Check the [fork] and [pull request] help pages for more info.
 
 [discussion thread]: https://github.com/snhack/snhack.github.com/issues
-[github help]: https://help.github.com/articles/using-pull-requests
+[github help]: https://help.github.com
 
 
 ### Uploading Images
