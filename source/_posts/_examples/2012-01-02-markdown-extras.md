@@ -28,6 +28,11 @@ Similar to reference style links, are footnote links[^moreinfo].
 
 [^moreinfo]: here is some more info, that will appear at the bottom of the page.
 
+Automatic creation of [header IDs] makes it easy to link to various
+[sections](#common-extensions) within your post.
+
+[header IDs]: http://kramdown.rubyforge.org/converter/html.html#auto-ids
+
 Tables can be created easily, additional formatting such as text alignment
 [can also be used](http://kramdown.rubyforge.org/quickref.html#tables).
 
@@ -43,12 +48,7 @@ Tables can be created easily, additional formatting such as text alignment
 
 [kramdown]: http://kramdown.rubyforge.org/
 
-Automatic creation of [header IDs] makes it easy to link to various
-[sections](#common-extensions) within your post.
-
-[header IDs]: http://kramdown.rubyforge.org/converter/html.html#auto-ids
-
-Kramdown also supports abbreviations, an alternative to footnotes.
+Kramdown supports abbreviations, an alternative to footnotes.
 
 *[abbreviations]: Text appears in a tooltip
 *[footnotes]: Text is listed after the main content
