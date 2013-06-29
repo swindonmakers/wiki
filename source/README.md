@@ -26,8 +26,8 @@ according to the pattern: `YYYY-MM-DD-url-safe-title.md`.
 Enter basic post metadata, followed by your content as plain text or [markdown].
 See [this example post] for a template.
 
-[this example post]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-11-06-example-post.md
-[preview]: https://github.com/snhack/snhack.github.com/blob/source/source/_posts/_examples/2012-11-06-example-post.md
+[this example post]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-01-01-example-post.md
+[preview]: https://github.com/snhack/snhack.github.com/blob/source/source/_posts/_examples/2012-01-01-example-post.md
 
 Use the `Propose New File` button to commit the post to a new branch in your fork and
 start a [pull request].
