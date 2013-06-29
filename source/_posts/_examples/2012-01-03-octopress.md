@@ -1,0 +1,67 @@
+---
+
+layout: post
+title: Octopress Extras
+date: 2012-01-03 18:12
+updated: 2012-06-01 11:52
+author: Git User
+categories: [demo, octopress]
+summary: Extensions provided by Jekyll/Octopress
+
+---
+
+The metadata shown above can have a `title` that differs from that used in the filename.
+This can be useful if you want a shorter link to the post, or you want to change the
+title later (without breaking links that exist elsewhere).
+
+<!-- more -->
+
+If you significantly update your post, you can note this in the metadata by adding the
+`updated` tag. The newer date will be displayed with the post.
+
+
+## Octopress extensions
+
+Octopress includes it's own [plugins], as well as those provided by [jekyll], the static
+site generator it uses.
+
+[plugins]: http://octopress.org/docs/blogging/plugins/
+[jekyll]: http://jekyllrb.com/
+
+Fenced code blocks are [just one way][code] to include code with syntax highlighting:
+
+``` sh Initialise a new git repo http://git-scm.com/docs/git-init git-init
+$ cd my-project
+$ git init
+Initialized empty Git repository in my-project/.git/
+```
+
+[code]: http://octopress.org/docs/blogging/code/
+
+
+## Liquid Tags
+
+[Liquid] is a template engine which parses text and renders output using a selection of
+[filters and tags].
+
+The image tag allows left/right/centre placement and size parameters:
+
+{% img center http://mac.github.com/images/promo-screenshot.png GitHub for Mac %}
+
+[Liquid]: https://github.com/Shopify/liquid/wiki
+[filters and tags]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+[Octopress plugins]: http://octopress.org/docs/blogging/plugins/
+
+
+## Custom Extensions
+
+Extensions that are not standard in octopress, but are used on this site.
+
+{% youtube _HGV4Ppnx14 %}
+
+
+## More Examples
+
+See the [examples] folder for more uses of markdown and octopress syntax.
+
+[examples]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_examples
