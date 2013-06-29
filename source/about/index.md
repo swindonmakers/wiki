@@ -8,6 +8,7 @@ sidebar: true
 
 ---
 
+### About the Hackspace
 
 The Swindon Hackspace formed in June 2012, and started holding [weekly meetings]({{ root_url }}/join) for those interested in making, breaking, and fixing things.  We are a new hackspace, looking to build membership and grow our toolkit.
 
