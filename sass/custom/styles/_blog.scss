@@ -2,6 +2,9 @@
   Posts, Pages and Index
 */
 
+// set maximum width for videos
+article { video, .flash-video { max-width: 640px; } }
+
 // make article padding consistent
 .blog-index > article { padding-top: 1em !important; }
 #content > div { padding: { top: 0.5em !important; bottom: 0em !important; }}
