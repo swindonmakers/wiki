@@ -29,11 +29,11 @@ Here's a [template] and some [example posts].
 [template]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-01-01-template.md
 [example posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_examples
 
-Use the `Propose New File` button to commit the post to a new branch in your fork and
-start a [pull request].
+Use the `Propose New File` button to commit the post to a new branch in your own fork.
 
-Ensure the base branch is set to this repo's `source` branch.
-Check the `Files Changed` tab, then hit `Send pull request`.
+You will be prompted to create a [pull request] - this will submit your new post to this repo.
+
+Check the changes displayed are as expected, add any relevant info, and then hit `Send Pull Request`.
 
 [post metadata]: http://octopress.org/docs/blogging
 [markdown basics]: http://daringfireball.net/projects/markdown/basics

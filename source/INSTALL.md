@@ -1,5 +1,4 @@
-snhack.github.com
-=================
+## snhack.github.com
 
 __Note:  master branch is overwritten during compilation.__
 
