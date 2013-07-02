@@ -68,6 +68,12 @@ be used at the start of a long post with lots of headings.
 
 [table of contents]: http://kramdown.rubyforge.org/converter/html.html#toc
 
+
+### Header with an explicit header ID  {#manual-id}
+
+The ID that's automatically created for headers may not always be preferred, especially if
+the header is fairly long.
+
 Definition lists have a syntax that's similar to normal lists:
 
 term to define
