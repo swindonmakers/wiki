@@ -61,6 +61,16 @@ dd + dt { padding-top: 0.5em; }
   Special Text
 */
 
+// enable underline class
+.underline {
+  text-decoration: underline;
+}
+
+
+/*
+  Footnotes
+*/
+
 // superscript footnote text
 sup[id^=fnref] {
   // super is the expected setting
@@ -92,7 +102,10 @@ a[rel~="reference"] {
   font-size: smaller;
 }
 
-// style for kramdown toc
+/*
+  kramdown table of contents
+*/
+
 #markdown-toc {
   font-size: 0.8em;
   line-height: 1.5em;
@@ -102,9 +115,4 @@ a[rel~="reference"] {
 // style for h3 with id of 'contents'
 h3#contents {
   margin-bottom: 0.5em;
-}
-
-// enable underline class
-.underline {
-  text-decoration: underline;
 }
