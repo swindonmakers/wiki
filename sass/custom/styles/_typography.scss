@@ -7,6 +7,12 @@ body {
 //  font-size: 1.3em !important;
 }
 
+// Smaller margin between article text elements
+p, article blockquote, ul, ol { margin-bottom: 1em; }
+
+// Padding for all article headings
+article #{headings()}{ margin-top: 1em; margin-bottom: 0.8em; }
+
 // set all article h1 titles
 article h1 {
   font-size: 1.5em !important;
