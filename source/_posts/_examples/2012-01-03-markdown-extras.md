@@ -80,6 +80,12 @@ term to define
 : an alternate definition
 
 
+### Text Transformations
+
+Plain ASCII can be used for typographic symbols: ellipsis ..., em-dash ---, en-dash
+--, and guillemet << / >>. Prepend characters you don't want converted with `\`.
+
+
 ## More Examples
 
 See the [examples] folder for more uses of markdown and octopress syntax.
