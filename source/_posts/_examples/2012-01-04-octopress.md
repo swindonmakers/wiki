@@ -30,10 +30,16 @@ site generator it uses.
 
 Fenced code blocks are [just one way][code] to include code with syntax highlighting:
 
-``` sh
+```sh
 $ cd my-project
 $ git init
 Initialized empty Git repository in my-project/.git/
+```
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
 ```
 
 [code]: http://octopress.org/docs/blogging/code/
