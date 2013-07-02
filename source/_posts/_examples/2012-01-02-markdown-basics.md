@@ -9,6 +9,11 @@ summary: Demonstrates most standard markdown features
 
 ---
 
+Paragraphs of text are separated with a blank line. Lines within a paragraph will be
+merged, which allows the plain text to be hard wrapped for readability.
+
+End a line with two spaces,  
+if you must force a line break.
 
 Here's a [link to github](http://github.com), some text with *italic* and **bold**
 formatting, and an image:
@@ -35,6 +40,10 @@ To include code samples:
 
 Markup short phrases of code inline, by wrapping with the `back tick character`.
 
+---
+
+Add a horizonal rule `<hr>` by adding three or more dashes/asterisks.
+
 
 ## Reference Links
 
@@ -51,16 +60,6 @@ Link to the [octocat][] shown below:
 ![Show Octocat][octocat]
 
 [octocat]: https://github.com/images/icons/emoji/octocat.png "The Octocat!"
-
-
-## Other
-
-End a line with two spaces,  
-if you must force a line break.
-
----
-
-Add a horizonal rule `<hr>` by adding three or more dashes/asterisks.
 
 
 ## More Examples
