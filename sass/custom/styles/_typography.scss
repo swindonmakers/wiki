@@ -44,6 +44,20 @@ a { @include transition(background-color false !important); }
 
 
 /*
+  Definition lists
+*/
+
+// list container
+dl { padding: 0 0 1em 0em; }
+// terms to define
+dt { font-weight: bold; }
+// definitions
+dd { padding: 0 0 0em 2em; }
+// new term (after a previous definition)
+dd + dt { padding-top: 0.5em; }
+
+
+/*
   Special Text
 */
 
