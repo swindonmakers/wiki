@@ -70,8 +70,16 @@ be used at the start of a long post with lots of headings.
 
 ### Header with an explicit header ID  {#manual-id}
 
-The ID that's automatically created for headers may not always be preferred, especially if
-the header is fairly long.
+Manually specify a header ID by following it with `{#name}`.
+
+Explicitly end a block-level element with an EOB marker (a line containg only `^`):
+
+    This is the first code block
+
+    This is also the first code block
+^
+
+    This second code block is separated by the EOB marker above.
 
 Definition lists have a syntax that's similar to normal lists:
 
