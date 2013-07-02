@@ -48,11 +48,6 @@ Tables can be created easily, additional formatting such as text alignment
 
 [kramdown]: http://kramdown.rubyforge.org/
 
-Kramdown supports abbreviations, an alternative to footnotes.
-
-*[abbreviations]: Text appears in a tooltip
-*[footnotes]: Text is listed after the main content
-
 Attributes allow for modifying [block] and [span] level elements.
 
 [block]: http://kramdown.rubyforge.org/quickref.html#block-attributes
@@ -72,6 +67,12 @@ be used at the start of a long post with lots of headings.
 {:toc}
 
 [table of contents]: http://kramdown.rubyforge.org/converter/html.html#toc
+
+Definition lists have a syntax that's similar to normal lists:
+
+term to define
+: a definition
+: an alternate definition
 
 
 ## More Examples
