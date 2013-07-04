@@ -8,6 +8,16 @@ pre { font-size: 0.75em !important; }
 // inline code when linked
 a > code { border: 1px dashed #aaa; /*color: inherit;*/ }
 
+// set title font
+.code-title { font-family: $sans; font-size: 0.75em; color: #555; text-shadow: none }
+.download-source { font-size: inherit; color: inherit; text-shadow: inherit; }
+
+// set title background colour
+.code-title {
+  border: none;
+  @if $solarized == light { background: #ddd; } @else { background: #bbb; }
+}
+
 // don't show line-numbers in code blocks
 div.highlight {
   td.gutter { display: none; }
