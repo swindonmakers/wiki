@@ -1,11 +1,11 @@
 ---
 
 layout: post
-title: Weekly Meeting Report - 3rd July 2013
+title: Meeting Report - 3rd July 2013
 date: 2013-07-03
 author: Rob
-categories: [meeting]
-summary: A brief report on the Wednesday hackspace weekly meeting
+categories: [meetings]
+summary: New members, robots, and some cubes
 
 ---
 
