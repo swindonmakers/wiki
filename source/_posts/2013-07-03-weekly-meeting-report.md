@@ -9,7 +9,7 @@ summary: A brief report on the Wednesday hackspace weekly meeting
 
 ---
 
-![Hero]({{ page.url }}Hero1.jpg){:.right}
+![Hero]({{ page.url }}Hackspace.jpg){:.right}
 Quite a busy night at the Swindon Hackspace tonight. Welcome to the five(!) new people who turned up to see what we get up to at our weekly meetings, hope you had an enjoyable evening and we'll see you again next week. Along with the regulars it made for a pretty full room. After resetting a few trip switches to sort out some power issues the evening got underway with a bit of chat about what we do, complimented by drinks and some biscuits brought in by a couple of our regulars, James and Jess.
 
 <!-- more -->
