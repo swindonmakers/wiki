@@ -2,8 +2,13 @@
   Posts, Pages and Index
 */
 
-// set maximum width for videos
-article { video, .flash-video { max-width: 640px; } }
+// set maximum width for images, videos
+article { img, video, .flash-video { max-width: 640px; } }
+
+// max image widths when floated on blog index and single artical
+div.blog-index, article.hentry {
+  img.right, img.left { max-width: 400px; max-height: 290px; }
+}
 
 // make article padding consistent
 .blog-index > article { padding-top: 1em !important; }
