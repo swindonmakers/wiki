@@ -4,11 +4,12 @@ layout: post
 title: "Gyrobot Resurrection"
 date: 2013-06-28
 author: Steve Wood, AKA Gyrobot
+summary: A guest arrives for "Robots Revealed"
 categories: [meetings]
 
 ---
-<!-- Jamie, can you make this image set to the right?-->
-![Gyrobot](_images/2013-06-28-Gyrobot-resurrection/gyrobot.jpg)
+
+![Gyrobot]({{ page.url }}gyrobot.jpg){:.right}
 
 Gyrobot was made available to the [Swindon Museum of Computing](http://www.museum-of-computing.org.uk/ "http://www.museum-of-computing.org.uk/") on Hackspace night; 19th June 2013 for their upcoming [Robots Revealed](http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed "http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed") exhibition.
 
@@ -23,28 +24,19 @@ This entry was named Gyrobot from the word Gyrate which is to spin/revolve and t
 ## Interesting Facts About Gyrobot : ##
 
 1. I believe Gyrobot is the smallest heavyweight in the world (100kg category). Challenge this fact if you can. Dia 700mm x 150mm.
-1. Gyrobot has no inferior orientation, top can be bottom and bottom can be top, a truly symmetrical robot in all directions.
+1. Gyrobot has no interior orientation, top can be bottom and bottom can be top, a truly symmetrical robot in all directions.
 1. Gyrobot has no weak side, all angles of opponents attack are catered for.
 1. Gyrobot's best form of attack is it's defence. To get near it be prepared to get damaged!!
 1. The energy stored in Gyrobot's 35 kg outer weapon rim when up to full speed (750 RPM) is 40KJoules (Validated by two independent sources). Compare that with current Hypnodisc's 12KJoules. Energy is even higher when Gyrobot is in full body spin mode.
 
-<!-- Jamie, can you make this image set to the centre?-->
-![Gyrobot_closer](_images/2013-06-28-Gyrobot-resurrection/gyrobot_closer.jpg)
+![Gyrobot_closer]({{ page.url }}gyrobot_closer.jpg){:.center}
 
 Either come along to the [Swindon Hackspace](http://snhack.github.io/join/ "http://snhack.github.io/join/") on a Wednesday night or the [Robots Revealed](http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed "http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed") exhibition at the [Swindon Museum of Computing](http://www.museum-of-computing.org.uk/ "http://www.museum-of-computing.org.uk/") for the next 6 months to have a closer look, but please - not available to hack, one false move and it bites back hard ;-)
-
-----------
 
 ## Further Gyrobot Information :##
 
 Original Website:
 [http://homepage.ntlworld.com/steve-wood/home.htm](http://homepage.ntlworld.com/steve-wood/home.htm "http://homepage.ntlworld.com/steve-wood/home.htm")
 
-<!-- Jamie, is it possible to embed the following YouTube videos instead of hyperlinks?-->
-
-YouTube :
-
-[Robot Wars Series 7 Heat B Part 2](http://www.youtube.com/watch?v=KaWaZ5FgJeg "http://www.youtube.com/watch?v=KaWaZ5FgJeg")
-
-[Robot Wars Series 7 Heat B Part 4](http://www.youtube.com/watch?v=6dnohbcRkms "http://www.youtube.com/watch?v=6dnohbcRkms")
-
+{% youtube KaWaZ5FgJeg %}
+{% youtube 6dnohbcRkms %}
