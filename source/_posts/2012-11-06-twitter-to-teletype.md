@@ -9,11 +9,11 @@ categories: [projects, tty, pi]
 
 ---
 
+![Teletype](https://github.com/snhack/TwitterToTeletype/wiki/images/Teletype.jpg){:.right}
+
 *cross posted from [TwitterToTeletype/wiki](https://github.com/snhack/TwitterToTeletype/wiki)*
 
 The [Museum of Computing](http://www.museum-of-computing.org.uk/) in Swindon has a working Teletype and a desire to get it to print out tweets as part of a display in the museum.  Since the [Swindon Hackspace](https://groups.google.com/forum/?hl=en&fromgroups=#!forum/swindon-hackspace) is based in the museum it was a perfect project for hackspace members.
-
-![Teletype](https://github.com/snhack/TwitterToTeletype/wiki/images/Teletype.jpg)
 
 <!-- more -->
 
