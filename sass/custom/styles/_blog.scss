@@ -2,6 +2,9 @@
   Posts, Pages and Index
 */
 
+// centre align images in a paragraph
+article p > img { margin: 0 auto 1.5em; display: block; }
+
 // set maximum width for images, videos
 article { img, video, .flash-video { max-width: 640px; } }
 
