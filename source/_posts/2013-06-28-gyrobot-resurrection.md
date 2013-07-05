@@ -29,7 +29,7 @@ This entry was named Gyrobot from the word Gyrate which is to spin/revolve and t
 1. Gyrobot's best form of attack is it's defence. To get near it be prepared to get damaged!!
 1. The energy stored in Gyrobot's 35 kg outer weapon rim when up to full speed (750 RPM) is 40KJoules (Validated by two independent sources). Compare that with current Hypnodisc's 12KJoules. Energy is even higher when Gyrobot is in full body spin mode.
 
-![Gyrobot_closer]({{ page.url }}gyrobot_closer.jpg){:.center}
+![Gyrobot_closer]({{ page.url }}gyrobot_closer.jpg)
 
 Either come along to the [Swindon Hackspace](http://snhack.github.io/join/ "http://snhack.github.io/join/") on a Wednesday night or the [Robots Revealed](http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed "http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed") exhibition at the [Swindon Museum of Computing](http://www.museum-of-computing.org.uk/ "http://www.museum-of-computing.org.uk/") for the next 6 months to have a closer look, but please - not available to hack, one false move and it bites back hard ;-)
 

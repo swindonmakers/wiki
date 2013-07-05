@@ -59,11 +59,11 @@ While it's good to know how to use git from the command line, it's worth getting
 
 [Github](http://github.com/) offers their own [Mac](http://mac.github.com/) and [Windows](http://windows.github.com/) GUI clients, which have the advantage of closer integration with some of github's features, such as organisations and the "Clone in Windows/Mac" button found on each repo on github.
 
-{% img center http://mac.github.com/images/promo-screenshot.png GitHub for Mac %}
+![GitHub for Mac](http://mac.github.com/images/promo-screenshot.png)
 
 They do lack some more advanced features though so I mostly prefer [GitX](http://gitx.laullon.com/) on the Mac, though [plenty more GUIs](http://git-scm.com/downloads/guis) exist on various platforms.
 
-{% img center http://gitx.laullon.com/commit.png 512 GitX %}
+![GitX](http://gitx.laullon.com/commit.png)
 
 ## other info
 

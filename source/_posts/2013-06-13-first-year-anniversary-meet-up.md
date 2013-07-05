@@ -24,7 +24,7 @@ When we arrived at the pub, it was surprisingly busy, with all the tables seemin
 
 Those lucky attendees who turned up were rewarded with a hot off the printbed Swindon Hackspace multi-coloured poker chip, worth 1 Gigillion credits, accepted in no respectable establishments worldwide. Even the waitress was curious as to what it was, "a badge of shame" she was told, only surpassed by McDonald's zero stars:-
 
-![Sneak preview of the new Swindon Hackspace Logo]({{ page.url }}3D Prints.jpg){:.center}
+![Sneak preview of the new Swindon Hackspace Logo]({{ page.url }}3D Prints.jpg)
 
 Tony showed a collection of prints from his new Replicator 3D printer. Looking forward to seeing some more.
 
