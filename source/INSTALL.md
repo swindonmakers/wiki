@@ -30,8 +30,8 @@ ruby --version      # Should report Ruby 1.9.3
 Install dependencies, but do not run `rake install` (it's been done already).
 
 ```sh
-gem install bundler rake
 rbenv rehash        # Only needed with rbenv
+gem install bundler
 bundle install
 ```
 
