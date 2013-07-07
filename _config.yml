@@ -49,6 +49,13 @@ pygments: false # default python pygments have been replaced by pygments.rb
 markdown: kramdown
 # markdown: rdiscount
 
+kramdown:
+  use_coderay: true
+  coderay:
+    coderay_tab_width: 2
+    coderay_css: style          # or class
+    coderay_line_numbers: nil   # or table, inline
+
 paginate: 10          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
