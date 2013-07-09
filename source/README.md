@@ -10,32 +10,36 @@ preview this site locally.
 
 > Use this workflow when submitting a blog post using standard text or markdown.
 
-Load the [source/_posts] folder and use the [new file] icon above its listing.
-Github will automatically [fork] this project as required.
+Load the [source/_posts] folder, then click the [new file] icon above its listing.
+[[show]][new-file]
+
+[new-file]: http://swindon.hackspace.org.uk/images/help/1-new-file.png
+[commit-file]: http://swindon.hackspace.org.uk/images/help/2-commit-file.png
+[branch-compare]: http://swindon.hackspace.org.uk/images/help/3-branch-compare.png
+[send-pull-request]: http://swindon.hackspace.org.uk/images/help/4-send-pull-request.png
 
 [source/_posts]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts
 [fork]: https://help.github.com/articles/fork-a-repo
 [pull request]: https://help.github.com/articles/using-pull-requests
 
-Name the new file using your preferred post date and title,
-according to the pattern: `YYYY-MM-DD-url-safe-title.md`.
+Name the file using the post date and title, in lowercase,
+according to the pattern: `YYYY-MM-DD-url-safe-title.md`.  [[show]][commit-file]
 
 [new file]: https://github.com/blog/1327-creating-files-on-github
 [naming it]: https://github.com/blog/1436-moving-and-renaming-files-on-github
 
-Enter basic post metadata, followed by your content as plain text or [markdown].
-Here's a [template] and some [syntax examples].
+Enter the post metadata and content, formatted using [markdown].
+Here's a [template] and some [examples].
 
 [template]: https://raw.github.com/snhack/snhack.github.com/source/source/_posts/_examples/2012-01-01-template.md
-[syntax examples]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_examples
+[examples]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_examples
 
-Use the `Propose New File` button to commit the post to a new branch in your own fork.
+Use the `Propose New File` button to commit the post (to a new branch in your own [fork]).
 
-You will be prompted to create a [pull request] - this will submit your new post to this
-repo.
+The new branch will be compared to this repo. Check the changes and click the [pull request] link.  [[show]][branch-compare]
 
-Check the file changes displayed are as expected, add any relevant info, and then hit
-`Send Pull Request`.
+Add a title and any other relevant info or images, then hit
+`Send Pull Request`.  [[show]][send-pull-request]
 
 [post metadata]: http://octopress.org/docs/blogging
 [markdown basics]: http://daringfireball.net/projects/markdown/basics
