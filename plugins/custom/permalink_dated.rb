@@ -1,5 +1,10 @@
-# Monkeypatch for Jekyll
-# Set 'recurring_title: true' in a post to use an alternative permalink format
+# Title: Permalink (Dated)
+# Author: Jamie Osborne https://github.com/jmeosbn
+# Description: Use an alternative permalink format for duplicate titles
+#
+# Usage:
+# Set 'recurring_title: true' in a post
+#
 module Jekyll
 
   class Post

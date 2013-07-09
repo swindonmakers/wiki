@@ -1,7 +1,13 @@
-# Monkeypatch for Jekyll
-# Copy images into the generated post folder
+# Title: Post Images
+# Author: Jamie Osborne https://github.com/jmeosbn
+# Description: Copy images into the generated post folder
+#
+# Usage:
 # Put source images into a folder within '_posts/_images', named to match the post
+#
+# Syntax:
 # Reference the generated folder from your post using '{{ page.url }}'
+#
 module Jekyll
 
   class Post
