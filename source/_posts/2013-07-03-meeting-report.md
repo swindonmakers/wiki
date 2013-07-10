@@ -6,6 +6,8 @@ date: 2013-07-03
 author: Rob
 categories: [meetings]
 summary: New members, robots, and some cubes
+recurring_title: true
+alias: /blog/weekly-meeting-report/
 
 ---
 
