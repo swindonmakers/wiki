@@ -43,7 +43,7 @@ The hackspace is active on [Google Groups], [Twitter], [YouTube], and [Github].
 [Museum of Computing]: http://museumofcomputing.org.uk
 [view map]: http://maps.google.co.uk/?q=The+Museum+Of+Computing&cid=1649343045243643722
 
-[Google Groups]: http://groups.google.com/group/swindon-hackspace
-[Twitter]: http://twitter.com/snhack
-[Github]: http://github.com/snhack
-[YouTube]: http://www.youtube.com/user/hakmoc
+[Google Groups]: {{ site.rss_feed_title_url }}
+[Twitter]: http://twitter.com/{{site.twitter_user}}
+[YouTube]: http://www.youtube.com/user/{{ site.youtube }}
+[Github]: http://github.com/{{site.github_user}}
