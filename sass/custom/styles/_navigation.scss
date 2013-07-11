@@ -15,20 +15,25 @@ body > nav > ul > li { margin-right: .6em; a { padding: 0; } }
 /*
   Improvements for mobile browsers
 */
-@media only screen and (max-width: 400px) {
-  // smaller title font
-  body > header { font-size: $header-font-size * .8; }
-  // body { -webkit-text-size-adjust: auto; }
-
-  // smaller navigation font
-  body > nav { font-size: .8em; }
-
+@media only screen and (max-width: 450px) {
   // less padding between nav items
-  body > nav > ul > li { margin-right: .2em; a { padding: 0; } }
-
-  // hide subscription links
-  body > nav { .subscription { display: none; } }
+  body > nav > ul {
+    li { margin-right: 0.2em; a { padding: 0; } }
+    li + li { margin-left: 0.5em; }
+  }
 
   // don't wrap navigation links
   .main-navigation { white-space:nowrap; }
+}
+@media only screen and (max-width: 400px) {
+  // smaller title font
+  body > header { font-size: $header-font-size * .8; }
+
+  // smaller navigation font
+  body > nav { font-size: .8em; }
+}
+@media only screen and (max-width: 350px) {
+  // hide subscription links
+  body > nav { .subscription { display: none; } }
+  body > nav { [rel="_subscribe-rss"] { display: none; } }
 }
