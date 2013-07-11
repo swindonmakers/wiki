@@ -8,6 +8,7 @@ title: Swindon Hackspace
 author: Swindon Hackspace
 # simple_search: http://google.com/search
 description:
+group: &group http://groups.google.com/group/swindon-hackspace
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -81,7 +82,7 @@ default_asides: [custom/asides/recent_posts.html, custom/asides/github.html, cus
 # RSS Feed
 rss_feed_title: "Group"
 rss_item_count: 5
-rss_feed_title_url: http://groups.google.com/group/swindon-hackspace
+rss_feed_title_url: *group
 rss_feed_url: http://groups.google.com/group/swindon-hackspace/feed/rss_v2_0_topics.xml
 rss_feed_include_link_to_feed: false
 rss_feed_link_title: "Group Feed"
