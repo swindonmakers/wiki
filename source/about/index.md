@@ -8,9 +8,10 @@ sidebar: true
 
 ---
 
+
 ### About the Hackspace
 
-The Swindon Hackspace formed in June 2012, and started holding [weekly meetings]({{ root_url }}/join) for those interested in making, breaking, and fixing things.  We are a new hackspace, looking to build membership and grow our toolkit.
+The Swindon Hackspace formed in June 2012, holding [weekly meetings](#weekly-meetings) for those interested in making, breaking, and fixing things.  We are a new hackspace, looking to build membership and grow our toolkit.
 
 Members work on a range of projects that usually involve electronic hardware, software programming, and mechanical assembly.  Popular projects often include prototyping electronic circuits using breadboard, and interfacing with [Arduino], [Raspberry Pi] or [Stellaris LaunchPad] microcontrollers.
 
@@ -23,3 +24,26 @@ Informal sessions are occasionally ran by members; on topics such as [PICAXE], L
 [Raspberry Pi]: http://www.raspberrypi.org
 [Stellaris LaunchPad]: http://www.ti.com/ww/en/launchpad/stellaris_head.html
 
+
+### Weekly Meetings
+
+The hackspace meets at the [Museum of Computing] in Swindon, near the Wyvern Theatre ([view map]).
+
+Sessions start at 6.30pm each Wednesday, and it's advisable to arrive no later than 7.15pm.  We usually finish between 9.30 and 10pm.
+
+Session price is &pound;4 and paid on admission.  Membership is paid annually in advance and costs &pound;10 (waived until third visit).
+
+Internet access is available via WiFi and Ethernet, we also have computers available if required.
+
+
+### Online Presence
+
+The hackspace is active on [Google Groups], [Twitter], [YouTube], and [Github].
+
+[Museum of Computing]: http://museumofcomputing.org.uk
+[view map]: http://maps.google.co.uk/?q=The+Museum+Of+Computing&cid=1649343045243643722
+
+[Google Groups]: http://groups.google.com/group/swindon-hackspace
+[Twitter]: http://twitter.com/snhack
+[Github]: http://github.com/snhack
+[YouTube]: http://www.youtube.com/user/hakmoc
