@@ -13,14 +13,8 @@
     var rss_feed_url = "http://pipes.yahoo.com/pipes/pipe.run?_id=259ba707b877effd5c0bd3234ef10cf6&_render=json&url={{ site.rss_feed_url }}";
     var rss_item_count = {{ site.rss_item_count }};
     var rss_title_length = {{ site.rss_title_length }};
-    (function(){
-      var rss_feedInit = document.createElement('script');
-      rss_feedInit.type = 'text/javascript';
-      rss_feedInit.async = true;
-      rss_feedInit.src = '{{ root_url }}/javascripts/rss_feed.js';
-      document.getElementsByTagName('head')[0].appendChild(rss_feedInit);
-    })();
   </script>
+  <script src="{{ root_url }}/javascripts/rss_feed.js" type="text/javascript"></script>
   {% if site.rss_feed_include_link_to_feed %}
   <p><a href="{{ site.rss_feed_url }}">{{ site.rss_feed_link_title }} &raquo;</a></p>
   {% endif %}

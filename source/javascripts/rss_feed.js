@@ -1,3 +1,17 @@
+// Callback for RSS linkroll
+function rss_feed_linkroll(r) {
+  var lr = new rss_feed_Linkroll('rss_feed_linkroll');
+  lr.set_items(r.value.items);
+  lr.show_bmarks();
+}
+
+// Callback for additional RSS linkroll
+function alt_feed_linkroll(r) {
+  var lr = new rss_feed_Linkroll('alt_feed_linkroll');
+  lr.set_items(r.value.items);
+  lr.show_bmarks();
+}
+
 function rss_feedNS_fetch_script(url) {
   (function(){
     var rss_feedLinkroll = document.createElement('script');
@@ -8,13 +22,7 @@ function rss_feedNS_fetch_script(url) {
   })();
 }
 
-function rss_feedNS_show_bmarks(r) {
-  var lr = new rss_feed_Linkroll();
-  lr.set_items(r.value.items);
-  lr.show_bmarks();
-}
-
-function rss_feed_Linkroll() {
+function rss_feed_Linkroll(target) {
   var items;
 
   this.set_items = function(i) {
@@ -28,7 +36,7 @@ function rss_feed_Linkroll() {
       var str = this.format_item(item);
       lines.push(str);
     }
-    document.getElementById(linkroll).innerHTML = lines.join("\n");
+    document.getElementById(target).innerHTML = lines.join("\n");
   }
   this.cook = function(v) {
     return v.replace('<', '&lt;').replace('>', '&gt>');
@@ -49,4 +57,4 @@ function rss_feed_Linkroll() {
   }
 }
 rss_feed_Linkroll.prototype = new rss_feed_Linkroll();
-rss_feedNS_fetch_script(rss_feed_url + "&_callback=rss_feedNS_show_bmarks");
+rss_feedNS_fetch_script(rss_feed_url + "&_callback=" + linkroll);
