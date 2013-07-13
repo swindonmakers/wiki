@@ -88,7 +88,7 @@ youtube: hakmoc
 rss_feed_title: "Group"
 rss_item_count: 5
 rss_feed_title_url: *group
-rss_feed_url: http://groups.google.com/group/swindon-hackspace/feed/rss_v2_0_topics.xml
+rss_feed_url: https://groups.google.com/forum/feed/swindon-hackspace/topics/rss_v2_0.xml
 rss_feed_include_link_to_feed: false
 rss_feed_link_title: "Group Feed"
 rss_title_length: 30
