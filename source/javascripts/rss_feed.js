@@ -10,7 +10,7 @@ function rss_feedNS_fetch_script(url) {
 
 function rss_feedNS_show_bmarks(r) {
   var lr = new rss_feed_Linkroll();
-  lr.set_items(r.rss.channel.item);
+  lr.set_items(r.value.items);
   lr.show_bmarks();
 }
 
@@ -49,4 +49,4 @@ function rss_feed_Linkroll() {
   }
 }
 rss_feed_Linkroll.prototype = new rss_feed_Linkroll();
-rss_feedNS_fetch_script(rss_feed_url + "&callback=rss_feedNS_show_bmarks");
+rss_feedNS_fetch_script(rss_feed_url + "&_callback=rss_feedNS_show_bmarks");
