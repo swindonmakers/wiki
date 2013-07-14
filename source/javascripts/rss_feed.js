@@ -43,10 +43,6 @@ function rss_feed_Linkroll(target) {
   }
 
   this.format_item = function(it) {
-    if (it.title.length > rss_title_length) {
-      it.title = it.title.substr(0, rss_title_length - 3);
-      it.title = it.title.substr(0, Math.min(it.title.length, it.title.lastIndexOf(" "))) + ' ..'
-    }
     var str = "<li class=\"rss_feed-item\">";
     str += "<a class=\"rss_feed-title\" href=\"" + this.cook(it.link) + "\">" + this.cook(it.title) + "</a>";
     if (it.description) {
