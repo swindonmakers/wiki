@@ -1,0 +1,23 @@
+{% if site.twitter_user %}
+<section id="twitter">
+  <h1><a href="https://twitter.com/intent/user?screen_name={{site.twitter_user}}">Twitter</a></h1>
+
+  <div id="tweets">
+    {% if site.twitter_widget_id %}
+    <a class="twitter-timeline" data-dnt="true"
+       data-widget-id="{{site.twitter_widget_id}}"
+       data-chrome="noborders nofooter noheader transparent"
+       data-tweet-limit="{{ site.twitter_tweet_count }}"
+       data-link-color="#F2780D"
+       href="https://twitter.com/twitterapi"></a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    {% endif %}
+  </div>
+
+  {% if site.twitter_follow_button %}
+    <a href="http://twitter.com/{{ site.twitter_user }}" class="twitter-follow-button" data-show-count="{{ site.twitter_show_follower_count }}"></a>
+  {% else %}
+    <p>Follow <a href="http://twitter.com/{{site.twitter_user}}">@{{ site.twitter_user }}</a></p>
+  {% endif %}
+</section>
+{% endif %}
