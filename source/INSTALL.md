@@ -22,7 +22,7 @@ by octopress and jekyll).
 [Fork this repo], then clone your fork's **source branch** locally.
 
 ```sh
-git clone -b source git@github.com:<yourusername>/snhack.github.com.git snhack
+git clone -b source git@github.com:<YOURUSERNAME>/snhack.github.com.git snhack
 cd snhack
 ruby --version        # Should report Ruby 1.9.3
 ```

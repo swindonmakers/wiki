@@ -62,6 +62,7 @@ Check the [fork] and [pull request] help pages for more info.
 
 [discussion thread]: https://github.com/snhack/snhack.github.com/issues
 [github help]: https://help.github.com
+[github training]: http://training.github.com/
 
 
 ### Uploading Images
