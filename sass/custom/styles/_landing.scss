@@ -6,6 +6,7 @@
 div#landing {
   padding-top: 0.6em !important;
   padding-bottom: 1.5em !important;
+  a { text-decoration: underline; }
 }
 
 // common styles for landing page text
@@ -24,12 +25,15 @@ div#landing {
 // title link for post summaries
 .recentposts > h3 > a {
   color: inherit !important;
-  text-decoration: inherit;
+  text-decoration: none !important;
   &:hover { color: $link-color-hover !important; }
 }
 
-// padding before links
-.introlinks { padding-top: 0.9em; }
+// links shown for related sites/profiles
+.introlinks {
+  padding-top: 1em;
+  a { text-decoration: none !important; }
+}
 
 // remove padding from unused article
 article#landing-info { padding-top: 0em !important; }

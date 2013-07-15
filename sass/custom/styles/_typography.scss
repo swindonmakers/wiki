@@ -2,6 +2,12 @@
   Text and links
 */
 
+// Don't underline links
+article a {
+  text-decoration: none;
+  &:hover { text-decoration: underline; }
+}
+
 // Increase size of body text
 body {
 //  font-size: 1.3em !important;

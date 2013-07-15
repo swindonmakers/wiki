@@ -28,7 +28,7 @@ sidebar: false
       <h3><a href="{{ root_url }}/blog/">Latest Posts</a></h3>
 
       {% for post in site.posts limit: 2 %}
-        <p class>
+        <p>
 
           <a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a><br/>
 
