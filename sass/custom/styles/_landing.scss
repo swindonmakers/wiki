@@ -32,6 +32,8 @@ div#landing {
 // links shown for related sites/profiles
 .introlinks {
   padding-top: 1em;
+  // insert separators between intro links
+  a + a:before { content: '- '; }
   a { text-decoration: none !important; }
 }
 
