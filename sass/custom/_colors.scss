@@ -5,6 +5,7 @@
 $basecolor:    #f70;
 $hi-lights: desaturate($basecolor, 10);
 $page-back: scale-color($basecolor, $lightness:  96%);
+$page-back: change-color($page-back, $red: green($page-back));
 
 // header title colours
 $title-color: #555;
@@ -38,6 +39,10 @@ $sidebar-link-color: $sidebar-color;
 $sidebar-link-color-hover: $link-color;
 //$sidebar-link-color: saturate(gray, 10);
 //$sidebar-link-color-hover: darken(black, 9);
+
+// sidebar border
+$sidebar-border: darken($sidebar-bg, 2);
+// $sidebar-border: desaturate(darken($sidebar-bg, 7), 10) !default;
 
 // remove gradient
 $nav-bg-front:    $nav-bg;
