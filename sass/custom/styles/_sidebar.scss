@@ -11,6 +11,12 @@ aside.sidebar section {
   ul { font-size: 1.1em; }
 }
 
+// remove borders from sidebar headers
+aside.sidebar > section > h1 {
+  border-bottom:  0px solid $sidebar-bg;
+  @include box-shadow($sidebar-bg 0 0px);
+}
+
 // mixin style for sidebar at footer
 @mixin footersidebar {
   // match main background colour when collapsed
