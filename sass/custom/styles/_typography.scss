@@ -50,6 +50,14 @@ a { @include transition(background-color false !important); }
 
 
 /*
+  Lists
+*/
+
+// use square bullets for lists
+ul, ul ul { list-style-type: square; }
+
+
+/*
   Definition lists
 */
 
