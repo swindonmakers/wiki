@@ -2,10 +2,10 @@
   Theme changes for lighter background/text
 */
 
-$basecolor:    #f70;
+$basecolor: #f70;
 $hi-lights: desaturate($basecolor, 10);
-$page-back: scale-color($basecolor, $lightness:  96%);
-$page-back: change-color($page-back, $red: green($page-back));
+$off-white: scale-color($basecolor, $lightness: 96%);
+$off-white: change-color($off-white, $red: green($off-white));
 
 // header title colours
 $title-color: #555;
@@ -13,7 +13,7 @@ $title-color: #555;
 
 // main background colours
 $page-bg:         #252525;
-$header-bg:       $page-back;
+$header-bg:       $off-white;
 $sidebar-bg:      $header-bg;
 $main-bg:         $header-bg;
 $nav-bg:          $header-bg;
@@ -23,7 +23,7 @@ $noise-bg: top left !default;
 // $noise-bg: image-url('noise.png') top left !default;
 
 // set colour of text
-$text-color: #555555;
+$text-color: #555;
 $sidebar-color: $text-color;
 
 // set colour of visited links
@@ -50,7 +50,7 @@ $nav-bg-back:     $nav-bg;
 
 // navigation link colour
 $nav-color:  $title-color;
-$nav-color-hover: $hi-lights;
+$nav-color-hover: $link-color;
 
 
 // navigation borders
