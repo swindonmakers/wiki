@@ -6,7 +6,7 @@
 # Put source images into a folder within `_posts/_images`, named to match the post
 #
 # Syntax:
-# Reference the generated folder from your post using `{{ page.url }}`
+# Reference images in the generated folder from your post using `./`
 #
 module Jekyll
 
@@ -15,6 +15,9 @@ module Jekyll
     # retain reference to original method
     alias_method :_post_images_retained_write, :write
 
+    #
+    # Copy images from _posts/_images into the post folder
+    #
     def write(dest)
       # call original method
       _post_images_retained_write(dest)
@@ -26,6 +29,29 @@ module Jekyll
         postdir = dest + self.url
         # puts "Copying images to " + postdir
         FileUtils.cp_r postimages + '/.', postdir
+      end
+    end
+
+  end
+
+
+  module Convertible
+
+    # retain reference to original method
+    alias_method :_post_images_retained_transform, :transform
+
+    #
+    # Replace URLs starting with './' to use post.url
+    #
+    def transform
+      # call original method
+      _post_images_retained_transform
+
+      return if not self.ext.match('html|textile|markdown|md|haml|slim')
+
+      # replace './' with path relative to site root
+      self.content.gsub! /(\s+(href|src)\s*=\s*["|']{1}).\/([^\"'>]*)/ do
+        $1 + self.url + $3
       end
     end
 
