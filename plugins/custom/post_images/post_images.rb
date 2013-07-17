@@ -22,13 +22,13 @@ module Jekyll
       # call original method
       _post_images_retained_write(dest)
 
-      asset_path = self.site.config['source'] + '/_posts/_assets/'
-      postassets = asset_path + self.name[0 .. -self.ext.length-1]
+      asset_path = File.join(self.site.config['source'], '/_posts/_assets/')
+      postassets = File.join(asset_path, self.name[0 .. -self.ext.length-1])
 
       if File.directory?(postassets)
-        postdir = dest + self.url
+        postdir = File.join(dest, self.url)
         # puts "Copying assets to " + postdir
-        FileUtils.cp_r postassets + '/.', postdir
+        FileUtils.cp_r File.join(postassets, '/.'), postdir
       end
     end
 
