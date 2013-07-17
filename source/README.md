@@ -71,9 +71,9 @@ The [new file] icon on the github website only supports text files. You can refe
 images hosted elsewhere, but it's sometimes best to upload images to the site itself.
 
 If you're familiar with `git`, you can commit images into a new folder located within
-[source/_posts/_images] and named to match your post: `YYYY-MM-DD-name-of-post`.
+[source/_posts/_assets] and named to match your post: `YYYY-MM-DD-name-of-post`.
 
-[source/_posts/_images]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_images
+[source/_posts/_assets]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_assets
 
 An easier option is to attach images to the [discussion thread] of your newly created
 pull request, an admin can then commit them into the correct folder.
