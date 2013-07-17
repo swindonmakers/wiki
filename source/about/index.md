@@ -4,12 +4,14 @@ layout: page
 comments: false
 sharing: false
 footer: false
-sidebar: true
+sidebar: false
 
 ---
 
 
 ### About the Hackspace
+
+![TestPi](testpi.jpg){:.right}
 
 The Swindon Hackspace formed in June 2012, holding [weekly meetings](#weekly-meetings) for those interested in making, breaking, and fixing things.  We are a new hackspace, looking to build membership and grow our toolkit.
 
