@@ -10,10 +10,15 @@ article p > img { margin: 0 auto 1.5em; display: block; }
   article { img, video, .flash-video { max-width: 640px; } }
 }
 
-// max image widths when floated on blog index and single artical
+// max image widths when floated
 @media only screen and (min-width: 400px) {
-  div.blog-index, article.hentry {
-    img.right, img.left { max-width: 400px; max-height: 290px; }
+  article { img.right, img.left { max-width: 400px; max-height: 290px; } }
+}
+
+// Don't float post text around images at smaller browser widths
+.basic-alignment {
+  @media only screen and (max-width: 959px) {
+    &.right, &.left { float: none; display:block; margin: 0 auto 1.5em; }
   }
 }
 
@@ -24,11 +29,4 @@ article p > img { margin: 0 auto 1.5em; display: block; }
 // article padding on desktop browsers
 @media only screen and (min-width: 960px) {
   #content > div { padding-top: 1.5em !important; }
-}
-
-// Don't float post text around images at smaller browser widths
-.entry-content .basic-alignment {
-  @media only screen and (max-width: 959px) {
-    &.right, &.left { float: none; display:block; margin: 0 auto 1.5em; }
-  }
 }
