@@ -1,12 +1,12 @@
 # Title: Post Images
 # Author: Jamie Osborne https://github.com/jmeosbn/post_images
-# Description: Copy images into the generated post folder
+# Description: Copy related assets into the generated post folder
 #
 # Usage:
-# Put source images into a folder within `_posts/_images`, named to match the post
+# Put source assets into a folder within `_posts/_assets`, named to match the post
 #
 # Syntax:
-# Reference images in the generated folder from your post using `./`
+# Reference assets in the generated folder from your post using `./`
 #
 module Jekyll
 
@@ -16,24 +16,23 @@ module Jekyll
     alias_method :_post_images_retained_write, :write
 
     #
-    # Copy images from _posts/_images into the post folder
+    # Copy assets from _posts/_assets into the post folder
     #
     def write(dest)
       # call original method
       _post_images_retained_write(dest)
 
-      image_path = self.site.config['source'] + '/_posts/_images/'
-      postimages = image_path + self.name[0 .. -self.ext.length-1]
+      asset_path = self.site.config['source'] + '/_posts/_assets/'
+      postassets = asset_path + self.name[0 .. -self.ext.length-1]
 
-      if File.directory?(postimages)
+      if File.directory?(postassets)
         postdir = dest + self.url
-        # puts "Copying images to " + postdir
-        FileUtils.cp_r postimages + '/.', postdir
+        # puts "Copying assets to " + postdir
+        FileUtils.cp_r postassets + '/.', postdir
       end
     end
 
   end
-
 
   module Convertible
 
@@ -53,6 +52,7 @@ module Jekyll
       self.content.gsub! /(\s+(href|src)\s*=\s*["|']{1}).\/([^\"'>]*)/ do
         $1 + self.url + $3
       end
+
     end
 
   end
