@@ -1,4 +1,4 @@
-source "http://rubygems.org"
+source "https://rubygems.org"
 
 group :development do
   gem 'rake', '~> 10.0'
@@ -11,6 +11,7 @@ group :development do
   gem 'haml', '~> 3.1.7'
   gem 'coderay', '~> 1.0'
   gem 'compass', '~> 0.12.2'
+  gem 'sass', '~> 3.2'
   gem 'sass-globbing', '~> 1.0.0'
   gem 'rubypants', '~> 0.2.0'
   gem 'rb-fsevent', '~> 0.9'
