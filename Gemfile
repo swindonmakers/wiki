@@ -2,7 +2,7 @@ source "https://rubygems.org"
 
 group :development do
   gem 'rake', '~> 10.0'
-  gem 'rack', '~> 1.4.1'
+  gem 'rack', '~> 1.5.2'
   gem 'jekyll', '~> 0.12'
   gem 'directory_watcher', '= 1.4.1'
   gem 'rdiscount', '~> 2.0.7'
