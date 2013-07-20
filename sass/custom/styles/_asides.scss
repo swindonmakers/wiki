@@ -20,13 +20,10 @@ section > ul > li {
 
 // reduce font and hide dated link
 #tweets {
-  a[href*=status] { display: none; }
-  font-size: 90%;
-}
-
-// bottom padding for tweets
-#tweets, #tweets > li {
-  padding-bottom: 0.5em !important;
+  font-size: 85%;
+  padding-bottom: 0.5em;
+  padding-right: 1em;
+  .tweet > a { color: $link-color-hover; }
 }
 
 // don't show loading status (fail gracefully)
