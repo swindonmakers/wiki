@@ -39,14 +39,15 @@ function rss_feed_Linkroll(target) {
     document.getElementById(target).innerHTML = lines.join("\n");
   }
   this.cook = function(v) {
-    return v.replace('<', '&lt;').replace('>', '&gt>');
+    return v.replace('<', '&lt;').replace('>', '&gt;');
   }
 
   this.format_item = function(it) {
     var str = "<li class=\"rss_feed-item\">";
-    str += "<a class=\"rss_feed-title\" href=\"" + this.cook(it.link) + "\">" + this.cook(it.title) + "</a>";
+    str += "<a class=\"rss_feed-title\" href=\"" + this.cook(it.link) + "\">" +
+            this.cook(it.title.replace(/^(Re: \[shs\] )?Re: /, '')) + "</a>";
     if (it.description) {
-      str += "<span class=\"rss_feed-description\">" + this.cook(it.description) + "</span>\n";
+      str += "<div class=\"rss_feed-description\">" + this.cook(it.description) + "</div>\n";
     }
     str += "</li>\n";
     return str;
