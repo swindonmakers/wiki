@@ -15,8 +15,16 @@ section > ul > li {
   padding-right: 0.4em !important;
 }
 
+// don't show loading status (fail gracefully)
+aside > section .loading { display: none; }
+
 // hide git repo details and remove border
 #gh_repos > li { p { display: none; } }
+
+
+/*
+  Twitter timeline
+*/
 
 // tweets container
 #tweets {
@@ -29,7 +37,35 @@ section > ul > li {
     a { color: $text-color-light; }
   }
   a:hover { color: $link-color-hover; }
+  // turn off force wrap in sidebar
+  a { white-space: normal; }
 }
 
-// don't show loading status (fail gracefully)
-aside > section .loading { display: none; }
+// twitter username
+#tweets .user {
+  float: left;
+  // fullname
+  span > span:after { content: ': '; }
+  // margin-right: 0.5em;
+  // username
+  a > span:last-child { display: none; }
+}
+
+// twitter avatar
+#tweets .user {
+  a > img {
+    width: 2.5em;
+    float: left;
+    border-width: 3px;
+    margin-top: 0.3em;
+    margin-right: 0.3em;
+  }
+}
+
+// show twitter username/avatar
+#tweets .user {
+  // hide avatar
+  a > img { display: none; }
+  // hide username
+  // a > span { display: none; }
+}
