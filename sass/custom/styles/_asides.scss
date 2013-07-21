@@ -18,12 +18,17 @@ section > ul > li {
 // hide git repo details and remove border
 #gh_repos > li { p { display: none; } }
 
-// reduce font and hide dated link
+// tweets container
 #tweets {
   font-size: 85%;
   padding-bottom: 0.5em;
   padding-right: 1em;
-  .tweet > a { color: $link-color-hover; }
+  .tweet {
+    // only show main part for expanded urls
+    a { span:first-child, span:last-child { display: none; }}
+    a { color: $text-color-light; }
+  }
+  a:hover { color: $link-color-hover; }
 }
 
 // don't show loading status (fail gracefully)

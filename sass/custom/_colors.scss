@@ -32,7 +32,7 @@ $link-color-visited: $link-color;
 $link-color-hover: $link-color;
 
 // set light text colour
-// $text-color-light: #aaa !default;
+$text-color-light: lighten(gray, 12);
 
 // set colour of sidebar links on hover
 $sidebar-link-color: $sidebar-color;
