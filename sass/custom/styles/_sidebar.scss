@@ -2,6 +2,14 @@
   Sidebar
 */
 
+// truncate items using ellipsis
+section > ul > li {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  a { white-space: nowrap !important; }
+  padding-right: 0.4em !important;
+}
+
 // set font size for titles and items
 aside.sidebar section {
   h1 {
