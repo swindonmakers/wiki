@@ -29,18 +29,18 @@ Informal sessions are occasionally ran by members; on topics such as [PICAXE], L
 
 ### Weekly Meetings
 
-The hackspace meets at the [Museum of Computing] in Swindon, near the Wyvern Theatre ([view map]).
+The Swindon Hackspace meets weekly at the [Museum of Computing], near the Wyvern Theatre ([view map]).
 
 Sessions start at 6.30pm each Wednesday, and it's advisable to arrive no later than 7.15pm.  We usually finish between 9.30 and 10pm.
 
-Session price is &pound;4 and paid on admission.  Membership is paid annually in advance and costs &pound;10 (waived until third visit).
+Session price is &pound;4 and paid on admission.  Membership is paid annually in advance and costs &pound;10 (waived until third visit for new members, due each July thereafter).
 
 Internet access is available via WiFi and Ethernet, we also have computers available if required.
 
 
 ### Online Presence
 
-The hackspace is active on [Google Groups], [Twitter], [YouTube], and [Github].
+The hackspace is active on [Google Groups], [Twitter], [YouTube], and [Github].  Related articles and writeups are published on [swindon.hackspace.org.uk][] (submissions welcome!).
 
 [Museum of Computing]: http://museumofcomputing.org.uk
 [view map]: http://maps.google.co.uk/?q=The+Museum+Of+Computing&cid=1649343045243643722
@@ -49,3 +49,4 @@ The hackspace is active on [Google Groups], [Twitter], [YouTube], and [Github].
 [Twitter]: http://twitter.com/{{site.twitter_user}}
 [YouTube]: http://www.youtube.com/user/{{ site.youtube }}
 [Github]: http://github.com/{{site.github_user}}
+[swindon.hackspace.org.uk]: http://swindon.hackspace.org.uk
