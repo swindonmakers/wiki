@@ -82,7 +82,7 @@ default_asides: [custom/asides/recent_posts.html, custom/asides/rss_feed.html, c
 group: &group http://groups.google.com/group/swindon-hackspace
 
 # YouTube
-youtube: hakmoc
+youtube: snhackspace
 
 # RSS Feed
 rss_feed_title: "Group"
