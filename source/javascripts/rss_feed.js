@@ -39,7 +39,10 @@ function rss_feed_Linkroll(target) {
     document.getElementById(target).innerHTML = lines.join("\n");
   }
   this.cook = function(v) {
-    return v.replace('<', '&lt;').replace('>', '&gt;');
+    return v.replace(/<(br|p)>/g, ' ').replace('<', '&lt;').replace('>', '&gt;');
+  }
+  this.cook_with_linebreaks = function(v) {
+    return v.replace(/<br>/g, ' ').replace(/<p>/g, '<br /><br />').replace(/<\/p>/g, '');
   }
 
   this.format_item = function(it) {
@@ -47,7 +50,7 @@ function rss_feed_Linkroll(target) {
     str += "<a class=\"rss_feed-title\" href=\"" + this.cook(it.link) + "\">" +
             this.cook(it.title.replace(/^(Re: \[shs\] )?Re: /, '')) + "</a>";
     if (it.description) {
-      str += "<div class=\"rss_feed-description\">" + this.cook(it.description) + "</div>\n";
+      str += "<p class=\"rss_feed-description\">" + this.cook(it.description) + "</p>\n";
     }
     str += "</li>\n";
     return str;
