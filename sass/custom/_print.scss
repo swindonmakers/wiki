@@ -1,0 +1,35 @@
+/*
+  Styles for print
+*/
+
+// Body
+body {
+  margin: 2em !important;
+  padding: 0 !important;
+  font-family: sans-serif;
+  line-height: 1.5em;
+  font-size: 11pt;
+}
+
+// Headers
+h1 {
+  font-size: 14pt;
+}
+h2 {
+  font-size: 13pt;
+}
+h3 {
+  font-size: 12pt;
+}
+h4,h5,h6{
+  font-size: 11pt;
+}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
+  text-decoration: none !important;
+}
+
+// Images
+img {
+  max-width: 50% !important;
+}
+p > img { margin: 0 auto 1.5em; display: block; }
