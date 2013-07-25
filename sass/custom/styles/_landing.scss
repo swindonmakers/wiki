@@ -2,9 +2,21 @@
   Landing Page
 */
 
+// reset background colour
+.landing-page { background-color: $main-bg; border: none; }
+
+// set nav and header link colours
+nav.landing-page a, header.landing-page a {
+  color: #555 !important;
+  text-shadow: none;
+}
+
+// set nav link hover colour
+nav.landing-page a:hover { color: $nav-color-hover !important; }
+
 // padding before image, after text
 div#landing {
-  padding-top: 0.6em !important;
+  padding-top: 0em !important;
   padding-bottom: 1.5em !important;
   a { text-decoration: underline; }
 }
@@ -46,9 +58,6 @@ article#landing-info { padding-top: 0em !important; }
 
 // styles for larger browser widths
 @media only screen and (min-width: 768px) {
-
-  // padding before image
-  div#landing { padding-top: 1em !important; }
 
   // margin after image
   .intro, .recentposts { margin-top: 1em; }

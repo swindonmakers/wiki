@@ -5,9 +5,6 @@
 // centre header title vertically with logo image
 body > header h1 { vertical-align: middle !important; }
 
-// leave space for image
-body > header h1 { width: 75%; }
-
 // position logo relative to hgroup
 body > header > hgroup { position: relative; }
 
@@ -34,18 +31,24 @@ body > header hgroup:before {
     // Use multiple background support to display SVG
     //  Uses standard PNG background as a fallback
     //  http://css-tricks.com/using-svg/
-    background:       url('/images/hackspace_logo.png');
-    // background-image: url('/images/hackspace_logo.svg'), none;
+    background:       url('/images/logo-plain.png');
+    background-image: url('/images/logo-plain.svg'), none;
     background-repeat:no-repeat;
 
     // set image display size and position
-    @include logosize(5em, 0.2em, -0.4em);
+    @include logosize(5.3em, -0.2em, -0.4em);
 
-    // Adjust logo padding/size at larger widths (when header title isn't wrapped)
-    @media only screen and (min-width: 533px) {
-      @include logosize(4.5em, -0.1em, -0.4em);
+    // Adjust logo padding/size at larger widths
+    @media only screen and (min-width: 992px) {
+      @include logosize(5.3em, -0.35em, -0.4em);
     }
 
-    // Only show the logo with browser width >= 320px
-    @media only screen and (min-width: 320px) { display: block; }
+    // Only show the logo at larger widths
+    @media only screen and (min-width: 421px) { display: block; }
 }
+
+// use alternative logo on landing page
+// body > header.landing-page hgroup:before {
+//   background:       url('/images/logo-bg.png');
+//   background-image: url('/images/logo-bg.svg'), none;
+// }

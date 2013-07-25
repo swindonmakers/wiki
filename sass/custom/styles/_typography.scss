@@ -8,10 +8,11 @@ article a {
   &:hover { text-decoration: underline; }
 }
 
+// enable link hover colour for header title
+// body > header a:hover { color: $nav-color-hover !important; }
+
 // Increase size of body text
-body {
-//  font-size: 1.3em !important;
-}
+// body { font-size: 1.3em !important; }
 
 // set all article h1 titles
 article h1 {

@@ -8,15 +8,17 @@ $off-white: scale-color($basecolor, $lightness: 96%);
 $off-white: change-color($off-white, $red: green($off-white));
 
 // header title colours
-$title-color: #555;
+$title-color: darken($off-white, 5);
 //$subtitle-color: #aaa;
 
 // main background colours
-$page-bg:         #252525;
-$header-bg:       $off-white;
-$sidebar-bg:      $header-bg;
-$main-bg:         $header-bg;
+$header-bg:       #4a4a4a;
+$page-bg:         lighten($header-bg, 40);
+$page-bg:         darken($off-white, 10);
 $nav-bg:          $header-bg;
+$main-bg:         $off-white;
+$sidebar-bg:      $main-bg;
+$footer-bg:       $header-bg;
 
 // image used for background
 $noise-bg: top left !default;
