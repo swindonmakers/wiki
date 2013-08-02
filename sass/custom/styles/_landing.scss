@@ -2,20 +2,23 @@
   Landing Page
 */
 
-// reset background colour
-.landing-page { background-color: $main-bg; border: none; }
+// style shared elements
+body.landing-page {
+  // background colours
+  header, nav, footer { background-color: $main-bg; border: none; }
 
-// set nav and header link colours
-nav.landing-page a, header.landing-page a {
-  color: #555 !important;
-  text-shadow: none;
+  // link colours
+  header a, nav a { color: #555 !important; text-shadow: none; }
+
+  // link hover colour
+  nav a:hover { color: $nav-color-hover !important; }
+
+  // remove article right border
+  #content { border-right: none; }
+
+  // remove padding from article
+  article { padding-top: 0em !important; }
 }
-
-// set nav link hover colour
-nav.landing-page a:hover { color: $nav-color-hover !important; }
-
-// remove article right border
-#content { border-right: none; }
 
 // padding before image, after text
 div#landing {
@@ -49,9 +52,6 @@ div#landing {
   // colour separators between links
   color: $link-color-hover;
 }
-
-// remove padding from unused article
-article#landing-info { padding-top: 0em !important; }
 
 // margin after image
 .intro { margin-top: 0.5em; }
