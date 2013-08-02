@@ -36,15 +36,18 @@ body > header hgroup:before {
     background-repeat:no-repeat;
 
     // set image display size and position
-    @include logosize(5.3em, -0.2em, -0.4em);
-
-    // Adjust logo padding/size at larger widths
+    @media only screen and (min-width: 320px) {
+      @include logosize(5.5em, -0.4em, -0.6em);
+    }
+    @media only screen and (min-width: 768px) {
+      @include logosize(5.3em, -0.2em, -0.5em);
+    }
     @media only screen and (min-width: 992px) {
       @include logosize(5.3em, -0.35em, -0.4em);
     }
 
     // Only show the logo at larger widths
-    @media only screen and (min-width: 421px) { display: block; }
+    @media only screen and (min-width: 480px) { display: block; }
 }
 
 // use alternative logo on landing page
