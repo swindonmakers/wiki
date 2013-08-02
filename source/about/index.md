@@ -1,6 +1,7 @@
 ---
 
 layout: page
+title: About the Hackspace
 comments: false
 sharing: false
 footer: false
@@ -8,8 +9,6 @@ sidebar: false
 
 ---
 
-
-### About the Hackspace
 
 ![TestPi](testpi.jpg){:.right}
 
