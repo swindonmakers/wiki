@@ -14,6 +14,9 @@ nav.landing-page a, header.landing-page a {
 // set nav link hover colour
 nav.landing-page a:hover { color: $nav-color-hover !important; }
 
+// remove article right border
+#content { border-right: none; }
+
 // padding before image, after text
 div#landing {
   padding-top: 0em !important;
