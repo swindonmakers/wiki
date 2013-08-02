@@ -12,11 +12,10 @@ $title-color: darken($off-white, 5);
 //$subtitle-color: #aaa;
 
 // main background colours
-$header-bg:       #4a4a4a;
-$page-bg:         lighten($header-bg, 40);
 $page-bg:         darken($off-white, 10);
-$nav-bg:          $header-bg;
 $main-bg:         $off-white;
+$header-bg:       #4a4a4a;
+$nav-bg:          $header-bg;
 $sidebar-bg:      $main-bg;
 $footer-bg:       $header-bg;
 

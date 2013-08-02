@@ -54,17 +54,8 @@ aside.sidebar {
   }
 }
 
-// sidebar border/toggle position
-.toggle-sidebar {
-  // set position
-  top: 40px;
-  // add left border
-  border-left: 1px solid $sidebar-border;
-  // hide tab
-  &::after { display: none; }
-}
-// remove article right border
-#content { border-right: none; }
+// hide sidebar tab
+.toggle-sidebar { &::after { display: none; } }
 
 
 /*
