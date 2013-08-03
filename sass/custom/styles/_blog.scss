@@ -11,7 +11,7 @@ article p > img { margin: 0 auto 1.5em; display: block; }
 }
 
 // max image widths when floated
-@media only screen and (min-width: 400px) {
+@media only screen and (min-width: 480px) {
   article { img.right, img.left { max-width: 400px; max-height: 290px; } }
 }
 
