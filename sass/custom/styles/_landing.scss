@@ -28,7 +28,7 @@ div#landing {
 }
 
 // common styles for landing page text
-.intro, .recentposts {
+#intro, #recentposts {
   p  {
     font-size: 0.9em;
     line-height: 1.5em;
@@ -41,47 +41,47 @@ div#landing {
 }
 
 // title link for post summaries
-.recentposts > h3 > a {
+#recentposts > h3 > a {
   color: inherit !important;
   text-decoration: none !important;
   &:hover { color: $link-color-hover !important; }
 }
 
 // links shown for related sites/profiles
-.introlinks {
+#introlinks {
   // colour separators between links
   color: $link-color-hover;
 }
 
 // margin after image
-.intro { margin-top: 0.5em; }
+#intro { margin-top: 0.5em; }
 
 // margin between intro and recent
-.recentposts { margin-top: 1.5em; }
+#recentposts { margin-top: 1.5em; }
 
 // styles for larger browser widths
 @media only screen and (min-width: 768px) {
 
   // margin after image
-  .intro, .recentposts { margin-top: 1em; }
+  #intro, #recentposts { margin-top: 1em; }
 
   // float intro and recentposts across the page
-  .intro {
+  #intro {
     float: left;
     margin-right: 2em;
   }
-  .recentposts {
+  #recentposts {
     float: right;
     text-align: right;
     padding-top: 0em;
   }
 
   // add right border to recentposts
-  .recentposts {
+  #recentposts {
     border-right: 4px solid $link-color !important;
     padding-right: 1em;
   }
 
   // bottom align links to recent posts
-  .introlinks { padding-top: 1em; }
+  #introlinks { padding-top: 1em; }
 }

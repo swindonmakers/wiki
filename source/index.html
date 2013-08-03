@@ -10,18 +10,18 @@ $('document').ready(function() {
 </script>
 
 <div id="landing">
-  <img class="headerimage" src="/images/site_pano.jpg" alt="Header Image" width=100% class="center">
+  <img src="/images/site_pano.jpg" alt="Header Image" width=100% class="center">
 
   <article>
 
-    <div class="intro">
+    <div id="intro">
 
       <h3><a href="/about">About the Hackspace</a></h3>
 
       <p>Meetings are held from 6.30pm each</p>
       <p>Wednesday, at the Museum of Computing</p>
 
-      <p class='introlinks'>
+      <p id='introlinks'>
         <a href="{{ site.rss_feed_title_url }}">Group</a> -
         <a href="http://twitter.com/{{site.twitter_user}}">Twitter</a> -
         <a href="http://www.youtube.com/user/{{ site.youtube }}">YouTube</a> -
@@ -30,18 +30,16 @@ $('document').ready(function() {
 
     </div>
 
-    <div class="recentposts">
+    <div id="recentposts">
       <h3><a href="{{ root_url }}/blog/">Latest Posts</a></h3>
 
       {% for post in site.posts limit: 2 %}
         <p>
-
           <a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a><br/>
-
-          <span class='summary'>{% if post.summary %}{{ post.summary }}{% else %}{{ post.content | summary }}{% endif %}<br/></span>
-
+          {% if post.summary %}{{ post.summary }}{% else %}{{ post.content | summary }}{% endif %}<br/>
         </p>
       {% endfor %}
+
     </div>
 
   </article>
