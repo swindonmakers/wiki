@@ -2,36 +2,26 @@
   Styles for print
 */
 
-// Body
+// main body style
 body {
-  margin: 2em !important;
-  // padding: 0 !important;
+  color: black;
+  font-size: 12pt;
   font-family: sans-serif;
   line-height: 1.5em;
-  font-size: 11pt;
+  // work around no support for @page in safari
+  margin: 1.5cm 1.5cm;
 }
 
-// Headers
-h1 {
-  font-size: 14pt;
-}
-h2 {
-  font-size: 13pt;
-}
-h3 {
-  font-size: 12pt;
-}
-h4,h5,h6{
-  font-size: 11pt;
-}
-h1 a,h2 a,h3 a,h4 a,h5 a,h6 a {
-  text-decoration: none !important;
-}
+// page margins (not supported by safari)
+// @page { margin: 1.5cm 1.5cm; }
 
-// Images
-img {
-  max-width: 50%;
-}
+// don't underline headers
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a { text-decoration: none; }
+
+// limit image width
+img { max-width: 50%; }
+
+// centre images in paragraph
 p > img { margin: 0 auto 1.5em; display: block; }
 
 // hide twitter buttons
@@ -42,3 +32,9 @@ video, .flash-video { display: none; }
 
 // smaller footer text
 body > footer { font-size: 0.8em; padding-top: 2em; }
+
+// blockquote style
+pre, blockquote { border: none; }
+
+// add page break between articles
+// article + article { page-break-before: always; }
