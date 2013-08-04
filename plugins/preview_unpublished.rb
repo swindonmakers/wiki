@@ -17,6 +17,9 @@ module Jekyll
       return unless File.exists?(base)
       entries = Dir.chdir(base) { filter_entries(Dir['**/*']) }
 
+      # set site.preview using octopress environment variable
+      self.config['preview'] = ENV['OCTOPRESS_ENV'] == 'preview'
+
       # first pass processes, but does not yet render post content
       entries.each do |f|
         if Post.valid?(f)
