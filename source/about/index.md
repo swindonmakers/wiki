@@ -2,8 +2,7 @@
 
 layout: page
 title: About the Hackspace
-comments: false
-sharing: false
+description: About the Swindon Hackspace
 footer: false
 sidebar: false
 

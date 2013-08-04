@@ -37,6 +37,7 @@ plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
 category_feeds: true
+category_meta_description_prefix: 'Articles for Category: '
 rdiscount:
   extensions:
     - autolink
