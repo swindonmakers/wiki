@@ -2,7 +2,7 @@
 
 layout: post
 title: "Resources for Using Git"
-summary: Some useful links for using Git
+subtitle: Some useful links for using Git
 date: 2012-09-29 20:35
 author: Jamie Osborne
 categories: [git, tools]

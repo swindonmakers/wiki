@@ -2,9 +2,9 @@
 
 layout: post
 title: "Gyrobot Resurrection"
+subtitle: A guest arrives for "Robots Revealed"
 date: 2013-06-28
 author: Steve Wood, AKA Gyrobot
-summary: A guest arrives for "Robots Revealed"
 categories: [meetings]
 
 ---

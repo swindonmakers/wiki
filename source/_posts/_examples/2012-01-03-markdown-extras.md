@@ -2,10 +2,10 @@
 
 layout: post
 title: Markdown Extras
+subtitle: Some non-standard markdown extensions
 date: 2012-01-03 15:56
 author: Git User
 categories: [demo, markdown]
-summary: Some non-standard markdown extensions
 
 ---
 
