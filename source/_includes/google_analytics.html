@@ -1,4 +1,4 @@
-{% if site.google_analytics_tracking_id %}
+{% if site.google_analytics_tracking_id and site.preview != true %}
   <script type="text/javascript">
     var _gaq = _gaq || [];
     _gaq.push(['_setAccount', '{{ site.google_analytics_tracking_id }}']);
@@ -10,4 +10,6 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
   </script>
+{% else %}
+  <!-- :: debug mode - google_analytics_tracking is not enabled :: -->
 {% endif %}
