@@ -37,7 +37,7 @@ $('document').ready(function() {
       {% for post in site.posts limit: 2 %}
         <p>
           <a href="{{ root_url }}{{ post.url }}">{% if site.titlecase %}{{ post.title | titlecase }}{% else %}{{ post.title }}{% endif %}</a><br/>
-          {% if post.summary %}{{ post.summary }}{% else %}{{ post.content | summary }}{% endif %}<br/>
+          {% if post.summary %}{{ post.summary | truncate:45 }}{% else %}{{ post.content | raw_content | strip_html | condense_spaces | truncate:45 }}{% endif %}<br/>
         </p>
       {% endfor %}
 
