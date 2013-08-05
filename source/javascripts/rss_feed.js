@@ -41,7 +41,7 @@ function rss_feed_Linkroll(target) {
   this.cook = function(v) {
     return v.replace(/<(br|p)>/g, ' ').replace('<', '&lt;').replace('>', '&gt;');
   }
-  this.cook_with_linebreaks = function(v) {
+  this.cook_linebreaks = function(v) {
     return v.replace(/<br>/g, ' ').replace(/<p>/g, '<br /><br />').replace(/<\/p>/g, '');
   }
 
@@ -50,7 +50,7 @@ function rss_feed_Linkroll(target) {
     str += "<a class=\"rss_feed-title\" href=\"" + this.cook(it.link) + "\">" +
             this.cook(it.title.replace(/^(Re: \[shs\] )?Re: /, '')) + "</a>";
     if (it.description) {
-      str += "<p class=\"rss_feed-description\">" + this.cook(it.description) + "</p>\n";
+      str += "<p class=\"rss_feed-description\">" + this.cook_linebreaks(it.description) + "</p>\n";
     }
     str += "</li>\n";
     return str;
