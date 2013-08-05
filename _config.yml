@@ -6,7 +6,7 @@ url: http://swindon.hackspace.org.uk
 title: Swindon Hackspace
 # subtitle: A blogging framework for hackers.
 author: Swindon Hackspace
-# simple_search: http://google.com/search
+simple_search: http://google.com/search
 description:
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
@@ -20,8 +20,6 @@ subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
-# Show link to feed in sidebar links
-# subscribe_show_in_sidebar: true
 
 # ----------------------- #
 #    Jekyll & Plugins     #

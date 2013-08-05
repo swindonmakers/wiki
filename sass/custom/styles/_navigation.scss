@@ -16,6 +16,12 @@ body > nav > ul li + li { border-left: 0px; a { border-left: 0px; } }
 // hide subscription links
 body > nav { .subscription { display: none; } }
 
+// don't show search field in nav bar
+nav fieldset[role="search"] { display: none; }
+
+// don't show mailing list
+nav a[rel="subscribe-email-no-icon"] { display: none; }
+
 // Less padding between nav items
 body > nav > ul > li { margin-right: .6em; a { padding: 0; } }
 

@@ -4,3 +4,11 @@
 
 // use plain background, without image
 html { background: $page-bg; }
+
+// A better looking default horizontal rule (from h5bp.com)
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+}
