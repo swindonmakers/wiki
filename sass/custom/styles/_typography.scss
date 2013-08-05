@@ -2,17 +2,11 @@
   Text and links
 */
 
-// Don't underline links
-article a {
-  text-decoration: none;
-  &:hover { text-decoration: underline; }
-}
-
-// enable link hover colour for header title
-// body > header a:hover { color: $nav-color-hover !important; }
-
 // Increase size of body text
 // body { font-size: 1.3em !important; }
+
+// underline header title links
+article > header a { text-decoration: underline !important; }
 
 // set all article h1 titles
 article h1 {
