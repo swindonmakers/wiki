@@ -18,7 +18,7 @@ Add `post_images.rb` file to your jekyll `_plugins` directory.
 
 Put source assets into a folder within `_posts/_assets`, named to match the post.
 
-Reference assets in the generated folder from your post using `./<filename>`
+Reference assets in the generated folder using a relative path: `Image.jpg`.
 
 
 ### Example
@@ -33,4 +33,4 @@ Add assets to the folder `_posts/_assets/2013-07-03-my-blog-post`.
     date: 2013-07-03
     ---
 
-    ![My Image](./Image.jpg)
+    ![My Image](Image.jpg)

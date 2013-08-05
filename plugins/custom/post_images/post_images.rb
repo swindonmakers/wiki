@@ -6,7 +6,7 @@
 # Put source assets into a folder within `_posts/_assets`, named to match the post
 #
 # Syntax:
-# Reference assets in the generated folder from your post using `./`
+# Reference assets in the generated folder using a relative path: `Image.jpg`
 #
 module Jekyll
 
@@ -40,7 +40,7 @@ module Jekyll
     alias_method :_post_images_retained_transform, :transform
 
     #
-    # Replace URLs starting with './' to use post.url
+    # Expand relative URLs using the post's url
     #
     def transform
       # call original method
@@ -48,8 +48,11 @@ module Jekyll
 
       return if not self.ext.match('html|textile|markdown|md|haml|slim')
 
-      # replace './' with path relative to site root
-      self.content.gsub! /(\s+(href|src)\s*=\s*["|']{1}).\/([^\"'>]*)/ do
+      # return if post url does not point to a folder
+      return if not self.url.match(/^.*\/$/)
+
+      # expand relative url by prefixing path (relative to site root)
+      self.content.gsub! /(\s+(href|src)\s*=\s*["|']{1})(?!https?:\/\/|\/)([^\"'>]*)/ do
         $1 + self.url + $3
       end
 
