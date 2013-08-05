@@ -45,7 +45,7 @@ aside.sidebar { border-top: 2px solid $sidebar-bg; }
 // sidebar elements
 aside.sidebar {
   // no underline for aside links
-  a { text-decoration: none; }
+  li a { text-decoration: none; }
   // no bottom borders and padding
   li {
     border-bottom: 0px;
