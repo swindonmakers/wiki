@@ -3,7 +3,7 @@
 layout: page
 title: About the Hackspace
 description: About the Swindon Hackspace
-footer: false
+sharing: false
 sidebar: false
 
 ---
