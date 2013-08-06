@@ -9,18 +9,25 @@ categories: [demo, markdown]
 
 ---
 
+
 Paragraphs of text are separated with a blank line. Lines within a paragraph will be
 merged, which allows the plain text to be hard wrapped for readability.
 
 End a line with two spaces,  
 if you must force a line break.
 
-Here's a [link to github](http://github.com), some text with *italic* and **bold**
-formatting, and an image:
+Here's a [link to github](http://github.com "This title is optional"), some text with
+*italic* and **bold** formatting, and an image:
 
-![Github's Octocat](https://github.com/images/icons/emoji/octocat.png "This title is optional")
+![Github's Octocat](https://github.com/images/icons/emoji/octocat.png "Optional title")
 
 <!-- more -->
+
+Note: to simply make a plain text URL clickable, enclose it in angle brackets:
+<http://github.com>.
+
+
+## Block Elements
 
 - This is
 - an unordered list
@@ -38,11 +45,11 @@ To include code samples:
     Indent with 1 tab or 4 spaces to *prevent* conversion by markdown
     Code such as HTML can shown without being interpreted: <!-- comment -->
 
-Markup short phrases of code inline, by wrapping with the `back tick character`.
+Short phrases of code can be marked up inline, by wrapping with the `back tick character`.
 
 ---
 
-Add a horizonal rule `<hr>` by adding three or more dashes/asterisks.
+Add a horizonal rule `<hr>` by adding three or more dashes or asterisks.
 
 
 ## Reference Links

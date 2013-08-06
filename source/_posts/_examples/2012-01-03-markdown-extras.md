@@ -9,6 +9,7 @@ categories: [demo, markdown]
 
 ---
 
+
 The markdown renderer used for this site is [kramdown]. It adds many advanced extensions
 to the syntax, some of which are demonstrated here.
 

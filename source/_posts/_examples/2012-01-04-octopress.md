@@ -10,6 +10,7 @@ categories: [demo, octopress]
 
 ---
 
+
 The metadata shown above can have a `title` that differs from that used in the filename.
 This can be useful if you want a shorter link to the post, or you want to change the
 title later (without breaking links that exist elsewhere).
