@@ -22,6 +22,9 @@ article p > img { margin: 0 auto 1.5em; display: block; }
   }
 }
 
+// padding between articles
+article + article { .blog-index & { padding-top: 2em !important; }}
+
 // add padding after sharing buttons
 .sharing + .meta { padding-top: 2em; }
 

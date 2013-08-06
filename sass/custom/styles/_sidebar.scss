@@ -73,6 +73,6 @@ aside.sidebar {
 
 
 // Use top padding that matches width: >= 992px
-@media only screen and (min-width: 768px) {
-  aside.sidebar { padding-top: 1.2em; }
+@media only screen and (min-width: 992px) {
+  aside.sidebar { padding-top: 1.15em; }
 }
