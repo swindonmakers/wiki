@@ -17,7 +17,7 @@ to the syntax, some of which are demonstrated here.
 <!-- more -->
 
 
-## Common Extensions
+## Common Extensions [common]
 
 *Many non-standard "flavours" of markdown feature these common extensions.*
 
@@ -31,7 +31,7 @@ Similar to reference style links, are footnote links[^moreinfo].
 [^moreinfo]: here is some more info, that will appear at the bottom of the page.
 
 Automatic creation of [header IDs] makes it easy to link to various
-[sections](common-extensions) within your post.
+[sections](#common) within your post.
 
 [header IDs]: http://kramdown.rubyforge.org/converter/html.html#auto-ids
 
