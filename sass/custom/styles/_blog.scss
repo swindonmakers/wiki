@@ -23,7 +23,7 @@ article p > img { margin: 0 auto 1.5em; display: block; }
 }
 
 // add padding after sharing buttons
-.sharing { padding-bottom: 2em; }
+.sharing + .meta { padding-top: 2em; }
 
 // make article padding consistent
 .blog-index > article { padding-top: 1em !important; }
