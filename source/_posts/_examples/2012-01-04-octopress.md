@@ -58,9 +58,7 @@ Reference post assets such as images, by using relative paths:
     ![MyImage](MyImageFile.jpg)
 
 *The post asset folder should be named `YYYY-MM-DD-name-of-post`, and located within
-[source/_posts/_assets].*
-
-[source/_posts/_assets]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_assets
+[source/_posts/_assets](../_assets).*
 
 
 ### Recurring Posts
@@ -79,6 +77,4 @@ regular feature posts, where the date is needed to provide a unique URL.
 
 ## More Examples
 
-See the [examples] folder for more uses of markdown and octopress syntax.
-
-[examples]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_examples
+See the [examples](.) folder for more uses of markdown and octopress syntax.

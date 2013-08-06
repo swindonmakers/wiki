@@ -64,6 +64,4 @@ Link to the [octocat][] shown below:
 
 ## More Examples
 
-See the [examples] folder for more uses of markdown and octopress syntax.
-
-[examples]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_examples
+See the [examples](.) folder for more uses of markdown and octopress syntax.
