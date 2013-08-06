@@ -31,7 +31,7 @@ Similar to reference style links, are footnote links[^moreinfo].
 [^moreinfo]: here is some more info, that will appear at the bottom of the page.
 
 Automatic creation of [header IDs] makes it easy to link to various
-[sections][common-extensions] within your post.
+[sections](common-extensions) within your post.
 
 [header IDs]: http://kramdown.rubyforge.org/converter/html.html#auto-ids
 
