@@ -22,19 +22,13 @@ If you significantly update your post, you can note this in the metadata by addi
 
 ## Octopress Plugins
 
-Octopress includes it's own [plugins], as well as those provided by [jekyll], the static
-site generator it uses.
+***Octopress includes it's own [plugins], as well as those provided by [jekyll][] (the static
+site generator it uses).***
 
 [plugins]: http://octopress.org/docs/blogging/plugins/
 [jekyll]: http://jekyllrb.com/
 
-Fenced code blocks are [just one way][code] to include code with syntax highlighting:
-
-```bash
-$ cd my-project
-$ git init
-Initialized empty Git repository in my-project/.git/
-```
+Fenced [code blocks] use a syntax similar to github's, and support syntax highlighting:
 
 ```ruby
 require 'redcarpet'
@@ -42,28 +36,45 @@ markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
 
-[code]: http://octopress.org/docs/blogging/code/
-
-
-## Liquid Tags
-
-[Liquid] is a template engine which parses text and renders output using a selection of
-[filters and tags].
-
-The image tag allows left/right/centre placement and size parameters:
-
-{% img center http://mac.github.com/images/promo-screenshot.png GitHub for Mac %}
-
-[Liquid]: https://github.com/Shopify/liquid/wiki
-[filters and tags]: https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
-[Octopress plugins]: http://octopress.org/docs/blogging/plugins/
+[code blocks]: http://octopress.org/docs/blogging/code/
 
 
 ## Custom Plugins
 
-Plugins that are not standard in octopress, but are used on this site.
+***Plugins used on this site, but not installed with octopress by default.***
 
-{% youtube _HGV4Ppnx14 %}
+
+### YouTube Tag
+
+Easily embed youtube videos into your post:
+
+    {% youtube _HGV4Ppnx14 %}
+
+
+### Post Assets
+
+Reference post assets such as images, by using relative paths:
+
+    ![MyImage](MyImageFile.jpg)
+
+*The post asset folder should be named `YYYY-MM-DD-name-of-post`, and located within
+[source/_posts/_assets].*
+
+[source/_posts/_assets]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_assets
+
+
+### Recurring Posts
+
+Set `recurring_title: true` if a post's title is likely to be duplicated. Intended for
+regular feature posts, where the date is needed to provide a unique URL.
+
+    ---
+    layout: post
+    title: Weekly News
+    subtitle: One of many articles with the same title
+    date: 2012-01-04 18:12
+    recurring_title: true
+    ---
 
 
 ## More Examples
