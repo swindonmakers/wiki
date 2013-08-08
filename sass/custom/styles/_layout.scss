@@ -2,3 +2,6 @@
   Layout
 */
 
+// padding between articles
+article + article { .blog-index & { padding-top: 2em !important; }}
+
