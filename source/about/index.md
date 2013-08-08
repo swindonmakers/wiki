@@ -38,7 +38,9 @@ Internet access is available via WiFi and Ethernet, we also have computers avail
 
 ### Online Presence
 
-The hackspace is active on [Google Groups], [Twitter], [YouTube], and [Github].  Related articles and writeups are published on [swindon.hackspace.org.uk][] (submissions welcome!).
+The hackspace is active on [Google Groups], [Twitter], [YouTube], and [Github].
+
+Related articles are published on [swindon.hackspace.org.uk][] (submissions [welcome]!).
 
 [Museum of Computing]: http://museumofcomputing.org.uk
 [view map]: http://maps.google.co.uk/?q=The+Museum+Of+Computing&cid=1649343045243643722
@@ -47,4 +49,6 @@ The hackspace is active on [Google Groups], [Twitter], [YouTube], and [Github]. 
 [Twitter]: http://twitter.com/{{site.twitter_user}}
 [YouTube]: http://www.youtube.com/user/{{ site.youtube }}
 [Github]: http://github.com/{{site.github_user}}
+
 [swindon.hackspace.org.uk]: http://swindon.hackspace.org.uk
+[welcome]: https://github.com/snhack/snhack.github.com/blob/source/source/README.md
