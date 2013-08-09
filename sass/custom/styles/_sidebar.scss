@@ -36,7 +36,7 @@ aside.sidebar > section > h1 {
 // use footersidebar style when manually collapsed, or for smaller width
 aside.sidebar {
   .collapse-sidebar & { @include footersidebar; }
-  @media only screen and (max-width: 767px) { @include footersidebar; }
+  @media not screen and (min-width: 768px) { @include footersidebar; }
 }
 
 // hide standard border top (using background colour to avoid issues)

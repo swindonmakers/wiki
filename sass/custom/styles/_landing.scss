@@ -58,7 +58,7 @@ div#landing {
 }
 
 // margin after image
-#intro { margin-top: 0.5em; }
+#intro { margin-top: 0.7em; }
 
 // margin between intro and recent
 #recentposts { margin-top: 1.5em; }
@@ -67,7 +67,7 @@ div#landing {
 @media only screen and (min-width: 768px) {
 
   // margin after image
-  #intro, #recentposts { margin-top: 1em; }
+  #intro, #recentposts { margin-top: 1.3em; }
 
   // float intro and recentposts across the page
   #intro {
@@ -89,3 +89,10 @@ div#landing {
   // bottom align links to recent posts
   #introlinks { padding-top: 1em; }
 }
+
+// styles for medium browser widths
+@media only screen and (min-width: 768px) and (max-width: 880px) {
+  // use smaller font to make room between recentposts and introlinks
+  body#landing-page article { font-size: 0.9em !important; }
+}
+

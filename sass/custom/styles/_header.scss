@@ -1,0 +1,15 @@
+/*
+  Header
+*/
+
+// Use larger header size at narrow widths
+@media only screen and (min-width: 550px) {
+  body { -webkit-text-size-adjust: auto; }
+  body > header { font-size: $header-font-size * 1.2; }
+  // .toggle-sidebar { display: none !important; }
+}
+@media only screen and (min-width: 768px) {
+  body > header { font-size: $header-font-size * 1.3; }
+  body { font-size: 1.15em; }
+}
+
