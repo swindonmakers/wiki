@@ -4,6 +4,10 @@
 
 // style shared elements
 body#landing-page {
+  // force vertical scroll bar, hack to ensure consistency
+  // between pages on browsers with fixed scroll bars
+  overflow-y: scroll;
+
   // background colours
   header, nav, footer { background-color: $main-bg; border: none; }
 
