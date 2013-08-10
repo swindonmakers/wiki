@@ -13,9 +13,10 @@ $header-subtitle-font-family: $sans;
 // set header title size
 $header-font-size: 0.8em;
 
-// default font weights
-// .sans     { font-weight: 300; }
-// .serif    { font-weight: 300; }
+// set font weights
+$header-font-weight: normal;
+$heading-font-weight: normal;
+$article-font-weight: normal;
 
 // Font to use for monospaced text
 // $mono: 'Source Code Pro', Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;

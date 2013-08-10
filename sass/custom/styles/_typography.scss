@@ -8,23 +8,16 @@
 // underline header title links
 article > header a { text-decoration: underline !important; }
 
-// set all article h1 titles
-article h1 {
-  font-size: 1.5em !important;
-  font-weight: normal;
-}
+// article font weights
+article { font-weight: $article-font-weight; }
 
-// set all article h2 titles
-article h2 {
-  font-size: 1.4em !important;
-  font-weight: normal;
-}
+// heading font weight
+#{headings()}{ font-weight: $heading-font-weight; }
 
-// set all article h3 titles
-article h3 {
-  font-size: 1.2em !important;
-  font-weight: normal;
-}
+// article heading sizes
+article h1 { font-size: 1.5em !important; }
+article h2 { font-size: 1.4em !important; }
+article h3 { font-size: 1.2em !important; }
 
 // normal font size for blockquotes
 blockquote {
