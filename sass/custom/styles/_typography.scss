@@ -9,7 +9,7 @@
 article > header a { text-decoration: underline !important; }
 
 // article font weights
-article { font-weight: $article-font-weight; }
+article, aside { font-weight: $article-font-weight; }
 
 // heading font weight
 #{headings()}{ font-weight: $heading-font-weight; }

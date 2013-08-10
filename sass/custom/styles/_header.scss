@@ -3,7 +3,8 @@
 */
 
 // header style
-body > header *, body > nav { font-weight: $header-font-weight; }
+body > header * { font-weight: $header-font-weight; }
+body > nav      { font-weight: $nav-font-weight; }
 
 // Use larger header size at narrow widths
 @media only screen and (min-width: 550px) {
