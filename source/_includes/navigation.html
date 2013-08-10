@@ -3,7 +3,7 @@
   {% if site.subscribe_email %}
     <li><a href="{{ site.subscribe_email }}" rel="subscribe-email-no-icon" title="Subscribe via email">Mailing List</a></li>
   {% endif %}
-  <li><a href="{{ site.subscribe_rss }}" rel="subscribe-rss-no-icon" title="Subscribe via RSS">RSS</a></li>
+  <li><a href="{{ site.url | replace: 'http://', 'feed://' }}{{ site.subscribe_rss }}" rel="subscribe-rss-no-icon" title="Subscribe via RSS">RSS</a></li>
 </ul>
   {% if site.simple_search %}
 <form action="{{ site.simple_search }}" method="get">
