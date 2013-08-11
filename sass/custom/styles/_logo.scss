@@ -40,10 +40,10 @@ body > header hgroup:before {
       @include logosize(5.6em, -0.45em, -0.6em);
     }
     @media only screen and (min-width: 550px) {
-      @include logosize(6.2em, -0.65em, -0.5em);
+      @include logosize(5.9em, -0.65em, -0.5em);
     }
     @media only screen and (min-width: 768px) {
-      @include logosize(6.2em, -0.70em, -0.4em);
+      @include logosize(6.0em, -0.70em, -0.4em);
     }
 
     // Only show the logo at larger widths

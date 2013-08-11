@@ -2,6 +2,9 @@
   Navigation
 */
 
+// no padding for top of nav
+body > nav { padding-top: 0em; }
+
 // match nav bar padding to header
 @media only screen and (min-width: 550px) {
   body > nav { padding-bottom: 1.6em; }
@@ -44,7 +47,7 @@ body > nav > ul > li { margin-right: .6em; a { padding: 0; } }
 
   // adjust header and nav bar padding
   body > header { padding-top: 1.1em; }
-  body > nav { padding-bottom: 1.2em; padding-top: 0em; }
+  body > nav { padding-bottom: 1.2em; }
 
   // less padding between nav items
   body > nav > ul {
