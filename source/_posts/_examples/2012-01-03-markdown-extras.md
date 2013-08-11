@@ -21,6 +21,9 @@ to the syntax, some of which are demonstrated here.
 
 *Many non-standard "flavours" of markdown feature these common extensions.*
 
+
+
+
 Empty brackets after a reference link can be omitted - so long as the meaning is
 unambiguous.  e.g. instead of [github][], you can use [github].
 
