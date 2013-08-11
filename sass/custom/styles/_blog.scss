@@ -14,13 +14,11 @@ article > header {
 article p > img { margin: 0 auto 1.5em; display: block; }
 
 // set maximum width for images, videos
-@media only screen and (min-width: 960px) {
-  article { img, video, .flash-video { max-width: 640px; } }
-}
+article { img, video, .flash-video { max-width: 80%; } }
 
 // max image widths when floated
-@media only screen and (min-width: 480px) {
-  article { img.right, img.left { max-width: 400px; max-height: 290px; } }
+@media only screen and (min-width: 960px) {
+  article { img.right, img.left { max-width: 50%; } }
 }
 
 // Don't float post text around images at smaller browser widths

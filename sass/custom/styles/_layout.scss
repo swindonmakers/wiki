@@ -5,3 +5,6 @@
 // padding between articles
 article + article { .blog-index & { padding-top: 2em !important; }}
 
+// ensure minimum article height on index
+div.entry-content { min-height: 200px; }
+
