@@ -5,6 +5,9 @@
 // no padding for top of nav
 body > nav { padding-top: 0em; }
 
+// fix for visible line when zooming
+body > nav { margin-top: -1px; }
+
 // match nav bar padding to header
 @media only screen and (min-width: 550px) {
   body > nav { padding-bottom: 1.6em; }

@@ -130,6 +130,16 @@ module OctopressLiquidFilters
     input.titlecase
   end
 
+
+  #
+  # custom filters added below
+  #
+
+  # Remove images from raw html
+  def text_only(input)
+    input.to_s.gsub(/<img.*?>/m, '')
+  end
+
 end
 Liquid::Template.register_filter OctopressLiquidFilters
 

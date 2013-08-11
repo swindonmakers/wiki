@@ -16,7 +16,11 @@
   </header>
 {% endunless %}
 {% if index %}
-  <div class="entry-content">{{ content | excerpt }}</div>
+  {% if post.image %}
+    {% capture localfile %}{{ post.image | replace: '://' }}{% endcapture %}
+    <img class="right" id="title-image" src="{% if post.image == localfile %}{{ post.url }}{% endif %}{{ post.image }}" />
+  {% endif %}
+  <div class="entry-content">{{ content | excerpt | raw_content | text_only }}</div>
   {% capture excerpted %}{{ content | has_excerpt }}{% endcapture %}
   {% if excerpted == 'true' %}
     <footer>

@@ -7,9 +7,9 @@ description: Project Articles
   {% assign index = true %}
   {% for post in site.categories['projects'] %}
     {% assign content = post.content %}
-      <article>
-        {% include article.html %}
-      </article>
+    <article {% if post.image %} class="withimage" {% endif %}>
+      {% include article.html %}
+    </article>
   {% endfor %}
 </div>
 <aside class="sidebar">
