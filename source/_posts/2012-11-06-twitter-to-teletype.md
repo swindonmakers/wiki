@@ -6,14 +6,13 @@ subtitle: Getting a museum piece to print tweets
 date: 2012-11-06 20:06
 author: RobertCL
 categories: [projects, tty, pi]
+image: https://github.com/snhack/TwitterToTeletype/wiki/images/TeletypeComplete.jpg
 
 ---
 
-![Teletype](https://github.com/snhack/TwitterToTeletype/wiki/images/Teletype.jpg){:.right}
-
-*cross posted from [TwitterToTeletype/wiki](https://github.com/snhack/TwitterToTeletype/wiki)*
-
 The [Museum of Computing](http://www.museum-of-computing.org.uk/) in Swindon has a working Teletype and a desire to get it to print out tweets as part of a display in the museum.  Since the [Swindon Hackspace](https://groups.google.com/forum/?hl=en&fromgroups=#!forum/swindon-hackspace) is based in the museum it was a perfect project for hackspace members.
+
+![Teletype](https://github.com/snhack/TwitterToTeletype/wiki/images/Teletype.jpg)
 
 <!-- more -->
 
@@ -63,3 +62,5 @@ A C# application was written to connect to the twitter API and pickup tweets sen
 * [Current loop on Wikipedia](http://en.wikipedia.org/wiki/Current_loop)
 * [Source Code](https://github.com/snhack/TwitterToTeletype)
 * [Raspberry Pi](http://www.raspberrypi.org/)
+
+*This article was originally posted at: [TwitterToTeletype/wiki](https://github.com/snhack/TwitterToTeletype/wiki)*

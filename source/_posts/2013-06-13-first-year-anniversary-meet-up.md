@@ -6,15 +6,16 @@ subtitle: The hackspace has its first birthday
 date: 2013-06-13 20:06
 author: Steve Wood, AKA Gyrobot
 categories: [meetings]
+image: 3D Prints.jpg
 
 ---
-
-![Sir Daniel Arms](Sir Daniel Arms.jpg){:.right}
 
 On June 5th we celebrated our 1st year anniversary. Rather than attend a usual meet we decided to relocate the Hackspace to the more informal surroundings of the [Sir Daniel Arms](http://swindonhistory.blogspot.co.uk/2011/12/sir-daniel-arms.html "http://swindonhistory.blogspot.co.uk/2011/12/sir-daniel-arms.html") for a bite to eat and some drinks:
 
 We met at the [Museum of Computing](http://www.museum-of-computing.org.uk/ "http://www.museum-of-computing.org.uk/") between 6:30 and 7pm, left a map to the pub for any late shows before taking the short walk down town. An unusual collection of reprobates we must have looked, but soon realising that we actually fitted in quite well with the other townsfolk. It's cool not to be cool I always tell my kids.
 <!-- more -->
+
+![Sir Daniel Arms](Sir Daniel Arms.jpg)
 
 When we arrived at the pub, it was surprisingly busy, with all the tables seemingly taken. However we soon flexed our substantial muscles and hacked together a collection of smaller seats, stools, loungers to make some sort of makeshift eating area.
 

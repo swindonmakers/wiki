@@ -6,18 +6,19 @@ subtitle: A guest arrives for "Robots Revealed"
 date: 2013-06-28
 author: Steve Wood, AKA Gyrobot
 categories: [meetings]
+image: gyrobot.jpg
 
 ---
-
-![Gyrobot](gyrobot.jpg){:.right}
 
 Gyrobot was made available to the [Swindon Museum of Computing](http://www.museum-of-computing.org.uk/ "http://www.museum-of-computing.org.uk/") on Hackspace night; 19th June 2013 for their upcoming [Robots Revealed](http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed "http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed") exhibition.
 
 For those that are not familiar with Gyrobot, it was my (Steve Wood) entry into the UK Robot Wars series 6 and 7, back in 2002.
 
+<!-- more -->
+
 Gyrobot originally started its journey in 2000 with myself, a Robot Wars fan deciding to design and build a Swindon entry for the UK version of Robot Wars. 3 years later and after 1 failed audition, it appeared on Series 7 which was filmed in Nottingham August 2003 and screened in November.
 
-<!-- more -->
+![Gyrobot](gyrobot.jpg)
 
 This entry was named Gyrobot from the word Gyrate which is to spin/revolve and to rotate in circles, and erm - robot! Also "Gyro" is short for gyroscope, a device that spins. I have now affectionately adopted this name for many of my online avatars, my design and 3D printing company is unashamedly named after it too ([Gyrobot Ltd](http://www.gyrobot.co.uk "http://www.gyrobot.co.uk")).
 

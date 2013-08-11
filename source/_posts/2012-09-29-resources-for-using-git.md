@@ -6,10 +6,9 @@ subtitle: Some useful links for using Git
 date: 2012-09-29 20:35
 author: Jamie Osborne
 categories: [git, tools]
+image: http://mac.github.com/images/promo-screenshot.png
 
 ---
-
-*cross posted from [http://jmeosbn.github.com](http://jmeosbn.github.com/blog/resources-for-using-git/)*
 
 Here's some basic resources to get started pushing code to github.
 
@@ -17,14 +16,13 @@ Note: As well as computer source code, git is useful for tracking changes to any
 
 The simplest use of git is to create the repo locally, stored in the same folder as the source (known as the working tree) and named ```.git```.
 
+<!-- more -->
+
 ``` sh Initialise a new git repo http://git-scm.com/docs/git-init git-init
 $ cd my-project
 $ git init
 Initialized empty Git repository in my-project/.git/
 ```
-
-<!-- more -->
-
 
 Add any new or changed files you want to track, then commit those changes to the repo.
 
@@ -69,3 +67,5 @@ They do lack some more advanced features though so I mostly prefer [GitX](http:/
 ## other info
 
 Btw, if you just want to share some code snippets somewhere while maintaining versioning etc., then check out [gists](https://gist.github.com/), a feature of github.
+
+*This article was originally posted at: [http://jmeosbn.github.com](http://jmeosbn.github.com/blog/resources-for-using-git/)*
