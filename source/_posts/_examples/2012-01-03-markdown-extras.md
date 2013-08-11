@@ -6,6 +6,7 @@ subtitle: Some non-standard markdown extensions
 date: 2012-01-03 15:56
 author: Git User
 categories: [demo, markdown]
+image: for-the-index-page.jpg
 
 ---
 

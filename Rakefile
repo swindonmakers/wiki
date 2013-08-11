@@ -113,6 +113,7 @@ task :new_post, :title do |t, args|
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     post.puts "author: "
     post.puts "categories: []"
+    post.puts "image: "
     post.puts ""
     post.puts "published: false"
     post.puts ""

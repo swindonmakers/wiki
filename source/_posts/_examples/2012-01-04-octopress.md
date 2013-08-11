@@ -7,6 +7,7 @@ date: 2012-01-04 18:12
 updated: 2012-06-01 11:52
 author: Git User
 categories: [demo, octopress]
+image: for-the-index-page.jpg
 
 ---
 
