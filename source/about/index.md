@@ -11,7 +11,9 @@ sidebar: false
 
 ![TestPi](testpi.jpg){:.right}
 
-The Swindon Hackspace formed in June 2012, holding [weekly meetings](#weekly-meetings) for those interested in making, breaking, and fixing things.  We are a new hackspace, looking to build membership and grow our toolkit.
+The Swindon [Hackspace] formed in June 2012, holding [weekly meetings](#weekly-meetings) for those interested in making, breaking, and fixing things.  We are a new hackspace, looking to build membership and grow our toolkit.
+
+[Hackspace]: http://en.wikipedia.org/wiki/Hackerspace
 
 Members work on a range of projects that usually involve electronic hardware, software programming, and mechanical assembly.  Popular projects often include prototyping electronic circuits using breadboard, and interfacing with [Arduino], [Raspberry Pi] or [Stellaris LaunchPad] microcontrollers.
 
