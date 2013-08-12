@@ -6,9 +6,9 @@
 
 {% if site.license_text or site.license_button %}
 <div id="license">
-  <a rel="license" href="{{ site.license_link }}">
+  <a rel="license" href="{{ site.license_link }}" title="{{ site.license_info }}">
   {% if site.license_button %}
-    <img alt="{{ site.license_text }}" src="{{ site.license_button }}" />
+    <img alt="{{ site.license_text }}" src="{{ site.license_button }}" title="{{ site.license_info }}">
   {% else %}
     <span id="license_text">{{ site.license_text }}</span>
   {% endif %}

@@ -11,8 +11,9 @@ description:
 
 # License Info
 license_text: CC BY-NC-SA
+license_info: "Except where otherwise noted, content on this site is licensed under a Creative Commons BY-NC-SA 3.0 License"
 license_link: http://git.io/snhack-license
-# license_link: http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en
+license_full: http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en
 # license_button: http://i.creativecommons.org/l/by-nc-sa/3.0/80x15.png
 # license_button: http://mirrors.creativecommons.org/presskit/icons/cc.large.png
 
