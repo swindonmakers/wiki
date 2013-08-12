@@ -2,8 +2,8 @@
 
 __Note:  master branch is overwritten during compilation.__
 
-Please see the [INSTALL](INSTALL.md) file for full details on how to build and
-preview this site locally.
+This file details how to add a post. Please see the [INSTALL](INSTALL.md) file for full
+details on how to build and preview the whole site locally.
 
 
 ### Super minimal way to add a post

@@ -32,7 +32,7 @@ This entry was named Gyrobot from the word Gyrate which is to spin/revolve and t
 
 ![Gyrobot_closer](gyrobot_closer.jpg)
 
-Either come along to the [Swindon Hackspace]({{ site.url }}/join/ "{{ site.url }}/join/") on a Wednesday night or the [Robots Revealed](http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed "http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed") exhibition at the [Swindon Museum of Computing](http://www.museum-of-computing.org.uk/ "http://www.museum-of-computing.org.uk/") for the next 6 months to have a closer look, but please - not available to hack, one false move and it bites back hard ;-)
+Either come along to the [Swindon Hackspace](/about/#weekly-meetings "{{ site.url }}/about/") on a Wednesday night or the [Robots Revealed](http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed "http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed") exhibition at the [Swindon Museum of Computing](http://www.museum-of-computing.org.uk/ "http://www.museum-of-computing.org.uk/") for the next 6 months to have a closer look, but please - not available to hack, one false move and it bites back hard ;-)
 
 ## Further Gyrobot Information :##
 
