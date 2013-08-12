@@ -42,15 +42,12 @@ body > nav > ul > li { margin-right: .6em; a { padding: 0; } }
   nav form { width: 7em !important; }
 }
 @media not screen and (min-width: 550px) {
-  // smaller title font
-  body > header { font-size: 0.85em; }
-
   // smaller navigation font
   body > nav { font-size: 0.85em; }
 
   // adjust header and nav bar padding
-  body > header { padding-top: 1.1em; }
-  body > nav { padding-bottom: 1.2em; }
+  body > header { padding-top: 0.9em; }
+  body > nav { padding-bottom: 1.0em; }
 
   // less padding between nav items
   body > nav > ul {
