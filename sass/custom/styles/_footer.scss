@@ -23,6 +23,9 @@ div#main {
   border-bottom: 0px solid darken($sidebar-bg, 15);
 }
 
+// horizontal rule above footer (hidden)
+.footer-rule { margin-bottom: 0.4em; display: none; }
+
 
 /*
   Display footer elements split down or across the page
