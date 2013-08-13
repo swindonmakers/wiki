@@ -22,8 +22,9 @@ programming, and mechanical assembly. Popular projects often include prototyping
 electronic circuits using breadboard, and interfacing with [Arduino], [Raspberry Pi] or
 [Stellaris LaunchPad] microcontrollers.
 
-Informal sessions are occasionally ran by members; on topics such as [PICAXE], Laser
-Cutting, [OpenSCAD], and 3D Printing.
+Members occasionally run informal sessions on topics such as [PICAXE], Laser Cutting,
+[OpenSCAD], and 3D Printing. If you have an idea for a session you would like to run,
+please let us know via the [group] or on twitter [@snhack].
 
 [PICAXE]: http://www.picaxe.com
 [OpenSCAD]: http://www.openscad.org
@@ -32,6 +33,8 @@ Cutting, [OpenSCAD], and 3D Printing.
 [Raspberry Pi]: http://www.raspberrypi.org
 [Stellaris LaunchPad]: http://www.ti.com/ww/en/launchpad/stellaris_head.html
 
+[group]: {{ site.rss_feed_title_url }}
+[@snhack]: https://twitter.com/intent/tweet?screen_name={{site.twitter_user}}
 
 ### Weekly Meetings
 
@@ -52,7 +55,7 @@ required.
 
 The hackspace is active on [Google Groups], [Twitter], [YouTube], and [Github].
 
-Related articles are published on [swindon.hackspace.org.uk][] (submissions [welcome]!).
+Related articles are published on <{{ site.url }}> (submissions [welcome]!).
 
 [Museum of Computing]: http://museumofcomputing.org.uk
 [view map]: http://maps.google.co.uk/?q=The+Museum+Of+Computing&cid=1649343045243643722
@@ -62,5 +65,4 @@ Related articles are published on [swindon.hackspace.org.uk][] (submissions [wel
 [YouTube]: http://www.youtube.com/user/{{ site.youtube }}
 [Github]: http://github.com/{{site.github_user}}
 
-[swindon.hackspace.org.uk]: http://swindon.hackspace.org.uk
 [welcome]: https://github.com/snhack/snhack.github.com/blob/source/source/README.md
