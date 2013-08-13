@@ -6,7 +6,7 @@ subtitle: Some useful links for using Git
 date: 2012-09-29 20:35
 author: Jamie Osborne
 categories: [git, tools]
-image: http://mac.github.com/images/promo-screenshot.png
+image: promo-screenshot.png
 
 ---
 
@@ -58,11 +58,11 @@ While it's good to know how to use git from the command line, it's worth getting
 
 [Github](http://github.com/) offers their own [Mac](http://mac.github.com/) and [Windows](http://windows.github.com/) GUI clients, which have the advantage of closer integration with some of github's features, such as organisations and the "Clone in Windows/Mac" button found on each repo on github.
 
-![GitHub for Mac](http://mac.github.com/images/promo-screenshot.png)
+![GitHub for Mac](promo-screenshot.png)
 
 They do lack some more advanced features though so I mostly prefer [GitX](http://gitx.laullon.com/) on the Mac, though [plenty more GUIs](http://git-scm.com/downloads/guis) exist on various platforms.
 
-![GitX](http://gitx.laullon.com/commit.png)
+![GitX](commit.png)
 
 ## other info
 
