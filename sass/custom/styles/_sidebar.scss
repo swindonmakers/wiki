@@ -2,6 +2,9 @@
   Sidebar
 */
 
+// remove text shadow
+aside.sidebar { text-shadow: none; }
+
 // truncate items using ellipsis
 section > ul > li {
   overflow: hidden;
