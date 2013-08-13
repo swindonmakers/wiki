@@ -11,13 +11,19 @@ sidebar: false
 
 ![TestPi](testpi.jpg){:.right}
 
-The Swindon [Hackspace] formed in June 2012, holding [weekly meetings](#weekly-meetings) for those interested in making, breaking, and fixing things.  We are a new hackspace, looking to build membership and grow our toolkit.
+The Swindon [Hackspace] formed in June 2012, holding [weekly meetings](#weekly-meetings)
+for those interested in making, breaking, and fixing things. We are a new hackspace,
+looking to build membership and grow our toolkit.
 
 [Hackspace]: http://en.wikipedia.org/wiki/Hackerspace
 
-Members work on a range of projects that usually involve electronic hardware, software programming, and mechanical assembly.  Popular projects often include prototyping electronic circuits using breadboard, and interfacing with [Arduino], [Raspberry Pi] or [Stellaris LaunchPad] microcontrollers.
+Members work on a range of projects that usually involve electronic hardware, software
+programming, and mechanical assembly. Popular projects often include prototyping
+electronic circuits using breadboard, and interfacing with [Arduino], [Raspberry Pi] or
+[Stellaris LaunchPad] microcontrollers.
 
-Informal sessions are occasionally ran by members; on topics such as [PICAXE], Laser Cutting, [OpenSCAD], and 3D Printing.
+Informal sessions are occasionally ran by members; on topics such as [PICAXE], Laser
+Cutting, [OpenSCAD], and 3D Printing.
 
 [PICAXE]: http://www.picaxe.com
 [OpenSCAD]: http://www.openscad.org
@@ -29,13 +35,17 @@ Informal sessions are occasionally ran by members; on topics such as [PICAXE], L
 
 ### Weekly Meetings
 
-The Swindon Hackspace meets weekly at the [Museum of Computing], near the Wyvern Theatre ([view map]).
+The Swindon Hackspace meets weekly at the [Museum of Computing], near the Wyvern Theatre
+([view map]).
 
-Sessions start at 6.30pm each Wednesday, and it's advisable to arrive no later than 7.15pm.  We usually finish between 9.30 and 10pm.
+Sessions start at 6.30pm each Wednesday, and it's advisable to arrive no later than
+7.15pm. We usually finish between 9.30 and 10pm.
 
-Session price is &pound;4 and paid on admission.  Membership is paid annually in advance and costs &pound;10 (waived until third visit for new members, due each July thereafter).
+Session price is &pound;4 and paid on admission. Membership is paid annually in advance
+and costs &pound;10 (waived until third visit for new members, due each July thereafter).
 
-Internet access is available via WiFi and Ethernet, we also have computers available if required.
+Internet access is available via WiFi and Ethernet, we also have computers available if
+required.
 
 
 ### Online Presence
