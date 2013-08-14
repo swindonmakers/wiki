@@ -38,3 +38,6 @@ pre, blockquote { border: none; }
 
 // add page break between articles
 // article + article { page-break-before: always; }
+
+// A better looking default horizontal rule (from h5bp.com)
+hr { height: 1px; margin: 1em 0; border: 0; border-top: 1px solid #ccc; }
