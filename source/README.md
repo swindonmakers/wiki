@@ -11,7 +11,7 @@ details on how to build and preview the whole site locally.
 > Use this workflow when submitting a blog post using standard text or markdown.
 
 Load the [source/_posts] folder, then click the [new file] icon above its listing.
-[[show]][new-file]
+[(show)][new-file]
 
 [new-file]: http://swindon.hackspace.org.uk/images/help/1-new-file.png
 [commit-file]: http://swindon.hackspace.org.uk/images/help/2-commit-file.png
@@ -23,7 +23,7 @@ Load the [source/_posts] folder, then click the [new file] icon above its listin
 [pull request]: https://help.github.com/articles/using-pull-requests
 
 Name the file using the post date and title, in lowercase,
-according to the pattern: `YYYY-MM-DD-url-safe-title.md`.  [[show]][commit-file]
+according to the pattern: `YYYY-MM-DD-url-safe-title.md`.  [(show)][commit-file]
 
 [new file]: https://github.com/blog/1327-creating-files-on-github
 [naming it]: https://github.com/blog/1436-moving-and-renaming-files-on-github
@@ -36,10 +36,10 @@ Here's a [template] and some [examples].
 
 Use the `Propose New File` button to commit the post (to a new branch in your own [fork]).
 
-The new branch will be compared to this repo. Check the changes and click the [pull request] link.  [[show]][branch-compare]
+The new branch will be compared to this repo. Check the changes and click the [pull request] link.  [(show)][branch-compare]
 
 Add a title and any other relevant info or images, then hit
-`Send Pull Request`.  [[show]][send-pull-request]
+`Send Pull Request`.  [(show)][send-pull-request]
 
 [post metadata]: http://octopress.org/docs/blogging
 [markdown basics]: http://daringfireball.net/projects/markdown/basics

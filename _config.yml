@@ -10,7 +10,7 @@ simple_search: http://google.com/search
 description:
 
 # License Info
-license_text: CC BY-NC-SA
+license_text: CC BY-NC-SA 3.0
 license_info: "Except where otherwise noted, content on this site is licensed under a Creative Commons BY-NC-SA 3.0 License"
 license_link: http://git.io/snhack-license
 license_full: http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en
