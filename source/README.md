@@ -2,8 +2,8 @@
 
 __Note:  master branch is overwritten during compilation.__
 
-This file details how to add a post. Please see the [INSTALL](INSTALL.md) file for full
-details on how to build and preview the whole site locally.
+This file details how to submit a new post. Please see the [INSTALL](INSTALL.md) file for full
+details on how to build and preview the entire site locally.
 
 
 ### Super minimal way to add a post
@@ -68,7 +68,7 @@ Check the [fork] and [pull request] help pages for more info.
 ### Uploading Images
 
 The [new file] icon on the github website only supports text files. You can reference
-images hosted elsewhere, but it's sometimes best to upload images to the site itself.
+images hosted on another server, but it's preferred to upload images to the site itself.
 
 If you're familiar with `git`, you can commit images into a new folder located within
 [source/_posts/_assets] and named to match your post: `YYYY-MM-DD-name-of-post`. Assets
@@ -78,6 +78,6 @@ in such a folder can be referenced using relative paths:
 
 [source/_posts/_assets]: https://github.com/snhack/snhack.github.com/tree/source/source/_posts/_assets
 
-An easier option is to attach images to the [discussion thread] of your newly created
-pull request, an admin can then commit them into the correct folder.
+If you're unfamiliar with `git`, you can attach images to the [discussion thread] of your
+newly created pull request. An admin will commit them into the correct folder for you.
 
