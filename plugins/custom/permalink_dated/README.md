@@ -1,6 +1,6 @@
 ## Permalink (Dated)
 
-Created by Jamie Osborne, Public Domain license.
+Created by Jamie Osborne, MIT License.
 
 [Upstream GitHub project](https://github.com/jmeosbn/permalink_dated)
 
