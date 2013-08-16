@@ -1,6 +1,6 @@
 ## Post Images
 
-Created by Jamie Osborne, Public Domain license.
+Created by Jamie Osborne, MIT License.
 
 [Upstream GitHub project](https://github.com/jmeosbn/post_images)
 
