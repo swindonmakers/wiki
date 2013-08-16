@@ -23,8 +23,11 @@ module Jekyll
       begin
         self.content = File.read(File.join(base, name))
 
+        # check file uses markdown
+        md = name.match(/\.(markdown|md|mmd)$/) != nil
+
         # check for match on MMD metadata
-        if self.content =~ /\A([\w-]+:\s*.*?\n)^($\n?)/m
+        if md and self.content =~ /\A([\w-]+:\s*.*?\n)^($\n?)/m
           self.content = $POSTMATCH
 
           # convert MMD keys to match Jekyll
