@@ -77,6 +77,20 @@ regular feature posts, where the date is needed to provide a unique URL.
     ---
 
 
+### MultiMarkdown Metadata
+
+Use [MultiMarkdown style metadata][mmd] in place of YAML frontmatter:
+
+[mmd]: https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide
+
+    Layout: post
+    Title: My Blog Post
+    Date: 2013-07-03
+    Author: Fletcher T. Penney
+
+    This is the post content
+
+
 ## More Examples
 
 See the [examples](.) folder for more uses of markdown and octopress syntax.
