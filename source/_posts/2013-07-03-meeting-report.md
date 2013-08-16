@@ -1,16 +1,12 @@
----
-
 layout: post
 title: Meeting Report - 3rd July 2013
 subtitle: New members, robots, and some cubes
 date: 2013-07-03
 author: Rob
-categories: [meetings]
+categories: meetings
 recurring_title: true
 alias: /blog/weekly-meeting-report/
 image: Hackspace.jpg
-
----
 
 Quite a busy night at the Swindon Hackspace tonight. Welcome to the five(!) new people who turned up to see what we get up to at our weekly meetings, hope you had an enjoyable evening and we'll see you again next week. Along with the regulars it made for a pretty full room. After resetting a few trip switches to sort out some power issues the evening got underway with a bit of chat about what we do, complimented by drinks and some biscuits brought in by a couple of our regulars, James and Jess.
 

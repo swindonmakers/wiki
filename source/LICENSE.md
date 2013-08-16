@@ -1,4 +1,4 @@
-### License
+## License
 
 Except where otherwise noted, content on this site is licensed under a Creative Commons
 BY-NC-SA 3.0 License, a full copy of which is available at:
@@ -6,7 +6,7 @@ BY-NC-SA 3.0 License, a full copy of which is available at:
 <http://creativecommons.org/licenses/by-nc-sa/3.0/>
 
 
-### Summary
+## Summary
 
 This is a human-readable summary of the [Legal Code (the full license)][license].
 
@@ -14,14 +14,14 @@ This is a human-readable summary of the [Legal Code (the full license)][license]
 [license]: http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode
 
 
-#### You are free:
+### You are free:
 
 * **to Share** - to copy, distribute and transmit the work
 
 * **to Remix** - to adapt the work
 
 
-#### Under the following conditions:
+### Under the following conditions:
 
 * **Attribution** - You must attribute the work in the manner specified by the author or licensor (but not in any way that suggests that they endorse you or your use of the work).
 
@@ -30,7 +30,7 @@ This is a human-readable summary of the [Legal Code (the full license)][license]
 * **Share Alike** - If you alter, transform, or build upon this work, you may distribute the resulting work only under the same or similar license to this one.
 
 
-#### With the understanding that:
+### With the understanding that:
 
 * **Waiver** - Any of the above conditions can be waived if you get permission from the copyright holder.
 

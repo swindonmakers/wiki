@@ -1,15 +1,10 @@
----
-
-layout: post
-title: Markdown Basics
-subtitle: Demonstrates most standard markdown features
-date: 2012-01-02 20:06
-author: Git User
-categories: [demo, markdown]
-image: for-the-index-page.jpg
-
----
-
+layout: post  
+title: Markdown Basics  
+subtitle: Demonstrates most standard markdown features  
+date: 2012-01-02 20:06  
+author: Git User  
+categories: demo markdown  
+image: for-the-index-page.jpg  
 
 Paragraphs of text are separated with a blank line. Lines within a paragraph will be
 merged, which allows the plain text to be hard wrapped for readability.
@@ -50,7 +45,7 @@ Short phrases of code can be marked up inline, by wrapping with the `back tick c
 
 ---
 
-Add a horizonal rule `<hr>` by adding three or more dashes or asterisks.
+Add a horizontal rule `<hr>` by adding three or more dashes or asterisks.
 
 
 ## Reference Links

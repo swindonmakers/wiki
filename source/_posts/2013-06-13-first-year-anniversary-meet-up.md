@@ -1,14 +1,10 @@
----
-
 layout: post
-title: "First Year Anniversary Meet Up"
+title: First Year Anniversary Meet Up
 subtitle: The hackspace has its first birthday
 date: 2013-06-13 20:06
 author: Steve Wood, AKA Gyrobot
-categories: [meetings]
+categories: meetings
 image: 3D Prints.jpg
-
----
 
 On June 5th we celebrated our 1st year anniversary. Rather than attend a usual meet we decided to relocate the Hackspace to the more informal surroundings of the [Sir Daniel Arms](http://swindonhistory.blogspot.co.uk/2011/12/sir-daniel-arms.html "http://swindonhistory.blogspot.co.uk/2011/12/sir-daniel-arms.html") for a bite to eat and some drinks:
 

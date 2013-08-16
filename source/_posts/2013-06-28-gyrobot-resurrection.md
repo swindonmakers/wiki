@@ -1,14 +1,10 @@
----
-
 layout: post
-title: "Gyrobot Resurrection"
+title: Gyrobot Resurrection
 subtitle: A guest arrives for "Robots Revealed"
 date: 2013-06-28
 author: Steve Wood, AKA Gyrobot
-categories: [meetings]
+categories: meetings
 image: gyrobot.jpg
-
----
 
 Gyrobot was made available to the [Swindon Museum of Computing](http://www.museum-of-computing.org.uk/ "http://www.museum-of-computing.org.uk/") on Hackspace night; 19th June 2013 for their upcoming [Robots Revealed](http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed "http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed") exhibition.
 

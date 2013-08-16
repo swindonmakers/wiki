@@ -1,16 +1,11 @@
----
-
-layout: post
-title: Octopress Plugins
-subtitle: Plugins provided by Jekyll/Octopress
-date: 2012-01-04 18:12
-updated: 2012-06-01 11:52
-author: Git User
-categories: [demo, octopress]
-image: for-the-index-page.jpg
-
----
-
+layout: post  
+title: Octopress Plugins  
+subtitle: Plugins provided by Jekyll/Octopress  
+date: 2012-01-04 18:12  
+updated: 2012-06-01 11:52  
+author: Git User  
+categories: demo octopress  
+image: for-the-index-page.jpg  
 
 The metadata shown above can have a `title` that differs from that used in the filename.
 This can be useful if you want a shorter link to the post, or you want to change the
