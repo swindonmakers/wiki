@@ -1,13 +1,14 @@
 # Title: MMD Meta
 # Author: Jamie Osborne https://github.com/jmeosbn/mmd_meta
-# Description: Support MultiMarkdown formatted metadata in Jekyll
+# Description: Support MultiMarkdown formatted metadata in Jekyll posts
 #
 # Usage:
 # Use MultiMarkdown style metadata in place of YAML frontmatter:
 # https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide
 #
 # Notes:
-# Performs basic conversion of MMD keys, i.e. 'Author' -> 'author'
+# Only supports Jekyll posts (as pages must start with `---`)
+# Converts MultiMarkdown keys to lowercase, e.g. 'Author' -> 'author'
 #
 module Jekyll
   module Convertible

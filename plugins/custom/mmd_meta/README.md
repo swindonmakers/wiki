@@ -7,7 +7,7 @@ Created by Jamie Osborne, MIT License.
 
 ### Description
 
-Support MultiMarkdown formatted metadata in Jekyll.
+Support MultiMarkdown formatted metadata in Jekyll posts.
 
 
 ### Usage
@@ -15,7 +15,9 @@ Support MultiMarkdown formatted metadata in Jekyll.
 Use MultiMarkdown style metadata in place of YAML frontmatter:
 https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide
 
-Performs basic conversion of MMD keys, e.g. 'Author' -> 'author'.
+Only supports Jekyll posts (as pages must start with `---`).
+
+Converts MultiMarkdown keys to lowercase, e.g. 'Author' -> 'author'.
 
 
 ### Example
