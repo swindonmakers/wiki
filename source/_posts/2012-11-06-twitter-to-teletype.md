@@ -1,10 +1,10 @@
-layout: post
-title: Twitter To Teletype
-subtitle: Getting a museum piece to print tweets
-date: 2012-11-06 20:06
-author: RobertCL
-categories: projects tty pi
-image: TeletypeComplete.jpg
+layout:       post
+title:        Twitter To Teletype
+subtitle:     Getting a museum piece to print tweets
+date:         2012-11-06 20:06
+author:       RobertCL
+categories:   projects tty pi
+image:        TeletypeComplete.jpg
 
 The [Museum of Computing](http://www.museum-of-computing.org.uk/) in Swindon has a working Teletype and a desire to get it to print out tweets as part of a display in the museum.  Since the [Swindon Hackspace]({{ site.url }}) is based in the museum it was a perfect project for hackspace members.
 

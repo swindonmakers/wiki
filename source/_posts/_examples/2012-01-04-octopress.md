@@ -1,11 +1,11 @@
-layout: post  
-title: Octopress Plugins  
-subtitle: Plugins provided by Jekyll/Octopress  
-date: 2012-01-04 18:12  
-updated: 2012-06-01 11:52  
-author: Git User  
-categories: demo octopress  
-image: for-the-index-page.jpg  
+layout:       post  
+title:        Octopress Plugins  
+subtitle:     Plugins provided by Jekyll/Octopress  
+categories:   demo octopress  
+author:       Git User  
+image:        for-the-index-page.jpg  
+date:         2012-01-04 18:12  
+updated:      2012-06-01 11:52  
 
 The metadata shown above can have a `title` that differs from that used in the filename.
 This can be useful if you want a shorter link to the post, or you want to change the
@@ -58,9 +58,9 @@ Reference post assets such as images, by using relative paths:
 [source/_posts/_assets](../_assets).*
 
 
-### Recurring Posts
+### Duplicate Post Titles
 
-Set `recurring_title: true` if a post's title is likely to be duplicated. Intended for
+Set `dated_url: true` if a post's title is likely to be duplicated. Intended for
 regular feature posts, where the date is needed to provide a unique URL.
 
     ---
@@ -68,7 +68,7 @@ regular feature posts, where the date is needed to provide a unique URL.
     title: Weekly News
     subtitle: One of many articles with the same title
     date: 2012-01-04 18:12
-    recurring_title: true
+    dated_url: true
     ---
 
 
