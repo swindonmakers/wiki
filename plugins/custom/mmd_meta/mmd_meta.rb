@@ -34,8 +34,8 @@ module Jekyll
           # convert MMD keys to match Jekyll
           yaml = $1.gsub(/^[\w-]+:/) {|s| s.downcase}
 
-          # pass MMD metadata though as YAML
-          self.data = YAML.load(yaml)
+          # pass MMD metadata though (without tabs) as YAML
+          self.data = YAML.load(yaml.gsub(/\t/, ' '))
         else
           # pass YAML through to original method if no match
           _mmdmeta_read_yaml(base, name)
