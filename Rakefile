@@ -105,19 +105,14 @@ task :new_post, :title do |t, args|
   end
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
-    post.puts "---"
-    post.puts ""
-    post.puts "layout: post"
-    post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
-    post.puts "subtitle: "
-    post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
-    post.puts "author: "
-    post.puts "categories: []"
-    post.puts "image: "
-    post.puts ""
-    post.puts "published: false"
-    post.puts ""
-    post.puts "---"
+    post.puts "layout:       post"
+    post.puts "title:        #{title.gsub(/&/,'&amp;')}"
+    post.puts "subtitle:     "
+    post.puts "categories:   "
+    post.puts "author:       "
+    post.puts "image:        "
+    post.puts "date:         #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+    post.puts "published:    false"
     post.puts ""
   end
 end
@@ -149,13 +144,15 @@ task :new_page, :filename do |t, args|
     open(file, 'w') do |page|
       page.puts "---"
       page.puts ""
-      page.puts "layout: page"
-      page.puts "title: \"#{title}\""
-      page.puts "description: "
-      page.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
-      page.puts "sharing: false"
+      page.puts "layout:       page"
+      page.puts "title:        #{title}"
+      page.puts "description:  "
+      page.puts "sharing:      false"
+      page.puts "sidebar:      false"
+      page.puts "date:         #{Time.now.strftime('%Y-%m-%d %H:%M')}"
       page.puts ""
       page.puts "---"
+      page.puts ""
     end
   else
     puts "Syntax error: #{args.filename} contains unsupported characters"
