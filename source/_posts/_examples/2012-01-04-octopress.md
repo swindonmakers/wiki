@@ -41,14 +41,16 @@ puts markdown.to_html
 ***Plugins used on this site, but not installed with octopress by default.***
 
 
-### YouTube Tag
+### [YouTube Tag][youtube]
 
 Easily embed youtube videos into your post:
 
     {% youtube _HGV4Ppnx14 %}
 
+[youtube]: https://gist.github.com/jamieowen/2063748
 
-### Post Assets
+
+### [Post Assets][post_images]
 
 Reference post assets such as images, by using relative paths:
 
@@ -57,33 +59,34 @@ Reference post assets such as images, by using relative paths:
 *The post asset folder should be named `YYYY-MM-DD-name-of-post`, and located within
 [source/_posts/_assets](../_assets).*
 
-
-### Duplicate Post Titles
-
-Set `dated_url: true` if a post's title is likely to be duplicated. Intended for
-regular feature posts, where the date is needed to provide a unique URL.
-
-    ---
-    layout: post
-    title: Weekly News
-    subtitle: One of many articles with the same title
-    date: 2012-01-04 18:12
-    dated_url: true
-    ---
+[post_images]: https://github.com/jmeosbn/post_images
 
 
-### MultiMarkdown Metadata
+### [Duplicate Post Titles][permalink_dated]
 
-Use [MultiMarkdown style metadata][mmd] in place of YAML frontmatter:
+Set `dated_url: true` if a post's title is likely to be duplicated.
+
+Intended for regular feature posts, where the date is needed to provide a unique URL.
+
+    layout:     post
+    title:      Weekly News
+    subtitle:   One of many articles with the same title
+    date:       2012-01-04 18:12
+    dated_url:  true
+
+    <!-- URL for this post will be 2012-01-04-weekly-news -->
+
+[permalink_dated]: https://github.com/jmeosbn/permalink_dated
+
+
+### [MultiMarkdown Metadata][mmd_meta]
+
+Enables the use of [MultiMarkdown style metadata][mmd] in place of YAML frontmatter.
+
+This is the default metadata format used for this site and example posts.
 
 [mmd]: https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide
-
-    Layout: post
-    Title: My Blog Post
-    Date: 2013-07-03
-    Author: Fletcher T. Penney
-
-    This is the post content
+[mmd_meta]: https://github.com/jmeosbn/mmd_meta
 
 
 ## More Examples
