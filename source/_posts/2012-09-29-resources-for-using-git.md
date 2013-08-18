@@ -10,19 +10,21 @@ Here's some basic resources to get started pushing code to github.
 
 Note: As well as computer source code, git is useful for tracking changes to anything that can be represented as plain text, e.g. [German Law](http://www.wired.com/wiredenterprise/2012/08/bundestag/).
 
-The simplest use of git is to create the repo locally, stored in the same folder as the source (known as the working tree) and named ```.git```.
+The simplest use of git is to create the repo locally, stored in the same folder as the source (known as the working tree) and named `.git`.
 
 <!-- more -->
 
-``` sh Initialise a new git repo http://git-scm.com/docs/git-init git-init
+To [initialise](http://git-scm.com/docs/git-init) a new git repo, simply run `git-init`.
+
+``` sh
 $ cd my-project
 $ git init
 Initialized empty Git repository in my-project/.git/
 ```
 
-Add any new or changed files you want to track, then commit those changes to the repo.
+[Add](http://git-scm.com/docs/git-add) any new or changed files you want to track, then [commit](http://git-scm.com/docs/git-commit) those changes to the repo.
 
-``` sh Add and commit changes http://git-scm.com/docs/git-add git-add
+``` sh
 $ echo About My-Project > README.md
 $ git add . # add all files recursively
 $ git commit -m 'First Commit'
@@ -31,9 +33,9 @@ $ git commit -m 'First Commit'
  create mode 100644 README.md
 ```
 
-View recent commits using ```git log```.
+[View recent commits](http://git-scm.com/docs/git-log) using `git log`.
 
-``` sh View recent commits http://git-scm.com/docs/git-log git-log
+``` sh
 $ git log
 commit cdab15f2036b0b8b1c8fbfceab6357c8e56a0d5f
 Author: Jamie Osborne <jmeosbn@your-email.com>
