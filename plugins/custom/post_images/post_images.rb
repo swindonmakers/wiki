@@ -52,7 +52,7 @@ module Jekyll
       return if not self.url.match(/^.*\/$/)
 
       # expand relative url by prefixing path (relative to site root)
-      self.content.gsub! /(\s+(href|src)\s*=\s*["|']{1})(?!https?:\/\/|\/)([^\"'>]*)/ do
+      self.content.gsub! /(\s+(href|src)\s*=\s*["|']{1})(?![\w-]+:|&#109;&#097;&#105;&#108;&#116;&#111;:|\/|#)([^\"'>]*)/ do
         $1 + self.url + $3
       end
 
