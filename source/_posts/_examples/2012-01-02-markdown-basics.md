@@ -1,11 +1,11 @@
 layout:       post  
-title:        Markdown Basics    
+title:        Markdown Basics  
 subtitle:     Demonstrates most standard markdown features  
 date:         2012-01-02 20:06  
-author:       Git User  
+author:       Jamie Osborne  
 categories:   demo markdown  
-image:        for-the-index-page.jpg  
-web:          http://authors.site/or_profile  
+image:        https://github.com/images/icons/emoji/octocat.png  
+web:          http://jmeosbn.github.io  
 
 Paragraphs of text are separated with a blank line. Lines within a paragraph will be
 merged, which allows the plain text to be hard wrapped for readability.

@@ -2,10 +2,10 @@ layout:       post
 title:        Markdown Extras  
 subtitle:     Some common markdown extensions  
 date:         2012-01-03 15:56  
-author:       Git User  
+author:       Jamie Osborne  
 categories:   demo markdown  
-image:        for-the-index-page.jpg  
-web:          http://authors.site/or_profile  
+image:        https://github.com/images/icons/emoji/octocat.png  
+web:          http://jmeosbn.github.io  
 
 The extensions listed here are fairly common, the main issues being:
 

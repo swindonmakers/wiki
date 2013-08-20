@@ -1,11 +1,11 @@
 layout:       post  
-title:        Octopress Extras
+title:        Octopress Extras  
 subtitle:     Extras provided by Octopress and Jekyll  
 date:         2012-01-04 18:12  
-author:       Git User  
+author:       Jamie Osborne  
 categories:   demo octopress  
-image:        for-the-index-page.jpg  
-web:          http://authors.site/or_profile  
+image:        https://github.com/images/icons/emoji/octocat.png  
+web:          http://jmeosbn.github.io  
 updated:      2012-06-01 11:52  
 
 The `title` field can differ from that used in the filename. This allows changing the

@@ -2,10 +2,10 @@ layout:       post
 title:        Kramdown Extras  
 subtitle:     Some non-standard kramdown extensions  
 date:         2012-01-05 16:12  
-author:       Git User  
+author:       Jamie Osborne  
 categories:   demo markdown  
-image:        for-the-index-page.jpg  
-web:          http://authors.site/or_profile  
+image:        https://github.com/images/icons/emoji/octocat.png  
+web:          http://jmeosbn.github.io  
 
 These extensions are provided by [kramdown], the markdown renderer used for this site.
 
@@ -28,7 +28,7 @@ One use of attributes is to append class names to elements:
 ![CentredImage](https://github.com/images/icons/emoji/octocat.png){:.center}
 
 Another is to add custom formatting without using HTML, such as *underline*{:.underline},
-*strikeout*{: style="text-decoration: line-through"}, and colour{: style="color: red"}.
+*strikeout*{: style="text-decoration: line-through"}, and *colour*{:.underline style="color: red"}.
 
 
 ## Table of Contents
