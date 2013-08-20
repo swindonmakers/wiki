@@ -1,23 +1,13 @@
 layout:       post  
 title:        Markdown Extras  
-subtitle:     Some non-standard markdown extensions  
+subtitle:     Some common markdown extensions  
 date:         2012-01-03 15:56  
 author:       Git User  
 categories:   demo markdown  
 image:        for-the-index-page.jpg  
 web:          http://authors.site/or_profile  
 
-The markdown renderer used for this site is [kramdown]. It adds many advanced extensions
-to the syntax, some of which are demonstrated here.
-
-[kramdown]: http://kramdown.rubyforge.org/quickref.html
-
-<!-- more -->
-
-
-## Common Extensions
-
-*Supported by this site, and many other extended markdown "flavours".*
+The extensions listed here are fairly common, the main issues being:
 
 - Github flavoured markdown ([gfm]) doesn't support footnotes or definition lists.
 
@@ -26,8 +16,10 @@ to the syntax, some of which are demonstrated here.
 [gfm]: http://github.github.com/github-flavored-markdown/
 [mmd]: https://rawgithub.com/fletcher/human-markdown-reference/master/index.html
 
+<!-- more -->
 
-### Cleaner Links
+
+## Cleaner Links
 
 Empty brackets after a reference link can be omitted - so long as the meaning is
 unambiguous.
@@ -37,22 +29,22 @@ e.g. instead of [github][], you can use [github].
 [github]: http://github.com
 
 
-### Footnotes
+## Footnotes
 
 Similar to reference style links, are footnote links[^moreinfo].
 
 [^moreinfo]: here is some more info, that will appear at the bottom of the page.
 
 
-### Cross References
+## Cross References
 
 Automatic creation of [header IDs] makes it easy to link to various
-[sections](#common-extensions) within your post.
+[sections](#cross-references) within your post.
 
 [header IDs]: http://kramdown.rubyforge.org/converter/html.html#auto-ids
 
 
-### Fenced code blocks
+## Fenced code blocks
 
 Fenced code blocks don't require indenting, and use a syntax similar to github's.
 
@@ -65,7 +57,7 @@ puts markdown.to_html
 ```
 
 
-### Tables
+## Tables
 
 Tables can be created easily, additional formatting such as text alignment
 [can also be used](http://kramdown.rubyforge.org/quickref.html#tables).
@@ -75,67 +67,13 @@ Tables can be created easily, additional formatting such as text alignment
 |    normal text    |   **bold** text   |   *italic* text   |
 
 
-### Definitions
+## Definitions
 
 Definition lists have a syntax that's similar to normal lists:
 
 term to define
 : a definition
 : an alternate definition
-
-
-## Kramdown Extensions
-
-*These extensions are less common, but can be very useful for a website.*
-
-
-### Attributes
-
-Attributes allow for modifying [block] and [span] level elements.
-
-[block]: http://kramdown.rubyforge.org/quickref.html#block-attributes
-[span]: http://kramdown.rubyforge.org/quickref.html#inline-attributes
-
-One use of attributes is to append class names to elements:
-
-![CentredImage](https://github.com/images/icons/emoji/octocat.png){:.center}
-
-Another is to add custom formatting without using HTML, such as *underline*{:.underline},
-*strikeout*{: style="text-decoration: line-through"}, and *colour*{: style="color: red"}.
-
-
-### Table of Contents
-
-A [table of contents] can be generated with the `toc` reference (as a block attribute).
-Normally this would be used at the start of a long post with lots of headings.
-
-* This list item will be replaced with the table of contents.
-{:toc}
-
-[table of contents]: http://kramdown.rubyforge.org/converter/html.html#toc
-
-
-### Header with an explicit header ID  {#manual-id}
-
-Manually specify a header ID by following it with `{#name}`.
-
-
-### EOB Marker
-
-Explicitly end a block-level element with an EOB marker (a line containg only `^`):
-
-    This is the first code block
-
-    This is also the first code block
-^
-
-    This second code block is separated by the EOB marker above.
-
-
-### Text Transformations
-
-Plain ASCII can be used for typographic symbols: ellipsis ..., em-dash ---, en-dash
---, and guillemet << / >>. Prepend characters you don't want converted with `\`.
 
 
 ## More Examples
