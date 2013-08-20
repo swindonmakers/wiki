@@ -8,33 +8,24 @@ image:        for-the-index-page.jpg
 web:          http://authors.site/or_profile  
 updated:      2012-06-01 11:52  
 
-The metadata shown above can have a `title` that differs from that used in the filename.
-This can be useful if you want a shorter link to the post, or you want to change the
-title later (without breaking links that exist elsewhere).
+The `title` field can differ from that used in the filename. This allows changing the
+title later without breaking existing links, or use of a longer title than that used in
+the post's URL.
 
 <!-- more -->
 
-If you significantly update your post, you can note this in the metadata by adding the
-`updated` tag. The newer date will be displayed with the post.
+The `updated` field can be used to note the most recent date of any significant changes.
+The newer date will be shown in the post footer, but will not change the index.
 
 
 ## Octopress Plugins
 
-***Octopress includes it's own [plugins], as well as those provided by [jekyll][] (the static
-site generator it uses).***
+Octopress includes it's own [plugins], as well as those provided by [jekyll][] (the
+static site generator it uses). For portability, markdown syntax is preferred where
+possible (code blocks, images, block quotes, etc.).
 
 [plugins]: http://octopress.org/docs/blogging/plugins/
 [jekyll]: http://jekyllrb.com/
-
-Fenced [code blocks] use a syntax similar to github's, and support syntax highlighting:
-
-```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
-```
-
-[code blocks]: http://octopress.org/docs/blogging/code/
 
 
 ## Custom Plugins

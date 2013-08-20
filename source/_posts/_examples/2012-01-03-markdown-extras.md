@@ -17,28 +17,71 @@ to the syntax, some of which are demonstrated here.
 
 ## Common Extensions
 
-*Many non-standard "flavours" of markdown feature these common extensions.*
+*Supported by this site, and many other extended markdown "flavours".*
+
+- Github flavoured markdown ([gfm]) doesn't support footnotes or definition lists.
+
+- MultiMarkdown ([mmd]) uses an incompatible format for cross reference links.
+
+[gfm]: http://github.github.com/github-flavored-markdown/
+[mmd]: https://rawgithub.com/fletcher/human-markdown-reference/master/index.html
+
+
+### Cleaner Links
 
 Empty brackets after a reference link can be omitted - so long as the meaning is
-unambiguous.  e.g. instead of [github][], you can use [github].
+unambiguous.
+
+e.g. instead of [github][], you can use [github].
 
 [github]: http://github.com
+
+
+### Footnotes
 
 Similar to reference style links, are footnote links[^moreinfo].
 
 [^moreinfo]: here is some more info, that will appear at the bottom of the page.
+
+
+### Cross References
 
 Automatic creation of [header IDs] makes it easy to link to various
 [sections](#common-extensions) within your post.
 
 [header IDs]: http://kramdown.rubyforge.org/converter/html.html#auto-ids
 
+
+### Fenced code blocks
+
+Fenced code blocks don't require indenting, and use a syntax similar to github's.
+
+Code can be highlighted by specifying the language used.
+
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
+
+### Tables
+
 Tables can be created easily, additional formatting such as text alignment
 [can also be used](http://kramdown.rubyforge.org/quickref.html#tables).
 
-|header 1|header 2|header 3|
-|--------|--------|-------:|
-| data 1 | data 2 | data 3 |
+|   normal header   |   centre header   |    right header   |
+|  ---------------  |  :-------------:  |  --------------:  |
+|    normal text    |   **bold** text   |   *italic* text   |
+
+
+### Definitions
+
+Definition lists have a syntax that's similar to normal lists:
+
+term to define
+: a definition
+: an alternate definition
 
 
 ## Kramdown Extensions
@@ -87,15 +130,6 @@ Explicitly end a block-level element with an EOB marker (a line containg only `^
 ^
 
     This second code block is separated by the EOB marker above.
-
-
-### Definition Lists
-
-Definition lists have a syntax that's similar to normal lists:
-
-term to define
-: a definition
-: an alternate definition
 
 
 ### Text Transformations
