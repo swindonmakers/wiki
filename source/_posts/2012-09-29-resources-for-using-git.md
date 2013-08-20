@@ -5,6 +5,7 @@ date:         2012-09-29 20:35
 author:       Jamie Osborne
 categories:   git tools
 image:        promo-screenshot.png
+web:          http://twitter.com/jmeosbn
 
 Here's some basic resources to get started pushing code to github.
 

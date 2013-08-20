@@ -1,10 +1,11 @@
 layout:       post  
-title:        Octopress Plugins  
-subtitle:     Plugins provided by Jekyll/Octopress  
-categories:   demo octopress  
-author:       Git User  
-image:        for-the-index-page.jpg  
+title:        Octopress Extras
+subtitle:     Extras provided by Octopress and Jekyll  
 date:         2012-01-04 18:12  
+author:       Git User  
+categories:   demo octopress  
+image:        for-the-index-page.jpg  
+web:          http://authors.site/or_profile  
 updated:      2012-06-01 11:52  
 
 The metadata shown above can have a `title` that differs from that used in the filename.

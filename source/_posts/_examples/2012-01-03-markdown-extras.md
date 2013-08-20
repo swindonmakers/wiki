@@ -1,10 +1,11 @@
 layout:       post  
 title:        Markdown Extras  
 subtitle:     Some non-standard markdown extensions  
-categories:   demo markdown  
-author:       Git User  
-image:        for-the-index-page.jpg  
 date:         2012-01-03 15:56  
+author:       Git User  
+categories:   demo markdown  
+image:        for-the-index-page.jpg  
+web:          http://authors.site/or_profile  
 
 The markdown renderer used for this site is [kramdown]. It adds many advanced extensions
 to the syntax, some of which are demonstrated here.
