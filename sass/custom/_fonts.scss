@@ -1,5 +1,6 @@
 // google web fonts
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:300);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic);
 
 // default fonts for sans and serif
 $sans                        : 'Open Sans', sans-serif;
@@ -9,7 +10,7 @@ $serif                       : $sans;
 $heading-font-family         : $sans;
 
 // site header font
-$header-title-font-family    : $sans;
+$header-title-font-family    : 'Titillium Web', $sans;
 $header-subtitle-font-family : $sans;
 
 // site navigation font
