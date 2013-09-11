@@ -1,12 +1,5 @@
 ## Post Images
 
-Created by Jamie Osborne, MIT License.
-
-[Upstream GitHub project](https://github.com/jmeosbn/post_images)
-
-
-### Description
-
 Use the folder jekyll generates for a post, to store associated assets.
 
 Assumes your posts are rendered as `index.html`, into their own folder.
@@ -34,3 +27,14 @@ Add assets to the folder `_posts/_assets/2013-07-03-my-blog-post`.
     ---
 
     ![My Image](Image.jpg)
+
+
+### Author
+
+Created by [Jamie Osborne](https://github.com/jmeosbn).
+
+[Upstream GitHub project](https://github.com/jmeosbn/post_images)
+
+### License
+
+[MIT License](LICENSE).
