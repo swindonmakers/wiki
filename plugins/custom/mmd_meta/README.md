@@ -1,28 +1,23 @@
 ## MMD Meta
 
-Created by Jamie Osborne, MIT License.
-
-[Upstream GitHub project](https://github.com/jmeosbn/mmd_meta)
-
-
-### Description
-
 Support MultiMarkdown formatted metadata in Jekyll posts.
 
 
 ### Usage
 
-Use MultiMarkdown style metadata in place of YAML frontmatter:
-https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide
+Use MultiMarkdown style [metadata] in place of YAML [frontmatter].
 
-Only supports Jekyll posts (as pages must start with `---`).
+[metadata]: https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide
+[frontmatter]: http://jekyllrb.com/docs/frontmatter/
+
+Only supports posts (Jekyll pages must start with `---`).
 
 Converts MultiMarkdown keys to lowercase, e.g. 'Author' -> 'author'.
 
 
 ### Example
 
-A post starting with:
+A post starting with MultiMarkdown metadata:
 
     Layout: post
     Title: My Blog Post
@@ -31,7 +26,7 @@ A post starting with:
 
     This is the post content
 
-Will be read as if you had:
+Will be read as if it had a YAML header:
 
     ---
     layout: post
@@ -41,3 +36,14 @@ Will be read as if you had:
     ---
 
     This is the post content
+
+
+### Author
+
+Created by [Jamie Osborne](https://github.com/jmeosbn).
+
+[Upstream GitHub project](https://github.com/jmeosbn/mmd_meta)
+
+### License
+
+[MIT License](LICENSE).

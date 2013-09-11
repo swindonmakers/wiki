@@ -7,8 +7,8 @@
 # https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide
 #
 # Notes:
-# Only supports Jekyll posts (as pages must start with `---`)
-# Converts MultiMarkdown keys to lowercase, e.g. 'Author' -> 'author'
+# Only supports posts (Jekyll pages must start with `---`).
+# Converts MultiMarkdown keys to lowercase, e.g. 'Author' -> 'author'.
 #
 module Jekyll
   module Convertible
