@@ -1,12 +1,5 @@
 ## Permalink (Dated)
 
-Created by Jamie Osborne, MIT License.
-
-[Upstream GitHub project](https://github.com/jmeosbn/permalink_dated)
-
-
-### Description
-
 Use an alternative permalink format for duplicate titles.
 
 Allows using a simple permalink by default, or a dated permalink as needed.
@@ -37,3 +30,14 @@ to retain the date in the URL:
 The url for this post is `/blog/2013-07-03-meeting-report`.
 
 The actual format used can be defined in `_config.yml` with `permalink_dated`.
+
+
+### Author
+
+Created by [Jamie Osborne](https://github.com/jmeosbn).
+
+[Upstream GitHub project](https://github.com/jmeosbn/permalink_dated)
+
+### License
+
+[MIT License](LICENSE).
