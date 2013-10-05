@@ -8,7 +8,7 @@ details on how to build and preview the entire site locally.
 
 ### Super minimal way to add a post
 
-> Use this workflow when submitting a blog post using standard text or markdown.
+_Use this workflow when submitting a blog post using standard text or markdown._
 
 Load the [source/_posts] folder, then click the [new file] icon above its listing.
 [(show)][new-file]

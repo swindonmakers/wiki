@@ -5,7 +5,7 @@ full details on how to contribute to this site.__
 
 ### Contributing a Post without using Git
 
-> Lowest barrier to entry, only requires a github account
+_Lowest barrier to entry, only requires a github account._
 
 If you've not used `git` before (and don't want to [learn]), you can submit a simple post
 using github's issues feature.
