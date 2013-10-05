@@ -1,0 +1,44 @@
+/*
+  Display metadata above the webpage
+  http://mathiasbynens.be/notes/css-hidden-elements
+*/
+
+/*
+  // make resource links clickable
+  <script>
+    window.onload = function() {
+      var head = document.head || document.getElementsByTagName('head')[0],
+          links = head.getElementsByTagName('link'),
+          length = links.length;
+      while (length--) {
+        links[length].onclick = function() {
+          location.href = this.href;
+        };
+      };
+    };
+  </script>
+*/
+
+
+head, meta { display: block; }
+
+// title, link[href][rel], style, script { display: block; }
+
+meta[charset]::after {
+  content: 'Charset: ' attr(charset);
+}
+
+meta[name][content]::after {
+  content: attr(name) ': ' attr(content);
+  text-transform: capitalize;
+}
+
+link[href][rel]::after {
+  content: attr(rel);
+  text-transform: capitalize;
+}
+
+script[src]::after {
+  content: 'External file: ' attr(src);
+}
+
