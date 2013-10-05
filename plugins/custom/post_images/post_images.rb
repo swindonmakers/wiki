@@ -8,6 +8,9 @@
 # Syntax:
 # Reference assets in the generated folder using a relative path: `Image.jpg`
 #
+# Notes:
+# Also copies the raw source file into the generated post folder
+#
 module Jekyll
 
   class Post
@@ -22,11 +25,16 @@ module Jekyll
       # call original method
       _post_images_retained_write(dest)
 
+      postdir = File.join(dest, self.url)
       asset_path = File.join(self.site.config['source'], '/_posts/_assets/')
       postassets = File.join(asset_path, self.name[0 .. -self.ext.length-1])
 
+      # copy raw source file for post into post dir
+      copyraw, fullname = true, false
+      rawindex = File.join(postdir, fullname ? '.' : 'index' + self.ext)
+      FileUtils.cp File.join(@base, @dir ? @dir : '', @name), rawindex if copyraw
+
       if File.directory?(postassets)
-        postdir = File.join(dest, self.url)
         # puts "Copying assets to " + postdir
         FileUtils.cp_r File.join(postassets, '/.'), postdir
       end

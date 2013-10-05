@@ -29,6 +29,11 @@ Add assets to the folder `_posts/_assets/2013-07-03-my-blog-post`.
     ![My Image](Image.jpg)
 
 
+### Notes:
+
+Also copies the raw source file into the generated post folder.
+
+
 ### Author
 
 Created by [Jamie Osborne](https://github.com/jmeosbn).
