@@ -2,6 +2,12 @@
   {% if site.twitter_tweet_button %}
   <a href="//twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}{{ page.url }}" data-via="{{ site.twitter_user }}" data-counturl="{{ site.url }}{{ page.url }}" data-count="none">Tweet</a>
   {% endif %}
+  {% if site.viewraw %}
+  <a href="index.md" class="sharebutton" id="viewmd" target="sourcemmd">
+    <img class="button-img" id="dfsymbol" src="/images/viewmmd.png"></img>
+    view mmd
+  </a>
+  {% endif %}
   {% if site.google_plus_one %}
   <div class="g-plusone" data-size="{{ site.google_plus_one_size }}"></div>
   {% endif %}
