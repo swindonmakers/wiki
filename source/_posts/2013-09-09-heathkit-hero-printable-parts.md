@@ -31,7 +31,7 @@ Wrist Joint:
 
 Arm Repair:
 [http://www.thingiverse.com/thing:158652]("http://www.thingiverse.com/thing:158652")
-[![http://www.thingiverse.com/thing:158652](http://thingiverse-production.s3.amazonaws.com/renders/c9/75/68/fa/8d/DSCF9327_display_large.jpg)](http://www.thingiverse.com/thing:158652)
+[![http://www.thingiverse.com/thing:158652](http://thingiverse-production.s3.amazonaws.com/renders/00/34/0e/e4/95/DSCF9328_display_large.jpg)](http://www.thingiverse.com/thing:158652)
 
 For more information about Hero please visit :
 
