@@ -1,6 +1,9 @@
 <div class="sharing">
   {% if site.twitter_tweet_button %}
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="{{ site.url }}{{ page.url }}" data-via="{{ site.twitter_user }}" data-counturl="{{ site.url }}{{ page.url }}" data-count="none">Tweet</a>
+  <a class="sharebutton" id="tweetlink" target="sharebutton" href="//twitter.com/share?text={{ page.title }} - {{ site.title }}&via={{ site.twitter_user }}&url={{ site.url }}{{ page.url }}">
+    <img class="button-img" id="twitter" src="/images/bird.png"></img>
+    Tweet
+  </a>
   {% endif %}
   {% if site.viewraw %}
   <a href="index.md" class="sharebutton" id="viewmd" target="sourcemmd">

@@ -17,7 +17,10 @@
   {% endif %}
 
   {% if site.twitter_follow_button %}
-    <a href="http://twitter.com/{{ site.twitter_user }}" class="twitter-follow-button" data-show-count="{{ site.twitter_show_follower_count }}"></a>
+    <a class="sharebutton" id="twitter-follow" target="sharebutton" href="//twitter.com/intent/follow?&screen_name={{ site.twitter_user }}">
+      <img class="button-img" id="twitter" src="/images/bird.png"></img>
+      Follow @{{ site.twitter_user }}
+    </a>
   {% else %}
     <p>Follow <a href="http://twitter.com/{{site.twitter_user}}">@{{ site.twitter_user }}</a></p>
   {% endif %}
