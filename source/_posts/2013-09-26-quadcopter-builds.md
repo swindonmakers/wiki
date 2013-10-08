@@ -1,13 +1,11 @@
----
-
-layout: post
-title: "Quadcopter Builds"
-date: 2013-09-26
-author: Steve Wood, AKA Gyrobot
-categories: [projects]
-
----
-[![Quadcopter First Flight](1-small.jpg)](1.jpg)
+layout:       post
+title:        Quadcopter Design and Build.
+subtitle:     Flying high.
+date:         2013-09-26 19:08
+author:       Steve Wood, AKA Gyrobot
+categories:   projects
+image:        1.jpg
+web:          http://www.gyrobot.co.uk
 
 
 A couple of members are now putting the finishing touches to their quadcopter builds and proceeding into the upgrade phase (typical). The build process isn't too difficult with the excellent DJI 450 quadcopter kit, which allows various options to be taken to reach each users end goal, whether it be simple flying or the more advanced (and costly) First Person Viewing (FPV) camera set-up.
@@ -32,17 +30,20 @@ These are eye-in-the-sky images that Steve is currently getting through his on-b
 
 Flight videos have been uploaded on YouTube too:
 
-[2nd Flight - http://www.youtube.com/watch?v=X6MDkSDx5UQ](http://www.youtube.com/watch?v=X6MDkSDx5UQ "http://www.youtube.com/watch?v=X6MDkSDx5UQ") 
-
-[3rd Flight - http://www.youtube.com/watch?v=ch740siWPGY](http://www.youtube.com/watch?v=ch740siWPGY "http://www.youtube.com/watch?v=ch740siWPGY") 
-
-[4th Flight - http://www.youtube.com/watch?v=yl5OPOSkdmI](http://www.youtube.com/watch?v=yl5OPOSkdmI "http://www.youtube.com/watch?v=yl5OPOSkdmI") 
+{% youtube X6MDkSDx5UQ %}
+{% youtube ch740siWPGY %}
+{% youtube yl5OPOSkdmI %}
 
 The next stage for Steve is to re-build his quad to a "spider style" configuration. This will be achieved by redesigning the central plates to orientate the forward arms out of the shot from the camera view. Click on the images below to download Steve's CAD files from [Thingiverse](http://www.thingiverse.com/ "http://www.thingiverse.com/").
 
 [![Spyda 500 Quadcopter](Render2.png)](http://www.thingiverse.com/thing:160607)
+
 [![Spyda 500 Quadcopter](Render3.png)](http://www.thingiverse.com/thing:160607)
+
+[![Spyda 500 Quadcopter](8-small.jpg)](8.jpg)
+
+[![Spyda 500 Quadcopter](7-small.jpg)](7.jpg)
  
-If you are interested in finding out more about this hobby then come along to the [Swindon Hackspace](http://snhack.github.io/join/ "http://snhack.github.io/join/") on a Wednesday night and have a chat with some like minded members.
+If you are interested in finding out more about this hobby then come along to the [Swindon Hackspace](http://swindon.hackspace.org.uk/about/ "http://swindon.hackspace.org.uk/about/") on a Wednesday night and have a chat with some like minded members.
 
 
