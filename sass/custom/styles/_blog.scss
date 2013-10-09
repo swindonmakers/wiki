@@ -10,8 +10,10 @@ article > header {
   .meta time { display: none; }
 }
 
-// centre align images in a paragraph
-article p > img { margin: 0 auto 1.5em; display: block; }
+// centre align lone image in a paragraph (optionally within a link)
+article p > img:only-child, article p > a:only-child > img {
+  margin: 0 auto 1.5em; display: block;
+}
 
 // set maximum width for images, videos
 article { img, video, .flash-video { max-width: 80%; } }
