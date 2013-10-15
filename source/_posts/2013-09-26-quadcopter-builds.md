@@ -1,6 +1,6 @@
 layout:       post
-title:        Quadcopter Design and Build.
-subtitle:     Flying high over Swindon and Wroughton, UK.
+title:        Quadcopter Design and Build
+subtitle:     Flying high over Swindon and Wroughton
 date:         2013-09-26 19:08
 Update:       2013-10-10 18:16
 author:       Steve Wood, AKA Gyrobot
@@ -49,6 +49,6 @@ And a GoPro Hero 3 mount that is fully printable :
 
 [![Spyda 500 GoPro Hero 3 Mount](Render4.png)](http://www.thingiverse.com/thing:163107)
 
-If you are interested in finding out more about this hobby then come along to the [Swindon Hackspace](http://swindon.hackspace.org.uk/about/ "http://swindon.hackspace.org.uk/about/") on a Wednesday night and have a chat with some like minded members.
+If you are interested in finding out more about this hobby then come along to the [Swindon Hackspace](/about/#weekly-meetings "{{ site.url }}/about/") on a Wednesday night and have a chat with some like minded members.
 
 

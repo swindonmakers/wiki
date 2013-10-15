@@ -4,8 +4,11 @@ subtitle:     Repairing a Hero's Broken Shoulder
 date:         2013-09-09 20:15
 author:       Steve Wood, AKA Gyrobot
 categories:   projects
-image:        http://thingiverse-production.s3.amazonaws.com/renders/7b/ba/68/64/dc/hero1_display_medium.jpg
+image:        hero1_display_medium.jpg
 web:          http://www.gyrobot.co.uk
+
+_As mentioned in a [previous post](/blog/2013-07-03-meeting-report/ "{{ site.url }}/blog/2013-07-03-meeting-report/"),
+the hackspace has been working on getting an old [Heathkit Hero](http://en.wikipedia.org/wiki/HERO_(robot)) robot up and running._
 
 We are almost starting to build up a mini library of printable Heathkit Hero 1 parts. The latest edition is not so much a replacement but a component fix that should allow a broken robotic arm to be repaired and re-attached. A common problem is the area around the shoulder attachment of the arm body where the plastic goes brittle with age.
 
@@ -21,14 +24,17 @@ The source stl files for printing can be found on Thingiverse along with further
 
 Grippers:
 [http://www.thingiverse.com/thing:67929](http://www.thingiverse.com/thing:67929 "http://www.thingiverse.com/thing:67929")
+
 [![http://www.thingiverse.com/thing:67929](http://thingiverse-production.s3.amazonaws.com/renders/e2/72/6a/48/aa/photo_display_medium.jpg)](http://www.thingiverse.com/thing:67929)
 
 Wrist Joint:
 [http://www.thingiverse.com/thing:70995](http://www.thingiverse.com/thing:70995 "http://www.thingiverse.com/thing:70995")
+
 [![http://www.thingiverse.com/thing:70995](http://thingiverse-production.s3.amazonaws.com/renders/f1/41/05/97/fc/photo2_display_medium.jpg)](http://www.thingiverse.com/thing:70995)
 
 Arm Repair:
 [http://www.thingiverse.com/thing:158652](http://www.thingiverse.com/thing:158652 "http://www.thingiverse.com/thing:158652")
+
 [![http://www.thingiverse.com/thing:158652](http://thingiverse-production.s3.amazonaws.com/renders/00/34/0e/e4/95/DSCF9328_display_large.jpg)](http://www.thingiverse.com/thing:158652)
 
 For more information about Hero please visit :
@@ -37,6 +43,6 @@ For more information about Hero please visit :
 
 
 A couple more images of Hero on our blog post :
-[2013-07-03-meeting-report](http://swindon.hackspace.org.uk/blog/2013-07-03-meeting-report/ "http://swindon.hackspace.org.uk/blog/2013-07-03-meeting-report/")
+[2013-07-03-meeting-report](/blog/2013-07-03-meeting-report/ "{{ site.url }}/blog/2013-07-03-meeting-report/")
 
-Either come along to the [Swindon Hackspace](http://swindon.hackspace.org.uk/about/ "http://swindon.hackspace.org.uk/about/") on a Wednesday night or the [Robots Revealed](http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed "http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed") exhibition at the [Swindon Museum of Computing](http://www.museum-of-computing.org.uk/ "http://www.museum-of-computing.org.uk/") for the next few months to have a closer look.
+Either come along to the [Swindon Hackspace](/about/#weekly-meetings "{{ site.url }}/about/") on a Wednesday night or the [Robots Revealed](http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed "http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed") exhibition at the [Swindon Museum of Computing](http://www.museum-of-computing.org.uk/ "http://www.museum-of-computing.org.uk/") for the next few months to have a closer look.
