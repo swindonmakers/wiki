@@ -10,7 +10,7 @@ footer > .sharing > * + * { margin-left: 0.3em; }
 
 .sharing, section {
   // remove image styling
-  .sharebutton > .button-img { margin: 0; border: 0; box-shadow: none; }
+  .sharebutton > .button-img { margin: 0; border: none; box-shadow: none; border-radius: 0px; }
 
   // default image size and positioning
   .sharebutton > .button-img { font-size: 18px; vertical-align: top; height: 13px; margin-top: 3px; }
@@ -57,7 +57,7 @@ footer > .sharing > * + * { margin-left: 0.3em; }
     @extend .sharebutton;
     height: 26px;
     line-height: 26px;
-    border-radius: 4px;
+    // border-radius: 4px;
   }
 
 
