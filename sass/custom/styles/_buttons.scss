@@ -3,7 +3,10 @@
 */
 
 // twitter image size and positioning
-#twitter.button-img { margin-top: 4px; }
+#twitter.button-img { height: 14px; }
+
+// twitter image size and positioning
+#discuss.button-img { height: 12px; }
 
 // margin for button after object (link, button, embed etc.)
 footer > .sharing > * + * { margin-left: 0.3em; }

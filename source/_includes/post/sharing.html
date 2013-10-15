@@ -5,10 +5,16 @@
     Tweet
   </a>
   {% endif %}
+  {% if page.discuss %}
+  <a href="{{ page.discuss }}" class="sharebutton" id="discuss" target="discuss">
+    <img class="button-img" id="discuss" src="/images/discuss.png"></img>
+    Discuss
+  </a>
+  {% endif %}
   {% if site.viewraw %}
   <a href="index.md" class="sharebutton" id="viewmd" target="sourcemmd">
     <img class="button-img" id="dfsymbol" src="/images/viewmmd.png"></img>
-    view mmd
+    View Raw
   </a>
   {% endif %}
   {% if site.google_plus_one %}
