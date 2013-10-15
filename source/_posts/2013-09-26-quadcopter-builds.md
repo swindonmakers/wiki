@@ -7,6 +7,7 @@ author:       Steve Wood, AKA Gyrobot
 categories:   projects
 image:        1.jpg
 web:          http://www.gyrobot.co.uk
+published:    false
 
 
 A couple of members are now putting the finishing touches to their quadcopter builds and proceeding into the upgrade phase (typical). The build process isn't too difficult with the excellent DJI 450 quadcopter kit, which allows various options to be taken to reach each users end goal, whether it be simple flying or the more advanced (and costly) First Person Viewing (FPV) camera set-up.
