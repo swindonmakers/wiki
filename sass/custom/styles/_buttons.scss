@@ -34,17 +34,17 @@ footer > .sharing > * + * { margin-left: 0.3em; }
     white-space: nowrap;
 
     // border
-    border: 1px solid $type-border;
-    border-radius: 3px;
-    padding: 0px 4px 0px 4px;
+    // border: 1px solid $type-border;
+    // border-radius: 3px;
+    // padding: 0px 4px 0px 4px;
 
     // background
     // background-color: #f8f8f8;
     // @include background(linear-gradient(#fff, #dedede));
   }
   .sharebutton:hover {
-    color: $text-color !important;
-    background-color: #e9e9e9;
+    color: lighten($text-color, 10) !important;
+    // background-color: #e9e9e9;
     // @include background(linear-gradient(#eee, #ddd));
   }
   // .sharebutton:active {
