@@ -33,6 +33,10 @@ function rss_feed_Linkroll(target) {
     var count = (this.items.length > rss_item_count) ? rss_item_count : this.items.length;
     for (var i = 0; i < count; i++) {
       var item = this.items[i];
+      if (item.title.match(/^Re: \[shs\] /g)) {
+        count++;
+        continue;
+      }
       var str = this.format_item(item);
       lines.push(str);
     }
