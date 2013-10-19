@@ -24,7 +24,7 @@ by octopress and jekyll).
 ```sh
 git clone -b source git@github.com:<YOURUSERNAME>/snhack.github.com.git snhack
 cd snhack
-ruby --version        # Should report Ruby 1.9.3
+ruby --version        # Should report Ruby >= 1.9.3
 ```
 
 Install dependencies, but do not run `rake install` (it's been done already).
