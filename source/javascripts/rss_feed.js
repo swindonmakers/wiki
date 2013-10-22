@@ -33,7 +33,7 @@ function rss_feed_Linkroll(target) {
     var count = (this.items.length > rss_item_count) ? rss_item_count : this.items.length;
     for (var i = 0; i < count; i++) {
       var item = this.items[i];
-      if (item.title.match(/^Re: \[shs\] /g)) {
+      if (item.title.match(/^Re: \[shs\] /g) || item.title.match(/^New Post: /g)) {
         count++;
         continue;
       }
