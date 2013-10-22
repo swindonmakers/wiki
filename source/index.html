@@ -6,7 +6,12 @@ body_id: landing-page
 ---
 
 <div id="landing">
-  <img src="/images/site_pano.jpg" alt="Header Image" width=100% class="center">
+  <script>
+    var imgArray = ["1", "2"];
+    var ranNum = Math.floor(Math.random()*imgArray.length);
+    var image_rnd = imgArray[ranNum];
+    document.write('<img src="/images/layout/site_pano_'+image_rnd+'.jpg" alt="Header Image" width=100% class="center">')
+  </script>
 
   <article>
 
