@@ -2,7 +2,7 @@ layout:       post
 title:        Quadcopter Design and Build
 subtitle:     Flying high over Swindon and Wroughton
 date:         2013-09-26 19:08
-Update:       2013-10-10 18:16
+updated:      2013-10-10 18:16
 author:       Steve Wood, AKA Gyrobot
 categories:   projects
 image:        1.jpg
