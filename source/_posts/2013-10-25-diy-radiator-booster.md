@@ -37,6 +37,7 @@ Rather conveniently the gap between the front and back panels of
 the double radiator is just over 80mm meaning a standard PC fan
 will fit nicely.  I bought a Be Quiet Silentwings Pure 80mm fan
 like this one from [ebuyer](http://www.ebuyer.com/409820-be-quiet-silentwings-pure-80mm-bl041)
+which turned out to be pretty much silent when running.
 
 ## The Circuit
 
@@ -75,6 +76,9 @@ With all the parts made and colder weather fast approaching I
 assembled everything and wired it up using and old 12V power
 supply I had lying around.  Tuning the temperature at which the
 fan comes on is as simple as adjusting the potentiometer
-on the circuit board.
+on the circuit board.  The fan doesn't blast hot air out like a
+fan heater does, but it does produce a gentle breeze of warm
+air across the floor.  Whether it has made a huge difference
+is hard to tell so far but I don't think it can hurt.
 
 ![Complete](5.jpg)
