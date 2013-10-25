@@ -5,7 +5,7 @@ date:         2013-09-26 19:08
 updated:      2013-10-10 18:16
 author:       Steve Wood, AKA Gyrobot
 categories:   projects
-image:        1.jpg
+image:        1-small.jpg
 web:          http://www.gyrobot.co.uk
 discuss:      https://groups.google.com/d/msg/swindon-hackspace/Dt5fuaTjNTo/EoM_7qbJ-OkJ
 
