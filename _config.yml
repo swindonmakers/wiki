@@ -91,6 +91,7 @@ default_asides: [custom/asides/recent_posts.html, custom/asides/rss_feed.html, c
 
 # Google Group
 group: &group http://groups.google.com/group/swindon-hackspace
+discuss_prefix: https://groups.google.com/forum/#!topic/swindon-hackspace/
 
 # YouTube
 youtube: snhackspace

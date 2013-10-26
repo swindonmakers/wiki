@@ -6,7 +6,7 @@ author:       Steve Wood, AKA Gyrobot
 categories:   projects
 image:        hero1_display_medium.jpg
 web:          http://www.gyrobot.co.uk
-discuss:      https://groups.google.com/d/msg/swindon-hackspace/-S-RevOnBqg/3RmGzwd9DKAJ
+discuss:      -S-RevOnBqg
 
 _As mentioned in a [previous post](/blog/2013-07-03-meeting-report/ "{{ site.url }}/blog/2013-07-03-meeting-report/"),
 the hackspace has been working on getting an old [Heathkit Hero](http://en.wikipedia.org/wiki/HERO_(robot)) robot up and running._
