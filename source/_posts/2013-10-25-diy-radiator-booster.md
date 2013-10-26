@@ -5,6 +5,7 @@ categories:   projects
 author:       Robert Longbottom
 image:        1.jpg
 date:         2013-10-25 18:05
+discuss:      https://groups.google.com/forum/#!topic/swindon-hackspace/r7FS_yE-FJY
 
 Central heating is a great invention and radiators generally do a 
 good job of pumping out heat into a room.  Sometimes however due
