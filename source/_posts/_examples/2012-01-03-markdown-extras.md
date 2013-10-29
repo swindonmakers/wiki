@@ -1,4 +1,3 @@
-layout:       post  
 title:        Markdown Extras  
 subtitle:     Some common markdown extensions  
 date:         2012-01-03 15:56  

@@ -1,6 +1,5 @@
 ---
 
-layout: page
 title: About the Hackspace
 description: About the Swindon Hackspace
 sharing: false

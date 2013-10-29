@@ -1,4 +1,3 @@
-layout:       post
 title:        Meeting Report - 3rd July 2013
 subtitle:     New members, robots, and some cubes
 date:         2013-07-03

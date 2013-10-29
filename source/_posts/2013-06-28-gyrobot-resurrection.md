@@ -1,4 +1,3 @@
-layout:       post
 title:        Gyrobot Resurrection
 subtitle:     A guest arrives for "Robots Revealed"
 date:         2013-06-28

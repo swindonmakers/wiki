@@ -1,4 +1,3 @@
-layout:       post
 title:        First Year Anniversary Meet Up
 subtitle:     The hackspace has its first birthday
 date:         2013-06-13 20:06

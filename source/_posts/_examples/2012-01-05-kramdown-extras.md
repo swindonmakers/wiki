@@ -1,4 +1,3 @@
-layout:       post  
 title:        Kramdown Extras  
 subtitle:     Some non-standard kramdown extensions  
 date:         2012-01-05 16:12  

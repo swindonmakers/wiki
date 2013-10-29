@@ -1,4 +1,3 @@
-layout:       post
 title:        Diy Radiator Booster
 subtitle:     Warm your rooms quicker
 categories:   projects

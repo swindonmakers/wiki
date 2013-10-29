@@ -1,4 +1,3 @@
-layout:       post  
 title:        Markdown Basics  
 subtitle:     Demonstrates most standard markdown features  
 date:         2012-01-02 20:06  

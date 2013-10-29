@@ -1,4 +1,3 @@
-layout:       post
 title:        Heathkit Hero 1 Printable Parts
 subtitle:     Repairing a Hero's Broken Shoulder
 date:         2013-09-09 20:15

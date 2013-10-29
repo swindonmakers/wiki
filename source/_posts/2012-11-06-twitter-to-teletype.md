@@ -1,4 +1,3 @@
-layout:       post
 title:        Twitter To Teletype
 subtitle:     Getting a museum piece to print tweets
 date:         2012-11-06 20:06

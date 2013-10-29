@@ -1,4 +1,3 @@
-layout:       post
 title:        Quadcopter Design and Build
 subtitle:     Flying high over Swindon and Wroughton
 date:         2013-09-26 19:08

@@ -1,4 +1,3 @@
-layout:       post  
 title:        Octopress Extras  
 subtitle:     Extras provided by Octopress and Jekyll  
 date:         2012-01-04 18:12  
