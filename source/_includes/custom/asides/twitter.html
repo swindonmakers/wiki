@@ -1,6 +1,6 @@
 {% if site.twitter_user %}
 <section>
-  <h1><a href="https://twitter.com/intent/user?screen_name={{site.twitter_user}}">Twitter</a></h1>
+  <h1><a href="https://twitter.com/intent/user?screen_name={{site.twitter_user}}" target="twitter">Twitter</a></h1>
 
   <div id="tweets"></div>
 
@@ -17,12 +17,12 @@
   {% endif %}
 
   {% if site.twitter_follow_button %}
-    <a class="sharebutton" id="twitter-follow" target="sharebutton" href="//twitter.com/intent/follow?&screen_name={{ site.twitter_user }}">
+    <a class="sharebutton" id="twitter-follow" target="twitter" href="//twitter.com/intent/follow?&screen_name={{ site.twitter_user }}">
       <img class="button-img" id="twitter" src="/images/bird.png"></img>
       Follow @{{ site.twitter_user }}
     </a>
   {% else %}
-    <p>Follow <a href="http://twitter.com/{{site.twitter_user}}">@{{ site.twitter_user }}</a></p>
+    <p>Follow <a href="http://twitter.com/{{site.twitter_user}}" target="twitter">@{{ site.twitter_user }}</a></p>
   {% endif %}
 </section>
 {% endif %}

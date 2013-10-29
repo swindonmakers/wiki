@@ -1,11 +1,11 @@
 {% if site.github_user %}
 <section>
-  <h1><a href="https://github.com/{{site.github_user}}">GitHub</a></h1>
+  <h1><a href="https://github.com/{{site.github_user}}" target="github">GitHub</a></h1>
   <ul id="gh_repos">
     <li class="loading">Status updating...</li>
   </ul>
   {% if site.github_show_profile_link %}
-  <a href="https://github.com/{{site.github_user}}">@{{site.github_user}}</a> on GitHub
+  <a href="https://github.com/{{site.github_user}}" target="github">@{{site.github_user}}</a> on GitHub
   {% endif %}
   <script type="text/javascript">
     $(document).ready(function(){

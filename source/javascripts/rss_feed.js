@@ -51,7 +51,7 @@ function rss_feed_Linkroll(target) {
 
   this.format_item = function(it) {
     var str = "<li class=\"rss_feed-item\">";
-    str += "<a class=\"rss_feed-title\" href=\"" + this.cook(it.link) + "\">" +
+    str += "<a class=\"rss_feed-title\" target=\"googlegroup\" href=\"" + this.cook(it.link) + "\">" +
             this.cook(it.title.replace(/^(Re: \[shs\] )?Re: /, '')) + "</a>";
     if (it.description) {
       str += "<p class=\"rss_feed-description\">" + this.cook_linebreaks(it.description) + "</p>\n";
