@@ -1,7 +1,13 @@
 ---
 layout: nil
 ---
-User-agent: *
-Disallow: 
+User-agent: Googlebot
+Disallow: /*/index.md$
 
-Sitemap: {{ site.url }}/sitemap.xml 
+User-agent: MSNBot
+Disallow: /*/index.md$
+
+User-agent: *
+Disallow:
+
+Sitemap: {{ site.url }}/sitemap.xml
