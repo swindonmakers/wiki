@@ -5,15 +5,12 @@
 // margin for button after object (link, button, embed etc.)
 footer > .sharing > * + * { margin-left: 0.3em; }
 
-// tweak mmd image size
-#dfsymbol { height: 13px; }
-
 .sharing, section {
   // remove image styling
   .sharebutton > .button-img { margin: 0; border: none; box-shadow: none; border-radius: 0px; }
 
   // default image size and positioning
-  .sharebutton > .button-img { font-size: 18px; vertical-align: top; height: 12px; margin-top: 3px; }
+  .sharebutton > .button-img { font-size: 18px; vertical-align: top; height: 13px; margin-top: 2px; }
 
   // default button style
   a.sharebutton {
