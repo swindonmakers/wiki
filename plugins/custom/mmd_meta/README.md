@@ -26,10 +26,10 @@ Converts MultiMarkdown page variables into liquid tags.
 
 A post using MultiMarkdown style metadata and variables:
 
-    Title: My Blog Post
-    Date: 2013-07-03
-    Author: Fletcher T. Penney
-    Another Key: some data
+    Title:        My Blog Post
+    Date:         2013-07-03
+    Author:       Fletcher T. Penney
+    Another Key:  some data
 
     Post content, with embedded page variables: [%Title] and [%Another Key].
 
@@ -37,11 +37,11 @@ A post using MultiMarkdown style metadata and variables:
 Will be read as if it had YAML style metadata and liquid tags:
 
     ---
-    layout: post
-    title: My Blog Post
-    date: 2013-07-03
-    author: Fletcher T. Penney
-    anotherkey: some data
+    layout:       post
+    title:        My Blog Post
+    date:         2013-07-03
+    author:       Fletcher T. Penney
+    anotherkey:   some data
     ---
 
     Post content, with embedded page variables: {{ page.title }} and {{ page.anotherkey }}.
