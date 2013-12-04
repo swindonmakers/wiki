@@ -8,6 +8,11 @@ pre { font-size: 0.75em !important; }
 // inline code when linked
 a > code { border: 1px dashed #aaa; /*color: inherit;*/ }
 
+// fix issue with text selection when using a light background
+@if $solarized == light {
+  .gist .highlight, figure.code .highlight { @include selection(darken($base03, 12)); }
+}
+
 // set title font
 .code-title { font-family: $sans; font-size: 0.75em; color: #555; text-shadow: none }
 .download-source { font-size: inherit; color: inherit; text-shadow: inherit; }
