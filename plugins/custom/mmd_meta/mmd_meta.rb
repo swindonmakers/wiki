@@ -7,6 +7,7 @@
 # https://github.com/fletcher/MultiMarkdown/wiki/MultiMarkdown-Syntax-Guide
 #
 # Notes:
+# Automatically sets default layout style.
 # Only supports posts (Jekyll pages must start with `---`).
 # Converts MultiMarkdown keys to lowercase and strips spaces.
 # Converts MultiMarkdown page variables into liquid tags.
@@ -69,3 +70,23 @@ module MMD_Meta
 
 end
 Jekyll::Post.send(:include, MMD_Meta)
+
+
+# Title: ImplicitLayout
+# Description: Set default layout for posts and pages
+#
+module ImplicitLayoutForPost
+  def read_yaml(*args)
+    super
+    self.data['layout'] ||= 'post'
+  end
+end
+Jekyll::Post.send(:include, ImplicitLayoutForPost)
+
+module ImplicitLayoutForPage
+  def read_yaml(*args)
+    super
+    self.data['layout'] ||= 'page'
+  end
+end
+Jekyll::Page.send(:include, ImplicitLayoutForPage)

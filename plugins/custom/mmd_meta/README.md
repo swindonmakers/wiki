@@ -13,6 +13,8 @@ Use MultiMarkdown style [metadata] in place of YAML [frontmatter].
 
 ### Notes
 
+Automatically sets default metadata for layout style.
+
 Only supports posts (Jekyll pages must start with `---`).
 
 Converts MultiMarkdown keys to lowercase and strips spaces.
@@ -24,7 +26,6 @@ Converts MultiMarkdown page variables into liquid tags.
 
 A post using MultiMarkdown style metadata and variables:
 
-    Layout: post
     Title: My Blog Post
     Date: 2013-07-03
     Author: Fletcher T. Penney
@@ -44,6 +45,8 @@ Will be read as if it had YAML style metadata and liquid tags:
     ---
 
     Post content, with embedded page variables: {{ page.title }} and {{ page.anotherkey }}.
+
+_note: no value needed to be set for the layout field_
 
 
 ### Author
