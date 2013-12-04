@@ -11,12 +11,12 @@
 # Converts MultiMarkdown keys to lowercase and strips spaces.
 # Converts MultiMarkdown page variables into liquid tags.
 #
-module Jekyll
-  module Convertible
 
-    # retain reference to original method
-    alias_method :_mmdmeta_read_yaml, :read_yaml
 
+#
+# Note: only calls super if no MultiMarkdown metadata found
+#
+module MMD_Meta
     #
     # Read the MultiMarkdown metadata
     #
@@ -54,7 +54,7 @@ module Jekyll
           self.data = YAML.load(yaml.gsub(/\t/, ' '))
         else
           # pass YAML through to original method if no match
-          _mmdmeta_read_yaml(base, name)
+          super
           return
         end
 
@@ -67,5 +67,5 @@ module Jekyll
       self.data ||= {}
     end
 
-  end
 end
+Jekyll::Post.send(:include, MMD_Meta)
