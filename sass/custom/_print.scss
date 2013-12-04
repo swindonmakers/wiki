@@ -32,6 +32,8 @@ p > img { margin: 0 auto 1.5em; display: block; }
 
 // hide post navigation in footer
 footer > .meta:not(:first-child) { display: none; }
+footer > a[rel="full-article"] { display: none; }
+div.pagination { display: none; }
 
 // hide video embeds
 video, .flash-video { display: none; }
