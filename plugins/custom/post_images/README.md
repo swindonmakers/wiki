@@ -22,8 +22,8 @@ Add assets to the folder `_posts/_assets/2013-07-03-my-blog-post`.
 
     ---
     layout: post
-    title: My Blog Post
-    date: 2013-07-03
+    title:  My Blog Post
+    date:   2013-07-03
     ---
 
     ![My Image](Image.jpg)
