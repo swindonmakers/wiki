@@ -21,10 +21,10 @@ If future posts are to have the same title, then the `dated_url` field can be se
 to retain the date in the URL:
 
     ---
-    layout: post
-    title: Meeting Report
-    date: 2013-07-03
-    dated_url: true
+    layout:     post
+    title:      Meeting Report
+    date:       2013-07-03
+    dated_url:  true
     ---
 
 The url for this post is `/blog/2013-07-03-meeting-report`.
