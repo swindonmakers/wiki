@@ -79,6 +79,9 @@ module ImplicitLayoutForPost
   def read_yaml(*args)
     super
     self.data['layout'] ||= 'post'
+
+    # some metadata not normally accessible
+    self.data['name'] = self.name
   end
 end
 Jekyll::Post.send(:include, ImplicitLayoutForPost)
