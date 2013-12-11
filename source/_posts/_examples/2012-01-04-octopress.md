@@ -20,8 +20,7 @@ The newer date will be shown in the post footer, but will not change the index.
 ## Octopress Plugins
 
 Octopress includes it's own [plugins], as well as those provided by [jekyll][] (the
-static site generator it uses). For portability, markdown syntax is preferred where
-possible (code blocks, images, block quotes, etc.).
+static site generator it uses).
 
 [plugins]: http://octopress.org/docs/blogging/plugins/
 [jekyll]: http://jekyllrb.com/

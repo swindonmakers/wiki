@@ -58,12 +58,6 @@ Explicitly end a block-level element with an EOB marker (a line containg only `^
     This second code block is separated by the EOB marker above.
 
 
-## Text Transformations
-
-Plain ASCII can be used for typographic symbols: ellipsis ..., em-dash ---, en-dash
---, and guillemet << / >>. Prepend characters you don't want converted with `\`.
-
-
 ## More Examples
 
 See the [examples](.) folder for more uses of markdown and octopress syntax.

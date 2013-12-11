@@ -45,6 +45,10 @@ Add a title and any other relevant info or images, then hit
 [markdown basics]: http://daringfireball.net/projects/markdown/basics
 [markdown]: http://daringfireball.net/projects/markdown/dingus
 
+_Please check the progress of your pull request for any fixes that may be required._
+
+[commit history]: https://github.com/snhack/snhack.github.com/commits/source
+
 
 ### Notes on Pull Requests
 

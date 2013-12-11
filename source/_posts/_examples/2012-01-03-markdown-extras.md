@@ -6,11 +6,14 @@ categories:   demo markdown
 image:        https://github.com/images/icons/emoji/octocat.png  
 web:          http://jmeosbn.github.io  
 
-The extensions listed here are fairly common, the main issues being:
+The extensions listed here are fairly common and are all supported by this jekyll site as
+configured. The main issues when viewing your markdown outside of this site are:
 
-- Github flavoured markdown ([gfm]) doesn't support footnotes or definition lists.
+- Github flavoured markdown ([gfm]) doesn't support footnotes, definition lists, or text
+  transformations.
 
-- MultiMarkdown ([mmd]) uses an incompatible format for cross reference links.
+- MultiMarkdown ([mmd]) uses an incompatible format for cross reference links (doesn't
+  replace spaces in header titles with underscore etc.).
 
 [gfm]: http://github.github.com/github-flavored-markdown/
 [mmd]: https://rawgithub.com/fletcher/human-markdown-reference/master/index.html
@@ -73,6 +76,14 @@ Definition lists have a syntax that's similar to normal lists:
 term to define
 : a definition
 : an alternate definition
+
+
+## Smart Typography
+
+Plain ASCII strings can be used to represent the typographic symbols for: ellipsis ...,
+em-dash ---, and en-dash --. Additionally, \"straight quoted\" strings will be replaced
+using "smart quotes". Escape any character strings you don't want converted by prefixing
+with `\`.
 
 
 ## More Examples

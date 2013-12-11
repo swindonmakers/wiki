@@ -22,7 +22,7 @@ $ git init
 Initialized empty Git repository in my-project/.git/
 ```
 
-[Add](http://git-scm.com/docs/git-add) any new or changed files you want to track, then [commit](http://git-scm.com/docs/git-commit) those changes to the repo.
+[Add](http://git-scm.com/docs/git-add) any new or changed files you want to track, then [commit](http://git-scm.com/docs/git-commit) those changes to the repo, along with a [descriptive](http://xkcd.com/1296/) message.
 
 ``` sh
 $ echo About My-Project > README.md
