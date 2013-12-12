@@ -11,10 +11,16 @@
     Discuss
   </a>
   {% endif %}
-  {% if site.viewraw %}
+  {% if site.posts_view_raw %}
   <a href="index.md" class="sharebutton" id="viewmd" target="sourcemmd">
     <img class="button-img" id="dfsymbol" src="/images/mmd.png"></img>
-    View Source
+    Source
+  </a>
+  {% endif %}
+  {% if site.posts_view_git and site.github_repo_id %}
+  <a href="https://github.com/{{ site.github_user }}/{{ site.github_repo_id }}/blob/source/source/_posts/{{ page.name }}" class="sharebutton" id="viewhistory" target="sourcegit">
+    <img class="button-img" id="octocat" src="/images/octocat.png"></img>
+    Github
   </a>
   {% endif %}
   {% if site.google_plus_one %}

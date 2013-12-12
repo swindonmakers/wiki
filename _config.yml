@@ -9,9 +9,10 @@ author: Swindon Hackspace
 simple_search: http://google.com/search
 description:
 
-# viewraw: https://raw.github.com/snhack/snhack.github.com/source/source/_posts
-# viewraw: https://github.com/snhack/snhack.github.com/commits/source/source/_posts
-viewraw: https://github.com/snhack/snhack.github.com/blob/source/source/_posts
+# View Source
+posts_view_raw: true
+posts_view_git: true
+github_repo_id: snhack.github.com
 
 # License Info
 license_text: CC BY-NC-SA 3.0
