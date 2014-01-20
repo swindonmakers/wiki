@@ -5,6 +5,8 @@ __Note:  master branch is overwritten during compilation.__
 Please see the [INSTALL](INSTALL.md) file for full details on how to build and
 preview this site locally.
 
+Hi
+
 
 ### Super minimal way to add a post
 
