@@ -6,9 +6,13 @@ You can edit or create a page on this wiki to add any useful information that do
 
 This repo also hosts the [swindon.hackspace.org.uk](http://swindon.hackspace.org.uk/) website, so please consider if the information you want to contribute would work well as a public post to the hackspace website - we need more posts!
 
-To submit new posts or other changes for [swindon.hackspace.org.uk](http://swindon.hackspace.org.uk/) you will first need to [fork] this repo, then create a [pull request] with your changes; please see our [README file](https://github.com/snhack/snhack.github.com/blob/master/README.md) for more information.
+To submit new posts or other changes for [swindon.hackspace.org.uk] you will first need to [fork] this repo, then create a [pull request] with your changes; please see our [README file] for more information.
+
+[swindon.hackspace.org.uk]: http://swindon.hackspace.org.uk/
+[README file]: https://github.com/snhack/snhack.github.com/blob/master/README.md
+[INSTALL file]: https://github.com/snhack/snhack.github.com/blob/master/INSTALL.md
 
 [fork]: https://help.github.com/articles/fork-a-repo
 [pull request]: https://help.github.com/articles/using-pull-requests
 
-To install and run the website on your own computer - for accurate previewing of posts, or development of website fixes and features, please see the [INSTALL file](https://github.com/snhack/snhack.github.com/blob/master/INSTALL.md).
+To install and run the website on your own computer - for accurate previewing of posts, or development of website fixes and features, please see the [INSTALL file].
