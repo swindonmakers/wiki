@@ -4,7 +4,7 @@ You can edit or create a page on this wiki to add any useful information that do
 
 [snhack organisation]: https://github.com/snhack
 
-This repo also hosts the [swindon.hackspace.org.uk](http://swindon.hackspace.org.uk/) website, so please consider if the information you want to contribute would work well as a public post to the hackspace website - we need more posts!
+This repo also hosts the [swindon.hackspace.org.uk] website, so please consider if the information you want to contribute would work well as a public post to the hackspace website - we need more posts!
 
 To submit new posts or other changes for [swindon.hackspace.org.uk] you will first need to [fork] this repo, then create a [pull request] with your changes; please see our [README file] for more information.
 
