@@ -1,4 +1,8 @@
+> *TODO: Add some examples, remove some verbosity.*
+
 The hackspace uses various services to share hackspace information, news, and media.  While longer project posts on the [main website][Swindon Hackspace] are [appreciated](Contributing), don't let that deter you from sharing smaller amounts of text, pictures, and video.
+
+This page aims to document the hackspace's web presence on various services, and also serves as a guide for where certain types of media are best posted.  Rule 1 however, is that there are no rules (just joking, there's a crazy amount of rules, seriously).
 
 
 - [Twitter] and [Facebook]
@@ -7,26 +11,43 @@ The hackspace uses various services to share hackspace information, news, and me
 
     We try not to post multiple re/tweets over a short period, so if you have an awesome but time sensitive link, pic, video, or other bit of news you want to share, please ping us via a separate tweet to let us know. :)
 
-    Facebook acts as a secondary outlet for those members who prefer not to use twitter.
+    Integration: Recent twitter posts are linked from the main website, while Facebook acts as a secondary outlet for those members who prefer not to use twitter.
 
     Examples: hackspace [evenings], [events], [donations], [members], [posts], [printer], [pi], [robots], [toys], [logos], and [alerts].
 
 
 - [Flickr] and [YouTube]
 
-    Pictures are submitted by members into the [Swindon Hackspace Flickr Group][Flickr], while videos are posted from the [Swindon Hackspace YouTube Account] (either directly, or via member's who have been nominated as "managers").  There's also a playlist on youtube for videos posted by hackspace members, similar to a flickr group, kinda, only not.  If we ever have any educational video content (including presentations by members and visitors), then that will likely be mirrored on vimeo.
+    Pictures are submitted by members into the [Swindon Hackspace Flickr Group][Flickr], while videos are posted from the [Swindon Hackspace YouTube Account] (either directly, or via member's who have been nominated as "managers").  There's also a [YouTube Playlist] for videos posted by hackspace members, similar to a flickr group, kinda, only not.
 
-    <Please add some examples here>
+    Integration: Recent videos and pics are not currently integrated into the main website, although that is planned for a future upgrade.
+
+    <!-- Please add some awesome examples here -->
 
 
 - [Google Group]
 
-    <Please add some more info here>
+    The [hackspace group][Google Group] is the main forum online for members to share ideas, discuss hackspace issues, and find help on projects, etc.  New or potential members may also use the forum for general enquiries and introductions.
+
+    You're welcome to post news on your own projects here - especially to invite further discussion - but please consider using twitter (and mentioning [@snhack]) for one-off links, pictures, and other media.
+
+    Integration: Recent google group topics are linked from the main website using the group's [rss feed][group rss].  Group topics are also created for each new blog post to the website.
+
+    <!-- Please add some awesome examples here -->
 
 
 - [Github]
 
-    <Please add some more info here>
+    For projects using any technical media - such as source code, manuals, diagrams, or drawings - please  [create a repo] for easy access and collaboration with other members.
+
+    For projects carried out for, or during the hackspace, it's best to create a repo directly under the `github.com/snhack` organisation, where it will be most visible.  While it's not ideal, you can also [fork an existing repo][Fork a Repo] into `github.com/snhack`, should the code already exist elsewhere on github (or you wish to retain control of the "upstream" project).
+
+    Recent projects created in the snhack github organisation are linked 
+
+    <!-- Please add some awesome examples here -->
+
+
+
 
 
 [Swindon Hackspace]: http://swindon.hackspace.org.uk/
@@ -34,10 +55,15 @@ The hackspace uses various services to share hackspace information, news, and me
 [Twitter]: http://twitter.com/snhack
 [@snhack]: http://twitter.com/snhack
 [YouTube]: http://www.youtube.com/user/snhackspace
+[YouTube Playlist]: https://www.youtube.com/playlist?list=PLYuoVOMOzIhpehXWllA0vdYpHrcD5ouTd
 [Flickr]: https://www.flickr.com/groups/swindon-hackspace/
 [Facebook]: https://www.facebook.com/swindon.hackspace
 [Github]: https://github.com/snhack
+[group rss]: https://groups.google.com/forum/feed/swindon-hackspace/topics/rss_v2_0.xml
 
+
+[Create a Repo]: https://help.github.com/articles/create-a-repo
+[Fork a Repo]: https://help.github.com/articles/fork-a-repo
 
 [evenings]: https://twitter.com/gyrobotuk/status/389492739483500544
 [donations]: https://twitter.com/AstroFraggle/status/453962547725864961
@@ -50,4 +76,3 @@ The hackspace uses various services to share hackspace information, news, and me
 [alerts]: https://twitter.com/snhack/status/418086658261934080
 [toys]: https://twitter.com/snhack/status/418843921343852544
 [pi]: https://twitter.com/snhack/status/433689378087796736
-
