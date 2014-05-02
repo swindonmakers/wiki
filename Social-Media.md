@@ -38,7 +38,7 @@ This page aims to document the hackspace's web presence on various services, and
 
 - [Github]
 
-    For projects using any technical media - such as source code, manuals, diagrams, or drawings - please  [create a repo] for easy access and collaboration with other members.
+    For projects using any technical media - such as source code, manuals, diagrams, or drawings - please  [create a repo] for easy access and collaboration with other members.  Each repo has a wiki (just like [this one](https://github.com/snhack/snhack.github.com/wiki/), should you want to post additional wiki style information regarding your project.
 
     For projects carried out for, or during the hackspace, it's best to create a repo directly under the `github.com/snhack` organisation, where it will be most visible.  While it's not ideal, you can also [fork an existing repo][Fork a Repo] into `github.com/snhack`, should the code already exist elsewhere on github (or you wish to retain control of the "upstream" project).
 
@@ -46,6 +46,15 @@ This page aims to document the hackspace's web presence on various services, and
 
     <!-- Please add some awesome examples here -->
 
+- [Thingiverse]
+
+    A bit like Github for 3D printing, mixed with Tumblr.  You can create, remix (similar to "fork" on github), collect (similar to "star"?), and watch designs; follow other members, and post images of your own prints.
+
+    Any 3D prints done at the hackspace should go up on here of course; either the design, or simply to log that "we made one!".  For non-trivial prints you're welcome (and encouraged) to start a github repo too, especially if there are additional source files, instructions, firmware, etc. to collect together.
+
+    Integration: No integration into the main website as yet, look into including this into the planned video and images integration.
+
+    <!-- Please add some awesome examples here -->
 
 
 
@@ -59,6 +68,7 @@ This page aims to document the hackspace's web presence on various services, and
 [Flickr]: https://www.flickr.com/groups/swindon-hackspace/
 [Facebook]: https://www.facebook.com/swindon.hackspace
 [Github]: https://github.com/snhack
+[Thingiverse]: http://www.thingiverse.com/Swindon-Hackspace/overview
 [group rss]: https://groups.google.com/forum/feed/swindon-hackspace/topics/rss_v2_0.xml
 
 
