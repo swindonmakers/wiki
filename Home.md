@@ -2,21 +2,17 @@
 
 - [Contributing website and wiki content](Contributing)
 
-- [Social Media / Other Web Presence][Social Media]
+- [Blog posts][README file] • [Website features and fixes][INSTALL file]
+
+- [Web Presence / Social Media][Social Media]
 
 
 #### Github Bootcamp
 
-- [Set Up Git] - [Create a Repo] - [Fork a Repo]
+- [Set Up Git] • [Create a Repo] • [Fork a Repo]
 
-- [Be Social] - [Github Resources] - [Glossary]
+- [Be Social] • [Github Resources] • [Glossary]
 
-
-#### Website Hacking
-
-- [Submitting posts for the website][README file]
-
-- [Development of website features and fixes][INSTALL file]
 
 
 
