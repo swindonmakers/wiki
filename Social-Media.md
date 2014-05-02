@@ -48,7 +48,7 @@ This page aims to document the hackspace's web presence on various services, and
 
 - [Thingiverse]
 
-    A bit like Github for 3D printing, mixed with Tumblr.  You can create, remix (similar to "fork" on github), collect (similar to "star"?), and watch designs; follow other members, and post images of your own prints.
+    A bit like Github for 3D printing, mixed with Tumblr.  You can create, remix (similar to fork on github), collect (similar to star?), and watch designs; follow other members, and post images of your own prints.
 
     Any 3D prints done at the hackspace should go up on here of course; either the design, or simply to log that "we made one!".  For non-trivial prints you're welcome (and encouraged) to start a github repo too, especially if there are additional source files, instructions, firmware, etc. to collect together.
 
