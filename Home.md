@@ -1,8 +1,8 @@
-# General Info
+### General Info
 
 - [Contributing website and wiki content](Contributing)
 
-# Github Bootcamp
+#### Github Bootcamp
 
 - [Set Up Git] - [Create a Repo] - [Fork a Repo]
 
@@ -16,7 +16,7 @@
 [Glossary]: https://help.github.com/articles/github-glossary
 [Github Resources]: https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github
 
-# Website Info
+#### Website Info
 
 - [Submitting posts for the website][README file]
 
