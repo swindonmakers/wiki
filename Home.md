@@ -2,6 +2,8 @@
 
 - [Contributing website and wiki content](Contributing)
 
+- [Social Media / Other Web Presence][Social Media]
+
 
 #### Github Bootcamp
 
@@ -10,13 +12,11 @@
 - [Be Social] - [Github Resources] - [Glossary]
 
 
-#### Website Info
+#### Website Hacking
 
 - [Submitting posts for the website][README file]
 
 - [Development of website features and fixes][INSTALL file]
-
-- [Social Media / Other Web Presence][Social Media]
 
 
 
