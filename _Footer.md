@@ -1,6 +1,4 @@
-<style>p {text-align:center;}</style>
-
-<p>[Swindon Hackspace] • [Google Group] • [Twitter] / [Facebook] • [YouTube] • [Flickr] • [Github]</p>
+[Swindon Hackspace] • [Google Group] • [Twitter] / [Facebook] • [YouTube] • [Flickr] • [Github]
 
 [Swindon Hackspace]: http://swindon.hackspace.org.uk/
 [Google Group]: http://groups.google.com/group/swindon-hackspace
