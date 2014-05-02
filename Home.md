@@ -1,1 +1,28 @@
-Welcome to the snhack.github.com wiki!
+# General Info
+
+- [Contributing website and wiki content](Contributing)
+
+# Github Bootcamp
+
+- [Set Up Git] - [Create a Repo] - [Fork a Repo]
+
+- [Be Social] - [Github Resources] - [Glossary]
+
+[Set Up Git]:https://help.github.com/articles/set-up-git
+[Create a Repo]: https://help.github.com/articles/create-a-repo
+[Fork a Repo]: https://help.github.com/articles/fork-a-repo
+[Using Pull Requests]: https://help.github.com/articles/using-pull-requests
+[Be Social]: https://help.github.com/articles/be-social
+[Glossary]: https://help.github.com/articles/github-glossary
+[Github Resources]: https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github
+
+# Website Info
+
+- [Submitting posts for the website][README file]
+
+- [Development of website features and fixes][INSTALL file]
+
+[README file]: https://github.com/snhack/snhack.github.com/blob/master/README.md
+[INSTALL file]: https://github.com/snhack/snhack.github.com/blob/master/INSTALL.md
+
+
