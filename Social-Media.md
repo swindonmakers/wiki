@@ -12,14 +12,14 @@ The hackspace uses various services to share hackspace information, news, and me
     Examples: hackspace [evenings], [events], [donations], [members], [posts], [printer], [pi], [robots], [toys], [logos], and [alerts].
 
 
-[evening]: https://twitter.com/gyrobotuk/status/389492739483500544
+[evenings]: https://twitter.com/gyrobotuk/status/389492739483500544
 [donations]: https://twitter.com/AstroFraggle/status/453962547725864961
 [posts]: https://twitter.com/snhack/status/394046443981246464
 [events]: https://twitter.com/gyrobotuk/status/447351370396753920
 [members]: https://twitter.com/MyMiniFactory/status/449238435631362049
 [printer]: https://twitter.com/snhack/status/412213930023739392
-[logo]: https://twitter.com/snhack/status/410871627225006080
-[robot]: https://twitter.com/snhack/status/411526964806426624
+[logos]: https://twitter.com/snhack/status/410871627225006080
+[robots]: https://twitter.com/snhack/status/411526964806426624
 [alerts]: https://twitter.com/snhack/status/418086658261934080
 [toys]: https://twitter.com/snhack/status/418843921343852544
 [pi]: https://twitter.com/snhack/status/433689378087796736
