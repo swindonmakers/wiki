@@ -1,7 +1,14 @@
-## Instructions for submitting content
+## Contributing website and wiki content
 
-If you've already been added to the [snhack organisation](https://github.com/snhack) then you can create a page on this wiki for information about projects, etc., that may be updated from time to time.
+You can edit or create a page on this wiki to add any useful information that doesn't have it's own project (yet?), or does not otherwise belong on the public facing website.
 
-This repo also hosts the [swindon.hackspace.org.uk](http://swindon.hackspace.org.uk/) website, so consider if the information you want to contribute would work well as a post to the public website (we need more posts!).
+[snhack organisation]: https://github.com/snhack
 
-To submit new posts for [swindon.hackspace.org.uk](http://swindon.hackspace.org.uk/), please see this repo's [README file](blob/master/README.md).  To install and run the website on your own computer - for accurate previewing of posts, or development of website fixes and features, please see the [INSTALL file](blob/master/INSTALL).
+This repo also hosts the [swindon.hackspace.org.uk](http://swindon.hackspace.org.uk/) website, so please consider if the information you want to contribute would work well as a public post to the hackspace website - we need more posts!
+
+To submit new posts or other changes for [swindon.hackspace.org.uk](http://swindon.hackspace.org.uk/) you will first need to [fork] this repo, then create a [pull request] with your changes; please see our [README file](https://github.com/snhack/snhack.github.com/blob/master/README.md) for more information.
+
+[fork]: https://help.github.com/articles/fork-a-repo
+[pull request]: https://help.github.com/articles/using-pull-requests
+
+To install and run the website on your own computer - for accurate previewing of posts, or development of website fixes and features, please see the [INSTALL file](https://github.com/snhack/snhack.github.com/blob/master/INSTALL.md).
