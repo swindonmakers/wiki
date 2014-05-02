@@ -42,7 +42,7 @@ This page aims to document the hackspace's web presence on various services, and
 
     For projects carried out for, or during the hackspace, it's best to create a repo directly under the `github.com/snhack` organisation, where it will be most visible.  While it's not ideal, you can also [fork an existing repo][Fork a Repo] into `github.com/snhack`, should the code already exist elsewhere on github (or you wish to retain control of the "upstream" project).
 
-    Recent projects created in the snhack github organisation are linked 
+    Integration: Recent projects created within `github.com/snhack` are linked from the main website.
 
     <!-- Please add some awesome examples here -->
 
