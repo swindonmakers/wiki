@@ -20,22 +20,23 @@ To generate GP-GL with Eagle (PCB design software):
 * Find the eagle.def file.  In the debian package, it's /usr/share/eagle/bin/eagle.def
 * Add a new stanza to the bottom of the file, to teach Eagle how to output GP-GL.  (FIXME: copy from lenny.)
 
-    [GRAPHTEK_MP1000]
-    ; Partly from http://en.wikipedia.org/wiki/Graphtec_Corporation
-    Type = PenPlotter
-    Long = "Graphtek MP1000"
-    Init = ":\n"
-    Reset = ":\n"
-    ; 360 x 270 mm
-    Width = 14.173228
-    Height = 10.629921
-    ; 0.1mm
-    ResX = 254
-    ResY = 254
-    Move     = "M%d,%d\n"
-    Draw     = "D%d,%d\n"
-    ; PenSelect = "J%d\n"
-
+```
+[GRAPHTEK_MP1000]
+; Partly from http://en.wikipedia.org/wiki/Graphtec_Corporation , but mostly from reading docs
+Type = PenPlotter
+Long = "Graphtek MP1000"
+Init = ":\n"
+Reset = ":\n"
+; 360 x 270 mm
+Width = 14.173228
+Height = 10.629921
+; 0.1mm
+ResX = 254
+ResY = 254
+Move     = "M%d,%d\n"
+Draw     = "D%d,%d\n"
+PenSelect = "J%d\n"
+```
 
 * Open your board file in eagle
 * File > CAM Processor
