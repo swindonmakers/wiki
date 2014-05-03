@@ -18,7 +18,7 @@ To generate GP-GL with Eagle (PCB design software):
 * Download the Eagle software from Cadsoft: https://www.cadsoftusa.com/download-eagle/
  * Or get the package "eagle" on Debian (and presumably derived distributions, such as ubuntu).
 * Find the eagle.def file.  In the debian package, it's /usr/share/eagle/bin/eagle.def
-* Add a new stanza to the bottom of the file, to teach Eagle how to output GP-GL.  (FIXME: copy from lenny.)
+* Add a new stanza to the bottom of the file, to teach Eagle how to output GP-GL.
 
 ```
 [GRAPHTEK_MP1000]
