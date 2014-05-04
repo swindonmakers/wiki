@@ -6,7 +6,7 @@ What is it?
 
 A plotting device that uses changeable pens to draw. Maximum drawing size is about A3. Graphtek MP1000, with a serial (RS232) interface. It came with documentation for that model (or at least a similar version with a parallel interface).
 
-The plotter also came with several pens (black and some colours) and some special pens for creating PCBs! Presumably these draw on copper board using resist.
+The plotter also came with several pens (black and some colours) and some special pens for creating PCBs! There are two different sizes of PCB pen, the recommendation was to use the larger (.3mm?) of the two.  There is a small bottle of etch resist to use in the pens which should be diluted 50/50 with meths.  You should only need to put a very small amount of etch resist in the pen and the pen needs to be cleaned out thoroughly after each use to prevent it from getting blocked up.  The copper board should be cleaned up as much as possible so it's nice and shiny so that the etch resist will apply cleanly.
 
 The plotter can be sent commands using GPGL, which is handily defined in the accompanying documentation.
 
