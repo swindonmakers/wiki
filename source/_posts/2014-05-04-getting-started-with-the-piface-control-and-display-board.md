@@ -33,12 +33,14 @@ been quite a while since we did it!
 - Enabled SPI using `raspi-config`.  What this actually seems to do is make 
 sure the spi kernel module is installed.
 
-		pi@raspberrypi ~ $ lsmod |grep spi
-		regmap_spi              1897  1 snd_soc_core
-		spi_bcm2708             4728  0
+```sh
+pi@raspberrypi ~ $ lsmod |grep spi
+regmap_spi              1897  1 snd_soc_core
+spi_bcm2708             4728  0
+```
 
 - Installed the PiFace Python modules `apt-get install python3-pifacecad`
-It's nice that it is included in the Rasbian repos and can be installed so easily.
+It's nice that it is included in the Raspbian repos and can be installed so easily.
 
 ## First Test
 
@@ -46,7 +48,9 @@ The best idea is always to test using some code written by someone else
 so that you know you have everything setup correctly.  Fortunately there is
 is nice sysinfo sample provided.
 
-		python3 /usr/share/doc/python3-pifacecad/examples/sysinfo.py
+```sh
+pi@raspberrypi ~ $ python3 /usr/share/doc/python3-pifacecad/examples/sysinfo.py
+```
 
 ![Sysinfo Demo](Sysinfo.jpg)
 
@@ -54,14 +58,16 @@ Thats works perfectly.  Time to dive into python and see what the api is like.
 
 ## Hello World Using The Python Shell
 
-		pi@raspberrypi ~ $ python3
-		Python 3.2.3 (default, Mar  1 2013, 11:53:50)
-		[GCC 4.6.3] on linux2
-		Type "help", "copyright", "credits" or "license" for more information.
-		>>> import pifacecad as p
-		>>> cad = p.PiFaceCAD()
-		>>> cad.lcd.backlight_on()
-		>>> cad.lcd.write("Hello World!")
+```py
+pi@raspberrypi ~ $ python3
+Python 3.2.3 (default, Mar  1 2013, 11:53:50)
+[GCC 4.6.3] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pifacecad as p
+>>> cad = p.PiFaceCAD()
+>>> cad.lcd.backlight_on()
+>>> cad.lcd.write("Hello World!")
+```
 
 ![Hello World](HelloWorld.jpg)
 
@@ -75,20 +81,22 @@ PiFace instead of wiring up your own display.
 Ok, lets try something a bit more tricky.  There are api commands to
 move the cursor around and to hide the cursor, so lets have a go with those.
 
-		pi@raspberrypi ~ $ python3
-		Python 3.2.3 (default, Mar  1 2013, 11:53:50)
-		[GCC 4.6.3] on linux2
-		Type "help", "copyright", "credits" or "license" for more information.
-		>>> import pifacecad as p
-		>>> cad = p.PiFaceCAD()
-		>>> cad.lcd.backlight_on()
-		>>> cad.lcd.clear()
-		>>> cad.lcd.set_cursor(5,0)
-		>>> cad.lcd.write("Swindon")
-		>>> cad.lcd.set_cursor(5,1)
-		>>> cad.lcd.write("Hackspace")
-		>>> cad.lcd.cursor_off()
-		>>> cad.lcd.blink_off()
+```py
+pi@raspberrypi ~ $ python3
+Python 3.2.3 (default, Mar  1 2013, 11:53:50)
+[GCC 4.6.3] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import pifacecad as p
+>>> cad = p.PiFaceCAD()
+>>> cad.lcd.backlight_on()
+>>> cad.lcd.clear()
+>>> cad.lcd.set_cursor(5,0)
+>>> cad.lcd.write("Swindon")
+>>> cad.lcd.set_cursor(5,1)
+>>> cad.lcd.write("Hackspace")
+>>> cad.lcd.cursor_off()
+>>> cad.lcd.blink_off()
+```
 
 A few points to note here.  For the non-programmers out there, computers count 
 from zero, so "5" is actually the 6th position along and "0" is the first row. 
@@ -127,40 +135,46 @@ My first attempt didn't look so great because of where the physical gaps
 between the characters on the display fell, but a bit of tweaking and I ended 
 up with something like this:
 
-		>>> sh = p.LCDBitmap([3,7,14,12,24,24,31,31])
-		>>> cad.lcd.store_custom_bitmap(0, sh)
-		>>> sh = p.LCDBitmap([31,31,0,27,27,27,31,31])
-		>>> cad.lcd.store_custom_bitmap(1, sh)
-		>>> sh = p.LCDBitmap([24,28,14,7,3,0,0,0])
-		>>> cad.lcd.store_custom_bitmap(2, sh)
-		>>> sh = p.LCDBitmap([0,0,0,24,28,14,7,3])
-		>>> cad.lcd.store_custom_bitmap(3, sh)
-		>>> sh = p.LCDBitmap([31,31,27,27,27,0,31,31])
-		>>> cad.lcd.store_custom_bitmap(4, sh)
-		>>> sh = p.LCDBitmap([31,31,3,3,6,14,28,24])
-		>>> cad.lcd.store_custom_bitmap(5, sh)
+```py
+>>> sh = p.LCDBitmap([3,7,14,12,24,24,31,31])
+>>> cad.lcd.store_custom_bitmap(0, sh)
+>>> sh = p.LCDBitmap([31,31,0,27,27,27,31,31])
+>>> cad.lcd.store_custom_bitmap(1, sh)
+>>> sh = p.LCDBitmap([24,28,14,7,3,0,0,0])
+>>> cad.lcd.store_custom_bitmap(2, sh)
+>>> sh = p.LCDBitmap([0,0,0,24,28,14,7,3])
+>>> cad.lcd.store_custom_bitmap(3, sh)
+>>> sh = p.LCDBitmap([31,31,27,27,27,0,31,31])
+>>> cad.lcd.store_custom_bitmap(4, sh)
+>>> sh = p.LCDBitmap([31,31,3,3,6,14,28,24])
+>>> cad.lcd.store_custom_bitmap(5, sh)
+```
 
 That code loads six custom characters into memory locations zero to five.
 Now all we need to do is write them out to the display.  It might be wise 
 to turn the cursor back on at this point to see where we are writing to:
 
-		>>> cad.lcd.cursor_on()
-		>>> cad.lcd.blink_on()
-		>>> cad.lcd.set_cursor(1,0)
+```py
+>>> cad.lcd.cursor_on()
+>>> cad.lcd.blink_on()
+>>> cad.lcd.set_cursor(1,0)
+```
 
 Note that the cursor doesn't reappear until you move it somewhere. Time 
 to write out the logo and finally hide the cursor again.
 
-		>>> cad.lcd.write_custom_bitmap(0)
-		>>> cad.lcd.write_custom_bitmap(1)
-		>>> cad.lcd.write_custom_bitmap(2)
-		>>> cad.lcd.set_cursor(1,1)
-		>>> cad.lcd.write_custom_bitmap(3)
-		>>> cad.lcd.write_custom_bitmap(4)
-		>>> cad.lcd.write_custom_bitmap(5)
-		>>>
-		>>> cad.lcd.cursor_off()
-		>>> cad.lcd.blink_off()
+```py
+>>> cad.lcd.write_custom_bitmap(0)
+>>> cad.lcd.write_custom_bitmap(1)
+>>> cad.lcd.write_custom_bitmap(2)
+>>> cad.lcd.set_cursor(1,1)
+>>> cad.lcd.write_custom_bitmap(3)
+>>> cad.lcd.write_custom_bitmap(4)
+>>> cad.lcd.write_custom_bitmap(5)
+>>>
+>>> cad.lcd.cursor_off()
+>>> cad.lcd.blink_off()
+```
 
 ![Custom Bitmaps](HackspaceLogo.jpg)
 
@@ -181,23 +195,25 @@ you get a nice friendly error message which is good to know.  It's always
 reassuring that a library is decently written when it provides nice error
 messages.
 
-		>>> cad.lcd.write_custom_bitmap(8)
-		Traceback (most recent call last):
-		  File "<stdin>", line 1, in <module>
-		  File "/usr/lib/python3/dist-packages/pifacecad/lcd.py", line 458, in write_custom_bitmap
-			self.char_bank_in_range_or_error(char_bank)
-		  File "/usr/lib/python3/dist-packages/pifacecad/lcd.py", line 492, in char_bank_in_range_or_error
-			cgramaddr=char_bank,
-		Exception: There are only 8 custom characters (You tried to access 8).
+```py
+>>> cad.lcd.write_custom_bitmap(8)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3/dist-packages/pifacecad/lcd.py", line 458, in write_custom_bitmap
+	self.char_bank_in_range_or_error(char_bank)
+  File "/usr/lib/python3/dist-packages/pifacecad/lcd.py", line 492, in char_bank_in_range_or_error
+	cgramaddr=char_bank,
+Exception: There are only 8 custom characters (You tried to access 8).
 
-		>>> cad.lcd.store_custom_bitmap(8, sh)
-		Traceback (most recent call last):
-		  File "<stdin>", line 1, in <module>
-		  File "/usr/lib/python3/dist-packages/pifacecad/lcd.py", line 474, in store_custom_bitmap
-			self.char_bank_in_range_or_error(char_bank)
-		  File "/usr/lib/python3/dist-packages/pifacecad/lcd.py", line 492, in char_bank_in_range_or_error
-			cgramaddr=char_bank,
-		Exception: There are only 8 custom characters (You tried to access 8).
+>>> cad.lcd.store_custom_bitmap(8, sh)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/usr/lib/python3/dist-packages/pifacecad/lcd.py", line 474, in store_custom_bitmap
+	self.char_bank_in_range_or_error(char_bank)
+  File "/usr/lib/python3/dist-packages/pifacecad/lcd.py", line 492, in char_bank_in_range_or_error
+	cgramaddr=char_bank,
+Exception: There are only 8 custom characters (You tried to access 8).
+```
 
 ## And Finally...
 
