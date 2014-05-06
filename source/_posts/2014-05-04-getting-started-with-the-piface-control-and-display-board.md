@@ -6,7 +6,7 @@ image:        HelloWorld-small.jpg
 date:         2014-05-04 17:20
 
 The Hackspace recently took delivery of a 
-[PiFace Control and Display board](http://uk.farnell.com/piface/piface-control-display/i-o-board-with-lcd-display-for/dp/2344458).
+[PiFace Control and Display board from Farnell](http://uk.farnell.com/piface/piface-control-display/i-o-board-with-lcd-display-for/dp/2344458).
 It is an add-on board for the Raspberry Pi that includes a 16 character by 2 line
 display, five push buttons, a toggle button and an IR receiver.  The 
 intention is to use this on the Hackspace 3D printer to display some information
@@ -217,11 +217,12 @@ Exception: There are only 8 custom characters (You tried to access 8).
 
 ## And Finally...
 
+Thanks go to [Farnell / Element14](http://uk.farnell.com/) for supplying the PiFace
+Control and Display board.
+
 Given I only know the basics in Python (though I do code in other languages)
 its pretty easy to get started with the PiFace and make it do some cool stuff.
-It seems liked it should be fairly easy to get it doing something useful with
+It seems like it should be fairly easy to get it doing something useful with
 the 3D printer.  More on that later....
 
-Thanks to [Farnell / Element14](http://uk.farnell.com/) for supplying the PiFace 
-Control and Display board.
 
