@@ -5,8 +5,8 @@ author:       Robert Longbottom
 image:        HelloWorld-small.jpg
 date:         2014-05-04 17:20
 
-The Hackspace recently got its hands on a PiFace Control and Display board [from
-the nice folks at Farnell](http://uk.farnell.com/piface/piface-control-display/i-o-board-with-lcd-display-for/dp/2344458).
+The Hackspace recently took delivery of a PiFace Control and Display board
+[from the nice folks at Farnell](http://uk.farnell.com/piface/piface-control-display/i-o-board-with-lcd-display-for/dp/2344458).
 It is an add-on board for the Raspberry Pi that includes a 16 character by 2 line
 display, five push buttons, a toggle button and an IR receiver.  The 
 intention is to use this on the Hackspace 3D printer to display some information
