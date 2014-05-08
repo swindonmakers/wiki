@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Swindon Hackspace]]></title>
+  <link href="http://swindon.hackspace.org.uk/atom.xml" rel="self"/>
+  <link href="http://swindon.hackspace.org.uk/"/>
+  <updated>2014-05-09T00:13:57+01:00</updated>
+  <id>http://swindon.hackspace.org.uk/</id>
+  <author>
+    <name><![CDATA[Swindon Hackspace]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[PiFace Control And Display Board]]></title>
+    <link href="http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/"/>
+    <updated>2014-05-08T17:20:00+01:00</updated>
+    <id>http://swindon.hackspace.org.uk/blog/piface-control-and-display-board</id>
+    
+    <author>
+      <name><![CDATA[Robert Longbottom]]></name>
+    </author>
+    
+    <content type="html"><![CDATA[<p>The Hackspace recently took delivery of a 
+<a href="http://uk.farnell.com/piface/piface-control-display/i-o-board-with-lcd-display-for/dp/2344458">PiFace Control and Display board from Farnell</a>.
+It is an add-on board for the Raspberry Pi that includes a 16 character by 2 line
+display, five push buttons, a toggle button and an IR receiver.  The 
+intention is to use this on the Hackspace 3D printer to display some information
+about the printer (bed and extruder temperatures) and about the job (percent
+complete).  It would also be nice to use the buttons to control some of the 
+functions of the printer such as priming the extruder.</p>
+
+<p>In this post I’ll cover what I did to get up and running with the PiFace.  This
+was really just a learning exercise to understand how it works and what can be
+done.  There will be another post about getting it working with the 3D printer
+later on.</p>
+
+<!-- more -->
+
+<p><img src="http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/Piface.jpg" alt="PiFace" /></p>
+
+<h2 id="getting-the-raspberry-pi-ready">Getting The Raspberry Pi Ready</h2>
+
+<p>There is a nice guide on getting everything setup on the <a href="http://www.piface.org.uk/guides/setting_up_pifacecad/">PiFace website</a>
+so I won’t go into every detail again.  In short:</p>
+
+<ul>
+  <li>
+    <p>Updated the Raspbian install on our Raspberry Pi by running 
+<code>apt-get update &amp;&amp; apt-get upgrade</code>  This took some hours, must have 
+been quite a while since we did it!</p>
+  </li>
+  <li>
+    <p>Enabled SPI using <code>raspi-config</code>.  What this actually seems to do is make 
+sure the spi kernel module is installed.</p>
+  </li>
+</ul>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line">pi@raspberrypi ~ <span class="nv">$ </span>lsmod |grep spi
+</span><span class="line">regmap_spi              1897  1 snd_soc_core
+</span><span class="line">spi_bcm2708             4728  0
+</span></code></pre></div></figure></notextile></div>
+
+<ul>
+  <li>Installed the PiFace Python modules <code>apt-get install python3-pifacecad</code>.
+It’s nice that it is included in the Raspbian repos and can be installed so easily.</li>
+</ul>
+
+<h2 id="first-test">First Test</h2>
+
+<p>The best idea is always to test using some code written by someone else
+so that you know you have everything setup correctly.  Fortunately there is
+a nice sysinfo sample provided.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line">pi@raspberrypi ~ <span class="nv">$ </span>python3 /usr/share/doc/python3-pifacecad/examples/sysinfo.py
+</span></code></pre></div></figure></notextile></div>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/Sysinfo.jpg" alt="Sysinfo Demo" /></p>
+
+<p>That works perfectly.  Time to dive into python and see what the api is like.</p>
+
+<h2 id="hello-world-using-the-python-shell">Hello World Using The Python Shell</h2>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="py"><span class="line"><span class="n">pi</span><span class="nd">@raspberrypi</span> <span class="o">~</span> <span class="err">$</span> <span class="n">python3</span>
+</span><span class="line"><span class="n">Python</span> <span class="mf">3.2</span><span class="o">.</span><span class="mi">3</span> <span class="p">(</span><span class="n">default</span><span class="p">,</span> <span class="n">Mar</span>  <span class="mi">1</span> <span class="mi">2013</span><span class="p">,</span> <span class="mi">11</span><span class="p">:</span><span class="mi">53</span><span class="p">:</span><span class="mi">50</span><span class="p">)</span>
+</span><span class="line"><span class="p">[</span><span class="n">GCC</span> <span class="mf">4.6</span><span class="o">.</span><span class="mi">3</span><span class="p">]</span> <span class="n">on</span> <span class="n">linux2</span>
+</span><span class="line"><span class="n">Type</span> <span class="s">&quot;help&quot;</span><span class="p">,</span> <span class="s">&quot;copyright&quot;</span><span class="p">,</span> <span class="s">&quot;credits&quot;</span> <span class="ow">or</span> <span class="s">&quot;license&quot;</span> <span class="k">for</span> <span class="n">more</span> <span class="n">information</span><span class="o">.</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">pifacecad</span> <span class="kn">as</span> <span class="nn">p</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">PiFaceCAD</span><span class="p">()</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">backlight_on</span><span class="p">()</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;Hello World!&quot;</span><span class="p">)</span>
+</span></code></pre></div></figure></notextile></div>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/HelloWorld.jpg" alt="Hello World" /></p>
+
+<p>Pretty simple!  It took me much longer than this to get one of these
+displays working on Arduino the first time I tried it.  But a lot of 
+that was sorting out the wiring!  Thats one good reason to get a 
+PiFace instead of wiring up your own display.</p>
+
+<h2 id="something-a-bit-fancier">Something A Bit Fancier</h2>
+
+<p>Ok, let’s try something a bit more tricky.  There are api commands to
+move the cursor around and to hide the cursor, so let’s have a go with those.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="py"><span class="line"><span class="n">pi</span><span class="nd">@raspberrypi</span> <span class="o">~</span> <span class="err">$</span> <span class="n">python3</span>
+</span><span class="line"><span class="n">Python</span> <span class="mf">3.2</span><span class="o">.</span><span class="mi">3</span> <span class="p">(</span><span class="n">default</span><span class="p">,</span> <span class="n">Mar</span>  <span class="mi">1</span> <span class="mi">2013</span><span class="p">,</span> <span class="mi">11</span><span class="p">:</span><span class="mi">53</span><span class="p">:</span><span class="mi">50</span><span class="p">)</span>
+</span><span class="line"><span class="p">[</span><span class="n">GCC</span> <span class="mf">4.6</span><span class="o">.</span><span class="mi">3</span><span class="p">]</span> <span class="n">on</span> <span class="n">linux2</span>
+</span><span class="line"><span class="n">Type</span> <span class="s">&quot;help&quot;</span><span class="p">,</span> <span class="s">&quot;copyright&quot;</span><span class="p">,</span> <span class="s">&quot;credits&quot;</span> <span class="ow">or</span> <span class="s">&quot;license&quot;</span> <span class="k">for</span> <span class="n">more</span> <span class="n">information</span><span class="o">.</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="kn">import</span> <span class="nn">pifacecad</span> <span class="kn">as</span> <span class="nn">p</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">PiFaceCAD</span><span class="p">()</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">backlight_on</span><span class="p">()</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">clear</span><span class="p">()</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">set_cursor</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;Swindon&quot;</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">set_cursor</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;Hackspace&quot;</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">cursor_off</span><span class="p">()</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">blink_off</span><span class="p">()</span>
+</span></code></pre></div></figure></notextile></div>
+
+<p>A few points to note here.  For the non-programmers out there, computers count 
+from zero, so “5” is actually the 6th position along and “0” is the first row. 
+Interesting that you have to call both <code>cursor_off()</code> and <code>blink_off()</code> to totally 
+get rid of the cursor, but that could be useful in certain situations.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/Hackspace.jpg" alt="Swindon Hackspace" /></p>
+
+<h2 id="custom-bitmaps">Custom Bitmaps</h2>
+
+<p>It would be nice if I could get the Swindon Hackspace logo on there too 
+using the custom bitmap support.  From the 
+<a href="http://piface.github.io/pifacecad/creating_custom_bitmaps.html">documentation</a>
+it doesn’t look too difficult,  there is a <a href="http://www.quinapalus.com/hd44780udg.html">page for generating the codes</a> 
+to create characters that is linked to from the documentation.  If you’re familiar with
+setting bits in bytes it’s fairly easy to see what is going on; if you want the
+right most pixel to be on, add 1, the second from the right, add 2, third
+from the right add 4, fourth from the right, add 8, fifth from the right
+add 16.  Do this for each line and you have the 8 values you need to pass 
+into the <code>LCDBitmap()</code> function.</p>
+
+<p>However there isn’t really enough room to get the hackspace logo in a single 
+character so let’s try using more than one.  No mention of how many custom 
+characters you are allowed in the PiFace docs, but the designer page about 
+the HD44780 says you can have up to eight.  If we had 3x2 that would give us 
+(5+5+5) x (8+8) = 15x16 pixels to play with.  That’s a nice square-ish shape and 
+uses 6 custom characters so could work.  </p>
+
+<p>I created a new image in Gimp that is 15x16 pixels, zoom in to 1600% and 
+started designing by filling in pixels.  I then “split” this into six by using
+the select tool to draw round each group of 5x8 pixels and copied it into
+the online designer to generate the codes.  Lazy I know, I could work out
+those numbers myself!</p>
+
+<p>My first attempt didn’t look so great because of where the physical gaps 
+between the characters on the display fell, but a bit of tweaking and I ended 
+up with something like this:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="py"><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">sh</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">LCDBitmap</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">14</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="mi">24</span><span class="p">,</span><span class="mi">24</span><span class="p">,</span><span class="mi">31</span><span class="p">,</span><span class="mi">31</span><span class="p">])</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">store_custom_bitmap</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">sh</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">sh</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">LCDBitmap</span><span class="p">([</span><span class="mi">31</span><span class="p">,</span><span class="mi">31</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">27</span><span class="p">,</span><span class="mi">27</span><span class="p">,</span><span class="mi">27</span><span class="p">,</span><span class="mi">31</span><span class="p">,</span><span class="mi">31</span><span class="p">])</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">store_custom_bitmap</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">sh</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">sh</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">LCDBitmap</span><span class="p">([</span><span class="mi">24</span><span class="p">,</span><span class="mi">28</span><span class="p">,</span><span class="mi">14</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">store_custom_bitmap</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">sh</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">sh</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">LCDBitmap</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">24</span><span class="p">,</span><span class="mi">28</span><span class="p">,</span><span class="mi">14</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">store_custom_bitmap</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">sh</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">sh</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">LCDBitmap</span><span class="p">([</span><span class="mi">31</span><span class="p">,</span><span class="mi">31</span><span class="p">,</span><span class="mi">27</span><span class="p">,</span><span class="mi">27</span><span class="p">,</span><span class="mi">27</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">31</span><span class="p">,</span><span class="mi">31</span><span class="p">])</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">store_custom_bitmap</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="n">sh</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">sh</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">LCDBitmap</span><span class="p">([</span><span class="mi">31</span><span class="p">,</span><span class="mi">31</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">14</span><span class="p">,</span><span class="mi">28</span><span class="p">,</span><span class="mi">24</span><span class="p">])</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">store_custom_bitmap</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="n">sh</span><span class="p">)</span>
+</span></code></pre></div></figure></notextile></div>
+
+<p>That code loads six custom characters into memory locations zero to five.
+Now all we need to do is write them out to the display.  It might be wise 
+to turn the cursor back on at this point to see where we are writing to:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="py"><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">cursor_on</span><span class="p">()</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">blink_on</span><span class="p">()</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">set_cursor</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
+</span></code></pre></div></figure></notextile></div>
+
+<p>Note that the cursor doesn’t reappear until you move it somewhere. Time 
+to write out the logo and finally hide the cursor again.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="py"><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">set_cursor</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">cursor_off</span><span class="p">()</span>
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">blink_off</span><span class="p">()</span>
+</span></code></pre></div></figure></notextile></div>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/HackspaceLogo.jpg" alt="Custom Bitmaps" /></p>
+
+<p>A pretty pleasing result for an hour of playing around in the Python
+shell.</p>
+
+<p>Interestingly, if you redefine one of the custom bitmaps by calling 
+<code>store_custom_bitmap()</code> while it is on the display, it changes immediately 
+without you having to rewrite it using <code>write_custom_bitmap()</code>.  This 
+could be a neat way to have animated characters.  It does mean that 
+you really are limited to the 8 it supports though, and you can’t 
+“cheat” by defining one, writing it to the display and then re-defining it.</p>
+
+<h2 id="errors">Errors</h2>
+
+<p>If you do try to access or create more custom bitmaps than you should 
+you get a nice friendly error message, which is good to know.  It’s always
+reassuring that a library is decently written when it provides nice error
+messages.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="py"><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+</span><span class="line"><span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+</span><span class="line">  <span class="n">File</span> <span class="s">&quot;&lt;stdin&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+</span><span class="line">  <span class="n">File</span> <span class="s">&quot;/usr/lib/python3/dist-packages/pifacecad/lcd.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">458</span><span class="p">,</span> <span class="ow">in</span> <span class="n">write_custom_bitmap</span>
+</span><span class="line">	<span class="bp">self</span><span class="o">.</span><span class="n">char_bank_in_range_or_error</span><span class="p">(</span><span class="n">char_bank</span><span class="p">)</span>
+</span><span class="line">  <span class="n">File</span> <span class="s">&quot;/usr/lib/python3/dist-packages/pifacecad/lcd.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">492</span><span class="p">,</span> <span class="ow">in</span> <span class="n">char_bank_in_range_or_error</span>
+</span><span class="line">	<span class="n">cgramaddr</span><span class="o">=</span><span class="n">char_bank</span><span class="p">,</span>
+</span><span class="line"><span class="ne">Exception</span><span class="p">:</span> <span class="n">There</span> <span class="n">are</span> <span class="n">only</span> <span class="mi">8</span> <span class="n">custom</span> <span class="n">characters</span> <span class="p">(</span><span class="n">You</span> <span class="n">tried</span> <span class="n">to</span> <span class="n">access</span> <span class="mi">8</span><span class="p">)</span><span class="o">.</span>
+</span><span class="line">
+</span><span class="line"><span class="o">&gt;&gt;&gt;</span> <span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">store_custom_bitmap</span><span class="p">(</span><span class="mi">8</span><span class="p">,</span> <span class="n">sh</span><span class="p">)</span>
+</span><span class="line"><span class="n">Traceback</span> <span class="p">(</span><span class="n">most</span> <span class="n">recent</span> <span class="n">call</span> <span class="n">last</span><span class="p">):</span>
+</span><span class="line">  <span class="n">File</span> <span class="s">&quot;&lt;stdin&gt;&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">1</span><span class="p">,</span> <span class="ow">in</span> <span class="o">&lt;</span><span class="n">module</span><span class="o">&gt;</span>
+</span><span class="line">  <span class="n">File</span> <span class="s">&quot;/usr/lib/python3/dist-packages/pifacecad/lcd.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">474</span><span class="p">,</span> <span class="ow">in</span> <span class="n">store_custom_bitmap</span>
+</span><span class="line">	<span class="bp">self</span><span class="o">.</span><span class="n">char_bank_in_range_or_error</span><span class="p">(</span><span class="n">char_bank</span><span class="p">)</span>
+</span><span class="line">  <span class="n">File</span> <span class="s">&quot;/usr/lib/python3/dist-packages/pifacecad/lcd.py&quot;</span><span class="p">,</span> <span class="n">line</span> <span class="mi">492</span><span class="p">,</span> <span class="ow">in</span> <span class="n">char_bank_in_range_or_error</span>
+</span><span class="line">	<span class="n">cgramaddr</span><span class="o">=</span><span class="n">char_bank</span><span class="p">,</span>
+</span><span class="line"><span class="ne">Exception</span><span class="p">:</span> <span class="n">There</span> <span class="n">are</span> <span class="n">only</span> <span class="mi">8</span> <span class="n">custom</span> <span class="n">characters</span> <span class="p">(</span><span class="n">You</span> <span class="n">tried</span> <span class="n">to</span> <span class="n">access</span> <span class="mi">8</span><span class="p">)</span><span class="o">.</span>
+</span></code></pre></div></figure></notextile></div>
+
+<h2 id="and-finally">And Finally…</h2>
+
+<p>Given I only know the basics in Python (though I do code in other languages)
+it’s pretty easy to get started with the PiFace and make it do some cool stuff.
+It seems like it should be fairly easy to get it doing something useful with
+the 3D printer.  More on that later….</p>
+
+<p>Thanks go to <a href="http://uk.farnell.com/">Farnell / Element14</a> for supplying the PiFace
+Control and Display board.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Diy Radiator Booster]]></title>
+    <link href="http://swindon.hackspace.org.uk/blog/diy-radiator-booster/"/>
+    <updated>2013-10-25T18:05:00+01:00</updated>
+    <id>http://swindon.hackspace.org.uk/blog/diy-radiator-booster</id>
+    
+    <author>
+      <name><![CDATA[Robert Longbottom]]></name>
+    </author>
+    
+    <content type="html"><![CDATA[<p>Central heating is a great invention and radiators generally do a 
+good job of pumping out heat into a room.  Sometimes however due
+to the layout of the room or positioning of the radiator it
+doesn’t quite work as well as it could.  I have a room like this
+and decided to go for a bit of a DIY solution.</p>
+
+<!-- more -->
+
+<p><img src="http://swindon.hackspace.org.uk/blog/diy-radiator-booster/2.jpg" alt="Booster in place" /></p>
+
+<p>My kitchen and dining room are one and also open to the stairs 
+and landing.  With only one big raditor in the whole space most 
+of the heat tends to rise and go up the stairs rather than circulating
+in the rooms, meaning it always feels chilly.  There are various
+<a href="http://www.nigelsecostore.com/acatalog/Radiator_Booster.html">commercial radiator boosters</a>
+available but some reviews say they are noisy and they all sit on top of
+the radiator which would mean moving it everytime I closed the 
+curtains.  So I decided to design and build my own.</p>
+
+<h2 id="the-idea">The Idea</h2>
+
+<p>Take a standard quick PC fan, mount it to the bottom of the radiator, 
+create a duct to direct the air across the floor and build a circuit
+to turn it on automatically when the radiator gets warm.</p>
+
+<h2 id="the-fan">The Fan</h2>
+
+<p>Rather conveniently the gap between the front and back panels of 
+the double radiator is just over 80mm meaning a standard PC fan
+will fit nicely.  I bought a Be Quiet Silentwings Pure 80mm fan
+like this one from <a href="http://www.ebuyer.com/409820-be-quiet-silentwings-pure-80mm-bl041">ebuyer</a>
+which turned out to be pretty much silent when running.</p>
+
+<h2 id="the-circuit">The Circuit</h2>
+
+<p>I needed a circuit that would switch on the 12V fan when the 
+radiator warmed up and turn it off again when it cooled down.
+I could have gone down the microcontroller route to do this, but 
+it seemed like a fairly simple circuit with a temperature
+sensor and a relay should be able to do the job.  After some time
+googling I found exactly what I needed.  <a href="http://www.escol.com.my/Projects/Project-03%28Thermostat-1%29/Proj-03.html">This site</a> 
+has done an excellent job of describing how to make a temperature 
+controlled relay using a few basic electronics componets.  There are
+kits for sale, but I chose to just buy the components and assemble
+them on some strip board.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/diy-radiator-booster/3.jpg" alt="Circuit" /></p>
+
+<h2 id="the-ducting">The Ducting</h2>
+
+<p>Initially I was planning on using some thin plywood or something
+similar for the ducting.  However a few members of the hackspace
+have 3D printers and kindly offered to print something for me.
+So following on from a talk given at the hackspace some months
+ago about how to <a href="https://groups.google.com/forum/#!topic/swindon-hackspace/PvvfdYWvo0c">use openscad</a> 
+I decided to try and design a 3D printable enclosure.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/diy-radiator-booster/4.jpg" alt="Ducting" /></p>
+
+<p>It took a couple of attempts to get something that was printable, 
+but with the help and advice of other members I managed to design
+a nice curved duct with some fins and small box to mount the electronics 
+in.  The design is available on <a href="http://www.thingiverse.com/thing:168527">thingiverse</a>.</p>
+
+<h2 id="putting-it-all-together">Putting it all together</h2>
+
+<p>With all the parts made and colder weather fast approaching I 
+assembled everything and wired it up using and old 12V power
+supply I had lying around.  Tuning the temperature at which the
+fan comes on is as simple as adjusting the potentiometer
+on the circuit board.  The fan doesn’t blast hot air out like a
+fan heater does, but it does produce a gentle breeze of warm
+air across the floor.  Whether it has made a huge difference
+is hard to tell so far but I don’t think it can hurt.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/diy-radiator-booster/5.jpg" alt="Complete" /></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Quadcopter Design and Build]]></title>
+    <link href="http://swindon.hackspace.org.uk/blog/quadcopter-builds/"/>
+    <updated>2013-09-26T19:08:00+01:00</updated>
+    <id>http://swindon.hackspace.org.uk/blog/quadcopter-builds</id>
+    
+    <author>
+      <name><![CDATA[Steve Wood, AKA Gyrobot]]></name>
+    </author>
+    
+    <content type="html"><![CDATA[
+<p>A couple of members are now putting the finishing touches to their quadcopter builds and proceeding into the upgrade phase (typical). The build process isn’t too difficult with the excellent DJI 450 quadcopter kit, which allows various options to be taken to reach each users end goal, whether it be simple flying or the more advanced (and costly) First Person Viewing (FPV) camera set-up.</p>
+
+<!-- more -->
+
+<p>From a hacking point of view, there are some areas of this hobby which lends itself really well to hacking. I personally have a 3D printer and CAD design skills, therefore items like camera mounts (GoPro etc.), electronics enclosures, landing skids etc. are all able to be designed and manufactured easily. From an electronics perspective there are various radio transmitter hacks or custom firmware mods can be pursued if required too.</p>
+
+<p><a href="http://swindon.hackspace.org.uk/blog/quadcopter-builds/2.jpg"><img src="http://swindon.hackspace.org.uk/blog/quadcopter-builds/2-small.jpg" alt="Quadcopter First Flight" /></a></p>
+
+<p>I will soon be presenting my quadcopter with on-board live video streaming to <a href="http://wilsar.org.uk/" title="http://wilsar.org.uk/">Wiltshire Search and Rescue</a>. They are extremely interested in seeing the the on-board camera footage with a view to help saving them many man hours of ground based searching. Also it will allow them to view inaccessible areas very quickly such as riverbanks and remote fields. The option to upload pre-programmed missions from Google Maps into the on-board Ardupilot control board then have the GPS navigation system take control at the flick of a switch also sounds appealing. Whole fields can be scanned in seconds and minutes.</p>
+
+<p>These are eye-in-the-sky images that I have currently been getting through the on-board GoPro Hero 3:</p>
+
+<p><a href="http://swindon.hackspace.org.uk/blog/quadcopter-builds/3.jpg"><img src="http://swindon.hackspace.org.uk/blog/quadcopter-builds/3-small.jpg" alt="Swindon Remote Control Car Club" /></a></p>
+
+<p><a href="http://swindon.hackspace.org.uk/blog/quadcopter-builds/4.jpg"><img src="http://swindon.hackspace.org.uk/blog/quadcopter-builds/4-small.jpg" alt="Moredon Playing Fields" /></a></p>
+
+<p><a href="http://swindon.hackspace.org.uk/blog/quadcopter-builds/5.jpg"><img src="http://swindon.hackspace.org.uk/blog/quadcopter-builds/5-small.jpg" alt="Wroughton Airfield" /></a></p>
+
+<p><a href="http://swindon.hackspace.org.uk/blog/quadcopter-builds/6.jpg"><img src="http://swindon.hackspace.org.uk/blog/quadcopter-builds/6-small.jpg" alt="Wroughton and Swindon from Wroughton Airfield" /></a></p>
+
+<p>Flight videos have been uploaded on YouTube too:</p>
+
+<iframe src="http://www.youtube.com/embed/X6MDkSDx5UQ" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe src="http://www.youtube.com/embed/ch740siWPGY" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe src="http://www.youtube.com/embed/yl5OPOSkdmI" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+<p>The next stage for me is to re-build my quad to a “spider style” configuration. This will be achieved by redesigning the central plates to orientate the forward arms out of the shot from the camera view. Click on the images below to download my CAD files from <a href="http://www.thingiverse.com/" title="http://www.thingiverse.com/">Thingiverse</a>.</p>
+
+<p><a href="http://www.thingiverse.com/thing:160607"><img src="http://swindon.hackspace.org.uk/blog/quadcopter-builds/Render2.png" alt="Spyda 500 Quadcopter" /></a></p>
+
+<p><a href="http://www.thingiverse.com/thing:160607"><img src="http://swindon.hackspace.org.uk/blog/quadcopter-builds/Render3.png" alt="Spyda 500 Quadcopter" /></a></p>
+
+<p><a href="http://swindon.hackspace.org.uk/blog/quadcopter-builds/8.jpg"><img src="http://swindon.hackspace.org.uk/blog/quadcopter-builds/8-small.jpg" alt="Spyda 500 Quadcopter" /></a></p>
+
+<p><a href="http://swindon.hackspace.org.uk/blog/quadcopter-builds/7.jpg"><img src="http://swindon.hackspace.org.uk/blog/quadcopter-builds/7-small.jpg" alt="Spyda 500 Quadcopter" /></a></p>
+
+<p>And a GoPro Hero 3 mount that is fully printable :</p>
+
+<p><a href="http://www.thingiverse.com/thing:163107"><img src="http://swindon.hackspace.org.uk/blog/quadcopter-builds/Render4.png" alt="Spyda 500 GoPro Hero 3 Mount" /></a></p>
+
+<p>If you are interested in finding out more about this hobby then come along to the <a href="http://swindon.hackspace.org.uk/about/#weekly-meetings" title="http://swindon.hackspace.org.uk/about/">Swindon Hackspace</a> on a Wednesday night and have a chat with some like minded members.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Heathkit Hero 1 Printable Parts]]></title>
+    <link href="http://swindon.hackspace.org.uk/blog/heathkit-hero-printable-parts/"/>
+    <updated>2013-09-09T20:15:00+01:00</updated>
+    <id>http://swindon.hackspace.org.uk/blog/heathkit-hero-printable-parts</id>
+    
+    <author>
+      <name><![CDATA[Steve Wood, AKA Gyrobot]]></name>
+    </author>
+    
+    <content type="html"><![CDATA[<p><em>As mentioned in a <a href="http://swindon.hackspace.org.uk/blog/2013-07-03-meeting-report/" title="http://swindon.hackspace.org.uk/blog/2013-07-03-meeting-report/">previous post</a>,
+the hackspace has been working on getting an old <a href="http://en.wikipedia.org/wiki/HERO_(robot)">Heathkit Hero</a> robot up and running.</em></p>
+
+<p>We are almost starting to build up a mini library of printable Heathkit Hero 1 parts. The latest edition is not so much a replacement but a component fix that should allow a broken robotic arm to be repaired and re-attached. A common problem is the area around the shoulder attachment of the arm body where the plastic goes brittle with age.</p>
+
+<!-- more -->
+
+<p>Whilst this repair will obviously make your robot un-original, it will salvage any broken arms and allow Hero to be fighting fit for an arm wrestle again. It has been designed sympathetically and if printed with grey plastic, it should blend in well and make Hero appear like it’s on steroids.</p>
+
+<p>Other replacment printable parts for Heathkit Hero 1 designed at the Swindon Hackspace include new Grippers and a Wrist Joint :-</p>
+
+<p><img src="http://thingiverse-production.s3.amazonaws.com/renders/e5/bb/db/11/45/arm-wrist_display_large.jpg" alt="Heathkit Hero Grippers" /></p>
+
+<p>The source stl files for printing can be found on Thingiverse along with further instructions.</p>
+
+<p>Grippers:
+<a href="http://www.thingiverse.com/thing:67929" title="http://www.thingiverse.com/thing:67929">http://www.thingiverse.com/thing:67929</a></p>
+
+<p><a href="http://www.thingiverse.com/thing:67929"><img src="http://thingiverse-production.s3.amazonaws.com/renders/e2/72/6a/48/aa/photo_display_medium.jpg" alt="http://www.thingiverse.com/thing:67929" /></a></p>
+
+<p>Wrist Joint:
+<a href="http://www.thingiverse.com/thing:70995" title="http://www.thingiverse.com/thing:70995">http://www.thingiverse.com/thing:70995</a></p>
+
+<p><a href="http://www.thingiverse.com/thing:70995"><img src="http://thingiverse-production.s3.amazonaws.com/renders/f1/41/05/97/fc/photo2_display_medium.jpg" alt="http://www.thingiverse.com/thing:70995" /></a></p>
+
+<p>Arm Repair:
+<a href="http://www.thingiverse.com/thing:158652" title="http://www.thingiverse.com/thing:158652">http://www.thingiverse.com/thing:158652</a></p>
+
+<p><a href="http://www.thingiverse.com/thing:158652"><img src="http://thingiverse-production.s3.amazonaws.com/renders/00/34/0e/e4/95/DSCF9328_display_large.jpg" alt="http://www.thingiverse.com/thing:158652" /></a></p>
+
+<p>For more information about Hero please visit :</p>
+
+<p><a href="http://theoldrobots.com/hero1.html" title="http://theoldrobots.com/hero1.html">http://theoldrobots.com/hero1.html</a></p>
+
+<p>A couple more images of Hero on our blog post :
+<a href="http://swindon.hackspace.org.uk/blog/2013-07-03-meeting-report/" title="http://swindon.hackspace.org.uk/blog/2013-07-03-meeting-report/">2013-07-03-meeting-report</a></p>
+
+<p>Either come along to the <a href="http://swindon.hackspace.org.uk/about/#weekly-meetings" title="http://swindon.hackspace.org.uk/about/">Swindon Hackspace</a> on a Wednesday night or the <a href="http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed" title="http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed">Robots Revealed</a> exhibition at the <a href="http://www.museum-of-computing.org.uk/" title="http://www.museum-of-computing.org.uk/">Swindon Museum of Computing</a> for the next few months to have a closer look.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Meeting Report - 3rd July 2013]]></title>
+    <link href="http://swindon.hackspace.org.uk/blog/2013-07-03-meeting-report/"/>
+    <updated>2013-07-03T00:00:00+01:00</updated>
+    <id>http://swindon.hackspace.org.uk/blog/meeting-report</id>
+    
+    <author>
+      <name><![CDATA[Rob]]></name>
+    </author>
+    
+    <content type="html"><![CDATA[<p>Quite a busy night at the Swindon Hackspace tonight. Welcome to the five(!) new people who turned up to see what we get up to at our weekly meetings, hope you had an enjoyable evening and we’ll see you again next week. Along with the regulars it made for a pretty full room. After resetting a few trip switches to sort out some power issues the evening got underway with a bit of chat about what we do, complimented by drinks and some biscuits brought in by a couple of our regulars, James and Jess.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/2013-07-03-meeting-report/Hackspace.jpg" alt="Hero" /></p>
+
+<!-- more -->
+
+<p>James and Jess also turned up with some funky little electronic Cube World games, so we all spent a while trying to work out what they do. As far as we managed to work out, each cube contains a little character who you can control and play a simple game with. Clip the cubes together and the characters will move between the cubes and interact with each other. Information on the internet seems sparse, even <a href="http://en.wikipedia.org/wiki/Radica_Games">Wikipedia</a>  doesn’t appear to have a page. There is a <a href="http://service.mattel.com/instruction_sheets/i6063.pdf">manual</a> available for download from the Mattel website and plenty for sale on <a href="http://www.ebay.co.uk/sch/i.html?_nkw=mattel+cube+world+series">ebay</a> if you fancy getting some.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/2013-07-03-meeting-report/CubeWorld.jpg" alt="Cube World Series" /></p>
+
+<p>In the mean-time people rummaged through the selection of 3D printed items Steve had brought in and he chatted with some of the newcomers about 3D printing showing off some of his excellent 3D prints and designs.</p>
+
+<p>Simon brought in the <a href="http://robosavvy.com/store/product_info.php/products_id/1206?osCsid=31b1a0e3c1d9c27c6c802d752bd477c5">robot arm</a> he’d recently bought for the <a href="http://www.museumofcomputing.org.uk/">Swindon Museum of Computing</a> <a href="http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed">robots revealed exhibition</a>.  He was having some trouble getting it to work reliably. After a some messing around we discovered that powering the servos from 6V rather than 5V resolved the problem. There is a short video of it in action on <a href="http://www.youtube.com/watch?v=QEHG0bBv5ys">YouTube</a></p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/2013-07-03-meeting-report/RobotArm.jpg" alt="Robot Arm" /></p>
+
+<p>The hackspace has recently been working on getting an old <a href="http://en.wikipedia.org/wiki/HERO_(robot)">Heathkit Hero</a> robot to work (but we’ve not been making much progress recently in all honesty!)  One of the members has 3D printed some replacement parts for the arm and we need to replace some of the wiring inside after it was, er, accidentally shorted out during some testing.  It has been commandeered back into the museum for the robot exhibition so we spent a bit of time refitting its outer panels and reattaching the repaired arm ready for display.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/2013-07-03-meeting-report/Hero2.jpg" alt="Hero" /></p>
+
+<p>As a few members headed off home leaving the die-hards, James set up the oscilloscope to have a poke around in his Blu-ray player with the hope of doing some hacking on it and we pondered the issues we’ve been having with the internet connection recently.</p>
+
+<p>All in all a fairly busy and entertaining evening. Sorry if I’ve missed off anything else that people were doing but there way too much going on to see and hear everything.</p>
+
+<p>Rob.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Gyrobot Resurrection]]></title>
+    <link href="http://swindon.hackspace.org.uk/blog/gyrobot-resurrection/"/>
+    <updated>2013-06-28T00:00:00+01:00</updated>
+    <id>http://swindon.hackspace.org.uk/blog/gyrobot-resurrection</id>
+    
+    <author>
+      <name><![CDATA[Steve Wood, AKA Gyrobot]]></name>
+    </author>
+    
+    <content type="html"><![CDATA[<p>Gyrobot was made available to the <a href="http://www.museum-of-computing.org.uk/" title="http://www.museum-of-computing.org.uk/">Swindon Museum of Computing</a> on Hackspace night; 19th June 2013 for their upcoming <a href="http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed" title="http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed">Robots Revealed</a> exhibition.</p>
+
+<p>For those that are not familiar with Gyrobot, it was my (Steve Wood) entry into the UK Robot Wars series 6 and 7, back in 2002.</p>
+
+<!-- more -->
+
+<p>Gyrobot originally started its journey in 2000 with myself, a Robot Wars fan deciding to design and build a Swindon entry for the UK version of Robot Wars. 3 years later and after 1 failed audition, it appeared on Series 7 which was filmed in Nottingham August 2003 and screened in November.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/gyrobot-resurrection/gyrobot.jpg" alt="Gyrobot" /></p>
+
+<p>This entry was named Gyrobot from the word Gyrate which is to spin/revolve and to rotate in circles, and erm - robot! Also “Gyro” is short for gyroscope, a device that spins. I have now affectionately adopted this name for many of my online avatars, my design and 3D printing company is unashamedly named after it too (<a href="http://www.gyrobot.co.uk" title="http://www.gyrobot.co.uk">Gyrobot Ltd</a>).</p>
+
+<h2 id="interesting-facts-about-gyrobot-">Interesting Facts About Gyrobot :</h2>
+
+<ol>
+  <li>I believe Gyrobot is the smallest heavyweight in the world (100kg category). Challenge this fact if you can. Dia 700mm x 150mm.</li>
+  <li>Gyrobot has no interior orientation, top can be bottom and bottom can be top, a truly symmetrical robot in all directions.</li>
+  <li>Gyrobot has no weak side, all angles of opponents attack are catered for.</li>
+  <li>Gyrobot’s best form of attack is it’s defence. To get near it be prepared to get damaged!!</li>
+  <li>The energy stored in Gyrobot’s 35 kg outer weapon rim when up to full speed (750 RPM) is 40KJoules (Validated by two independent sources). Compare that with current Hypnodisc’s 12KJoules. Energy is even higher when Gyrobot is in full body spin mode.</li>
+</ol>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/gyrobot-resurrection/gyrobot_closer.jpg" alt="Gyrobot_closer" /></p>
+
+<p>Either come along to the <a href="http://swindon.hackspace.org.uk/about/#weekly-meetings" title="http://swindon.hackspace.org.uk/about/">Swindon Hackspace</a> on a Wednesday night or the <a href="http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed" title="http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed">Robots Revealed</a> exhibition at the <a href="http://www.museum-of-computing.org.uk/" title="http://www.museum-of-computing.org.uk/">Swindon Museum of Computing</a> for the next 6 months to have a closer look, but please - not available to hack, one false move and it bites back hard ;-)</p>
+
+<h2 id="further-gyrobot-information-">Further Gyrobot Information :</h2>
+
+<p>Original Website:
+<a href="http://homepage.ntlworld.com/steve-wood/home.htm" title="http://homepage.ntlworld.com/steve-wood/home.htm">http://homepage.ntlworld.com/steve-wood/home.htm</a></p>
+
+<iframe src="http://www.youtube.com/embed/KaWaZ5FgJeg" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+<iframe src="http://www.youtube.com/embed/6dnohbcRkms" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[First Year Anniversary Meet Up]]></title>
+    <link href="http://swindon.hackspace.org.uk/blog/first-year-anniversary-meet-up/"/>
+    <updated>2013-06-13T20:06:00+01:00</updated>
+    <id>http://swindon.hackspace.org.uk/blog/first-year-anniversary-meet-up</id>
+    
+    <author>
+      <name><![CDATA[Steve Wood, AKA Gyrobot]]></name>
+    </author>
+    
+    <content type="html"><![CDATA[<p>On June 5th we celebrated our 1st year anniversary. Rather than attend a usual meet we decided to relocate the Hackspace to the more informal surroundings of the <a href="http://swindonhistory.blogspot.co.uk/2011/12/sir-daniel-arms.html" title="http://swindonhistory.blogspot.co.uk/2011/12/sir-daniel-arms.html">Sir Daniel Arms</a> for a bite to eat and some drinks:</p>
+
+<p>We met at the <a href="http://www.museum-of-computing.org.uk/" title="http://www.museum-of-computing.org.uk/">Museum of Computing</a> between 6:30 and 7pm, left a map to the pub for any late shows before taking the short walk down town. An unusual collection of reprobates we must have looked, but soon realising that we actually fitted in quite well with the other townsfolk. It’s cool not to be cool I always tell my kids.
+<!-- more --></p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/first-year-anniversary-meet-up/Sir Daniel Arms.jpg" alt="Sir Daniel Arms" /></p>
+
+<p>When we arrived at the pub, it was surprisingly busy, with all the tables seemingly taken. However we soon flexed our substantial muscles and hacked together a collection of smaller seats, stools, loungers to make some sort of makeshift eating area.</p>
+
+<p><strong>Our simple pub review:</strong></p>
+
+<blockquote>
+  <p>“Beer was great, prices were very cheap, food was ‘fine’, bartender girl was the most miserable ever, waitress however was nice and chatty.”</p>
+</blockquote>
+
+<p>Those lucky attendees who turned up were rewarded with a hot off the printbed Swindon Hackspace multi-coloured poker chip, worth 1 Gigillion credits, accepted in no respectable establishments worldwide. Even the waitress was curious as to what it was, “a badge of shame” she was told, only surpassed by McDonald’s zero stars:-</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/first-year-anniversary-meet-up/3D Prints.jpg" alt="Sneak preview of the new Swindon Hackspace Logo" /></p>
+
+<p>Tony showed a collection of prints from his new Replicator 3D printer. Looking forward to seeing some more.</p>
+
+<p>Conversation was good, many subjects covered and not all hackey. We sort of flirted with the following ideas, but nothing as usual in concrete:-</p>
+
+<ul>
+  <li>Collaborative Hackspace projects (3D printer).</li>
+  <li>Visit to Bristol and possibly Oxford Hackspaces.</li>
+  <li>Contact first timers for feedback.</li>
+  <li>Another publicity drive.</li>
+  <li>Some web site glitches which need to be discussed with Jamie.</li>
+  <li>Increased blog activity, which is why I was volunteered for this entry ;-)</li>
+</ul>
+
+<p>Which leads me to signing off this entry with a congratulations to hackspace members on achieving our paper anniversary.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter To Teletype]]></title>
+    <link href="http://swindon.hackspace.org.uk/blog/twitter-to-teletype/"/>
+    <updated>2012-11-06T20:06:00+00:00</updated>
+    <id>http://swindon.hackspace.org.uk/blog/twitter-to-teletype</id>
+    
+    <author>
+      <name><![CDATA[Rob]]></name>
+    </author>
+    
+    <content type="html"><![CDATA[<p>The <a href="http://www.museum-of-computing.org.uk/">Museum of Computing</a> in Swindon has a working Teletype and a desire to get it to print out tweets as part of a display in the museum.  Since the <a href="http://swindon.hackspace.org.uk">Swindon Hackspace</a> is based in the museum it was a perfect project for hackspace members.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/twitter-to-teletype/Teletype.jpg" alt="Teletype" /></p>
+
+<!-- more -->
+
+<h2 id="current-loop-interface">Current Loop Interface</h2>
+
+<p>The teletype uses a current loop interface to communicate with other (teletype) devices.  The current loop interface is similar to a standard RS232 serial interface found on a PC except rather than using changes in voltage to represent 0’s and 1’s it uses changes in current.  Data is sent at 110 baud - very slowly compared to modern standards, but this is as fast as the teletype can print characters and it has no means to buffer the data it receives.</p>
+
+<p>After a few failed attempts and fried components a circuit was built to convert from RS232 serial into current loop using…. [ <em>what?, circuit diagram?, any more info?</em> ]</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/twitter-to-teletype/CurrentLoopConverter.jpg" alt="Current Loop Converter" /></p>
+
+<p>The teletype also uses a slightly different character set to standard ASCII so a character set conversion was required.  This conversion implemented in the C# code running on the Raspberry Pi. This also allowed for use of some of the mechanical functions of the teletype such as the bell which you can hear ring as the teletype prints out a tweet</p>
+
+<p><a href="https://github.com/snhack/TwitterToTeletype/wiki/images/TeletypeCharMap.png">Character Map Table</a></p>
+
+<h2 id="mechanical-issues">Mechanical Issues?</h2>
+
+<p>The teletype is mainly a mechanical device and contains only a single circuit board consisting of a few resistors, diodes and transistors <em>photo required</em>  Many of the hardest problems to overcome turned out to be mechanical rather than electronic or software problems.</p>
+
+<p>Upon initially managing to send data to the teletype over and RS232 port and via the current loop converter many characters were being printed out incorrectly.  After reading the teletype manuals found online it was discovered that there was a mechanical adjustment lever at the back of the teletype which controlled the alignment of some cogs used in decoding the character data sent over the current loop.  After a few minor adjustments with this lever most characters now print correctly.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/twitter-to-teletype/LeverPostion.jpg" alt="Lever Position" /></p>
+
+<p>You may notice that the teletype still occasionally prints the wrong character.  This is down to mechanical issues rather than any software or electronic fault and is simply due to the age of the machine and worn mechanical components.</p>
+
+<h2 id="whats-with-all-the-noise">Whats With All The Noise?</h2>
+
+<p>Because the teletype is a mechanical device which uses moving parts to decode the data it receives it has to be running continuously and hence makes a lot of noise even when not printing text.  In order to minimize the noise generated when the teletype wasn’t printing anything a circuit was created using an ATTiny2313 (similar to the programmable chip used in an Arduino) and a relay to turn the power to the teletype on just before data was due to be sent and off once the printing was complete.  This chip was also programmed to bridge the connection from USB on the Raspberry Pi to the serial data that was needed to send to the current loop converter to talk to the teletype.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/twitter-to-teletype/UsbSwitch.jpg" alt="USB Switch" />
+<img src="http://swindon.hackspace.org.uk/blog/twitter-to-teletype/UsbSwitch2.jpg" alt="USB Switch" /></p>
+
+<h2 id="getting-tweets-and-putting-it-all-together">Getting Tweets And Putting It All Together</h2>
+
+<p>A C# application was written to connect to the twitter API and pickup tweets sent to the museums twitter account.  Running under Mono on Linux, this software then communicates with the ATTiny micro-controller via a USB to serial converter and sends instructions to turn the teletype on.  It then sends the text of the tweet in 50 character chunks (due to memory limitations on the ATTiny) to be forwarded on to the current loop interface at 110 baud and finally the teletype prints out the tweet.</p>
+
+<iframe src="http://www.youtube.com/embed/_HGV4Ppnx14" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/twitter-to-teletype/TeletypeComplete.jpg" alt="Complete" />
+<img src="http://swindon.hackspace.org.uk/blog/twitter-to-teletype/TeletypePaper.jpg" alt="Printing" /></p>
+
+<h2 id="more-information">More Information</h2>
+
+<ul>
+  <li><a href="http://swindon.hackspace.org.uk">Swindon Hackspace</a></li>
+  <li><a href="http://www.museum-of-computing.org.uk/">Museum of Computing</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Teletype_Model_33">Model 33 Teletype on Wikipedia</a></li>
+  <li><a href="http://en.wikipedia.org/wiki/Current_loop">Current loop on Wikipedia</a></li>
+  <li><a href="https://github.com/snhack/TwitterToTeletype">Source Code</a></li>
+  <li><a href="http://www.raspberrypi.org/">Raspberry Pi</a></li>
+</ul>
+
+<p><em>This article was originally posted at: <a href="https://github.com/snhack/TwitterToTeletype/wiki">TwitterToTeletype/wiki</a></em></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Resources for Using Git]]></title>
+    <link href="http://swindon.hackspace.org.uk/blog/resources-for-using-git/"/>
+    <updated>2012-09-29T20:35:00+01:00</updated>
+    <id>http://swindon.hackspace.org.uk/blog/resources-for-using-git</id>
+    
+    <author>
+      <name><![CDATA[Jamie Osborne]]></name>
+    </author>
+    
+    <content type="html"><![CDATA[<p>Here’s some basic resources to get started pushing code to github.</p>
+
+<p>Note: As well as computer source code, git is useful for tracking changes to anything that can be represented as plain text, e.g. <a href="http://www.wired.com/wiredenterprise/2012/08/bundestag/">German Law</a>.</p>
+
+<p>The simplest use of git is to create the repo locally, stored in the same folder as the source (known as the working tree) and named <code>.git</code>.</p>
+
+<!-- more -->
+
+<p>To <a href="http://git-scm.com/docs/git-init">initialise</a> a new git repo, simply run <code>git-init</code>.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line"><span class="nv">$ </span><span class="nb">cd </span>my-project
+</span><span class="line"><span class="nv">$ </span>git init
+</span><span class="line">Initialized empty Git repository in my-project/.git/
+</span></code></pre></div></figure></notextile></div>
+
+<p><a href="http://git-scm.com/docs/git-add">Add</a> any new or changed files you want to track, then <a href="http://git-scm.com/docs/git-commit">commit</a> those changes to the repo, along with a <a href="http://xkcd.com/1296/">descriptive</a> message.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line"><span class="nv">$ </span><span class="nb">echo </span>About My-Project &gt; README.md
+</span><span class="line"><span class="nv">$ </span>git add . <span class="c"># add all files recursively</span>
+</span><span class="line"><span class="nv">$ </span>git commit -m <span class="s1">&#39;First Commit&#39;</span>
+</span><span class="line"><span class="o">[</span>master <span class="o">(</span>root-commit<span class="o">)</span> cdab15f<span class="o">]</span> First Commit
+</span><span class="line"> 1 file changed, 1 insertion<span class="o">(</span>+<span class="o">)</span>
+</span><span class="line"> create mode 100644 README.md
+</span></code></pre></div></figure></notextile></div>
+
+<p><a href="http://git-scm.com/docs/git-log">View recent commits</a> using <code>git log</code>.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line"><span class="nv">$ </span>git log
+</span><span class="line">commit cdab15f2036b0b8b1c8fbfceab6357c8e56a0d5f
+</span><span class="line">Author: Jamie Osborne &lt;jmeosbn@your-email.com&gt;
+</span><span class="line">Date:   Sat Sep 29 23:30:20 2012 +0100
+</span><span class="line">
+</span><span class="line">    First Commit
+</span></code></pre></div></figure></notextile></div>
+
+<h2 id="documentation">documentation</h2>
+
+<p>Git itself can be installed from <a href="http://git-scm.com/downloads">git-scm.com</a> if your OS doesn’t already include it. The same site also hosts a copy of the <a href="http://git-scm.com/docs">documentation</a>, as well as the <a href="http://git-scm.com/book">Pro Git book</a> which is a great place to start learning git.  Pro Git is also available as a commercially <a href="http://www.amazon.com/gp/product/1430218339?ie=UTF8&amp;tag=prgi-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1430218339">printed book</a> from Apress, and as a free <a href="https://github.s3.amazonaws.com/media/progit.epub">ePub</a>, <a href="https://github.s3.amazonaws.com/media/pro-git.en.mobi">mobi</a>, or <a href="https://github.s3.amazonaws.com/media/progit.en.pdf">PDF</a> download.</p>
+
+<p>If you don’t fancy reading an entire book, then this <a href="http://www.vogella.com/articles/Git/article.html">Git Tutorial</a> gets straight to the point for those already familiar with the concepts of version control.  There’s minimal explanatory text, but full command examples for most operations; making it a useful resource for commands you use rarely and need to quickly relearn.</p>
+
+<h2 id="graphical-interfaces">graphical interfaces</h2>
+
+<p>While it’s good to know how to use git from the command line, it’s worth getting a GUI for easier building of commits etc. (you could also integrate it with your favourite editor and diff viewer)</p>
+
+<p><a href="http://github.com/">Github</a> offers their own <a href="http://mac.github.com/">Mac</a> and <a href="http://windows.github.com/">Windows</a> GUI clients, which have the advantage of closer integration with some of github’s features, such as organisations and the “Clone in Windows/Mac” button found on each repo on github.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/resources-for-using-git/promo-screenshot.png" alt="GitHub for Mac" /></p>
+
+<p>They do lack some more advanced features though so I mostly prefer <a href="http://gitx.laullon.com/">GitX</a> on the Mac, though <a href="http://git-scm.com/downloads/guis">plenty more GUIs</a> exist on various platforms.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/resources-for-using-git/commit.png" alt="GitX" /></p>
+
+<h2 id="other-info">other info</h2>
+
+<p>Btw, if you just want to share some code snippets somewhere while maintaining versioning etc., then check out <a href="https://gist.github.com/">gists</a>, a feature of github.</p>
+
+<p><em>This article was originally posted at: <a href="http://jmeosbn.github.com/blog/resources-for-using-git/">http://jmeosbn.github.com</a></em></p>
+]]></content>
+  </entry>
+  
+</feed>

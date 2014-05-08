@@ -1,0 +1,488 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Swindon Hackspace</title>
+  <meta name="author" content="Swindon Hackspace">
+
+  
+  <meta name="description" content="Project Articles">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://swindon.hackspace.org.uk/projects">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Swindon Hackspace" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <!-- Google site verification -->
+  <meta name="google-site-verification" content="PubgJ00VUIj1r0qaB3oR0KwXirQKu3XAhBh0YduPdS0" />
+
+  <!-- Apple touch icons -->
+  <link href="/apple-touch-icon-ipad.png" rel="apple-touch-icon-precomposed" sizes="144x144" />
+  <link href="/apple-touch-icon-ipad.png" rel="apple-touch-icon-precomposed" sizes="72x72" />
+  <link href="/apple-touch-icon-iphone.png" rel="apple-touch-icon-precomposed" sizes="114x114" />
+  <link href="/apple-touch-icon-iphone.png" rel="apple-touch-icon-precomposed" sizes="57x57" />
+
+  <!-- Windows 8 Tile -->
+  <meta name="application-name" content="Swindon Hackspace"/>
+  <meta name="msapplication-TileColor" content="#ff7700"/>
+  <meta name="msapplication-TileImage" content="/apple-touch-icon-ipad.png"/>
+
+  <!-- Original logo SVG file: see http://relogo.org/ -->
+  <link rel="logo" type="image/svg" href="/images/hackspace_logo.svg" />
+
+  <!-- Link to full license file -->
+  <link rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/deed.en" />
+
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-42399191-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Swindon Hackspace</a></h1>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="main-navigation" data-subscription="rss">
+    <li><a href="/about/">About</a></li>
+  <li><a href="/blog/">Articles</a></li>
+  <li><a href="/projects/">Projects</a></li>
+  <li><a href="/meetings/">Meetings</a></li>
+
+  
+  <li><a href="feed://swindon.hackspace.org.uk/atom.xml" rel="subscribe-rss-no-icon" title="Subscribe via RSS">RSS</a></li>
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:swindon.hackspace.org.uk" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+</nav>
+  <div id="main">
+    <div id="content">
+      <div class="blog-index">
+  
+  
+    
+    <article  class="withimage" >
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/piface-control-and-display-board/">PiFace Control and Display Board</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2014-05-08T17:20:00+01:00" pubdate data-updated="true">May 8<span>th</span>, 2014</time>
+        
+      </p>
+    
+  </header>
+
+
+  
+    
+    <img class="right" id="title-image" src="/blog/piface-control-and-display-board/HelloWorld.jpg" />
+  
+  <div class="entry-content"><p>The Hackspace recently took delivery of a 
+<a href="http://uk.farnell.com/piface/piface-control-display/i-o-board-with-lcd-display-for/dp/2344458">PiFace Control and Display board from Farnell</a>.
+It is an add-on board for the Raspberry Pi that includes a 16 character by 2 line
+display, five push buttons, a toggle button and an IR receiver.  The 
+intention is to use this on the Hackspace 3D printer to display some information
+about the printer (bed and extruder temperatures) and about the job (percent
+complete).  It would also be nice to use the buttons to control some of the 
+functions of the printer such as priming the extruder.</p>
+
+<p>In this post I’ll cover what I did to get up and running with the PiFace.  This
+was really just a learning exercise to understand how it works and what can be
+done.  There will be another post about getting it working with the 3D printer
+later on.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/piface-control-and-display-board/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+    
+    <article  class="withimage" >
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/diy-radiator-booster/">Diy Radiator Booster</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-10-25T18:05:00+01:00" pubdate data-updated="true">Oct 25<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  
+    
+    <img class="right" id="title-image" src="/blog/diy-radiator-booster/1.jpg" />
+  
+  <div class="entry-content"><p>Central heating is a great invention and radiators generally do a 
+good job of pumping out heat into a room.  Sometimes however due
+to the layout of the room or positioning of the radiator it
+doesn’t quite work as well as it could.  I have a room like this
+and decided to go for a bit of a DIY solution.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/diy-radiator-booster/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+    
+    <article  class="withimage" >
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/quadcopter-builds/">Quadcopter Design and Build</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+<time datetime="2013-09-26T19:08:00+01:00" pubdate data-updated="true">Sep 26<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  
+    
+    <img class="right" id="title-image" src="/blog/quadcopter-builds/1-small.jpg" />
+  
+  <div class="entry-content">
+<p>A couple of members are now putting the finishing touches to their quadcopter builds and proceeding into the upgrade phase (typical). The build process isn’t too difficult with the excellent DJI 450 quadcopter kit, which allows various options to be taken to reach each users end goal, whether it be simple flying or the more advanced (and costly) First Person Viewing (FPV) camera set-up.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/quadcopter-builds/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+    
+    <article  class="withimage" >
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/heathkit-hero-printable-parts/">Heathkit Hero 1 Printable Parts</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-09-09T20:15:00+01:00" pubdate data-updated="true">Sep 9<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  
+    
+    <img class="right" id="title-image" src="/blog/heathkit-hero-printable-parts/hero1_display_medium.jpg" />
+  
+  <div class="entry-content"><p><em>As mentioned in a <a href="/blog/2013-07-03-meeting-report/" title="http://swindon.hackspace.org.uk/blog/2013-07-03-meeting-report/">previous post</a>,
+the hackspace has been working on getting an old <a href="http://en.wikipedia.org/wiki/HERO_(robot)">Heathkit Hero</a> robot up and running.</em></p>
+
+<p>We are almost starting to build up a mini library of printable Heathkit Hero 1 parts. The latest edition is not so much a replacement but a component fix that should allow a broken robotic arm to be repaired and re-attached. A common problem is the area around the shoulder attachment of the arm body where the plastic goes brittle with age.</p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/heathkit-hero-printable-parts/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+    
+    <article  class="withimage" >
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/twitter-to-teletype/">Twitter to Teletype</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-11-06T20:06:00+00:00" pubdate data-updated="true">Nov 6<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+  
+    
+    <img class="right" id="title-image" src="/blog/twitter-to-teletype/TeletypeComplete.jpg" />
+  
+  <div class="entry-content"><p>The <a href="http://www.museum-of-computing.org.uk/">Museum of Computing</a> in Swindon has a working Teletype and a desire to get it to print out tweets as part of a display in the museum.  Since the <a href="http://swindon.hackspace.org.uk">Swindon Hackspace</a> is based in the museum it was a perfect project for hackspace members.</p>
+
+<p></p>
+
+</div>
+  
+  
+    <footer>
+      <a rel="full-article" href="/blog/twitter-to-teletype/">Read on &rarr;</a>
+    </footer>
+  
+
+
+    </article>
+  
+</div>
+<aside class="sidebar">
+  
+    <section>
+  <h1><a href="/blog/archives/">Articles</a></h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/piface-control-and-display-board/">PiFace Control and Display Board</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/diy-radiator-booster/">Diy Radiator Booster</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/quadcopter-builds/">Quadcopter Design and Build</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/heathkit-hero-printable-parts/">Heathkit Hero 1 Printable Parts</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013-07-03-meeting-report/">Meeting Report - 3rd July 2013</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section>
+  
+  <h1><a href="http://groups.google.com/group/swindon-hackspace" target="googlegroup">Group</a></h1>
+  
+  <ul id="rss_feed_linkroll">
+    <li class="loading">Fetching links&#8230;</li>
+  </ul>
+  <script type="text/javascript">
+    var linkroll = 'rss_feed_linkroll';
+    var rss_feed_url = "http://pipes.yahoo.com/pipes/pipe.run?_id=259ba707b877effd5c0bd3234ef10cf6&_render=json&url=https://groups.google.com/forum/feed/swindon-hackspace/topics/rss_v2_0.xml";
+    var rss_item_count = 5;
+    var rss_title_length = 30;
+  </script>
+  <script src="/javascripts/rss_feed.js" type="text/javascript"></script>
+  
+</section>
+
+
+<section>
+  <h1><a href="https://twitter.com/intent/user?screen_name=snhack" target="twitter">Twitter</a></h1>
+
+  <div id="tweets"></div>
+
+  
+  <script type="text/javascript" src="/assets/twitterFetcher_v9_min.js"></script>
+
+  <script>
+    twitterFetcher.fetch("356204429415956482", 'tweets',
+                          2, true,
+                          false,
+                          false, "default",
+                          true);
+  </script>
+  
+
+  
+    <a class="sharebutton" id="twitter-follow" target="twitter" href="//twitter.com/intent/follow?&screen_name=snhack">
+      <img class="button-img" id="twitter" src="/images/bird.png"></img>
+      Follow @snhack
+    </a>
+  
+</section>
+
+
+<section>
+  <h1><a href="https://github.com/snhack" target="github">GitHub</a></h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'snhack',
+            count: 5,
+            skip_forks: false,
+            skip_sites: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
+</section>
+
+
+  
+</aside>
+
+    </div>
+  </div>
+  <footer role="contentinfo"><hr class="footer-rule">
+
+<div id="copyright">
+  Copyright &copy; 2012 - 2014
+</div>
+
+
+<div id="license">
+  <a rel="license" href="http://git.io/snhack-license" title="Except where otherwise noted, content on this site is licensed under a Creative Commons BY-NC-SA 3.0 License">
+  
+    <span id="license_text">CC BY-NC-SA 3.0</span>
+  
+  </a>
+</div>
+
+
+<div id="siteauthor">Swindon Hackspace</div>
+
+<div id="footer">
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</div>
+
+</footer>
+  
+
+
+
+
+
+
+
+
+
+</body>
+</html>
