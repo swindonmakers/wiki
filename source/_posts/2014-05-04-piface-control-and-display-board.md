@@ -1,9 +1,10 @@
 title:        PiFace Control And Display Board
-subtitle:     Getting started
+subtitle:     Getting started with the PiFace LCD
 categories:   projects
 author:       Robert Longbottom
-image:        HelloWorld-small.jpg
-date:         2014-05-04 17:20
+image:        HelloWorld.jpg
+date:         2014-05-08 17:20
+discuss:      ywV59enffto
 
 The Hackspace recently took delivery of a 
 [PiFace Control and Display board from Farnell](http://uk.farnell.com/piface/piface-control-display/i-o-board-with-lcd-display-for/dp/2344458).
@@ -21,10 +22,13 @@ later on.
 
 <!-- more -->
 
+![PiFace](Piface.jpg)
+
+
 ## Getting The Raspberry Pi Ready
 
 There is a nice guide on getting everything setup on the [PiFace website](http://www.piface.org.uk/guides/setting_up_pifacecad/)
-so I wont go into every detail again.  In short:
+so I won't go into every detail again.  In short:
 
 - Updated the Raspbian install on our Raspberry Pi by running 
 `apt-get update && apt-get upgrade`  This took some hours, must have 
@@ -39,14 +43,14 @@ regmap_spi              1897  1 snd_soc_core
 spi_bcm2708             4728  0
 ```
 
-- Installed the PiFace Python modules `apt-get install python3-pifacecad`
+- Installed the PiFace Python modules `apt-get install python3-pifacecad`.
 It's nice that it is included in the Raspbian repos and can be installed so easily.
 
 ## First Test
 
 The best idea is always to test using some code written by someone else
 so that you know you have everything setup correctly.  Fortunately there is
-is nice sysinfo sample provided.
+a nice sysinfo sample provided.
 
 ```sh
 pi@raspberrypi ~ $ python3 /usr/share/doc/python3-pifacecad/examples/sysinfo.py
@@ -54,7 +58,7 @@ pi@raspberrypi ~ $ python3 /usr/share/doc/python3-pifacecad/examples/sysinfo.py
 
 ![Sysinfo Demo](Sysinfo.jpg)
 
-Thats works perfectly.  Time to dive into python and see what the api is like.
+That works perfectly.  Time to dive into python and see what the api is like.
 
 ## Hello World Using The Python Shell
 
@@ -78,8 +82,8 @@ PiFace instead of wiring up your own display.
 
 ## Something A Bit Fancier
 
-Ok, lets try something a bit more tricky.  There are api commands to
-move the cursor around and to hide the cursor, so lets have a go with those.
+Ok, let's try something a bit more tricky.  There are api commands to
+move the cursor around and to hide the cursor, so let's have a go with those.
 
 ```py
 pi@raspberrypi ~ $ python3
@@ -112,7 +116,7 @@ using the custom bitmap support.  From the
 [documentation](http://piface.github.io/pifacecad/creating_custom_bitmaps.html)
 it doesn't look too difficult,  there is a [page for generating the codes](http://www.quinapalus.com/hd44780udg.html) 
 to create characters that is linked to from the documentation.  If you're familiar with
-setting bits in bytes its fairly easy to see what is going on; if you want the
+setting bits in bytes it's fairly easy to see what is going on; if you want the
 right most pixel to be on, add 1, the second from the right, add 2, third
 from the right add 4, fourth from the right, add 8, fifth from the right
 add 16.  Do this for each line and you have the 8 values you need to pass 
@@ -122,10 +126,10 @@ However there isn't really enough room to get the hackspace logo in a single
 character so let's try using more than one.  No mention of how many custom 
 characters you are allowed in the PiFace docs, but the designer page about 
 the HD44780 says you can have up to eight.  If we had 3x2 that would give us 
-(5+5+5) x (8+8) = 15x16 pixels to play.  Thats a nice square-ish shape and 
+(5+5+5) x (8+8) = 15x16 pixels to play with.  That's a nice square-ish shape and 
 uses 6 custom characters so could work.  
 
-I create a new image in Gimp that is 15x16 pixels, zoom in to 1600% and 
+I created a new image in Gimp that is 15x16 pixels, zoom in to 1600% and 
 started designing by filling in pixels.  I then "split" this into six by using
 the select tool to draw round each group of 5x8 pixels and copied it into
 the online designer to generate the codes.  Lazy I know, I could work out
@@ -182,16 +186,16 @@ A pretty pleasing result for an hour of playing around in the Python
 shell.
 
 Interestingly, if you redefine one of the custom bitmaps by calling 
-`store_custom_bitmap()` while it is on the display it changes immediately 
+`store_custom_bitmap()` while it is on the display, it changes immediately 
 without you having to rewrite it using `write_custom_bitmap()`.  This 
 could be a neat way to have animated characters.  It does mean that 
-you really are limited to the 8 it supports though and you can't 
+you really are limited to the 8 it supports though, and you can't 
 "cheat" by defining one, writing it to the display and then re-defining it.
 
 ## Errors
 
 If you do try to access or create more custom bitmaps than you should 
-you get a nice friendly error message which is good to know.  It's always
+you get a nice friendly error message, which is good to know.  It's always
 reassuring that a library is decently written when it provides nice error
 messages.
 
@@ -217,12 +221,12 @@ Exception: There are only 8 custom characters (You tried to access 8).
 
 ## And Finally...
 
-Thanks go to [Farnell / Element14](http://uk.farnell.com/) for supplying the PiFace
-Control and Display board.
-
 Given I only know the basics in Python (though I do code in other languages)
-its pretty easy to get started with the PiFace and make it do some cool stuff.
+it's pretty easy to get started with the PiFace and make it do some cool stuff.
 It seems like it should be fairly easy to get it doing something useful with
 the 3D printer.  More on that later....
+
+Thanks go to [Farnell / Element14](http://uk.farnell.com/) for supplying the PiFace
+Control and Display board.
 
 
