@@ -1,6 +1,6 @@
-<tt>[Swindon Hackspace] • [Google Group] • [Twitter] / [Facebook] • [YouTube] • [Flickr] • [Github]</tt>
+<tt>[Website] • [Google Group] • [Twitter] / [Facebook] • [YouTube] • [Flickr] • [Github]</tt>
 
-[Swindon Hackspace]: http://swindon.hackspace.org.uk/
+[Website]: http://swindon.hackspace.org.uk/
 [Google Group]: http://groups.google.com/group/swindon-hackspace
 [Twitter]: http://twitter.com/snhack
 [YouTube]: http://www.youtube.com/user/snhackspace
