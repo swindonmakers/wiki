@@ -1,4 +1,4 @@
-![Teleprinter with the cover off.](https://github.com/snhack/snhack.github.com/wiki/images/Twitter-to-Teletype/Teleprinter.jpg)
+[Teleprinter with the cover off.](images/Twitter-to-Teletype/Teleprinter.jpg)
 
 - [People](#people)
 - [Feature List](#feature-list)
