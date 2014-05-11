@@ -16,6 +16,17 @@
 
 <!-- footer links -->
 
+[web][Swindon Hackspace]
+[group][Google Group]
+[twitter][Twitter]
+[github][Github]
+[flickr][Flickr]
+[fbook][Facebook]
+[youtube][YouTube]
+[thingiverse][Thingiverse]
+
+
+<!--
 [`web`][Swindon Hackspace]
 [`group`][Google Group]
 [`twitter`][Twitter]
@@ -24,6 +35,7 @@
 [`fbook`][Facebook]
 [`youtube`][YouTube]
 [`thingiverse`][Thingiverse]
+-->
 
 [Swindon Hackspace]: http://swindon.hackspace.org.uk/
 [Google Group]: http://groups.google.com/group/swindon-hackspace
