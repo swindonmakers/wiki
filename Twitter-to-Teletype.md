@@ -1,5 +1,6 @@
+![a](images/teletype/Teleprinter.jpg)
 
-![Teleprinter](images/teletype/Teleprinter.jpg)
+![Teleprinter](images/teletype/640px-Teleprinter.jpg)
 
 - [People](#people)
 - [Feature List](#feature-list)
