@@ -1,6 +1,6 @@
 ###### [Home](Home)
 
-[Contribute](Contributing)
+[Contribute](Contributing) • [Social Media](Social-Media)
 
 
 ###### [Hackspace](Welcome)
