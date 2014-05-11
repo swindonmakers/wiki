@@ -1,6 +1,6 @@
 ###### [Wiki](Home)
 
-[Index](_pages) • [Links](Links) • [Contacts](Contacts)  
+[Index](_pages) • [Contribute](Contributing) • [Links](Links) • [Contacts](Contacts)  
 
 
 ###### [Hackspace](Welcome)
