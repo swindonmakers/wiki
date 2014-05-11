@@ -24,7 +24,6 @@
 [youtube][YouTube] •
 [thingiverse][Thingiverse]
 
-[`web`][Swindon Hackspace]
 [`group`][Google Group]
 [`twitter`][Twitter]
 [`flickr`][Flickr]
@@ -33,6 +32,7 @@
 [`thingiverse`][Thingiverse]
 
 <!--
+[`web`][Swindon Hackspace]
 [`github`][Github]
 -->
 
