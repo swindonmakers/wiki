@@ -17,7 +17,7 @@
 
 ###### Web Presence
 
-[web] • [group][Google Group] • [twitter] • [flickr] •  
+[web] • [group][Google Group] • [twitter] • [flickr][]  
 [fbook][Facebook] • [youtube] • [thingiverse]
 
 [Web]: http://swindon.hackspace.org.uk/
