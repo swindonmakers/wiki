@@ -10,7 +10,7 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 
 - [Blog posts][README file] • [Website features and fixes][INSTALL file]
 
-- [Web Presence / Social Media][Social Media]
+- [Web Presence / Social Media][Social Media] • [Contacts](Contacts)
 
 #### Hackspace
 
