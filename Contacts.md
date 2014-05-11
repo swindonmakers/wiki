@@ -1,9 +1,13 @@
-This is a list of organizations / people to contact with Swindon Hackspace events during our getting-started period, when we are desperate for attendees.
+### Swindon Hackspace
 
-To contact the Swindon Hackspace itself, you can use [twitter], or the [google group].  For code changes, please feel free to either [open an issue](https://help.github.com/articles/github-glossary#issue), or send us a [pull request](https://help.github.com/articles/using-pull-requests) after reading any posted guidelines.
+To contact the Swindon Hackspace itself, you can use [twitter], or the [google group].  For code changes, please feel free to either [open an issue](https://help.github.com/articles/github-glossary#issue), or send us a [pull request](https://help.github.com/articles/using-pull-requests) (after reading any posted guidelines).
 
 [Google Group]: http://groups.google.com/group/swindon-hackspace
 [Twitter]: http://twitter.com/snhack
+
+### Other Groups
+
+This is a list of organizations / people to contact with Swindon Hackspace events during our getting-started period, when we are desperate for attendees.
 
 Please, feel free to add to this list, but don't list email addresses for individuals.
 
