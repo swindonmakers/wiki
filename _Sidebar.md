@@ -9,9 +9,6 @@
 [Pen Plotter](Pen-plotter)
 
 
-
----
-
 [`web`][Swindon Hackspace]
 [`group`][Google Group]
 [`twitter`][Twitter]
