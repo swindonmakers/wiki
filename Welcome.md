@@ -4,18 +4,3 @@ The [Swindon Hackspace](http://swindon.hackspace.org.uk/) is a place to hack wit
 
 Our main website is at [swindon.hackspace.org.uk](http://swindon.hackspace.org.uk), please see our [about page](http://swindon.hackspace.org.uk/about/#weekly-meetings) for meeting times and directions, etc.
 
-#### Useful Software
-
-* http://designspark.com - PCB/Schematic software
-* http://openscad.org
-
-#### Hardware Sources
-
-* http://www.mindsetsonline.co.uk/
-* http://www.rev-ed.co.uk/
-* http://bitsbox.co.uk
-
-#### Events
-
-* OpenSCAD demo/workshop - Jess/James - completed
-* Any ideas?
