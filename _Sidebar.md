@@ -1,7 +1,7 @@
 ###### Hackspace Wiki
 
 [Main Page](https://github.com/snhack/snhack.github.com/wiki) • [All Pages](_pages)  
-[Tools](Tools) • [Projects](Projects) • [Events](Events) • [Links](Links)
+[Tools](Tools) • [Events](Events) • [Links](Links)
 
 ###### [Projects](Projects)
 
@@ -19,7 +19,7 @@
 
 <!-- footer links -->
 
-###### Web Presence
+###### [Web Presence](Social-Media)
 
 [web][Website] • [group][Google Group] • [twitter] • [flickr][]  
 [fbook][Facebook] • [youtube] • [thingiverse]
