@@ -14,7 +14,7 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 
 - [Tools and consumables](Tools)
 
-- [Events](Events)
+- [Hackspace Events](Events)
 
 #### Website Development
 
