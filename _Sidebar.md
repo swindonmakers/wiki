@@ -1,4 +1,4 @@
-###### [Home](Home) [📗](_pages)
+###### [Home](Home) [\[i\]](_pages)
 
 [Contribute](Contributing) • [Links](Links) • [Contacts](Contacts)  
 
