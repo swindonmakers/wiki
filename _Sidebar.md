@@ -3,7 +3,7 @@
 [Main Page](https://github.com/snhack/snhack.github.com/wiki) • [All Pages](_pages)  
 [Tools](Tools) • [Projects](Projects) • [Events](Events) • [Links](Links)
 
-###### Work in Progress
+###### [Projects](Projects)
 
 [Pen Plotter](Pen-plotter) • 
 [Prusa Mendel 3D Printer](Prusa-Mendel) • 
