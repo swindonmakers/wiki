@@ -6,8 +6,8 @@
 ###### Work in Progress
 
 [Twitter to Teletype](Twitter-to-Teletype) • [Hero](Hero)  
-[Pen Plotter](Pen-plotter) • [Launchpad Display](Launchpad-Display)
-
+[Pen Plotter](Pen-plotter) • [Launchpad Display](Launchpad-Display)  
+[Big Curvy LED Screen](Big-Curvy-LED-Screen)
 
 
 
