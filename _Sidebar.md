@@ -5,8 +5,9 @@
 
 ###### Work in Progress
 
-[Twitter to Teletype](Twitter-to-Teletype) • [Hero](Hero)  
-[Pen Plotter](Pen-plotter)
+
+<code>[Twitter to Teletype](Twitter-to-Teletype)</code> • <code>[Hero](Hero)</code>  
+<code>[Pen Plotter](Pen-plotter)</code>
 
 
 
