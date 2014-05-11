@@ -10,11 +10,11 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
   The museum has an old Heathkit Hero, which the Hackspace is repairing by rewiring, and printing new parts.
 
-- [Launchpad Display Driver](LaunchpadDisplay)
+- [Launchpad Display Driver](Launchpad-Display)
 
   Replacement driver board for LED message display boards, used in commercial shop window displays
 
-- [Big Curvy LED Screen](BigCurvyLEDScreen)
+- [Big Curvy LED Screen](Big-Curvy-LED-Screen)
 
   A much larger LED matrix display, has been split up into separate boards and could be used in various configurations.
 
