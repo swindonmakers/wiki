@@ -1,6 +1,6 @@
 #### General Info
 
-- [Welcome](Welcome)
+- [Welcome to Swindon Hackspace](Welcome)
 
 - [Contributing website and wiki content](Contributing)
 
