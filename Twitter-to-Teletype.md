@@ -1,6 +1,7 @@
-[![Teleprinter]](images/teletype/Teleprinter.jpg)
+[![Teleprinter-thum]][Teleprinter-full]
 
-[Teleprinter]: images/teletype/640px-Teleprinter.jpg
+[Teleprinter-full]: images/teletype/Teleprinter.jpg
+[Teleprinter-thum]: images/teletype/Teleprinter-sml.jpg
 
 - [People](#people)
 - [Feature List](#feature-list)
