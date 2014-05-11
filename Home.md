@@ -4,17 +4,21 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 
 #### General Info
 
-- [Welcome to Swindon Hackspace](Welcome)
-
 - [Contributing website and wiki content](Contributing)
 
 - [Blog posts][README file] • [Website features and fixes][INSTALL file]
 
-- [Web Presence / Social Media][Social Media] • [Contacts](Contacts)
+- [Web Presence / Social Media][Social Media]
+
 
 #### Hackspace
 
+- [Useful Links](Links) • [Contacts](Contacts)
+
 - [Tools and consumables](Tools)
+
+- [Events](Events)
+
 
 #### Github Bootcamp
 
