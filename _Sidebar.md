@@ -6,7 +6,7 @@
 ###### Work in Progress
 
 [Twitter to Teletype](Twitter-to-Teletype) • [Hero](Hero)  
-[Pen Plotter](Pen-plotter)
+[Pen Plotter](Pen-plotter) • [Launchpad Display](LaunchpadDisplay)
 
 
 
