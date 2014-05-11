@@ -39,7 +39,8 @@ These are some of the 'blue sky' features for the project.
 
 (<b>A</b>utomatic <b>S</b>end and <b>R</b>eceive), has a built in 8-level paper tape reader and tape punch.
 
-[!Teleprinter](images/Twitter-to-Teletype/Teleprinter.jpg)
+![Teleprinter](images/Twitter-to-Teletype/Teleprinter.jpg)
+
 [Teleprinter with the cover off.](images/Twitter-to-Teletype/Teleprinter.jpg)
 
 Further overview of the ASR-33 can be found on [wikipedia](http://en.wikipedia.org/wiki/Teletype_Model_33).
