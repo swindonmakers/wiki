@@ -5,7 +5,8 @@
 
 ###### [Hackspace](Welcome)
 
-[Links](Links) • [Contacts](Contacts) • [Tools](Tools)  
+[Useful Links](Links) • [Contacts](Contacts)  
+[Tools and Consumables](Tools)  
 [Hackspace Events](Events)
 
 
