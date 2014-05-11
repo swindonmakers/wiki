@@ -5,9 +5,13 @@
 
 ###### Work in Progress
 
-[Twitter to Teletype](Twitter-to-Teletype) • [Hero](Hero)  
-[Pen Plotter](Pen-plotter) • [Launchpad Display](Launchpad-Display)  
+[Pen Plotter](Pen-plotter) • 
+[Prusa Mendel 3D Printer](Prusa-Mendel) • 
+[Heathkit Hero](Hero) • 
+[RobotArm](RobotArm) • 
+[Launchpad Display](Launchpad-Display) • 
 [Big Curvy LED Screen](Big-Curvy-LED-Screen)
+[Twitter to Teletype](Twitter-to-Teletype) • [Hero](Hero)  
 
 
 
