@@ -1,4 +1,4 @@
-Note: There is a [blog post](http://snhack.dev/blog/heathkit-hero-printable-parts/) relating to this project.
+> Note: There is a [blog post](http://snhack.dev/blog/heathkit-hero-printable-parts/) relating to this project.
 
 
 The Museum has allowed us to hack on an old Heathkit Hero, more specifically, the Hero 1, AKA ET-18. From the testing procedures, everything appears to work except moving the motors -- which is currently diagnosed as bad batteries.
