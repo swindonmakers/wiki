@@ -1,0 +1,1 @@
+Note: There is a [github repo](https://github.com/snhack/StellarisLaunchpad) for this project.
