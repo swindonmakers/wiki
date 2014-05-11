@@ -6,6 +6,9 @@
 
 - [Web Presence / Social Media][Social Media]
 
+#### Hackspace
+
+- [Tools and consumables](Tools)
 
 #### Github Bootcamp
 
