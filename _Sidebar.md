@@ -22,19 +22,18 @@
 [flickr][Flickr]  
 [fbook][Facebook] •
 [youtube][YouTube] •
-[thingiverse][Thingiverse] •
-[github][Github]
+[thingiverse][Thingiverse]
 
-
-<!--
 [`web`][Swindon Hackspace]
 [`group`][Google Group]
 [`twitter`][Twitter]
-[`github`][Github]
 [`flickr`][Flickr]
 [`fbook`][Facebook]
 [`youtube`][YouTube]
 [`thingiverse`][Thingiverse]
+
+<!--
+[`github`][Github]
 -->
 
 [Swindon Hackspace]: http://swindon.hackspace.org.uk/
