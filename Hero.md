@@ -1,3 +1,6 @@
+Note: There is a [blog post](http://snhack.dev/blog/heathkit-hero-printable-parts/) relating to this project.
+
+
 The Museum has allowed us to hack on an old Heathkit Hero, more specifically, the Hero 1, AKA ET-18. From the testing procedures, everything appears to work except moving the motors -- which is currently diagnosed as bad batteries.
 
 I've taken photos of the schematics, though I have yet to post them online (they still have an active copyright holder -- Heathkit sold the copyright to the manuals). From that, I think that my original plan of driving the robot from the experiment board won't work -- the experiment board doesn't have direct access to the other perpherials, so we'd have to write driver code on the main CPU to implement a protocol over the experiment board, instead of driving things directly. However, a number of debug headers seem to exist on the CPU board, which may be powerful enough to essentially replace the CPU without modifying the hardware.
