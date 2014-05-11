@@ -24,11 +24,11 @@
 [youtube][YouTube] •
 [thingiverse][Thingiverse]
 
+[`web`][Swindon Hackspace]
 [`group`][Google Group]
 [`twitter`][Twitter]
 [`flickr`][Flickr]
 [`youtube`][YouTube]
-[`web`][Swindon Hackspace]
 [`fbook`][Facebook]
 [`thingiverse`][Thingiverse]
 
