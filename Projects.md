@@ -6,9 +6,17 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
   An event visitor recently donated a pen plotter, with which we would like to try plotting etch resist for making circuit boards.
 
-- [Hero](Hero)
+- [Prusa Mendel 3D Printer](Prusa-Mendel)
+
+  The 3D Printer that is being rebuilt and upgraded by the Hackspace
+
+- [Heathkit Hero](Hero)
 
   The museum has an old Heathkit Hero, which the Hackspace is repairing by rewiring, and printing new parts.
+
+- [RobotArm](RobotArm)
+
+  3D printed miniature servo robot arm and code to drive it via a space mouse
 
 - [Launchpad Display Driver](Launchpad-Display)
 
