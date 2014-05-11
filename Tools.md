@@ -1,5 +1,14 @@
 Tools and consumables that are available for members to use. Add items here you've donated. These are located in the cupboard to the left of the store room door.
 
+- [Consumables](#consumables)
+- [Donations](#donations)
+- [Test Equipment](#test-equipment)
+- [Tools](#tools)
+- [Wishlist / suggestions](#wishlist--suggestions)
+    - [Consumables](#consumables)
+    - [Tools etc](#tools-etc)
+    - [Requiring individual donations](#requiring-individual-donations)
+
 ### Consumables
 
 A supply of consumables is maintained out of hackspace funds. It is expected that members will be sensible in their use of these. Please notify the mailing list if you notice supplies running low.
