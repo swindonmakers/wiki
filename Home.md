@@ -6,7 +6,7 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 
 - [Contributing website and wiki content](Contributing)
 
-- [Web Presence and Social Media][Social Media]
+- [Web Presence and Using Social Media][Social Media]
 
 #### Hackspace Resources
 
