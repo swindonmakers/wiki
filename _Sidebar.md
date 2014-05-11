@@ -16,13 +16,14 @@
 
 <!-- footer links -->
 
-[`github`][Github]
-[`twitter`][Twitter]
-[`flickr`][Flickr]
 [`web`][Swindon Hackspace]
+[`group`][Google Group]
+[`twitter`][Twitter]
+[`github`][Github]
+[`flickr`][Flickr]
 [`fbook`][Facebook]
 [`youtube`][YouTube]
-[`group`][Google Group]
+[`thingiverse`][Thingiverse]
 
 [Swindon Hackspace]: http://swindon.hackspace.org.uk/
 [Google Group]: http://groups.google.com/group/swindon-hackspace
@@ -31,3 +32,4 @@
 [Flickr]: https://www.flickr.com/groups/swindon-hackspace/
 [Facebook]: https://www.facebook.com/swindon.hackspace
 [Github]: https://github.com/snhack
+[Thingiverse]: http://www.thingiverse.com/Swindon-Hackspace/
