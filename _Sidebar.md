@@ -5,7 +5,6 @@
 
 ###### Work in Progress
 
-
 [Twitter to Teletype](Twitter-to-Teletype) • [Hero](Hero)  
 [Pen Plotter](Pen-plotter)
 
@@ -15,6 +14,8 @@
 
 
 <!-- footer links -->
+
+###### Web Presence
 
 [web][Swindon Hackspace] •
 [group][Google Group] •
