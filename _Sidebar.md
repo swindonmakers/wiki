@@ -17,17 +17,19 @@
 
 ###### Web Presence
 
-[web][Swindon Hackspace] •
-[group][Google Group] •
-[twitter][Twitter] •
-[flickr][Flickr]  
-[fbook][Facebook] •
-[youtube][YouTube] •
-[thingiverse][Thingiverse]
+[web] • [group][Google Group] • [twitter] • [flickr] • [fbook][Facebook] • [youtube] • [thingiverse]
 
+[Web]: http://swindon.hackspace.org.uk/
+[Google Group]: http://groups.google.com/group/swindon-hackspace
+[Twitter]: http://twitter.com/snhack
+[YouTube]: http://www.youtube.com/user/snhackspace
+[Flickr]: https://www.flickr.com/groups/swindon-hackspace/
+[Facebook]: https://www.facebook.com/swindon.hackspace
+[Github]: https://github.com/snhack
+[Thingiverse]: http://www.thingiverse.com/Swindon-Hackspace/
 
 <!--
-[`web`][Swindon Hackspace]
+[`web`][web]
 [`group`][Google Group]
 [`twitter`][Twitter]
 [`flickr`][Flickr]
@@ -36,12 +38,3 @@
 [`thingiverse`][Thingiverse]
 [`github`][Github]
 -->
-
-[Swindon Hackspace]: http://swindon.hackspace.org.uk/
-[Google Group]: http://groups.google.com/group/swindon-hackspace
-[Twitter]: http://twitter.com/snhack
-[YouTube]: http://www.youtube.com/user/snhackspace
-[Flickr]: https://www.flickr.com/groups/swindon-hackspace/
-[Facebook]: https://www.facebook.com/swindon.hackspace
-[Github]: https://github.com/snhack
-[Thingiverse]: http://www.thingiverse.com/Swindon-Hackspace/
