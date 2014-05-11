@@ -12,13 +12,17 @@
 
 ---
 
-[web] • [group] • [twitter] • [flickr] • [tube]
+[`web`][Swindon Hackspace]
+[`group`][Google Group]
+[`twitter`][Twitter]
+[`flickr`][Flickr]
+[`tube`][YouTube]
 
-[web]: http://swindon.hackspace.org.uk/
-[group]: http://groups.google.com/group/swindon-hackspace
-[twitter]: http://twitter.com/snhack
-[flickr]: https://www.flickr.com/groups/swindon-hackspace/
-[tube]: http://www.youtube.com/user/snhackspace
 
-[book]: https://www.facebook.com/swindon.hackspace
-[git]: https://github.com/snhack
+[Swindon Hackspace]: http://swindon.hackspace.org.uk/
+[Google Group]: http://groups.google.com/group/swindon-hackspace
+[Twitter]: http://twitter.com/snhack
+[YouTube]: http://www.youtube.com/user/snhackspace
+[Flickr]: https://www.flickr.com/groups/swindon-hackspace/
+[Facebook]: https://www.facebook.com/swindon.hackspace
+[Github]: https://github.com/snhack
