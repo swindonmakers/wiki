@@ -12,7 +12,7 @@
 
 ---
 
-[web] • [group] • [twit] / [book] • [tube] • [flick] • [git]
+[web] • [group] • [twit] • [tube] • [flick]
 
 [web]: http://swindon.hackspace.org.uk/
 [group]: http://groups.google.com/group/swindon-hackspace
