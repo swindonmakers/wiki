@@ -13,9 +13,9 @@
 [`group`][Google Group]
 [`twitter`][Twitter]
 [`fbook`][Facebook]
+[`youtube`][YouTube]
 [`flickr`][Flickr]
-[`tubes`][YouTube]
-[`git`][Github]
+[`github`][Github]
 
 
 [Swindon Hackspace]: http://swindon.hackspace.org.uk/
