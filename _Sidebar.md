@@ -1,7 +1,6 @@
-###### [Home](Home)
+###### [Home](Home) • [Index](_pages)
 
-[Index](_pages) • [Contribute](Contributing)  
-[Links](Links) • [Contacts](Contacts)  
+[Contribute](Contributing) • [Links](Links) • [Contacts](Contacts)  
 
 
 ###### [Hackspace](Welcome)
