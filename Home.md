@@ -6,10 +6,7 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 
 - [Contributing website and wiki content](Contributing)
 
-- [Blog posts][README file] • [Website features and fixes][INSTALL file]
-
 - [Web Presence and Social Media][Social Media]
-
 
 #### Hackspace
 
@@ -19,6 +16,9 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 
 - [Events](Events)
 
+#### Website Development
+
+- [Blog posts][README file] • [features and fixes][INSTALL file]
 
 #### Github Bootcamp
 
