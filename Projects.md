@@ -2,6 +2,4 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
 ###### Work in Progress
 
-[Twitter to Teletype](Twitter-to-Teletype) • [Hero](Hero)  
-[Pen Plotter](Pen-plotter)
-
+[Twitter to Teletype](Twitter-to-Teletype) • [Hero](Hero) • [Pen Plotter](Pen-plotter)
