@@ -1,6 +1,6 @@
-###### [Home](Home) [\[i\]](_pages)
+###### [Home](Home)
 
-[Contribute](Contributing) • [Links](Links) • [Contacts](Contacts)  
+[Links](Links) • [Contacts](Contacts) • [Contribute](Contributing)
 
 
 ###### [Hackspace](Welcome)
