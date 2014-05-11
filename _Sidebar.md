@@ -28,8 +28,8 @@
 
 ###### [Web Presence](Social-Media)
 
-[group][Google Group] • [twitter] • [flickr] • [github][]  
-[web][Website] • [facebook] • [youtube] • [thingiverse]
+[twitter] • [flickr] • [group][Google Group] • [thingiverse][]  
+[web][Website] • [github] • [facebook] • [youtube]
 
 [Website]: http://swindon.hackspace.org.uk/
 [Google Group]: http://groups.google.com/group/swindon-hackspace
