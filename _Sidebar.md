@@ -1,11 +1,12 @@
 ###### [Home](Home)
 
-[Links](Links) • [Contacts](Contacts) • [Contribute](Contributing)
+[Contribute](Contributing)
 
 
 ###### [Hackspace](Welcome)
 
-[Tools](Tools) • [Events](Events)
+[Links](Links) • [Contacts](Contacts) • [Tools](Tools)  
+[Hackspace Events](Events)
 
 
 ###### [Projects](Projects)
