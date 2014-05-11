@@ -1,6 +1,6 @@
-###### Hackspace Wiki
+###### [Hackspace Wiki](Home)
 
-[Main Page](https://github.com/snhack/snhack.github.com/wiki) • [All Pages](_pages)  
+[Index](.) • [All Pages](_pages)  
 [Tools](Tools) • [Events](Events) • [Links](Links)
 
 ###### [Projects](Projects)
