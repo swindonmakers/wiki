@@ -8,7 +8,7 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
 - [Prusa Mendel 3D Printer](Prusa-Mendel)
 
-  The 3D Printer that is being rebuilt and upgraded by the Hackspace
+  The 3D Printer that is being rebuilt and upgraded by the Hackspace.
 
 - [Heathkit Hero](Hero)
 
