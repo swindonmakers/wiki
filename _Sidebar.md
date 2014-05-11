@@ -1,7 +1,6 @@
-[Index](_pages) • [Links](Links)
+###### [Hackspace Wiki](Home)
 
-###### [Hackspace](Home)
-
+[Index](_pages) • [Links](Links) • [Contacts](Contacts)  
 [Tools](Tools) • [Events](Events)
 
 ###### [Projects](Projects)
