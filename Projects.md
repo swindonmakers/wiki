@@ -14,6 +14,10 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
   Replacement driver board for LED message display boards, used in commercial shop window displays
 
+- [Big Curvy LED Screen](BigCurvyLEDScreen)
+
+  A much larger LED matrix display, has been split up into separate boards and could be used in various configurations.
+
 - [Twitter to Teletype](Twitter-to-Teletype)
 
   Grab tweets that match a certain criteria (using a Raspberry Pi), then output them to a Teletype ASR-33.
