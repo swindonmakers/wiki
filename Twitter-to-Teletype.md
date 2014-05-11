@@ -1,10 +1,11 @@
-- Feature List
-- Notes on the ASR-33
-    - Note from MikeM001
-- Questions and Issues to be Resolved
-    - Hardware
-    - Software
-- Resolved Questions and Issues
+- [People](#people)
+- [Feature List](#feature-list)
+- [Notes on the ASR-33](#notes-on-the-asr-33)
+    - [Note from MikeM001](#note-from-mikem001)
+- [Questions and Issues to be Resolved](#questions-and-issues-to-be-resolved)
+    - [Hardware](#hardware)
+    - [Software](#software)
+- [Resolved Questions and Issues](#resolved-questions-and-issues)
 
 This is a project to take tweets or submissions via the Museum of Computing website and print them on an old teletype machine.  The text below is the state of play so far and needs updating as we go, and some pictures and/or diagrams would be nice!
 
@@ -14,14 +15,14 @@ Failing that we have an option to use an arduino which would need a custom updat
 
 Of course, anyone who wants to contribute to this project is welcome to update its pages.
 
-#### People
+### People
 
 Is it useful to keep track of who is doing what? Please add yourself if you've been missed or want to get involved in an area.
 
 * Simon, James, Mike - Teletype hardware interface.
 * Tony, Robert - PC Software for Twitter interface. Arduino software for serial comms.
 
-#### Feature List
+### Feature List
 
 These are some of the 'blue sky' features for the project.
 
@@ -32,7 +33,7 @@ These are some of the 'blue sky' features for the project.
 * Use the paper tape to display sentiment.
 
 
-#### Notes on the ASR-33
+### Notes on the ASR-33
 
 (<b>A</b>utomatic <b>S</b>end and <b>R</b>eceive), has a built in 8-level paper tape reader and tape punch.
 
@@ -51,7 +52,7 @@ Because we have the case off much of the time, and because the markings on the c
     * Manual start: the reader is deactivated.
     * Free: the paper drive motor is disengaged, so the operator can move the paper to the right position.
 
-##### Note from MikeM001
+#### Note from MikeM001
 
 (Note moved to here by Tony)
 
@@ -91,7 +92,7 @@ Looking at the [PDF for ASR33](http://highgate.comm.sfu.ca/~djg/htdocs/cgi-bin/t
 
 
 option               | lead 1 | lead 2 | lead 3 | lead 4
--------------        | ------ | ------ | ------ | ------
+:-------------       | :----- | :----- | :----- | :-----
 even parity	     | on     | off    | off    | on
 8th bit always mark  | off    | on     | on     | on
 8th bit always space | either on, or both off | x | on or off | off
