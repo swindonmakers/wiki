@@ -90,12 +90,11 @@ Looking at the [PDF for ASR33](http://highgate.comm.sfu.ca/~djg/htdocs/cgi-bin/t
 
 * The keyboard can be wired for even, mark, or space parity (8th bit). Which way is ours wired? These are the jumper blocks at front left and right of the keyboard. See manual pdfs part 1_2, page 12 for table, reproduced here:
 
-
-option               | lead 1 | lead 2 | lead 3 | lead 4
-:-------------       | :----- | :----- | :----- | :-----
-even parity	     | on     | off    | off    | on
-8th bit always mark  | off    | on     | on     | on
-8th bit always space | either on, or both off | x | on or off | off
+    option               | lead 1 | lead 2 | lead 3 | lead 4
+    :-------------       | :----- | :----- | :----- | :-----
+    even parity	     | on     | off    | off    | on
+    8th bit always mark  | off    | on     | on     | on
+    8th bit always space | either on, or both off | x | on or off | off
 
 
 #### Software
