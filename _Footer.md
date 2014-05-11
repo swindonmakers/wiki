@@ -1,4 +1,4 @@
-<code>[Website] • [Google Group] • [Twitter] / [Facebook] • [YouTube] • [Flickr] • [Github]</code>
+[Website] • [Google Group] • [Twitter] / [Facebook] • [YouTube] • [Flickr] • [Github]
 
 [Website]: http://swindon.hackspace.org.uk/
 [Google Group]: http://groups.google.com/group/swindon-hackspace
