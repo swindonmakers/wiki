@@ -1,7 +1,12 @@
-###### [Hackspace Wiki](Home)
+###### [Wiki](Home)
 
 [Index](_pages) • [Links](Links) • [Contacts](Contacts)  
+
+
+###### [Hackspace](Welcome)
+
 [Tools](Tools) • [Events](Events)
+
 
 ###### [Projects](Projects)
 
