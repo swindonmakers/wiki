@@ -10,7 +10,7 @@
 [Heathkit Hero](Hero) • 
 [RobotArm](RobotArm) • 
 [Launchpad Display](Launchpad-Display) • 
-[Big Curvy LED Screen](Big-Curvy-LED-Screen)
+[Big Curvy LED Screen](Big-Curvy-LED-Screen) • 
 [Twitter to Teletype](Twitter-to-Teletype) • [Hero](Hero)  
 
 
