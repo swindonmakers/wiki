@@ -1,3 +1,4 @@
+
 - [People](#people)
 - [Feature List](#feature-list)
 - [Notes on the ASR-33](#notes-on-the-asr-33)
@@ -6,6 +7,8 @@
     - [Hardware](#hardware)
     - [Software](#software)
 - [Resolved Questions and Issues](#resolved-questions-and-issues)
+
+Note: There is a [github repo](https://github.com/snhack/TwitterToTeletype), and a [blog post](http://snhack.dev/blog/twitter-to-teletype/) for this project.
 
 This is a project to take tweets or submissions via the Museum of Computing website and print them on an old teletype machine.  The text below is the state of play so far and needs updating as we go, and some pictures and/or diagrams would be nice!
 
