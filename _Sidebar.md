@@ -19,11 +19,11 @@
 [web][Swindon Hackspace] •
 [group][Google Group] •
 [twitter][Twitter] •
-[github][Github] •
-[flickr][Flickr] •
+[flickr][Flickr]  
 [fbook][Facebook] •
 [youtube][YouTube] •
 [thingiverse][Thingiverse] •
+[github][Github]
 
 
 <!--
