@@ -1,7 +1,7 @@
 ###### Hackspace Wiki
 
 [Main Page](https://github.com/snhack/snhack.github.com/wiki) • [All Pages](_pages)  
-[Tools](Tools)
+[Tools](Tools) • [Events](Events)
 
 ###### Work in Progress
 
