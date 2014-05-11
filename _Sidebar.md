@@ -16,12 +16,12 @@
 
 <!-- footer links -->
 
-[`web`][Swindon Hackspace]
 [`group`][Google Group]
-[`twitter`][Twitter]  
+[`twitter`][Twitter]
+[`flickr`][Flickr]
+[`web`][Swindon Hackspace]
 [`fbook`][Facebook]
 [`youtube`][YouTube]
-[`flickr`][Flickr]
 [`github`][Github]
 
 [Swindon Hackspace]: http://swindon.hackspace.org.uk/
