@@ -12,12 +12,12 @@
 
 ---
 
-[web] • [group] • [twit] • [tube] • [flick]
+[web] • [group] • [twitter] • [youtube] • [flickr]
 
 [web]: http://swindon.hackspace.org.uk/
 [group]: http://groups.google.com/group/swindon-hackspace
-[twit]: http://twitter.com/snhack
-[tube]: http://www.youtube.com/user/snhackspace
-[flick]: https://www.flickr.com/groups/swindon-hackspace/
+[twitter]: http://twitter.com/snhack
+[youtube]: http://www.youtube.com/user/snhackspace
+[flickr]: https://www.flickr.com/groups/swindon-hackspace/
 [book]: https://www.facebook.com/swindon.hackspace
 [git]: https://github.com/snhack
