@@ -1,5 +1,4 @@
 [![Teleprinter-thum]][Teleprinter-full]
-
 [Teleprinter-full]: images/teletype/Teleprinter.jpg
 [Teleprinter-thum]: images/teletype/Teleprinter-sml.jpg
 
