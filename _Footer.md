@@ -7,7 +7,7 @@
 [Flickr]: https://www.flickr.com/groups/swindon-hackspace/
 [Facebook]: https://www.facebook.com/swindon.hackspace
 [Github]: https://github.com/snhack
-[Thingiverse]: http://www.thingiverse.com/Swindon-Hackspace/overview
+[Thingiverse]: http://www.thingiverse.com/Swindon-Hackspace/
 
 
 
