@@ -8,17 +8,25 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 
 - [Web Presence and Using Social Media][Social Media]
 
-#### Hackspace Resources
 
-- [Useful Links](Links) • [Contacts](Contacts)
+#### Hackspace
+
+- [Hackspace Projects](Projects)
+
+- [Hackspace Events](Events)
 
 - [Tools and consumables](Tools)
 
-- [Hackspace Events](Events)
 
 #### Website Development
 
 - [Blog posts][README file] • [features and fixes][INSTALL file]
+
+
+#### Resources
+
+- [Useful Links](Links) • [Contacts](Contacts)
+
 
 #### Github Bootcamp
 
