@@ -1,4 +1,4 @@
-> This post is placeholder with more information to added at a later date, possibly moved here from the website's repo.
+> TODO: This post is placeholder with more information to added at a later date, possibly moved here from the website's repo.
 
 ### Contributing website and wiki content
 
