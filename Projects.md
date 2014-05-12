@@ -16,15 +16,15 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
 - [RobotArm](RobotArm)
 
-  3D printed miniature servo robot arm and code to drive it via a space mouse
+  3D printed miniature servo robot arm and code to drive it via a space mouse.
 
 - [Teaching Binary](Teaching-Binary)
 
-  Tony's switch and display board to teach how to enter and read binary as hex, decimal, and ASCII
+  Tony's switch and display board to teach how to enter and read binary as hex, decimal, and ASCII.
 
 - [Launchpad Display Driver](Launchpad-Display)
 
-  Replacement driver board for LED message display boards, used in commercial shop window displays
+  Replacement driver board for LED message display boards, used in commercial shop window displays.
 
 - [Big Curvy LED Screen](Big-Curvy-LED-Screen)
 
