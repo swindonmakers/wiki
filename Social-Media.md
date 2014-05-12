@@ -11,7 +11,7 @@ This page aims to document the hackspace's web presence on various services, and
 
     We try not to post multiple re/tweets over a short period, so if you have an awesome but time sensitive link, pic, video, or other bit of news you want to share, please ping us via a separate tweet to let us know. :)
 
-    Integration: New blog posts are tweeted to [@snhack] followers. Recent twitter posts are linked from the main website.  Facebook acts as a secondary outlet for those members who prefer not to use twitter.
+    Integration: [New blog posts are tweeted](Workflow-for-New-Posts) to [@snhack] followers. Recent twitter posts are linked from the main website.  Facebook acts as a secondary outlet for those members who prefer not to use twitter.
 
     Examples: hackspace [evenings], [events], [donations], [members], [posts], [printer], [pi], [robots], [toys], [logos], and [alerts].
 
@@ -31,7 +31,7 @@ This page aims to document the hackspace's web presence on various services, and
 
     You're welcome to post news on your own projects here - especially to invite further discussion - but please consider using twitter (and mentioning [@snhack]) for one-off links, pictures, and other media.
 
-    Integration: Recent google group topics are linked from the main website using the group's [rss feed][group rss].  Group topics are also created for each new blog post to the website.
+    Integration: [New blog posts are posted](Workflow-for-New-Posts) to a new google group topic, which serves as the discussion thread for that post. Recent google group topics are linked from the main website using the group's [rss feed][group rss].
 
     <!-- Please add some awesome examples here -->
 
