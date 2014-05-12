@@ -26,12 +26,12 @@ Optionally, we could add the ability to send the message to a printer, teletype,
 
 I used a prototyping board to prove the concept with an arduino as I don't yet have a suitable PICAXE chip. Bottom left are the 7 wires that control each segment, and the two 14-pin 4011 chips are connected to the arduino which switches each digit display on in turn and set its segments to on or off before moving on to the next digit. Below that is the finished display board which still needs the input switches, MUX and the PICAXE 20M2 with a programming socket
 
-[![Photo_1-thum]][Photo_1-full]
+[![Photo1-thum]][Photo1-full]
 
-[Prototype multiplexed 5-digit display.][Photo_1-full]
+[Prototype multiplexed 5-digit display.][Photo1-full]
 
-[Photo_1-full]: images/binary/Photo1.jpg
-[Photo_1-thum]: images/binary/Photo1-sml.jpg
+[Photo1-full]: images/binary/Photo1.jpg
+[Photo1-thum]: images/binary/Photo1-sml.jpg
 
 [[File:Photo_(2).jpg|thumb|left|The finished display section. The MUX to read the input switches and the PICAXE 20M2 are still to be added.]]
 
