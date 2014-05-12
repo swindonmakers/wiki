@@ -1,4 +1,3 @@
-
 I see this as an A4 or A5 board with the following features.
 
 * A row of 8 toggle switches, each with a corresponding LED and a label to show its position and value in a byte, e.g. bit 3 has a value of 8. The LED is lit for the bits that are set.
@@ -31,8 +30,8 @@ I used a prototyping board to prove the concept with an arduino as I don't yet h
 
 [Prototype multiplexed 5-digit display.][Photo_1-full]
 
-[Photo_1-full]: images/binary/Photo_(1).jpg
-[Photo_1-thum]: images/binary/Photo_(1)-sml.jpg
+[Photo_1-full]: images/binary/Photo1.jpg
+[Photo_1-thum]: images/binary/Photo1-sml.jpg
 
 [[File:Photo_(2).jpg|thumb|left|The finished display section. The MUX to read the input switches and the PICAXE 20M2 are still to be added.]]
 
