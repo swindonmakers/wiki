@@ -6,10 +6,6 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 
 - [Useful Links](Links) • [Contacts](Contacts)
 
-- [Contributing website and wiki content](Contributing)
-
-- [Web Presence and Using Social Media][Social Media]
-
 
 #### Hackspace
 
@@ -20,7 +16,11 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 - [Tools and consumables](Tools)
 
 
-#### Public Website
+#### Web Presence
+
+- [Using Social Media][Social Media]
+
+- [Contributing website and wiki content](Contributing)
 
 - [Blog posts][README file] • [features and fixes][INSTALL file]
 
