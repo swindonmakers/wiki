@@ -26,14 +26,21 @@ Optionally, we could add the ability to send the message to a printer, teletype,
 
 I used a prototyping board to prove the concept with an arduino as I don't yet have a suitable PICAXE chip. Bottom left are the 7 wires that control each segment, and the two 14-pin 4011 chips are connected to the arduino which switches each digit display on in turn and set its segments to on or off before moving on to the next digit. Below that is the finished display board which still needs the input switches, MUX and the PICAXE 20M2 with a programming socket
 
-[![Photo-full]][Photo-full]
+[![Photo1-thum]][Photo1-full]
 
-[Prototype multiplexed 5-digit display.][Photo-full]
+[Prototype multiplexed 5-digit display.][Photo1-full]
 
-[Photo-full]: images/binary/Photo.jpg
-[Photo-thum]: images/binary/Photo-sml.jpg
+[Photo1-full]: images/binary/Photo1.jpg
+[Photo1-thum]: images/binary/Photo1-sml.jpg
 
-[[File:Photo_(2).jpg|thumb|left|The finished display section. The MUX to read the input switches and the PICAXE 20M2 are still to be added.]]
+
+[![Photo2-thum]][Photo2-full]
+
+[The finished display section. The MUX to read the input switches and the PICAXE 20M2 are still to be added.][Photo1-full]
+
+[Photo2-full]: images/binary/Photo2.jpg
+[Photo2-thum]: images/binary/Photo2-sml.jpg
+
 
 ==Reading the Switches==
 As there will be 8 switches to allow a whole byte to be represented there needs to be a way of reading all 8 settings. We can't use 8 inputs to the PICAXE as there aren't enough remaining pins and using a larger PICAXE will push the price up, so I plan to use an 8-to-1 multiplexer to read the switches one at a time. This needs 3 pins on the 20M2 to select each switch in turn and 1 pin to read the value, so 4 pins are needed instead of 8. One pin is needed to respond to the 'load' button - this triggers the PICAXE to send the current byte[s] to the LCD module.
