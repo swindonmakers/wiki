@@ -30,7 +30,7 @@ Commit your changes into the topic branch, using `git rebase` to *squash* or *fi
 extra commits that make the changeset hard to follow:
 
 ```sh
-# open a script to rebase with the last 10 commits
+# interactive rebase using the last 10 commits
 git rebase -i head~10
 ```
 
