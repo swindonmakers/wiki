@@ -6,8 +6,8 @@
 
 ###### [Hackspace](Welcome)
 
-[Tools and Consumables](Tools)  
-[Hackspace Events](Events)
+[Hackspace Events](Events)  
+[Tools and Consumables](Tools)
 
 
 ###### [Projects](Projects)
