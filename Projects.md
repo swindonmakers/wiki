@@ -1,6 +1,6 @@
 Collection of ongoing projects and their notes.  If a project isn't listed here, it may have its own repository at [github.com/snhack](https://github.com/snhack/).
 
-#### Works in Progress (most recent first)
+#### Projects (most recent first)
 
 - [Pen Plotter](Pen-plotter)
 
