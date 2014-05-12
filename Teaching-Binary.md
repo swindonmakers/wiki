@@ -36,7 +36,7 @@ I used a prototyping board to prove the concept with an arduino as I don't yet h
 
 [![Photo2-thum]][Photo2-full]
 
-[The finished display section. The MUX to read the input switches and the PICAXE 20M2 are still to be added.][Photo1-full]
+[The finished display section. The MUX to read the input switches and the PICAXE 20M2 are still to be added.][Photo2-full]
 
 [Photo2-full]: images/binary/Photo2.jpg
 [Photo2-thum]: images/binary/Photo2-sml.jpg
@@ -69,24 +69,27 @@ Other than that I think it looks ok in this box and there's plenty of room for t
 
 At the time of writing, all I need to do is wire-up the switches and display to the 20M2, connect it to the programming socket and start writing the controller program. Unfortunately the picaxe.com website is down at the moment so I don't have the pinouts or the details of the programming circuit, which is disappointing as I was hoping to get the hardware finished today and have the program ready for the next hackspace meeting on Wednesday.
 
-==Provisional Parts List==
-Bought
-*8 x SPST toggle switches - bought as 2 packs of 5 - £10.40
-*Power/reset switch (use one of the extra switches above)
-*5 x 7-segment LED displays - bought as pack of 10 x 0.54" £2.20
-*8 x LED for binary display and 1 for power - already have, so no cost.
+### Provisional Parts List
 
-To Buy
-*1 push-to-make switche for load button - 49p each
-*74HCT138 3 to 8 decoder - 37p
-*LCD for PICAXE - AXE133 for text display £7.19
-*5 transistors to enable/disable 7-seg displays when multiplexing their inputs. 50p total
-*RKP20c Compact Project PCB for 20 pin PICAXE - £2.99
-*PICAXE 20M2 - reads switches via MUX, drives HEX and DEC display, sends byte to LCD board via serial - £2.28
-*8 to 1 mux for reading switches - MC14512BCP - 34p
-*Approx 25 x 470Ohm resistors
-*Battery holder
-*Batteries
-*Stripboard for mounting components
-*Ribbon cable
-*Project box - make from plywood or MDF
+#### Bought
+
+* 8 x SPST toggle switches - bought as 2 packs of 5 - £10.40
+* Power/reset switch (use one of the extra switches above)
+* 5 x 7-segment LED displays - bought as pack of 10 x 0.54" £2.20
+* 8 x LED for binary display and 1 for power - already have, so no cost.
+
+#### To Buy
+
+* 1 push-to-make switche for load button - 49p each
+* 74HCT138 3 to 8 decoder - 37p
+* LCD for PICAXE - AXE133 for text display £7.19
+* 5 transistors to enable/disable 7-seg displays when multiplexing their inputs. 50p total
+* RKP20c Compact Project PCB for 20 pin PICAXE - £2.99
+* PICAXE 20M2 - reads switches via MUX, drives HEX and DEC display, sends byte to LCD board via serial - £2.28
+* 8 to 1 mux for reading switches - MC14512BCP - 34p
+* Approx 25 x 470Ohm resistors
+* Battery holder
+* Batteries
+* Stripboard for mounting components
+* Ribbon cable
+* Project box - make from plywood or MDF
