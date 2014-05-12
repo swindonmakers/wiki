@@ -1,3 +1,5 @@
+> This post is placeholder with more information to added at a later date, possibly moved here from the website's repo.
+
 ### Contributing website and wiki content
 
 You can edit or create a page on this wiki to add any useful information that doesn't have it's own project (yet?), or does not otherwise belong on the public facing website.
