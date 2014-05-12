@@ -16,6 +16,7 @@
 [Prusa Mendel 3D Printer](Prusa-Mendel) • 
 [Heathkit Hero](Hero) • 
 [RobotArm](RobotArm) • 
+[Teaching Binary](Teaching-Binary) • 
 [Launchpad Display](Launchpad-Display) • 
 [Big Curvy LED Screen](Big-Curvy-LED-Screen) • 
 [Twitter to Teletype](Twitter-to-Teletype) • [Hero](Hero)  
