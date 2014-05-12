@@ -11,7 +11,7 @@ This page aims to document the hackspace's web presence on various services, and
 
     We try not to post multiple re/tweets over a short period, so if you have an awesome but time sensitive link, pic, video, or other bit of news you want to share, please ping us via a separate tweet to let us know. :)
 
-    Integration: Recent twitter posts are linked from the main website, while Facebook acts as a secondary outlet for those members who prefer not to use twitter.
+    Integration: Recent twitter posts are linked from the main website, while Facebook acts as a secondary outlet for those members who prefer not to use twitter.  New blog posts are tweeted to @snhack followers.
 
     Examples: hackspace [evenings], [events], [donations], [members], [posts], [printer], [pi], [robots], [toys], [logos], and [alerts].
 
