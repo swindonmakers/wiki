@@ -1,4 +1,4 @@
-> *TODO: Add some examples, remove some verbosity.*
+> _todo: Add some examples, remove some verbosity._
 
 The hackspace uses various services to share hackspace information, news, and media.  While longer project posts on the [main website][Swindon Hackspace] are [appreciated](Contributing), don't let that deter you from sharing smaller amounts of text, pictures, and video.
 
