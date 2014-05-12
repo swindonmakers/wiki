@@ -22,8 +22,6 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 
 - [Contributing website and wiki content](Contributing)
 
-- [Blog posts][README file] • [Website features and fixes][INSTALL file]
-
 
 #### Github Bootcamp
 
