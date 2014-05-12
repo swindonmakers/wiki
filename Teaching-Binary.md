@@ -42,16 +42,28 @@ I used a prototyping board to prove the concept with an arduino as I don't yet h
 [Photo2-thum]: images/binary/Photo2-sml.jpg
 
 
-==Reading the Switches==
+### Reading the Switches
+
 As there will be 8 switches to allow a whole byte to be represented there needs to be a way of reading all 8 settings. We can't use 8 inputs to the PICAXE as there aren't enough remaining pins and using a larger PICAXE will push the price up, so I plan to use an 8-to-1 multiplexer to read the switches one at a time. This needs 3 pins on the 20M2 to select each switch in turn and 1 pin to read the value, so 4 pins are needed instead of 8. One pin is needed to respond to the 'load' button - this triggers the PICAXE to send the current byte[s] to the LCD module.
-==The 20M2 Pins==
+
+### The 20M2 Pins
+
 There are 13 output pins, 2 input pins and 1 serial pin needed for the current design which means a 20M2 should just be able to do the job.
 
-==Costs==
+### Costs
 
 It looks like it will be cheaper to use PICAXE chips rather than an Arduino - it would need a MEGA 2560 to have all the I/O pins needed and this is £30 on its own, and I would like to keep the price below £30 ideally, which is already way more expensive than I thought. I'll consider some other options to reduce the price, such as abandoning the LCD idea which will save £7.19.
-==Coming Together==
-[[File:Binary001.jpg|thumb|The faceplate, display board and controller board, unfinished but coming along nicely.]][[File:Binary002.jpg|thumb|Display mounted in the box with switches and LEDs.]]Managed to make some progress with building this project at last. I'm using a double wall socket box with a blanking plate for the front that I've cut holes in for the switches, LEDs, 7-seg displays and power switch. The plastic is very brittle so it was tricky to make the holes and file them to the right shape, and many of them are out of alignment - at times like this I wish I had a better set of workshop tools. It was too difficult to leave a section of plastic between the 3-digit and 2-digit parts of the numeric display so that doesn't look great.
+
+### Coming Together
+
+[![Binary001-thum]][Binary001-full]
+
+[The faceplate, display board and controller board, unfinished but coming along nicely.][Binary001-full]
+
+[Binary001-full]: images/binary/Binary001.jpg
+[Binary001-thum]: images/binary/Binary001-sml.jpg
+
+Managed to make some progress with building this project at last. I'm using a double wall socket box with a blanking plate for the front that I've cut holes in for the switches, LEDs, 7-seg displays and power switch. The plastic is very brittle so it was tricky to make the holes and file them to the right shape, and many of them are out of alignment - at times like this I wish I had a better set of workshop tools. It was too difficult to leave a section of plastic between the 3-digit and 2-digit parts of the numeric display so that doesn't look great.
 
 Other than that I think it looks ok in this box and there's plenty of room for the circuit boards and battery pack - I'll be using a 4-cell version rather than the 3-cel one shown here.
 
