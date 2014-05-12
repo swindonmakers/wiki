@@ -18,6 +18,6 @@ Contact | Mailing List
 [Southackton](http://hackerspaces.org/wiki/Southackton) | southackton@southackton.org.uk
 [Swindon & Cricklade Railway](http://www.swindon-cricklade-railway.org) | randallchri@yahoo.co.uk
 [Wiltshire LUG](https://gist.github.com/1146058) | wiltshire@mailman.lug.org.uk
-[Swindon and District Amateur Radio Club](http://www.sdarc.net/forum/yaf_topics8_General-Chit-Chat.aspx) | no ml, use forum?
-[North Wiltshire Woodturners Association](http://woodturning.btck.co.uk) | no ml, nor forum, just web contact form.
+[Swindon and District Amateur Radio Club](http://www.sdarc.net/forum/yaf_topics8_General-Chit-Chat.aspx) | no mailing list, use forum?
+[North Wiltshire Woodturners Association](http://woodturning.btck.co.uk) | no mailing list or forum, just web contact form.
 [Bristol Hackspace](http://bristol.hackspace.org.uk/contact) | hackspacebristol@lists.aktivix.org
