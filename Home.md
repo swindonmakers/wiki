@@ -2,11 +2,13 @@
 
 Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or record](Contributing) any information that does not belong on the public website, or in its own github repo.  For longer posts that are of interest to everyone, please consider [writing a blog post](Contributing) for the main website.
 
-#### General Info
+#### Info
 
 - [Contributing website and wiki content](Contributing)
 
 - [Web Presence and Using Social Media][Social Media]
+
+- [Useful Links](Links) • [Contacts](Contacts)
 
 
 #### Hackspace
@@ -18,14 +20,9 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 - [Tools and consumables](Tools)
 
 
-#### Website Development
+#### Website
 
 - [Blog posts][README file] • [features and fixes][INSTALL file]
-
-
-#### Resources
-
-- [Useful Links](Links) • [Contacts](Contacts)
 
 
 #### Github Bootcamp
