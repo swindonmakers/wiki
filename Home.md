@@ -2,7 +2,7 @@
 
 Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or record](Contributing) any information that does not belong on the public website, or in its own github repo.  For longer posts that are of interest to everyone, please consider [writing a blog post](Contributing) for the main website.
 
-#### Info
+#### Information
 
 - [Useful Links](Links) • [Contacts](Contacts)
 
@@ -20,7 +20,7 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 - [Tools and consumables](Tools)
 
 
-#### Website
+#### Public Website
 
 - [Blog posts][README file] • [features and fixes][INSTALL file]
 
