@@ -1,6 +1,6 @@
 Collection of ongoing projects and their notes.  If a project isn't listed here, it may have its own repository at [github.com/snhack](https://github.com/snhack/).
 
-#### Work in Progress (most recent first)
+#### Works in Progress (most recent first)
 
 - [Pen Plotter](Pen-plotter)
 
@@ -17,6 +17,10 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 - [RobotArm](RobotArm)
 
   3D printed miniature servo robot arm and code to drive it via a space mouse
+
+- [Teaching Binary](Teaching-Binary)
+
+  Tony's switch and display board to teach how to enter and read binary as hex, decimal, and ASCII
 
 - [Launchpad Display Driver](Launchpad-Display)
 
