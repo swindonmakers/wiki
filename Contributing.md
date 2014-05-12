@@ -15,4 +15,4 @@ To suggest a feature or fix, please feel free to [open an issue](https://help.gi
 [fork]: https://help.github.com/articles/fork-a-repo
 [pull request]: https://help.github.com/articles/using-pull-requests
 
-To install and run the website on your own computer - for accurate previewing of posts, or development of website fixes and features, please see the [INSTALL file].
+To install and run the website on your own computer - for accurate previewing of posts, or development of website fixes and features - please see the [INSTALL file].
