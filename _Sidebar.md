@@ -1,11 +1,11 @@
 ###### [Home](Home)
 
-[Contribute](Contributing) • [Using Social Media](Social-Media)
+[Useful Links](Links) • [Contacts](Contacts)  
+[Contributing](Contributing) • [Using Social Media](Social-Media)
 
 
 ###### [Hackspace](Welcome)
 
-[Useful Links](Links) • [Contacts](Contacts)  
 [Tools and Consumables](Tools)  
 [Hackspace Events](Events)
 
