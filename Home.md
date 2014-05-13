@@ -1,26 +1,26 @@
 ### Swindon Hackspace Wiki
 
-Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or record](Contributing) any information that does not belong on the public website, or in its own github repo.  For longer posts that are of interest to everyone, please consider [writing a blog post](Contributing) for the main website.
+Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [[share or record|Contributing]] any information that does not belong on the public website, or in its own github repo.  For longer posts that are of interest to everyone, please consider [[writing a blog post|Contributing]] for the main website.
 
 #### Information
 
-- [Useful Links](Links) • [Contacts](Contacts)
+- [[Useful Links|Links]] • [[Contacts]]
 
 
 #### Hackspace
 
-- [Hackspace Events](Events)
+- [[Hackspace Events|Events]]
 
-- [Hackspace Projects](Projects)
+- [[Hackspace Projects|Projects]]
 
-- [Tools and consumables](Tools)
+- [[Tools and consumables|Tools]]
 
 
 #### Web Presence
 
-- [Using Social Media][Social Media]
+- [[Using Social Media|Social Media]]
 
-- [Contributing website and wiki content](Contributing)
+- [[Contributing website and wiki content|Contributing]]
 
 
 #### Github Bootcamp
@@ -39,8 +39,6 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 
 [README file]: https://github.com/snhack/snhack.github.com/blob/master/README.md
 [INSTALL file]: https://github.com/snhack/snhack.github.com/blob/master/INSTALL.md
-
-[Social Media]: Social-Media
 
 [Set Up Git]:https://help.github.com/articles/set-up-git
 [Create a Repo]: https://help.github.com/articles/create-a-repo
