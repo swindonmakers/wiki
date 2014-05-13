@@ -14,7 +14,7 @@
 
 [Pen Plotter](Pen-plotter) • 
 [Prusa Mendel 3D Printer](Prusa-Mendel) • 
-[Heathkit Hero](Hero) • 
+[[Heathkit Hero]] • 
 [RobotArm](RobotArm) • 
 [Teaching Binary](Teaching-Binary) • 
 [Launchpad Display](Launchpad-Display) • 
