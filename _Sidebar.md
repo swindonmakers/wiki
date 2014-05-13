@@ -1,16 +1,16 @@
 ###### [[Home]]
 
-[[Useful Links|Links]] • [[Contacts]]  
-[[Contributing]] • [[Using Social Media|Social-Media]]
+[[Useful Links]] • [[Contacts]]  
+[[Contributing]] • [[Using Social Media]]
 
 
 ###### [[Hackspace|Welcome]]
 
-[[Hackspace Events|Events]]  
-[[Tools and Consumables|Tools]]
+[[Hackspace Events]]  
+[[Tools and Consumables]]
 
 
-###### [[Projects]]
+###### [[Hackspace Projects]]
 
 [[Pen Plotter]] • 
 [[Prusa Mendel 3D Printer]] • 
