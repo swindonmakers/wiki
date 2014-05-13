@@ -1,4 +1,5 @@
-<!-- --- title: New Title -->
+<!-- Note: the following gollum tag doesn't work :( -->
+<!-- --- title: Swindon Hackspace Wiki -->
 
 ### Swindon Hackspace Wiki
 
