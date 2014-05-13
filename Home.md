@@ -1,4 +1,4 @@
-Note: This page (`snhack/snhack.github.com/wiki/`) is only linked to from the main github repo.
+Note: This page `'snhack/snhack.github.com/wiki/'` is only linked to from the main github repo.
 
 For the main wiki page, please visit [[Swindon Hackspace Wiki]].
 
