@@ -1,6 +1,6 @@
 New posts are tweeted and have a google group thread created for comments.  This page documents those additional steps.  
 
-For help with actually creating a post, please see [contributing website and wiki content](Contributing).
+For help with actually creating a post, please see [[contributing website and wiki content|Contributing]].
 
 ### Workflow:
 
