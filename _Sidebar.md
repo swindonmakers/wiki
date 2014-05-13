@@ -27,7 +27,7 @@
 
 <!-- footer links -->
 
-###### [Web Presence](Social-Media)
+###### [[Web Presence|Using-Social-Media]]
 
 [twitter] • [group][Google Group] • [flickr] • [thingiverse][]  
 [web][Website] • [github] • [youtube] • [facebook]
