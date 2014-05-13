@@ -20,11 +20,12 @@ Link | Description | License | Platforms
 Link | Description | Notes
 :--- | :---------- | :----
 [Bitsbox] | Small and independent electronic components seller | UK delivery fixed at £1.75
+[PJRC] | Seller of [Teensy](http://www.pjrc.com/store/teensy31.html) and other components, available worldwide | US (customs applicable)
 [Revolution Education] | Microcontroller solutions for commercial and educational applications | PICAXE supplier
-
 <!--
 http://www.mindsetsonline.co.uk/ | Has anybody used these? Site seems broken atm..
 -->
 
 [Bitsbox]: http://bitsbox.co.uk
+[PJRC]: http://www.pjrc.com
 [Revolution Education]: http://www.rev-ed.co.uk/
