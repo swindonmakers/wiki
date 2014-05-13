@@ -8,53 +8,14 @@ visit [[Swindon Hackspace Wiki]] to see the main home page
 
 To see a list of all wiki pages, see the [Wiki Index](_pages).  Note that not all of the gollum syntax/features seem to be supported by github's wikis, in particular: title metadata, table of contents, mathematical equations, sequence diagrams, and file includes, to not appear to work (tl;dr: just the link format works then.)
 
-[[include:Swindon Hackspace Wiki]]
+{{{{{{ blue-modern
+  alice->bob: Test
+  bob->alice: Test response
+}}}}}}
+
+$$2^2$$
+\\\[2^2\\\]
+
 
 
 Please read the [gollum wiki](https://github.com/gollum/gollum/wiki#bracket-tags) on how to easily link to other pages.
-
-#### Information
-
-- [[Useful Links]] • [[Contacts]]
-
-
-#### Hackspace
-
-- [[Hackspace Events]]
-
-- [[Hackspace Projects]]
-
-- [[Tools and consumables]]
-
-
-#### Web Presence
-
-- [[Using Social Media]]
-
-- [[Contributing website and wiki content|Contributing]]
-
-
-#### Github Bootcamp
-
-- [Blog post: Resources for Using Git](http://swindon.hackspace.org.uk/blog/resources-for-using-git/)
-
-- [Set Up Git] • [Create a Repo] • [Fork a Repo]
-
-- [Be Social] • [Github Resources] • [Glossary]
-
-
-
-
-
-
-
-[README file]: https://github.com/snhack/snhack.github.com/blob/master/README.md
-[INSTALL file]: https://github.com/snhack/snhack.github.com/blob/master/INSTALL.md
-
-[Set Up Git]:https://help.github.com/articles/set-up-git
-[Create a Repo]: https://help.github.com/articles/create-a-repo
-[Fork a Repo]: https://help.github.com/articles/fork-a-repo
-[Using Pull Requests]: https://help.github.com/articles/using-pull-requests
-[Be Social]: https://help.github.com/articles/be-social
-[Glossary]: https://help.github.com/articles/github-glossary
-[Github Resources]: https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github
