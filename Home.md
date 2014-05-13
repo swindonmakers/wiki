@@ -10,7 +10,7 @@ For the main wiki page, please visit [[Swindon Hackspace Wiki]] (or click `Home`
 
 - Notes on [[Using Social Media]]
 
-- Wiki for the [gollum, the git-based wiki engine](https://github.com/gollum/gollum/wiki#bracket-tags)
+- Wiki for [gollum, the git-based wiki engine](https://github.com/gollum/gollum/wiki#bracket-tags)
 
   The main reason to visit the gollum wiki is for how to easily link to other pages.
 
