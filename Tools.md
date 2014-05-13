@@ -1,5 +1,7 @@
 Tools and consumables that are available for members to use. Add items here you've donated. These are located in the cupboard to the left of the store room door.
 
+[[_TOC_]]
+
 - [Consumables](#consumables)
 - [Donations](#donations)
 - [Test Equipment](#test-equipment)
