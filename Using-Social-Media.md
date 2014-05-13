@@ -1,6 +1,6 @@
 > _todo: Add some examples, remove some verbosity._
 
-The hackspace uses various services to share hackspace information, news, and media.  While longer project posts on the [main website][Swindon Hackspace] are [appreciated](Contributing), don't let that deter you from sharing smaller amounts of text, pictures, and video.
+The hackspace uses various services to share hackspace information, news, and media.  While longer project posts on the [main website][Swindon Hackspace] are [[appreciated|Contributing]], don't let that deter you from sharing smaller amounts of text, pictures, and video.
 
 This page aims to document the hackspace's web presence on various services, and also serves as a guide for where certain types of media are best posted.  Rule 1 however, is that there are no rules (just joking, there's a crazy amount of rules, seriously).
 
@@ -19,7 +19,7 @@ Short notices, links, pictures, and videos etc. Ideal during, or in advance of, 
 
 We try not to post multiple re/tweets over a short period, so if you have an awesome but time sensitive link, pic, video, or other bit of news you want to share, please ping us via a separate tweet to let us know. :)
 
-Integration: [New blog posts are tweeted](Workflow-for-New-Posts) to [@snhack] followers. Recent twitter posts are linked from the main website.  Facebook acts as a secondary outlet for those members who prefer not to use twitter.
+Integration: [[New blog posts are tweeted|Workflow-for-New-Posts]] to [@snhack] followers. Recent twitter posts are linked from the main website.  Facebook acts as a secondary outlet for those members who prefer not to use twitter.
 
 Examples: hackspace [evenings], [events], [donations], [members], [posts], [printer], [pi], [robots], [toys], [logos], and [alerts].
 
@@ -39,7 +39,7 @@ The [hackspace group][Google Group] is the main forum online for members to shar
 
 You're welcome to post news on your own projects here - especially to invite further discussion - but please consider using twitter (and mentioning [@snhack]) for one-off links, pictures, and other media.
 
-Integration: [New blog posts are posted](Workflow-for-New-Posts) to a new google group topic, which serves as the discussion thread for that post. Recent google group topics are linked from the main website using the group's [rss feed][group rss].
+Integration: [[New blog posts are posted|Workflow-for-New-Posts]] to a new google group topic, which serves as the discussion thread for that post. Recent google group topics are linked from the main website using the group's [rss feed][group rss].
 
 <!-- Please add some awesome examples here -->
 
