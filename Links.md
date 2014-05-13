@@ -2,8 +2,8 @@
 
 Link | Description | License | Platforms
 :--- | :---------- | :------ | :--------
-[Inkscape] | free and open source software vector graphics editor | GPL | [All1](#All1)
-[OpenSCAD] |  OpenSCAD is a software for creating solid 3D CAD objects | GPL | [All1]
+[Inkscape] | free and open source software vector graphics editor | GPL | All[1]
+[OpenSCAD] |  OpenSCAD is a software for creating solid 3D CAD objects | GPL | All[1]
 [DesignSpark PCB] | free-of-charge schematic capture and PCB layout tool | Proprietary| Windows
 
 - `All[1]` Windows, Mac, Linux, and other [Unix-like systems](http://en.wikipedia.org/wiki/Unix-like)  
