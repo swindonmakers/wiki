@@ -5,56 +5,56 @@ The hackspace uses various services to share hackspace information, news, and me
 This page aims to document the hackspace's web presence on various services, and also serves as a guide for where certain types of media are best posted.  Rule 1 however, is that there are no rules (just joking, there's a crazy amount of rules, seriously).
 
 
-- [Twitter] and [Facebook]
+##### [Twitter] and [Facebook]
 
-    Short notices, links, pictures, and videos etc. Ideal during, or in advance of, the weekly hackspace sessions.  Any tweet in which you mention [@snhack] should get the attention of that account, and gain you a retweet should it be of particular interest to all members.  Photos - either direct or via flickr - of a successful (or amusingly \*unsuccessful\*) hackspace project, are a perfect opportunity for a retweet.
+Short notices, links, pictures, and videos etc. Ideal during, or in advance of, the weekly hackspace sessions.  Any tweet in which you mention [@snhack] should get the attention of that account, and gain you a retweet should it be of particular interest to all members.  Photos - either direct or via flickr - of a successful (or amusingly \*unsuccessful\*) hackspace project, are a perfect opportunity for a retweet.
 
-    We try not to post multiple re/tweets over a short period, so if you have an awesome but time sensitive link, pic, video, or other bit of news you want to share, please ping us via a separate tweet to let us know. :)
+We try not to post multiple re/tweets over a short period, so if you have an awesome but time sensitive link, pic, video, or other bit of news you want to share, please ping us via a separate tweet to let us know. :)
 
-    Integration: [New blog posts are tweeted](Workflow-for-New-Posts) to [@snhack] followers. Recent twitter posts are linked from the main website.  Facebook acts as a secondary outlet for those members who prefer not to use twitter.
+Integration: [New blog posts are tweeted](Workflow-for-New-Posts) to [@snhack] followers. Recent twitter posts are linked from the main website.  Facebook acts as a secondary outlet for those members who prefer not to use twitter.
 
-    Examples: hackspace [evenings], [events], [donations], [members], [posts], [printer], [pi], [robots], [toys], [logos], and [alerts].
-
-
-- [Flickr] and [YouTube]
-
-    Pictures are submitted by members into the [Swindon Hackspace Flickr Group][Flickr], while videos are posted from the [Swindon Hackspace YouTube Account] (either directly, or via member's who have been nominated as "managers").  There's also a [YouTube Playlist] for videos posted by hackspace members, similar to a flickr group, kinda, only not.
-
-    Integration: Recent videos and pics are not currently integrated into the main website, although that is planned for a future upgrade.
-
-    <!-- Please add some awesome examples here -->
+Examples: hackspace [evenings], [events], [donations], [members], [posts], [printer], [pi], [robots], [toys], [logos], and [alerts].
 
 
-- [Google Group]
+##### [Flickr] and [YouTube]
 
-    The [hackspace group][Google Group] is the main forum online for members to share ideas, discuss hackspace issues, and find help on projects, etc.  New or potential members may also use the forum for general enquiries and introductions.
+Pictures are submitted by members into the [Swindon Hackspace Flickr Group][Flickr], while videos are posted from the [Swindon Hackspace YouTube Account] (either directly, or via member's who have been nominated as "managers").  There's also a [YouTube Playlist] for videos posted by hackspace members, similar to a flickr group, kinda, only not.
 
-    You're welcome to post news on your own projects here - especially to invite further discussion - but please consider using twitter (and mentioning [@snhack]) for one-off links, pictures, and other media.
+Integration: Recent videos and pics are not currently integrated into the main website, although that is planned for a future upgrade.
 
-    Integration: [New blog posts are posted](Workflow-for-New-Posts) to a new google group topic, which serves as the discussion thread for that post. Recent google group topics are linked from the main website using the group's [rss feed][group rss].
-
-    <!-- Please add some awesome examples here -->
+<!-- Please add some awesome examples here -->
 
 
-- [Github]
+##### [Google Group]
 
-    For projects using any technical media - such as source code, manuals, diagrams, or drawings - please  [create a repo] for easy access and collaboration with other members.  Each repo has a wiki (just like [this one](https://github.com/snhack/snhack.github.com/wiki/), should you want to post additional wiki style information regarding your project.
+The [hackspace group][Google Group] is the main forum online for members to share ideas, discuss hackspace issues, and find help on projects, etc.  New or potential members may also use the forum for general enquiries and introductions.
 
-    For projects carried out for, or during the hackspace, it's best to create a repo directly under the `github.com/snhack` organisation, where it will be most visible.  While it's not ideal, you can also [fork an existing repo][Fork a Repo] into `github.com/snhack`, should the code already exist elsewhere on github (or you wish to retain control of the "upstream" project).
+You're welcome to post news on your own projects here - especially to invite further discussion - but please consider using twitter (and mentioning [@snhack]) for one-off links, pictures, and other media.
 
-    Integration: Recent projects created within `github.com/snhack` are linked from the main website.
+Integration: [New blog posts are posted](Workflow-for-New-Posts) to a new google group topic, which serves as the discussion thread for that post. Recent google group topics are linked from the main website using the group's [rss feed][group rss].
 
-    <!-- Please add some awesome examples here -->
+<!-- Please add some awesome examples here -->
 
-- [Thingiverse]
 
-    A bit like Github for 3D printing, mixed with Tumblr.  You can create, remix (similar to fork on github), collect (similar to star?), and watch designs; follow other members, and post images of your own prints.
+##### [Github]
 
-    Any 3D prints done at the hackspace should go up on here of course; either the design, or simply to log that "we made one!".  For non-trivial prints you're welcome (and encouraged) to start a github repo too, especially if there are additional source files, instructions, firmware, etc. to collect together.
+For projects using any technical media - such as source code, manuals, diagrams, or drawings - please  [create a repo] for easy access and collaboration with other members.  Each repo has a wiki (just like [this one](https://github.com/snhack/snhack.github.com/wiki/), should you want to post additional wiki style information regarding your project.
 
-    Integration: No integration into the main website as yet, look into including this into the planned video and images integration.
+For projects carried out for, or during the hackspace, it's best to create a repo directly under the `github.com/snhack` organisation, where it will be most visible.  While it's not ideal, you can also [fork an existing repo][Fork a Repo] into `github.com/snhack`, should the code already exist elsewhere on github (or you wish to retain control of the "upstream" project).
 
-    <!-- Please add some awesome examples here -->
+Integration: Recent projects created within `github.com/snhack` are linked from the main website.
+
+<!-- Please add some awesome examples here -->
+
+##### [Thingiverse]
+
+A bit like Github for 3D printing, mixed with Tumblr.  You can create, remix (similar to fork on github), collect (similar to star?), and watch designs; follow other members, and post images of your own prints.
+
+Any 3D prints done at the hackspace should go up on here of course; either the design, or simply to log that "we made one!".  For non-trivial prints you're welcome (and encouraged) to start a github repo too, especially if there are additional source files, instructions, firmware, etc. to collect together.
+
+Integration: No integration into the main website as yet, look into including this into the planned video and images integration.
+
+<!-- Please add some awesome examples here -->
 
 
 
