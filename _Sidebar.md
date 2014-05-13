@@ -1,4 +1,4 @@
-###### [[Home]]
+###### [[Home|Swindon Hackspace Wiki]]
 
 [[Useful Links]] • [[Contacts]]  
 [[Contributing]] • [[Using Social Media]]
