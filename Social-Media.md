@@ -2,6 +2,8 @@
 
 The hackspace uses various services to share hackspace information, news, and media.  While longer project posts on the [main website][Swindon Hackspace] are [appreciated](Contributing), don't let that deter you from sharing smaller amounts of text, pictures, and video.
 
+This page aims to document the hackspace's web presence on various services, and also serves as a guide for where certain types of media are best posted.  Rule 1 however, is that there are no rules (just joking, there's a crazy amount of rules, seriously).
+
 <!-- Note: gollum's [[_TOC_]] tag doesn't seem to work here. :( -->
 
 - [Twitter and Facebook](#twitter-and-facebook)
@@ -9,8 +11,6 @@ The hackspace uses various services to share hackspace information, news, and me
 - [Google Group](#google-group)
 - [Github](#github)
 - [Thingiverse](#thingiverse)
-
-This page aims to document the hackspace's web presence on various services, and also serves as a guide for where certain types of media are best posted.  Rule 1 however, is that there are no rules (just joking, there's a crazy amount of rules, seriously).
 
 
 #### [Twitter] and [Facebook]
