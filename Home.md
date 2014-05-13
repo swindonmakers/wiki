@@ -4,21 +4,21 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [[share or r
 
 #### Information
 
-- [[Useful Links|Links]] • [[Contacts]]
+- [[Useful Links]] • [[Contacts]]
 
 
 #### Hackspace
 
-- [[Hackspace Events|Events]]
+- [[Hackspace Events]]
 
-- [[Hackspace Projects|Projects]]
+- [[Hackspace Projects]]
 
-- [[Tools and consumables|Tools]]
+- [[Tools and consumables]]
 
 
 #### Web Presence
 
-- [[Using Social Media|Social Media]]
+- [[Using Social Media]]
 
 - [[Contributing website and wiki content|Contributing]]
 
