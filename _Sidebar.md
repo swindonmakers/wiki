@@ -1,25 +1,25 @@
-###### [Home](Home)
+###### [[Home]]
 
-[Useful Links](Links) • [Contacts](Contacts)  
-[Contributing](Contributing) • [Using Social Media](Social-Media)
-
-
-###### [Hackspace](Welcome)
-
-[Hackspace Events](Events)  
-[Tools and Consumables](Tools)
+[[Useful Links|Links]] • [[Contacts]]  
+[[Contributing]] • [[Using Social Media|Social-Media]]
 
 
-###### [Projects](Projects)
+###### [[Hackspace|Welcome]]
 
-[Pen Plotter](Pen-plotter) • 
-[Prusa Mendel 3D Printer](Prusa-Mendel) • 
+[[Hackspace Events|Events]]  
+[[Tools and Consumables|Tools]]
+
+
+###### [[Projects]]
+
+[[Pen Plotter]] • 
+[[Prusa Mendel 3D Printer|Prusa-Mendel]] • 
 [[Heathkit Hero]] • 
-[RobotArm](RobotArm) • 
-[Teaching Binary](Teaching-Binary) • 
-[Launchpad Display](Launchpad-Display) • 
-[Big Curvy LED Screen](Big-Curvy-LED-Screen) • 
-[Twitter to Teletype](Twitter-to-Teletype) • [Hero](Hero)  
+[[RobotArm]] • 
+[[Teaching Binary]] • 
+[[Launchpad Display]] • 
+[[Big Curvy LED Screen]] • 
+[[Twitter to Teletype]]
 
 
 
