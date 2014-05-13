@@ -1,8 +1,8 @@
-> Note: This page `snhack/snhack.github.com/wiki/` should only be linked from the main repo on github
+Note: This page (`snhack/snhack.github.com/wiki/`) should is only linked from the `wiki` link on the main github repo.  This is so resources and notes for editing the wiki, don't clutter up the pages for non-editors.
+
+For the main wiki page, please visit [[Swindon Hackspace Wiki]].
 
 ### Useful wiki links for editors
-
-- [[Swindon Hackspace Wiki]]
 
 - Index of [all the wiki pages](_pages).
 
