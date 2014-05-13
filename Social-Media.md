@@ -2,10 +2,18 @@
 
 The hackspace uses various services to share hackspace information, news, and media.  While longer project posts on the [main website][Swindon Hackspace] are [appreciated](Contributing), don't let that deter you from sharing smaller amounts of text, pictures, and video.
 
+<!-- Note: gollum's [[_TOC_]] tag doesn't seem to work here. :( -->
+
+- [Twitter and Facebook](#twitter-and-facebook)
+- [Flickr and YouTube](#flickr-and-youtube)
+- [Google Group](#google-group)
+- [Github](#github)
+- [Thingiverse](#thingiverse)
+
 This page aims to document the hackspace's web presence on various services, and also serves as a guide for where certain types of media are best posted.  Rule 1 however, is that there are no rules (just joking, there's a crazy amount of rules, seriously).
 
 
-##### [Twitter] and [Facebook]
+#### [Twitter] and [Facebook]
 
 Short notices, links, pictures, and videos etc. Ideal during, or in advance of, the weekly hackspace sessions.  Any tweet in which you mention [@snhack] should get the attention of that account, and gain you a retweet should it be of particular interest to all members.  Photos - either direct or via flickr - of a successful (or amusingly \*unsuccessful\*) hackspace project, are a perfect opportunity for a retweet.
 
@@ -16,7 +24,7 @@ Integration: [New blog posts are tweeted](Workflow-for-New-Posts) to [@snhack] f
 Examples: hackspace [evenings], [events], [donations], [members], [posts], [printer], [pi], [robots], [toys], [logos], and [alerts].
 
 
-##### [Flickr] and [YouTube]
+#### [Flickr] and [YouTube]
 
 Pictures are submitted by members into the [Swindon Hackspace Flickr Group][Flickr], while videos are posted from the [Swindon Hackspace YouTube Account] (either directly, or via member's who have been nominated as "managers").  There's also a [YouTube Playlist] for videos posted by hackspace members, similar to a flickr group, kinda, only not.
 
@@ -25,7 +33,7 @@ Integration: Recent videos and pics are not currently integrated into the main w
 <!-- Please add some awesome examples here -->
 
 
-##### [Google Group]
+#### [Google Group]
 
 The [hackspace group][Google Group] is the main forum online for members to share ideas, discuss hackspace issues, and find help on projects, etc.  New or potential members may also use the forum for general enquiries and introductions.
 
@@ -36,7 +44,7 @@ Integration: [New blog posts are posted](Workflow-for-New-Posts) to a new google
 <!-- Please add some awesome examples here -->
 
 
-##### [Github]
+#### [Github]
 
 For projects using any technical media - such as source code, manuals, diagrams, or drawings - please  [create a repo] for easy access and collaboration with other members.  Each repo has a wiki (just like [this one](https://github.com/snhack/snhack.github.com/wiki/), should you want to post additional wiki style information regarding your project.
 
@@ -46,7 +54,8 @@ Integration: Recent projects created within `github.com/snhack` are linked from 
 
 <!-- Please add some awesome examples here -->
 
-##### [Thingiverse]
+
+#### [Thingiverse]
 
 A bit like Github for 3D printing, mixed with Tumblr.  You can create, remix (similar to fork on github), collect (similar to star?), and watch designs; follow other members, and post images of your own prints.
 
