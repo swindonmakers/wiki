@@ -10,7 +10,7 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
   The 3D Printer that is being rebuilt and upgraded by the Hackspace.
 
-- [Heathkit Hero](Hero)
+- [[Heathkit Hero]]
 
   The museum has an old Heathkit Hero, which the Hackspace is repairing by rewiring, and printing new parts.
 
