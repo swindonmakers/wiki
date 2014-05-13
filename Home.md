@@ -25,6 +25,8 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [share or re
 
 #### Github Bootcamp
 
+- [Blog post: Resources for Using Git](http://swindon.hackspace.org.uk/blog/resources-for-using-git/)
+
 - [Set Up Git] • [Create a Repo] • [Fork a Repo]
 
 - [Be Social] • [Github Resources] • [Glossary]
