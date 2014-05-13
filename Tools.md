@@ -1,6 +1,6 @@
 Tools and consumables that are available for members to use. Add items here you've donated. These are located in the cupboard to the left of the store room door.
 
-[[_TOC_]]
+<!-- Note: gollum's [[_TOC_]] doesn't seem to work here. :( -->
 
 - [Consumables](#consumables)
 - [Donations](#donations)
