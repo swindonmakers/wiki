@@ -10,7 +10,7 @@
 [[Tools and Consumables]]
 
 
-###### [[Hackspace Projects]]
+###### [[Projects|Hackspace Projects]]
 
 [[Pen Plotter]] • 
 [[Prusa Mendel 3D Printer]] • 
