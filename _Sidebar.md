@@ -13,11 +13,11 @@
 ###### [[Projects]]
 
 [[Pen Plotter]] • 
-[[Prusa Mendel 3D Printer|Prusa-Mendel]] • 
+[[Prusa Mendel 3D Printer]] • 
 [[Heathkit Hero]] • 
 [[RobotArm]] • 
 [[Teaching Binary]] • 
-[[Launchpad Display]] • 
+[[Launchpad Display Driver]] • 
 [[Big Curvy LED Screen]] • 
 [[Twitter to Teletype]]
 
