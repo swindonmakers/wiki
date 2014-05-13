@@ -26,20 +26,19 @@ Optionally, we could add the ability to send the message to a printer, teletype,
 
 I used a prototyping board to prove the concept with an arduino as I don't yet have a suitable PICAXE chip. Bottom left are the 7 wires that control each segment, and the two 14-pin 4011 chips are connected to the arduino which switches each digit display on in turn and set its segments to on or off before moving on to the next digit. Below that is the finished display board which still needs the input switches, MUX and the PICAXE 20M2 with a programming socket
 
-[![Photo1-thum]][Photo1-full]
+[[[images/binary/Photo1-sml.jpg]]][Photo1]
 
-[Prototype multiplexed 5-digit display.][Photo1-full]
+[Prototype multiplexed 5-digit display.][Photo1]
 
-[Photo1-full]: images/binary/Photo1.jpg
-[Photo1-thum]: images/binary/Photo1-sml.jpg
+[Photo1]: images/binary/Photo1.jpg
 
 
-[![Photo2-thum]][Photo2-full]
+[[[images/binary/Photo2-sml.jpg]]][Photo2]
 
-[The finished display section. The MUX to read the input switches and the PICAXE 20M2 are still to be added.][Photo2-full]
+[The finished display section.  
+The MUX to read the input switches and the PICAXE 20M2 are still to be added.][Photo2]
 
-[Photo2-full]: images/binary/Photo2.jpg
-[Photo2-thum]: images/binary/Photo2-sml.jpg
+[Photo2]: images/binary/Photo2.jpg
 
 
 ### Reading the Switches
@@ -56,12 +55,13 @@ It looks like it will be cheaper to use PICAXE chips rather than an Arduino - it
 
 ### Coming Together
 
-[![Binary001-thum]][Binary001-full]
+[[[images/binary/Binary001-sml.jpg]]][Binary001]
 
-[The faceplate, display board and controller board, unfinished but coming along nicely.][Binary001-full]
+[The faceplate, display board and controller board,  
+unfinished but coming along nicely.][Binary001]
 
-[Binary001-full]: images/binary/Binary001.jpg
-[Binary001-thum]: images/binary/Binary001-sml.jpg
+[Binary001]: images/binary/Binary001.jpg
+
 
 Managed to make some progress with building this project at last. I'm using a double wall socket box with a blanking plate for the front that I've cut holes in for the switches, LEDs, 7-seg displays and power switch. The plastic is very brittle so it was tricky to make the holes and file them to the right shape, and many of them are out of alignment - at times like this I wish I had a better set of workshop tools. It was too difficult to leave a section of plastic between the 3-digit and 2-digit parts of the numeric display so that doesn't look great.
 
