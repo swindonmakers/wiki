@@ -37,6 +37,11 @@ These are some of the 'blue sky' features for the project.
 
 ### Notes on the ASR-33
 
+
+
+[[[images/teletype/Teleprinter-sml.jpg]]][Teleprinter-full]
+
+
 [![Teleprinter-thum]][Teleprinter-full]
 
 [Teleprinter with the cover off.][Teleprinter-full]
