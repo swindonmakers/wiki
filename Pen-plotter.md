@@ -50,6 +50,13 @@ PenSelect = "J%d\n"
 You should now have a raw file containing the gp-gl code to draw.
 Next, you need to prep the plotter and output the file to the plotter.
 
+[[[images/plotter/settings-sml.jpg]]][Plotter]
+
+[Settings from inside manual cover][Plotter]
+
+[Plotter]: images/plotter/settings.jpg
+
+
 Prepping the plotter and your computer:
 * Hook up the power.  Duh.
 * There should be a DB-25 to DE-9 cable and a USB serial adapter already connected.  Hook those up to your computer's USB.
