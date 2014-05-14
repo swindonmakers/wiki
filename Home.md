@@ -12,7 +12,7 @@ For the main wiki page, please visit [[Swindon Hackspace Wiki]] (or click `Home`
 
 - Wiki for [gollum, the git-based wiki engine](https://github.com/gollum/gollum/wiki#bracket-tags)
 
-  The main reason to visit the gollum wiki is for how to easily link to other pages.
+  The main reason to visit the gollum wiki is to see how to easily link to `[[other pages]]`.
 
   Not many of the remaining gollum syntax/features seem to be supported by github's wikis.
 
