@@ -2,7 +2,7 @@ Note: This page `'snhack/snhack.github.com/wiki/'` is only linked to from the ma
 
 For the main wiki page, please visit [[Swindon Hackspace Wiki]] (or click `Home` in the sidebar).
 
-### Useful wiki links for editors
+### Useful links for wiki editors
 
 - Index of [all the wiki pages](_pages).
 
