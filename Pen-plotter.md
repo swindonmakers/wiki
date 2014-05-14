@@ -50,13 +50,6 @@ PenSelect = "J%d\n"
 You should now have a raw file containing the gp-gl code to draw.
 Next, you need to prep the plotter and output the file to the plotter.
 
-[[[images/plotter/settings-sml.jpg]]][Plotter]
-
-[Settings from inside manual cover][Plotter]
-
-[Plotter]: images/plotter/settings.jpg
-
-
 Prepping the plotter and your computer:
 * Hook up the power.  Duh.
 * There should be a DB-25 to DE-9 cable and a USB serial adapter already connected.  Hook those up to your computer's USB.
@@ -68,6 +61,14 @@ Prepping the plotter and your computer:
   * The DIP switches are already set such that the plotter expects to get data at 9600 bps, even parity, seven data bits, one stop bit -- 9600 7E1.
   * FIXME: Record the DIP switch information from inside front cover of book.  DIP switches are underdocumented.
 NB:  Thus far, we've done it without flow control.  This may be a mistake, but I'm going to document what has worked so far.  Please, somebody, have a go at flow control.  To disable flow control, add clocal to the stty line above.
+
+    [![Plotter-sml]][Plotter]
+
+    [Settings from inside manual cover][Plotter]
+
+[Plotter]: images/plotter/settings.jpg
+[Plotter-sml]: images/plotter/settings-sml.jpg
+
 * Tape down paper.  You can also use bits of steel to hold down the paper (the bed is magnetic), but that has clearance issues -- bits of the plotter can shove around the steel.  The (0,0) corner of the bed is in the lower-left corner, so you probably want the paper aligned there.
 
 Writing out the file:
