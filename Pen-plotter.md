@@ -62,14 +62,14 @@ Prepping the plotter and your computer:
   * FIXME: Record the DIP switch information from inside front cover of book.  DIP switches are underdocumented.
 NB:  Thus far, we've done it without flow control.  This may be a mistake, but I'm going to document what has worked so far.  Please, somebody, have a go at flow control.  To disable flow control, add clocal to the stty line above.
 
-    [![Plotter-sml]][Plotter]
+* Tape down paper.  You can also use bits of steel to hold down the paper (the bed is magnetic), but that has clearance issues -- bits of the plotter can shove around the steel.  The (0,0) corner of the bed is in the lower-left corner, so you probably want the paper aligned there.
 
-    [Settings from inside manual cover][Plotter]
+[Settings from inside manual cover:][Plotter]
+
+[[[images/plotter/settings-sml.jpg]]][Plotter]
 
 [Plotter]: images/plotter/settings.jpg
-[Plotter-sml]: images/plotter/settings-sml.jpg
 
-* Tape down paper.  You can also use bits of steel to hold down the paper (the bed is magnetic), but that has clearance issues -- bits of the plotter can shove around the steel.  The (0,0) corner of the bed is in the lower-left corner, so you probably want the paper aligned there.
 
 Writing out the file:
 * Here's where it gets a bit obnoxious.  If you simply output the file out to the device, it can't keep up.  It will plot fine for a while, then start plotting random garbage.  To avoid this, delay a bit between each line.  A little experimentation has shown that 0.1 seconds per line isn't enough, but 0.5 seconds per line is.  This was done with a trivial perl script:  (FIXME: rewrite script, didn't save it previously, more fool me.)    
