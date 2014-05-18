@@ -41,7 +41,7 @@ For the purposes of this article we will be focusing on using OctoPrint because 
 
 ##The Beginning
 
-To create a 3D print server on a Pi from scratch then the easiest route to follow is to download the [OctoPi](https://github.com/guysoft/OctoPi) distribution and follow their instructions which has everything included to get the Pi working for OctoPrint and the RaspiCam. You can then add on Repetier Server to this afterwards should you wish. However this where this article would end and everything would be so straight forward, if only.
+To create a 3D print server on a Pi from scratch then the easiest route to follow is to download the [OctoPi](https://github.com/guysoft/OctoPi) distribution and follow their instructions which has everything included to get the Pi working with OctoPrint and the RaspiCam. You can then add on Repetier Server to this afterwards should you wish. Installing OctoPi would make this article end now and everything would be so straight forward.
 
 ## Updating the Raspberry Pi
 
@@ -80,7 +80,7 @@ For more on command line usage, see : [http://www.raspberrypi.org/documentation/
 
 ## Installing Octoprint
 
-If you do not have Octoprint installed and don't fancy installing the [OctoPi](https://github.com/guysoft/OctoPi) distribution then maybe you would prefer to add Octoprint onto your existing Pi OS? For this I would only repeating (and not very well) what has already been written over on the [OctoPrint Github Repository](https://github.com/foosel/OctoPrint/wiki/Setup-on-a-Raspberry-Pi-running-Raspbian) so check it out.
+If you do not have Octoprint installed and don't fancy installing the [OctoPi](https://github.com/guysoft/OctoPi) distribution then maybe you would prefer to add Octoprint onto your existing Pi OS? For this I would only be repeating (and not very well) what has already been written over on the [OctoPrint Github Repository](https://github.com/foosel/OctoPrint/wiki/Setup-on-a-Raspberry-Pi-running-Raspbian) so check it out.
 
 ## Adding RaspPiCam Support to Octoprint
 
