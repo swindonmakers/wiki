@@ -5,6 +5,7 @@ author:       Steve Wood, AKA Gyrobot
 image:        10-sml.jpg
 date:         2014-05-19 14:20
 web:          http://www.gyrobot.co.uk
+discuss:      EtlSbDg8hKs
 
 The Hackspace recently took delivery of a Raspberry Pi NoIR Camera Module from 
 [Farnell](http://uk.farnell.com/) - full details are on [their website](http://uk.farnell.com/raspberry-pi/rpi-noir-camera-board/raspberry-pi-noir-camera-board/dp/2357308).
