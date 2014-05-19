@@ -6,7 +6,7 @@ For help with actually creating a post, please see [[contributing website and wi
 
 * Deploy rendered site, then check that post is live and rendered without issues.
 
-* Create a new google group topic, via [email](mailto:swindon-hackspace@googlegroups.com) or [web](https://groups.google.com/forum/#!newtopic/swindon-hackspace), using the format [shown below](#group-topic).  Ideally, the topic should be created by the `Swindon Hackspace`.  Remember to double-check that the links in the group topic correctly link to the new blog post.
+* Create a new google group topic, via [email](mailto:swindon-hackspace@googlegroups.com) or [web](https://groups.google.com/forum/#!newtopic/swindon-hackspace), using the format [shown below](#group-topic).  Ideally, the topic should be created by the `Swindon Hackspace`.  Before sending, double-check that the links in the group topic correctly link to the new blog post.
 
 * Copy the identifier for the newly created group thread, and set it for the post's `discuss:` variable.
 
@@ -48,6 +48,6 @@ display, five push buttons, a toggle button and an IR receiver.
 ```
 New Post: PiFace Control And Display Board, by @AstroFraggle
 http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/
-
-http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/Piface.jpg
 ```
+
+A photo should be added at the end of the tweet, normally the same one that's set for use on the main index page.  _Note: the photo must be uploaded with the tweet; pasting the URL of a photo into the tweet doesn't work. :(_
