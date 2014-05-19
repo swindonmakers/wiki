@@ -6,7 +6,7 @@ For help with actually creating a post, please see [[contributing website and wi
 
 * Deploy rendered site, then check that post is live and rendered without issues.
 
-* Create a new google group topic, via [email](mailto:swindon-hackspace@googlegroups.com) or [web](https://groups.google.com/forum/#!newtopic/swindon-hackspace), using the format [shown below](#group-topic).
+* Create a new google group topic, via [email](mailto:swindon-hackspace@googlegroups.com) or [web](https://groups.google.com/forum/#!newtopic/swindon-hackspace), using the format [shown below](#group-topic).  Ideally, the topic should be created by the `Swindon Hackspace`.  Remember to double-check that the links in the group topic correctly link to the new blog post.
 
 * Copy the identifier for the newly created group thread, and set it for the post's `discuss:` variable.
 
@@ -48,11 +48,6 @@ display, five push buttons, a toggle button and an IR receiver.
 ```
 New Post: PiFace Control And Display Board, by @AstroFraggle
 http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/
-```
-
-<!--
-should a link to the title picture be included (before or after main link)?
 
 http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/Piface.jpg
--->
-
+```
