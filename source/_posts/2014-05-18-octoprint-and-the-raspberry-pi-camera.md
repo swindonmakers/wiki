@@ -5,6 +5,7 @@ author:       Steve Wood, AKA Gyrobot
 image:        10-sml.jpg
 date:         2014-05-19 14:20
 web:          http://www.gyrobot.co.uk
+discuss:      EtlSbDg8hKs
 
 The Hackspace recently took delivery of a Raspberry Pi NoIR Camera Module from 
 [Farnell](http://uk.farnell.com/) - full details are on [their website](http://uk.farnell.com/raspberry-pi/rpi-noir-camera-board/raspberry-pi-noir-camera-board/dp/2357308).
@@ -30,7 +31,7 @@ In this post I'll cover what we did to get the camera module working and ready f
 
 ##A Bit of Background
 
-The Hackspace already has a Raspberry Pi running as a 3D print server allowing the controlling of our Prusa Mendel through the two options of either [Octoprint](http://octoprint.org/) or [Repetier Server](http://www.repetier.com/repetier-server-download/). The Pi distribution was provided by myself and is [Raspbian](http://www.raspbian.org/) with Octoprint and Repetier Server loaded afterwards. What we need to do is add support for the RaspiCam and web video streaming. Initially to take timelapse videos of 3D printing then moving onto other projects afterwards.
+The Hackspace already has a Raspberry Pi running as a 3D print server allowing the controlling of our Prusa Mendel through the two options of either [Octoprint](http://octoprint.org/) or [Repetier Server](http://www.repetier.com/repetier-server-download/). The Pi distribution was provided by myself and is [Raspbian](http://www.raspbian.org/) with Octoprint and Repetier Server loaded afterwards. What we need to do is add support for the RaspiCam and web video streaming. Initially to take time-lapse videos of 3D printing then moving onto other projects afterwards.
 
 ##Repetier Server or Octoprint?
 
@@ -46,7 +47,7 @@ To create a 3D print server on a Pi from scratch, the easiest route to follow is
 
 ## Updating the Raspberry Pi
 
-It's been sometime since the Pi was updated so we thought it was best to go through this first.
+It's been some time since the Pi was updated so we thought it was best to go through this first.
 
 We updated the Raspbian install on our Raspberry Pi by running :
 
@@ -68,7 +69,7 @@ Select `camera`, then select `Enable`, and when prompted to reboot select `Yes`.
 
 [![raspi-config](16.png)](16.png)
 
-Updating your operating and enabling the camera using raspi-config did two things. It told your Pi that there is a camera attached and it added three command line utilities.
+Enabling the camera using `raspi-config` did two things. It told your Pi that there is a camera attached and it added three command line utilities.
 
 	raspistill
 	raspivid
@@ -102,7 +103,7 @@ When prompted select `Y` to install.
 	cd mjpg-streamer-master/mjpg-streamer-experimental
 	make clean all
 
-You can run dirctly from the mjpg-streamer-experimental folder with:
+You can run directly from the mjpg-streamer-experimental folder with:
 
 	export LD_LIBRARY_PATH=.
 	./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so"
