@@ -4,7 +4,7 @@
   <title><![CDATA[Category: projects | Swindon Hackspace]]></title>
   <link href="http://swindon.hackspace.org.uk/blog/categories/projects/atom.xml" rel="self"/>
   <link href="http://swindon.hackspace.org.uk/"/>
-  <updated>2014-05-12T02:50:07+01:00</updated>
+  <updated>2014-05-19T16:05:39+01:00</updated>
   <id>http://swindon.hackspace.org.uk/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -12,6 +12,161 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octoprint and the Raspberry Pi Camera Module]]></title>
+    <link href="http://swindon.hackspace.org.uk/blog/octoprint-and-the-raspberry-pi-camera/"/>
+    <updated>2014-05-19T14:20:00+01:00</updated>
+    <id>http://swindon.hackspace.org.uk/blog/octoprint-and-the-raspberry-pi-camera</id>
+    <content type="html"><![CDATA[<p>The Hackspace recently took delivery of a Raspberry Pi NoIR Camera Module from 
+<a href="http://uk.farnell.com/">Farnell</a> - full details are on <a href="http://uk.farnell.com/raspberry-pi/rpi-noir-camera-board/raspberry-pi-noir-camera-board/dp/2357308">their website</a>.
+It is an add-on camera module for the Raspberry Pi which has no infrared filter, making it perfect for taking infrared photographs or photographing objects in low light (twilight) conditions. The camera plugs directly into the Pi by way of a 15 pin Ribbon Cable, to the dedicated 15 pin MIPI Camera Serial Interface (CSI). The standard ribbon cable supplied is going to be too short for our 3D printer needs, but longer ribbon cables can be purchased. The cable can easily be replaced by uncoupling at the camera end.</p>
+
+<p><a href="12.jpg"><img src="12-sml.jpg" alt="The Pi NoIR Camera Board Box" /></a></p>
+
+<!-- more -->
+
+<ul>
+  <li>General Specification</li>
+  <li>Omnivision 5647 sensor in a fixed-focus module without IR filter</li>
+  <li>5 megapixel</li>
+  <li>2592×1944 stills</li>
+  <li>1080p at 30 frames per second</li>
+  <li>720p at 60 frames per second</li>
+  <li>640x480p at 60/90 frames per second</li>
+  <li>CSi interface with 150mm ribbon cable</li>
+  <li>Weighs 2.4g (3.4g with ribbon cable)</li>
+</ul>
+
+<p>In this post I’ll cover what we did to get the camera module working and ready for use. There will be a follow up post which will show how we are actually using it and how the camera and Pi is fitted to the printer.</p>
+
+<h2 id="a-bit-of-background">A Bit of Background</h2>
+
+<p>The Hackspace already has a Raspberry Pi running as a 3D print server allowing the controlling of our Prusa Mendel through the two options of either <a href="http://octoprint.org/">Octoprint</a> or <a href="http://www.repetier.com/repetier-server-download/">Repetier Server</a>. The Pi distribution was provided by myself and is <a href="http://www.raspbian.org/">Raspbian</a> with Octoprint and Repetier Server loaded afterwards. What we need to do is add support for the RaspiCam and web video streaming. Initially to take timelapse videos of 3D printing then moving onto other projects afterwards.</p>
+
+<h2 id="repetier-server-or-octoprint">Repetier Server or Octoprint?</h2>
+
+<p>The short answer for the Hackspace is both, and we use whatever our own personal preference is. Repetier Server is not to be confused with <a href="http://www.repetier.com/documentation/repetier-host/">Repetier Host</a>, which is by the same developer. Repetier Host is a full work flow solution for 3D printing to create, visualise and edit printer paths, as well as full printer control. All of this software is completely free.</p>
+
+<p>Octoprint has built in camera support for time-lapse video or stills while printing, or even live streaming via it’s web interface. It also allows graphical visualisation of the printer extrusion paths live as they are being printed. Repetier Server does not have support for either of these although live streaming can still be accessed on port 8080 via the <a href="http://sourceforge.net/apps/mediawiki/mjpg-streamer/nfs/project/m/mj/mjpg-streamer/7/7f/Screenshot_static_example.png">mjpg-streamer web interface</a>, which gets installed as part of the set-up for the video side of things (more on that later). Repetier server has an annoying bug where after you have ran a print job, the manual extrude feature either does not work, or wants to extrude forever, resulting in a switch off and switch on solution. However, Repetier server does seem faster when uploading gcode, or when choosing to print a previously uploaded file.</p>
+
+<p>For the purposes of this article we will be focusing on using OctoPrint, because as mentioned earlier, it has built in camera support.</p>
+
+<h2 id="the-beginning">The Beginning</h2>
+
+<p>To create a 3D print server on a Pi from scratch, the easiest route to follow is to download the <a href="https://github.com/guysoft/OctoPi">OctoPi</a> distribution and follow their instructions, which have everything included to get the Pi working with OctoPrint and the RaspiCam. You can then add on Repetier Server to this afterwards should you wish. Installing OctoPi would make this article end now and everything would be so straight forward.</p>
+
+<h2 id="updating-the-raspberry-pi">Updating the Raspberry Pi</h2>
+
+<p>It’s been sometime since the Pi was updated so we thought it was best to go through this first.</p>
+
+<p>We updated the Raspbian install on our Raspberry Pi by running :</p>
+
+<pre><code>apt-get update &amp;&amp; apt-get upgrade
+</code></pre>
+
+<p>You may need to be root, in which case :</p>
+
+<pre><code>sudo apt-get update &amp;&amp; sudo apt-get upgrade
+</code></pre>
+
+<p>This took some hours.</p>
+
+<h2 id="enabling-the-camera">Enabling the camera</h2>
+
+<p>Open the <code>raspi-config</code> tool from the Terminal:</p>
+
+<pre><code>sudo raspi-config
+</code></pre>
+
+<p>Select <code>camera</code>, then select <code>Enable</code>, and when prompted to reboot select <code>Yes</code>.</p>
+
+<p><a href="16.png"><img src="16.png" alt="raspi-config" /></a></p>
+
+<p>Updating your operating and enabling the camera using raspi-config did two things. It told your Pi that there is a camera attached and it added three command line utilities.</p>
+
+<pre><code>raspistill
+raspivid
+raspiyuv
+</code></pre>
+
+<p>With the camera module connected and enabled, enter the following command in the Terminal to take a picture:</p>
+
+<pre><code>raspistill -o cam.jpg
+</code></pre>
+
+<p>For more on command line usage, see : <a href="http://www.raspberrypi.org/documentation/usage/camera/raspicam/README.md">http://www.raspberrypi.org/documentation/usage/camera/raspicam/README.md</a></p>
+
+<h2 id="installing-octoprint">Installing Octoprint</h2>
+
+<p>If you do not have Octoprint installed and don’t fancy installing the <a href="https://github.com/guysoft/OctoPi">OctoPi</a> distribution, then maybe you would prefer to add Octoprint onto your existing Pi OS? For this I would only be repeating (and not very well) what has already been written over on the <a href="https://github.com/foosel/OctoPrint/wiki/Setup-on-a-Raspberry-Pi-running-Raspbian">OctoPrint Github Repository</a>, so check it out.</p>
+
+<h2 id="adding-rasppicam-support-to-octoprint">Adding RaspPiCam Support to Octoprint</h2>
+
+<p>The repository we need to download, unpack and compile is <a href="https://github.com/jacksonliam/mjpg-streamer">mjpg-streamer-experimental</a> by Liam Jackson. This has the RaspiCam plugin</p>
+
+<p>For the compile side, we need to ensure the command <code>cmake</code> and a dev version of <code>libjpeg</code> is pre-installed:</p>
+
+<pre><code>sudo apt-get install libjpeg62-dev
+sudo apt-get install cmake
+</code></pre>
+
+<p>When prompted select <code>Y</code> to install.</p>
+
+<pre><code>cd ~
+wget https://github.com/jacksonliam/mjpg-streamer/archive/master.zip
+unzip master.zip
+rm master.zip
+cd mjpg-streamer-master/mjpg-streamer-experimental
+make clean all
+</code></pre>
+
+<p>You can run dirctly from the mjpg-streamer-experimental folder with:</p>
+
+<pre><code>export LD_LIBRARY_PATH=.
+./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so"
+</code></pre>
+
+<p>You can also specify options, like in <code>raspivid</code> above</p>
+
+<pre><code>export LD_LIBRARY_PATH=.
+./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so -x 1280 -y 720 -fps 15 -ex night"
+</code></pre>
+
+<p>If you have followed the install guide for <a href="https://github.com/foosel/OctoPrint/wiki/Setup-on-a-Raspberry-Pi-running-Raspbian">OctoPrint</a> correctly, then you will need to make the following changes to your <a href="https://github.com/foosel/OctoPrint/wiki/Setup-on-a-Raspberry-Pi-running-Raspbian#automatic-start-up">startup script</a> to now look at this new mjpg-streamer-experimental folder:</p>
+
+<p>Edit the <code>/home/pi/bin/octoprint</code> start up script with the following:</p>
+
+<pre><code>#!/bin/sh
+OCTOPRINT_HOME=/home/pi/OctoPrint
+MJPEG_STREAMER_HOME=/home/pi/mjpg-streamer-master/mjpg-streamer-experimental
+export LD_LIBRARY_PATH=$MJPEG_STREAMER_HOME
+
+# start mjpeg streamer
+$MJPEG_STREAMER_HOME/mjpg_streamer -i "$MJPEG_STREAMER_HOME/input_raspicam.so -x 1280 -y 720 -fps 15 -ex night" -o "$MJPEG_STREAMER_HOME/output_http.so -w $MJPEG_STREAMER_HOME/www" &amp;
+
+# start the webui
+$OCTOPRINT_HOME/run --daemon start
+</code></pre>
+
+<p>Hopefully that’s it, after a reboot, you should find that OctoPrint is running on the <code>http://&lt;your Raspi's IP&gt;:&lt;port number&gt;</code> you have assigned and the webcam feed from the RaspiCam is visible in the <code>Control</code> tab</p>
+
+<p>You can see in the following photo that the infrared from a remote control can be picked up, due to this model of RaspiCam having no infrared filter.</p>
+
+<p><a href="14.jpg"><img src="14-sml.jpg" alt="Infrared Remote" /></a></p>
+
+<p>NOTE : You can still access the webcam stream without OctoPrint installed, in case you want to use Repetier Server instead. Just type <code>http://&lt;your Raspi's IP&gt;:8080</code> in your favourite browser.</p>
+
+<p><a href="17.png"><img src="17.png" alt="Mjpg-Streamer" /></a></p>
+
+<h2 id="next-steps">Next Steps</h2>
+
+<p>We now need to design an enclosure for the Pi and PiFace, buy a longer camera ribbon connection, then find a suitable mounting position on the Prusa Mendel for it’s final resting place.</p>
+
+<p><a href="13.jpg"><img src="13-sml.jpg" alt="3D Printer Setup" /></a></p>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PiFace Control And Display Board]]></title>
@@ -434,70 +589,6 @@ the hackspace has been working on getting an old <a href="http://en.wikipedia.or
 <a href="/blog/2013-07-03-meeting-report/" title="http://swindon.hackspace.org.uk/blog/2013-07-03-meeting-report/">2013-07-03-meeting-report</a></p>
 
 <p>Either come along to the <a href="/about/#weekly-meetings" title="http://swindon.hackspace.org.uk/about/">Swindon Hackspace</a> on a Wednesday night or the <a href="http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed" title="http://www.museumofcomputing.org.uk/exhibitions/2-current-exhibitions/108-robots-revealed">Robots Revealed</a> exhibition at the <a href="http://www.museum-of-computing.org.uk/" title="http://www.museum-of-computing.org.uk/">Swindon Museum of Computing</a> for the next few months to have a closer look.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Twitter To Teletype]]></title>
-    <link href="http://swindon.hackspace.org.uk/blog/twitter-to-teletype/"/>
-    <updated>2012-11-06T20:06:00+00:00</updated>
-    <id>http://swindon.hackspace.org.uk/blog/twitter-to-teletype</id>
-    <content type="html"><![CDATA[<p>The <a href="http://www.museum-of-computing.org.uk/">Museum of Computing</a> in Swindon has a working Teletype and a desire to get it to print out tweets as part of a display in the museum.  Since the <a href="http://swindon.hackspace.org.uk">Swindon Hackspace</a> is based in the museum it was a perfect project for hackspace members.</p>
-
-<p><img src="Teletype.jpg" alt="Teletype" /></p>
-
-<!-- more -->
-
-<h2 id="current-loop-interface">Current Loop Interface</h2>
-
-<p>The teletype uses a current loop interface to communicate with other (teletype) devices.  The current loop interface is similar to a standard RS232 serial interface found on a PC except rather than using changes in voltage to represent 0’s and 1’s it uses changes in current.  Data is sent at 110 baud - very slowly compared to modern standards, but this is as fast as the teletype can print characters and it has no means to buffer the data it receives.</p>
-
-<p>After a few failed attempts and fried components a circuit was built to convert from RS232 serial into current loop using…. [ <em>what?, circuit diagram?, any more info?</em> ]</p>
-
-<p><img src="CurrentLoopConverter.jpg" alt="Current Loop Converter" /></p>
-
-<p>The teletype also uses a slightly different character set to standard ASCII so a character set conversion was required.  This conversion implemented in the C# code running on the Raspberry Pi. This also allowed for use of some of the mechanical functions of the teletype such as the bell which you can hear ring as the teletype prints out a tweet</p>
-
-<p><a href="https://github.com/snhack/TwitterToTeletype/wiki/images/TeletypeCharMap.png">Character Map Table</a></p>
-
-<h2 id="mechanical-issues">Mechanical Issues?</h2>
-
-<p>The teletype is mainly a mechanical device and contains only a single circuit board consisting of a few resistors, diodes and transistors <em>photo required</em>  Many of the hardest problems to overcome turned out to be mechanical rather than electronic or software problems.</p>
-
-<p>Upon initially managing to send data to the teletype over and RS232 port and via the current loop converter many characters were being printed out incorrectly.  After reading the teletype manuals found online it was discovered that there was a mechanical adjustment lever at the back of the teletype which controlled the alignment of some cogs used in decoding the character data sent over the current loop.  After a few minor adjustments with this lever most characters now print correctly.</p>
-
-<p><img src="LeverPostion.jpg" alt="Lever Position" /></p>
-
-<p>You may notice that the teletype still occasionally prints the wrong character.  This is down to mechanical issues rather than any software or electronic fault and is simply due to the age of the machine and worn mechanical components.</p>
-
-<h2 id="whats-with-all-the-noise">Whats With All The Noise?</h2>
-
-<p>Because the teletype is a mechanical device which uses moving parts to decode the data it receives it has to be running continuously and hence makes a lot of noise even when not printing text.  In order to minimize the noise generated when the teletype wasn’t printing anything a circuit was created using an ATTiny2313 (similar to the programmable chip used in an Arduino) and a relay to turn the power to the teletype on just before data was due to be sent and off once the printing was complete.  This chip was also programmed to bridge the connection from USB on the Raspberry Pi to the serial data that was needed to send to the current loop converter to talk to the teletype.</p>
-
-<p><img src="UsbSwitch.jpg" alt="USB Switch" />
-<img src="UsbSwitch2.jpg" alt="USB Switch" /></p>
-
-<h2 id="getting-tweets-and-putting-it-all-together">Getting Tweets And Putting It All Together</h2>
-
-<p>A C# application was written to connect to the twitter API and pickup tweets sent to the museums twitter account.  Running under Mono on Linux, this software then communicates with the ATTiny micro-controller via a USB to serial converter and sends instructions to turn the teletype on.  It then sends the text of the tweet in 50 character chunks (due to memory limitations on the ATTiny) to be forwarded on to the current loop interface at 110 baud and finally the teletype prints out the tweet.</p>
-
-<p><iframe src="http://www.youtube.com/embed/_HGV4Ppnx14" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
-
-<p><img src="TeletypeComplete.jpg" alt="Complete" />
-<img src="TeletypePaper.jpg" alt="Printing" /></p>
-
-<h2 id="more-information">More Information</h2>
-
-<ul>
-  <li><a href="http://swindon.hackspace.org.uk">Swindon Hackspace</a></li>
-  <li><a href="http://www.museum-of-computing.org.uk/">Museum of Computing</a></li>
-  <li><a href="http://en.wikipedia.org/wiki/Teletype_Model_33">Model 33 Teletype on Wikipedia</a></li>
-  <li><a href="http://en.wikipedia.org/wiki/Current_loop">Current loop on Wikipedia</a></li>
-  <li><a href="https://github.com/snhack/TwitterToTeletype">Source Code</a></li>
-  <li><a href="http://www.raspberrypi.org/">Raspberry Pi</a></li>
-</ul>
-
-<p><em>This article was originally posted at: <a href="https://github.com/snhack/TwitterToTeletype/wiki">TwitterToTeletype/wiki</a></em></p>
 ]]></content>
   </entry>
   
