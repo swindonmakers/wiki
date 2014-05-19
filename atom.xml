@@ -4,7 +4,7 @@
   <title><![CDATA[Swindon Hackspace]]></title>
   <link href="http://swindon.hackspace.org.uk/atom.xml" rel="self"/>
   <link href="http://swindon.hackspace.org.uk/"/>
-  <updated>2014-05-19T16:18:26+01:00</updated>
+  <updated>2014-05-19T16:45:28+01:00</updated>
   <id>http://swindon.hackspace.org.uk/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -47,7 +47,7 @@ It is an add-on camera module for the Raspberry Pi which has no infrared filter,
 
 <h2 id="a-bit-of-background">A Bit of Background</h2>
 
-<p>The Hackspace already has a Raspberry Pi running as a 3D print server allowing the controlling of our Prusa Mendel through the two options of either <a href="http://octoprint.org/">Octoprint</a> or <a href="http://www.repetier.com/repetier-server-download/">Repetier Server</a>. The Pi distribution was provided by myself and is <a href="http://www.raspbian.org/">Raspbian</a> with Octoprint and Repetier Server loaded afterwards. What we need to do is add support for the RaspiCam and web video streaming. Initially to take timelapse videos of 3D printing then moving onto other projects afterwards.</p>
+<p>The Hackspace already has a Raspberry Pi running as a 3D print server allowing the controlling of our Prusa Mendel through the two options of either <a href="http://octoprint.org/">Octoprint</a> or <a href="http://www.repetier.com/repetier-server-download/">Repetier Server</a>. The Pi distribution was provided by myself and is <a href="http://www.raspbian.org/">Raspbian</a> with Octoprint and Repetier Server loaded afterwards. What we need to do is add support for the RaspiCam and web video streaming. Initially to take time-lapse videos of 3D printing then moving onto other projects afterwards.</p>
 
 <h2 id="repetier-server-or-octoprint">Repetier Server or Octoprint?</h2>
 
@@ -63,7 +63,7 @@ It is an add-on camera module for the Raspberry Pi which has no infrared filter,
 
 <h2 id="updating-the-raspberry-pi">Updating the Raspberry Pi</h2>
 
-<p>It’s been sometime since the Pi was updated so we thought it was best to go through this first.</p>
+<p>It’s been some time since the Pi was updated so we thought it was best to go through this first.</p>
 
 <p>We updated the Raspbian install on our Raspberry Pi by running :</p>
 
@@ -88,7 +88,7 @@ It is an add-on camera module for the Raspberry Pi which has no infrared filter,
 
 <p><a href="http://swindon.hackspace.org.uk/blog/octoprint-and-the-raspberry-pi-camera/16.png"><img src="http://swindon.hackspace.org.uk/blog/octoprint-and-the-raspberry-pi-camera/16.png" alt="raspi-config" /></a></p>
 
-<p>Updating your operating and enabling the camera using raspi-config did two things. It told your Pi that there is a camera attached and it added three command line utilities.</p>
+<p>Enabling the camera using <code>raspi-config</code> did two things. It told your Pi that there is a camera attached and it added three command line utilities.</p>
 
 <pre><code>raspistill
 raspivid
@@ -126,7 +126,7 @@ cd mjpg-streamer-master/mjpg-streamer-experimental
 make clean all
 </code></pre>
 
-<p>You can run dirctly from the mjpg-streamer-experimental folder with:</p>
+<p>You can run directly from the mjpg-streamer-experimental folder with:</p>
 
 <pre><code>export LD_LIBRARY_PATH=.
 ./mjpg_streamer -o "output_http.so -w ./www" -i "input_raspicam.so"
