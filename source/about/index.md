@@ -12,11 +12,13 @@ sidebar: false
 
 The Swindon [Hackspace] formed in June 2012, holding [weekly meetings](#weekly-meetings)
 for those interested in making, breaking, and fixing things. We are a new hackspace,
-looking to build membership and grow our toolkit.
+looking to build membership and grow [our toolkit].
 
 [Hackspace]: http://en.wikipedia.org/wiki/Hackerspace
+[our toolkit]: {{ site.github_wiki }}/Tools-and-consumables
+[projects]: {{ site.github_wiki }}/Hackspace-Projects
 
-Members work on a range of projects that usually involve electronic hardware, software
+Members work on a range of [projects] that usually involve electronic hardware, software
 programming, and mechanical assembly. Popular projects often include prototyping
 electronic circuits using breadboard, and interfacing with [Arduino], [Raspberry Pi] or
 [Stellaris LaunchPad] microcontrollers.
@@ -54,7 +56,7 @@ required.
 
 The hackspace is active on [Google Groups], [Twitter], [YouTube], and [Github].
 
-Related articles are published on <{{ site.url }}> (submissions [welcome]!).
+Related articles are published at <{{ site.url }}> (submissions [welcome]!).
 
 [Museum of Computing]: http://museumofcomputing.org.uk
 [view map]: http://maps.google.co.uk/?q=The+Museum+Of+Computing&cid=1649343045243643722

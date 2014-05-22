@@ -112,6 +112,7 @@ github_repo_count: 5
 github_show_profile_link: false
 github_skip_forks: false
 github_skip_sites: true
+github_wiki: https://github.com/snhack/snhack.github.com/wiki
 
 # Twitter
 twitter_user: snhack
