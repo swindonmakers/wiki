@@ -22,13 +22,13 @@ general workbench area, we also have a dedicated computing space.
 [BBC First Click]: http://www.bbc.co.uk/webwise/guides/learning-resources
 [Children's Computer Club]: http://museumofcomputing.org.uk/component/content/article/32-education-learning/91-ccc
 
-Access is down stairs from the museum floor[^stairs]. We have WiFi Internet access and
+Access is down stairs[^stairs] from the museum floor. We have WiFi Internet access and
 computers available to use, but please bring your own laptop if you have one. Tea and
 coffee making facilities are provided (as well as the tea and coffee).
 
-The Hackspace is near the town centre, located next to the northbound Regent Circus bus
-stops[^busstops]. Limited free parking can be found on Euclid Street after 6pm, or in the
-Wyvern Car Park for £1.00.
+We are conveniently located in the [town centre][view map], next to the Regent Circus bus
+stops[^busstops] (northbound). Limited free parking can normally be found on
+[Euclid Street], while the [Wyvern Car Park] costs £1.00 (both after 6pm).
 
 [^stairs]:
     Unfortunately, there's no wheelchair access to the hackspace; though it is
@@ -37,13 +37,16 @@ Wyvern Car Park for £1.00.
     something out.
 
 [^busstops]:
-    Route numbers for nearby bus stops are shown on [this map][view map].
-    Most local routes either pass through here, or within a 5 minute walk.
+    Route numbers for nearby bus stops are shown on [this map][view map] (zoom
+    in to see all three). Most local routes either pass through here, or within
+    a 5 minute walk.
 
-[view map]: http://maps.google.co.uk/?q=The+Museum+Of+Computing&cid=1649343045243643722
+[view map]: http://maps.google.co.uk/?q=The+Museum+Of+Computing+Swindon
+[Euclid Street]: http://maps.google.co.uk/?q=Euclid+Street+Swindon
+[Wyvern Car Park]: http://maps.google.co.uk/?q=Wyvern+Car+Park+Swindon
 
 
-## The Equipment
+## Equipment
 
 [![Facilities](facilities.jpg){:.right}][tools page]
 

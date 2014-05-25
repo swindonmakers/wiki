@@ -45,8 +45,8 @@ The Swindon Hackspace meets weekly at the [Museum of Computing], near the Wyvern
 Sessions start at 6.30pm each Wednesday, and it's advisable to arrive no later than
 7.15pm. We usually finish between 9.30 and 10pm.
 
-Session price is &pound;4 and paid on admission. Membership is paid annually in advance
-and costs &pound;10 (waived until third visit for new members, due each July thereafter).
+Session price is £4 and paid on admission. Membership is paid annually in advance
+and costs £10 (waived until third visit for new members, due each July thereafter).
 
 Internet access is available via WiFi and Ethernet, we also have computers available if
 required.
@@ -59,7 +59,7 @@ The hackspace is active on [Google Groups], [Twitter], [YouTube], and [Github].
 Related articles are published at <{{ site.url }}> (submissions [welcome]!).
 
 [Museum of Computing]: http://museumofcomputing.org.uk
-[view map]: http://maps.google.co.uk/?q=The+Museum+Of+Computing&cid=1649343045243643722
+[view map]: http://maps.google.co.uk/?q=The+Museum+Of+Computing+Swindon
 
 [Google Groups]: {{ site.rss_feed_title_url }}
 [Twitter]: http://twitter.com/{{site.twitter_user}}
