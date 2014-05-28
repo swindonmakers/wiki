@@ -39,11 +39,12 @@ please let us know via the [group] or on twitter [@snhack].
 
 ### Weekly Meetings
 
-The Swindon Hackspace meets weekly at the [Museum of Computing], near the Wyvern Theatre
-([view map]).
+The Swindon Hackspace meets weekly at the [Museum of Computing], located near the Wyvern
+Theatre ([view map]) and next to the Regent Circus bus stops[^busstops] (northbound).
 
 Sessions start at 6.30pm each Wednesday, and it's advisable to arrive no later than
-7.15pm. We usually finish between 9.30 and 10pm.
+7.15pm. We usually finish between 9.30 and 10pm. Limited free parking can normally be
+found on [Euclid Street], while the [Wyvern Car Park] costs £1.00 (both after 6pm).
 
 Session price is £4 and paid on admission. Membership is paid annually in advance
 and costs £10 (waived until third visit for new members, due each July thereafter).
@@ -52,14 +53,22 @@ Internet access is available via WiFi and Ethernet, we also have computers avail
 required.
 
 
+[^busstops]:
+    Route numbers for nearby bus stops are shown on [this map][view map] (zoom
+    in to see all three). Most local routes either pass through here, or within
+    a 5 minute walk.
+
+[Museum of Computing]: http://museumofcomputing.org.uk
+[view map]: http://maps.google.co.uk/?q=The+Museum+Of+Computing+Swindon
+[Euclid Street]: http://maps.google.co.uk/?q=Euclid+Street+Swindon
+[Wyvern Car Park]: http://maps.google.co.uk/?q=Wyvern+Car+Park+Swindon
+
+
 ### Online Presence
 
 The hackspace is active on [Google Groups], [Twitter], [YouTube], and [Github].
 
 Related articles are published at <{{ site.url }}> (submissions [welcome]!).
-
-[Museum of Computing]: http://museumofcomputing.org.uk
-[view map]: http://maps.google.co.uk/?q=The+Museum+Of+Computing+Swindon
 
 [Google Groups]: {{ site.rss_feed_title_url }}
 [Twitter]: http://twitter.com/{{site.twitter_user}}
