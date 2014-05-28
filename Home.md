@@ -28,6 +28,8 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [[share or r
 
 - [Blog post: Resources for Using Git](http://swindon.hackspace.org.uk/blog/resources-for-using-git/)
 
+- [A Hacker’s Guide to Git @ wildlyinaccurate.com](http://wildlyinaccurate.com/a-hackers-guide-to-git)
+
 - [Set Up Git] • [Create a Repo] • [Fork a Repo]
 
 - [Be Social] • [Github Resources] • [Glossary]
