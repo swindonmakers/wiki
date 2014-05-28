@@ -48,7 +48,9 @@ Date:   Sat Sep 29 23:30:20 2012 +0100
 
 Git itself can be installed from [git-scm.com](http://git-scm.com/downloads) if your OS doesn't already include it. The same site also hosts a copy of the [documentation](http://git-scm.com/docs), as well as the [Pro Git book](http://git-scm.com/book) which is a great place to start learning git.  Pro Git is also available as a commercially [printed book](http://www.amazon.com/gp/product/1430218339?ie=UTF8&tag=prgi-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1430218339) from Apress, and as a free [ePub](https://github.s3.amazonaws.com/media/progit.epub), [mobi](https://github.s3.amazonaws.com/media/pro-git.en.mobi), or [PDF](https://github.s3.amazonaws.com/media/progit.en.pdf) download.
 
-If you don't fancy reading an entire book, then this [Git Tutorial](http://www.vogella.com/articles/Git/article.html) gets straight to the point for those already familiar with the concepts of version control.  There's minimal explanatory text, but full command examples for most operations; making it a useful resource for commands you use rarely and need to quickly relearn.
+If you don't fancy reading an entire book, then this [Git Tutorial](http://www.vogella.com/articles/Git/article.html) gets straight to the point for those already familiar with the concepts of version control.  There's minimal explanatory text, but full command examples for most operations; making it a useful resource for commands you use rarely and need to quickly relearn.  Also, [A Hacker’s Guide to Git](http://wildlyinaccurate.com/a-hackers-guide-to-git) is [recommended](https://twitter.com/astrofraggle/status/471596975612502016) as being very readable.
+
+Github's [help site](http://help.github.com) has some good pages on using both git, and the github website.  In particular, see [Github Bootcamp](https://help.github.com/categories/54/articles) for links to the basics, and [Try Git](https://try.github.io/) for a live tutorial.
 
 ## graphical interfaces
 
@@ -58,7 +60,7 @@ While it's good to know how to use git from the command line, it's worth getting
 
 ![GitHub for Mac](promo-screenshot.png)
 
-They do lack some more advanced features though so I mostly prefer [GitX](http://gitx.laullon.com/) on the Mac, though [plenty more GUIs](http://git-scm.com/downloads/guis) exist on various platforms.
+They do lack some more advanced features though so I mostly prefer [GitX](http://gitx.laullon.com/) on the Mac. Plenty more GUIs exist [on various platforms](http://git-scm.com/downloads/guis), including [SourceTree](http://www.sourcetreeapp.com/) and [SmartGit](http://www.syntevo.com/smartgithg/).
 
 ![GitX](commit.png)
 
