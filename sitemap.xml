@@ -2,7 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://swindon.hackspace.org.uk/blog/resources-for-using-git/</loc>
-        <lastmod>2014-03-26T15:01:05+00:00</lastmod>
+        <lastmod>2014-05-28T16:23:47+01:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/blog/twitter-to-teletype/</loc>
@@ -26,7 +26,7 @@
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/blog/quadcopter-builds/</loc>
-        <lastmod>2013-12-02T18:14:26+00:00</lastmod>
+        <lastmod>2014-05-22T21:06:07+01:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/blog/diy-radiator-booster/</loc>
@@ -38,30 +38,34 @@
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/blog/octoprint-and-the-raspberry-pi-camera/</loc>
-        <lastmod>2014-05-19T16:44:01+01:00</lastmod>
+        <lastmod>2014-05-22T16:01:34+01:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/about/</loc>
-        <lastmod>2014-05-12T02:21:41+01:00</lastmod>
+        <lastmod>2014-05-28T16:23:47+01:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/blog/archives/</loc>
-        <lastmod>2014-05-19T16:44:01+01:00</lastmod>
+        <lastmod>2014-05-28T16:23:47+01:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/blog/</loc>
-        <lastmod>2014-05-19T16:44:01+01:00</lastmod>
+        <lastmod>2014-05-28T16:23:47+01:00</lastmod>
+    </url>
+    <url>
+        <loc>http://swindon.hackspace.org.uk/hackspace/</loc>
+        <lastmod>2014-05-28T16:23:47+01:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/</loc>
-        <lastmod>2014-05-19T16:44:01+01:00</lastmod>
+        <lastmod>2014-05-28T16:23:47+01:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/meetings/</loc>
-        <lastmod>2014-05-19T16:44:01+01:00</lastmod>
+        <lastmod>2014-05-28T16:23:47+01:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/projects/</loc>
-        <lastmod>2014-05-19T16:44:01+01:00</lastmod>
+        <lastmod>2014-05-28T16:23:47+01:00</lastmod>
     </url>
 </urlset>

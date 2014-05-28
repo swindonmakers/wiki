@@ -4,7 +4,7 @@
   <title><![CDATA[Category: projects | Swindon Hackspace]]></title>
   <link href="http://swindon.hackspace.org.uk/blog/categories/projects/atom.xml" rel="self"/>
   <link href="http://swindon.hackspace.org.uk/"/>
-  <updated>2014-05-19T16:45:28+01:00</updated>
+  <updated>2014-05-28T16:24:00+01:00</updated>
   <id>http://swindon.hackspace.org.uk/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -501,6 +501,8 @@ is hard to tell so far but I don’t think it can hurt.</p>
     <updated>2013-09-26T19:08:00+01:00</updated>
     <id>http://swindon.hackspace.org.uk/blog/quadcopter-builds</id>
     <content type="html"><![CDATA[
+<p><a href="pano.jpg"><img src="pano-small.jpg" alt="Quadcopter First Flight" class="pano" /></a></p>
+
 <p>A couple of members are now putting the finishing touches to their quadcopter builds and proceeding into the upgrade phase (typical). The build process isn’t too difficult with the excellent DJI 450 quadcopter kit, which allows various options to be taken to reach each users end goal, whether it be simple flying or the more advanced (and costly) First Person Viewing (FPV) camera set-up.</p>
 
 <!-- more -->

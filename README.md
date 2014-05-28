@@ -52,15 +52,18 @@ _Please check the progress of your pull request for any fixes that may be requir
 
 ### Notes on Pull Requests
 
+Please use a new "topic" branch for each pull request. Mixing unrelated changes into the
+same branch complicates merging of commits upstream. Note that all additional commits
+made to a branch, will automatically be added to any pull requests made with that branch.
+tl;dr - don't make multiple pull requests from the same branch, or continue unrelated
+work to a branch that's already been submitted with a pull request.
+
 Once you have sent a [pull request] an admin will need to build the site locally, check
 it renders acceptably, and then deploy your content to the live site.
 
 You can view the progress of your pull request in its [discussion thread].
 Notifications will normally be sent by email to those active or mentioned
 in the thread, as well as those watching either the thread or the related repo.
-
-Additional commits made to the same branch (named with the 'patch' prefix by default)
-will automatically be added to the pull request.
 
 Check the [fork] and [pull request] help pages for more info.
 
