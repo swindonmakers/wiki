@@ -14,7 +14,7 @@ the post's URL.
 <!-- more -->
 
 The `updated` field can be used to note the most recent date of any significant changes.
-The newer date will be shown in the post footer, but will not change the index.
+The newer date will be shown in the post footer, but will not change the order of the index.
 
 
 ## Octopress Plugins

@@ -22,7 +22,7 @@ by octopress and jekyll).
 [Fork this repo], then clone your fork's **source branch** locally.
 
 ```sh
-git clone -b source git@github.com:<YOURUSERNAME>/snhack.github.com.git snhack
+git clone -b source https://github.com/YOURUSERNAME/snhack.github.com snhack
 cd snhack
 ruby --version        # Should report Ruby >= 1.9.3
 ```
@@ -51,8 +51,7 @@ installing ruby and other dependencies.
 
 ### Adding and Previewing Changes
 
-Creating a new topic branch is preferred, especially for changes to the site's
-source (including templates and styles).
+Create a new "topic" branch for each pull request.
 
 ```sh
 git checkout -b mypost
