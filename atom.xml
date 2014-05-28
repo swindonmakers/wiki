@@ -4,7 +4,7 @@
   <title><![CDATA[Swindon Hackspace]]></title>
   <link href="http://swindon.hackspace.org.uk/atom.xml" rel="self"/>
   <link href="http://swindon.hackspace.org.uk/"/>
-  <updated>2014-05-28T16:53:07+01:00</updated>
+  <updated>2014-05-28T16:56:33+01:00</updated>
   <id>http://swindon.hackspace.org.uk/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -853,7 +853,7 @@ the hackspace has been working on getting an old <a href="http://en.wikipedia.or
 
 <p>If you don’t fancy reading an entire book, then this <a href="http://www.vogella.com/articles/Git/article.html">Git Tutorial</a> gets straight to the point for those already familiar with the concepts of version control.  There’s minimal explanatory text, but full command examples for most operations; making it a useful resource for commands you use rarely and need to quickly relearn.  Also, <a href="http://wildlyinaccurate.com/a-hackers-guide-to-git">A Hacker’s Guide to Git</a> is <a href="https://twitter.com/astrofraggle/status/471596975612502016">recommended</a> as being very readable.</p>
 
-<p>Github’s <a href="http://help.github.com">help site</a> has some good pages on using both git, and the github website.  In particular, see <a href="https://help.github.com/categories/54/articles">Github Bootcamp</a> for links to the basics, and <a href="https://try.github.io/levels/1/challenges/1">Try Git</a> for a live tutorial.</p>
+<p>Github’s <a href="http://help.github.com">help site</a> has some good pages on using both git, and the github website.  In particular, see <a href="https://help.github.com/categories/54/articles">Github Bootcamp</a> for links to the basics, and <a href="https://try.github.io/">Try Git</a> for a live tutorial.</p>
 
 <h2 id="graphical-interfaces">graphical interfaces</h2>
 

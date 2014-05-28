@@ -50,7 +50,7 @@ Git itself can be installed from [git-scm.com](http://git-scm.com/downloads) if 
 
 If you don't fancy reading an entire book, then this [Git Tutorial](http://www.vogella.com/articles/Git/article.html) gets straight to the point for those already familiar with the concepts of version control.  There's minimal explanatory text, but full command examples for most operations; making it a useful resource for commands you use rarely and need to quickly relearn.  Also, [A Hacker’s Guide to Git](http://wildlyinaccurate.com/a-hackers-guide-to-git) is [recommended](https://twitter.com/astrofraggle/status/471596975612502016) as being very readable.
 
-Github's [help site](http://help.github.com) has some good pages on using both git, and the github website.  In particular, see [Github Bootcamp](https://help.github.com/categories/54/articles) for links to the basics, and [Try Git](https://try.github.io/levels/1/challenges/1) for a live tutorial.
+Github's [help site](http://help.github.com) has some good pages on using both git, and the github website.  In particular, see [Github Bootcamp](https://help.github.com/categories/54/articles) for links to the basics, and [Try Git](https://try.github.io/) for a live tutorial.
 
 ## graphical interfaces
 
