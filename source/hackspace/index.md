@@ -7,10 +7,8 @@ sidebar: false
 
 ---
 
+[![The Hackspace](hackspace.jpg){:.pano}][Flickr]
 
-[![The Hackspace]{:.pano}][Flickr]
-
-[The Hackspace]: https://farm6.staticflickr.com/5513/11355438236_5ea3c62140_b_d.jpg
 [Flickr]: https://www.flickr.com/photos/95440001@N04/11355438236/in/pool-swindon-hackspace/
 
 The Hackspace itself is located at the [Museum of Computing]([view map]), and shares it's
