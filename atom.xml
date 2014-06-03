@@ -4,7 +4,7 @@
   <title><![CDATA[Swindon Hackspace]]></title>
   <link href="http://swindon.hackspace.org.uk/atom.xml" rel="self"/>
   <link href="http://swindon.hackspace.org.uk/"/>
-  <updated>2014-05-29T20:14:57+01:00</updated>
+  <updated>2014-06-03T16:40:53+01:00</updated>
   <id>http://swindon.hackspace.org.uk/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -12,6 +12,273 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PiFace Shutdown Message]]></title>
+    <link href="http://swindon.hackspace.org.uk/blog/piface-shutdown-message/"/>
+    <updated>2014-06-03T16:13:00+01:00</updated>
+    <id>http://swindon.hackspace.org.uk/blog/piface-shutdown-message</id>
+    
+    <author>
+      <name><![CDATA[Robert Longbottom]]></name>
+    </author>
+    
+    <content type="html"><![CDATA[<p>If you’re running your Raspberry Pi in a headless mode, sometimes it’s hard to know 
+when shutdown is complete and it’s safe to turn off the power. If you have a 
+<a href="http://uk.farnell.com/piface/piface-control-display/i-o-board-with-lcd-display-for/dp/2344458">PiFace</a>
+you could use that to display a message when shutdown is complete.  In this article 
+we’ll see how to do just that.</p>
+
+<!-- more -->
+
+<h3 id="the-message">The Message</h3>
+
+<p>First of all, let’s create a python script to display a message on the PiFace.<br />
+Check out my previous post on <a href="http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/">getting started with the PiFace</a>
+for more details on exactly how to do this.</p>
+
+<p>This is the script I’ll be using, it displays the Swindon Hackspace logo and
+a simple message.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="py"><span class="line"><span class="kn">import</span> <span class="nn">pifacecad</span> <span class="kn">as</span> <span class="nn">p</span>
+</span><span class="line">
+</span><span class="line"><span class="n">cad</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">PiFaceCAD</span><span class="p">()</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">backlight_on</span><span class="p">()</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">cursor_off</span><span class="p">()</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">blink_off</span><span class="p">()</span>
+</span><span class="line">
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">set_cursor</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;Shutdown&quot;</span><span class="p">)</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">set_cursor</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s">&quot;Complete&quot;</span><span class="p">)</span>
+</span><span class="line">
+</span><span class="line"><span class="n">sh</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">LCDBitmap</span><span class="p">([</span><span class="mi">3</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">14</span><span class="p">,</span><span class="mi">12</span><span class="p">,</span><span class="mi">24</span><span class="p">,</span><span class="mi">24</span><span class="p">,</span><span class="mi">31</span><span class="p">,</span><span class="mi">31</span><span class="p">])</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">store_custom_bitmap</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="n">sh</span><span class="p">)</span>
+</span><span class="line"><span class="n">sh</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">LCDBitmap</span><span class="p">([</span><span class="mi">31</span><span class="p">,</span><span class="mi">31</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">27</span><span class="p">,</span><span class="mi">27</span><span class="p">,</span><span class="mi">27</span><span class="p">,</span><span class="mi">31</span><span class="p">,</span><span class="mi">31</span><span class="p">])</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">store_custom_bitmap</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">sh</span><span class="p">)</span>
+</span><span class="line"><span class="n">sh</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">LCDBitmap</span><span class="p">([</span><span class="mi">24</span><span class="p">,</span><span class="mi">28</span><span class="p">,</span><span class="mi">14</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">])</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">store_custom_bitmap</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">sh</span><span class="p">)</span>
+</span><span class="line"><span class="n">sh</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">LCDBitmap</span><span class="p">([</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">24</span><span class="p">,</span><span class="mi">28</span><span class="p">,</span><span class="mi">14</span><span class="p">,</span><span class="mi">7</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">store_custom_bitmap</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="n">sh</span><span class="p">)</span>
+</span><span class="line"><span class="n">sh</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">LCDBitmap</span><span class="p">([</span><span class="mi">31</span><span class="p">,</span><span class="mi">31</span><span class="p">,</span><span class="mi">27</span><span class="p">,</span><span class="mi">27</span><span class="p">,</span><span class="mi">27</span><span class="p">,</span><span class="mi">0</span><span class="p">,</span><span class="mi">31</span><span class="p">,</span><span class="mi">31</span><span class="p">])</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">store_custom_bitmap</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="n">sh</span><span class="p">)</span>
+</span><span class="line"><span class="n">sh</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">LCDBitmap</span><span class="p">([</span><span class="mi">31</span><span class="p">,</span><span class="mi">31</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">6</span><span class="p">,</span><span class="mi">14</span><span class="p">,</span><span class="mi">28</span><span class="p">,</span><span class="mi">24</span><span class="p">])</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">store_custom_bitmap</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="n">sh</span><span class="p">)</span>
+</span><span class="line">
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">set_cursor</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">0</span><span class="p">)</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">set_cursor</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+</span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+</span></code></pre></div></figure></notextile></div>
+
+<p>Test that your script works by running it now: <code>python3 ShutdownMessage.py</code>.</p>
+
+<h3 id="getting-the-script-to-run-on-shutdown">Getting the Script to Run on Shutdown.</h3>
+
+<p>The Linux rc system controls what services and processes run at boot time and at 
+shutdown. It’s fairly easy to insert a small script into the startup sequence 
+because you can simply add it to <code>rc.local</code>, however there is no equivalent for 
+shutdown.</p>
+
+<p>We will need to create ourselves a fully fledged init script.  This will live 
+in <code>/etc/init.d/</code>.  If you have installed the PiFace package on your Raspberry Pi 
+you should already have one in there called <code>pifacecadsysinfo</code> which you can configure 
+to run at startup to display system info (CPU temperatures, etc).  This will be a 
+good starting point for our shutdown script.  Make a copy of it and call it <code>pifaceshutdown</code>.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line">sudo cp /etc/init.d/pifacecadsysinfo /etc/init.d/pifaceshutdown
+</span></code></pre></div></figure></notextile></div>
+
+<p>Open it up in your favourite editor, since it is in the <code>etc</code> folder you’ll need 
+to be root to be allowed to save changes, so I use this:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line">sudoedit /etc/init.d/pifaceshutdown
+</span></code></pre></div></figure></notextile></div>
+
+<p>Looking at the structure of the script there are a few points of interest.  The header 
+at the top defines some parameters used by the init system to determine script order, 
+more on that later.  </p>
+
+<p>For now I’m interested in the start and stop functions.  The <code>stop()</code> function is where 
+we need to call our script.  We can take the code currently in the <code>start()</code> function and 
+use that as a basis of our <code>stop()</code> function.  We don’t need all that stuff about tracking 
+the process identifier so just copy the call to python.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line">stop<span class="o">()</span> <span class="o">{</span>
+</span><span class="line">        <span class="nb">echo</span> -n <span class="s2">&quot;Displaying PiFace CAD shutdown message: &quot;</span>
+</span><span class="line">        /usr/bin/python3 <span class="nv">$SCRIPT_FILE</span>
+</span><span class="line">        <span class="nb">echo</span> <span class="s2">&quot;[Complete]&quot;</span>
+</span><span class="line"><span class="o">}</span>
+</span></code></pre></div></figure></notextile></div>
+
+<p>Make sure to change the value of the <code>SCRIPT_FILE</code> variable towards the start of the 
+script to point to wherever you saved your python script.  I saved mine in the home 
+directory under a <code>piface</code> folder.  You’ll need to specify the full path here.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line"><span class="nv">SCRIPT_FILE</span><span class="o">=</span><span class="s2">&quot;/home/pi/piface/ShutdownMessage.py&quot;</span>
+</span></code></pre></div></figure></notextile></div>
+
+<p>We don’t want to do anything on start in this script (we could display a startup message of 
+course), so clear out that method and just replace it with a friendly message that will be 
+printed out to the console.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line">start<span class="o">()</span> <span class="o">{</span>
+</span><span class="line">        <span class="nb">echo</span> <span class="s2">&quot;PiFace CAD shutdown message no action on start&quot;</span>
+</span><span class="line"><span class="o">}</span>
+</span></code></pre></div></figure></notextile></div>
+
+<h3 id="the-tricky-bit">The Tricky Bit</h3>
+
+<p>The whole idea of this is to try and give us an indication that it’s safe to disconnect 
+the power, so we want our script to run as late as possible in the shutdown sequence.</p>
+
+<p>Linux startup and shutdown is controlled by scripts which are run as part of
+run-levels.  There is more info <a href="http://www.debian.org/doc/debian-policy/ch-opersys.html#s-sysvinit">here</a>
+but for now all we need to know is that runlevel zero specifies 
+scripts to run at shutdown. The scripts live in <code>/etc/init.d</code> and from there they
+are linked to directories <code>/etc/rc0.d</code>, <code>/etc/rc1.d</code>, etc, one for each run-level.</p>
+
+<p>We can see which scripts are currently configured to run at shutdown by looking in 
+<code>/etc/rc0.d</code>.  These scripts will be run in order when the system shuts down. ‘K’ means
+kill and the two digit number is used to provide the order.  For scripts with the same
+number it isn’t really defined what the exact order is, the implication being that it
+isn’t really important.  Some Linux init systems will try to run scripts in parallel in
+order to speed up the process.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line">pi@raspberrypi ~ <span class="nv">$ </span>ls -l /etc/rc0.d/
+</span><span class="line">total 4
+</span><span class="line">lrwxrwxrwx 1 root root  22 Feb  9  2013 K01fake-hwclock -&gt; ../init.d/fake-hwclock
+</span><span class="line">lrwxrwxrwx 1 root root  17 Feb  9  2013 K01ifplugd -&gt; ../init.d/ifplugd
+</span><span class="line">lrwxrwxrwx 1 root root  17 Feb  9  2013 K01lightdm -&gt; ../init.d/lightdm
+</span><span class="line">lrwxrwxrwx 1 root root  14 May  3 19:48 K01lirc -&gt; ../init.d/lirc
+</span><span class="line">lrwxrwxrwx 1 root root  18 Feb  9  2013 K01plymouth -&gt; ../init.d/plymouth
+</span><span class="line">lrwxrwxrwx 1 root root  24 Apr 21  2013 K01tightvncserver -&gt; ../init.d/tightvncserver
+</span><span class="line">lrwxrwxrwx 1 root root  22 Feb  9  2013 K01triggerhappy -&gt; ../init.d/triggerhappy
+</span><span class="line">lrwxrwxrwx 1 root root  17 Feb  9  2013 K01urandom -&gt; ../init.d/urandom
+</span><span class="line">lrwxrwxrwx 1 root root  20 Apr 21  2013 K02alsa-utils -&gt; ../init.d/alsa-utils
+</span><span class="line">lrwxrwxrwx 1 root root  18 Apr 21  2013 K03sendsigs -&gt; ../init.d/sendsigs
+</span><span class="line">lrwxrwxrwx 1 root root  17 Apr 21  2013 K04rsyslog -&gt; ../init.d/rsyslog
+</span><span class="line">lrwxrwxrwx 1 root root  22 Apr 21  2013 K05umountnfs.sh -&gt; ../init.d/umountnfs.sh
+</span><span class="line">lrwxrwxrwx 1 root root  20 Apr 21  2013 K06nfs-common -&gt; ../init.d/nfs-common
+</span><span class="line">lrwxrwxrwx 1 root root  17 Apr 21  2013 K06rpcbind -&gt; ../init.d/rpcbind
+</span><span class="line">lrwxrwxrwx 1 root root  20 Apr 21  2013 K07hwclock.sh -&gt; ../init.d/hwclock.sh
+</span><span class="line">lrwxrwxrwx 1 root root  20 Apr 21  2013 K07networking -&gt; ../init.d/networking
+</span><span class="line">lrwxrwxrwx 1 root root  18 Apr 21  2013 K08umountfs -&gt; ../init.d/umountfs
+</span><span class="line">lrwxrwxrwx 1 root root  20 Apr 21  2013 K09umountroot -&gt; ../init.d/umountroot
+</span><span class="line">lrwxrwxrwx 1 root root  14 Apr 21  2013 K10halt -&gt; ../init.d/halt
+</span></code></pre></div></figure></notextile></div>
+
+<p>It looks pretty easy to add our script using the <code>update-rc.d</code> command:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line">usage: update-rc.d <span class="o">[</span>-n<span class="o">]</span> <span class="o">[</span>-f<span class="o">]</span> &lt;basename&gt; remove
+</span><span class="line">       update-rc.d <span class="o">[</span>-n<span class="o">]</span> &lt;basename&gt; defaults <span class="o">[</span>NN | SS KK<span class="o">]</span>
+</span><span class="line">       update-rc.d <span class="o">[</span>-n<span class="o">]</span> &lt;basename&gt; start|stop NN runlvl <span class="o">[</span>runlvl<span class="o">]</span> <span class="o">[</span>...<span class="o">]</span> .
+</span><span class="line">       update-rc.d <span class="o">[</span>-n<span class="o">]</span> &lt;basename&gt; disable|enable <span class="o">[</span>S|2|3|4|5<span class="o">]</span>
+</span><span class="line">                -n: not really
+</span><span class="line">                -f: force
+</span></code></pre></div></figure></notextile></div>
+
+<p>We need to give it the name of our script <code>&lt;basename&gt;</code>, what we want to do (start or stop), 
+the number to run as (NN) and the run-level to add it to.  This should work then,
+we’ll choose <code>NN = 99</code> to make sure it runs last.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line">pi@raspberrypi ~ <span class="nv">$ </span>sudo update-rc.d pifaceshutdown stop 99 0 .
+</span><span class="line">update-rc.d: using dependency based boot sequencing
+</span></code></pre></div></figure></notextile></div>
+
+<p>Unfortunately it seems to have ignored the <code>NN</code> parameter and puts our script
+fairly early on in the sequence:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line">pi@raspberrypi ~ <span class="nv">$ </span>ls /etc/rc0.d/*pifaceshutdown
+</span><span class="line">/etc/rc0.d/K01pifaceshutdown
+</span></code></pre></div></figure></notextile></div>
+
+<p>This probably wouldn’t matter for many scripts, but we want this to run as
+near to last as possible so that once the message is displayed we know it’s
+okay to disconnect the power.  So we’ll have to do something else.</p>
+
+<p>Notice the output we got from <code>update-rc.d</code>, it said “using dependency based 
+boot sequencing”.  That header in the init script we saw earlier is important.
+It looks a bit like a big comment (‘#’ is used to indicate a line is a comment
+in many linux scripts and some programming languages).</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line"><span class="c">### BEGIN INIT INFO</span>
+</span><span class="line"><span class="c"># Provides: pifacecadsysinfo</span>
+</span><span class="line"><span class="c"># Required-Start:    $remote_fs $syslog</span>
+</span><span class="line"><span class="c"># Required-Stop:     $remote_fs $syslog</span>
+</span><span class="line"><span class="c"># Default-Start:     2 3 4 5</span>
+</span><span class="line"><span class="c"># Default-Stop:      0 1 6</span>
+</span><span class="line"><span class="c"># Short-Description: Start pifacecad status daemon at boot time.</span>
+</span><span class="line"><span class="c"># Description:       Start pifacecad status daemon at boot time.</span>
+</span><span class="line"><span class="c">### END INIT INFO</span>
+</span></code></pre></div></figure></notextile></div>
+
+<p>Looks like we’d better update this.  First off, it would be polite to update the 
+descriptions, so do that.</p>
+
+<p><code>Default-Start</code> and <code>Default-Stop</code> look like they give a hint to which run-levels 
+our script should be in by default, so let’s clear out <code>Default-Start</code> and set 
+<code>Default-Stop</code> to just include run level zero (shutdown).  Note that run-level 
+one is single-user mode,  generally only used by sysadmins for doing system 
+maintenance or when you have a serious problem, and run-level six is used for reboot.</p>
+
+<p>The remaining three parameters look like they have something to do with the order
+in which the scripts are run.  <code>Required-Start</code> and <code>Required-Stop</code> look like 
+they control the order of starting and stopping services.  We aren’t fussed about 
+start-up so clear this out.  </p>
+
+<p>At this point I’m going to skip a bit of trial and error I did while I played around 
+with various values in <code>Required-Stop</code> option, but let’s just say that nothing I tried 
+made much difference.  The values you can use in this option are the name of another 
+init script, or a few special values (such as <code>$syslog</code>) which are defined in the 
+<a href="https://wiki.debian.org/LSBInitScripts">documentation</a>.</p>
+
+<p>Eventually I abandoned trying to make <code>Required-Stop</code> work and noticed an option that
+wasn’t in the original script we copied called <code>X-Stop-After</code>.  This makes much more 
+sense and does what it says on the tin - stop this script after some other.</p>
+
+<p>Looking at the scripts that run in our current shutdown sequence (above) the last
+few are <code>K08umountfs</code>, <code>K09umountroot</code> and <code>K10halt</code>.  We can’t stop after <code>halt</code>
+because the system will be halted at that time.  I tried stopping after <code>unmountroot</code>
+which nearly worked, but it didn’t quite have time to complete drawing the entire display
+before the system halted so I ended up with only half a message.  </p>
+
+<p>Finally I decided on <code>X-Stop-After: umountfs</code>, which seemed to work nicely.  You may
+need to experiment a little.  My header ended up looking like this:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line"><span class="c">### BEGIN INIT INFO</span>
+</span><span class="line"><span class="c"># Provides: pifaceshutdown</span>
+</span><span class="line"><span class="c"># Required-Start:</span>
+</span><span class="line"><span class="c"># Required-Stop:</span>
+</span><span class="line"><span class="c"># X-Stop-After:      umountfs</span>
+</span><span class="line"><span class="c"># Default-Start:</span>
+</span><span class="line"><span class="c"># Default-Stop:      0</span>
+</span><span class="line"><span class="c"># Short-Description: Displays a shutdown message on the PiFace.</span>
+</span><span class="line"><span class="c"># Description:       Displays a shutdown message on the PiFace.</span>
+</span><span class="line"><span class="c">### END INIT INFO</span>
+</span></code></pre></div></figure></notextile></div>
+
+<p>Finally, re-add the script to run-level zero and check it worked.</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span></span></figcaption><div class="highlight"><pre><code class="sh"><span class="line">pi@raspberrypi ~ <span class="nv">$ </span>sudo update-rc.d pifaceshutdown stop 99 0 .
+</span><span class="line">update-rc.d: using dependency based boot sequencing
+</span><span class="line">
+</span><span class="line">pi@raspberrypi ~ <span class="nv">$ </span>ls /etc/rc0.d/*pifaceshutdown
+</span><span class="line">/etc/rc0.d/K09pifaceshutdown
+</span></code></pre></div></figure></notextile></div>
+
+<p>Much better!  Make sure to clear the PiFace if it’s still showing the 
+shutdown message from our earlier test (or you won’t know if it’s worked
+or not), then shutdown your Raspberry Pi.  It doesn’t matter how you shutdown,
+I usually use the command line <code>sudo shutdown now -h</code>.</p>
+
+<p><img src="http://swindon.hackspace.org.uk/blog/piface-shutdown-message/piface-shutdown.jpg" alt="PiFace Shutdown" /></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octoprint and the Raspberry Pi Camera Module]]></title>
