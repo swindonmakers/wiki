@@ -105,14 +105,13 @@ task :new_post, :title do |t, args|
   end
   puts "Creating new post: #{filename}"
   open(filename, 'w') do |post|
-    post.puts "layout:       post"
     post.puts "title:        #{title.gsub(/&/,'&amp;')}"
     post.puts "subtitle:     "
     post.puts "categories:   "
     post.puts "author:       "
     post.puts "image:        "
     post.puts "date:         #{Time.now.strftime('%Y-%m-%d %H:%M')}"
-    post.puts "published:    false"
+    post.puts "discuss:      #leave until published"
     post.puts ""
   end
 end
