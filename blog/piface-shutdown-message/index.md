@@ -1,11 +1,10 @@
-layout:       post
 title:        PiFace Shutdown Message
 subtitle:     A useful addition to your Raspberry Pi
 categories:   projects
 author:       Robert Longbottom
 image:        piface-shutdown.jpg
 date:         2014-06-03 16:13
-published:    true
+discuss:      bZVBwW6iHdM
 
 If you're running your Raspberry Pi in a headless mode, sometimes it's hard to know 
 when shutdown is complete and it's safe to turn off the power. If you have a 
