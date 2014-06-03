@@ -4,7 +4,8 @@ For help with actually creating a post, please see [[contributing website and wi
 
 ### Workflow:
 
-* Deploy rendered site, then check that post is live and rendered without issues.
+* Deploy rendered site, then check that post is live and rendered without issues.  
+  (you can do this without commiting any final tweaks just yet, to save an extra commit.) 
 
 * Create a new google group topic, via [email](mailto:swindon-hackspace@googlegroups.com) or [web](https://groups.google.com/forum/#!newtopic/swindon-hackspace), using the format [shown below](#group-topic).  Ideally, the topic should be created by the `Swindon Hackspace`.  Before sending, double-check that the links in the group topic correctly link to the new blog post.
 
@@ -16,7 +17,7 @@ For help with actually creating a post, please see [[contributing website and wi
 
   For the above example, `discuss:  ywV59enffto` would be added to the post's metadata.
 
-* Rebuild and deploy the site to enable the post's share button.
+* Commit final changes. Rebuild and deploy the site to enable the post's share button.
 
 * Tweet a new post notification using the format [shown below](#twitter-post).
 
