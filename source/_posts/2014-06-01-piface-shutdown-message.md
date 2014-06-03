@@ -1,14 +1,13 @@
-layout:       post
 title:        PiFace Shutdown Message
 subtitle:     A useful addition to your Raspberry Pi
 categories:   projects
 author:       Robert Longbottom
 image:        piface-shutdown.jpg
-date:         2014-06-01 17:13
-published:    true
+date:         2014-06-03 17:13
+discuss:      bZVBwW6iHdM
 
-If you're running your Raspberry Pi in a headless mode sometimes it's hard to know 
-when shutdown is complete and its safe to turn off the power. If you have a 
+If you're running your Raspberry Pi in a headless mode, sometimes it's hard to know 
+when shutdown is complete and it's safe to turn off the power. If you have a 
 [PiFace](http://uk.farnell.com/piface/piface-control-display/i-o-board-with-lcd-display-for/dp/2344458)
 you could use that to display a message when shutdown is complete.  In this article 
 we'll see how to do just that.
@@ -17,8 +16,8 @@ we'll see how to do just that.
 
 ### The Message
 
-First of all let's create a python script to display message on the PiFace.  
-Check out my previous post on [getting started with the PiFace]({{ root_url }}/blog/piface-control-and-display-board/)
+First of all, let's create a python script to display a message on the PiFace. 
+Check out my previous post on [getting started with the PiFace]({% post_url 2014-05-04-piface-control-and-display-board %})
 for more details on exactly how to do this.
 
 This is the script I'll be using, it displays the Swindon Hackspace logo and
@@ -60,12 +59,12 @@ cad.lcd.write_custom_bitmap(4)
 cad.lcd.write_custom_bitmap(5)
 ```
 
-Test that your script works buy running it now `python3 ShutdownMessage.py`
+Test that your script works by running it now: `python3 ShutdownMessage.py`.
 
 ### Getting the Script to Run on Shutdown.
 
 The Linux rc system controls what services and processes run at boot time and at 
-shutdown. Its fairly easy to insert a small script into the startup sequence 
+shutdown. It's fairly easy to insert a small script into the startup sequence 
 because you can simply add it to `rc.local`, however there is no equivalent for 
 shutdown.
 
@@ -80,7 +79,7 @@ sudo cp /etc/init.d/pifacecadsysinfo /etc/init.d/pifaceshutdown
 ```
 
 Open it up in your favourite editor, since it is in the `etc` folder you'll need 
-to be root to be allowed to save changes so I use this:
+to be root to be allowed to save changes, so I use this:
 
 ```sh
 sudoedit /etc/init.d/pifaceshutdown
@@ -88,7 +87,7 @@ sudoedit /etc/init.d/pifaceshutdown
 
 Looking at the structure of the script there are a few points of interest.  The header 
 at the top defines some parameters used by the init system to determine script order, 
-more on that later.  
+more on that later. 
 
 For now I'm interested in the start and stop functions.  The `stop()` function is where 
 we need to call our script.  We can take the code currently in the `start()` function and 
@@ -123,13 +122,13 @@ start() {
 
 ### The Tricky Bit
 
-The whole idea of this is to try and give us an indication that its safe to disconnect 
+The whole idea of this is to try and give us an indication that it's safe to disconnect 
 the power, so we want our script to run as late as possible in the shutdown sequence.
 
 Linux startup and shutdown is controlled by scripts which are run as part of
 run-levels.  There is more info [here](http://www.debian.org/doc/debian-policy/ch-opersys.html#s-sysvinit)
 but for now all we need to know is that runlevel zero specifies 
-scripts to run at shutdown, the scripts live in `/etc/init.d` and from there they
+scripts to run at shutdown. The scripts live in `/etc/init.d` and from there they
 are linked to directories `/etc/rc0.d`, `/etc/rc1.d`, etc, one for each run-level.
 
 We can see which scripts are currently configured to run at shutdown by looking in 
@@ -163,7 +162,7 @@ lrwxrwxrwx 1 root root  20 Apr 21  2013 K09umountroot -> ../init.d/umountroot
 lrwxrwxrwx 1 root root  14 Apr 21  2013 K10halt -> ../init.d/halt
 ```
 
-Its looks pretty easy to add our script using the `update-rc.d` command:
+It looks pretty easy to add our script using the `update-rc.d` command:
 
 ```
 usage: update-rc.d [-n] [-f] <basename> remove
@@ -198,7 +197,7 @@ okay to disconnect the power.  So we'll have to do something else.
 Notice the output we got from `update-rc.d`, it said "using dependency based 
 boot sequencing".  That header in the init script we saw earlier is important.
 It looks a bit like a big comment ('#' is used to indicate a line is a comment
-in many linux scripts and some programming languages)
+in many linux scripts and some programming languages).
 
 ```
 ### BEGIN INIT INFO
@@ -216,7 +215,7 @@ Looks like we'd better update this.  First off, it would be polite to update the
 descriptions, so do that.
 
 `Default-Start` and `Default-Stop` look like they give a hint to which run-levels 
-our script should be in by default, so lets clear out `Default-Start` and set 
+our script should be in by default, so let's clear out `Default-Start` and set 
 `Default-Stop` to just include run level zero (shutdown).  Note that run-level 
 one is single-user mode,  generally only used by sysadmins for doing system 
 maintenance or when you have a serious problem, and run-level six is used for reboot.
@@ -227,7 +226,7 @@ they control the order of starting and stopping services.  We aren't fussed abou
 start-up so clear this out.  
 
 At this point I'm going to skip a bit of trial and error I did while I played around 
-with various values in `Required-Stop` option, but lets just say that nothing I tried 
+with various values in `Required-Stop` option, but let's just say that nothing I tried 
 made much difference.  The values you can use in this option are the name of another 
 init script, or a few special values (such as `$syslog`) which are defined in the 
 [documentation](https://wiki.debian.org/LSBInitScripts).
@@ -240,7 +239,7 @@ Looking at the scripts that run in our current shutdown sequence (above) the las
 few are `K08umountfs`, `K09umountroot` and `K10halt`.  We can't stop after `halt`
 because the system will be halted at that time.  I tried stopping after `unmountroot`
 which nearly worked, but it didn't quite have time to complete drawing the entire display
-before the system halted so I ended up with only half a message.  
+before the system halted so I ended up with only half a message. 
 
 Finally I decided on `X-Stop-After: umountfs`, which seemed to work nicely.  You may
 need to experiment a little.  My header ended up looking like this:
@@ -258,7 +257,7 @@ need to experiment a little.  My header ended up looking like this:
 ### END INIT INFO
 ```
 
-Finally, re-add the script to run-level zero and check its worked.
+Finally, re-add the script to run-level zero and check it worked.
 
 ```
 pi@raspberrypi ~ $ sudo update-rc.d pifaceshutdown stop 99 0 .
@@ -269,8 +268,8 @@ pi@raspberrypi ~ $ ls /etc/rc0.d/*pifaceshutdown
 ```
 
 Much better!  Make sure to clear the PiFace if it's still showing the 
-shutdown message from our earlier test (or you wont know if it's worked
-or not) then shutdown your Raspberry Pi.  It doens't matter how you shutdown,
+shutdown message from our earlier test (or you won't know if it's worked
+or not), then shutdown your Raspberry Pi.  It doesn't matter how you shutdown,
 I usually use the command line `sudo shutdown now -h`.
 
 ![PiFace Shutdown](piface-shutdown.jpg)
