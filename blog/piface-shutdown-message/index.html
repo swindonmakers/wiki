@@ -112,7 +112,7 @@
   
 
 
-<time datetime="2014-06-03T16:13:00+01:00" pubdate data-updated="true">Jun 3<span>rd</span>, 2014</time>
+<time datetime="2014-06-03T17:13:00+01:00" pubdate data-updated="true">Jun 3<span>rd</span>, 2014</time>
         
       </p>
     
@@ -129,7 +129,7 @@ we’ll see how to do just that.</p>
 
 <h3 id="the-message">The Message</h3>
 
-<p>First of all, let’s create a python script to display a message on the PiFace.<br />
+<p>First of all, let’s create a python script to display a message on the PiFace. 
 Check out my previous post on <a href="/blog/piface-control-and-display-board/">getting started with the PiFace</a>
 for more details on exactly how to do this.</p>
 
@@ -197,7 +197,7 @@ to be root to be allowed to save changes, so I use this:</p>
 
 <p>Looking at the structure of the script there are a few points of interest.  The header 
 at the top defines some parameters used by the init system to determine script order, 
-more on that later.  </p>
+more on that later. </p>
 
 <p>For now I’m interested in the start and stop functions.  The <code>stop()</code> function is where 
 we need to call our script.  We can take the code currently in the <code>start()</code> function and 
@@ -341,7 +341,7 @@ sense and does what it says on the tin - stop this script after some other.</p>
 few are <code>K08umountfs</code>, <code>K09umountroot</code> and <code>K10halt</code>.  We can’t stop after <code>halt</code>
 because the system will be halted at that time.  I tried stopping after <code>unmountroot</code>
 which nearly worked, but it didn’t quite have time to complete drawing the entire display
-before the system halted so I ended up with only half a message.  </p>
+before the system halted so I ended up with only half a message. </p>
 
 <p>Finally I decided on <code>X-Stop-After: umountfs</code>, which seemed to work nicely.  You may
 need to experiment a little.  My header ended up looking like this:</p>
@@ -395,7 +395,7 @@ I usually use the command line <code>sudo shutdown now -h</code>.</p>
   
 
 
-<time datetime="2014-06-03T16:13:00+01:00" pubdate data-updated="true">Jun 3<span>rd</span>, 2014</time>
+<time datetime="2014-06-03T17:13:00+01:00" pubdate data-updated="true">Jun 3<span>rd</span>, 2014</time>
       
 
 <span class="categories">

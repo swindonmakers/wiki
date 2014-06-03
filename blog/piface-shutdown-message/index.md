@@ -3,7 +3,7 @@ subtitle:     A useful addition to your Raspberry Pi
 categories:   projects
 author:       Robert Longbottom
 image:        piface-shutdown.jpg
-date:         2014-06-03 16:13
+date:         2014-06-03 17:13
 discuss:      bZVBwW6iHdM
 
 If you're running your Raspberry Pi in a headless mode, sometimes it's hard to know 
@@ -16,7 +16,7 @@ we'll see how to do just that.
 
 ### The Message
 
-First of all, let's create a python script to display a message on the PiFace.  
+First of all, let's create a python script to display a message on the PiFace. 
 Check out my previous post on [getting started with the PiFace]({% post_url 2014-05-04-piface-control-and-display-board %})
 for more details on exactly how to do this.
 
@@ -87,7 +87,7 @@ sudoedit /etc/init.d/pifaceshutdown
 
 Looking at the structure of the script there are a few points of interest.  The header 
 at the top defines some parameters used by the init system to determine script order, 
-more on that later.  
+more on that later. 
 
 For now I'm interested in the start and stop functions.  The `stop()` function is where 
 we need to call our script.  We can take the code currently in the `start()` function and 
@@ -239,7 +239,7 @@ Looking at the scripts that run in our current shutdown sequence (above) the las
 few are `K08umountfs`, `K09umountroot` and `K10halt`.  We can't stop after `halt`
 because the system will be halted at that time.  I tried stopping after `unmountroot`
 which nearly worked, but it didn't quite have time to complete drawing the entire display
-before the system halted so I ended up with only half a message.  
+before the system halted so I ended up with only half a message. 
 
 Finally I decided on `X-Stop-After: umountfs`, which seemed to work nicely.  You may
 need to experiment a little.  My header ended up looking like this:
