@@ -4,7 +4,7 @@
   <title><![CDATA[Swindon Hackspace]]></title>
   <link href="http://swindon.hackspace.org.uk/atom.xml" rel="self"/>
   <link href="http://swindon.hackspace.org.uk/"/>
-  <updated>2014-06-03T18:42:37+01:00</updated>
+  <updated>2014-06-03T19:57:01+01:00</updated>
   <id>http://swindon.hackspace.org.uk/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -75,9 +75,9 @@ a simple message.</p>
 </span><span class="line"><span class="n">cad</span><span class="o">.</span><span class="n">lcd</span><span class="o">.</span><span class="n">write_custom_bitmap</span><span class="p">(</span><span class="mi">5</span><span class="p">)</span>
 </span></code></pre></div></figure></notextile></div>
 
-<p>Test that your script works by running it now: <code>python3 ShutdownMessage.py</code>.</p>
+<p>Test that your script works by running it now: <code>python3 ShutdownMessage.py</code></p>
 
-<h3 id="getting-the-script-to-run-on-shutdown">Getting the Script to Run on Shutdown.</h3>
+<h3 id="getting-the-script-to-run-on-shutdown">Getting the Script to Run on Shutdown</h3>
 
 <p>The Linux rc system controls what services and processes run at boot time and at 
 shutdown. It’s fairly easy to insert a small script into the startup sequence 

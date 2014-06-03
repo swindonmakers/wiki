@@ -59,9 +59,9 @@ cad.lcd.write_custom_bitmap(4)
 cad.lcd.write_custom_bitmap(5)
 ```
 
-Test that your script works by running it now: `python3 ShutdownMessage.py`.
+Test that your script works by running it now: `python3 ShutdownMessage.py`
 
-### Getting the Script to Run on Shutdown.
+### Getting the Script to Run on Shutdown
 
 The Linux rc system controls what services and processes run at boot time and at 
 shutdown. It's fairly easy to insert a small script into the startup sequence 
