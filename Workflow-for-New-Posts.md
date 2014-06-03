@@ -28,18 +28,19 @@ For help with actually creating a post, please see [[contributing website and wi
 _Hint: edit the markdown source of this example, then copy the rendered preview into the email or web form._
 
 `subject: `
-New Post: PiFace Control And Display Board
+New Post: PiFace Shutdown Message
 
-### [PiFace Control And Display Board](http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/)
+### [PiFace Shutdown Message](http://swindon.hackspace.org.uk/blog/piface-shutdown-message/)
 
 Author: Robert Longbottom
 
-The Hackspace recently took delivery of a 
-[PiFace Control and Display board from Farnell](http://uk.farnell.com/piface/piface-control-display/i-o-board-with-lcd-display-for/dp/2344458).
-It is an add-on board for the Raspberry Pi that includes a 16 character by 2 line
-display, five push buttons, a toggle button and an IR receiver.
+If you're running your Raspberry Pi in a headless mode, sometimes it's hard to know
+when shutdown is complete and it's safe to turn off the power. If you have a
+[PiFace](http://uk.farnell.com/piface/piface-control-display/i-o-board-with-lcd-display-for/dp/2344458)
+you could use that to display a message when shutdown is complete.  In this article
+we'll see how to do just that.
 
-[Read More..](http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/)
+[Read More..](http://swindon.hackspace.org.uk/blog/piface-shutdown-message/)
 
 
 ---
@@ -47,8 +48,8 @@ display, five push buttons, a toggle button and an IR receiver.
 ### Twitter Post
 
 ```
-New Post: PiFace Control And Display Board, by @AstroFraggle
-http://swindon.hackspace.org.uk/blog/piface-control-and-display-board/
+New Post: PiFace Shutdown Message, by @AstroFraggle
+http://swindon.hackspace.org.uk/blog/piface-shutdown-message/
 ```
 
 A photo should be added at the end of the tweet, normally the same one that's set for use on the main index page.  _Note: the photo must be uploaded with the tweet; pasting the URL of a photo into the tweet doesn't work. :(_
