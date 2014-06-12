@@ -1,8 +1,11 @@
 <!-- fixme: add some links in para text -->
 
-Most text based documents produced by the Hackspace are stored on Github and collaborated upon using Git.
+Most text based documents produced by the Hackspace are stored on Github and collaborated upon using Git.  
 
-Documents include program code, web pages, publicity, and other media.  Other (binary) files can be tracked on github - such as images, word documents, and pdf files - but depending upon file type, granular changes to files may not be shown.
+Text documents include program code, web pages, publicity, and other media.  Other (binary data) files can be tracked on github - such as images, word documents, and pdf files - but depending upon the file type, granular changes to files may not be shown.
+
+Git is a distributed system and can therefore, be used without having a Github account.  However, Github makes it easy to keep up to date and work with other members online.  If you want to contribute any code, fixes, suggestions, or other useful info, then please ask to be added to the [snhack organisation](http://github.com/snhack) or simply post an issue or pull request to the relevant repository.
+
 
 
 #### Help using Git
@@ -17,6 +20,7 @@ Documents include program code, web pages, publicity, and other media.  Other (b
 - [Set Up Git] • [Create a Repo] • [Fork a Repo]
 
 - [Be Social] • [Github Resources] • [Glossary]
+
 
 #### Atlassian Tutorials
 
