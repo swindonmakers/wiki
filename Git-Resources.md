@@ -2,9 +2,9 @@
 
 Most documents and code produced by the Hackspace is stored on Github and collaborated upon using Git.
 
-Git is a distributed system and can therefore, work independently from Github.  Additionally, if you just want to grab a copy of some file, then download links can be used without needing to use git.
+Git is a distributed system and can therefore, work independently from Github.  Additionally, if you just want to grab a copy of some file, then download links can be used without needing to use git.  However, Github makes it easy to keep up to date and work with other members online.
 
-However, Github makes it easy to keep up to date and work with other members online, so if you want to contribute any code, fixes, suggestions, or other useful info, then please ask to be added to the [snhack organisation](http://github.com/snhack), or simply post an issue or pull request to the relevant repository.
+If you want to contribute any code, fixes, suggestions, or other useful info, then please ask to be added to the [snhack organisation](http://github.com/snhack), or simply post an issue or pull request to the relevant repository.
 
 
 #### Help using Git
