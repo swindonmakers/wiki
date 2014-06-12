@@ -1,7 +1,6 @@
 ###### [[Home]]
 
 [[Useful Links]] • [[Contacts]]  
-[[Using Social Media]]  
 [[Contributing]] • [[Git Resources]]
 
 ###### [[Hackspace|Welcome]]
