@@ -24,6 +24,6 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [[share or r
 - [[Contributing website and wiki content|Contributing]]
 
 
-#### Help using Git
+#### Collaboration using Git
 
 - [[Tutorials and other Git resources|Git Resources]]
