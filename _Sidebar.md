@@ -1,8 +1,8 @@
 ###### [[Home]]
 
 [[Useful Links]] • [[Contacts]]  
-[[Contributing]] • [[Using Social Media]]
-
+[[Using Social Media]]  
+[[Contributing]] • [[Git Resources]]
 
 ###### [[Hackspace|Welcome]]
 
@@ -20,8 +20,6 @@
 [[Launchpad Display Driver]] • 
 [[Big Curvy LED Screen]] • 
 [[Twitter to Teletype]]
-
-
 
 
 
