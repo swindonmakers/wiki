@@ -1,3 +1,10 @@
+<!-- fixme: add some links in para text -->
+
+Most text based documents produced by the Hackspace are stored on Github and collaborated upon using Git.
+
+Documents include program code, web pages, publicity, and other media.  Other (binary) files can be tracked on github - such as images, word documents, and pdf files - but depending upon file type, granular changes to files may not be shown.
+
+
 #### Help using Git
 
 - [Blog post: Resources for Using Git](http://swindon.hackspace.org.uk/blog/resources-for-using-git/)
