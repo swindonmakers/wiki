@@ -26,7 +26,7 @@ coffee making facilities are provided (as well as the tea and coffee).
 
 We are conveniently located in the [town centre][view map], next to the Regent Circus bus
 stops[^busstops] (northbound). Limited free parking can normally be found on
-[Euclid Street], while the [Wyvern Car Park] costs £1.00 (both after 6pm).
+[Euclid Street], while the [Wyvern Car Park] costs £1.00 for upto two hours, or £2 all night (both after 6pm).
 
 [^stairs]:
     Unfortunately, there's no wheelchair access to the hackspace; though it is

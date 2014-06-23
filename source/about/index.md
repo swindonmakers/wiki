@@ -44,7 +44,7 @@ Theatre ([view map]) and next to the Regent Circus bus stops[^busstops] (northbo
 
 Sessions start at 6.30pm each Wednesday, and it's advisable to arrive no later than
 7.15pm. We usually finish between 9.30 and 10pm. Limited free parking can normally be
-found on [Euclid Street], while the [Wyvern Car Park] costs £1.00 (both after 6pm).
+found on [Euclid Street], while the [Wyvern Car Park] costs £1.00 for upto two hours, or £2 all night (both after 6pm).
 
 Session price is £4 and paid on admission. Membership is paid annually in advance
 and costs £10 (waived until third visit for new members, due each July thereafter).
