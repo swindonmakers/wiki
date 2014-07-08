@@ -4,6 +4,8 @@ Use the folder jekyll generates for a post, to store associated assets.
 
 Assumes your posts are rendered as `index.html`, into their own folder.
 
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://jmeosbn.mit-license.org/2013)
+
 
 ### Usage
 
@@ -39,7 +41,3 @@ Also copies the raw source file into the generated post folder.
 Created by [Jamie Osborne](https://github.com/jmeosbn).
 
 [Upstream GitHub project](https://github.com/jmeosbn/post_images)
-
-### License
-
-[MIT License](LICENSE).
