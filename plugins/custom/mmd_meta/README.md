@@ -2,6 +2,8 @@
 
 Support MultiMarkdown formatted metadata in Jekyll posts.
 
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://jmeosbn.mit-license.org/2013)
+
 
 ### Usage
 
@@ -54,7 +56,3 @@ _note: no value needed to be set for the layout field_
 Created by [Jamie Osborne](https://github.com/jmeosbn).
 
 [Upstream GitHub project](https://github.com/jmeosbn/mmd_meta)
-
-### License
-
-[MIT License](LICENSE).
