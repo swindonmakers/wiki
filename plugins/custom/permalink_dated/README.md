@@ -4,6 +4,8 @@ Use an alternative permalink format for duplicate titles.
 
 Allows using a simple permalink by default, or a dated permalink as needed.
 
+[![License](http://img.shields.io/:license-mit-blue.svg)](http://jmeosbn.mit-license.org/2013)
+
 
 ### Usage
 
@@ -37,7 +39,3 @@ The actual format used can be defined in `_config.yml` with `permalink_dated`.
 Created by [Jamie Osborne](https://github.com/jmeosbn).
 
 [Upstream GitHub project](https://github.com/jmeosbn/permalink_dated)
-
-### License
-
-[MIT License](LICENSE).
