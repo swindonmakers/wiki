@@ -127,6 +127,9 @@ twitter_count: none
 twitter_tweet_button: true
 twitter_widget_id: 356204429415956482
 
+# Facebook
+facebook_user: swindon.hackspace
+
 # Google +1
 google_plus_one: false
 google_plus_one_size: medium

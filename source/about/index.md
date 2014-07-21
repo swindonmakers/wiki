@@ -37,6 +37,7 @@ please let us know via the [group] or on twitter [@snhack].
 [group]: {{ site.rss_feed_title_url }}
 [@snhack]: https://twitter.com/intent/tweet?screen_name={{site.twitter_user}}
 
+
 ### Weekly Meetings
 
 The Swindon Hackspace meets weekly at the [Museum of Computing], located near the Wyvern
@@ -66,12 +67,13 @@ required.
 
 ### Online Presence
 
-The hackspace is active on [Google Groups], [Twitter], [YouTube], and [Github].
+The hackspace is active on [Google Groups], [Twitter], [Facebook], [YouTube], and [Github].
 
 Related articles are published at <{{ site.url }}> (submissions [welcome]!).
 
 [Google Groups]: {{ site.rss_feed_title_url }}
 [Twitter]: http://twitter.com/{{site.twitter_user}}
+[Facebook]: https://facebook.com/{{site.facebook_user}}
 [YouTube]: http://www.youtube.com/user/{{ site.youtube }}
 [Github]: http://github.com/{{site.github_user}}
 

@@ -86,6 +86,6 @@ members to use.  For a full list please see the [tools page] on our [wiki].
   modded to plot using an etch resist pen.
 
 - [3D printer] - we are always doing upgrades to the printer, trying to
-  improve the print quality, but do manage to get some priting time in-between.
+  improve the print quality, but do manage to get some printing time in-between.
 
 [pen plotter]: {{ site.github_wiki }}/Pen-plotter
