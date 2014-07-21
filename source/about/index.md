@@ -8,7 +8,7 @@ sidebar: false
 ---
 
 
-![TestPi](testpi.jpg){:.right}
+[![TestPi](testpi.jpg){:.right}](testpi-full.jpg)
 
 The Swindon [Hackspace] formed in June 2012, holding [weekly meetings](#weekly-meetings)
 for those interested in making, breaking, and fixing things. We are a new hackspace,
