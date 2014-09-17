@@ -40,10 +40,10 @@ PenSelect = "J%d\n"
 
 * Open your board file in eagle
 * File > CAM Processor
-* Set your output device
+* Set your output device - i.e. "Graphtek MP1000" and specify an output file
 * "pos. Coord" should be on
 * "Optimize" should probably be on
-* Set the layers you want to plot on the right-hand side, and select the pen numbers to use.  Note that the plotter only has 6 pen positions, but some of the layers default to 8.
+* Set the layers you want to plot on the right-hand side, and select the pen numbers to use.  Note that the plotter only has 6 pen positions, but some of the layers default to 8.  In windows, double click to change the pen number.
  * You probably want Top || Bottom, Pads, and Vias.
 * Process Job
 
