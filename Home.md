@@ -7,7 +7,6 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [[share or r
 
 - [[Useful Links]] • [[Contacts]]
 
-
 #### Hackspace
 
 - [[Hackspace Events]]
@@ -16,6 +15,7 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [[share or r
 
 - [[Tools and consumables]]
 
+- [[Hackspace Planning]]
 
 #### Web Presence
 
