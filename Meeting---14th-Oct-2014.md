@@ -7,7 +7,7 @@
 ## Agenda
 
 1. PR stunts - align on the principle, discuss ideas, next steps
-2. Events - inc Intro to Arduino series, Make:Shift:Do, [[OpensCAD Training]] series - agree scope, timing, roles, any budget requirement(s)
+2. Events - inc Intro to Arduino series, Make:Shift:Do, [[OpenSCAD Training]] series - agree scope, timing, roles, any budget requirement(s)
 3. Procurement - process, tools, roles
 4. Online tools (Google groups, Slack, etc) - summary of requirements (Jamie to lead?), discussion of options, next steps
 5. "Board" positions - summary of roles identified so far (Jess to lead?), next steps
