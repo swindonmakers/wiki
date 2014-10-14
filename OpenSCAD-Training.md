@@ -10,3 +10,6 @@ This page summarises a series of instructor-lead workshops to introduce people t
 4. Machine design - concepts, file structure, bulk generating STL, generating BOMs
 5. Collaborative design (using github/dropbox) - best practises, hint&tips
 
+
+## Interested People
+1. Rob - for the move advanced stuff (2 onwards)
