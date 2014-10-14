@@ -15,7 +15,7 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [[share or r
 
 - [[Tools and consumables]]
 
-- [[Hackspace Planning]]
+- [[Hackspace Management]]
 
 #### Web Presence
 
