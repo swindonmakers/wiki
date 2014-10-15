@@ -6,8 +6,8 @@
 ###### [[Hackspace|Welcome]]
 
 [[Hackspace Events]]  
-[[Tools and Consumables]]
-[[Shopping List]]
+[[Tools and Consumables]]  
+[[Shopping List]]  
 [[Hackspace Management]]
 
 ###### [[Projects|Hackspace Projects]]
