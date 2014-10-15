@@ -21,7 +21,9 @@
 [[Big Curvy LED Screen]] • 
 [[Twitter to Teletype]]
 
+###### [[Meetings]]
 
+[[Planning/Organisation-2014-10-14]]
 
 <!-- footer links -->
 
