@@ -26,7 +26,7 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [[share or r
 
 - [[Twitter to Teletype]]
 
-- [[All Projects|Hackspace Projects]]
+- [[Past Projects|Hackspace Projects]]
 
 
 #### Web Presence
