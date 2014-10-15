@@ -13,3 +13,6 @@ These items are definitely required now and should be bought as soon as possible
 
 ### Wish List / Suggestions
 These items are things that it might be nice to have available and should be discussed and prioritised.
+
+* M3 nuts
+* M3 bolts (hm, length?)
