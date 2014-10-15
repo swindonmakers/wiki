@@ -31,9 +31,9 @@ This page summarises a series of instructor-lead workshops to introduce people t
 * Interface
 * 2D Shapes - Circle, Square
 * Transformations - Translate, Rotate, Mirror
-* Extrusion - linear_extrude
 * Booleans - Union, Difference, Intersection
 * Hull
+* Extrusion - linear_extrude
 * Variables
 * Loops - For
 * 3D Shapes - Sphere, Cube, Cylinder
