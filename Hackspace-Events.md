@@ -2,7 +2,7 @@ List any events - planned, completed, or wanted.
 
 ### Planned
 
-* [[OpenSCAD Training]] - running from 15/10/14
+* [[OpenSCAD Training]] - *running from 15/10/14*
 
 
 ### Wanted or Planning
