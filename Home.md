@@ -20,7 +20,7 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [[share or r
 - [[Hackspace Management]]
 
 
-#### Hackspace Projects
+#### Projects
 
 - [[Pen Plotter]]
 
