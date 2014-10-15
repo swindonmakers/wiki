@@ -1,6 +1,6 @@
 ## Introduction
 
-This page summarises a series of instructor-lead workshops to introduce people to modelling with OpenSCAD, primarily as a precursor 3D printing.   The workshops are developed/lead by members of the Swindon Hackspace.
+This page summarises a series of instructor-lead workshops to introduce people to modelling with OpenSCAD, primarily as a precursor 3D printing.   The workshops are developed/lead by members of the Swindon Hackspace.  The output of the course is a set of parts for a simple mobile robot, that you design yourself and will be ready to print.
 
 ## Course Outline
 
@@ -25,7 +25,7 @@ This page summarises a series of instructor-lead workshops to introduce people t
 
 ### 1. Intro to OpenSCAD
 
-**Goal:** Design a basic part and export it as an STL file for printing
+**Goal:** Design a basic part and export it as an STL file for printing.
 
 **Agenda**
 * Interface
@@ -62,6 +62,27 @@ This page summarises a series of instructor-lead workshops to introduce people t
 * Avoiding non-manifold volumes - eta
 
 **Homework**
+* Refine your base model
 * Experiment with Rotate_extrude to model a wheel for the robot
 * Incorporate the wheels into the overall robot model
+
+
+### 3. Multi-Part Models
+
+**Goal:** Extend the robot design to incorporate bump sensors
+
+**Agenda**
+* Overview of key concepts - Vitamin, Printed Part, Assembly
+* Organising your project - file structure, naming conventions
+* Making assemblies easier - Attach
+* Attach the bump sensors
+* Refactor your design
+* Animate the wheels
+
+**Homework**
+* Add a placeholder for the electronics (Arduino + motor control)
+* Add a battery
+* Add a pen and start to design a pen lift mechanism using a micro-servo
+
+
 
