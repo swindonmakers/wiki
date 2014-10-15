@@ -13,6 +13,7 @@ This page summarises a series of instructor-lead workshops to introduce people t
 
 ## Interested People
 1. Rob - for the move advanced stuff (2 onwards)
+2. Jess - 2 onwards
 
 
 ## References
