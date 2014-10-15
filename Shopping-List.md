@@ -7,13 +7,17 @@ The plan is that this page should be reviewed regularly and an agreement reached
 ### Immediately Required
 These items are definitely required now and should be bought as soon as possible.
 
-* Small diameter heatshrink - todo: confirm diameter
-* Jumper leads - todo: confirm type, male-male, male-female, etc
-* Drill bits - todo: confirm sizes required or if anyone a has any spare at home.
-* Stripboard - todo: confirm amount needed for LED arrays (may be part of the Arduino workshop), and small amount for general use.
+Items | Notes / Supplier / Website | Price
+:--- | :---------- | :------ | :--------
+Small diameter heatshrink | todo: confirm diameter
+Jumper leads | todo: confirm type, male-male, male-female, etc
+Drill bits | todo: confirm sizes required or if anyone a has any spare at home.
+Stripboard | todo: amount for LED arrays (Arduino workshop?), and general use.
 
 ### Wish List / Suggestions
 These items are things that it might be nice to have available and should be discussed and prioritised.
 
-* M3 nuts
-* M3 bolts (hm, length?)
+Items | Notes / Supplier / Website | Price
+:--- | :---------- | :------ | :--------
+M3 nuts |
+M3 bolts (hm, length?) |
