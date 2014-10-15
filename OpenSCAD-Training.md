@@ -27,13 +27,14 @@ This page summarises a series of instructor-lead workshops to introduce people t
 
 **Goal:** Design a basic part and export it as an STL file for printing
 
+**Agenda**
 * Interface
 * 2D Shapes - Circle, Square
-* Translation
-* Rotation
+* Transformations - Translate, Rotate, Mirror
 * Extrusion - linear_extrude
 * Booleans - Union, Difference, Intersection
 * Hull
+* Variables
 * Loops - For
 * 3D Shapes - Sphere, Cube, Cylinder
 * Modules
@@ -41,4 +42,26 @@ This page summarises a series of instructor-lead workshops to introduce people t
 * Finish your part
 * Export as STL
 
+**Homework**
+* Model a common "vitamin" (bolt, motor, etc)
+* Add Color 
+
+### 2. Advanced Features and Common Libraries
+
+**Goal:** Design a simple mobile robot base to house 2 motors
+
+**Agenda**
+* Creating/using libraries - include, use - turn your homework vitamin into a library part
+* Intro to public libraries - selection of some key parts for the design
+* Laying out the parts - importing and placing the required vitamins
+* Blocking out the base
+* Useful libraries/functions to speed modelling - MCAD, moreShapes
+* Refining the base
+* Checking for common problems - collisions, slices
+* Conditionals - If, ?
+* Avoiding non-manifold volumes - eta
+
+**Homework**
+* Experiment with Rotate_extrude to model a wheel for the robot
+* Incorporate the wheels into the overall robot model
 
