@@ -25,7 +25,7 @@ This page summarises a series of instructor-lead workshops to introduce people t
 
 ### 1. Intro to OpenSCAD
 
-**Goal:** Design a basic part and export it as an STL file for printing.
+**Goal:** Design a basic part (Raspberry Pi Sled) and export it as an STL file for printing.
 
 **Agenda**
 * Interface
