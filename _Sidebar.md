@@ -10,6 +10,9 @@
 [[Shopping List]]  
 [[Hackspace Management]]
 
+###### [[Hackspace Events]]
+[[OpenSCAD Training]]
+
 ###### [[Projects|Hackspace Projects]]
 
 [[LogoBot]] • 
