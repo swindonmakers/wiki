@@ -25,7 +25,7 @@ Breadboards |||
 |
 **Pro Micro (USB)**|
 [Pro Micro, no USB micro cable][APU-AE] | AliExpress (C) | £3.48 [F3]
-USB Micro cable for Pro Micro | ? | ? [?]
+USB Micro cable for Pro Micro | ? | ?
 
 [APM-A]: http://www.amazon.co.uk/gp/product/B00H8MYAGI/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1
 [APM-EB]: http://www.ebay.co.uk/itm/251624189284
