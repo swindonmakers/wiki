@@ -21,7 +21,7 @@ Breadboard Jumper Kit | [65 pcs Male to Male][M2MJ] | Amazon (HK) | £1.30 [F3]
 Pro Mini | [With header pins, no serial cable][APM-A] | Amazon (HK) | £2.98 [F3]
 Pro Mini | [With header pins, no serial cable][APM-AE] | AliExpress (C) | £2.08 [F3]
 Pro Mini (no bootloader) | [No bootloader, header pins or cable, roughly finished][APM-EB] | eBay (C) | £1.49 [F3]
-USB to Serial Cable | [Serial cable needed for Pro Mini][APU-SC] | AliExpress (C) | £2.03 [F3]
+USB to Serial Cable | [Serial cable needed for Pro Mini][APM-SC] | AliExpress (C) | £2.03 [F3]
 |
 **Arduino Pro Micro (USB)**|
 Pro Micro | [With header pins, no USB micro cable][APU-AE] | AliExpress (C) | £3.48 [F3]
