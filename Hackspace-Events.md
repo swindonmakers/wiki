@@ -7,6 +7,7 @@ List any events - planned, completed, or wanted.
 
 ### Wanted or Planning
 
+* [[Collaboration with Git]] - Jamie
 * [[Arduino Workshop]] - Jamie + 1
 * Any ideas?
 
@@ -14,4 +15,3 @@ List any events - planned, completed, or wanted.
 ### Completed
 
 * OpenSCAD demo/workshop - Jess/James - completed
-
