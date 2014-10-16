@@ -90,10 +90,10 @@ Organisation meetings: We will have further such meetings as and when necessary.
 
 ## Actions (!)
 
-* Create a Wiki page for the current shopping list - All
+* Create a Wiki page for the current shopping list - All  (done - See [[?]])
 * Research local craft fairs or open air events we can take part in - Jess?
 * Research the mirobot library for use with logo bot - Jamie
 * Research/write-up use of IRC/Slack etc - James
 * Look into adding sub-groups to the google groups mailing list - Jess/James
 * Open Day - Plan, write-up, get started! - Jess
-* Logo bot - OpenSCAD workshops  - Damian
+* Logo bot - OpenSCAD workshops  - Damian - Done, see [[OpenSCAD Training]] and [[LogoBot]]
