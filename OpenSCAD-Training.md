@@ -7,8 +7,7 @@ This page summarises a series of instructor-lead workshops to introduce people t
 1. Intro to OpenSCAD - language basics, exporting to STL
 2. Advanced functions and Common libraries (utils and vitamins) - an overview of the most useful libraries out there
 3. Multi-part models - coding best practise, modularity, using "attach", animations
-4. Machine design - concepts, file structure, bulk generating STL, generating BOMs
-5. Collaborative design (using github/dropbox) - best practises, hint&tips
+4. Moving into Production - iterative development techniques, bulk generating STL, generating BOMs, efficient documentation/manuals
 
 
 ## Interested People
@@ -27,7 +26,7 @@ This page summarises a series of instructor-lead workshops to introduce people t
 
 ### 1. Intro to OpenSCAD
 
-**Goal:** Design a basic part (Raspberry Pi Sled) and export it as an STL file for printing.
+**Goal:** Able to model a basic part (e.g. Raspberry Pi Sled) and export it as an STL file for printing.
 
 **Example Code**
 See the associated github repo for [example code](https://github.com/snhack/OpenSCAD/tree/master/Extended%20Course/wk1%20-%20Intro%20to%20OpenSCAD)
@@ -49,45 +48,53 @@ See the associated github repo for [example code](https://github.com/snhack/Open
 
 **Homework**
 * Model a common "vitamin" (bolt, motor, etc)
-* Add Color 
+* Add Color (make it pretty)
 
 ### 2. Advanced Features and Common Libraries
 
-**Goal:** Design a simple mobile robot base to house 2 motors
+**Goal:** Understand how to integrate various vitamins and printed parts in a single model
 
 **Agenda**
-* Creating/using libraries - include, use - turn your homework vitamin into a library part
-* Intro to public libraries - selection of some key parts for the design
-* Laying out the parts - importing and placing the required vitamins
-* Blocking out the base
-* Useful libraries/functions to speed modelling - MCAD, moreShapes
-* Refining the base
-* Checking for common problems - collisions, slices
+* Review homework - use at least one as a group walkthrough / code review
+* Checking/solving for common problems - non-manifold, collisions, slices
 * Conditionals - If, ?
-* Avoiding non-manifold volumes - eta
+* Creating/using libraries - include, use - turn your homework vitamin into a library part
+* Structuring your project files - quick intro, detail is covered in wk3
+* Laying out vitamins - pre-cursor to designing printed parts around them
+* Fleshing out - designing your printed part around your vitamins
+* Useful public libraries/functions to speed modelling - MCAD, moreShapes, various vitamins
 
 **Homework**
-* Refine your base model
-* Experiment with Rotate_extrude to model a wheel for the robot
-* Incorporate the wheels into the overall robot model
+* Own the development of a part of the robot model (e.g. wheels, shell, bumper) and/or progress an individual project
+* Develop your part (and possibly a sub-assembly) within the playground ready for integration in wk3
 
 
 ### 3. Multi-Part Models
 
-**Goal:** Extend the robot design to incorporate bump sensors
+**Goal:** Understand more advanced techniques for working with complex models and collaborative design
 
 **Agenda**
-* Overview of key concepts - Vitamin, Printed Part, Assembly
-* Organising your project - file structure, naming conventions
-* Making assemblies easier - Attach
-* Attach the bump sensors
-* Refactor your design
-* Animate the wheels
+* Review homework - use at least one as a group walkthrough / code review
+* Review key concepts - Vitamin, Printed Part, Assembly
+* Detailed project structure - centralised config, naming conventions, etc
+* Making assemblies easier - Attach, Connectors, best practises
+* Refactoring to use Connectors and Attach
+* Working with sub-sub-assemblies
+* Creating special visualisations for documentation
+* Basic animation
 
 **Homework**
-* Add a placeholder for the electronics (Arduino + motor control)
-* Add a battery
-* Add a pen and start to design a pen lift mechanism using a micro-servo
+* Refactor your vitamins / assemblies / parts to use Connectors and Attach
+* Start modelling an optional extra
 
 
+### 4. Moving into Production
 
+**Goal:** Understand techniques to efficiently move a project into production
+
+**Agenda**
+* Review homework - use at least one as a group walkthrough / code review
+* Iterative development techniques - using the sandbox
+* Bulk generating STL
+* Generating BOMs
+* Efficient documentation/manuals - NaturalDocs, bulk generating visualisations, Markdown integration?
