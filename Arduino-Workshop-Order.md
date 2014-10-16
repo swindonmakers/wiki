@@ -9,7 +9,7 @@ Some items currently researching to satisfy kits needed for [[Arduino Workshop]]
 
 Note: All items listed have a long delivery time (2-3 weeks).
 
-Main choice is to go with a larger (but less cute) breadboard, and how many packs of jumpers to split among the kits (65pcs / 3 Kits?).
+Main choice is the controller: if going with a arduino compatible Pro Mini, a USB to Serial lead is required - otherwise the more expensive Pro Micro requires a standard USB micro cable. If the cost works out about the same, then the Micro is the better device for general use.
 
 Breadboards |||
 :---- | :------ | :--------
