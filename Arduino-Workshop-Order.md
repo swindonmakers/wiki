@@ -20,7 +20,7 @@ Breadboards |||
 **Pro Mini (Serial)**|
 [Pro Mini, no serial cable][APM-A] | Amazon (HK) | £2.98 [F3]
 [Pro Mini, no serial cable][APM-AE] | AliExpress (C) | £2.08 [F3]
-[Pro Mini, no bootloader/headers/cable, roughly finished][APM-EB] | eBay (C) | £1.49 [F3]
+[Pro Mini, no bootloader/headers/cable][APM-EB] | eBay (C) | £1.49 [F3]
 [USB->Serial cable for Pro Mini][APM-SC] | AliExpress (C) | £2.03 [F3]
 |
 **Pro Micro (USB)**|
