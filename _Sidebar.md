@@ -12,6 +12,7 @@
 
 ###### [[Projects|Hackspace Projects]]
 
+[[LogoBot]] • 
 [[Pen Plotter]] • 
 [[Prusa Mendel 3D Printer]] • 
 [[Heathkit Hero]] • 
