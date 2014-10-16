@@ -10,7 +10,7 @@ These items are definitely required now and should be bought as soon as possible
 Items | Notes / Web Link | Supplier | Price
 :--- | :---------- | :------ | :--------
 Small diameter heatshrink | todo: confirm diameter
-Drill bits | todo: confirm sizes required or if anyone a has any spare at home.
+Drill bits | [Toolstation] (http://www.toolstation.com/shop/Power+Tool+Accessories/d80/HSS+Drill+Bits/sd1250/HSS+Metric+Drill+Bit+Set+13+Piece/p82395) todo: confirm sizes required or if anyone a has any spare at home. | | £3.99
 Stripboard | todo: amount for LED arrays (Arduino workshop?), and general use.
 
 ### Wish List / Suggestions
