@@ -2,6 +2,11 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
 #### Projects (most recent first)
 
+- [[LogoBot]]
+
+  A simple, extensible, Arduino-based mobile robot inspired by Mirobot and others.
+
+
 - [[Pen Plotter]]
 
   An event visitor recently donated a pen plotter, with which we would like to try plotting etch resist for making circuit boards.
