@@ -12,6 +12,7 @@ Items | Notes / Web Link | Supplier | Price
 Small diameter heatshrink | todo: confirm diameter
 Drill bits | todo: confirm sizes required or if anyone a has any spare at home.
 Stripboard | todo: amount for LED arrays (Arduino workshop?), and general use.
+Raspberri Pi Wifi Dongle| for the 3dPrinter Pi since the Teletype seems to have stolen the other one! [Amazon] (http://www.amazon.co.uk/gp/product/B003MTTJOY/) | Amazon | £7.33 [F1]
 
 ### Wish List / Suggestions
 These items are things that it might be nice to have available and should be discussed and prioritised.
