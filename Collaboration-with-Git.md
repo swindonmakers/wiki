@@ -2,6 +2,10 @@
 
 An introduction to git and using the fork/branch/pull-request workflow to collaborate using git.
 
+## When
+
+[tbc] Workshop will be split into two short sessions (around 45 mins each), forming a part of weeks 2 and 3 of Damian's [[OpenSCAD Training]] on the 22nd and 29th October starting at 7pm. 
+
 ## Outline
 
 1. Intro to git: creating a local repo
