@@ -28,7 +28,7 @@ These items were previously purchased, but not currently needed. The last purcha
 
 Items | Notes / Web Link | Supplier | Price
 :--- | :---------- | :------ | :--------
-Breadboard Jumper Kit | [65 pcs Male to Male][BBJK] | Bitsbox | £1.52 + [BB]
+Breadboard Jumper Kit | [65 pcs Male to Male][BBJK] | Bitsbox | £2.59 + [BB]
 Ribbon Jumper Strips | 20 pcs each: [Search Link][BBJ] | Bitsbox | £4.19 each + [BB]
 Breadboard Jumper Kit (HK) | [65 pcs Male to Male][M2MJ] | Amazon | £1.52 [3]
 Ribbon Jumper Strips (HK) | 20 pcs each: [M2M], [M2F], [F2F] | Amazon | £1.79, £1.10, £1.82  [3]
