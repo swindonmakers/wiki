@@ -17,7 +17,7 @@ This page summarises a series of instructor-lead workshops to introduce people t
 3. Jamie - 1 onwards
 
 
-## References
+## OpenSCAD References
 
 * [OpenSCAD Website](http://openscad.org)
 * [Cheat Sheet](http://www.openscad.org/cheatsheet/index.html)
@@ -28,6 +28,9 @@ This page summarises a series of instructor-lead workshops to introduce people t
 ### 1. Intro to OpenSCAD
 
 **Goal:** Design a basic part (Raspberry Pi Sled) and export it as an STL file for printing.
+
+**Example Code**
+See the associated github repo for [example code](https://github.com/snhack/OpenSCAD/tree/master/Extended%20Course/wk1%20-%20Intro%20to%20OpenSCAD)
 
 **Agenda**
 * Interface
