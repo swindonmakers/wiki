@@ -24,7 +24,7 @@ Easier/Better Wire Strippers (with Cutter and Crimper) | [Fulfilled by Amazon](h
 
 ### Common Consumables
 
-These items were previously purchased, but not currently needed. The last purchase info is kept here for reuse when required. If a common consumable is purchased from the above lists, please consider moving it here.
+These items were previously purchased, but not currently needed. The last purchase info is kept here for reuse when required. When a common consumable is purchased from the above lists, please consider moving it here instead of deleting it (so we don't have to re-research it!).
 
 Items | Notes / Web Link | Supplier | Price
 :--- | :---------- | :------ | :--------
