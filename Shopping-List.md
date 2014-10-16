@@ -22,9 +22,9 @@ M3 nuts + bolts | http://stores.ebay.co.uk/Bolt-Base ?
 Easier/Better Wire Strippers (with Cutter and Crimper) | [Fulfilled by Amazon](http://www.amazon.co.uk/dp/B005431PB6/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2P22K7MODZF0U&coliid=I29CX7UGV6HDUT) | Amazon | £5.02 [1]
 
 
-### Repeat Consumables
+### Common Consumables
 
-These items were previously purchased, but not currently needed. The last purchase info is kept here for reuse when required.
+These items were previously purchased, but not currently needed. The last purchase info is kept here for reuse when required. If a common consumable is purchased from the above lists, please consider moving it here.
 
 Items | Notes / Web Link | Supplier | Price
 :--- | :---------- | :------ | :--------
