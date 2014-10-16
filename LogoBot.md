@@ -74,3 +74,7 @@ This is an evolving list of who is owning the development of various parts:
 * Piezo - James
 * Battery Pack - Jess
 * Microswitches - Steve
+* Arduino - Jamie
+* LED - ?
+* Nuts/Bolts - Rob
+* MicroServo - Damian
