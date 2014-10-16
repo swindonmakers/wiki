@@ -12,7 +12,6 @@ Items | Notes / Supplier / Website | Price
 Small diameter heatshrink | todo: confirm diameter
 Drill bits | todo: confirm sizes required or if anyone a has any spare at home.
 Stripboard | todo: amount for LED arrays (Arduino workshop?), and general use.
-|
 Jumper leads | RL: checked last night, appear to be quite a few of various genders in the electronics box, so I don't think we need these
 
 ### Wish List / Suggestions
@@ -21,3 +20,14 @@ These items are things that it might be nice to have available and should be dis
 Items | Notes / Supplier / Website | Price
 :--- | :---------- | :------ | :--------
 M3 nuts + bolts |http://stores.ebay.co.uk/Bolt-Base ?
+Easier/Better Wire Strippers (with Cutter and Crimper) | [(Fulfilled by) Amazon](http://www.amazon.co.uk/dp/B005431PB6/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2P22K7MODZF0U&coliid=I29CX7UGV6HDUT) | £5.02 [1]
+
+### Notes
+
+Please note the delivery terms of the supplier (when identified).
+
+It makes sense to go through these lists and bundle together smaller wanted items whenever making a more urgent purchase (to minimise deliveries, for cost and inconvenience).
+
+[1] Free delivery from UK supplier.  
+[2] Free delivery from UK supplier, with (modest) minimum order value.  
+[3] Free delivery from Asian supplier - up to 2-3 weeks.  
