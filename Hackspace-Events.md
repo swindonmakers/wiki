@@ -1,4 +1,4 @@
-List any events - planned, completed, or wanted.
+List any events - planned, completed, or wanted.  Most recent/active first.
 
 ### Planned
 
@@ -14,4 +14,5 @@ List any events - planned, completed, or wanted.
 
 ### Completed
 
+* Oggcamp 2014 - Exhibited Teletype/AFRo, gave an AFRo talk - completed
 * OpenSCAD demo/workshop - Jess/James - completed
