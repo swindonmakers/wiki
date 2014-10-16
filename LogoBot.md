@@ -4,6 +4,52 @@ LogoBot is a simple, extensible, Arduino-based mobile robot developed by the Swi
 
 ## Principles / Requirements
 
+* Highly interactive - to attract/hold attention
+* Cheap (Total BOM <£20 would be great)
+* Suitable for ages 6 - 100
+* Simplicity is key - all parts/functionality must be easy to explain and understandable by 6-yr olds
+* Solderless (where practical)
+* Extensible - more sensors, more functionality
+* Personalisable - we don't want lots of bland, generic little robots
+
+
+## BOM
+
+Outline BOM:
+
+* Arduino Pro Mini or Micro
+* 2x 5V Geared Stepper motors (28BYJ-48) with associated drivers (ULN2003)
+* 4x lever microswitch
+* 1x RGB LED (discrete, not serial!)
+* 1x Piezo sounder
+* A power switch (slider)
+* 4x AA batteries
+* Miscellaneous consumables (jumpers, fasteners)
+* A bunch of printed parts (base, shell, wheels, bumpers, etc)
+
+
+## Design
+
+Having discussed a variety configurations, we've settled on the following reference design:
+
+* 2-wheels (stepper driven) with caster(s) - arranged as per traditional Turtle bot
+* Front and rear bumpers, each connected to a pair of microswitches - users can choose to remap these switches to control behaviours and/or use them as bump switches
+* An RGD LED to give the robot character, located near the top/centre of the robot
+* A piezo sounder for audio feedback (R2D2 style noises?)
+
+**Extensions / Optional Extras**
+
+* Central pen with micro-servo lift
+* Bluetooth UART - for cable-free programming, inter-bot comms, host interface, etc
+* WIFI UART - for cable-free programming, inter-bot comms, host interface, etc
+* Serial RGB LED (to reduce pin count)
+* IR Reflectance sensors - for collision avoidance, cliff detection, line following, following behaviour, etc
+* IR transceiver - for interaction with TV remotes and/or other robots
+* Ultrasonic distance sensors - for collision avoidance, following behaviour, etc
+* Speaker - for complex audio playback (e.g. WAV, MP3)
+* Microphone(s) - for sound following/localisation and/or voice recognition/recording
+* Light Sensors (LDR,etc) - following behaviour, etc
+* Tilt sensor - for "I've fallen over" behaviour, etc
 
 
 ## Source Files
@@ -28,4 +74,3 @@ This is an evolving list of who is owning the development of various parts:
 * Piezo - James
 * Battery Pack - Jess
 * Microswitches - Steve
-
