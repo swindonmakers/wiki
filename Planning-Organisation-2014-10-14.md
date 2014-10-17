@@ -60,7 +60,7 @@ Things we can buy are: Consumables (bolts, jumper leads, heatshrink etc), Assets
 
 ### Decisions / "The Six"
 
-Talk of procurement lead on to talk about how we decide what to buy, and make bigger decisions in general. As the meeting consisted of the six most active members, it was decided that any three of "The Six" together could make decisions for the hackspace.
+Talk of procurement lead on to talk about how we decide what to buy, and make bigger decisions in general. As the meeting consisted of the six most active members, it was decided that any three of "The Six" together could make decisions for the hackspace - the so called [[3of6]] rule.
 
 ### PR/Logo Bot
 
