@@ -37,7 +37,7 @@ Having discussed a variety configurations, we've settled on the following refere
 * An RGD LED to give the robot character, located near the top/centre of the robot
 * A piezo sounder for audio feedback (R2D2 style noises?)
 
-**Extensions / Optional Extras**
+### Extensions / Optional Extras
 
 * Central pen with micro-servo lift
 * Bluetooth UART - for cable-free programming, inter-bot comms, host interface, etc
@@ -51,6 +51,19 @@ Having discussed a variety configurations, we've settled on the following refere
 * Light Sensors (LDR,etc) - following behaviour, etc
 * Tilt sensor - for "I've fallen over" behaviour, etc
 
+
+### Customised Shell Ideas
+
+Although the reference design will include a basic dome shell, we really want makers to customise their LogoBot, and a custom shell is a quick way to make a big impression!  
+
+Please add suggestions below, and if you start developing a design, then put your name in the Developer column and be sure to include a link to the source files (e.g. OpenSCAD file) - if there's lots of related information (pictures, etc), then create a wiki page for the design.
+
+| Title           | Developer    | Link to Source | Notes                       |
+| --------------- | ------------ | -------------- | --------------------------- |
+| R2D2            |              |                | Just his head?  or perhaps a basic body as well? |
+| Dalek           |              |                | Add a servo for the probiscus? |                
+| Pumpkin         |              |                | Halloween fun, with glowing eyes? |
+| Add your idea here... ||||
 
 ## Source Files
 
@@ -80,7 +93,7 @@ This is an evolving list of who is owning the development of various parts:
 * MicroServo - Damian
 * Marble Caster - Damian
 
-### References
+## References
 
 * [Mirobot.io](http://mirobot.io/)
 * [ProtoBot](http://www.thingiverse.com/thing:18264)
