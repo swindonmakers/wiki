@@ -5,13 +5,13 @@
 
 ###### [[Hackspace|Welcome]]
 
-[[Hackspace Events]]  
 [[Tools and Consumables]]  
 [[Shopping List]]  
 [[Hackspace Management]]
 
 ###### [[Hackspace Events]]
 [[OpenSCAD Training]]
+[[Arduino Workshop]]
 
 ###### [[Projects|Hackspace Projects]]
 
