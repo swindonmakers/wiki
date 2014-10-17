@@ -1,27 +1,33 @@
-List any events - planned, completed, or wanted.  Most recent/active first.  
-If you would like a suggested event to take place - move it into the Wanted or Planning section and set the Votes to 1.  If you'd like to attend an Event already in Wanted or Planning, then increase the vote count.
+List of events - planned, completed, or wanted - most recent/active first.  
+
+Guidelines:
+* If you'd like to attend a Planned event, then please contact the event organiser
+* If you'd like to attend an Event in Wanted or Planning, then increase the vote count
+* If you would like a suggested event to take place - move it into the Wanted or Planning section and set the Votes to 1 
+* If you have an idea for an event, add it to the Suggestions table and link to a dedicated wiki page for the event
 
 ### Planned
 
-| Event Title                       | Lead   | Format      | Supported By      | Date(s)              |
-| --------------------------------- | ------ | ----------- | ----------------- | -------------------- |
-| [[OpenSCAD Training]]             | Damian | Workshop    | N/A               | *4wks from 15/10/14* |
+| Event Title                       | Organiser   | Format      | Supported By      | Date(s)              |
+| --------------------------------- | ----------- | ----------- | ----------------- | -------------------- |
+| [[OpenSCAD Training]]             | Damian      | Workshop    | N/A               | *4wks from 15/10/14* |
+| [[Make:Shift:Do OpenDay 2014]     | Jess        | Workshop    | Rob               | 22nd Nov 2014 (TBC)  |        
 
 
 ### Wanted or Planning
 
-| Event Title                       | Lead   | Format      | Support Required? | Votes |
-| --------------------------------- | ------ | ----------- | ----------------- | ----- |
-| [[Collaboration with Git]]        | Jamie  | Workshop    | No                | 7     | 
-| [[Arduino Workshop]]              | Jamie  | Workshop    | Yes - 1 assistant | TBC   |
-| [[Laser Cutter (axCut) Workshop]] | Damian | Workshop    | No                | 6     |
+| Event Title                       | Organiser   | Format      | Support Required? | Votes |
+| --------------------------------- | ----------- | ----------- | ----------------- | ----- |
+| [[Collaboration with Git]]        | Jamie       | Workshop    | No                | 7     | 
+| [[Arduino Workshop]]              | Jamie       | Workshop    | Yes - 1 assistant | TBC   |
+| [[Laser Cutter (axCut) Workshop]] | Damian      | Workshop    | No                | 6     |
 
 ### Suggestions
 
-| Event Title                       | Lead   | Format      | Support Required? |
-| --------------------------------- | ------ | ----------- | ----------------- |
-| [[AFRo Robot Arm]]                | Damian | Show'n'tell | No                |
-| Add your ideas here...            |        |             |                   |
+| Event Title                       | Organiser  | Format      | Support Required? |
+| --------------------------------- | ---------- | ----------- | ----------------- |
+| [[AFRo Robot Arm]]                | Damian     | Show'n'tell | No                |
+| Add your ideas here...            |            |             |                   |
 
 
 ### Completed
