@@ -5,4 +5,4 @@ Content related to the management of the Hackspace.  Includes meeting minutes fr
 
 ## Meeting Agendas/Minutes
 
-* [[Meeting - 14th Oct 2014]] General planning session at the GluePot
+See [[Meetings]]
