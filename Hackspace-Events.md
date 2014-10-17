@@ -2,14 +2,18 @@ List any events - planned, completed, or wanted.  Most recent/active first.
 
 ### Planned
 
-* [[OpenSCAD Training]] - *running from 15/10/14*
+* [[OpenSCAD Training]] - Damian - *running from 15/10/14*
 
 
 ### Wanted or Planning
 
 * [[Collaboration with Git]] - Jamie
 * [[Arduino Workshop]] - Jamie + 1
-* Any ideas?
+* [[Laser Cutter (axCut) Workshop]] - Damian
+
+### Suggestions
+* [[AFRo Robot Arm]] - Damian
+* Add your ideas here...
 
 
 ### Completed
