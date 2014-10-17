@@ -1,4 +1,5 @@
-List any events - planned, completed, or wanted.  Most recent/active first.
+List any events - planned, completed, or wanted.  Most recent/active first.  
+If you would like a suggested event to take place - move it into the Wanted or Planning section and set the Votes to 1.  If you'd like to attend an Event already in Wanted or Planning, then increase the vote count.
 
 ### Planned
 
