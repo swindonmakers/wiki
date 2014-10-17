@@ -11,7 +11,8 @@ List of events - planned, completed or wanted - most recent/active first.
 
 | Event Title                       | Organiser   | Format      | Supported By      | Date(s)              |
 | --------------------------------- | ----------- | ----------- | ----------------- | -------------------- |
-| [[OpenSCAD Training]]             | Damian      | Workshop    | N/A               | *4wks from 15/10/14* |
+| [[OpenSCAD Training]]             | Damian      | Workshop    | N/A               | *4wks from 15/10/14* | [[Collaboration with Git]]        | Jamie       | Workshop    | N/A               | 22nd/29th October
+|
 | [[Make:Shift:Do OpenDay 2014]]    | Jess        | Workshop    | Rob               | 22nd Nov 2014 (TBC)  |        
 
 
@@ -19,7 +20,6 @@ List of events - planned, completed or wanted - most recent/active first.
 
 | Event Title                       | Organiser   | Format      | Support Required? | Votes |
 | --------------------------------- | ----------- | ----------- | ----------------- | ----- |
-| [[Collaboration with Git]]        | Jamie       | Workshop    | No                | 7     | 
 | [[Arduino Workshop]]              | Jamie       | Workshop    | Yes - 1 assistant | TBC   |
 | [[Laser Cutter (axCut) Workshop]] | Damian      | Workshop    | No                | 7     |
 | [[Meshmixer Workshop]]            | Steve       | Workshop    | No                | 2     |
