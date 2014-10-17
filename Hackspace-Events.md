@@ -20,7 +20,7 @@ List of events - planned, completed or wanted - most recent/active first.
 | --------------------------------- | ----------- | ----------- | ----------------- | ----- |
 | [[Collaboration with Git]]        | Jamie       | Workshop    | No                | 7     | 
 | [[Arduino Workshop]]              | Jamie       | Workshop    | Yes - 1 assistant | TBC   |
-| [[Laser Cutter (axCut) Workshop]] | Damian      | Workshop    | No                | 6     |
+| [[Laser Cutter (axCut) Workshop]] | Damian      | Workshop    | No                | 7     |
 
 ### Suggestions
 
@@ -33,4 +33,5 @@ List of events - planned, completed or wanted - most recent/active first.
 ### Completed
 
 * Oggcamp 2014 - Exhibited Teletype/AFRo, gave an AFRo talk - completed
+* 3D Printing demo days in the Museum - Rob, James, Jess, Steve, Damian, Jamie.  Ran the Hackspace Prusa along with peoples own printers to print trivial items for museum visitors and provide info about 3D printing.  Exhibited quadcopters.
 * OpenSCAD demo/workshop - Jess/James - completed
