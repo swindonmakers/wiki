@@ -5,6 +5,7 @@ List of events - planned, completed or wanted - most recent/active first.
 * If you'd like to attend an Event in Wanted or Planning, then increase the vote count
 * If you would like a suggested event to take place - move it into the Wanted or Planning section and set the Votes to 1 
 * If you have an idea for an event, add it to the Suggestions table and link to a dedicated wiki page for the event
+* Moving an event into Planned is up to the organiser, but will require [[3of6]] approval if the event is to take place during the regular Wednesday meet
 
 ### Planned
 
