@@ -10,7 +10,7 @@
 [[Hackspace Management]]
 
 ###### [[Hackspace Events]]
-[[OpenSCAD Training]]
+[[OpenSCAD Training]] • 
 [[Arduino Workshop]]
 
 ###### [[Projects|Hackspace Projects]]
