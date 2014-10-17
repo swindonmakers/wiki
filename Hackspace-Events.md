@@ -9,11 +9,11 @@ List of events - planned, completed or wanted - most recent/active first.
 
 ### Planned
 
-| Event Title                       | Organiser   | Format      | Supported By      | Date(s)              |
-| --------------------------------- | ----------- | ----------- | ----------------- | -------------------- |
-| [[OpenSCAD Training]]             | Damian      | Workshop    | N/A               | *4wks from 15/10/14* | [[Collaboration with Git]]        | Jamie       | Workshop    | N/A               | 22nd/29th October
-|
-| [[Make:Shift:Do OpenDay 2014]]    | Jess        | Workshop    | Rob               | 22nd Nov 2014 (TBC)  |        
+| Event Title                       | Organiser   | Format      | Supported By      | Date(s)
+| --------------------------------- | ----------- | ----------- | ----------------- | --------------------
+| [[OpenSCAD Training]]             | Damian      | Workshop    | N/A               | *4wks from 15/10/14*
+| [[Collaboration with Git]]        | Jamie       | Workshop    | N/A               | 22nd/29th October
+| [[Make:Shift:Do OpenDay 2014]]    | Jess        | Workshop    | Rob               | 22nd Nov 2014 (TBC)
 
 
 ### Wanted or Planning
