@@ -75,7 +75,7 @@ This is an evolving list of who is owning the development of various parts:
 * Battery Pack - Jess
 * Microswitches - Steve
 * Arduino - Jamie
-* LED - ?
+* LED - Rob
 * Nuts/Bolts - Rob
 * MicroServo - Damian
 * Marble Caster - Damian
