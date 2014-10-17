@@ -11,7 +11,7 @@ Guidelines:
 | Event Title                       | Organiser   | Format      | Supported By      | Date(s)              |
 | --------------------------------- | ----------- | ----------- | ----------------- | -------------------- |
 | [[OpenSCAD Training]]             | Damian      | Workshop    | N/A               | *4wks from 15/10/14* |
-| [[Make:Shift:Do OpenDay 2014]     | Jess        | Workshop    | Rob               | 22nd Nov 2014 (TBC)  |        
+| [[Make:Shift:Do OpenDay 2014]]    | Jess        | Workshop    | Rob               | 22nd Nov 2014 (TBC)  |        
 
 
 ### Wanted or Planning
