@@ -1,6 +1,6 @@
-List of events - planned, completed, or wanted - most recent/active first.  
+List of events - planned, completed or wanted - most recent/active first.  
 
-Guidelines:
+###Guidelines
 * If you'd like to attend a Planned event, then please contact the event organiser
 * If you'd like to attend an Event in Wanted or Planning, then increase the vote count
 * If you would like a suggested event to take place - move it into the Wanted or Planning section and set the Votes to 1 
