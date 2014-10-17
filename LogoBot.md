@@ -18,7 +18,7 @@ LogoBot is a simple, extensible, Arduino-based mobile robot developed by the Swi
 Outline BOM:
 
 * Arduino Pro Mini or Micro
-* 2x 5V Geared Stepper motors (28BYJ-48) with associated drivers (ULN2003)
+* 2x 5V Geared Stepper motors (28BYJ-48) with associated drivers (ULN2003). If you use ULN2803 you can drive two steppers from a single chip - [aliexpress link to 2 steppers and a driver board](http://www.aliexpress.com/item/New-2-Stepper-Motor-28BYJ-48-With-Drive-Test-Module-Board-ULN2803-Freeshipping/1405946480.html)
 * 4x lever microswitch
 * 1x RGB LED (discrete, not serial!)
 * 1x Piezo sounder
