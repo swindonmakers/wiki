@@ -82,3 +82,6 @@ This is an evolving list of who is owning the development of various parts:
 ### References
 
 * [Mirobot.io](http://mirobot.io/)
+* [ProtoBot](http://www.thingiverse.com/thing:18264)
+* [ScoutBot](http://www.thingiverse.com/thing:13042)
+* [MiniSkybot](http://www.thingiverse.com/thing:7989)
