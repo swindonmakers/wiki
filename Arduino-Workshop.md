@@ -20,6 +20,8 @@ This workshop is an introduction to Arduino programming and basic breadboard cir
 * Arduino and breadboard kits (tbc)
 * Jumper wires, LEDs, resistors, switches, potentiometers
 
+For details see [[Arduino Workshop Order]]
+
 ## References
 
 * [Arduino Examples](http://arduino.cc/en/Tutorial/HomePage)
