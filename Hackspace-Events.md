@@ -22,7 +22,7 @@ List of events - planned, completed or wanted - most recent/active first.
 | [[Collaboration with Git]]        | Jamie       | Workshop    | No                | 7     | 
 | [[Arduino Workshop]]              | Jamie       | Workshop    | Yes - 1 assistant | TBC   |
 | [[Laser Cutter (axCut) Workshop]] | Damian      | Workshop    | No                | 7     |
-| [[Meshmixer Workshop]]            | Steve       | Workshop    | No                | TBC     |
+| [[Meshmixer Workshop]]            | Steve       | Workshop    | No                | 1     |
 
 ### Suggestions
 
