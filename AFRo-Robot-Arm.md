@@ -15,3 +15,8 @@ Short (<1 hr) show'n'tell session to walk through the development of the AFRo as
 9. Live demo of the arm (get fed by AFRo)
 10. Summary and What Next
 
+## References
+
+* [AFRo Design Notes](https://docs.google.com/document/d/1HDJsVby1FxGu6IQ2XBOvq7dboFC9hibPxshcKR86C0M/pub)
+* [AFRo Hardware Git Repo (inc. host software)](https://github.com/Axford/AFRo)
+* [AFRo Firmware Git Repo](https://github.com/Axford/AFRo_Firmware)
