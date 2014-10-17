@@ -2,7 +2,7 @@ This page is to gather a list of items that we want to buy for the hackspace.  I
 
 When you add something to this page please try to include the price and a recommendation where to get it from, be that a real shop or a link to a website. Note that prices here are for guidance only, and can change quite a bit since the time they are added (especially for Asian suppliers on eBay/Amazon, so check when ordering).
 
-The plan is that this page should be reviewed regularly and an agreement reached as to what should be bought and where from by Rob, Damian, James, Jamie, Jess and Steve.  One of them will order the items and claim the money back from the Hackspace account via Rob. (That doesn't mean these are the only people who can suggest stuff!)
+The plan is that this page should be reviewed regularly and an agreement reached as to what should be bought and where from by Rob, Damian, James, Jamie, Jess and Steve ([[3of6]] rule).  One of them will order the items and claim the money back from the Hackspace account via Rob. (That doesn't mean these are the only people who can suggest stuff!)
 
 ### Immediately Required
 These items are definitely required now and should be bought as soon as possible.
