@@ -19,7 +19,7 @@ These items are things that it might be nice to have available and should be dis
 Items | Notes / Web Link | Supplier | Price
 :--- | :---------- | :------ | :--------
 M3 nuts + bolts | http://stores.ebay.co.uk/Bolt-Base ?
-General Fixings/Fasteners (bulk) | [orbitalfasteners.co.uk](http://www.orbitalfasteners.co.uk/) | OrbitalFasteners | ? [F4]
+General Fixings/Fasteners (bulk) | [orbitalfasteners.co.uk](http://www.orbitalfasteners.co.uk/) | Orbital Fasteners | ? [F4]
 Easier/Better Wire Strippers | With Cutter and Crimper, [Fulfilled by Amazon](http://www.amazon.co.uk/dp/B005431PB6/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2P22K7MODZF0U&coliid=I29CX7UGV6HDUT) | Amazon | £5.02 [F1]
 
 
