@@ -15,6 +15,11 @@
 4. Online tools (Google groups, Slack, etc) - summary of requirements (Jamie to lead?), discussion of options, next steps
 5. "Board" positions - summary of roles identified so far (Jess to lead?), next steps
 
+## Related content
+
+* [Tuesday Meeting - Google Group](https://groups.google.com/forum/#!topic/swindon-hackspace/DBul8EQ8Cas) Includes the discussion that lead to this meeting
+* [PR Stunts - Google Group](https://groups.google.com/forum/#!topic/swindon-hackspace/pj3LhbvMBCs) Initial ideas for PR Stunts
+
 ## Minutes
 
 ### PR
