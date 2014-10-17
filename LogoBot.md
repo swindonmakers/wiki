@@ -78,3 +78,7 @@ This is an evolving list of who is owning the development of various parts:
 * LED - ?
 * Nuts/Bolts - Rob
 * MicroServo - Damian
+
+### References
+
+* [Mirobot.io](http://mirobot.io/)
