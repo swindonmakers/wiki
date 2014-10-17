@@ -1,7 +1,8 @@
 ## Introduction
 
-**Duration - 2-3 hrs** 
-**Places   - 6 max**
+|---|---|
+|**Duration** | 2-3 hrs  | 
+|**Places**   | 6 max    |
 
 Extracurricular session (in Damian's man cave) to walk-through the design of the axCut laser cutter and also to have a go at using it.  
 
