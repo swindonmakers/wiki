@@ -34,3 +34,4 @@ Please add a selection below, with links to relevant source (e.g. Thingiverse)
 
 * iPhone Case (for 4, 4S & 5) with wide variety of styles - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=40703&code=f72f4ff762301c8e0e6012da841874d3)
 * Halloween Torch/Flashlight projector - [Customiser Link](http://customizer.makerbot.com/things/494174/files/817292)
+* Rippled Organic Vase - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=40703&code=859418cd1db974f1cd676078a992796d)
