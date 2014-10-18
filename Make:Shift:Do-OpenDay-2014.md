@@ -7,7 +7,8 @@
 * Decide on actual format
 * Decide on amount to charge and for what
 * Create lesson plan/instruction sheet that will be given to each attendee
-* Choose a number of customisable prints the attendees can have made
+* Choose a number of customisable prints the attendees can have made - see list below
+* Print some example customisable pieces for people to "ooh and aah" at
 * Design poster/brochure
 * Print poster/brochure and put up at Museum/around town (locations?)
 * Invite journalists / send press-release? swindonlink, swindonadver, swindontv, radio?
@@ -25,3 +26,11 @@
 * Computers/Laptops, borrow from museum? About 3?
 * Customisable prints to choose from
 * 3D printers, 3?
+
+
+## Customisable Prints
+
+Please add a selection below, with links to relevant source (e.g. Thingiverse)
+
+* iPhone Case (for 4, 4S & 5) with wide variety of styles - [Customiser Link]*http://www.thingiverse.com/apps/customizer/run?thing_id=40703&code=f72f4ff762301c8e0e6012da841874d3)
+* Halloween Torch/Flashlight projector - [Customiser Link](http://customizer.makerbot.com/things/494174/files/817292)
