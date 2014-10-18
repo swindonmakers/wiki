@@ -3,7 +3,7 @@
 ## Tasks
 
 * Get approval for holding it at the Museum from Simon - DONE
-* Sign-up on Make-Shift-Do website!
+* Sign-up on Make-Shift-Do website! http://www.craftscouncil.org.uk/what-we-do/makeshiftdo/
 * Decide on actual format
 * Decide on amount to charge and for what
 * Create lesson plan/instruction sheet that will be given to each attendee
