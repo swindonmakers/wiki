@@ -54,6 +54,10 @@ See the associated github repo for [example code](https://github.com/snhack/Open
 
 **Goal:** Understand how to integrate various vitamins and printed parts in a single model
 
+**Example Code**
+See the associated github repo for [example code](
+https://github.com/snhack/OpenSCAD/tree/master/Extended%20Course/wk2%20-%20Advanced%20Features)
+
 **Agenda**
 * Review homework - use at least one as a group walkthrough / code review
 * Checking/solving for common problems - non-manifold, collisions, slices
