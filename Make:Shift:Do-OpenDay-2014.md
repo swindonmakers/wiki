@@ -13,7 +13,15 @@
 * Invite journalists / send press-release? swindonlink, swindonadver, swindontv, radio?
 * Organise computers and 3d printers for actual day
 * Organise people to man the above
+* Sheet for booking times if it gets busy!
 * Create sign-up sheet for folks interested in a longer/more detailed workshop
 * Make sure we have a sign-up sheet for people interested in the Hackspace, with checkboxes for particular topics?
 * Stack of take-away hackspace leaflets
 
+## Drop-In 3D Design & Print
+
+* Set of instructions for each person - 10-20mins worth?
+    * OpenSCAD, described steps with pictures for each step
+* Computers/Laptops, borrow from museum? About 3?
+* Customisable prints to choose from
+* 3D printers, 3?
