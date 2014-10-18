@@ -1,0 +1,19 @@
+## Saturday November 22nd - Design & Print Drop-In Workshop
+
+## Tasks
+
+* Get approval for holding it at the Museum from Simon - DONE
+* Sign-up on Make-Shift-Do website!
+* Decide on actual format
+* Decide on amount to charge and for what
+* Create lesson plan/instruction sheet that will be given to each attendee
+* Choose a number of customisable prints the attendees can have made
+* Design poster/brochure
+* Print poster/brochure and put up at Museum/around town (locations?)
+* Invite journalists / send press-release? swindonlink, swindonadver, swindontv, radio?
+* Organise computers and 3d printers for actual day
+* Organise people to man the above
+* Create sign-up sheet for folks interested in a longer/more detailed workshop
+* Make sure we have a sign-up sheet for people interested in the Hackspace, with checkboxes for particular topics?
+* Stack of take-away hackspace leaflets
+
