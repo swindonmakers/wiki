@@ -9,7 +9,8 @@ These items are definitely required now and should be bought as soon as possible
 
 Items | Notes / Web Link | Supplier | Price
 :--- | :---------- | :------ | :--------
-Small diameter heatshrink | todo: confirm diameter
+Small diameter heatshrink (2.4mm) | Bitsbox or [ebay] (http://www.ebay.co.uk/itm/BLACK-HEAT-SHRINK-TUBE-SLEEVE-2-1-RATIO-HEATSHRINK-TUBES-SLEEVING-WRAP-/141125322534) | | Bitsbox 76p/m +P&P vs Ebay £1.20/m
+Small diameter heatshrink (3.2mm) | Bitsbox or [ebay] (http://www.ebay.co.uk/itm/BLACK-HEAT-SHRINK-TUBE-SLEEVE-2-1-RATIO-HEATSHRINK-TUBES-SLEEVING-WRAP-/141125322534) | | Bitsbox 88p/m +P&P vs Ebay £1.30/m
 Drill bits | [ebay (£3.99) 19PC 1mm...10mm] (http://www.ebay.co.uk/itm/19-PC-HSS-DRILL-BITS-DRILL-SET-1MM-10MM-METAL-SET-HIGH-QUALITY-NEW-/331348053728) or [Toolstation (£3.99) 13PC 2mm..8mm] (http://www.toolstation.com/shop/Power+Tool+Accessories/d80/HSS+Drill+Bits/sd1250/HSS+Metric+Drill+Bit+Set+13+Piece/p82395) todo: confirm if anyone a has any spare at home. | | £3.99
 Stripboard | todo: amount for LED arrays (Arduino workshop?), and general use.
 
