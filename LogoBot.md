@@ -4,6 +4,7 @@ LogoBot is a simple, extensible, Arduino-based mobile robot developed by the Swi
 
 ## Principles / Requirements
 
+* Help teach electronics, programming, 3D design and 3D printing (both to ourselves and others)
 * Highly interactive - to attract/hold attention
 * Cheap (Total BOM <£20 would be great)
 * Suitable for ages 6 - 100
