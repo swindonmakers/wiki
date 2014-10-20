@@ -35,7 +35,7 @@ Please add a selection below, with links to relevant source (e.g. Thingiverse)
 * iPhone Case (for 4, 4S & 5) with wide variety of styles - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=40703&code=f72f4ff762301c8e0e6012da841874d3)
 * Halloween Torch/Flashlight projector - [Customiser Link](http://customizer.makerbot.com/things/494174/files/817292)
 * Rippled Organic Vase - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=477840)
-* Stretchlet Bracelet - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=57810&code=b2aa4f0ee3e0da5703c1e367aac9a20a)
+* Stretchlet Bracelet - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=57810&code=b2aa4f0ee3e0da5703c1e367aac9a20a) - RL: 18mins to print 150mm dia.  Tricky to get started, but looks cool.
 * Luggage Label - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=175150&code=d3f2685b7ccb1bc1d17e1759d52f2a6b)
 * Minecraft Tools - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=355060&code=3f5f821e43dc25a4215621c6ea4744d7)
 * Lego Block with your name on - [Link](http://www.thingiverse.com/thing:340321) - Takes approx 30min to print a 2x5 brick on my printer.
