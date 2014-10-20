@@ -21,8 +21,8 @@ List of events - planned, completed or wanted - most recent/active first.
 | Event Title                       | Organiser   | Format      | Support Required? | Votes |
 | --------------------------------- | ----------- | ----------- | ----------------- | ----- |
 | [[Arduino Workshop]]              | Jamie       | Workshop    | Yes - 1 assistant | TBC   |
-| [[Laser Cutter (axCut) Workshop]] | Damian      | Workshop    | No                | 7     |
-| [[Meshmixer Workshop]]            | Steve       | Workshop    | No                | 2     |
+| [[Laser Cutter (axCut) Workshop]] | Damian      | Workshop    | No                | 8     |
+| [[Meshmixer Workshop]]            | Steve       | Workshop    | No                | 3     |
 
 ### Suggestions
 
