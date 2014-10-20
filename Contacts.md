@@ -1,6 +1,6 @@
 ### Swindon Hackspace
 
-To contact the Swindon Hackspace itself, you can use [twitter], or the [google group].  For code changes, please feel free to either [open an issue](https://help.github.com/articles/github-glossary#issue), or send us a [pull request](https://help.github.com/articles/using-pull-requests) (after reading any posted guidelines).
+To contact the Swindon Hackspace itself, you can use [twitter], or the [google group]. Some of us also hang out on IRC at #snhack on the freenode network. For code changes, please feel free to either [open an issue](https://help.github.com/articles/github-glossary#issue), or send us a [pull request](https://help.github.com/articles/using-pull-requests) (after reading any posted guidelines).
 
 [Google Group]: http://groups.google.com/group/swindon-hackspace
 [Twitter]: http://twitter.com/snhack
