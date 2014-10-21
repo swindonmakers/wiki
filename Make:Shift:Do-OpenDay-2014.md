@@ -36,6 +36,6 @@ Please add a selection below, with links to relevant source (e.g. Thingiverse). 
 * [ ] Halloween Torch/Flashlight projector - [Customiser Link](http://customizer.makerbot.com/things/494174/files/817292)
 * [x] Rippled Organic Vase - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=477840) - RL: 20mins to print 40mmx40xx.  Very slow to render in OpenSCAD though
 * [x] Stretchlet Bracelet - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=57810&code=b2aa4f0ee3e0da5703c1e367aac9a20a) - RL: 18mins to print 150mm circumference, 13mm width.  Tricky to get started, but looks cool.
-* [ ] Luggage Label - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=175150&code=d3f2685b7ccb1bc1d17e1759d52f2a6b)
+* [x] Luggage Label - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=175150&code=d3f2685b7ccb1bc1d17e1759d52f2a6b) - RL: 1hr10m to print two 3mm thick tags.
 * [ ] Minecraft Tools - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=355060&code=3f5f821e43dc25a4215621c6ea4744d7)
 * [x] Lego Block with your name on - [Link](http://www.thingiverse.com/thing:340321) - RL: 30mins to print a 2x5 brick.
