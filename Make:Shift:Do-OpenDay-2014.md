@@ -7,7 +7,7 @@
 * [ ] Decide on actual format
 * [ ] Decide on amount to charge and for what
 * [ ] Create lesson plan/instruction sheet that will be given to each attendee
-* [ ] Choose a number of customisable prints the attendees can have made - see list below
+* [x] Choose a number of customisable prints the attendees can have made - see list below
 * [ ] Print some example customisable pieces for people to "ooh and aah" at
 * [ ] Design poster/brochure
 * [ ] Print poster/brochure and put up at Museum/around town (locations?)
