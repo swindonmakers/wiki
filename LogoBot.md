@@ -83,16 +83,17 @@ Notes:
 This is an evolving list of who is owning the development of various parts:
 
 ### Vitamins
-* Stepper Motors - Malcolm
-* Stepper Drivers - Rob
-* Piezo - James
-* Battery Pack - Jess
-* Microswitches - Steve
 * Arduino - Jamie
+* Battery Pack - Jess
+* Breadboard - Damian
 * LED - Rob
-* Nuts/Bolts - Rob
-* MicroServo - Damian
 * Marble Caster - Damian
+* MicroServo - Damian
+* Microswitches - Steve
+* Nuts/Bolts - Rob
+* Piezo - James
+* Stepper Drivers - Rob
+* Stepper Motors - Malcolm
 
 ## References
 
