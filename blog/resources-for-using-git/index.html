@@ -154,6 +154,37 @@
 </span><span class="line">    First Commit
 </span></code></pre></div></figure></notextile></div>
 
+<h2 id="online-collaboration">online collaboration</h2>
+
+<p>To collaborate on a project using Git, an online service such as
+<a href="http://github.com/">Github</a> is used to hold a repo and allow others to access it. To
+propose changes to somebody else’s repo, a <a href="https://help.github.com/articles/fork-a-repo">fork</a> <code>-&gt;</code> <a href="https://help.github.com/articles/branching-out/">branch</a> <code>-&gt;</code> <a href="https://help.github.com/articles/using-pull-requests">pull-request</a> process is used.</p>
+
+<ul>
+  <li>
+    <p>First <a href="https://help.github.com/articles/fork-a-repo">fork</a> a new personal copy of the existing repo, then <a href="https://help.github.com/articles/importing-a-git-repository-using-the-command-line/">clone</a> that new fork onto
+your local computer.</p>
+  </li>
+  <li>
+    <p>A new “topic” <a href="https://help.github.com/articles/branching-out/">branch</a> should be used for each pull request. Commiting directly to the <code>master</code> branch (or any other branch that recieves commits by others) will likely complicate merging of your commits upstream - as will mixing unrelated changes
+into the same branch.</p>
+
+    <p><em>Note that all additional commits made to a branch will automatically be added to a
+pull request made with that branch.</em> This makes it really easy to add commits to a pull
+request - just be careful not to commit any unrelated work to a branch that’s already
+used in an open pull request.</p>
+  </li>
+  <li>
+    <p>Once you have committed some changes to the new branch, and <a href="https://help.github.com/articles/pushing-to-a-remote/">pushed</a> those changes to
+Github, use the Github website to send a <a href="https://help.github.com/articles/using-pull-requests">pull request</a> to the project’s owner.</p>
+
+    <p>You can view the progress of your pull request in it’s <a href="https://github.com/snhack/snhack.github.com/issues">discussion thread</a>, where you
+may get feedback on your changes before they can be merged. Notifications will normally
+be sent by email to those active or mentioned in the thread, as well as those watching
+either the thread or the related repo.</p>
+  </li>
+</ul>
+
 <h2 id="documentation">documentation</h2>
 
 <p>Git itself can be installed from <a href="http://git-scm.com/downloads">git-scm.com</a> if your OS doesn’t already include it. The same site also hosts a copy of the <a href="http://git-scm.com/docs">documentation</a>, as well as the <a href="http://git-scm.com/book">Pro Git book</a> which is a great place to start learning git.  Pro Git is also available as a commercially <a href="http://www.amazon.com/gp/product/1430218339?ie=UTF8&amp;tag=prgi-20&amp;linkCode=as2&amp;camp=1789&amp;creative=390957&amp;creativeASIN=1430218339">printed book</a> from Apress, and as a free <a href="https://github.s3.amazonaws.com/media/progit.epub">ePub</a>, <a href="https://github.s3.amazonaws.com/media/pro-git.en.mobi">mobi</a>, or <a href="https://github.s3.amazonaws.com/media/progit.en.pdf">PDF</a> download.</p>

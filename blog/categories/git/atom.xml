@@ -4,7 +4,7 @@
   <title><![CDATA[Category: git | Swindon Hackspace]]></title>
   <link href="http://swindon.hackspace.org.uk/blog/categories/git/atom.xml" rel="self"/>
   <link href="http://swindon.hackspace.org.uk/"/>
-  <updated>2014-07-22T00:10:07+01:00</updated>
+  <updated>2014-10-22T17:12:21+01:00</updated>
   <id>http://swindon.hackspace.org.uk/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -55,6 +55,37 @@ Date:   Sat Sep 29 23:30:20 2012 +0100</p>
 
 <pre><code>First Commit ```
 </code></pre>
+
+<h2 id="online-collaboration">online collaboration</h2>
+
+<p>To collaborate on a project using Git, an online service such as
+<a href="http://github.com/">Github</a> is used to hold a repo and allow others to access it. To
+propose changes to somebody else’s repo, a <a href="https://help.github.com/articles/fork-a-repo">fork</a> <code>-&gt;</code> <a href="https://help.github.com/articles/branching-out/">branch</a> <code>-&gt;</code> <a href="https://help.github.com/articles/using-pull-requests">pull-request</a> process is used.</p>
+
+<ul>
+  <li>
+    <p>First <a href="https://help.github.com/articles/fork-a-repo">fork</a> a new personal copy of the existing repo, then <a href="https://help.github.com/articles/importing-a-git-repository-using-the-command-line/">clone</a> that new fork onto
+your local computer.</p>
+  </li>
+  <li>
+    <p>A new “topic” <a href="https://help.github.com/articles/branching-out/">branch</a> should be used for each pull request. Commiting directly to the <code>master</code> branch (or any other branch that recieves commits by others) will likely complicate merging of your commits upstream - as will mixing unrelated changes
+into the same branch.</p>
+
+    <p><em>Note that all additional commits made to a branch will automatically be added to a
+pull request made with that branch.</em> This makes it really easy to add commits to a pull
+request - just be careful not to commit any unrelated work to a branch that’s already
+used in an open pull request.</p>
+  </li>
+  <li>
+    <p>Once you have committed some changes to the new branch, and <a href="https://help.github.com/articles/pushing-to-a-remote/">pushed</a> those changes to
+Github, use the Github website to send a <a href="https://help.github.com/articles/using-pull-requests">pull request</a> to the project’s owner.</p>
+
+    <p>You can view the progress of your pull request in it’s <a href="https://github.com/snhack/snhack.github.com/issues">discussion thread</a>, where you
+may get feedback on your changes before they can be merged. Notifications will normally
+be sent by email to those active or mentioned in the thread, as well as those watching
+either the thread or the related repo.</p>
+  </li>
+</ul>
 
 <h2 id="documentation">documentation</h2>
 
