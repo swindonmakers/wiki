@@ -39,3 +39,4 @@ Please add a selection below, with links to relevant source (e.g. Thingiverse). 
 * [x] Luggage Label - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=175150&code=d3f2685b7ccb1bc1d17e1759d52f2a6b) - RL: 1hr10m to print two 3mm thick tags.
 * [ ] Minecraft Tools - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=355060&code=3f5f821e43dc25a4215621c6ea4744d7)
 * [x] Lego Block with your name on - [Link](http://www.thingiverse.com/thing:340321) - RL: 30mins to print a 2x5 brick.
+* [ ] Gimbal with a letter inside - [Link](http://www.thingiverse.com/thing:434613)
