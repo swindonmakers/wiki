@@ -13,6 +13,7 @@ Small diameter heatshrink (2.4mm) | Bitsbox or [ebay] (http://www.ebay.co.uk/itm
 Small diameter heatshrink (3.2mm) | Bitsbox or [ebay] (http://www.ebay.co.uk/itm/BLACK-HEAT-SHRINK-TUBE-SLEEVE-2-1-RATIO-HEATSHRINK-TUBES-SLEEVING-WRAP-/141125322534) | | Bitsbox 88p/m +P&P vs Ebay £1.30/m
 Drill bits | [ebay (£3.99) 19PC 1mm...10mm] (http://www.ebay.co.uk/itm/19-PC-HSS-DRILL-BITS-DRILL-SET-1MM-10MM-METAL-SET-HIGH-QUALITY-NEW-/331348053728) or [Toolstation (£3.99) 13PC 2mm..8mm] (http://www.toolstation.com/shop/Power+Tool+Accessories/d80/HSS+Drill+Bits/sd1250/HSS+Metric+Drill+Bit+Set+13+Piece/p82395) todo: confirm if anyone a has any spare at home. | | £3.99
 Stripboard | todo: amount for LED arrays (Arduino workshop?), and general use.  Possibly slightly cheaper on [Ebay](http://www.ebay.co.uk/itm/Strip-Board-Printed-Circuit-PCB-Vero-Prototyping-Track-Packs-of-5-/261199157440) | [Bitsbox?](http://www.bitsbox.co.uk/index.php?main_page=product_info&cPath=238_244&products_id=1855)
+Easier/Better Wire Strippers | With Cutter and Crimper, [Fulfilled by Amazon](http://www.amazon.co.uk/dp/B005431PB6/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2P22K7MODZF0U&coliid=I29CX7UGV6HDUT) | Amazon | £5.02 [F1]
 
 ### Wish List / Suggestions
 These items are things that it might be nice to have available and should be discussed and prioritised.
@@ -21,7 +22,6 @@ Items | Notes / Web Link | Supplier | Price
 :--- | :---------- | :------ | :--------
 M3 nuts + bolts | http://stores.ebay.co.uk/Bolt-Base ?
 General Fixings/Fasteners (bulk) | [orbitalfasteners.co.uk](http://www.orbitalfasteners.co.uk/) | Orbital Fasteners | ? [F4]
-Easier/Better Wire Strippers | With Cutter and Crimper, [Fulfilled by Amazon](http://www.amazon.co.uk/dp/B005431PB6/ref=wl_it_dp_o_pC_nS_ttl?_encoding=UTF8&colid=2P22K7MODZF0U&coliid=I29CX7UGV6HDUT) | Amazon | £5.02 [F1]
 
 
 ### Common Consumables
