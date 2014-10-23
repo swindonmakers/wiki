@@ -10,10 +10,9 @@ This page summarises a series of instructor-lead workshops to introduce people t
 4. Moving into Production - iterative development techniques, bulk generating STL, generating BOMs, efficient documentation/manuals
 
 
-## Interested People
-1. Rob - for the move advanced stuff (2 onwards)
-2. Jess - 2 onwards
-3. Jamie - 1 onwards
+## Participants
+
+* Round 1 (15th Oct - ?) - James, Jess, Jamie, Mal, Rob, Steve
 
 
 ## OpenSCAD References
