@@ -61,16 +61,16 @@ https://github.com/snhack/OpenSCAD/tree/master/Extended%20Course/wk2%20-%20Advan
 **Agenda**
 * Review homework - use at least one as a group walkthrough / code review
 * Checking/solving for common problems - non-manifold, collisions, slices
-* Conditionals - If, ?
-* Creating/using libraries - include, use - turn your homework vitamin into a library part
+* Iterative/collaborative development techniques - using the sandbox
 * Structuring your project files - quick intro, detail is covered in wk3
+* Conditionals - If, ?
+* Creating/using libraries - include - turn your homework vitamin into a library part
 * Laying out vitamins - pre-cursor to designing printed parts around them
 * Fleshing out - designing your printed part around your vitamins
-* Useful public libraries/functions to speed modelling - MCAD, moreShapes, various vitamins
 
 **Homework**
 * Own the development of a part of the robot model (e.g. wheels, shell, bumper) and/or progress an individual project
-* Develop your part (and possibly a sub-assembly) within the playground ready for integration in wk3
+* Develop your part (and possibly a sub-assembly) within the sandbox ready for integration in wk3
 
 
 ### 3. Multi-Part Models
@@ -79,17 +79,16 @@ https://github.com/snhack/OpenSCAD/tree/master/Extended%20Course/wk2%20-%20Advan
 
 **Agenda**
 * Review homework - use at least one as a group walkthrough / code review
+* Utility libraries/functions to speed modelling - MCAD, moreShapes
 * Review key concepts - Vitamin, Printed Part, Assembly
 * Detailed project structure - centralised config, naming conventions, etc
-* Making assemblies easier - Attach, Connectors, best practises
+* Making assemblies easier - Attach, Connectors, Connector getter functions, best practises
 * Refactoring to use Connectors and Attach
 * Working with sub-sub-assemblies
-* Creating special visualisations for documentation
-* Basic animation
 
 **Homework**
 * Refactor your vitamins / assemblies / parts to use Connectors and Attach
-* Start modelling an optional extra
+* Start modelling an optional extra (vitamin and/or associated assembly)
 
 
 ### 4. Moving into Production
@@ -98,7 +97,8 @@ https://github.com/snhack/OpenSCAD/tree/master/Extended%20Course/wk2%20-%20Advan
 
 **Agenda**
 * Review homework - use at least one as a group walkthrough / code review
-* Iterative development techniques - using the sandbox
-* Bulk generating STL
+* Bulk generating STL and using STL to accelerate rendering
 * Generating BOMs
-* Efficient documentation/manuals - NaturalDocs, bulk generating visualisations, Markdown integration?
+* Integrating with the AssemblyGuide
+* Creating special visualisations for documentation - Views, Explode
+* Basic animation
