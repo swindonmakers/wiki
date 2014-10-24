@@ -25,18 +25,18 @@ Outline BOM:
 
 Qty | Item | Line Total | Source | Got Some?
 --- | ---- | ---------- | ------ | --------
-1 | Arduino Pro Mini or Micro | 3.00 | [AliExpress](http://www.aliexpress.com/item/CP2102-Module-Pro-Mini-Module-Atmega328-3-3V-8M-For-Arduinoi-Compatible-With-Nano-Free-Shipping/2002847394.html) | Yes
+1 | Arduino Pro Mini or Micro | 3.00 | [AliExpress](http://www.aliexpress.com/item/CP2102-Module-Pro-Mini-Module-Atmega328-3-3V-8M-For-Arduinoi-Compatible-With-Nano-Free-Shipping/2002847394.html) | Two
 1 | 170 Point Breadboard | 0.60 | [ebay](http://www.ebay.co.uk/itm/271565366887?_trksid=p2059210.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT) | On Order
 2 | 5V Geared Stepper motors (28BYJ-48) with associated drivers (ULN2003). | 3.52 | [AliExpress](http://www.aliexpress.com/item/5V-Stepper-Motor-28BYJ-48-With-Drive-Test-Module-Board-ULN2003-5-Line-4-Phase-free/1436201179.html) | Yes
 4 | lever microswitch | 0.53 | [ebay](http://www.ebay.co.uk/itm/121382500067?_trksid=p2059210.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT) | On Order
 1 | RGB LED (discrete, not serial!) | 0.07 | [ebay](http://www.ebay.co.uk/itm/301205844253?_trksid=p2059210.m2749.l2649&var=600263731447&ssPageName=STRK%3AMEBIDX%3AIT) | On Order
 1 | Piezo sounder | ? | ?
-1 | power switch (slider) | ? | ?
+1 | power switch (slider) | 0.06 | [AliExpress](http://www.aliexpress.com/item/100-Pieces-3-Pin-2-Position-1P2T-SPDT-Panel-Mini-Vertical-Slide-Switch-Solder-Lug-SS12F15VG5/1966040655.html) | One
 1 | 2x2 AA Battery Pack | 0.49 | [AliExpress](http://www.aliexpress.com/item/Black-Color-2-2-AA-Battery-1-5V-Holder-Storage-Boxes-for-DIY-Experiment-Test-Cascade/1981330624.html) | On Order
 4 | AA batteries | ? | ?
 - | Miscellaneous consumables (jumpers, fasteners) | ? | ?
 - | A bunch of printed parts (base, shell, wheels, bumpers, etc) | ? | ?
-  |  | 8.21+ |  | 
+  |  | 8.27+ |  | 
 
 NB: If you use ULN2803 you can drive two steppers from a single chip - [aliexpress link to 2 steppers and a driver board](http://www.aliexpress.com/item/New-2-Stepper-Motor-28BYJ-48-With-Drive-Test-Module-Board-ULN2803-Freeshipping/1405946480.html)
 
