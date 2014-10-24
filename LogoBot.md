@@ -36,6 +36,7 @@ Qty | Item | Line Total | Source | Got Some?
 4 | AA batteries | ? | ?
 - | Miscellaneous consumables (jumpers, fasteners) | ? | ?
 - | A bunch of printed parts (base, shell, wheels, bumpers, etc) | ? | ?
+  |  | 8.21+ |  | 
 
 NB: If you use ULN2803 you can drive two steppers from a single chip - [aliexpress link to 2 steppers and a driver board](http://www.aliexpress.com/item/New-2-Stepper-Motor-28BYJ-48-With-Drive-Test-Module-Board-ULN2803-Freeshipping/1405946480.html)
 
