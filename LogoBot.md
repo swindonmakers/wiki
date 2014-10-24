@@ -2,10 +2,10 @@
 
 LogoBot is a simple, extensible, Arduino-based mobile robot developed by the Swindon Hackspace.  It is heavily inspired by the vast number of existing mobile robots designs (Mirobot in particular).  The development of the reference design has been kicked-off through the OpenSCAD Course and will be an ongoing collaborative project for all members of the Hackspace to participate in.  
 
-See the [Assembly Guide](https://rawgithub.com/snhack/LogoBot/master/hardware/AssemblyGuide.htm) for detailed instructions on how to build a LogoBot.
+See the [Assembly Guide](http://swindon.hackspace.org.uk/LogoBot/hardware/AssemblyGuide.htm) for detailed instructions on how to build a LogoBot.
 
 Latest WIP model:
-![WIP Model](https://github.com/snhack/LogoBot/blob/master/hardware/images/LogoBot.png)
+![WIP Model](http://swindon.hackspace.org.uk/LogoBot/hardware/images/LogoBot.png)
 
 ## Principles / Requirements
 
@@ -92,7 +92,7 @@ Notes:
 
 ## Hardware Development Owners
 
-This is an evolving list of who is owning the development of various parts:
+This is an evolving list of who is owning the development of various parts - for latest updates, see the [live Issues in the repo](https://github.com/snhack/LogoBot/issues)
 
 ### Vitamins
 * Arduino - Jamie
