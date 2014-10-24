@@ -23,15 +23,16 @@ Latest WIP model:
 
 Outline BOM:
 
-Qty | Item | Line Total | Source
---- | ---- | ---------- | ------
-1 | Arduino Pro Mini or Micro | ? | ?
-2 | 5V Geared Stepper motors (28BYJ-48) with associated drivers (ULN2003). | 3.52 | [AliExpress](http://www.aliexpress.com/item/5V-Stepper-Motor-28BYJ-48-With-Drive-Test-Module-Board-ULN2003-5-Line-4-Phase-free/1436201179.html)
-4 | lever microswitch | ? | ?
-1 | RGB LED (discrete, not serial!) | ? | ?
+Qty | Item | Line Total | Source | Got Some?
+--- | ---- | ---------- | ------ | --------
+1 | Arduino Pro Mini or Micro | 3.00 | [AliExpress](http://www.aliexpress.com/item/CP2102-Module-Pro-Mini-Module-Atmega328-3-3V-8M-For-Arduinoi-Compatible-With-Nano-Free-Shipping/2002847394.html) | Yes
+1 | 170 Point Breadboard | 0.60 | [ebay](http://www.ebay.co.uk/itm/271565366887?_trksid=p2059210.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT) | On Order
+2 | 5V Geared Stepper motors (28BYJ-48) with associated drivers (ULN2003). | 3.52 | [AliExpress](http://www.aliexpress.com/item/5V-Stepper-Motor-28BYJ-48-With-Drive-Test-Module-Board-ULN2003-5-Line-4-Phase-free/1436201179.html) | Yes
+4 | lever microswitch | 0.53 | [ebay](http://www.ebay.co.uk/itm/121382500067?_trksid=p2059210.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT) | On Order
+1 | RGB LED (discrete, not serial!) | 0.07 | [ebay](http://www.ebay.co.uk/itm/301205844253?_trksid=p2059210.m2749.l2649&var=600263731447&ssPageName=STRK%3AMEBIDX%3AIT) | On Order
 1 | Piezo sounder | ? | ?
 1 | power switch (slider) | ? | ?
-1 | 2x2 AA Battery Pack | ? | ?
+1 | 2x2 AA Battery Pack | 0.49 | [AliExpress](http://www.aliexpress.com/item/Black-Color-2-2-AA-Battery-1-5V-Holder-Storage-Boxes-for-DIY-Experiment-Test-Cascade/1981330624.html) | On Order
 4 | AA batteries | ? | ?
 - | Miscellaneous consumables (jumpers, fasteners) | ? | ?
 - | A bunch of printed parts (base, shell, wheels, bumpers, etc) | ? | ?
