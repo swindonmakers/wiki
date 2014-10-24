@@ -23,16 +23,20 @@ Latest WIP model:
 
 Outline BOM:
 
-* Arduino Pro Mini or Micro
-* 2x 5V Geared Stepper motors (28BYJ-48) with associated drivers (ULN2003). If you use ULN2803 you can drive two steppers from a single chip - [aliexpress link to 2 steppers and a driver board](http://www.aliexpress.com/item/New-2-Stepper-Motor-28BYJ-48-With-Drive-Test-Module-Board-ULN2803-Freeshipping/1405946480.html)
-* 4x lever microswitch
-* 1x RGB LED (discrete, not serial!)
-* 1x Piezo sounder
-* A power switch (slider)
-* 4x AA batteries
-* Miscellaneous consumables (jumpers, fasteners)
-* A bunch of printed parts (base, shell, wheels, bumpers, etc)
+Qty | Item | Line Total | Source
+--- | ---- | ---------- | ------
+1 | Arduino Pro Mini or Micro | ? | ?
+2 | 5V Geared Stepper motors (28BYJ-48) with associated drivers (ULN2003). | 3.52 | [AliExpress](http://www.aliexpress.com/item/5V-Stepper-Motor-28BYJ-48-With-Drive-Test-Module-Board-ULN2003-5-Line-4-Phase-free/1436201179.html)
+4 | lever microswitch | ? | ?
+1 | RGB LED (discrete, not serial!) | ? | ?
+1 | Piezo sounder | ? | ?
+1 | power switch (slider) | ? | ?
+1 | 2x2 AA Battery Pack | ? | ?
+4 | AA batteries | ? | ?
+- | Miscellaneous consumables (jumpers, fasteners) | ? | ?
+- | A bunch of printed parts (base, shell, wheels, bumpers, etc) | ? | ?
 
+NB: If you use ULN2803 you can drive two steppers from a single chip - [aliexpress link to 2 steppers and a driver board](http://www.aliexpress.com/item/New-2-Stepper-Motor-28BYJ-48-With-Drive-Test-Module-Board-ULN2803-Freeshipping/1405946480.html)
 
 ## Design
 
