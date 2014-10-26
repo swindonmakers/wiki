@@ -89,6 +89,22 @@ Notes:
 * Feel free to commit your own files, but please follow the file structure and naming/coding conventions described in the various README.md files
 * If you are amending an existing/shared file, then please submit a pull request
 
+## Pin Assignments
+
+Ref Arduino Micro pinout:
+![](https://dlnmh9ip6v2uc.cloudfront.net/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png)
+
+First draft of pin assignments...  uses all the normal pins!
+
+Pin(s) | Assignment
+:----: | ----------
+0-1    | Left spare for later addition of WIFI or Bluetooth UART
+2-5    | Left stepper driver
+6-9    | Right stepper driver
+10     | Piezo sounder
+14-16  | RGB LED
+18-21  | Microswitches - Front Left, Front Right, Back Left, Back Right
+
 
 ## Hardware Development Owners
 
