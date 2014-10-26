@@ -85,6 +85,25 @@ https://github.com/snhack/OpenSCAD/tree/master/Extended%20Course/wk2%20-%20Advan
 * Refactoring to use Connectors and Attach
 * Working with sub-sub-assemblies
 
+**Utility Libraries**
+* Utility libraries:
+ * Many available on thingiverse, or within the [MCAD libary](https://github.com/SolidCode/MCAD)
+ * Examples in LogoBot/hardware/utils
+ * Often intertwined with vitamin parts (e.g. motors)
+* chevron.scad - simple example of using polygon function
+* moreShapes.scad - Damian's collection of 2D and 3D modelling shortcuts.  Most frequently used:
+ * roundedSquare - 2D, equiv to square(), with addition of radius
+ * roundedRect - 3D, equiv syntax as cube() with addition of radius
+ * right_triangle_2d - right-angled triangular fillet
+ * trapezoid - 2D, trapezoidPrism - 3D
+ * sector2D and sector
+* Others:
+ * assemblies.scad - contains the step() function, used to automate assembly documentation
+ * obiscad - extended library that provides connector and attach functionality
+ * bom.scad - BOM generation functionality
+ * surfacesolids - ribbonCable library and supporting bezier surface library
+
+
 **Homework**
 * Refactor your vitamins / assemblies / parts to use Connectors and Attach
 * Start modelling an optional extra (vitamin and/or associated assembly)
