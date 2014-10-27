@@ -8,8 +8,7 @@ Assembled best practices on using OpenSCAD for complex machine design (e.g. CNC 
 Jenkins to trigger automatic integration testing and deployment (if tests pass) on commit to staging branch.  Validation reports should be in markdown format.  Should they auto-submit issues?
 
 * Static analysis (lint style) - rules vary by .scad type (e.g. assembly, vitamin).  Should include checking for various interface modules (e.g. _View)
-* Log analysis - using Openscad output log
-* .csg analysis - using dummy .csg file
+* Log and .csg analysis - using Openscad output log and dummy.csg
 * BOM generation - report errors
 * vitamin STL generation
 * vitamin view rendering
@@ -62,18 +61,31 @@ Validate...
 None
 
 
-### Log Analysis Rules
+### Log/CSG Analysis Rules
 
-#### Root
+#### All
 
+* No syntax errors
 * No warnings
+* dummy.csg is produced
+* dummy.csg contains more than empty group (or groups)
 
 #### Assemblies
 
+Check global rules, when the assembly module is called.
+
 #### Vitamins
 
-#### Views
+Check global rules, when the following are called:
+* Vitamin module
+* _Parts module
+* _View module
+* any defined Parts
 
+
+### BOM Generation
+
+* Check all referenced .scad files and modules exist - is that done here? or later?
 
 
 ## References
