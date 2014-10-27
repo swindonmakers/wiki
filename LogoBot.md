@@ -123,6 +123,10 @@ This is an evolving list of who is owning the development of various parts - for
 * Stepper Drivers - Rob
 * Stepper Motors - Malcolm
 
+## See Also
+
+[[OpenSCAD for Machine Design]]
+
 ## References
 
 * [Mirobot.io](http://mirobot.io/)
