@@ -187,7 +187,7 @@ Validate...
 
 #### Assemblies
 
-Validate... 
+For each scad file in /assemblies - validate... 
 * Filename format
 * Module name matches filename
 * Assembly module contains step() calls
@@ -197,9 +197,17 @@ Validate...
 * Any functions have correct naming convention
 * Any included _STL modules have associated _View modules
 * _View modules contain an echo line with correct structure
+* Exists in /config/assemblies.scad
+
+#### Config
+
+* All utils.scad includes exist, no use statements, no variables
+* All vitamins.scad includes exist, no use statements, no variables
+* All assembles.scad includes exist, no use statements, no variables
+* colors.scad - correct naming conventions
 
 #### Vitamins
-Validate...
+For each .scad file in /vitamins - validate...
 * Filename format
 * Module name matches filename
 * Module accepts a single parameter, or none
@@ -210,6 +218,7 @@ Validate...
 * Contains a _View module that accepts a single parameter, or none
 * _Part modules contain echo lines with correct structure, and that those echo contents exist as modules
 * _View modules contain an echo line with correct structure
+* Exists in /config/vitamins.scad
 
 
 #### Views
