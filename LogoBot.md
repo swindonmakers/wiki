@@ -72,7 +72,7 @@ Please add suggestions below, and if you start developing a design, then put you
 
 | Title           | Developer    | Link to Source | Notes                       |
 | --------------- | ------------ | -------------- | --------------------------- |
-| R2D2            |              |                | Just his head?  or perhaps a basic body as well? |
+| R2D2            | Jamie        |                | Just his head?  or perhaps a basic body as well? Matching program mode that drives piezo/speaker and adds R2 flourishes to movement (such as taking the 270° turn instead of 90° |
 | Dalek           |              |                | Add a servo for the probiscus? |                
 | Pumpkin         |              |                | Halloween fun, with glowing eyes? |
 | Lego Base       |              |                | Covered with Lego block surfaces to build on |
