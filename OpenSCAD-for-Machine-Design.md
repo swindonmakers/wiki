@@ -154,13 +154,13 @@ How STLs and Vitamins differ:
 
 ## Continuous Integration and Deployment
 
-Teams should use normal git best practices for collaboration - the [Shared Repository](https://help.github.com/articles/using-pull-requests/) model is a good place to start.  Team members create topic branches for whatever aspect they are working on, then submit a pull request back to the master branch when they are finished.  An overall project lead then validates the pull request before merging.
+Teams should use normal git best practices for collaboration - the [Shared Repository](https://help.github.com/articles/using-pull-requests/) model is a good place to start.  Team members create topic branches for whatever aspect they are working on, then submit a pull request back to the master branch when they are finished.  
 
-Commits to the master branch trigger the continuous integration and deployment process.  If the validation passes without errors, then the web content is automatically published (pushed to the gh-pages branch).
+Pull requests are automatically cloned and validated.  If they pass, then they are merged into master.  If they fail, then the validation report is posted as a comment against the pull request.
 
-Jenkins is used to monitor for commits, and to coordinate the automatic integration testing and deployment.  Validation reports are in markdown format and are always committed back to the master branch.  
+Commits to the master branch trigger the deployment process.  The master branch is cloned, re-validated and if the validation passes without errors, then the web content is automatically published (pushed to the gh-pages branch).
 
-Warnings and/or errors can be optionally configured to generate github issues and assign them back to the associated files owner (user who last committed).
+NB: Validation reports are in markdown format and are committed back to the master branch prior to publishing to gh-pages.
 
 Flow:
 * Static analysis (lint style) - rules vary by .scad type (e.g. assembly, vitamin).  Should include checking for various interface modules (e.g. _View)
@@ -170,13 +170,22 @@ Flow:
 * Vitamin view rendering
 * STL generation
 * STL view rendering
-* Other views rendering
-* Summarise errors?  
-* Create github issues?  
-* Auto-commit results back to master
-* Publish web content (to gh-pages branch)
-* Send notifications (twitter?)
+* Other views rendering - includes all auto-generated assembly step views
+* Build validation report
+* If validating a pull request:
+  * If errors, then comment against pull request
+  * Else, merge pull request
+* Else:
+  * Auto-commit results back to master
+  * If no errors, Publish web content (to gh-pages branch)
+* Broadcast notification (twitter)
 
+The ci scripts manage the working clones in a parallel git repo with the Staging suffix.  For instance:
+
+* Normal local repo (for dev work):  /repos/LogoBot
+* ci repo (for cloning and validation): /repos/LogoBotStaging
+
+It's important to execute the ci script from the normal repo!
 
 ### Static Analysis Rules
 
