@@ -25,7 +25,7 @@ Outline BOM:
 
 Qty | Item | Line Total | Source | Got Some?
 --- | ---- | ---------- | ------ | --------
-1 | Arduino Pro Mini or Micro | 3.00 | [AliExpress](http://www.aliexpress.com/item/CP2102-Module-Pro-Mini-Module-Atmega328-3-3V-8M-For-Arduinoi-Compatible-With-Nano-Free-Shipping/2002847394.html) | Two
+1 | Arduino Pro Mini with FTDI breakout and USB cable | 3.00 | [AliExpress](http://www.aliexpress.com/item/CP2102-Module-Pro-Mini-Module-Atmega328-3-3V-8M-For-Arduinoi-Compatible-With-Nano-Free-Shipping/2002847394.html) | Two
 1 | 170 Point Breadboard | 0.60 | [ebay](http://www.ebay.co.uk/itm/271565366887?_trksid=p2059210.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT) | On Order
 2 | 5V Geared Stepper motors (28BYJ-48) with associated drivers (ULN2003). | 3.52 | [AliExpress](http://www.aliexpress.com/item/5V-Stepper-Motor-28BYJ-48-With-Drive-Test-Module-Board-ULN2003-5-Line-4-Phase-free/1436201179.html) | Yes
 4 | lever microswitch | 0.53 | [ebay](http://www.ebay.co.uk/itm/121382500067?_trksid=p2059210.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT) | On Order
@@ -42,18 +42,22 @@ NB: If you use ULN2803 you can drive two steppers from a single chip - [aliexpre
 
 ## Design
 
-Having discussed a variety configurations, we've settled on the following reference design:
+Having discussed a variety configurations, we've settled on the following starter design:
 
 * 2-wheels (stepper driven) with caster(s) - arranged as per traditional Turtle bot
 * Front and rear bumpers, each connected to a pair of microswitches - users can choose to remap these switches to control behaviours and/or use them as bump switches
 * An RGD LED to give the robot character, located near the top/centre of the robot
 * A piezo sounder for audio feedback (R2D2 style noises?)
 
-### Extensions / Optional Extras
+### Extension 1
+
+The first standard extension will include a pen lift and WIFI UART, integrating with a Mirobot-style host application:
 
 * Central pen with micro-servo lift
-* Bluetooth UART - for cable-free programming, inter-bot comms, host interface, etc
 * WIFI UART - for cable-free programming, inter-bot comms, host interface, etc
+
+### Other Extensions / Optional Extras
+* Bluetooth UART - for cable-free programming, inter-bot comms, host interface, etc
 * Serial RGB LED (to reduce pin count)
 * IR Reflectance sensors - for collision avoidance, cliff detection, line following, following behaviour, etc
 * IR transceiver - for interaction with TV remotes and/or other robots
@@ -91,8 +95,8 @@ Notes:
 
 ## Pin Assignments
 
-Ref Arduino Micro pinout:
-![](https://dlnmh9ip6v2uc.cloudfront.net/assets/9/c/3/c/4/523a1765757b7f5c6e8b4567.png)
+Ref Arduino Pro Mini pinout:
+![](http://www.engineersgarage.com/sites/default/files/imagecache/Original/wysiwyg_imageupload/4214/Arduino%20Pro%20Mini%20copy.png)
 
 First draft of pin assignments...  uses all the normal pins!
 
@@ -102,8 +106,8 @@ Pin(s) | Assignment
 2-5    | Left stepper driver
 6-9    | Right stepper driver
 10     | Piezo sounder
-14-16  | RGB LED
-18-21  | Microswitches - Front Left, Front Right, Back Left, Back Right
+11-13  | RGB LED
+A0-A3  | Microswitches - Front Left, Front Right, Back Left, Back Right
 
 
 ## Hardware Development Owners
