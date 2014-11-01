@@ -45,3 +45,10 @@ USB Micro cable for Pro Micro | ? | ?
 [1] Free delivery from UK supplier.  
 [2] Free delivery from UK supplier, with (modest) minimum order value.  
 [3] Free delivery from Asian supplier - up to 2-3 weeks, order when not urgently required.
+
+
+#### Electronics Kits
+
+Kit of discrete components for making various circuits, such as the [Arduino.cc sketch examples](http://arduino.cc/en/Tutorial/HomePage).
+    
+    For inspiration from existing kits that provide for a similar purpose, see the official [Arduino Starter Kit](http://store.arduino.cc/product/K000007) [[alt](http://arduino.cc/en/Main/ArduinoStarterKit)], [Arduino Workshop Kit](http://store.arduino.cc/product/A000010), [Electronic Components](http://store.arduino.cc/product/C000047), or [Seeed Sidekick Basic Kit](http://www.seeedstudio.com/depot/Sidekick-Basic-Kit-for-Arduino-p-775.html).
