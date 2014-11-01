@@ -18,7 +18,12 @@ This workshop is an introduction to Arduino programming and basic breadboard cir
 ## Materials Needed
 
 * Arduino and breadboard kits (tbc)
+
 * Jumper wires, LEDs, resistors, switches, potentiometers
+
+* Other discrete components for making various circuits, such as the [Arduino.cc sketch examples](http://arduino.cc/en/Tutorial/HomePage).
+    
+    For inspiration from existing kits that provide for a similar purpose, see the official [Arduino Starter Kit](http://store.arduino.cc/product/K000007) [[alt](http://arduino.cc/en/Main/ArduinoStarterKit)], [Arduino Workshop Kit](http://store.arduino.cc/product/A000010), [Electronic Components](http://store.arduino.cc/product/C000047), or [Seeed Sidekick Basic Kit](http://www.seeedstudio.com/depot/Sidekick-Basic-Kit-for-Arduino-p-775.html).
 
 For details see [[Arduino Workshop Order]]
 
