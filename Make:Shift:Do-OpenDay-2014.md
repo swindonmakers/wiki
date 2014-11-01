@@ -4,12 +4,12 @@
 
 * [x] Get approval for holding it at the Museum from Simon
 * [ ] Sign-up on Make-Shift-Do website! http://www.craftscouncil.org.uk/what-we-do/makeshiftdo/
-* [ ] Decide on actual format
-* [ ] Decide on amount to charge and for what
+* [x] Decide on actual format
+* [x] Decide on amount to charge and for what
 * [ ] Create lesson plan/instruction sheet that will be given to each attendee
 * [x] Choose a number of customisable prints the attendees can have made - see list below
 * [ ] Print some example customisable pieces for people to "ooh and aah" at
-* [ ] Design poster/brochure
+* [x] Design poster/brochure
 * [ ] Print poster/brochure and put up at Museum/around town (locations?)
 * [ ] Invite journalists / send press-release? swindonlink, swindonadver, swindontv, radio?
 * [ ] Organise computers and 3d printers for actual day
@@ -18,6 +18,7 @@
 * [ ] Create sign-up sheet for folks interested in a longer/more detailed workshop
 * [ ] Make sure we have a sign-up sheet for people interested in the Hackspace, with checkboxes for particular topics?
 * [ ] Stack of take-away hackspace leaflets
+* [ ] Create website page/post (redirected/linked from 3dprintday2014)
 
 ## Drop-In 3D Design & Print
 
@@ -26,6 +27,11 @@
 * Computers/Laptops, borrow from museum? About 3?
 * Customisable prints to choose from
 * 3D printers, 3?
+
+## Documentation / github
+
+* Using [Scribus](http://wiki.scribus.net/canvas/Download) for now (as failing to find any nice way to do multimarkdown interactively / that I can work with) - available for Windows, Linux, Mac and a pile of other ODs', exports PDF, EPS, SVG and JPG.
+* Github repo is currently "OpenDay2014", to contain posters, images, instruction sheets, price sheets (?)
 
 
 ## Customisable Prints
