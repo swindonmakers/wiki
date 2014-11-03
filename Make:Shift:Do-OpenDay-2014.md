@@ -38,11 +38,13 @@
 
 Please add a selection below, with links to relevant source (e.g. Thingiverse).  If you've printed an example to bring to the day, check the box:
 
-* [ ] iPhone Case (for 4, 4S & 5) with wide variety of styles - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=40703&code=f72f4ff762301c8e0e6012da841874d3)
-* [ ] Halloween Torch/Flashlight projector - [Customiser Link](http://customizer.makerbot.com/things/494174/files/817292)
-* [x] Rippled Organic Vase - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=477840) - RL: 20mins to print 40mmx40mm, Filament used = 0.7m.  Very slow to render in OpenSCAD though
-* [x] Stretchlet Bracelet - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=57810&code=b2aa4f0ee3e0da5703c1e367aac9a20a) - RL: 18mins to print 150mm circumference, 13mm width. Filament used = 0.5m.  Tricky to get started, but looks cool.
-* [x] Luggage Label - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=175150&code=d3f2685b7ccb1bc1d17e1759d52f2a6b) - RL: 1hr10m to print two 3mm thick tags, Filament used = 1.9m
-* [ ] Minecraft Tools - [Customiser Link](http://www.thingiverse.com/apps/customizer/run?thing_id=355060&code=3f5f821e43dc25a4215621c6ea4744d7)
-* [x] Lego Block with your name on - [Link](http://www.thingiverse.com/thing:340321) - RL: 30mins to print a 2x5 brick, Filament Used 0.5m
-* [ ] Gimbal with a letter inside - [Link](http://www.thingiverse.com/thing:434613)
+Part | Link | Print Time | Filament Used | Notes
+:--|:--|:--|:--|:--
+iPhone Case (for 4, 4S & 5) | [Link](http://www.thingiverse.com/apps/customizer/run?thing_id=40703&code=f72f4ff762301c8e0e6012da841874d3)
+Halloween Torch/Flashlight projector | [Link](http://customizer.makerbot.com/things/494174/files/817292)
+Rippled Organic Vase | [Link](http://www.thingiverse.com/apps/customizer/run?thing_id=477840) | 20mins for 40mmx40mm | 0.7m | Very slow to render in OpenSCAD
+Stretchlet Bracelet | [Link](http://www.thingiverse.com/apps/customizer/run?thing_id=57810&code=b2aa4f0ee3e0da5703c1e367aac9a20a) | 18mins for 150mm circumference, 13mm width | 0.5m | Tricky to get started, but looks cool.
+Luggage Label | [Link](http://www.thingiverse.com/apps/customizer/run?thing_id=175150&code=d3f2685b7ccb1bc1d17e1759d52f2a6b) | 1hr10m for two 3mm thick | 1.9m | Indented text is more readable
+Minecraft Tools | [Link](http://www.thingiverse.com/apps/customizer/run?thing_id=355060&code=3f5f821e43dc25a4215621c6ea4744d7)
+Lego Block with your name on | [Link](http://www.thingiverse.com/thing:340321) | 30mins for 2x5 brick | 0.5m
+Gimbal with a letter inside | [Link](http://www.thingiverse.com/thing:434613)
