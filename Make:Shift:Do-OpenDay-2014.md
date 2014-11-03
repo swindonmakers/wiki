@@ -47,4 +47,4 @@ Stretchlet Bracelet | [Link](http://www.thingiverse.com/apps/customizer/run?thin
 Luggage Label | [Link](http://www.thingiverse.com/apps/customizer/run?thing_id=175150&code=d3f2685b7ccb1bc1d17e1759d52f2a6b) | 1hr10m for two 3mm thick | 1.9m | Indented text is more readable
 Minecraft Tools | [Link](http://www.thingiverse.com/apps/customizer/run?thing_id=355060&code=3f5f821e43dc25a4215621c6ea4744d7)
 Lego Block with your name on | [Link](http://www.thingiverse.com/thing:340321) | 30mins for 2x5 brick | 0.5m
-Gimbal with a letter inside | [Link](http://www.thingiverse.com/thing:434613)
+Gimbal with a letter inside | [Link](http://www.thingiverse.com/thing:434613) | 28mins | 0.73m
