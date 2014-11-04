@@ -5,7 +5,7 @@ LogoBot is a simple, extensible, Arduino-based mobile robot developed by the Swi
 See the [Assembly Guides](http://swindon.hackspace.org.uk/LogoBot/hardware/docs/index.htm) for detailed instructions on how to build a LogoBot.
 
 Latest WIP model:
-![WIP Model](http://swindon.hackspace.org.uk/LogoBot/hardware/images/LogoBot.png)
+![WIP Model](http://swindon.hackspace.org.uk/LogoBot/hardware/images/LogoBot_view.png)
 
 ## Principles / Requirements
 
