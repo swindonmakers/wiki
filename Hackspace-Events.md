@@ -27,7 +27,7 @@ List of events - planned, completed or wanted - most recent/active first.
 
 | Event Title                       | Organiser  | Format      | Support Required? |
 | --------------------------------- | ---------- | ----------- | ----------------- |
-| [[AFRo Robot Arm]]                | Damian     | Show'n'tell | No                |
+| [[AFRo Robot Arm Show n Tell ]]   | Damian     | Show'n'tell | No                |
 | Add your ideas here...            |            |             |                   |
 
 
