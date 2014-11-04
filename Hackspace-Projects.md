@@ -6,6 +6,9 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
   A simple, extensible, Arduino-based mobile robot inspired by Mirobot and others.
 
+- [[AFRo Robot Arm]]
+
+  An open-source Assisted Feeding Robot that can be built for less than £300
 
 - [[Pen Plotter]]
 
