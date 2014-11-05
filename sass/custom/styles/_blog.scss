@@ -10,6 +10,15 @@ article > header {
   .meta time { display: none; }
 }
 
+// Galleria main content
+.galleria{ width: 700px; height: 540px; background: none; }
+
+// Undo image borders for galleria content
+.galleria img {
+  border: none;
+  @include border-radius(0);
+}
+
 // centre align lone image in a paragraph (without a class, optionally within a link)
 article p > img:only-child:not([class]), article p > a:only-child > img:not([class]) {
   margin: 0 auto 1.5em; display: block;
