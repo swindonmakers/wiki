@@ -97,12 +97,16 @@ Notes:
 
 Ref Arduino Pro Mini pinout:  
 
-![](http://www.engineersgarage.com/sites/default/files/imagecache/Original/wysiwyg_imageupload/4214/Arduino%20Pro%20Mini%20copy.png)
+![Pro Mini Front](images/logobot/ProMini-front.jpg)
+![Pro Mini Back](images/logobot/ProMini-back.jpg)
 
-- [Schematic for Pro Mini](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/Arduino-Pro-Mini-v14.pdf) - [(from Sparkfun)](https://learn.sparkfun.com/tutorials/using-the-arduino-pro-mini-33v)
+
+- [Schematic for Pro Mini](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/Arduino-Pro-Mini-v14.pdf) [(from Sparkfun)](https://learn.sparkfun.com/tutorials/using-the-arduino-pro-mini-33v)
 
 <!--
 - [Schematic for Pro Micro](http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Dev/Arduino/Boards/Pro_Micro_v13.pdf) - [(from Sparkfun)](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide)
+
+![](http://www.engineersgarage.com/sites/default/files/imagecache/Original/wysiwyg_imageupload/4214/Arduino%20Pro%20Mini%20copy.png)
 -->
 
 
