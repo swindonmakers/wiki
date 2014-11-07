@@ -108,8 +108,11 @@ A0-A3  | Microswitches - Front Left, Front Right, Back Left, Back Right
 
 - [Arduino Pro Mini Pinout](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/Arduino-Pro-Mini-v14.pdf) [(from Sparkfun)](https://learn.sparkfun.com/tutorials/using-the-arduino-pro-mini-33v)
 
-![Pro Mini Front](images/logobot/ProMini-front.jpg)
-![Pro Mini Back](images/logobot/ProMini-back.jpg)
+    ![Pro Mini Front](images/logobot/ProMini-front.jpg)
+
+- Four additional analog pins (A4, A5, A6 and A7) are not located at the edge of the board.
+
+    ![Pro Mini Back](images/logobot/ProMini-back.jpg)
 
 
 <!--
