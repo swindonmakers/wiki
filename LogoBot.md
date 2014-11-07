@@ -95,8 +95,16 @@ Notes:
 
 ## Pin Assignments
 
-Ref Arduino Pro Mini pinout:
+Ref Arduino Pro Mini pinout:  
+
 ![](http://www.engineersgarage.com/sites/default/files/imagecache/Original/wysiwyg_imageupload/4214/Arduino%20Pro%20Mini%20copy.png)
+
+- [Schematic for Pro Mini](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/Arduino-Pro-Mini-v14.pdf) - [(from Sparkfun)](https://learn.sparkfun.com/tutorials/using-the-arduino-pro-mini-33v)
+
+<!--
+- [Schematic for Pro Micro](http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Dev/Arduino/Boards/Pro_Micro_v13.pdf) - [(from Sparkfun)](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide)
+-->
+
 
 First draft of pin assignments...  uses all the normal pins!
 
@@ -108,9 +116,6 @@ Pin(s) | Assignment
 10     | Piezo sounder
 11-13  | RGB LED
 A0-A3  | Microswitches - Front Left, Front Right, Back Left, Back Right
-
-- [Schematic for Pro Mini](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/Arduino-Pro-Mini-v14.pdf) - ([from Sparkfun](https://learn.sparkfun.com/tutorials/using-the-arduino-pro-mini-33v))
-- [Schematic for Pro Micro](http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Dev/Arduino/Boards/Pro_Micro_v13.pdf) - ([from Sparkfun](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide))
 
 ## Hardware Development Owners
 
