@@ -109,8 +109,8 @@ Pin(s) | Assignment
 11-13  | RGB LED
 A0-A3  | Microswitches - Front Left, Front Right, Back Left, Back Right
 
-- [Schematic for Pro Mini](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/Arduino-Pro-Mini-v14.pdf)
-- [Schematic for Pro Micro](http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Dev/Arduino/Boards/Pro_Micro_v13.pdf)
+- [Schematic for Pro Mini](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/Arduino-Pro-Mini-v14.pdf) - (from [Sparkfun](https://learn.sparkfun.com/tutorials/using-the-arduino-pro-mini-33v))
+- [Schematic for Pro Micro](http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Dev/Arduino/Boards/Pro_Micro_v13.pdf) - (from [Sparkfun](https://learn.sparkfun.com/tutorials/pro-micro--fio-v3-hookup-guide))
 
 ## Hardware Development Owners
 
