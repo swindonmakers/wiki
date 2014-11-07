@@ -105,6 +105,8 @@ Pin(s) | Assignment
 10     | Piezo sounder
 11-13  | RGB LED
 A0-A3  | Microswitches - Front Left, Front Right, Back Left, Back Right
+|
+A4-A7  | Spare headers, not usable on the breadboard
 
 - [Arduino Pro Mini Pinout](https://cdn.sparkfun.com/datasheets/Dev/Arduino/Boards/Arduino-Pro-Mini-v14.pdf) [(from Sparkfun)](https://learn.sparkfun.com/tutorials/using-the-arduino-pro-mini-33v)
 
