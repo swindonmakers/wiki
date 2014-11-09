@@ -155,7 +155,7 @@ Assembly Instructions Booklet | (Damian?)
 Sensors and switches | ? |
 Drive Chain | ? |
 Power Supply | ? |
-Printed Parts | ? | Jamie
+Printed Parts | ? | Jamie (can run hackspace printer out of hours as req.)
 
 ### Non-critical tasks
 
