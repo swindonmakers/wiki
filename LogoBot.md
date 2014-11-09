@@ -146,18 +146,23 @@ This is an evolving list of who is owning the development of various parts - for
 
 Non exhaustive list of owners for various tasks on the actual real-world hardware and accessories. Add yourself to any existing tasks, or create any new ones required.
 
-* Arduino and Software - Jamie
-* Assembly Instructions Booklet - (Damian?)
-* Sensors and switches - 
-* Drive Chain -
-* Printed Parts -
+Task(s) | Owner(s)
+:---- | ----------
+Arduino and Software | Jamie
+Assembly Instructions Booklet | (Damian?)
+Sensors and switches | 
+Drive Chain | 
+Power Supply | 
+Printed Parts | 
 
 ### Non critical tasks
 
 Side projects, extras, or possible extensions.
 
-* Custom Shells -
-* Investigate use of Raspberry Pi with Mirobot Libraries - Jamie
+Task(s) | Owner(s)
+:---- | ----------
+Custom Shells | 
+Investigate use of Raspberry Pi with Mirobot Libraries | Jamie
 
 
 ## See Also
