@@ -155,7 +155,7 @@ Drive Chain |
 Power Supply | 
 Printed Parts | 
 
-### Non critical tasks
+### Non-critical tasks
 
 Side projects, extras, or possible extensions.
 
