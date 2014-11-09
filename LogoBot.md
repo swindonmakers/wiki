@@ -151,8 +151,13 @@ Non exhaustive list of owners for various tasks on the actual real-world hardwar
 * Sensors and switches - 
 * Drive Chain -
 * Printed Parts -
-* Custom Shells -
 
+### Non critical tasks
+
+Side projects, extras, or possible extensions.
+
+* Custom Shells -
+* Investigate use of Raspberry Pi with Mirobot Libraries - Jamie
 
 
 ## See Also
