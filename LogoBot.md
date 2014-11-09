@@ -128,7 +128,7 @@ A4-A7  | Spare headers, not usable on the breadboard
 
 This is an evolving list of who is owning the development of various parts - for latest updates, see the [live Issues in the repo](https://github.com/snhack/LogoBot/issues)
 
-### Vitamins
+### OpenSCAD Vitamins
 * Arduino - Jamie
 * Battery Pack - Jess
 * Breadboard - Damian
@@ -140,6 +140,20 @@ This is an evolving list of who is owning the development of various parts - for
 * Piezo - James
 * Stepper Drivers - Rob
 * Stepper Motors - Malcolm
+
+
+### Hardware Development
+
+Non exhaustive list of owners for various tasks on the actual real-world hardware and accessories. Add yourself to any existing tasks, or create any new ones required.
+
+* Arduino and Software - Jamie
+* Assembly Instructions Booklet - (Damian?)
+* Sensors and switches - 
+* Drive Chain -
+* Printed Parts -
+* Custom Shells -
+
+
 
 ## See Also
 
