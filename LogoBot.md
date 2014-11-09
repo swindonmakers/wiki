@@ -142,27 +142,29 @@ This is an evolving list of who is owning the development of various parts - for
 * Stepper Motors - Malcolm
 
 
-### Hardware Development
+### Hardware and accessories
 
 Non exhaustive list of owners for various tasks on the actual real-world hardware and accessories. Add yourself to any existing tasks, or create any new ones required.
 
-Task(s) | Owner(s)
-:---- | ----------
-Arduino and Software | Jamie
+Use the volunteer column if you want to help somebody else with a task, or are otherwise unsure about taking ownership of it (we can then review on a Wednesday evening).
+
+Tasks | Owners | Volunteer?
+:---- | ---------- | ----------
+Arduino and Software | Jamie |
 Assembly Instructions Booklet | (Damian?)
-Sensors and switches | 
-Drive Chain | 
-Power Supply | 
-Printed Parts | 
+Sensors and switches | ? |
+Drive Chain | ? |
+Power Supply | ? |
+Printed Parts | ? | Jamie
 
 ### Non-critical tasks
 
 Side projects, extras, or possible extensions.
 
-Task(s) | Owner(s)
-:---- | ----------
-Custom Shells | 
-Investigate use of Raspberry Pi with Mirobot Libraries | Jamie
+Tasks | Owners | Volunteer?
+:---- | ---------- | ----------
+Custom Shells | ? |
+Investigate use of Raspberry Pi with Mirobot Libraries | Jamie |
 
 
 ## See Also
