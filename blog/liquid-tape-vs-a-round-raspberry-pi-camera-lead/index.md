@@ -4,7 +4,7 @@ categories:   projects
 author:       Robert Longbottom
 image:        liquidTapeBottle.jpg
 date:         2014-11-11 17:08
-discuss:      #leave until published
+discuss:      sJGMJETMolM
 
 
 A while back I was watching either a YouTube video or reading a
