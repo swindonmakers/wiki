@@ -4,7 +4,7 @@
   <title><![CDATA[Category: projects | Swindon Hackspace]]></title>
   <link href="http://swindon.hackspace.org.uk/blog/categories/projects/atom.xml" rel="self"/>
   <link href="http://swindon.hackspace.org.uk/"/>
-  <updated>2014-11-10T17:26:03+00:00</updated>
+  <updated>2014-11-11T16:39:46+00:00</updated>
   <id>http://swindon.hackspace.org.uk/</id>
   <author>
     <name><![CDATA[Swindon Hackspace]]></name>
@@ -12,6 +12,91 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Liquid Tape vs a Pi Camera Lead]]></title>
+    <link href="http://swindon.hackspace.org.uk/blog/liquid-tape-vs-a-round-raspberry-pi-camera-lead/"/>
+    <updated>2014-11-11T17:08:00+00:00</updated>
+    <id>http://swindon.hackspace.org.uk/blog/liquid-tape-vs-a-round-raspberry-pi-camera-lead</id>
+    <content type="html"><![CDATA[
+<p>A while back I was watching either a YouTube video or reading a
+blog post about soldering wires onto PCBs, possibly a quadcopter power
+distribution board.  After soldering, the guy got out something called
+liquid electrical tape and gobbed some over the solder joints to
+reinforce them.  Brilliant I thought!  Why have I never head of this
+stuff before?  I usually use the hot glue gun for things like that,
+but somehow this looked better and neater.</p>
+
+<!-- more -->
+
+<p>So I promptly got on Google and looked into this stuff. There
+were a few different manufacturers and it wasn’t that
+cheap, so I nearly didn’t buy any because I didn’t have a specific use
+for it at the time.  But in the end I thought what the heck and
+ordered some from <a href="http://www.amazon.co.uk/gp/product/B000LNKIFS">Amazon</a>.</p>
+
+<p><img src="liquidTapeBottle.jpg" alt="Liquid Electrical Tape" /></p>
+
+<p>It arrived, I opened it, looked at the bottle of black gooey tar-like
+liquid, went “mmm, nice”, didn’t really have a use for it and so it
+sat on my desk unused.  </p>
+
+<p>Until now! </p>
+
+<h2 id="enter-the-round-raspberry-pi-camera-extension-cable">Enter the Round Raspberry Pi Camera Extension Cable.</h2>
+
+<p>I’ve been meaning to fit a camera to my 3D printer’s Raspberry Pi and
+<a href="/blog/octoprint-and-the-raspberry-pi-camera/">hook it into OctoPrint</a>
+since I got the printer, and I finally got round to getting a camera.  The 
+cable  that comes with it however, is flat and woefully short.  Not great 
+for routing around to get the camera into the ideal location.  I’d looked 
+for round cables in the past with no joy, but was pleased to find that 
+someone was now selling them on <a href="http://stores.ebay.co.uk/picables">eBay</a>.</p>
+
+<p>As it arrives it’s a bit “diy” to say the least, but that’s okay. What
+you get is a cable with a plug on each end and a socket that looks
+like it should be mounted onto a PCB.
+Plugging the plug part into the back of the PCB socket and connecting
+up the camera proved that it worked fine, however the connection
+wasn’t at all secure and any movement of the camera or cable caused it
+to stop working, requiring a reboot of the Pi to get it going again.</p>
+
+<p>That wasn’t going to be very good, since I was planning on mounting the
+camera on my printbed which moves back and forth.  I thought about heat 
+shrinking the connection to reinforce it, but
+realised it was a perfect opportunity to try out the liquid 
+tape that had been sitting on my desk for quite a few weeks now.</p>
+
+<p><img src="brushingOn.jpg" alt="Brushing On" /></p>
+
+<p>Knowing that the cable was working, I supported it on my desk with
+some helping hands and a random heat sink that was lying around, then
+started to apply the black goo from the bottle using the brush
+attached to the inside of the lid.</p>
+
+<p><img src="halfDone.jpg" alt="Half Done" /></p>
+
+<p>I applied plenty so as to cover the whole of the PCB socket; all the
+time hoping this worked, because it wasn’t going to come apart again
+without making some serious mess and probably ruining the cable.</p>
+
+<p><img src="oneCoatVsTwo.jpg" alt="One Coat vs Two" /></p>
+
+<p>It took a couple of coats to get a good covering (that’s what it 
+recommends on the bottle).  The goo seemed to shrink slightly as it 
+dried and formed a nice tight rubbery seal around the connection.</p>
+
+<p><img src="completedProduct.jpg" alt="Finished Cable" /></p>
+
+<p>The finished seal looks pretty tidy, probably more tidy than if I’d
+used heat shrink. The cable still works and the camera can be moved
+around without loosing its connection to the Raspberry Pi. Success!</p>
+
+<p>So, if you enjoy messing around with black goo, enjoy the smell of strong 
+solvent and have some electrical connections that need sealing or 
+reinforcing, I can highly recommend using some liquid electrical tape.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PiFace Shutdown Message]]></title>
@@ -767,57 +852,6 @@ air across the floor.  Whether it has made a huge difference
 is hard to tell so far but I don’t think it can hurt.</p>
 
 <p><img src="5.jpg" alt="Complete" /></p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Quadcopter Design and Build]]></title>
-    <link href="http://swindon.hackspace.org.uk/blog/quadcopter-builds/"/>
-    <updated>2013-09-26T19:08:00+01:00</updated>
-    <id>http://swindon.hackspace.org.uk/blog/quadcopter-builds</id>
-    <content type="html"><![CDATA[
-<p>A couple of members are now putting the finishing touches to their quadcopter builds and proceeding into the upgrade phase (typical). The build process isn’t too difficult with the excellent DJI 450 quadcopter kit, which allows various options to be taken to reach each users end goal, whether it be simple flying or the more advanced (and costly) First Person Viewing (FPV) camera set-up.</p>
-
-<!-- more -->
-
-<p>From a hacking point of view, there are some areas of this hobby which lends itself really well to hacking. I personally have a 3D printer and CAD design skills, therefore items like camera mounts (GoPro etc.), electronics enclosures, landing skids etc. are all able to be designed and manufactured easily. From an electronics perspective there are various radio transmitter hacks or custom firmware mods can be pursued if required too.</p>
-
-<p><a href="2.jpg"><img src="2-small.jpg" alt="Quadcopter First Flight" /></a></p>
-
-<p>I will soon be presenting my quadcopter with on-board live video streaming to <a href="http://wilsar.org.uk/" title="http://wilsar.org.uk/">Wiltshire Search and Rescue</a>. They are extremely interested in seeing the the on-board camera footage with a view to help saving them many man hours of ground based searching. Also it will allow them to view inaccessible areas very quickly such as riverbanks and remote fields. The option to upload pre-programmed missions from Google Maps into the on-board Ardupilot control board then have the GPS navigation system take control at the flick of a switch also sounds appealing. Whole fields can be scanned in seconds and minutes.</p>
-
-<p>These are eye-in-the-sky images that I have currently been getting through the on-board GoPro Hero 3:</p>
-
-<p><a href="3.jpg"><img src="3-small.jpg" alt="Swindon Remote Control Car Club" /></a></p>
-
-<p><a href="4.jpg"><img src="4-small.jpg" alt="Moredon Playing Fields" /></a></p>
-
-<p><a href="5.jpg"><img src="5-small.jpg" alt="Wroughton Airfield" /></a></p>
-
-<p><a href="6.jpg"><img src="6-small.jpg" alt="Wroughton and Swindon from Wroughton Airfield" /></a></p>
-
-<p>Flight videos have been uploaded on YouTube too:</p>
-
-<p><iframe src="http://www.youtube.com/embed/X6MDkSDx5UQ" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-<iframe src="http://www.youtube.com/embed/ch740siWPGY" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-<iframe src="http://www.youtube.com/embed/yl5OPOSkdmI" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></p>
-
-<p>The next stage for me is to re-build my quad to a “spider style” configuration. This will be achieved by redesigning the central plates to orientate the forward arms out of the shot from the camera view. Click on the images below to download my CAD files from <a href="http://www.thingiverse.com/" title="http://www.thingiverse.com/">Thingiverse</a>.</p>
-
-<p><a href="http://www.thingiverse.com/thing:160607"><img src="Render2.png" alt="Spyda 500 Quadcopter" /></a></p>
-
-<p><a href="http://www.thingiverse.com/thing:160607"><img src="Render3.png" alt="Spyda 500 Quadcopter" /></a></p>
-
-<p><a href="8.jpg"><img src="8-small.jpg" alt="Spyda 500 Quadcopter" /></a></p>
-
-<p><a href="7.jpg"><img src="7-small.jpg" alt="Spyda 500 Quadcopter" /></a></p>
-
-<p>And a GoPro Hero 3 mount that is fully printable :</p>
-
-<p><a href="http://www.thingiverse.com/thing:163107"><img src="Render4.png" alt="Spyda 500 GoPro Hero 3 Mount" /></a></p>
-
-<p>If you are interested in finding out more about this hobby then come along to the <a href="/about/#weekly-meetings" title="http://swindon.hackspace.org.uk/about/">Swindon Hackspace</a> on a Wednesday night and have a chat with some like minded members.</p>
-
 ]]></content>
   </entry>
   
