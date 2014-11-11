@@ -4,8 +4,7 @@ For help with actually creating a post, please see [[contributing website and wi
 
 ### Workflow:
 
-* Preview, then deploy rendered site, checking that post is live and rendered without issues.  
-  (you can do this without commiting any final tweaks just yet, to save an extra commit.) 
+* Preview, then deploy rendered site, checking that post is live and rendered without issues. (you can do this without commiting any final tweaks just yet, to save an extra commit.) 
 
 * Create a new google group topic, via [email](mailto:swindon-hackspace@googlegroups.com) or [web](https://groups.google.com/forum/#!newtopic/swindon-hackspace), using the format [shown below](#group-topic).  Ideally, the topic should be created by `Swindon Hackspace`.  Before sending, double-check that the links in the group topic correctly link to the new blog post.
 
