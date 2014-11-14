@@ -150,12 +150,14 @@ Use the volunteer column if you want to help somebody else with a task, or are o
 
 Tasks | Owners | Volunteer?
 :---- | ---------- | ----------
-Arduino and Software | Jamie |
-Assembly Instructions Booklet | (Damian?)
-Sensors and switches | ? |
-Drive Chain | ? |
-Power Supply | ? |
-Printed Parts | ? | Jamie (can run hackspace printer out of hours as req.)
+Arduino and software | Jamie |
+Switches and bumpers | ? |
+Drive chain | ? |
+Power supply | ? |
+IR and ultra sonic sensors | ? |
+RGB LED light pipe | Jamie |
+Printing of parts | ? | Jamie (can run hackspace printer as req.)
+Assembly instructions booklet | (Damian?)
 
 ### Non-critical tasks
 
@@ -163,8 +165,8 @@ Side projects, extras, or possible extensions.
 
 Tasks | Owners | Volunteer?
 :---- | ---------- | ----------
-Custom Shells | ? |
-Investigate use of Raspberry Pi with Mirobot Libraries | Jamie |
+Custom/Alt shell designs | ? |
+Investigate use of Raspberry Pi with Mirobot libraries | Jamie |
 
 
 ## See Also
