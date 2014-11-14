@@ -148,24 +148,30 @@ Non exhaustive list of owners for various tasks on the actual real-world hardwar
 
 Use the volunteer column if you want to help somebody else with a task, or are otherwise unsure about taking ownership of it (we can then review on a Wednesday evening).
 
-Tasks | Owners | Volunteer?
+Tasks | Owners | Notes / Volunteer?
 :---- | ---------- | ----------
-Arduino and software | Jamie |
-Switches and bumpers | ? |
+Ordering components | ? | Sync parts with Arduino workshop
+Printing of parts | ? | Jamie
 Drive chain | ? |
 Power supply | ? |
+Switches and bumpers | ? |
 IR and ultra sonic sensors | ? |
-RGB LED light pipe | Jamie |
-Printing of parts | ? | Jamie (can run hackspace printer as req.)
-Assembly instructions booklet | (Damian?)
+Arduino and software | Jamie |
+Piezo sounder | ? |
+RGB light pipe | Jamie |
+Pen lift mechanism | ? |
+Wiring and harnessing/fixing | ? |
+Modular adapters | ? |
+Assembly instructions booklet | (Damian?) | Jamie (Fritzing layouts?)
 
 ### Non-critical tasks
 
 Side projects, extras, or possible extensions.
 
-Tasks | Owners | Volunteer?
+Tasks | Owners | Notes / Volunteer?
 :---- | ---------- | ----------
 Custom/Alt shell designs | ? |
+Add-on features | ? |
 Investigate use of Raspberry Pi with Mirobot libraries | Jamie |
 
 
