@@ -3,10 +3,10 @@
 ## Tasks
 
 * [x] Get approval for holding it at the Museum from Simon
-* [ ] Sign-up on Make-Shift-Do website! http://www.craftscouncil.org.uk/what-we-do/makeshiftdo/
+* [-] Sign-up on Make-Shift-Do website! http://www.craftscouncil.org.uk/what-we-do/makeshiftdo/
 * [x] Decide on actual format
 * [x] Decide on amount to charge and for what
-* [ ] Create lesson plan/instruction sheet that will be given to each attendee
+* [x] Create lesson plan/instruction sheet that will be given to each attendee
 * [x] Choose a number of customisable prints the attendees can have made - see list below
 * [ ] Print some example customisable pieces for people to "ooh and aah" at
 * [x] Design poster/brochure
@@ -14,7 +14,7 @@
 * [ ] Invite journalists / send press-release? swindonlink, swindonadver, swindontv, radio?
 * [ ] Organise computers and 3d printers for actual day
 * [ ] Organise people to man the above
-* [ ] Sheet for booking times if it gets busy!
+* [x] Sheet for booking times if it gets busy!
 * [ ] Create sign-up sheet for folks interested in a longer/more detailed workshop
 * [ ] Make sure we have a sign-up sheet for people interested in the Hackspace, with checkboxes for particular topics?
 * [ ] Stack of take-away hackspace leaflets
