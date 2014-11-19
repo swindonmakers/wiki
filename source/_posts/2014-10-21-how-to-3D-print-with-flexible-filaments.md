@@ -118,25 +118,104 @@ I will leave you with a gallery of my prints which are either printed fully in F
 
 If you would like to stay up to date with my designs then please follow me on [Thingiverse](http://www.thingiverse.com/Gyrobot/designs), [Twitter](https://twitter.com/gyrobotuk), [Facebook](https://www.facebook.com/GyrobotUK) or [Instagram](http://instagram.com/gyrobotuk).
 
-[![Hell-oween Flexy-Hand](25.jpg)](http://www.myminifactory.com/object/hell-oween-flexy-hand-2822)
-[![Hell-oween Flexy-Hand](26.jpg)](http://www.myminifactory.com/object/hell-oween-flexy-hand-2822)
-[![Flexy Flip Flop](24.jpg)](https://www.thingiverse.com/thing:380698)
-[![Frog Dissection Kit](8.jpg)](https://www.thingiverse.com/make:68731)
-[![Frog Dissection Kit](9.jpg)](https://www.thingiverse.com/make:68731)
-[![Flexy-Hand](11.jpg)](https://www.thingiverse.com/make:69561)
-[![Recreus Sneaker II - Gyrobot Remix](12.jpg)](https://www.thingiverse.com/thing:289292)
-[![Recreus Sneaker II - Gyrobot Remix](14.jpg)](https://www.thingiverse.com/thing:289292)
-[![Flexy Flip Flop](16.jpg)](https://www.thingiverse.com/thing:380698)
-[![Custom Prosthetic Liners](19.jpg)](19.jpg)
-[![Flexy-Hand 2](20.jpg)](https://www.thingiverse.com/thing:380665)
-[![Filaflexy-Hand](21.jpg)](https://www.thingiverse.com/thing:439484)
-[![Flexy-Hand](23.jpg)](https://www.thingiverse.com/make:94594)
-[![Gear Bearing by Emmett](1.jpg)](https://www.thingiverse.com/make:60385)
-[![GoPro Hero 3 Mount](2.jpg)](https://www.thingiverse.com/thing:163107)
-[![Flexy-Hand](5.jpg)](https://www.thingiverse.com/thing:242639)
-[![Swindon Hackspace Logo](3.jpg)](https://www.thingiverse.com/make:63015)
-[![Tie-Fighter (Flexy-Frame)](7.jpg)](https://www.thingiverse.com/thing:262735)
-[![Die](40.jpg)](https://www.thingiverse.com/make:97857)
+
+{% galleria %}
+{
+  title: 'Hell-oween Flexy-Hand',
+  image: '25.jpg',
+  link:  'http://www.myminifactory.com/object/hell-oween-flexy-hand-2822',
+},
+{
+  title: 'Hell-oween Flexy-Hand',
+  image: '26.jpg',
+  link:  'http://www.myminifactory.com/object/hell-oween-flexy-hand-2822',
+},
+{
+  title: 'Flexy Flip Flop',
+  image: '24.jpg',
+  link:  'https://www.thingiverse.com/thing:380698',
+},
+{
+  title: 'Frog Dissection Kit',
+  image: '8.jpg',
+  link:  'https://www.thingiverse.com/make:68731',
+},
+{
+  title: 'Frog Dissection Kit',
+  image: '9.jpg',
+  link:  'https://www.thingiverse.com/make:68731',
+},
+{
+  title: 'Flexy-Hand',
+  image: '11.jpg',
+  link:  'https://www.thingiverse.com/make:69561',
+},
+{
+  title: 'Recreus Sneaker II - Gyrobot Remix',
+  image: '12.jpg',
+  link:  'https://www.thingiverse.com/thing:289292',
+},
+{
+  title: 'Recreus Sneaker II - Gyrobot Remix',
+  image: '14.jpg',
+  link:  'https://www.thingiverse.com/thing:289292',
+},
+{
+  title: 'Flexy Flip Flop',
+  image: '16.jpg',
+  link:  'https://www.thingiverse.com/thing:380698',
+},
+{
+  title: 'Custom Prosthetic Liners',
+  image: '19.jpg',
+  image: '19.jpg',
+},
+{
+  title: 'Flexy-Hand 2',
+  image: '20.jpg',
+  link:  'https://www.thingiverse.com/thing:380665',
+},
+{
+  title: 'Filaflexy-Hand',
+  image: '21.jpg',
+  link:  'https://www.thingiverse.com/thing:439484',
+},
+{
+  title: 'Flexy-Hand',
+  image: '23.jpg',
+  link:  'https://www.thingiverse.com/make:94594',
+},
+{
+  title: 'Gear Bearing by Emmett',
+  image: '1.jpg',
+  link:  'https://www.thingiverse.com/make:60385',
+},
+{
+  title: 'GoPro Hero 3 Mount',
+  image: '2.jpg',
+  link:  'https://www.thingiverse.com/thing:163107',
+},
+{
+  title: 'Flexy-Hand',
+  image: '5.jpg',
+  link:  'https://www.thingiverse.com/thing:242639',
+},
+{
+  title: 'Swindon Hackspace Logo',
+  image: '3.jpg',
+  link:  'https://www.thingiverse.com/make:63015',
+},
+{
+  title: 'Tie-Fighter (Flexy-Frame)',
+  image: '7.jpg',
+  link:  'https://www.thingiverse.com/thing:262735',
+},
+{
+  title: 'Die',
+  image: '40.jpg',
+  link:  'https://www.thingiverse.com/make:97857',
+},
+{% endgalleria %}
 
 
 
