@@ -5,6 +5,7 @@ author:       Steve Wood, AKA Gyrobot
 image:        5.jpg
 date:         2014-11-19 21:20
 web:          http://www.gyrobot.co.uk
+discuss:      ZSypzA3x-iQ
 
 The saying, "You cannot push on a rope" remains as apt as ever when it comes to 3D printing with flexible filaments. Most printers will have some form of success straight out of the box with flexible filaments, but don't be greedy to begin with, turn the printing speed right down. Within this article I will try to explain as best as I can the problems, pitfalls to avoid and how to achieve success with pushing on a rope to achieve good print quality at acceptable speeds, in this case substituting the rope for flexible and elastic filaments for 3D printing such as [Filaflex](http://recreus.com/en/).
 
