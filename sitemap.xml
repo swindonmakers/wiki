@@ -2,7 +2,7 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://swindon.hackspace.org.uk/blog/resources-for-using-git/</loc>
-        <lastmod>2014-11-05T22:20:27+00:00</lastmod>
+        <lastmod>2014-11-19T18:00:07+00:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/blog/twitter-to-teletype/</loc>
@@ -48,11 +48,15 @@
         <loc>
             http://swindon.hackspace.org.uk/blog/liquid-tape-vs-a-round-raspberry-pi-camera-lead/
         </loc>
-        <lastmod>2014-11-11T16:45:55+00:00</lastmod>
+        <lastmod>2014-11-19T18:00:07+00:00</lastmod>
+    </url>
+    <url>
+        <loc>http://swindon.hackspace.org.uk/blog/how-to-3D-print-with-flexible-filaments/</loc>
+        <lastmod>2014-11-19T22:16:12+00:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/3dprintday/</loc>
-        <lastmod>2014-11-10T17:25:47+00:00</lastmod>
+        <lastmod>2014-11-19T18:00:07+00:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/about/</loc>
@@ -60,11 +64,11 @@
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/blog/archives/</loc>
-        <lastmod>2014-11-11T16:45:55+00:00</lastmod>
+        <lastmod>2014-11-19T22:16:12+00:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/blog/</loc>
-        <lastmod>2014-11-11T16:45:55+00:00</lastmod>
+        <lastmod>2014-11-19T22:16:12+00:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/hackspace/</loc>
@@ -72,14 +76,14 @@
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/</loc>
-        <lastmod>2014-11-11T16:45:55+00:00</lastmod>
+        <lastmod>2014-11-19T22:16:12+00:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/meetings/</loc>
-        <lastmod>2014-11-11T16:45:55+00:00</lastmod>
+        <lastmod>2014-11-19T22:16:12+00:00</lastmod>
     </url>
     <url>
         <loc>http://swindon.hackspace.org.uk/projects/</loc>
-        <lastmod>2014-11-11T16:45:55+00:00</lastmod>
+        <lastmod>2014-11-19T22:16:12+00:00</lastmod>
     </url>
 </urlset>
