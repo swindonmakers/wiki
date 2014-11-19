@@ -127,6 +127,13 @@ twitter_count: none
 twitter_tweet_button: true
 twitter_widget_id: 356204429415956482
 
+# Flickr
+flickr:
+  api_key:          569779243f2f41be64d0c5e653e400d6
+  shared_secret:    b1c59c3409af617b
+  access_token:     72157648954596699-eca0fef18ce47d69
+  access_secret:    5f5e4c619d2093c2
+
 # Facebook
 facebook_user: swindon.hackspace
 
