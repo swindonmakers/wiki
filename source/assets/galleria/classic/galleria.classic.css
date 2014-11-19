@@ -83,8 +83,10 @@
 }
 .galleria-theme-classic .galleria-info-text {
     background-color: transparent;
+    text-decoration: underline;
     padding: 12px;
     display: none;
+    text-align: center;
     /* IE7 */ zoom:1;
 }
 .galleria-theme-classic .galleria-info-title {

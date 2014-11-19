@@ -3,12 +3,13 @@ subtitle:     You Cannot Push on a Rope
 categories:   Articles
 author:       Steve Wood, AKA Gyrobot
 image:        5.jpg
-date:         2014-10-21 17:20
+date:         2014-11-19 21:20
 web:          http://www.gyrobot.co.uk
 
 The saying, "You cannot push on a rope" remains as apt as ever when it comes to 3D printing with flexible filaments. Most printers will have some form of success straight out of the box with flexible filaments, but don't be greedy to begin with, turn the printing speed right down. Within this article I will try to explain as best as I can the problems, pitfalls to avoid and how to achieve success with pushing on a rope to achieve good print quality at acceptable speeds, in this case substituting the rope for flexible and elastic filaments for 3D printing such as [Filaflex](http://recreus.com/en/).
 
 <!-- more -->
+
 
 ##What is Flexible Filament?
 
@@ -39,17 +40,27 @@ This gap needs to be closed up so the filament is constrained all the way into t
 There are several ways to achieve this and your individual extruder may vary and it may/may not be possible to achieve on some printers.
 
 1. Retrofit an extra support insert into the extruder.
-	An example of retrofit supports :
-    - [Second filament guide for Jigsaw extruder](http://www.thingiverse.com/thing:247024)
-    - [Printrbot Simple V2 flexible filament guide](http://www.thingiverse.com/thing:191503)
-    - [V9 Extruder Filament Guide 1,75mm](http://www.thingiverse.com/thing:16319)
+    
+    - An example of retrofit supports :
+        
+        - [Second filament guide for Jigsaw extruder](http://www.thingiverse.com/thing:247024)
+        
+        - [Printrbot Simple V2 flexible filament guide](http://www.thingiverse.com/thing:191503)
+        
+        - [V9 Extruder Filament Guide 1,75mm](http://www.thingiverse.com/thing:16319)
+
 2. Reprint yourself a new extruder design with built in filament support.
 
-	There are many of these upgrades including several I have designed myself as part of "[Gyrobot's Extruder Week](http://www.thingiverse.com/thing:307021)":
-    - [Recreus Extruder - Base Mountable](http://www.thingiverse.com/thing:307142)
-    - [Micro DUAL/QUAD Extruder](http://www.thingiverse.com/thing:307218)
-    - [Mk8 Spring loaded Drive Block Replicator 1 / Duplicator 4 / FlashForge / CTC](http://www.thingiverse.com/thing:231310) : 
-   [![Extruder Solution](31.jpg)](31.jpg)
+    - There are many of these upgrades including several I have designed myself as part of "[Gyrobot's Extruder Week](http://www.thingiverse.com/thing:307021)":
+
+        - [Recreus Extruder - Base Mountable](http://www.thingiverse.com/thing:307142)
+
+        - [Micro DUAL/QUAD Extruder](http://www.thingiverse.com/thing:307218)
+
+        - [Mk8 Spring loaded Drive Block Replicator 1 / Duplicator 4 / FlashForge / CTC](http://www.thingiverse.com/thing:231310) : 
+    
+            [![Extruder Solution](31.jpg)](31.jpg)
+
 3. Purchase an off the shelf extruder and hot end which is flexible filament compatible, such as the [Recreus](http://recreus.com/en) Extruder which has achieved flexible printing speeds of 120mm/s (Due Nov 2014):
 
 [![Recreus Extruder](29.png)](29.png)
@@ -61,29 +72,40 @@ There are several ways to achieve this and your individual extruder may vary and
 Excessive filament friction is the enemy for flexible printing, it can cause more pressure on the drive gear consequently more filament feed problems can happen as a result. Both excessive friction before and after the drive gear can result in issues.
 
 ##Solution #2
-####Before the Drive Gear
+
+### Before the Drive Gear
 
 If possible, feed the flexible filament directly into the Extruder, without a using a feed tube. Ideally from above at a height of 12" or more from the printer, the higher the better. This will provide an unrestricted path, with gravity on your side. If you have to use a feed tube, make sure it is PTFE (low friction) rather than Silicon, fuel line or pneumatic pipe etc. Avoid any sharp turns or kinks in the tube, and allow the filament to enter the tube as straight as possible. It is unfortunate that that latest generation of some popular printers have the most convoluted path you could probably imagine.
 
-####After the Drive gear
+### After the Drive gear
 
 1. Keep this length as short as possible to the hot end. Pushing a flexible filament into a hot end will result in compression and it's diameter will increase as a result. Couple this with the thermal expansion of the filament inside the hot end and the pressure increases, miss feeds are the result. A Bowden style extruder are most problematic for this reason. I would suggest mounting the drive extruder above the printer rather than off to the side or rear, gravity will help in this case. Also for Bowden, as above, use a PTFE feed tube, and is also best with a 3mm diameter filament for fasted printing speeds, 1.75mm will work, again much slower though.
 
 1. Insert a PTFE liner into the hot end barrel:
-Thermal Expansion Problem :
-[![Hot End Problem](32.png)](32.png)
-Thermal Expansion Solution :
-[![Hot End Solution](33.png)](33.png)
-The PTFE liner, reduces friction and acts a thermal break to insulate the filament until it enters the hot-end so the diameter doesn't expand too early:
-[![PTFE Lined Barrel](35.jpg)](35.jpg)
-Drilling out a hot-end barrel, lathe not necessary, a standard hand drill can be used instead:
-[![Drilling Out a Barrel](34.jpg)](34.jpg)
 
-In the following photos, you can even see that the PTFE liner extends all the way up to the drive gear. This is the solution for an [Orca 0.43](http://mendel-parts.com/) and [my make](http://www.thingiverse.com/thing:99395) of JackT's [ORCA 0.43 Extruderderivate](http://www.thingiverse.com/thing:99395) on Thingiverse
+    Thermal Expansion Problem :
+    
+    [![Hot End Problem](32.png)](32.png)
 
-[![Full Filament Support](36.jpg)](36.jpg)
-[![Full Filament Support](37.jpg)](37.jpg)
-[![Full Filament Support](38.jpg)](38.jpg)
+    Thermal Expansion Solution :
+    
+    [![Hot End Solution](33.png)](33.png)
+
+    The PTFE liner, reduces friction and acts a thermal break to insulate the filament until it enters the hot-end so the diameter doesn't expand too early:
+    
+    [![PTFE Lined Barrel](35.jpg)](35.jpg)
+    
+    Drilling out a hot-end barrel, lathe not necessary, a standard hand drill can be used instead:
+    
+    [![Drilling Out a Barrel](34.jpg)](34.jpg)
+
+    In the following photos, you can even see that the PTFE liner extends all the way up to the drive gear. This is the solution for an [Orca 0.43](http://mendel-parts.com/) and [my make](http://www.thingiverse.com/thing:99395) of JackT's [ORCA 0.43 Extruderderivate](http://www.thingiverse.com/thing:99395) on Thingiverse.
+
+    [![Full Filament Support](36.jpg)](36.jpg)
+
+    [![Full Filament Support](37.jpg)](37.jpg)
+
+    [![Full Filament Support](38.jpg)](38.jpg)
 
 **WARNING : The maximum printing temperature for PTFE lined hot-end is about 265deg C.**
 
@@ -109,8 +131,6 @@ If you are building your own printer or manufacturing printers, then consider th
 I would like to take this opportunity to thank [Recreus](http://recreus.com/en) for the use of some images to help me explain the problems and solutions.
 
 There are also many solutions on Thingiverse for you to print off your own  upgrade. Maybe it's just a case of tweaking your hot end or slicer settings.
-
------
 
 -----
 
