@@ -44,6 +44,41 @@ Date:   Sat Sep 29 23:30:20 2012 +0100
     First Commit
 ```
 
+## online collaboration
+
+To collaborate on a project using Git, an online service such as
+[Github](http://github.com/) is used to hold a repo and allow others to access it. To
+propose changes to somebody else's repo, a [fork] `->` [branch] `->` [pull-request][pull request] process is used.
+
+- First [fork] a new personal copy of the existing repo, then [clone] that new fork onto
+  your local computer.
+
+- A new "topic" [branch] should be used for each pull request. Commiting directly to the `master` branch (or any other branch that recieves commits by others) will likely complicate merging of your commits upstream - as will mixing unrelated changes
+  into the same branch.
+
+  *Note that all additional commits made to a branch will automatically be added to a
+  pull request made with that branch.* This makes it really easy to add commits to a pull
+  request - just be careful not to commit any unrelated work to a branch that's already
+  used in an open pull request.
+
+- Once you have committed some changes to the new branch, and [pushed] those changes to
+  Github, use the Github website to send a [pull request] to the project's owner.
+
+  You can view the progress of your pull request in it's [discussion thread], where you
+  may get feedback on your changes before they can be merged. Notifications will normally
+  be sent by email to those active or mentioned in the thread, as well as those watching
+  either the thread or the related repo.
+
+[fork]: https://help.github.com/articles/fork-a-repo
+[clone]: https://help.github.com/articles/importing-a-git-repository-using-the-command-line/
+[branch]: https://help.github.com/articles/branching-out/
+[pushed]: https://help.github.com/articles/pushing-to-a-remote/
+[pull request]: https://help.github.com/articles/using-pull-requests
+[discussion thread]: https://github.com/snhack/snhack.github.com/issues
+[github help]: https://help.github.com
+[github training]: http://training.github.com/
+
+
 ## documentation
 
 Git itself can be installed from [git-scm.com](http://git-scm.com/downloads) if your OS doesn't already include it. The same site also hosts a copy of the [documentation](http://git-scm.com/docs), as well as the [Pro Git book](http://git-scm.com/book) which is a great place to start learning git.  Pro Git is also available as a commercially [printed book](http://www.amazon.com/gp/product/1430218339?ie=UTF8&tag=prgi-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=1430218339) from Apress, and as a free [ePub](https://github.s3.amazonaws.com/media/progit.epub), [mobi](https://github.s3.amazonaws.com/media/pro-git.en.mobi), or [PDF](https://github.s3.amazonaws.com/media/progit.en.pdf) download.
