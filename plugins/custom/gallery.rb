@@ -95,7 +95,7 @@ module Jekyll
       # gallery << "    height: 0.5625,"
       gallery << "    showInfo: true,"
       # gallery << "    carousel: true,"
-      # gallery << "    autoplay: 3000,"
+      gallery << "    autoplay: 3000,"
       gallery << "});"
 
       # gallery << "Galleria.loadTheme('galleria/themes/classic/galleria.classic.min.js');"

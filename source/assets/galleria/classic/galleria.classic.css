@@ -5,7 +5,7 @@
 .galleria-theme-classic {
     position: relative;
     overflow: hidden;
-    background: #000;
+    background: transparent;
 }
 .galleria-theme-classic img {
     -moz-user-select: none;
@@ -27,6 +27,10 @@
     left: 10px;
     right: 10px;
     z-index: 2;
+
+    opacity: .0;
+    filter: alpha(opacity=00);
+    cursor: default;
 }
 .galleria-theme-classic .galleria-carousel .galleria-thumbnails-list {
     margin-left: 30px;
@@ -35,7 +39,7 @@
 .galleria-theme-classic .galleria-thumbnails .galleria-image {
     height: 40px;
     width: 60px;
-    background: #000;
+    background: transparent;
     margin: 0 5px 0 0;
     border: 1px solid #000;
     float: left;
@@ -51,7 +55,7 @@
     z-index: 1;
 }
 .galleria-theme-classic .galleria-loader {
-    background: #000;
+    background: transparent;
     width: 20px;
     height: 20px;
     position: absolute;
@@ -61,29 +65,39 @@
     display: none;
     background: url(classic-loader.gif) no-repeat 2px 2px;
 }
+
+.galleria-theme-classic .galleria-info > *, .galleria-theme-classic .galleria-info-text > * {
+    display: inline
+}
+
 .galleria-theme-classic .galleria-info {
-    width: 50%;
-    top: 15px;
-    left: 15px;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
     z-index: 2;
     position: absolute;
+/*
+    top: 15px;
+    left: 15px;
+*/
 }
 .galleria-theme-classic .galleria-info-text {
-    background-color: #000;
+    background-color: transparent;
     padding: 12px;
     display: none;
     /* IE7 */ zoom:1;
 }
 .galleria-theme-classic .galleria-info-title {
-    font: bold 12px/1.1 arial,sans-serif;
+/*    font: bold 12px/1.1 arial,sans-serif;*/
     margin: 0;
-    color: #fff;
+    color: #000;
     margin-bottom: 7px;
+    padding: 0 10px
 }
 .galleria-theme-classic .galleria-info-description {
-    font: italic 12px/1.4 georgia,serif;
+/*    font: italic 12px/1.4 georgia,serif;*/
     margin: 0;
-    color: #bbb;
+    color: #555;
 }
 .galleria-theme-classic .galleria-info-close {
     width: 9px;
