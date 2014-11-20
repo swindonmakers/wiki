@@ -208,7 +208,7 @@ If you would like to stay up to date with my designs then please follow me on [T
 },
 {
   title: 'Gear Bearing by Emmett',
-  image: '1.jpg',
+  image: '1.JPG',
   link:  'https://www.thingiverse.com/make:60385',
 },
 {
