@@ -152,17 +152,17 @@ Tasks | Owners | Notes / Volunteer?
 :---- | ---------- | ----------
 Ordering components | ? | Sync parts with Arduino workshop
 Printing of parts | ? | Jamie
-Drive chain | ? |
+Drive chain | (Damian?) |
 Power supply | ? |
 Switches and bumpers | ? |
 IR and ultra sonic sensors | ? |
-Arduino and software | Jamie |
+Arduino and software | Jamie | w/ Damian for bench testing etc.
 Piezo sounder | ? |
 RGB light pipe | Jamie |
 Pen lift mechanism | ? |
 Wiring and harnessing/fixing | ? |
 Modular adapters | ? |
-Assembly instructions booklet | (Damian?) | Jamie (Fritzing layouts?)
+Assembly instructions booklet | Damian | Jamie (Fritzing layouts?)
 
 ### Non-critical tasks
 
