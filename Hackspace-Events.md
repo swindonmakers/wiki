@@ -12,7 +12,6 @@ List of events - planned, completed or wanted - most recent/active first.
 | Event Title                       | Organiser   | Format      | Supported By      | Date(s)
 | --------------------------------- | ----------- | ----------- | ----------------- | --------------------
 | [[OpenSCAD Training]]             | Damian      | Workshop    | N/A               | *4wks from 15/10/14*
-| [[Make:Shift:Do OpenDay 2014]]    | Jess        | Workshop    | Rob               | 22nd Nov 2014 (TBC)
 
 
 ### Wanted or Planning
@@ -35,7 +34,8 @@ List of events - planned, completed or wanted - most recent/active first.
 
 | Event Title                       | Organiser   | Format      | Supported By      | Date(s)
 | --------------------------------- | ----------- | ----------- | ----------------- | --------------------
-| [[Collaboration with Git]]        | Jamie       | Workshop    | N/A               | 22nd October
+| [[Make:Shift:Do OpenDay 2014]]    | Jess        | Workshop    | Rob               | 22nd Nov 2014
+| [[Collaboration with Git]]        | Jamie       | Workshop    | N/A               | 22nd Oct 2014
 
 * Oggcamp 2014 - Exhibited Teletype/AFRo, gave an AFRo talk - completed
 * 3D Printing demo days in the Museum - Rob, James, Jess, Steve, Damian, Jamie.  Ran the Hackspace Prusa along with peoples own printers to print trivial items for museum visitors and provide info about 3D printing.  Exhibited quadcopters.
