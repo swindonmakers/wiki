@@ -74,6 +74,39 @@ NB:  Thus far, we've done it without flow control.  This may be a mistake, but I
 Writing out the file:
 * Here's where it gets a bit obnoxious.  If you simply output the file out to the device, it can't keep up.  It will plot fine for a while, then start plotting random garbage.  To avoid this, delay a bit between each line.  A little experimentation has shown that 0.1 seconds per line isn't enough, but 0.5 seconds per line is.  This was done with a trivial perl script:  (FIXME: rewrite script, didn't save it previously, more fool me.)    
 
+```
+// C# program to write a file to the COM port.
+using System;
+using System.IO;
+using System.IO.Ports;
+using System.Threading;
+
+namespace PlotterDriver
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			var delay = 50;
+
+			using (TextReader tr = new StreamReader(@"C:\Users\robert\Documents\eagle\EthernetLcd\Board2.plot"))
+			using (SerialPort port = new SerialPort("COM34", 9600, Parity.Even, 7, StopBits.One))
+			{
+				string line = null;
+				port.Open();
+
+				while (null != (line = tr.ReadLine()))
+				{
+					Console.WriteLine(line);
+					port.WriteLine(line);
+
+					Thread.Sleep(delay);
+				}
+			}
+		}
+	}
+}
+```
 Future Work
 -----------
 
