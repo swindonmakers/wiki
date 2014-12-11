@@ -1,5 +1,7 @@
 > This page is a work in progress and only contains some of the pieces needed to use the printer - please ensure you have been instructed on its proper use before operating the printer.
 
+[!Prusa Mendel 3D Printer](images/3d-printer/Prusa-Mendel.jpg)
+
 ### 3D Model Files
 
 Ready-made 3D models can be downloaded from sites such as [Thingiverse](http://www.thingiverse.com/thing:200472/#files), [YouMagine](https://www.youmagine.com), and [My Mini Factory](http://www.myminifactory.com). Part catalogue sites such as [GrabCAD](https://grabcad.com) and [STL Finder](http://www.stlfinder.com/) can also be useful for models of various standard parts. The `STL` file format is preferred (where available).
