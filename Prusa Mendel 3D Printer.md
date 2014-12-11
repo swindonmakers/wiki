@@ -1,6 +1,6 @@
 > This page is a work in progress and only contains some of the pieces needed to use the printer - please ensure you have been instructed on its proper use before operating the printer.
 
-[!Prusa Mendel 3D Printer](images/3d-printer/Prusa-Mendel.jpg)
+![Prusa Mendel 3D Printer](images/3d-printer/Prusa-Mendel.jpg)
 
 ### 3D Model Files
 
