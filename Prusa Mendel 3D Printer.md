@@ -1,23 +1,29 @@
 > This page is a work in progress and only contains some of the pieces needed to use the printer - please ensure you have been instructed on its proper use before operating the printer.
 
-### 3D Model
+### 3D Model Files
 
-Ready-made 3D models can be downloaded as `STL` files from sites such as [Thingiverse](http://www.thingiverse.com/thing:200472/#files), [YouMagine](https://www.youmagine.com), and [My Mini Factory](http://www.myminifactory.com).  Catalogue sites such as [GrabCAD.com](https://grabcad.com) and [STL Finder](http://www.stlfinder.com/) can also be useful for models of various parts.  Some formats (such as `STEP`) can be opened in FreeCAD and then exported as `STL`.
+Ready-made 3D models can be downloaded from sites such as [Thingiverse](http://www.thingiverse.com/thing:200472/#files), [YouMagine](https://www.youmagine.com), and [My Mini Factory](http://www.myminifactory.com). Part catalogue sites such as [GrabCAD](https://grabcad.com) and [STL Finder](http://www.stlfinder.com/) can also be useful for models of various standard parts. The `STL` file format is preferred (where available).
 
-Create your own designs using software such as [FreeCAD](http://www.freecadweb.org/wiki/index.php?title=Download#Stable_FreeCAD_installers) or [OpenSCAD](http://www.openscad.org), then export a 3D model (or _mesh_) as an `STL` file.
+Create your own designs using software such as [FreeCAD](http://www.freecadweb.org/wiki/index.php?title=Download#Stable_FreeCAD_installers) or [OpenSCAD](http://www.openscad.org) ([[workshop info|OpenSCAD Training]]), then export the 3D model as an `STL` file.  Other software to work with and convert between various 3D and 2D formats are [MeshMixer](http://www.123dapp.com/meshmixer), [Blender](http://www.blender.org/download/), [SketchUp](http://www.sketchup.com/products/sketchup-make), and [Inkscape](https://inkscape.org/download/).
 
 ### Slicing
 
-An `STL` file needs to be _sliced_ into layers and exported as `gcode` toolpath instructions for the printer to follow.
+To print a 3D model, it must first be rendered as a 3D 'mesh' and exported as an `STL` file. The `STL` file is then 'sliced' into layers and exported as `gcode` toolpath instructions for the printer to follow.
 
-The slicing software needs to be configured for the printer and material used, as well as the type of output required (lightweight vs. strong, good quality vs. speed, etc.). Below are some profiles for various software packages that can be used as a starting point with the hackspace's Prusa Mendel 3D Printer.
+If the model isn't available as an `STL` file, some formats - such as `STEP` - can be opened in [FreeCAD](http://www.freecadweb.org/wiki/index.php?title=Download#Stable_FreeCAD_installers) and then exported as `STL`.  Cura, CraftWare, and Slic3r also support `OBJ` files - this can be useful if an `STL` version isn't available, or if a design is to be exported from a program that only supports `OBJ` (e.g. [SketchUp](http://www.sketchup.com/products/sketchup-make)).
 
-[Craftware](http://www.craftunique.com/craftware) | [Cura](https://www.ultimaker.com/pages/our-software) | [Slic3r](http://slic3r.org/download)
-:---------- | :------ | :--------
-[PrusaMendel-PLA.cwsp](files/mendel/PrusaMendel-PLA.cwsp) | [PrusaMendel-PLA.ini](files/mendel/PrusaMendel-PLA.ini) | -
-[PrusaMendel-Filaflex.cwsp](files/mendel/PrusaMendel-Filaflex.cwsp) | [PrusaMendel-Filaflex.ini](files/mendel/PrusaMendel-Filaflex.ini) | -
+The slicing software needs to be configured for the printer and material used, as well as the type of output required (lightweight vs. strong, good quality vs. speed, etc.). Below are some profiles for various software packages that can be imported and used as a starting point with the Prusa Mendel 3D Printer we have at the Hackspace.
+
+[Craftware](http://www.craftunique.com/craftware) | [Cura](https://www.ultimaker.com/pages/our-software) | [Slic3r](http://slic3r.org/download) | [Repetier-Host](http://www.repetier.com)
+:---------- | :------ | :-------- | :--------
+[PrusaMendel-PLA.cwsp](files/mendel/PrusaMendel-PLA.cwsp) | [PrusaMendel-PLA.ini](files/mendel/PrusaMendel-PLA.ini) | - | -
+[PrusaMendel-Filaflex.cwsp](files/mendel/PrusaMendel-Filaflex.cwsp) | [PrusaMendel-Filaflex.ini](files/mendel/PrusaMendel-Filaflex.ini) | - | -
 
 
 ### Print Server
 
 The printer has a dedicated Raspberry Pi that serves a web interface using [OctoPrint](http://octoprint.org). It can be accessed on the `MOCBTHUB` wifi network at <http://172.16.0.21:5000>.
+
+> TO BE ADDED: Instructions on printer setup, and use of OctoPrint.
+
+Upload either a prepared `gcode` file, or an `STL` file to be sliced by OctoPrint (using the CuraEngine and a preset configuration _note: not yet implemented)_.
