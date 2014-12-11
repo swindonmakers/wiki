@@ -1,4 +1,4 @@
-> For general usage information, please see [[Using the Prusa Mendel 3D Printer]]
+> For general usage information, please see the [[Prusa Mendel 3D Printer]] page.
 
 ### Upgrading OctoPrint
 
