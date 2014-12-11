@@ -18,7 +18,7 @@
 
 [[LogoBot]] • 
 [[Pen Plotter]] • 
-[[Prusa Mendel 3D Printer]] • 
+[[3D Printer]] • 
 [[Heathkit Hero]] • 
 [[RobotArm]] • 
 [[Teaching Binary]] • 
