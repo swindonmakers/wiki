@@ -1,10 +1,13 @@
 Below are some profiles that can be used as a starting point for setting up the printer.
 
+### Slicing
+
 Material Type | [Craftware](http://www.craftunique.com/craftware) | [Cura](https://www.ultimaker.com/pages/our-software) | [Slic3r](http://slic3r.org/download)
 :--- | :---------- | :------ | :--------
-PLA | [PrusaMendel-PLA.cwsp](files/mendel/PrusaMendel-PLA.cwsp) | [PrusaMendel-PLA.ini](files/mendel/PrusaMendel-PLA.cwsp) | -
-Filaflex | [PrusaMendel-Filaflex.cwsp](files/mendel/PrusaMendel-PLA.cwsp) | [PrusaMendel-Filaflex.ini](files/mendel/PrusaMendel-PLA.cwsp) | -
+PLA | [PrusaMendel-PLA.cwsp](files/mendel/PrusaMendel-PLA.cwsp) | [PrusaMendel-PLA.ini](files/mendel/PrusaMendel-PLA.ini) | -
+Filaflex | [PrusaMendel-Filaflex.cwsp](files/mendel/PrusaMendel-Filaflex.cwsp) | [PrusaMendel-Filaflex.ini](files/mendel/PrusaMendel-Filaflex.ini) | -
 
 
-> [github repo](https://github.com/snhack/Prusa-Mendel-Firmware) for the printer firmware.
+### Firmware
 
+[Repo for the printer firmware](https://github.com/snhack/Prusa-Mendel-Firmware).
