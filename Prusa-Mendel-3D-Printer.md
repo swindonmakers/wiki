@@ -8,6 +8,7 @@ Below are some profiles that can be used as a starting point for setting up the 
 [PrusaMendel-Filaflex.cwsp](files/mendel/PrusaMendel-Filaflex.cwsp) | [PrusaMendel-Filaflex.ini](files/mendel/PrusaMendel-Filaflex.ini) | -
 
 
+
 ### Firmware
 
 [Repo for the printer firmware](https://github.com/snhack/Prusa-Mendel-Firmware).
