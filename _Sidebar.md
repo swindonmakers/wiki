@@ -5,6 +5,7 @@
 
 ###### [[Hackspace|Welcome]]
 
+[[Equipment]]  
 [[Tools and Consumables]]  
 [[Shopping List]]  
 [[Hackspace Management]]
