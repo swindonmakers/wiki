@@ -1,6 +1,4 @@
-## Using the Prusa Mendel 3D Printer
-
-This page is a work in progress and only contains some of the pieces needed to use the printer - please ensure you have been instructed on its proper use before operating the printer.
+> This page is a work in progress and only contains some of the pieces needed to use the printer - please ensure you have been instructed on its proper use before operating the printer.
 
 ### 3D Model
 
