@@ -14,10 +14,10 @@ If the model isn't available as an `STL` file, some formats - such as `STEP` - c
 
 The slicing software needs to be configured for the printer and material used, as well as the type of output required (lightweight vs. strong, good quality vs. speed, etc.). Below are some profiles for various software packages that can be imported and used as a starting point with the Prusa Mendel 3D Printer we have at the Hackspace.
 
-[Craftware](http://www.craftunique.com/craftware) | [Cura](https://www.ultimaker.com/pages/our-software) | [Slic3r](http://slic3r.org/download) | [Repetier-Host](http://www.repetier.com)
+[Craftware](http://www.craftunique.com/craftware) | [Cura](https://www.ultimaker.com/pages/our-software) | [Repetier-Host](http://www.repetier.com) | [Slic3r](http://slic3r.org/download)
 :---------- | :------ | :-------- | :--------
-[PrusaMendel-PLA.cwsp](files/mendel/PrusaMendel-PLA.cwsp) | [PrusaMendel-PLA.ini](files/mendel/PrusaMendel-PLA.ini) | - | -
-[PrusaMendel-Filaflex.cwsp](files/mendel/PrusaMendel-Filaflex.cwsp) | [PrusaMendel-Filaflex.ini](files/mendel/PrusaMendel-Filaflex.ini) | - | -
+[PrusaMendel-PLA.cwsp](files/mendel/PrusaMendel-PLA.cwsp) | [PrusaMendel-PLA.ini](files/mendel/PrusaMendel-PLA.ini) | -- | --
+[PrusaMendel-Filaflex.cwsp](files/mendel/PrusaMendel-Filaflex.cwsp) | [PrusaMendel-Filaflex.ini](files/mendel/PrusaMendel-Filaflex.ini) | -- | --
 
 
 ### Print Server
