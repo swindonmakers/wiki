@@ -4,7 +4,7 @@ This page is a work in progress and only contains some of the pieces needed to u
 
 ### 3D Model
 
-Ready-made 3D models can be download as `STL` files from sites such as [Thingiverse](http://www.thingiverse.com/thing:200472/#files) and [YouMagine](https://www.youmagine.com).  Catalogue sites such as [GrabCAD.com](https://grabcad.com) and [STL Finder](http://www.stlfinder.com/) can also be useful for models of various parts.
+Ready-made 3D models can be download as `STL` files from sites such as [Thingiverse](http://www.thingiverse.com/thing:200472/#files), [YouMagine](https://www.youmagine.com), and [My Mini Factory](http://www.myminifactory.com).  Catalogue sites such as [GrabCAD.com](https://grabcad.com) and [STL Finder](http://www.stlfinder.com/) can also be useful for models of various parts.
 
 Create your own designs using software such as [FreeCAD](http://www.freecadweb.org/wiki/index.php?title=Download#Stable_FreeCAD_installers) or [OpenSCAD](http://www.openscad.org), then export a 3D model (or _mesh_) as an `STL` file.
 
