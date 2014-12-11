@@ -1,4 +1,4 @@
-> For general usage information, please see the [[Prusa Mendel 3D Printer]] page.
+> This page only contains project information, such as installation and modification of the printer and its software. For general usage information, please see the [[Prusa Mendel 3D Printer]] page.
 
 ### Upgrading OctoPrint
 
