@@ -1,6 +1,6 @@
 The hackspace has a growing collection of equipment - some items even have their own wiki pages.
 
-- [[3D Printer - Prusa Mendel]]
+- [[Prusa Mendel 3D Printer]]
 
   The 3D Printer that is being rebuilt and upgraded by the Hackspace.
 
