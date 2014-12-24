@@ -18,14 +18,14 @@ The slicing software needs to be configured for the printer and material used, a
 
 [Craftware](http://www.craftunique.com/craftware) | [Cura](https://www.ultimaker.com/pages/our-software) | [Slic3r](http://slic3r.org/download) | [Repetier-Host](http://www.repetier.com)
 :---------- | :------ | :-------- | :--------
-[PrusaMendel-PLA.cwsp] | [PrusaMendel-PLA.ini] | [PrusaMendel-PLA.ini][Slic3r-PLA] | --
-[PrusaMendel-Filaflex.cwsp] | [PrusaMendel-Filaflex.ini] | [PrusaMendel-Filaflex.ini][Slic3r-Ffex] | --
+[PLA.cwsp] | [PLA.ini] | [PLA.ini][Slic3r-PLA] | --
+[Filaflex.cwsp] | [Filaflex.ini] | [Filaflex.ini][Slic3r-Ffex] | --
 - |- | [Slic3r-Bundle] | --
 
-[PrusaMendel-PLA.cwsp]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/CraftWare/PrusaMendel-PLA.cwsp
-[PrusaMendel-Filaflex.cwsp]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/CraftWare/PrusaMendel-Filaflex.cwsp
-[PrusaMendel-PLA.ini]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Cura/PrusaMendel-PLA.ini
-[PrusaMendel-Filaflex.ini]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Cura/PrusaMendel-Filaflex.ini
+[PLA.cwsp]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/CraftWare/PrusaMendel-PLA.cwsp
+[Filaflex.cwsp]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/CraftWare/PrusaMendel-Filaflex.cwsp
+[PLA.ini]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Cura/PrusaMendel-PLA.ini
+[Filaflex.ini]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Cura/PrusaMendel-Filaflex.ini
 [Slic3r-Bundle]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Slic3r/PrusaMendel.ini
 [Slic3r-PLA]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Slic3r/PrusaMendel-PLA.ini
 [Slic3r-Ffex]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Slic3r/PrusaMendel-Filaflex.ini
