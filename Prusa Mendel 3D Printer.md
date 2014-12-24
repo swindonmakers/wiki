@@ -16,19 +16,31 @@ If the model isn't available as an `STL` file, some formats - such as `STEP` - c
 
 The slicing software needs to be configured for the printer and material used, as well as the type of output required (lightweight vs. strong, good quality vs. speed, etc.). Below are some profiles for various software packages that can be imported and used as a starting point with the Prusa Mendel 3D Printer we have at the Hackspace.
 
-[Craftware](http://www.craftunique.com/craftware) | [Cura](https://www.ultimaker.com/pages/our-software) | [Slic3r](http://slic3r.org/download) | [Repetier-Host](http://www.repetier.com)
-:---------- | :------ | :-------- | :--------
-[PLA.cwsp] | [PLA.ini] | [PLA.ini][Slic3r-PLA] | --
-[Filaflex.cwsp] | [Filaflex.ini] | [Filaflex.ini][Slic3r-Ffex] | --
-- |- | [Slic3r-Bundle] | --
+ | [Craftware](http://www.craftunique.com/craftware) | [Cura](https://www.ultimaker.com/pages/our-software) | [Slic3r](http://slic3r.org/download) | [Repetier](http://www.repetier.com)
+:---------- | :------ | :-------- | :-------- | :--------
+__[Prusa Mendel]__ | [PLA][CraftWare-PLA] | [PLA][Cura-PLA] | [PLA][Slic3r-PLA] | 
+ | [Filaflex][CraftWare-Filaflex] | [Filaflex][Cura-Filaflex] | [Filaflex][Slic3r-Filaflex] | 
+ |  |  | [Bundle][Slic3r-Bundle] | 
 
-[PLA.cwsp]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/CraftWare/PrusaMendel-PLA.cwsp
-[Filaflex.cwsp]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/CraftWare/PrusaMendel-Filaflex.cwsp
-[PLA.ini]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Cura/PrusaMendel-PLA.ini
-[Filaflex.ini]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Cura/PrusaMendel-Filaflex.ini
+[Prusa Mendel]: https://github.com/snhack/Prusa-Mendel-Firmware
+[CraftWare-PLA]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/CraftWare/PrusaMendel-PLA.cwsp
+[CraftWare-Filaflex]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/CraftWare/PrusaMendel-Filaflex.cwsp
+[Cura-PLA]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Cura/PrusaMendel-PLA.ini
+[Cura-Filaflex]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Cura/PrusaMendel-Filaflex.ini
 [Slic3r-Bundle]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Slic3r/PrusaMendel.ini
 [Slic3r-PLA]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Slic3r/PrusaMendel-PLA.ini
-[Slic3r-Ffex]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Slic3r/PrusaMendel-Filaflex.ini
+[Slic3r-Filaflex]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Slic3r/PrusaMendel-Filaflex.ini
+
+
+
+<!--
+Software | Profiles | | |
+:---------- | :------ | :-------- | :--------
+[Craftware](http://www.craftunique.com/craftware) | [PLA.cwsp] | [Filaflex.cwsp]
+[Cura](https://www.ultimaker.com/pages/our-software) | [PLA.ini] | [Filaflex.ini]
+[Slic3r](http://slic3r.org/download) | [PLA.ini][Slic3r-PLA] | [Filaflex.ini][Slic3r-Ffex] | [Bundle][Slic3r]
+[Repetier-Host](http://www.repetier.com)
+-->
 
 ### Print Server
 
