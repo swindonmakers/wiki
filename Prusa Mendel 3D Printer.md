@@ -12,11 +12,11 @@ Create your own designs using software such as [FreeCAD](http://www.freecadweb.o
 
 To print a 3D model, it must first be rendered as a 3D 'mesh' and exported as an `STL` file. The `STL` file is then 'sliced' into layers and exported as `gcode` toolpath instructions for the printer to follow.
 
-If the model isn't available as an `STL` file, some formats - such as `STEP` - can be opened in [FreeCAD](http://www.freecadweb.org/wiki/index.php?title=Download#Stable_FreeCAD_installers) or a similar software, and then exported as `STL`.  Cura, CraftWare, and Slic3r also support `OBJ` files - this can be useful if an `STL` version isn't available, or if a design is to be exported from a program that only supports `OBJ` (e.g. [SketchUp](http://www.sketchup.com/products/sketchup-make)).
+If the model isn't available as an `STL` file, some formats - such as `STEP` - can be opened in [FreeCAD](http://www.freecadweb.org/wiki/index.php?title=Download#Stable_FreeCAD_installers) or similar software, and then exported as `STL`.  Cura, CraftWare, and Slic3r also support `OBJ` files - this can be useful if an `STL` version isn't available, or if a design is to be exported from a program that only supports `OBJ` (e.g. [SketchUp](http://www.sketchup.com/products/sketchup-make)).
 
 The slicing software needs to be configured for the printer and material used, as well as the type of output required (lightweight vs. strong, good quality vs. speed, etc.). Below are some profiles for various software packages that can be imported and used as a starting point with the Prusa Mendel 3D Printer we have at the Hackspace.
 
- | [Craftware](http://www.craftunique.com/craftware) | [Cura](https://www.ultimaker.com/pages/our-software) | [Slic3r](http://slic3r.org/download) | [Repetier](http://www.repetier.com)
+ | [CraftWare](http://www.craftunique.com/craftware) | [Cura](https://www.ultimaker.com/pages/our-software) | [Slic3r](http://slic3r.org/download) | [Repetier](http://www.repetier.com)
 :---------- | :------ | :-------- | :-------- | :--------
 __[Prusa Mendel]__ | [PLA][CraftWare-PLA] | [PLA][Cura-PLA] | [PLA][Slic3r-PLA] | 
  | [Filaflex][CraftWare-Filaflex] | [Filaflex][Cura-Filaflex] | [Filaflex][Slic3r-Filaflex] | 
@@ -36,7 +36,7 @@ __[Prusa Mendel]__ | [PLA][CraftWare-PLA] | [PLA][Cura-PLA] | [PLA][Slic3r-PLA] 
 <!--
 Software | Profiles | | |
 :---------- | :------ | :-------- | :--------
-[Craftware](http://www.craftunique.com/craftware) | [PLA.cwsp] | [Filaflex.cwsp]
+[CraftWare](http://www.craftunique.com/craftware) | [PLA.cwsp] | [Filaflex.cwsp]
 [Cura](https://www.ultimaker.com/pages/our-software) | [PLA.ini] | [Filaflex.ini]
 [Slic3r](http://slic3r.org/download) | [PLA.ini][Slic3r-PLA] | [Filaflex.ini][Slic3r-Ffex] | [Bundle][Slic3r]
 [Repetier-Host](http://www.repetier.com)
