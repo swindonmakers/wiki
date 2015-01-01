@@ -16,7 +16,7 @@ If the model isn't available as an `STL` file, some formats - such as `STEP` - c
 
 The slicing software needs to be configured for the printer and material used, as well as the type of output required (lightweight vs. strong, good quality vs. speed, etc.). Below are some profiles for various software packages that can be imported and used as a starting point with the Prusa Mendel 3D Printer we have at the Hackspace.
 
-With a suitable profile the main parameters to optimise for quality are layer height and shell thickness/speed; while print speed and infill mostly affect the time and strength of the printed object.
+With a suitable profile the main parameters to optimise for quality are layer height and shell thickness/speed; while print speed and infill mostly affect the print time and strength.
 
  | [CraftWare](http://www.craftunique.com/craftware) | [Cura](https://www.ultimaker.com/pages/our-software) | [Slic3r](http://slic3r.org/download) | [Repetier](http://www.repetier.com)
 :---------- | :------ | :-------- | :-------- | :--------
