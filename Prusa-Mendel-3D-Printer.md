@@ -20,16 +20,14 @@ The slicing software needs to be configured for the printer and material used, a
 :---------- | :------ | :-------- | :-------- | :--------
 __[Prusa Mendel]__ | [PLA][CraftWare-PLA] | [PLA][Cura-PLA] | [PLA][Slic3r-PLA] | 
  | [Filaflex][CraftWare-Filaflex] | [Filaflex][Cura-Filaflex] | [Filaflex][Slic3r-Filaflex] | 
- |  |  | [Bundle][Slic3r-Bundle] | 
 
 [Prusa Mendel]: https://github.com/snhack/Prusa-Mendel-Firmware
-[CraftWare-PLA]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/CraftWare/PrusaMendel-PLA.cwsp
-[CraftWare-Filaflex]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/CraftWare/PrusaMendel-Filaflex.cwsp
-[Cura-PLA]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Cura/PrusaMendel-PLA.ini
-[Cura-Filaflex]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Cura/PrusaMendel-Filaflex.ini
-[Slic3r-Bundle]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Slic3r/PrusaMendel.ini
-[Slic3r-PLA]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Slic3r/PrusaMendel-PLA.ini
-[Slic3r-Filaflex]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Slic3r/PrusaMendel-Filaflex.ini
+[CraftWare-PLA]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/CraftWare/Mendel-PLA.cwsp
+[CraftWare-Filaflex]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/CraftWare/Mendel-Filaflex.cwsp
+[Cura-PLA]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Cura/Mendel-PLA.ini
+[Cura-Filaflex]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Cura/Mendel-Filaflex.ini
+[Slic3r-PLA]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Slic3r/Mendel-PLA.ini
+[Slic3r-Filaflex]: https://github.com/snhack/Prusa-Mendel-Firmware/blob/master/Profiles/Slic3r/Mendel-Filaflex.ini
 
 
 
