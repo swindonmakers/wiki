@@ -2,6 +2,10 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
 #### Projects (most recent first)
 
+- [[Cyclops Y6]]
+
+  Large, printable and foldable Y6 copter
+
 - [[LogoBot]]
 
   A simple, extensible, Arduino-based mobile robot inspired by Mirobot and others.
