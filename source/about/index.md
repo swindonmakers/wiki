@@ -11,8 +11,7 @@ sidebar: false
 [![TestPi](testpi.jpg){:.right}](testpi-full.jpg)
 
 The Swindon [Hackspace] formed in June 2012, holding [weekly meetings](#weekly-meetings)
-for those interested in making, breaking, and fixing things. We are always,
-looking to build membership and grow [our toolkit].
+for those interested in making, breaking, and fixing things. We are always looking to build membership and grow [our toolkit].
 
 [Hackspace]: http://en.wikipedia.org/wiki/Hackerspace
 [our toolkit]: {{ site.github_wiki }}/Tools-and-consumables
