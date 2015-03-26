@@ -175,7 +175,7 @@ You should see a long list of vitamins that are available for use in your projec
 
 Locate the section for the *vitamins/DCMotor.scad* file and look for the *CL072014 DC Motor* part.  The associated _call_ statement should be `DCMotor(DCMotor_CL072014)`.  This is a basic model of the motors used in the Hubsan X4 and is what we'll use to help layout our printable frame.
 
-### Adding a vitamin to your machine
+### Including the motor vitamin in your machine
 
 Now we've located an appropriate vitamin in the library, we need to add it to our machine.  This is a two step process:
  1. Make sure the relevant vitamin SCAD file is *included* in our global configuration
@@ -196,9 +196,34 @@ Now let's add the `DCMotor(DCMotor_CL072014)` *call* to our assembly.  Open `/ha
                 DCMotor(DCMotor_CL072014);
         }
 
-If you open `/hardware/QuadFrame.scad` in OpenSCAD, you should see the DC motor model.  
+If you open `/hardware/QuadFrame.scad` in OpenSCAD, you should see the DC motor model.  Clearly we are going to need more than one motor, but first let's specify some global machine parameters to define the layout.
 
 
+### Global machine parameters
+
+Global machine parameters are available in every assembly, part, etc and should be used for the key parametric values of your design.  For our quadcopter layout, we'll keep things simple and assume the frame will be symmetrical with the arms arranged in a cross - the X layout.  This means we only need to define one parameter for the length of the arms:
+
+ 1. Open `/hardware/config/machine.scad` in your text editor
+ 2. Add the following line to the end of the file: `ArmLength = 85/2;`
+ 3. Save and close the file
+
+This ArmLength is based on the Hubsan X4 having a diagonal distance of approx 85mm between motors.  You're welcome to choose a different ArmLength for your design.
 
 
+### Laying out the motors
+
+Now we have our ArmLength global parameter, we can roughly layout the motors within the assembly.  To do this, let's change the code where we previously *attached* a single motor to:
+
+    for (i=[0:3])
+        rotate([0,0, 45 + i*90])
+        translate([ArmLength,0,0])
+        attach(DefConUp, DCMotor_Con_Face)
+                DCMotor(DCMotor_CL072014);
+
+Previewing the machine in OpenSCAD should now show 4 motors laid out in a cross.
+
+
+### Adding a new printed part to the machine
+
+Now it's time to
 
