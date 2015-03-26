@@ -2,6 +2,8 @@
 
 Guide to using OpenSCAD for complex machine design (e.g. CNC machines, robotics).
 
+Template project can be found in the git repo at: [OpenSCAD_Machine_Design_Template](https://github.com/Axford/OpenSCAD_Machine_Design_Template)
+
 ## Principles
 
 * Integrated with github, but easily extended to other SCMs
@@ -10,15 +12,12 @@ Guide to using OpenSCAD for complex machine design (e.g. CNC machines, robotics)
 * Encourage reusable parts that can be shared across projects
 * Automate slow, repetitive tasks, such as:
   * STL generation
-  * Bill of Materials (BOM) generation
-  * Assembly Guide generation
+  * Assembly Guide generation with Bill of Materials (BOM)
   * Pretty pictures for Assembly Guide, website, etc
-* All documentation in markdown format, so... 
+* All documentation in markdown format and HTML, so... 
   * it can be rendered automatically by github
-  * it can be rendered into different formats (HTML, PDF)
+  * it can be published within gh-pages or similar
   * it is very readable
-* Generate a public website (using gh-pages) to share the AssemblyGuide and printable parts
-
 
 ## Concepts to cover
 
