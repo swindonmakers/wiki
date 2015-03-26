@@ -4,6 +4,7 @@
 In this first tutorial, we're going to cover:
 
 * Starting a project, python pre-requisites
+* Key concepts - parts and assemblies
 * Simple assembly of a printed part and an existing vitamin
 * Using the vitamin catalogue
 * Use of utility tools and assembly guide generation
@@ -29,6 +30,9 @@ There are various utility scripts included in the template project to aid the de
 Once you have the pre-requisites installed, you can copy, clone or fork the template project from github:
 [](https://github.com/Axford/OpenSCAD_Machine_Design_Template)
 
+Rename the root directory to something meaningful for this project, e.g. "QuadFrame"
+
+
 ### File structure
 The project files are all contained within a top-level "hardware" directory, on the assumption you will add other top-level directories for software development, notes, etc.
 
@@ -36,7 +40,7 @@ You will find the following directories within /hardware:
 
 Directory | Contains
 ------------ | ------------
-.              | Top-level _machine_ .scad file
+.              | Top-level _machine_ .scad file (named "OpenSCAD_Machine_Design_Template.scad" in the template)
 assemblies | SCAD files that describe all the assemblies/sub-assemblies
 ci |  Python utility scripts 
 config | Global configuration files
@@ -49,7 +53,18 @@ utils | Utility scad files to provide assembly functionality, speed modelling, e
 vitamins | Models of all the non-printable parts (e.g. motors, switches, nuts, bolts)
 
 
-### Vitamins, Printed-parts, Cut-parts and Assemblies
+You can check the template files are laid out correctly by opening the hardware/OpenSCAD_Machine_Design_Template.scad file.  OpenSCAD should open and preview a small cube.  You shouldn't have any error messages in the console.
+
+You can also test the Python utility scripts are working properly by:
+1. Open a terminal
+2. Navigate to the /hardware/ci directory
+3. Run `./catalogue.py` to update the Vitamin Catalogue
+
+A lot of status messages will fly by, with the last line being "Saving markdown".  We'll explore the Vitamin Catalogue in more detail later in this tutorial.
+
+
+
+### Key Concepts - Parts and Assemblies
 
 Models of complete machines are comprised of a few fundamental building blocks:
 * Vitamins - are the physical parts you use as-is (not make) within your machine (e.g. screws, motors, batteries)
@@ -69,4 +84,14 @@ A typical design process will rapidly iterate over the following steps:
 
 Project teams can often tackle these steps in parallel, with team members owning development of the various vitamins, printed-parts and assemblies.  Collaboration techniques are covered in a later tutorial.
 
+
+### Defining our _machine_
+
+Before we start modelling our parts, we need to setup our *machine* SCAD file.  
+
+1. Rename /hardware/OpenSCAD_Machine_Design_Template.scad to QuadFrame.scad
+2. Open hardware/QuadFrame.scad in your favourite text editor
+3. Change the line `machine("OpenSCAD_Machine_Design_Template.scad","OpenSCAD_Machine_Design_Template") {` to `machine("QuadFrame.scad","My Printable Quadcopter Frame") {`
+
+_NB: It's generally good practise to use the same name for the *machine* SCAD file as for the root project directory._
 
