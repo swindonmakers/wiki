@@ -118,25 +118,24 @@ The *adda.py* script will:
 
 Open the assembly file (`/hardware/assemblies/FinalAssembly.scad`) in your text editor, it should look something like this:
 
- `module FinalAssemblyAssembly () {
-
-    assembly("assemblies/FinalAssembly.scad", "Final Assembly", str("FinalAssemblyAssembly()")) {
-
-    // base part
-
-    // steps
-    step(1, "Do something") {
-            view(t=[0,0,0], r=[52,0,218], d=400);
-
-            //attach(DefConDown, DefConDown)
-            //      AnotherAssembly();
+    module FinalAssemblyAssembly () {
+    
+        assembly("assemblies/FinalAssembly.scad", "Final Assembly", str("FinalAssemblyAssembly()")) {
+    
+        // base part
+    
+        // steps
+        step(1, "Do something") {
+                view(t=[0,0,0], r=[52,0,218], d=400);
+    
+                //attach(DefConDown, DefConDown)
+                //      AnotherAssembly();
+            }
+        
         }
-
-
-
     }
-}
-`
+
+
 
 
 
