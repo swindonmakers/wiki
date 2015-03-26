@@ -87,7 +87,7 @@ Project teams can often tackle these steps in parallel, with team members owning
 
 ### Defining our _machine_
 
-Before we start modelling our parts, we need to setup our *machine* SCAD file.  
+Before we start modelling our parts, we need to setup our *machine* SCAD file:
 
 1. Rename /hardware/OpenSCAD_Machine_Design_Template.scad to QuadFrame.scad
 2. Open hardware/QuadFrame.scad in your favourite text editor
@@ -98,5 +98,28 @@ to
 
 _NB: It's generally good practise to use the same name for the *machine* SCAD file as for the root project directory._
 
+The *machine* SCAD file is a primarily a "wrapper" around your top-level assembly, but it also links in the global configuration file (config.scad) and provides information to the build process about the project.  Critically, the line you edited in step 4 tells the build process the name of the machine file and the description to use in the assembly guide.
+
+We'll return to edit this file once we've created our top-level assembly.  For now, just check it previews without errors in OpenSCAD.
+
+
+### Creating the top-level assembly
+
+The top-level, or final, assembly is where you define how all the various parts come together.  It is purely for on-screen display, either in OpenSCAD or in the assembly guide, but is critical to helping you correctly model your machine.  It's also one of the best places to start a new design.
+
+Creating a new assembly file requires a few steps, however, there is a utility script that automates most of the process:
+1. Open a terminal and navigate to /hardware/ci
+2. Run `./adda.py assembly FinalAssembly "Final Assembly"`
+
+The *adda.py* script will:
+* Create a new assembly file at:  /hardware/assemblies/FinalAssembly.scad
+* Add the assembly to the global configuration
+* Create a sandbox file to aid with developing your assembly at: /hardware/sandbox/assembly_FinalAssembly.scad
+
+
+
+
+
+### Using the vitamin catalogue
 
 
