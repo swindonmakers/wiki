@@ -343,3 +343,19 @@ The resulting frame should look like this in OpenSCAD:
 ![](https://raw.githubusercontent.com/Axford/OpenSCAD_Machine_Design_Template/master/guide/images/QuadFrame_BasicFrame.png)
 
 
+## Run the build process
+
+Now we have a basic frame design, we can run the build process to explore the results:
+
+ 1. Open a terminal and navigate to `/hardware/ci`
+ 2. Run `./build.py`
+
+The build process will take a minute or so to complete, you can see a fairly verbose output in the terminal window.  Once the process has completed, let's check a few things:
+
+ * Open the machine SCAD file in OpenSCAD, you should now see the frame with motors
+
+![](https://raw.githubusercontent.com/Axford/OpenSCAD_Machine_Design_Template/master/guide/images/QuadFrame_BasicFrameAssembly.png)
+
+ * Open `/hardware/docs/QuadFrameAssemblyGuide.htm` (served from a web server) or open `/hardware/docs/QuadFrameAssemblyGuide.md` in a markdown viewer - you should see a section for the Bill of Materials and assembly instructions for the Final Assembly (albeit one step)
+
+ 
