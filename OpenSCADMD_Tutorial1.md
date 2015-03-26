@@ -91,7 +91,12 @@ Before we start modelling our parts, we need to setup our *machine* SCAD file.
 
 1. Rename /hardware/OpenSCAD_Machine_Design_Template.scad to QuadFrame.scad
 2. Open hardware/QuadFrame.scad in your favourite text editor
-3. Change the line `machine("OpenSCAD_Machine_Design_Template.scad","OpenSCAD_Machine_Design_Template") {` to `machine("QuadFrame.scad","My Printable Quadcopter Frame") {`
+3. Change the line:
+  `machine("OpenSCAD_Machine_Design_Template.scad","OpenSCAD_Machine_Design_Template") {`
+to 
+  `machine("QuadFrame.scad","My Printable Quadcopter Frame") {`
 
 _NB: It's generally good practise to use the same name for the *machine* SCAD file as for the root project directory._
+
+
 
