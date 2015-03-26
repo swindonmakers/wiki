@@ -64,6 +64,11 @@ The finished tutorial project can be found on github at:
 
 
 
+***
+
+_Stuff below here is out of date - refer to the tutorial links above!!!_
+
+
 
 ## Assembly Guide
 
