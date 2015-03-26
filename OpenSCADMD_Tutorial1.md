@@ -118,8 +118,7 @@ The *adda.py* script will:
 
 Open the assembly file (`/hardware/assemblies/FinalAssembly.scad`) in your text editor, it should look something like this:
 
-`
-module FinalAssemblyAssembly () {
+ `module FinalAssemblyAssembly () {
 
     assembly("assemblies/FinalAssembly.scad", "Final Assembly", str("FinalAssemblyAssembly()")) {
 
