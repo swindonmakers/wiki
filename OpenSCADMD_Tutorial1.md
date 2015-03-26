@@ -116,9 +116,10 @@ The *adda.py* script will:
  * Add the assembly to the global configuration
  * Create a sandbox file to aid with developing your assembly at: `/hardware/sandbox/assembly_FinalAssembly.scad`
 
-Open the assembly file (`/hardware/assemblies/FinalAssembly.scad') in your text editor, it should look something like this:
+Open the assembly file (`/hardware/assemblies/FinalAssembly.scad`) in your text editor, it should look something like this:
 
-`module FinalAssemblyAssembly () {
+`
+module FinalAssemblyAssembly () {
 
     assembly("assemblies/FinalAssembly.scad", "Final Assembly", str("FinalAssemblyAssembly()")) {
 
@@ -135,7 +136,8 @@ Open the assembly file (`/hardware/assemblies/FinalAssembly.scad') in your text 
 
 
     }
-}`
+}
+`
 
 
 
