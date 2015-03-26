@@ -23,8 +23,8 @@ If you have the relevant parts, then at the end of the tutorial you will be able
 ### Python Pre-requisites
 There are various utility scripts included in the template project to aid the design process, they are all written in Python (tested against v2.7.6).  As such, you will need to ensure you have  a compatible version of Python installed along with a couple of dependencies:
 
-1. PIL - the Python Image Library - use: pip install pillow
-2. Pystache - the Pystache template library - use: pip install pystache
+1. PIL - the Python Image Library - use: `pip install pillow`
+2. Pystache - the Pystache template library - use: `pip install pystache`
 
 ### Cloning the template
 Once you have the pre-requisites installed, you can copy, clone or fork the template project from github:
@@ -40,7 +40,7 @@ You will find the following directories within /hardware:
 
 Directory | Contains
 ------------ | ------------
-.              | Top-level _machine_ .scad file (named "OpenSCAD_Machine_Design_Template.scad" in the template)
+.              | Top-level *machine* .scad file (named "OpenSCAD_Machine_Design_Template.scad" in the template)
 assemblies | SCAD files that describe all the assemblies/sub-assemblies
 ci |  Python utility scripts 
 config | Global configuration files
@@ -53,11 +53,11 @@ utils | Utility scad files to provide assembly functionality, speed modelling, e
 vitamins | Models of all the non-printable parts (e.g. motors, switches, nuts, bolts)
 
 
-You can check the template files are laid out correctly by opening the hardware/OpenSCAD_Machine_Design_Template.scad file.  OpenSCAD should open and preview a small cube.  You shouldn't have any error messages in the console.
+You can check the template files are laid out correctly by opening the `hardware/OpenSCAD_Machine_Design_Template.scad` file.  OpenSCAD should open and preview a small cube.  You shouldn't have any error messages in the console.
 
 You can also test the Python utility scripts are working properly by:
 1. Open a terminal
-2. Navigate to the /hardware/ci directory
+2. Navigate to the `/hardware/ci` directory
 3. Run `./catalogue.py` to update the Vitamin Catalogue
 
 A lot of status messages will fly by, with the last line being "Saving markdown".  We'll explore the Vitamin Catalogue in more detail later in this tutorial.
@@ -89,8 +89,8 @@ Project teams can often tackle these steps in parallel, with team members owning
 
 Before we start modelling our parts, we need to setup our *machine* SCAD file:
 
-1. Rename /hardware/OpenSCAD_Machine_Design_Template.scad to QuadFrame.scad
-2. Open hardware/QuadFrame.scad in your favourite text editor
+1. Rename `/hardware/OpenSCAD_Machine_Design_Template.scad` to `/hardware/QuadFrame.scad`
+2. Open `/hardware/QuadFrame.scad` in your favourite text editor
 3. Change the line:
   `machine("OpenSCAD_Machine_Design_Template.scad","OpenSCAD_Machine_Design_Template") {`
 to 
@@ -108,18 +108,37 @@ We'll return to edit this file once we've created our top-level assembly.  For n
 The top-level, or final, assembly is where you define how all the various parts come together.  It is purely for on-screen display, either in OpenSCAD or in the assembly guide, but is critical to helping you correctly model your machine.  It's also one of the best places to start a new design.
 
 Creating a new assembly file requires a few steps, however, there is a utility script that automates most of the process:
-1. Open a terminal and navigate to /hardware/ci
-2. Run `./adda.py assembly FinalAssembly "Final Assembly"`
+ 1. Open a terminal and navigate to `/hardware/ci`
+ 2. Run `./adda.py assembly FinalAssembly "Final Assembly"`
 
 The *adda.py* script will:
-* Create a new assembly file at:  /hardware/assemblies/FinalAssembly.scad
-* Add the assembly to the global configuration
-* Create a sandbox file to aid with developing your assembly at: /hardware/sandbox/assembly_FinalAssembly.scad
+ * Create a new assembly file at:  `/hardware/assemblies/FinalAssembly.scad`
+ * Add the assembly to the global configuration
+ * Create a sandbox file to aid with developing your assembly at: `/hardware/sandbox/assembly_FinalAssembly.scad`
 
+Open the assembly file (`/hardware/assemblies/FinalAssembly.scad') in your text editor, it should look something like this:
+
+`module FinalAssemblyAssembly () {
+
+    assembly("assemblies/FinalAssembly.scad", "Final Assembly", str("FinalAssemblyAssembly()")) {
+
+    // base part
+
+    // steps
+    step(1, "Do something") {
+            view(t=[0,0,0], r=[52,0,218], d=400);
+
+            //attach(DefConDown, DefConDown)
+            //      AnotherAssembly();
+        }
+
+
+
+    }
+}`
 
 
 
 
 ### Using the vitamin catalogue
-
 
