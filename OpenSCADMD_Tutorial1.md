@@ -64,7 +64,7 @@ A lot of status messages will fly by, with the last line being "Saving markdown"
 
 
 
-### Key Concepts - Parts and Assemblies
+## Key Concepts - Parts and Assemblies
 
 Models of complete machines are comprised of a few fundamental building blocks:
 * Vitamins - are the physical parts you use as-is (not make) within your machine (e.g. screws, motors, batteries)
@@ -161,7 +161,7 @@ We have one more small change to make before we start integrating parts into thi
  3. Save the changes
 
 
-### Using the vitamin catalogue
+## Using the vitamin catalogue
 
 As mentioned above, the best way to start a designing a part is by first laying out any associated vitamins within an assembly.  With that in mind, we'll first layout the 4 motors before before designing a printed frame to hold them.
 
@@ -199,7 +199,7 @@ Now let's add the `DCMotor(DCMotor_CL072014)` *call* to our assembly.  Open `/ha
 If you open `/hardware/QuadFrame.scad` in OpenSCAD, you should see the DC motor model.  Clearly we are going to need more than one motor, but first let's specify some global machine parameters to define the layout.
 
 
-### Global machine parameters
+## Global machine parameters
 
 Global machine parameters are available in every assembly, part, etc and should be used for the key parametric values of your design.  For our quadcopter layout, we'll keep things simple and assume the frame will be symmetrical with the arms arranged in a cross - the X layout.  This means we only need to define one parameter for the length of the arms:
 
@@ -210,7 +210,7 @@ Global machine parameters are available in every assembly, part, etc and should 
 This ArmLength is based on the Hubsan X4 having a diagonal distance of approx 85mm between motors.  You're welcome to choose a different ArmLength for your design.
 
 
-### Laying out the motors
+## Laying out the motors
 
 Now we have our ArmLength global parameter, we can roughly layout the motors within the assembly.  To do this, let's change the code where we previously *attached* a single motor to:
 
@@ -223,7 +223,7 @@ Now we have our ArmLength global parameter, we can roughly layout the motors wit
 Previewing the machine in OpenSCAD should now show 4 motors laid out in a cross.
 
 
-### Adding a new printed part to the machine
+## Adding a new printed part to the machine
 
 Now it's time to add a new printed part for the frame - as with the assembly, the Python utility makes this very quick:
 
@@ -286,5 +286,11 @@ This is where the *sandbox* comes into play - it allows us to work on new parts 
 
 
 ### Refining the Frame
+
+We can now refine our frame design within the `Frame_Model()` module at the bottom of the `/hardware/printedparts/Frame.scad` file.  
+
+Here's a basic frame design to get you started - refine/change it as much as you'd like:
+
+
 
 
