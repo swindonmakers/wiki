@@ -29,7 +29,7 @@ This guide is laid out as a series of tutorials that progressively introduce mor
 The theme for the tutorials is the development of a printed quad-copter frame based around the hardware for a Hubsan X4 (i.e. motors, battery, flight-controller).
 
 The finished tutorial project can be found on github at:
-[Hubsan X4 Frame Tutorial Project]()
+[https://github.com/Axford/QuadFrame](https://github.com/Axford/QuadFrame)
 
 
  1. [Basic quad frame layout with motors](OpenSCADMD_Tutorial1)
