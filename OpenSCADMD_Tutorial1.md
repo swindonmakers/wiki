@@ -358,4 +358,14 @@ The build process will take a minute or so to complete, you can see a fairly ver
 
  * Open `/hardware/docs/QuadFrameAssemblyGuide.htm` (served from a web server) or open `/hardware/docs/QuadFrameAssemblyGuide.md` in a markdown viewer - you should see a section for the Bill of Materials and assembly instructions for the Final Assembly (albeit one step)
 
- 
+ * Browse to `/hardware/printedparts/stl` and open the `Frame.stl` file (e.g. in Meshlab, Netfabb, MeshMixer, etc) - this is the STL for the frame, ready to print
+
+If you're keen and have the relevant hardware, you could test print the frame and check:
+
+ * The motors fit correctly - not too tight, not too loose
+ * The arm lengths are as expected (i.e. 85mm diagonal distance between motors, 60mm between adjacent motors)
+ * Whether the thickness, stiffness, strength of the part seems sufficient - this part is small enough to consider destructive testing
+
+
+
+
