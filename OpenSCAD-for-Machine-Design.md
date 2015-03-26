@@ -4,6 +4,8 @@ Guide to using OpenSCAD for complex machine design (e.g. CNC machines, robotics)
 
 Template project can be found in the git repo at: [OpenSCAD_Machine_Design_Template](https://github.com/Axford/OpenSCAD_Machine_Design_Template)
 
+_TODO: Add some pretty pictures of example projects here - e.g. LogoBot, axCut, AFRo, Y6, Quadstacle_
+
 ## Principles
 
 * Integrated with github, but easily extended to other SCMs
