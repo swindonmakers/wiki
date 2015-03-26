@@ -189,9 +189,17 @@ The `/hardware/config/vitamins.scad` file lists all *include* statements for vit
 
 Now let's add the `DCMotor(DCMotor_CL072014)` *call* to our assembly:
  1. Open `/hardware/assemblies/Final.scad' in your text editor
- 2. Add the line: `DCMotor(DCMotor_CL072014);` within the `step()` statement, after the `view()` module
- 3. Open `/hardware/QuadFrame.scad` in OpenSCAD - you should see the DC motor model
+ 2. Modify the `step()` statement to the following:
 
+     step(1, "Insert the motors") {
+            view(t=[0,0,0], r=[52,0,218], d=400);
+
+
+            attach(DefConUp, DCMotor_Con_Face)
+                DCMotor(DCMotor_CL072014);
+        }
+
+ 3. Open `/hardware/QuadFrame.scad` in OpenSCAD - you should see the DC motor model
 
 
 
