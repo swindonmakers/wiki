@@ -113,7 +113,7 @@ Creating a new assembly file requires a few steps, however, there is a utility s
 
 The *adda.py* script will:
  * Create a templated assembly file at:  `/hardware/assemblies/Final.scad`
- * Add the assembly to the global configuration
+ * Add the assembly to the global configuration (`/hardware/config/assemblies.scad`)
  * Create a sandbox file to aid with developing your assembly at: `/hardware/sandbox/assembly_FinalAssembly.scad`
 
 Open the assembly file (`/hardware/assemblies/Final.scad`) in your text editor, it should look something like this:
@@ -225,5 +225,52 @@ Previewing the machine in OpenSCAD should now show 4 motors laid out in a cross.
 
 ### Adding a new printed part to the machine
 
-Now it's time to
+Now it's time to add a new printed part for the frame - as with the assembly, the Python utility makes this very quick:
 
+ 1. Open a terminal and navigate to `/hardware/ci`
+ 2. Run `./adda.py printedpart Frame Frame`
+
+The *adda.py* script will:
+ * Create a templated printed-part file at:  `/hardware/printedparts/Frame.scad`
+ * Add the printed-part to the global configuration (`/hardware/config/printedparts.scad`)
+ * Create a sandbox file to aid with developing your part at: `/hardware/sandbox/printedpart_Frame.scad`
+
+Open the printed-part file (`/hardware/printedparts/Frame.scad`) in your text editor, it should look something like this:
+
+    // Connectors
+    Frame_Con_Def = [[0,0,0], [0,0,-1], 0,0,0];
+
+    module Frame_STL() {
+        printedPart("printedparts/Frame.scad", "Frame", "Frame_STL()") {
+
+            view(t=[0,0,0],r=[72,0,130],d=400);
+
+            if (DebugCoordinateFrames) frame();
+            if (DebugConnectors) {
+                connector(Frame_Con_Def);
+            }
+
+            color(Level3PlasticColor) {
+                if (UseSTL) {
+                    import(str(STLPath, "Frame.stl"));
+                } else {
+                    Frame_Model();
+                }
+            }
+        }
+    }
+
+
+    module Frame_Model()
+    {
+        // local vars
+
+        // model
+        difference() {
+            union() {
+                cube([10,10,10]);
+            }
+
+
+        }
+    }
