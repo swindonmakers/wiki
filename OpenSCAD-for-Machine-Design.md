@@ -62,25 +62,7 @@ The finished tutorial project can be found on github at:
     * Troubleshooting (esp the build process)
 
 
-## Vitamins, Printed-parts and Assemblies
 
-Models of complete machines are comprised of two fundamental building blocks - parts and assemblies:
-* Parts - represent the individual, physical bits of the machine
-* Assemblies -  represent how the parts should be put together
-
-Assemblies are typically arranged in a tree structure, with a top-level assembly containing a combination of parts and sub-assemblies.
-
-Because OpenSCAD is primarily used for creating 3D-printable designs, we classify parts into two types:
-* Printable parts - STL
-* Non-printable parts - Vitamins
-
-A typical design process will rapidly iterate over the following steps:
-* Import, or develop, the key vitamins (often drive systems and electronics)
-* Layout groups of vitamins within assemblies
-* Develop the printed parts to hold the vitamins together
-* Print, test, repeat
-
-Project teams can often tackle these steps in parallel, with team members owning development of the various vitamins, printed-parts and assemblies.  
 
 
 ## Assembly Guide
