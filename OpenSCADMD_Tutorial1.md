@@ -135,10 +135,19 @@ Open the assembly file (`/hardware/assemblies/FinalAssembly.scad`) in your text 
         }
     }
 
+The FinalAssembly is an OpenSCAD module, contain as `assembly()` statement.  The `assembly()` statement tells the build-system to treat this as an assembly and to show the assembly *steps*.  It takes three parameters:
+ 1. The location of the the current file (relative to the `/hardware` directory)
+ 2. The description of the assembly
+ 3. How to _call_ the module from within OpenSCAD scripts - this is critical to the build system
 
+Within the `assembly()` statement are:
+ 1. A call to the _base part_ - the part you start with when assembling this assembly
+ 2. A sequence of assembly _steps_ - defined within `step()` statements
 
+A `step()` statement..
 
+Within each step are:
+ 1. Any _views_ that should be rendered by the build system and included in the assembly guide
 
 
 ### Using the vitamin catalogue
-
