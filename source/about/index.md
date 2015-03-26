@@ -11,7 +11,7 @@ sidebar: false
 [![TestPi](testpi.jpg){:.right}](testpi-full.jpg)
 
 The Swindon [Hackspace] formed in June 2012, holding [weekly meetings](#weekly-meetings)
-for those interested in making, breaking, and fixing things. We are a new hackspace,
+for those interested in making, breaking, and fixing things. We are always,
 looking to build membership and grow [our toolkit].
 
 [Hackspace]: http://en.wikipedia.org/wiki/Hackerspace
@@ -43,8 +43,7 @@ please let us know via the [group] or on twitter [@snhack].
 The Swindon Hackspace meets weekly at the [Museum of Computing], located near the Wyvern
 Theatre ([view map]) and next to the Regent Circus bus stops[^busstops] (northbound).
 
-Sessions start at 6.30pm each Wednesday, and it's advisable to arrive no later than
-7.15pm. We usually finish between 9.30 and 10pm. Limited free parking can normally be
+Sessions start at 6.30pm each Wednesday and run until 10pm-11pm. If arriving later, there is a doorbell to ring if there is nobody on the reception desk. Limited free parking can normally be
 found on [Euclid Street], while the [Wyvern Car Park] costs £1.00 for upto two hours, or £2 all night (both after 6pm).
 
 Session price is £4 and paid on admission. Membership is paid annually in advance

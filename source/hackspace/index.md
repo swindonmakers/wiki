@@ -61,9 +61,11 @@ members to use.  For a full list please see the [tools page] on our [wiki].
 
 - Prusa Mendel [3D printer] - we can offer design advice, assistance, and
   help with running the printer.
+  
+- Desktop 3D scanner - Turn your existing parts into 3D models.
 
 - General workshop tools, hobby lathe, soldering irons, hot glue gun. Oscilloscopes,
-  multimeters, test equipment. Various electronics equipment and components. Breadboards,
+  multimeters, power supply, test equipment. Various electronics equipment and components. Breadboards,
   jumper leads, etc.
 
 - [Raspberry Pi], RPi [Camera Board], and [PiFace] Control and Display Board.
