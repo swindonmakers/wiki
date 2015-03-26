@@ -366,6 +366,17 @@ If you're keen and have the relevant hardware, you could test print the frame an
  * The arm lengths are as expected (i.e. 85mm diagonal distance between motors, 60mm between adjacent motors)
  * Whether the thickness, stiffness, strength of the part seems sufficient - this part is small enough to consider destructive testing
 
+Based on your findings, you'll probably want to refine the Frame design further.  Obvious improvements:
+
+ * Somewhere for the LEDs to go
+ * Something to help keep the wires neat (perhaps little retaining clips)
+ * Nicer landing legs - perhaps a curve or two
+
+
+## Summary
+
+This concludes the first tutorial in the series.  If you've made it this far you should have a good idea of how you'd add additional parts, assemblies and/or incorporate additional vitamins.  In the next tutorial we'll be covering all of those aspects in more detail, as well as how to use various utility libraries and customising the generated documentation.
+
 
 
 
