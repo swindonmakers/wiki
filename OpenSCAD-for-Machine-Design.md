@@ -7,10 +7,10 @@ Template project can be found in the git repo at: [OpenSCAD_Machine_Design_Templ
 ## Principles
 
 * Integrated with github, but easily extended to other SCMs
-* Support efficient, robust collaborative design:
+* Supports efficient, robust collaborative design:
   * Clear naming conventions, coding styles and file structure
-* Encourage reusable parts that can be shared across projects
-* Automate slow, repetitive tasks, such as:
+* Encourages reusable parts that can be shared across projects
+* Automates slow, repetitive tasks, such as:
   * STL generation
   * Assembly Guide generation with Bill of Materials (BOM)
   * Pretty pictures for Assembly Guide, website, etc
@@ -19,19 +19,23 @@ Template project can be found in the git repo at: [OpenSCAD_Machine_Design_Templ
   * it can be published within gh-pages or similar
   * it is very readable
 
-## Concepts to cover
 
-* Vitamins, printed-parts and assemblies
-* Project structure
-* Conventions for vitamins
-* Parameterisation of vitamins (enum types)
-* Conventions for printed-parts
-* Conventions for assemblies
-* BOM generation (headlines only)
-* Connector concept
-* Using attach()
-* Representing assembly sequences with step()
-* Connector getter functions
+## Tutorials
+
+This guide is laid out as a series of tutorials that progressively introduce more complex modelling scenarios, features and concepts.  There is a consistent theme through-out all the tutorials, to illustrate the typical evolution of a project from first experimental parts through to finished, published design.
+
+The theme for the tutorials is the development of a printed quad-copter frame based around the hardware for a Hubsan X4 (i.e. motors, battery, flight-controller).
+
+The finished tutorial project can be found on github at:
+[Hubsan X4 Frame Tutorial Project]()
+
+
+ 1. Basic quad frame layout with motors
+ 2. Refined frame, including battery
+ 3. Adding the flight controller
+ 4. More sophisticated vitamins (parameterised, enum types)
+ 5. Design variants - different arm lengths, motor sizes, etc
+
 
 ## Vitamins, Printed-parts and Assemblies
 
