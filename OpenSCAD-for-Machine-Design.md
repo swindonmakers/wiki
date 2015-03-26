@@ -31,7 +31,12 @@ The finished tutorial project can be found on github at:
 
 
  1. Basic quad frame layout with motors
+    * Simple assembly of a printed part and an existing vitamin
+    * Use of utility tools and guide generation
+    * Printing the STL
  2. Refined frame, including battery
+    * Sub-assemblies, more printed parts and more existing vitamins
+    * 
  3. Adding the flight controller
  4. More sophisticated vitamins (parameterised, enum types)
  5. Design variants - different arm lengths, motor sizes, etc
