@@ -274,3 +274,8 @@ Open the printed-part file (`/hardware/printedparts/Frame.scad`) in your text ed
 
         }
     }
+
+Don't worry to much about the contents, for now let's add the Frame to our assembly.  Open `/hardware/assemblies/Final.scad` in your text editor and after the `// base part` comment add the line: 
+`Frame_STL();`
+
+
