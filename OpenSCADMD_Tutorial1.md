@@ -109,18 +109,18 @@ The top-level, or final, assembly is where you define how all the various parts 
 
 Creating a new assembly file requires a few steps, however, there is a utility script that automates most of the process:
  1. Open a terminal and navigate to `/hardware/ci`
- 2. Run `./adda.py assembly FinalAssembly "Final Assembly"`
+ 2. Run `./adda.py assembly Final "Final Assembly"`
 
 The *adda.py* script will:
- * Create a new assembly file at:  `/hardware/assemblies/FinalAssembly.scad`
+ * Create a templated assembly file at:  `/hardware/assemblies/Final.scad`
  * Add the assembly to the global configuration
  * Create a sandbox file to aid with developing your assembly at: `/hardware/sandbox/assembly_FinalAssembly.scad`
 
-Open the assembly file (`/hardware/assemblies/FinalAssembly.scad`) in your text editor, it should look something like this:
+Open the assembly file (`/hardware/assemblies/Final.scad`) in your text editor, it should look something like this:
 
-    module FinalAssemblyAssembly () {
+    module FinalAssembly () {
     
-        assembly("assemblies/FinalAssembly.scad", "Final Assembly", str("FinalAssemblyAssembly()")) {
+        assembly("assemblies/Final.scad", "Final Assembly", str("FinalAssembly()")) {
     
         // base part
     
@@ -144,10 +144,38 @@ Within the `assembly()` statement are:
  1. A call to the _base part_ - the part you start with when assembling this assembly
  2. A sequence of assembly _steps_ - defined within `step()` statements
 
-A `step()` statement..
+A `step()` statement takes two parameters:
+ 1. The step number
+ 2. The assembly instructions for the step - these are inserted directly into the assembly guide and can contain markdown syntax
 
-Within each step are:
+Each `step()` statement then contains:
  1. Any _views_ that should be rendered by the build system and included in the assembly guide
+ 2. The part(s) that should be attached to the _base part_ in this assembly step
+
+Don't worry about the contents of the `step()` statement for now, we'll come back to that later in the tutorial.
+
+We have one more small change to make before we start integrating parts into this assembly - we need to add this assembly to our *machine* file:
+
+ 1. Open '/hardware/QuadFrame.scad'
+ 2. Replace:
+
+    //Top level assembly
+    //Assembly();
+
+    // dummy cube - just so you can see something!
+    cube([10,10,10]);
+
+    // NB: use the adda.py utility script to create new assemblies:
+    //     hardware/ci/adda.py assembly <assembly name> <assembly description>
+
+with:
+    FinalAssembly();
+
+ 3. Save the changes
+
+
+
+
 
 
 ### Using the vitamin catalogue
