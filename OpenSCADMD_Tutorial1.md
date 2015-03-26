@@ -157,22 +157,7 @@ Don't worry about the contents of the `step()` statement for now, we'll come bac
 We have one more small change to make before we start integrating parts into this assembly - we need to add this assembly to our *machine* file:
 
  1. Open '/hardware/QuadFrame.scad'
- 2. Replace:
-     
-     //Top level assembly
-     //Assembly();
-      
-     // dummy cube - just so you can see something!
-     cube([10,10,10]);
-     
-     // NB: use the adda.py utility script to create new assemblies:
-     //     hardware/ci/adda.py assembly <assembly name> <assembly description>
-     
-with:
-
-     FinalAssembly();
-
-
+ 2. Replace from `//Top level assembly` to `cube([10,10,10])` with `FinalAssembly();`
  3. Save the changes
 
 
