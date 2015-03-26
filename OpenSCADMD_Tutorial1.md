@@ -158,16 +158,16 @@ We have one more small change to make before we start integrating parts into thi
 
  1. Open '/hardware/QuadFrame.scad'
  2. Replace:
-
+     
      //Top level assembly
      //Assembly();
- 
+      
      // dummy cube - just so you can see something!
      cube([10,10,10]);
- 
+     
      // NB: use the adda.py utility script to create new assemblies:
      //     hardware/ci/adda.py assembly <assembly name> <assembly description>
-
+     
 with:
 
      FinalAssembly();
