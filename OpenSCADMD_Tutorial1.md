@@ -275,7 +275,16 @@ Open the printed-part file (`/hardware/printedparts/Frame.scad`) in your text ed
         }
     }
 
-Don't worry to much about the contents, for now let's add the Frame to our assembly.  Open `/hardware/assemblies/Final.scad` in your text editor and after the `// base part` comment add the line: 
-`Frame_STL();`
+Don't worry to much about the contents, for now let's add the Frame to our assembly:
+ 1. Open `/hardware/assemblies/Final.scad` in your text editor
+ 2. After the `// base part` comment add the line: `Frame_STL();`
+ 3. Save and close the file
+
+At this point, if you preview the machine in OpenSCAD you won't see anything new except for a warning in the console stating `WARNING: Can't open import file '"printedparts/stl/Frame.stl"'.`.  This is because our new part is still in development and we've not yet run the build tools to generate the associated STL.
+
+This is where the *sandbox* comes into play - it allows us to work on new parts before running the build process.  Open the `/hardware/sandbox/printedpart_Frame.scad` file in OpenSCAD and you should be able to see the new part (just a small cube).
+
+
+### Refining the Frame
 
 
