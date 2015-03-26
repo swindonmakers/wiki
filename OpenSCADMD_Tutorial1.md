@@ -340,6 +340,6 @@ Here's a basic frame design to get you started - refine/change it as much as you
 
 The resulting frame should look like this in OpenSCAD:
 
-
+![](https://raw.githubusercontent.com/Axford/OpenSCAD_Machine_Design_Template/master/guide/images/QuadFrame_BasicFrame.png)
 
 
