@@ -24,7 +24,7 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [[share or r
 
 #### Projects
 
-- [[Pen Plotter]]
+- [[Cyclone PCB Milling Machine]]
 
 - [[Twitter to Teletype]]
 
