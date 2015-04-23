@@ -2,6 +2,10 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
 #### Projects (most recent first)
 
+- [[Cyclone PCB Milling Machine]]
+
+  A reprap based machine for milling PCB circuit boards
+
 - [[Cyclops Y6]]
 
   Large, printable and foldable Y6 copter
