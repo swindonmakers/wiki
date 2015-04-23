@@ -6,6 +6,10 @@ Mal has brought in his almost-working [Cyclone PCB Milling Machine](http://repra
 * Find some decent software for designing PCBs, generating Gcode and running the machine.
 
 # Software
+
+## Toolchains Confirmed To Work
+* Eagle, design circuit, export Gerber -> Flatcam, export gcode -> ...?
+
 ## PCB Design
 * Eagle - works, but steep learning curve, can generate Gerber files that work with Flatcam (gerber -> gcode)
 * 123dcircuits.io - easy to design a circuit, but exported Gerber doesn't work with Flatcam
