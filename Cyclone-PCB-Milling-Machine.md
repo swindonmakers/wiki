@@ -1,9 +1,8 @@
 Mal has brought in his almost-working [Cyclone PCB Milling Machine](http://reprap.org/wiki/Cyclone_PCB_Factory) for us to get working.  The first job is to get it actually cutting PCBs.
 
-# Immediate Todo
-* Install Z-Axis bearing
-* Re-print gears
-* Find some decent software for designing PCBs, generating Gcode and running the machine.
+# Todo
+* Replace x-axis lead screw, it's slightly bent causing wiggles in the cuts.  What dia is it? How long?
+* Work out how to use the bed auto leveling software.
 
 # Software
 
