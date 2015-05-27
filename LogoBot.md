@@ -162,7 +162,7 @@ RGB light pipe | Jamie |
 Pen lift mechanism | ? |
 Wiring and harnessing/fixing | ? |
 Modular adapters | ? |
-Assembly instructions booklet | Damian | Jamie ([Fritzing layouts](images/logobot/LogoBot.fzz)?)
+Assembly instructions booklet | Damian | Jamie ([Fritzing layouts](images/logobot/Fritzing)?)
 
 ### Non-critical tasks
 
