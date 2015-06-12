@@ -26,4 +26,6 @@ Mal has brought in his almost-working [Cyclone PCB Milling Machine](http://repra
 * Pronteface (or any 3d Printer software) can drive the machine around.
 
 # Random links
+* Thingiverse model - http://www.thingiverse.com/thing:49484
+* Cyclone Google Groups - https://groups.google.com/forum/#!forum/cyclone-pcb-factory
 * http://www.cyclonecnc.4fan.cz/
