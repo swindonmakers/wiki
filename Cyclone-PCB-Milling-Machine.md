@@ -1,7 +1,11 @@
 Mal has brought in his almost-working [Cyclone PCB Milling Machine](http://reprap.org/wiki/Cyclone_PCB_Factory) for us to get working.  The first job is to get it actually cutting PCBs.
 
 # Todo
+* (Rob) Print case for electronics to stop them getting covered in cuttings.
+* Get some clear tube (of the right size) for the vacuum attachment.
+* Try the step-by-step gcode sending from CNC-gcode-controller
 * Replace x-axis lead screw, it's slightly bent causing wiggles in the cuts.  What dia is it? How long?
+
 
 # Software
 
@@ -12,7 +16,7 @@ Mal has brought in his almost-working [Cyclone PCB Milling Machine](http://repra
 ## PCB Design
 * Eagle - works, but steep learning curve, can generate Gerber files that work with Flatcam (gerber -> gcode)
 * 123dcircuits.io - easy to design a circuit, but exported Gerber doesn't work with Flatcam
-* Fritzing - works, but need to work out how to get it to do single sided board
+* Fritzing - works, is easy enough, need to work out how to get it to do single sided boards easily / by default
 
 ## Geber -> Gcode Conversion
 * [Flatcam](http://flatcam.org/) looks fairly user friendly, easy to use and actively developed, tutorial on usage [here](http://diwo.bq.com/como-crear-gcode-para-fresar-pcbs-en-cyclone/): 
