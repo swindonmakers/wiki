@@ -4,22 +4,24 @@ Guide to using OpenSCAD for complex machine design (e.g. CNC machines, robotics)
 
 Template project can be found in the git repo at: [OpenSCAD_Machine_Design_Template](https://github.com/Axford/OpenSCAD_Machine_Design_Template)
 
-_TODO: Add some pretty pictures of example projects here - e.g. LogoBot, axCut, AFRo, Y6, Quadstacle_
+Examples images from various projects:
+
+![Logobot](https://rawgit.com/snhack/LogoBot/master/hardware/images/LogoBot_view.png)
 
 ## Principles
 
 * Integrated with github, but easily extended to other SCMs
 * Supports efficient, robust collaborative design:
   * Clear naming conventions, coding styles and file structure
-* Encourages reusable parts that can be shared across projects
+* Encourages reusable parts that can be shared across projects (vitamins in particular)
 * Automates slow, repetitive tasks, such as:
   * STL generation
   * Assembly Guide generation with Bill of Materials (BOM)
   * Pretty pictures for Assembly Guide, website, etc
 * All documentation in markdown format and HTML, so... 
   * it can be rendered automatically by github
-  * it can be published within gh-pages or similar
   * it is very readable
+  * is printable
 
 
 ## Tutorials
@@ -68,7 +70,7 @@ The finished tutorial project can be found on github at:
 
 ***
 
-_Stuff below here is out of date - refer to the tutorial links above!!!_
+_Stuff below here is out of date and needs rewriting - refer to the tutorial links above!!!_
 
 
 
