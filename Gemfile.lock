@@ -21,7 +21,7 @@ GEM
       liquid (~> 2.3)
       maruku (~> 0.5)
       pygments.rb (~> 0.3.2)
-    json (1.8.0)
+    json (1.8.3)
     kramdown (0.14.2)
     liquid (2.3.0)
     maruku (0.6.1)
