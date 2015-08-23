@@ -6,9 +6,12 @@ body_id: landing-page
 ---
 
 <div id="landing">
-  <a href="{{ site.github_wiki }}/LogoBot">
-    <img src="/images/layout/logobot.jpg" alt="LogoBot" width=100% class="center">
-  </a>
+  <script>
+    var imgArray = ["1", "3", "5", "6"];
+    var ranNum = Math.floor(Math.random()*imgArray.length);
+    var image_rnd = imgArray[ranNum];
+    document.write('<img src="/images/layout/site_pano_'+image_rnd+'.jpg" alt="Header Image" width=100% class="center">')
+  </script>
 
   <article>
 
