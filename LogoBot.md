@@ -10,7 +10,7 @@ This is the wiki page for LogoBot and is used to collect project and technical i
 -->
 
 [LogoBot Documentation]: https://rawgit.com/snhack/LogoBot/master/hardware/docs/index.htm
-[LogoBot Scribbler]: https://rawgit.com/snhack/LogoBot/master/hardware/docs/index.htm#LogoBot-Scribbler
+[LogoBot Scribbler]: https://rawgit.com/snhack/LogoBot/master/hardware/docs/index.htm#logobot-scribbler
 
 [![](http://swindon.hackspace.org.uk/images/layout/site_pano_6.jpg)][LogoBot Documentation]
 
