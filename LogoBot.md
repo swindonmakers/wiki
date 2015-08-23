@@ -34,26 +34,25 @@ This is the wiki page for LogoBot and is used to collect project and technical i
 
 ## BOM
 
-Outline BOM:
+For the latest BOM see the [Assembly Guides](https://rawgit.com/snhack/LogoBot/master/hardware/docs/index.htm), the table below lists the most common items and sources.
 
-Qty | Item | Line Total | Source | Got Some?
---- | ---- | ---------- | ------ | --------
-1 | Arduino Pro Mini with FTDI breakout and USB cable | 3.00 | [AliExpress](http://www.aliexpress.com/item/CP2102-Module-Pro-Mini-Module-Atmega328-3-3V-8M-For-Arduinoi-Compatible-With-Nano-Free-Shipping/2002847394.html) | Two
-1 | 170 Point Breadboard | 0.60 | [ebay](http://www.ebay.co.uk/itm/271565366887?_trksid=p2059210.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT) | On Order
-2 | 5V Geared Stepper motors (28BYJ-48) with associated drivers (ULN2003). | 3.52 | [AliExpress](http://www.aliexpress.com/item/5V-Stepper-Motor-28BYJ-48-With-Drive-Test-Module-Board-ULN2003-5-Line-4-Phase-free/1436201179.html) | Yes
-4 | lever microswitch | 0.53 | [ebay](http://www.ebay.co.uk/itm/121382500067?_trksid=p2059210.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT) | On Order
-1 | RGB LED (discrete, not serial!) | 0.07 | [ebay](http://www.ebay.co.uk/itm/301205844253?_trksid=p2059210.m2749.l2649&var=600263731447&ssPageName=STRK%3AMEBIDX%3AIT) | On Order
-1 | Piezo sounder | ? | ?
-1 | power switch (slider) | 0.06 | [AliExpress](http://www.aliexpress.com/item/100-Pieces-3-Pin-2-Position-1P2T-SPDT-Panel-Mini-Vertical-Slide-Switch-Solder-Lug-SS12F15VG5/1966040655.html) | One
-1 | 2x2 AA Battery Pack | 0.49 | [AliExpress](http://www.aliexpress.com/item/Black-Color-2-2-AA-Battery-1-5V-Holder-Storage-Boxes-for-DIY-Experiment-Test-Cascade/1981330624.html) | On Order
-4 | AA batteries | ? | ?
-- | Miscellaneous consumables (jumpers, fasteners) | ? | ?
-- | A bunch of printed parts (base, shell, wheels, bumpers, etc) | ? | ?
-  |  | 8.27+ |  | 
-
-NB: If you use ULN2803 you can drive two steppers from a single chip - [aliexpress link to 2 steppers and a driver board](http://www.aliexpress.com/item/New-2-Stepper-Motor-28BYJ-48-With-Drive-Test-Module-Board-ULN2803-Freeshipping/1405946480.html)
+Qty | Item | Line Total | Source 
+--- | ---- | ---------- | ------ 
+1 | Arduino Pro Mini 3.3v with FTDI breakout and USB cable | 3.00 | [AliExpress](http://www.aliexpress.com/item/CP2102-Module-Pro-Mini-Module-Atmega328-3-3V-8M-For-Arduinoi-Compatible-With-Nano-Free-Shipping/2002847394.html)
+2 | 5V Geared Stepper motors (28BYJ-48) with associated drivers (ULN2003). | 3.52 | [AliExpress](http://www.aliexpress.com/item/5V-Stepper-Motor-28BYJ-48-With-Drive-Test-Module-Board-ULN2003-5-Line-4-Phase-free/1436201179.html)
+4 | lever microswitch | 0.53 | [ebay](http://www.ebay.co.uk/itm/121382500067?_trksid=p2059210.m2749.l2649&ssPageName=STRK%3AMEBIDX%3AIT)
+1 | RGB LED (discrete, not serial!) | 0.07 | [ebay](http://www.ebay.co.uk/itm/301205844253?_trksid=p2059210.m2749.l2649&var=600263731447&ssPageName=STRK%3AMEBIDX%3AIT)
+1 | Piezo sounder | ?
+1 | power switch (slider) | 0.06 | [AliExpress](http://www.aliexpress.com/item/100-Pieces-3-Pin-2-Position-1P2T-SPDT-Panel-Mini-Vertical-Slide-Switch-Solder-Lug-SS12F15VG5/1966040655.html)
+1 | 2x2 AA Battery Pack | 0.49 | [AliExpress](http://www.aliexpress.com/item/Black-Color-2-2-AA-Battery-1-5V-Holder-Storage-Boxes-for-DIY-Experiment-Test-Cascade/1981330624.html)
+4 | AA batteries | ?
+- | Miscellaneous consumables (jumpers, terminal block) | ? 
+- | A bunch of printed parts (base, shell, wheels, bumpers, etc) | 2.50
+  | Approx Total | 12.00 |  | 
 
 ## Design
+
+The rest of this Wiki page is dedicated to design discussion, collected ideas, etc.  For the latest designs, guides and printable STLs, please refer to the [github site](https://github.com/snhack/LogoBot).
 
 Having discussed a variety configurations, we've settled on the following starter design:
 
@@ -64,10 +63,10 @@ Having discussed a variety configurations, we've settled on the following starte
 
 ### Scribbler
 
-The first standard extension will include a pen lift and WIFI UART, integrating with a Mirobot-style host application:
+The first standard extension will include a pen lift and WIFI module, permitting remote control from a phone or tablet using a LOGO command set.
 
 * Central pen with micro-servo lift
-* WIFI UART - for cable-free programming, inter-bot comms, host interface, etc
+* ESP8266-01 Wifi module
 
 ### Other Extensions / Optional Extras
 * Bluetooth UART - for cable-free programming, inter-bot comms, host interface, etc
@@ -92,7 +91,7 @@ Please add suggestions below, and if you start developing a design, then put you
 | R2D2            | Jamie        |                | Just his head?  or perhaps a basic body as well? Matching program mode that drives piezo/speaker and adds R2 flourishes to movement (such as taking the 270° turn instead of 90°) |
 | Dalek           |              |                | Add a servo for the probiscus? |                
 | Pumpkin         |              |                | Halloween fun, with glowing eyes? |
-| Lego Base       |              |                | Covered with Lego block surfaces to build on |
+| Lego Base       | Damian       | See Optional Extras | A lego plate lid to fit any of the standard shells |
 | Add your idea here... ||||
 
 ## Source Files
@@ -136,46 +135,6 @@ A4-A7  | Spare headers, not usable on the breadboard
 ![](http://www.engineersgarage.com/sites/default/files/imagecache/Original/wysiwyg_imageupload/4214/Arduino%20Pro%20Mini%20copy.png)
 -->
 
-
-## Hardware Development Owners
-
-This is an evolving list of who is owning the development of various parts - for latest updates, see the [live Issues in the repo](https://github.com/snhack/LogoBot/issues)
-
-### OpenSCAD Vitamins
-* Arduino - Jamie
-* Battery Pack - Jess
-* Breadboard - Damian
-* LED - Rob
-* Marble Caster - Damian
-* MicroServo - Damian
-* Microswitches - Steve
-* Nuts/Bolts - Rob
-* Piezo - James
-* Stepper Drivers - Rob
-* Stepper Motors - Malcolm
-
-
-### Hardware and accessories
-
-Non exhaustive list of owners for various tasks on the actual real-world hardware and accessories. Add yourself to any existing tasks, or create any new ones required.
-
-Use the volunteer column if you want to help somebody else with a task, or are otherwise unsure about taking ownership of it (we can then review on a Wednesday evening).
-
-Tasks | Owners | Notes / Volunteer?
-:---- | ---------- | ----------
-Ordering components | ? | Sync parts with Arduino workshop
-Printing of parts | ? | Jamie
-Drive chain | (Damian?) |
-Power supply | ? |
-Switches and bumpers | ? |
-IR and ultra sonic sensors | ? |
-Arduino and software | Jamie | w/ Damian for bench testing etc.
-Piezo sounder | ? |
-RGB light pipe | Jamie |
-Pen lift mechanism | ? |
-Wiring and harnessing/fixing | ? |
-Modular adapters | ? |
-Assembly instructions booklet | Damian | Jamie ([Fritzing layouts](images/logobot/Fritzing/LogoBot.fzz)?)
 
 ### Non-critical tasks
 
