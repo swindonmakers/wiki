@@ -14,6 +14,7 @@ This is the wiki page for LogoBot and is used to collect project and technical i
 
 [![](http://swindon.hackspace.org.uk/images/layout/site_pano_6.jpg)][LogoBot Documentation]
 
+
 ## Principles / Requirements
 
 * Help teach electronics, programming, 3D design and 3D printing (both to ourselves and others)
@@ -26,7 +27,7 @@ This is the wiki page for LogoBot and is used to collect project and technical i
 * Personalisable - we don't want lots of bland, generic little robots
 
 
-Latest WIP model:
+<!-- Latest WIP model -->
 
 [![WIP Model](https://rawgit.com/snhack/LogoBot/master/hardware/images/LogoBotScribbler_view.png)][LogoBot Scribbler]
 
