@@ -1,9 +1,6 @@
 Mal has brought in his almost-working [Cyclone PCB Milling Machine](http://reprap.org/wiki/Cyclone_PCB_Factory) for us to get working.  The first job is to get it actually cutting PCBs.
 
 # Todo
-* (Rob) Print case for electronics to stop them getting covered in cuttings.
-* Get some clear tube (of the right size) for the vacuum attachment.
-* Try the step-by-step gcode sending from CNC-gcode-controller
 * Replace x-axis lead screw, it's slightly bent causing wiggles in the cuts.  What dia is it? How long?
 
 
