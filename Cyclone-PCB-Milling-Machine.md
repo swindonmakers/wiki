@@ -3,6 +3,8 @@ Mal has brought in his almost-working [Cyclone PCB Milling Machine](http://repra
 # Todo
 * Replace x-axis lead screw, it's slightly bent causing wiggles in the cuts.  What dia is it? How long?
 
+# Step By Step Guides
+* [[Cyclone-PCB-Start-To-Finish-Step-By-Step-Guide]]
 
 # Software
 
