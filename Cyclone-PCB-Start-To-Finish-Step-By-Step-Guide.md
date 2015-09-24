@@ -10,11 +10,11 @@ Install FlatCAM and go to the Options tab -> Application Defaults and set
 * Units = mm
 
 Gerber Options
-* Isolation Routing Tool Dia: 0.1
+* Isolation Routing Tool Dia: 0.1mm is the actual tool dia, but using 0.35 seems to work well, adjust if tracks get merged or overlap.
 
 Excellon Options
-* Cut Z: -0.3
-* Travel Z: 5.0
+* Cut Z: -0.15 might be the best, more experimentation required
+* Travel Z: 4.0
 
 Geometry Options 
 * Tool Dia: 0.1
