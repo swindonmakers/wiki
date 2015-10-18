@@ -13,12 +13,15 @@ Gerber Options
 * Isolation Routing Tool Dia: 0.1mm is the actual tool dia, but using 0.35 seems to work well, adjust if tracks get merged or overlap.
 
 Excellon Options
-* Cut Z: -0.2 might be the best, more experimentation required
+* Cut Z: -0.4 (this is the depth of drill markings)
 * Travel Z: 4.0
+* Feed Rate: 1.0
 
 Geometry Options 
+* Cut Z: -0.2 (this is the depth of cut for isolation routing)
 * Tool Dia: 0.1
-* Travel Z: 5.0
+* Travel Z: 4.0
+* Feed Rate: 1.0
 
 CNC Job Options 
 * Tool Dia: 0.1
@@ -65,7 +68,7 @@ Rather than changing tool and getting the machine to drill the holes and risking
 * File -> Open Excellon -> select the xxx_drill.txt (red circles should appear in the view)
 * Project tab: select the file you just loaded.
 * Selected tab: in the tools list, select all rows.  (click in and ctrl-A in Windows)
-* Set Cut Z = -0.3, Travel Z = 4.0
+* Check Cut Z = -0.4, Travel Z = 4.0
 * Click Generate.
 * Project tab: select the _drill.txt_cnc you just created.
 * Selected tab: click Export G-Code
