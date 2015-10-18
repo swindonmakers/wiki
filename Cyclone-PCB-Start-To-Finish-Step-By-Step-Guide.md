@@ -60,6 +60,9 @@ Then File -> Export -> For Production -> Extended Gerber
 * Selected tab: click Export G-Code (you are done in FlatCam)
 * (optional) On the toolbar click "Clear Plot" (3rd icon in). Project tab: select the _iso_cnc item again. Selected tab: click Update Plot.  This should redraw the plot showing the travel moves (light yellow) and cuts (blue) that outline the circuit tracks.  If this doesn't look right, you've done something wrong!  Start again.
 
+## Manual Gcode Fixup
+* Manually edit the gcode, remove the F1.000 command near the start and replace it with G01 F1000 or the machine will move incredibly slowly in Z and just wont work right.
+
 ## CNC GCode Controller
 * Bottom left of window, choose com port (or SIM(ulator)), connect
 
