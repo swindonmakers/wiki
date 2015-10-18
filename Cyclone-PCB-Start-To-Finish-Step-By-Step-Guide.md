@@ -13,7 +13,7 @@ Gerber Options
 * Isolation Routing Tool Dia: 0.1mm is the actual tool dia, but using 0.35 seems to work well, adjust if tracks get merged or overlap.
 
 Excellon Options
-* Cut Z: -0.15 might be the best, more experimentation required
+* Cut Z: -0.2 might be the best, more experimentation required
 * Travel Z: 4.0
 
 Geometry Options 
@@ -80,12 +80,25 @@ Then File -> Export -> For Production -> Extended Gerber
 ### CNC Milling tab
 * Click (1) Load File (the .gcode file you exported from FlatCam)
 * The file will probably load with 2 warnings and 2 errors, ignore them(?)  You should see your isolation routing cut in the grid.
-* In the Preview box, you should have two "depths" -0.3 which are the cuts and 5.0 which are the travels.  View both, check they look sensible.
+* In the Preview box, you should have two "depths" -0.2 which are the cuts and 5.0 which are the travels.  View both, check they look sensible.
 * In the Positioning box Tick Z Autolevelling and set X & Y to be the Start X and Start Y you used in the Auto Level step.  (or maybe add 5mm for good luck)
+* In the Positioning box Tick Mirror X (or mirror Y) if you have any connectors that need to be the right way round.  Remember you are cutting the underside of the board.
 * Click (2) Optimise (may save some time, but generally doesn't for the isolation routing layer)
 * !!! Disconnect the z-endstop croc clip from the dremel, clip it somewhere safe that is not attached to the other croc clip, i.e. not onto the edge of the PCB !!!
+* Disconnect the other end of the z-endstop from the PCB and clip it somewhere out of the way.  This should stop false z-endstop triggers while cutting.  (Don't clip it onto the other croc clip.)
 * Plug in the Dremel and power it up.  Give it 30s to get up to speed.
+* Ensure that the Dremel power cable is away from other wires, it seems to trigger end stops and sometimes upsets motor control.
 * Tick Single step, this will allow you to step though the gcode a line at a time, this is a good plan until you know the machine is working okay
 * Click (3) Milling
-* Press Resume over and over to step through the G-Code
-* If its looking good, untick Single Step and hit resume to let the machine run.  You can re-tick single step at any time or pause.
+* Press Resume over and over to step through the first few lines of G-Code.  The dremel should move out to the point at which it will start the first cut.
+* If its looking good, before the first G01 Z-0.2 command untick Single Step and hit resume to let the machine run.  You can re-tick single step at any time or pause.
+
+## Drilling Guides
+* Still on the CNC Milling tab, load the gcode you generated for the drilling guides and follow the same steps as above to mark the drilling points.  If you drill immediately after cutting all you should need to do is load the file and click on (3) Milling.  Take the same precautions with end stops, cables, the Dremel and stepping through the first few lines of gcode.
+
+
+## Post Clean Up & Drilling
+* Clean up the rough edges around the tracks using some fine (300 grit or finer?) sandpaper until the track edges look tidy.
+* Wash the board in warm water, use an old toothbrush to clean out the cuts.
+* Use a multimeter to check that all the tracks are isolated from the non-connected copper and also from any nearby tracks.  Run a small flat head screw driver around the cuts of any tracks that aren't isolated until they are.
+* Use a small hand drill to drill out the holes for the components.  A 0.8mm drill bit works well for most small legged components; resistors, caps, etc.  Larger components like voltage regulators and pin headers may need 1mm holes drilling.  The drill guide holes should help to keep in the right place.
