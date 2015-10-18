@@ -50,7 +50,7 @@ Design a circuit in Fritzing, be sure to set the PCB to be single sided by click
 
 Then File -> Export -> For Production -> Extended Gerber
 
-## FlatCam
+## FlatCam (for generating isolation routing gcode)
 * File -> Open Gerber -> select the xxx_copperBottom.gbl (tracks should appear in green in the view window)
 * Project tab: select the file you just loaded
 * Selected tab: Isolation Routing (check tool dia) -> Click Generate Geometry (fine red isolation lines should surround the green)
@@ -60,8 +60,19 @@ Then File -> Export -> For Production -> Extended Gerber
 * Selected tab: click Export G-Code (you are done in FlatCam)
 * (optional) On the toolbar click "Clear Plot" (3rd icon in). Project tab: select the _iso_cnc item again. Selected tab: click Update Plot.  This should redraw the plot showing the travel moves (light yellow) and cuts (blue) that outline the circuit tracks.  If this doesn't look right, you've done something wrong!  Start again.
 
+## FlatCam (for generating drilling guide holes)
+Rather than changing tool and getting the machine to drill the holes and risking disturbing the mechanical setup, we simply use the cutting tool to mark the centers of the drill holes to act as a guide for manual drilling for now.
+* File -> Open Excellon -> select the xxx_drill.txt (red circles should appear in the view)
+* Project tab: select the file you just loaded.
+* Selected tab: in the tools list, select all rows.  (click in and ctrl-A in Windows)
+* Set Cut Z = -0.3, Travel Z = 4.0
+* Click Generate.
+* Project tab: select the _drill.txt_cnc you just created.
+* Selected tab: click Export G-Code
+
 ## Manual Gcode Fixup
-* Manually edit the gcode, remove the F1.000 command near the start and replace it with G01 F1000 or the machine will move incredibly slowly in Z and just wont work right.
+* Manually edit the gcode, both the isolation routing and the drill files.
+* Remove the F1.000 command near the start and replace it with G01 F1000 (or the machine will move incredibly slowly in Z and just wont work right)
 
 ## CNC GCode Controller
 * Bottom left of window, choose com port (or SIM(ulator)), connect
