@@ -18,6 +18,7 @@ List of events - planned, completed or wanted - most recent/active first.
 | --------------------------------- | ----------- | ----------- | ----------------- | --------------------
 | [[Solar power in Robs shed]]      | Rob         | Show'n'tell | NA                | 28th Oct 2015
 | Javascript, WebGL with a hint of robotics | Damian | Workshop | NA                | 4th Nov 2015
+| [[Meshmixer Workshop]]            | Steve       | Workshop    | No                | 25th Nov 2015
 
 
 ### Wanted or Planning
@@ -26,7 +27,6 @@ List of events - planned, completed or wanted - most recent/active first.
 | --------------------------------- | ----------- | ----------- | ----------------- | ----- |
 | [[Arduino Workshop]]              | Jamie       | Workshop    | Yes - 1 assistant | 1     |
 | [[Laser Cutter (axCut) Workshop]] | Damian      | Workshop    | No                | 8     |
-| [[Meshmixer Workshop]]            | Steve       | Workshop    | No                | 3     |
 | Python Basics                     | Damian/Jess? | Workshop   | No                | 2     |
 | LIPO, LIMNO, LIFEPO4              | Tony        | Show'n'tell | No                | 3     |
 | Building electric bicycle systems | Tony        | Lightning   | No                | 2     |
