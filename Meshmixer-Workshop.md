@@ -7,18 +7,18 @@ This workshop is an introduction to the [Meshmixer](http://www.meshmixer.com/) e
 1. Overview.
 1. Mouse manipulation.
 1. Selection.
-1. Smoothing/Remeshing.
+1. Smoothing/Re-meshing.
 1. Push/Pull.
 1. Sculpting.
 1. Deleting.
 1. Stamping.
 1. Analysis.
 1. Tree Supports for 3D Printing.
-1. Booleans.
+1. Booleans, maybe show Blender which is better.
 
 ## Materials Needed
 
-* Laptop running Windows 32bit/64bit or Mac OS X.
+* Laptop running Windows 32bit/64bit, Mac OS X or Linux Ubuntu (experimental).
 * Mouse.
 * Ideally Meshmixer pre-installed. Download from [here](http://www.meshmixer.com/download.html). We can install on the night though.
 
