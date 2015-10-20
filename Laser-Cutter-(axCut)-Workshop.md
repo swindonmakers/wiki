@@ -1,15 +1,8 @@
 ## Introduction
 
-* **Duration** - 2-3 hrs
-* **Places** - 5 max per session
+* **Duration** - 30 min
 
-Extracurricular session (in Damian's man cave) to walk-through the design of the axCut laser cutter and also to have a go at using it.  
-
-## Attending
-
-* Jamie
-* Rob
-* Steve
+Walk-through the design of the axCut laser cutter, usage and lessons learnt from production operation (on laser cut foam aircraft kits).
 
 ## Outline
 
@@ -20,10 +13,9 @@ Extracurricular session (in Damian's man cave) to walk-through the design of the
 5. Mechanical design (layout, extreme OpenSCAD)
 6. Development process (rapid prototyping, lessons)
 7. Toolchain choices and development
-8. Setting up a job (using the toolchain)
-9. Running a job (live demo)
+8. Setup and run a job (using the toolchain)
+9. Operational lessons learnt
 10. Q&A
-11. Cut some stuff! - at least an hour to cut designs you've brought along
 
 ## References
 
