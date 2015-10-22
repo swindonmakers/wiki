@@ -87,7 +87,7 @@ Rather than changing tool and getting the machine to drill the holes and risking
 * Home Z -  be ready to switch the machine off if it doesn't stop when it hits the board.  Hitting the board and not stopping isn't too much of an issue so long as you stop the machine quickly, it will simply jack the dremel up out of the z-axis.  If this happens, power the machine off, be sure to also disconnect from the Arduino (or reset it) and power everything back on.  Then use CNC GCode Controller to lift Z before doing anything else.  Maybe check the z-endstop is working by pressing home and touching the dremel croc clip onto the PCB board, z should go back up a bit then come down.  Touch again and z should stop.
 
 ### Auto Level tab
-* Define roughly the area you are going to cut in by setting Start and End X & Y, this will make the auto level process much quicker (and more reliable).  You really need to pick a totally clear area.  Any "misses" with the homing will mean you have to start all over again.
+* Define roughly the area you are going to cut in by setting Start and End X & Y, this will make the auto level process much quicker (and more reliable).  You really need to pick a totally clear area.  Any "misses" with the homing will mean you have to start all over again.  Make sure the autolevel area you choose is bigger than what you intend to cut by at least 5mm.  Note that by default it starts at 5,5.  It's probably worth always changing this to 0,0.
 * !!! Ensure Z-endstop croc clip is connect to PCB and to Dremel bit !!!
 * !!! Ensure there is a connection via the copper where you will be levelling to where you have the other end clipped on !!!
 * Click "Start".  Machine should go and z-home at a grid of points.
@@ -98,7 +98,7 @@ Rather than changing tool and getting the machine to drill the holes and risking
 * Click (1) Load File (the .gcode file you exported from FlatCam)
 * The file will probably load with 2 warnings and 2 errors, ignore them(?)  You should see your isolation routing cut in the grid.
 * In the Preview box, you should have two "depths" -0.2 which are the cuts and 5.0 which are the travels.  View both, check they look sensible.
-* In the Positioning box Tick Z Autolevelling and set X & Y to be the Start X and Start Y you used in the Auto Level step.  (or maybe add 5mm for good luck)
+* In the Positioning box Tick Z Autolevelling and set X & Y to be the Start X and Start Y you used in the Auto Level step.  (maybe add 5mm for good luck)
 * In the Positioning box Tick Mirror X (or mirror Y) if you have any connectors that need to be the right way round.  Remember you are cutting the underside of the board.
 * Click (2) Optimise (may save some time, but generally doesn't for the isolation routing layer)
 * !!! Disconnect the z-endstop croc clip from the dremel, clip it somewhere safe that is not attached to the other croc clip, i.e. not onto the edge of the PCB !!!
@@ -118,4 +118,4 @@ Rather than changing tool and getting the machine to drill the holes and risking
 * Clean up the rough edges around the tracks using some fine (300 grit or finer?) sandpaper until the track edges look tidy.
 * Wash the board in warm water, use an old toothbrush to clean out the cuts.
 * Use a multimeter to check that all the tracks are isolated from the non-connected copper and also from any nearby tracks.  Run a small flat head screw driver around the cuts of any tracks that aren't isolated until they are.
-* Use a small hand drill to drill out the holes for the components.  A 0.8mm drill bit works well for most small legged components; resistors, caps, etc.  Larger components like voltage regulators and pin headers may need 1mm holes drilling.  The drill guide holes should help to keep in the right place.
+* Use a small hand drill to drill out the holes for the components.  A 0.75mm drill bit works well for most small legged components; resistors, caps, etc.  Larger components like voltage regulators and pin headers may need 1mm holes drilling.  The drill guide holes should help to keep in the right place.
