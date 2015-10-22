@@ -49,7 +49,11 @@ AutoLevel/Distance:
 # Using the Software
 
 ## Fritzing (Design)
-Design a circuit in Fritzing, be sure to set the PCB to be single sided by clicking on the grey PCB area and then in the Inspector window setting "layers" to "one layer (single-sided)".  Ensure all your tracks end up on the bottom layer.
+Design a circuit in Fritzing.  When you get to the board layout stage be sure to:
+* Set the PCB to be single sided by clicking on the grey PCB area and then in the Inspector window setting "layers" to "one layer (single-sided)".  
+* Ensure all your tracks end up on the bottom layer.
+* Use the widest track width you can get away with.  You can select all tracks using the routing menu(?) and adjust them all at once.
+* Some components (voltage regulators, header pins, ...) allow you to change the pad size, increase the pad size as much as possible so you have more room for drilling and soldering.
 
 Then File -> Export -> For Production -> Extended Gerber
 
