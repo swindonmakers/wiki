@@ -33,6 +33,8 @@ General Fixings/Fasteners (bulk) | [orbitalfasteners.co.uk](http://www.orbitalfa
 Decent 3D Printer | Varying plastics, for 3dhubs, better resolution? | ? | £1000?
 Laser cutter | Card/plywood things? No vents in the basement! | Just Add Sharks ? | £2000?
 SMT Station | More compact PCBs? | ? | £75?
+Hackspace display banner to use at hacker camps etc | | First impressions ? | ?
+
 
 ### Common Consumables
 
