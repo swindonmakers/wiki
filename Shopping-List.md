@@ -9,6 +9,15 @@ These items are definitely required now and should be bought as soon as possible
 
 Items | Notes / Web Link | Supplier | Price
 :--- | :---------- | :------ | :--------
+Decent soldering iron/station | Decided at pub meet | ? | £75?
+Metric nuts&bolts | Decided at pub meet: M2,3,4,5, hex head, | ? | £35?
+Fancy crimp tool with replaceable jaws | Decided at pub meet | ? | £30
+0.1" headers | Decided at pub meet | ? | ?
+Bench pillar dril | Decided at pub meet: Evaluate Steve's first? | ? | £50?
+45 degree sockets for bench | Decided at pub meet: extension cord variant | ? | £10 ?
+Small metric drill bits | Decided at pub meet: 0.5mm+ | ? | £5
+Dremel to replace Mal's | Decided at pub meet | ? | £35?
+12x 1Kg servos | Decided at pub meet: Large walky bots! | ? | £150?
 Small diameter heatshrink (2.4mm) | Bitsbox or [ebay] (http://www.ebay.co.uk/itm/BLACK-HEAT-SHRINK-TUBE-SLEEVE-2-1-RATIO-HEATSHRINK-TUBES-SLEEVING-WRAP-/141125322534) | | Bitsbox 76p/m +P&P vs Ebay £1.20/m
 Small diameter heatshrink (3.2mm) | Bitsbox or [ebay] (http://www.ebay.co.uk/itm/BLACK-HEAT-SHRINK-TUBE-SLEEVE-2-1-RATIO-HEATSHRINK-TUBES-SLEEVING-WRAP-/141125322534) | | Bitsbox 88p/m +P&P vs Ebay £1.30/m
 Stripboard | todo: amount for LED arrays (Arduino workshop?), and general use.  Possibly slightly cheaper on [Ebay](http://www.ebay.co.uk/itm/Strip-Board-Printed-Circuit-PCB-Vero-Prototyping-Track-Packs-of-5-/261199157440) | [Bitsbox?](http://www.bitsbox.co.uk/index.php?main_page=product_info&cPath=238_244&products_id=1855)
@@ -21,7 +30,9 @@ Items | Notes / Web Link | Supplier | Price
 :--- | :---------- | :------ | :--------
 M3 nuts + bolts | http://stores.ebay.co.uk/Bolt-Base ?
 General Fixings/Fasteners (bulk) | [orbitalfasteners.co.uk](http://www.orbitalfasteners.co.uk/) | Orbital Fasteners | ? [F4]
-
+Decent 3D Printer | Varying plastics, for 3dhubs, better resolution? | ? | £1000?
+Laser cutter | Card/plywood things? No vents in the basement! | Just Add Sharks ? | £2000?
+SMT Station | More compact PCBs? | ? | £75?
 
 ### Common Consumables
 
