@@ -33,6 +33,8 @@ We should probably figure out what else a new space costs, over and above rent/i
 
 We have, as noted in the Hackspace finances thread, a fair bit of money in the kitty. A list of items was discussed and voted on, see items in the "Immediately Required" list on the [[Shopping List]] page. A few of the more expensive/wilder ones were downvoted, and I've added them to the "Wish List / Suggestions" section.
 
+A number of smaller items were asked for such as nodemcus, arduinos and servos. It was decided that since Damian has a pile of these and has been selling them to hackspace folks anyway, he will bring in a box as a "Bonded Shop", essentially these can be used in the space, but if built into a project or taken home, they will need to be paid for.
+
 ## Fundraising/events
 
 Oggcamp is in Liverpool this weekend, but only Jamie wanted to go. EMFCamp is next year, several folks seem to want to go.
