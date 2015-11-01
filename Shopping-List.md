@@ -35,6 +35,8 @@ Decent 3D Printer | Varying plastics, for 3dhubs, better resolution? | ? | £100
 Laser cutter | Card/plywood things? No vents in the basement! | Just Add Sharks ? | £2000?
 SMT Station | More compact PCBs? | ? | £75?
 Hackspace display banner to use at hacker camps etc | | First impressions ? | ?
+Solder cleaning sponge thing | http://www.amazon.co.uk/gp/product/B009IN1P9U?psc=1&redirect=true&ref_=oh_aui_detailpage_o00_s00 | Amazon | £2.20
+Decent solder | http://www.google.com/url?q=http%3A%2F%2Fwww.amazon.co.uk%2FSolder-Cored-Flux-Resin-0-7mm%2Fdp%2FB002L5Y8R8&sa=D&sntz=1&usg=AFQjCNElfbI7s5vCWApoXSi37-Mkjs06SA | Amazon | £6.39
 
 
 ### Common Consumables
