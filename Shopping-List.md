@@ -14,7 +14,7 @@ Metric nuts&bolts | Decided at pub meet: M2,3,4,5, hex head, | ? | £35?
 Fancy crimp tool with replaceable jaws | Decided at pub meet | ? | £30
 0.1" headers | Decided at pub meet | ? | ?
 Bench pillar dril | Decided at pub meet: Evaluate Steve's first? | ? | £50?
-45 degree sockets for bench | Decided at pub meet: extension cord variant | eBay | £6 each bank of 4
+45 degree sockets for bench | Decided at pub meet: extension cord variant | Bought from eBay | £6 each bank of 4
 Small metric drill bits | Decided at pub meet: 0.5mm+ [ebay](http://www.ebay.co.uk/itm/20pc-Precision-Micro-HSS-Twist-Drill-Bit-0-3-1-6mm-to-Archimedes-PCB-Spiral-Push-/131186335876)| ? | £5
 Small drill | To use with above [ebay] (http://www.ebay.co.uk/itm/proops-miniature-mini-hand-drill-0-3-1mm-chuck-hobbiest-dollshouse-modellers-/111572388472) | ? | £4.50
 Dremel to replace Mal's | Decided at pub meet | ? | £35?
