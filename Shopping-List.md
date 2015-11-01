@@ -15,7 +15,8 @@ Fancy crimp tool with replaceable jaws | Decided at pub meet | ? | £30
 0.1" headers | Decided at pub meet | ? | ?
 Bench pillar dril | Decided at pub meet: Evaluate Steve's first? | ? | £50?
 45 degree sockets for bench | Decided at pub meet: extension cord variant | ? | £10 ?
-Small metric drill bits | Decided at pub meet: 0.5mm+ | ? | £5
+Small metric drill bits | Decided at pub meet: 0.5mm+ [ebay](http://www.ebay.co.uk/itm/20pc-Precision-Micro-HSS-Twist-Drill-Bit-0-3-1-6mm-to-Archimedes-PCB-Spiral-Push-/131186335876)| ? | £5
+Small drill | To use with above [ebay] (http://www.ebay.co.uk/itm/proops-miniature-mini-hand-drill-0-3-1mm-chuck-hobbiest-dollshouse-modellers-/111572388472) | ? | £4.50
 Dremel to replace Mal's | Decided at pub meet | ? | £35?
 12x 1Kg servos | Decided at pub meet: Large walky bots! | ? | £150?
 Small diameter heatshrink (2.4mm) | Bitsbox or [ebay] (http://www.ebay.co.uk/itm/BLACK-HEAT-SHRINK-TUBE-SLEEVE-2-1-RATIO-HEATSHRINK-TUBES-SLEEVING-WRAP-/141125322534) | | Bitsbox 76p/m +P&P vs Ebay £1.20/m
