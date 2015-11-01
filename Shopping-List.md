@@ -9,7 +9,7 @@ These items are definitely required now and should be bought as soon as possible
 
 Items | Notes / Web Link | Supplier | Price
 :--- | :---------- | :------ | :--------
-Decent soldering iron/station | Decided at pub meet | ? | £75?
+Decent soldering iron/station | Decided at pub meet [Maplin £40](http://www.maplin.co.uk/p/60w-mains-lcd-solder-station-a55kj)| ? | £75?
 Metric nuts&bolts | Decided at pub meet: M2,3,4,5, hex head, | ? | £35?
 Fancy crimp tool with replaceable jaws | Decided at pub meet | ? | £30
 0.1" headers | Decided at pub meet | ? | ?
