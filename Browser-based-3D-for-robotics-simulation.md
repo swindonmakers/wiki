@@ -2,6 +2,8 @@
 
 This workshop is intended to be a short series, introducing browser-based 3D, covering Javascript, WebGL and in particular, using it to explain/visualise/simulate the kinematics of walking robots (with ref to the Quadruloop project).
 
+[Click here for related Google Groups thread](https://github.com/snhack/snhack.github.io/wiki/Browser-based-3D-for-robotics-simulation)
+
 ## Part 1 - Baby Steps
 
 1. Introduction to modern 3D Graphics
