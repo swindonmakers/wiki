@@ -27,4 +27,5 @@ This workshop is an introduction to the [Meshmixer](http://www.meshmixer.com/) e
 * [Meshmixer Download](http://www.meshmixer.com/download.html)
 * [Meshmixer Video Tutorial](http://youtu.be/aFTyTV3wwsE?list=UU0OsvzcGE6iqSP8lW3-M9Dg)
 * [Meshmixer Manual](http://www.meshmixer.com/help/manual/MeshmixerManual.pdf)
+* [About Meshmixer Pivots](http://meshmixer.com/forum/index.php?action=dlattach;topic=2195.0;attach=1195)
 * [Meshmixer Gallery](http://www.meshmixer.com/gallery.html)
