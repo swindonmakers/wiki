@@ -17,7 +17,7 @@ List of events - planned, completed or wanted - most recent/active first.
 | Event Title                       | Organiser   | Format      | Supported By      | Date(s)
 | --------------------------------- | ----------- | ----------- | ----------------- | --------------------
 | [[Meshmixer Workshop]]            | Steve       | Workshop    | No                | 18th Nov 2015
-| [[Browser-based 3D for robotics simulation]] part 2 | Damian | Workshop | NA      | 9th Dec 2015
+| [[Browser-based 3D for robotics simulation]] part 2 | Damian | Workshop | NA      | 20th Jan 2016
 
 
 ### Wanted or Planning
