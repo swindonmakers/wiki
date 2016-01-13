@@ -77,10 +77,6 @@ Rather than changing tool and getting the machine to drill the holes and risking
 * Project tab: select the _drill.txt_cnc you just created.
 * Selected tab: click Export G-Code
 
-## Manual Gcode Fixup
-* Manually edit the gcode, both the isolation routing and the drill files.
-* Remove the F1.000 command near the start and replace it with G01 F1000 (or the machine will move incredibly slowly in Z and just wont work right)
-
 ## CNC GCode Controller
 * Bottom left of window, choose com port (or SIM(ulator)), connect
 
@@ -104,7 +100,8 @@ Rather than changing tool and getting the machine to drill the holes and risking
 * In the Preview box, you should have two "depths" -0.2 which are the cuts and 5.0 which are the travels.  View both, check they look sensible.
 * In the Positioning box Tick Z Autolevelling and set X & Y to be the Start X and Start Y you used in the Auto Level step.  (maybe add 5mm for good luck)
 * In the Positioning box Tick Mirror X (or mirror Y) if you have any connectors that need to be the right way round.  Remember you are cutting the underside of the board.
-* Click (2) Optimise (may save some time, but generally doesn't for the isolation routing layer)
+* Click (2) Optimise (will save some time in the drilling, but generally doesn't for the isolation routing layer)
+* Replace the F1.000 command near the start with G01 F1000 (or the machine will move incredibly slowly in Z and just wont work right)  To do this, right click on the command in the list and select "Edit"
 * !!! Disconnect the z-endstop croc clip from the dremel, clip it somewhere safe that is not attached to the other croc clip, i.e. not onto the edge of the PCB !!!
 * Disconnect the other end of the z-endstop from the PCB and clip it somewhere out of the way.  This should stop false z-endstop triggers while cutting.  (Don't clip it onto the other croc clip.)
 * Plug in the Dremel and power it up.  Give it 30s to get up to speed.
