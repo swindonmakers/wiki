@@ -19,10 +19,11 @@ List of things people are willing to donate or relocate to a new space, i.e. one
 
 **Relocations** (i.e. located at the Space, ownership retained by member)
 * Wood lathe - Damian
-* Mitre saw - Steve
-* Mig Welder - Steve
-* Arc Welder - Steve
-* Angle Grinder - Steve
+* Mitre saw - Steve (Subject to new location)
+* Mig Welder - Steve (Subject to new location)
+* Arc Welder - Steve (Subject to new location)
+* Angle Grinder - Steve (Subject to new location)
+* Bench Pillar Drill - Steve (Subject to new location)
 * Bench metal lathe - Damian (already at the Museum)
 
 
