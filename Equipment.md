@@ -15,6 +15,7 @@ List of things people are willing to donate or relocate to a new space, i.e. one
 **Donations** (i.e. given to the space, ownership transferred to the CIC)
 * Mitre saw - James
 * Scroll saw - Bob
+* Shapeoko 1 - Steve
 
 **Relocations** (i.e. located at the Space, ownership retained by member)
 * Wood lathe - Damian
