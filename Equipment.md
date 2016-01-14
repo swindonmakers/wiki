@@ -7,3 +7,19 @@ The hackspace has a growing collection of equipment - some items even have their
 - [[Pen Plotter]] (in progress)
 
   Plotter intended to be repurposed to apply etch resist for making circuit boards.
+
+
+# Pledges of Kit for new Space
+List of things people are willing to donate or relocate to a new space, i.e. one that has room and 24x7 access.
+
+**Donations** (i.e. given to the space, ownership transferred to the CIC)
+* Mitre saw - James
+* Mitre saw - Steve
+* Scroll saw - Bob
+
+**Relocations** (i.e. located at the Space, ownership retained by member)
+* Wood lathe - Damian
+* Bench metal lathe - Damian (already at the Museum)
+
+
+
