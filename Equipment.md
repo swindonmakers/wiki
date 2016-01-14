@@ -24,6 +24,7 @@ List of things people are willing to donate or relocate to a new space, i.e. one
 * Arc Welder - Steve (Subject to new location)
 * Angle Grinder - Steve (Subject to new location)
 * Bench Pillar Drill - Steve (Subject to new location)
+* Metal Vice - Steve (Subject to new location)
 * Bench metal lathe - Damian (already at the Museum)
 
 
