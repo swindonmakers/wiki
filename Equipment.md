@@ -14,11 +14,11 @@ List of things people are willing to donate or relocate to a new space, i.e. one
 
 **Donations** (i.e. given to the space, ownership transferred to the CIC)
 * Mitre saw - James
-* Mitre saw - Steve
 * Scroll saw - Bob
 
 **Relocations** (i.e. located at the Space, ownership retained by member)
 * Wood lathe - Damian
+* Mitre saw - Steve
 * Bench metal lathe - Damian (already at the Museum)
 
 
