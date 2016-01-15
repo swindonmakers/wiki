@@ -2,6 +2,9 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
 #### Projects (most recent first)
 
+- [[Ball Contraption]]
+  An evolving group project to build out a Rube Goldberg / GBC style ball-bearing churning machine
+
 - [[Cyclone PCB Milling Machine]]
 
   A reprap based machine for milling PCB circuit boards
