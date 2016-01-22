@@ -9,24 +9,25 @@ The hackspace has a growing collection of equipment - some items even have their
   Plotter intended to be repurposed to apply etch resist for making circuit boards.
 
 
-# Pledges of Kit for new Space
+## Pledges of Kit for new Space
 List of things people are willing to donate or relocate to a new space, i.e. one that has room and 24x7 access.
 
-**Donations** (i.e. given to the space, ownership transferred to the CIC)
+### Donations 
+(i.e. given to the space, ownership transferred to the CIC)
 
-### Tools / Machines
+#### Tools / Machines
 
 * Mitre saw - James
 * Scroll saw - Bob
 * Shapeoko 1 - Steve
 
-### Infrastructure / Facilities
+#### Infrastructure / Facilities
 
 * Netgear 8 port gigabit switch & BT homehub 3 - Rob
 * Fridge and/or Freezer - Rob (maybe, if I get round to buying a new fridgefreezer)
 * Desktop PC (3 yrs old) - Damian
 
-### Wish List
+#### Wish List
 
 * Cash register or lockbox
 * Hoover / vacuum (ideally one that can handle workshop crud)
@@ -36,9 +37,9 @@ List of things people are willing to donate or relocate to a new space, i.e. one
 * Cutlery and crockery
 
 
-**Relocations** (i.e. located at the Space, ownership retained by member)
+### Relocations (i.e. located at the Space, ownership retained by member)
 
-### Tools / Machines
+#### Tools / Machines
 
 * Wood lathe - Damian
 * Mitre saw - Steve (Subject to new location)
