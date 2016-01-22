@@ -16,6 +16,8 @@ List of things people are willing to donate or relocate to a new space, i.e. one
 * Mitre saw - James
 * Scroll saw - Bob
 * Shapeoko 1 - Steve
+* Netgear 8 port gigabit switch & BT homehub 3 - Rob
+* Fridge and/or Freezer - Rob (maybe, if I get round to buying a new fridgefreezer)
 
 **Relocations** (i.e. located at the Space, ownership retained by member)
 * Wood lathe - Damian
