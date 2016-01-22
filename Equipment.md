@@ -37,7 +37,8 @@ List of things people are willing to donate or relocate to a new space, i.e. one
 * Cutlery and crockery
 
 
-### Relocations (i.e. located at the Space, ownership retained by member)
+### Relocations 
+(i.e. located at the Space, ownership retained by member)
 
 #### Tools / Machines
 
