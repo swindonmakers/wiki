@@ -16,8 +16,7 @@ List of events - planned, completed or wanted - most recent/active first.
 
 | Event Title                       | Organiser   | Format      | Supported By      | Date(s)
 | --------------------------------- | ----------- | ----------- | ----------------- | --------------------
-| [[Meshmixer Workshop]]            | Steve       | Workshop    | No                | 18th Nov 2015
-| [[Browser-based 3D for robotics simulation]] part 2 | Damian | Workshop | NA      | 27th Jan 2016
+| [[Browser-based 3D for robotics simulation]] part 2 | Damian | Workshop | NA      | 17th Feb 2016
 
 
 ### Wanted or Planning
@@ -56,6 +55,7 @@ List of events - planned, completed or wanted - most recent/active first.
 
 | Event Title                       | Organiser   | Format      | Supported By      | Date(s)
 | --------------------------------- | ----------- | ----------- | ----------------- | --------------------
+| [[Meshmixer Workshop]]            | Steve       | Workshop    | No                | 18th Nov 2015
 | [[Solar power in Robs shed]]      | Rob         | Show'n'tell | NA                | 28th Oct 2015
 | [[OpenSCAD Training]]             | Damian      | Workshop    | N/A               | *4wks from 15/10/14*
 | [[Make:Shift:Do OpenDay 2014]]    | Jess        | Workshop    | Rob               | 22nd Nov 2014
