@@ -4,7 +4,7 @@ Rough calendar of exhibitions, events, etc that we're planning to exhibit at or 
 ## 2016
 
 ### March
-* Modrail model railway exhibition at STEAM, 12th March - [](http://www.steam-museum.org.uk/events/Pages/modrail.aspx)
+* Modrail model railway exhibition at STEAM, 12th March - [http://www.steam-museum.org.uk/events/Pages/modrail.aspx](http://www.steam-museum.org.uk/events/Pages/modrail.aspx)
 
 ### April
 * Edinburgh Mini Maker Faire, April 10th - [http://makerfaireedinburgh.com/](http://makerfaireedinburgh.com/)
