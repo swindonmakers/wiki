@@ -11,6 +11,7 @@
 [[Hackspace Management]]
 
 ###### [[Hackspace Events]]
+[[Exhibitions and Field Trips]]
 [[OpenSCAD Training]]  
 [[Arduino Workshop]]
 
