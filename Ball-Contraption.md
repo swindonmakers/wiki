@@ -21,9 +21,7 @@ An evolving group project to build out a modular Rube Goldberg / GBC style ball-
 * Power sources should be kept to a minimum and be shared/standardised (e.g. all modules can work from a common power bus - 12V?)
 
 ## Specification
-We need a simple, clear specification to allow modules to be interchanged/reconfigured.  Interoperability with other ball-contraption standards would be nice.  Support for vertical arrangements/stacking (i.e. on shelves) would also be fun, and help pack more into table-top displays.   
-
-The following spec is heavily inspired by the [GBC standard](http://www.teamhassenplug.org/GBC/):
+We need a simple, clear specification to allow modules to be interchanged/reconfigured.  Interoperability with other ball-contraption standards would be nice.  Support for vertical arrangements/stacking (i.e. on shelves) would also be fun, and help pack more into table-top displays:
 
 * Modules are intended to be chained together on one or more levels (e.g. on shelves)
 * Each module should have two input baskets and one or two output chutes.  
@@ -42,5 +40,9 @@ The following spec is heavily inspired by the [GBC standard](http://www.teamhass
 * Any modules that rely on metal balls (e.g. magnetism based) should fail gracefully if non magnetic balls (e.g. marbles) are used - i.e. just pass the balls straight to the next module
 * Ball weight may vary considerably (e.g. between metal/glass), so modules should be tolerant to weight changes (e.g. by rejecting balls that do not have an appropriate weight)
 
-Buying balls - we got our first batch [on ebay](http://www.ebay.co.uk/itm/Catapult-Slingshot-Ammo-Steel-Balls-Choose-Size-From-2mm-to-16mm-FREE-POST-/161126780433?var=460220302041), £15 for 100
+## References
+
+* The [GBC standard](http://www.teamhassenplug.org/GBC/)
+* [thickl33t A-Maze-Balls standard](http://thinkl33t.co.uk/a-maze-balls-a-collaborative-makerfaire-project/)
+* Buying balls - we got our first batch [on ebay](http://www.ebay.co.uk/itm/Catapult-Slingshot-Ammo-Steel-Balls-Choose-Size-From-2mm-to-16mm-FREE-POST-/161126780433?var=460220302041), £15 for 100
 
