@@ -19,9 +19,10 @@ An evolving group project to build out a modular Rube Goldberg / GBC style ball-
 * Aesthetics are not important (albeit pretty things are always good)
 * Needs to be transportable (in bits)
 * Power sources should be kept to a minimum and be shared/standardised (i.e. so all modules can work from a common power bus)
+* Support for vertical arrangements/stacking (i.e. on shelves) for interest and to help pack more into table-top displays
+* Interoperability with other ball-contraption standards would be nice
 
 ## Specification
-We need a simple, clear specification to allow modules to be interchanged/reconfigured.  Interoperability with other ball-contraption standards would be nice.  Support for vertical arrangements/stacking (i.e. on shelves) would also be fun, and help pack more into table-top displays:
 
 * Modules are intended to be chained together on one or more levels (e.g. on shelves)
 * Each module should have two input baskets and one or two output chutes.  
