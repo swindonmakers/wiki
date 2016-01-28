@@ -45,9 +45,13 @@ An evolving group project to build out a modular Rube Goldberg / GBC style ball-
 * Contraptions should be supplied with two power rails, 12v and 5v (e.g. from a single ATX supply)
 * Modules that need power should have terminal block connections for 12v, 5v and Ground.
 
+## Prototype
+
+See progress on associated Group:
+[https://groups.google.com/forum/#!topic/swindon-hackspace/tyj6q6KdNs0](https://groups.google.com/forum/#!topic/swindon-hackspace/tyj6q6KdNs0)
+
 ## References
 
 * The [GBC standard](http://www.teamhassenplug.org/GBC/)
 * [thickl33t A-Maze-Balls standard](http://thinkl33t.co.uk/a-maze-balls-a-collaborative-makerfaire-project/)
 * Buying balls - we got our first batch [on ebay](http://www.ebay.co.uk/itm/Catapult-Slingshot-Ammo-Steel-Balls-Choose-Size-From-2mm-to-16mm-FREE-POST-/161126780433?var=460220302041), £15 for 100
-
