@@ -25,16 +25,22 @@ We need a simple, clear specification to allow modules to be interchanged/reconf
 
 The following spec is heavily inspired by the [GBC standard](http://www.teamhassenplug.org/GBC/):
 
-* Modules are intended to be chained together on one, or more, levels (e.g. on shelves)
-* Each module should have two input areas (basket) and one, or more, output chutes.  
+* Modules are intended to be chained together on one or more levels (e.g. on shelves)
+* Each module should have two input baskets and one or two output chutes.  
 * IN baskets should be on two adjacent sides of a rectangular base, OUT chutes on the remaining sides.  This permits horizontal and vertical arrangements.
-* The short side of the rectangle should be 200mm, the long side should be a multiple of 200mm.  Thus the entire contraption is laid out on a 200mm grid.
+* At least one OUT should be opposite an IN (to allow simple linear configurations)
+* Modules may contain a manual divert mechanism to allow OUTPUTS to be selectively enabled
+* The short side of the rectangle should be 200mm, the long side should be a multiple of 200mm.  Thus the entire contraption is laid out on a 200mm grid.  
+* Vertical height is not critical, but ideally most modules will be no more than 250mm high to suit 300mm shelf spacing.
 * The IN basket should have an opening of at least 60mm x 60mm, 80mm above the supporting surface (table, shelf)
-* IN and OUT feeds should be 
+* IN and OUT feeds should be centred on edges of the grid (e.g. 100mm from a grid intersection)
 * Most modules will be a single rigid unit, that operates on a single level, moving balls from input to output
-* Specialist modules may place input and output areas on different levels (e.g. to raise balls between shelves) - it will help if these modules can accommodate variable shelf spacing!
+* Drop chutes can be used to move balls down through a stack of modules
+* Tall lift modules can be used to raise balls up through a stack of modules
 * Each module should be able to accept balls at an average rate of 1 ball per second.  Balls can be passed continuously, or in a batch.  A batch should not exceed 30 balls.
-* Balls should be 16mm (nominal, assume +-1mm tolerance) and either metal or glass (aiming for metal) 
+* Balls should be 16mm (nominal, assume +-1mm tolerance) and either metal or glass 
+* Any modules that rely on metal balls (e.g. magnetism based) should fail gracefully if non magnetic balls (e.g. marbles) are used - i.e. just pass the balls straight to the next module
+* Ball weight may vary considerably (e.g. between metal/glass), so modules should be tolerant to weight changes (e.g. by rejecting balls that do not have an appropriate weight)
 
 Buying balls - we got our first batch [on ebay](http://www.ebay.co.uk/itm/Catapult-Slingshot-Ammo-Steel-Balls-Choose-Size-From-2mm-to-16mm-FREE-POST-/161126780433?var=460220302041), £15 for 100
 
