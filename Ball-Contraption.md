@@ -27,7 +27,6 @@ An evolving group project to build out a modular Rube Goldberg / GBC style ball-
 * Modules are intended to be chained together on one or more levels (e.g. on shelves)
 * Each module should have two input baskets and one or two output chutes.  
 * IN baskets should be on two adjacent sides of a rectangular base, OUT chutes on the remaining sides.  This permits horizontal and vertical arrangements.
-* At least one OUT should be opposite an IN (to allow simple linear configurations)
 * Modules may contain a manual divert mechanism to allow OUTPUTS to be selectively enabled
 * The short side of the rectangle should be 200mm, the long side should be a multiple of 200mm.  Thus the entire contraption is laid out on a 200mm grid.  
 * Vertical height is not critical, but ideally most modules will be no more than 250mm high to suit 300mm shelf spacing.
