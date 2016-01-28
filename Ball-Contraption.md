@@ -42,7 +42,8 @@ An evolving group project to build out a modular Rube Goldberg / GBC style ball-
 * Balls should be 16mm (nominal, assume +-1mm tolerance) and either metal or glass 
 * Any modules that rely on metal balls (e.g. magnetism based) should fail gracefully if non magnetic balls (e.g. marbles) are used - i.e. just pass the balls straight to the next module
 * Ball weight may vary considerably (e.g. between metal/glass), so modules should be tolerant to weight changes (e.g. by rejecting balls that do not have an appropriate weight)
-* Powered modules should accept a regulated 12v input - to allow for a common power bus.  Should we specify a connector type?  terminal blocks?  banana plugs?  
+* Contraptions should be supplied with two power rails, 12v and 5v (e.g. from a single ATX supply)
+* Modules that need power should have terminal block connections for 12v, 5v and Ground.
 
 ## References
 
