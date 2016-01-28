@@ -18,7 +18,7 @@ An evolving group project to build out a modular Rube Goldberg / GBC style ball-
 * Bonkers is good, the crazier the better
 * Aesthetics are not important (albeit pretty things are always good)
 * Needs to be transportable (in bits)
-* Power sources should be kept to a minimum and be shared/standardised (e.g. all modules can work from a common power bus - 12V?)
+* Power sources should be kept to a minimum and be shared/standardised (i.e. so all modules can work from a common power bus)
 
 ## Specification
 We need a simple, clear specification to allow modules to be interchanged/reconfigured.  Interoperability with other ball-contraption standards would be nice.  Support for vertical arrangements/stacking (i.e. on shelves) would also be fun, and help pack more into table-top displays:
@@ -39,6 +39,7 @@ We need a simple, clear specification to allow modules to be interchanged/reconf
 * Balls should be 16mm (nominal, assume +-1mm tolerance) and either metal or glass 
 * Any modules that rely on metal balls (e.g. magnetism based) should fail gracefully if non magnetic balls (e.g. marbles) are used - i.e. just pass the balls straight to the next module
 * Ball weight may vary considerably (e.g. between metal/glass), so modules should be tolerant to weight changes (e.g. by rejecting balls that do not have an appropriate weight)
+* Powered modules should accept a regulated 12v input - to allow for a common power bus.  Should we specify a connector type?  terminal blocks?  banana plugs?  
 
 ## References
 
