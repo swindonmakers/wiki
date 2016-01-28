@@ -29,5 +29,5 @@ We need a simple, clear specification to allow modules to be interchanged/reconf
 * Each module should be able to accept balls at an average rate of 1 ball per second.  Balls can be passed continuously, or in a batch.  A batch should not exceed 30 balls.
 * Balls should be 16mm (nominal, assume +-1mm tolerance) and either metal or glass (aiming for metal) 
 
-Buying balls - we got our first batch here:  [http://www.ebay.co.uk/itm/Catapult-Slingshot-Ammo-Steel-Balls-Choose-Size-From-2mm-to-16mm-FREE-POST-/161126780433?var=460220302041]()
+Buying balls - we got our first batch [on ebay](http://www.ebay.co.uk/itm/Catapult-Slingshot-Ammo-Steel-Balls-Choose-Size-From-2mm-to-16mm-FREE-POST-/161126780433?var=460220302041), £15 for 100
 
