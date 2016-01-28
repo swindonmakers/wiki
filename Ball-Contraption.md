@@ -11,6 +11,8 @@ An evolving group project to build out a modular Rube Goldberg / GBC style ball-
 * Different fabrication techniques (old-school woodwork and brass; 3D printed; laser-cut; cardboard and hot-glue)
 * Different mechanisms - both mechanical and digital, even fancy control stuff (think magnetic levitation)
 * Interactivity - either mechanical (levers) or electronic (wifi, twitter)
+  * Dr Nim game
+  * Pin-ball table
 
 ## Principles
 * Bonkers is good, the crazier the better
@@ -19,11 +21,16 @@ An evolving group project to build out a modular Rube Goldberg / GBC style ball-
 * Power sources should be kept to a minimum and be shared/standardised (e.g. all modules can work from a common power bus - 12V?)
 
 ## Specification
-We need a simple, clear specification to allow modules to be interchanged/reconfigured.  The following is heavily inspired by the [GBC standard](http://www.teamhassenplug.org/GBC/):
+We need a simple, clear specification to allow modules to be interchanged/reconfigured.  Interoperability with other ball-contraption standards would be nice.  Support for vertical arrangements/stacking (i.e. on shelves) would also be fun, and help pack more into table-top displays.   
+
+The following spec is heavily inspired by the [GBC standard](http://www.teamhassenplug.org/GBC/):
 
 * Modules are intended to be chained together on one, or more, levels (e.g. on shelves)
-* Each module should have one input area/basket and one, or more, output areas - ideally in a direct line or turning a 90 degree corner
-* The IN basket should have an opening of at least 64mm x 64mm, 80mm above the supporting surface (table, shelf)
+* Each module should have two input areas (basket) and one, or more, output chutes.  
+* IN baskets should be on two adjacent sides of a rectangular base, OUT chutes on the remaining sides.  This permits horizontal and vertical arrangements.
+* The short side of the rectangle should be 200mm, the long side should be a multiple of 200mm.  Thus the entire contraption is laid out on a 200mm grid.
+* The IN basket should have an opening of at least 60mm x 60mm, 80mm above the supporting surface (table, shelf)
+* IN and OUT feeds should be 
 * Most modules will be a single rigid unit, that operates on a single level, moving balls from input to output
 * Specialist modules may place input and output areas on different levels (e.g. to raise balls between shelves) - it will help if these modules can accommodate variable shelf spacing!
 * Each module should be able to accept balls at an average rate of 1 ball per second.  Balls can be passed continuously, or in a batch.  A batch should not exceed 30 balls.
