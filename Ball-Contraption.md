@@ -24,17 +24,20 @@ An evolving group project to build out a modular Rube Goldberg / GBC style ball-
 
 ## Specification
 
-* Modules are intended to be chained together on one or more levels (e.g. on shelves)
-* Each module should have two input baskets and one or two output chutes.  
-* IN baskets should be on two adjacent sides of a rectangular base, OUT chutes on the remaining sides.  This permits horizontal and vertical arrangements.
+* Modules should be cuboid, and fit within a fixed 200mm grid.  Each side should be an even multiple of 200mm.
+* Modules are intended to be chained together side to side and/or stacked
+* Modules should have an input on one side with an output on the opposite side.  Plus an additional input one of the other sides to allow balls to enter from above. This permits horizontal and vertical arrangements.
+* Modules may optionally have a second output on the remaining edge.
 * Modules may contain a manual divert mechanism to allow OUTPUTS to be selectively enabled
-* The short side of the rectangle should be 200mm, the long side should be a multiple of 200mm.  Thus the entire contraption is laid out on a 200mm grid.  
-* Vertical height is not critical, but ideally most modules will be no more than 250mm high to suit 300mm shelf spacing.
-* The IN basket should have an opening of at least 60mm x 60mm, 80mm above the supporting surface (table, shelf)
+* The IN basket should have an opening of at least 60mm x 60mm, 80mm above the supporting surface (e.g. table)
 * IN and OUT feeds should be centred on edges of the grid (e.g. 100mm from a grid intersection)
 * Most modules will be a single rigid unit, that operates on a single level, moving balls from input to output
 * Drop chutes can be used to move balls down through a stack of modules
 * Tall lift modules can be used to raise balls up through a stack of modules
+* Modules should be stackable, either by having an integral frame or by leaving room for supporting posts in each corner:
+  * Modules interlock vertically using 6mm dowels, set 10mm in from each corner
+  * Supporting posts are 20mm x 20mm, appropriate room should be left in the corners of each module for these
+  * All modules must have a solid base plate, with appropriate holes to receive dowels
 * Each module should be able to accept balls at an average rate of 1 ball per second.  Balls can be passed continuously, or in a batch.  A batch should not exceed 30 balls.
 * Balls should be 16mm (nominal, assume +-1mm tolerance) and either metal or glass 
 * Any modules that rely on metal balls (e.g. magnetism based) should fail gracefully if non magnetic balls (e.g. marbles) are used - i.e. just pass the balls straight to the next module
