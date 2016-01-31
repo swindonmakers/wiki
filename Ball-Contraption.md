@@ -29,8 +29,8 @@ An evolving group project to build out a modular Rube Goldberg / GBC style ball-
 * Modules should have an input on one side with an output on the opposite side.  Plus an additional input on one of the other sides to allow balls to enter from above. This permits horizontal and vertical arrangements.
 * Modules may optionally have a second output on the remaining edge.
 * Modules may contain a manual divert mechanism to allow OUTPUTS to be selectively enabled
-* The IN basket should have an opening of at least 60mm x 60mm, 80mm above the supporting surface (e.g. table)
-* The OUT chute should be higher than 80mm above the supporting surface.
+* The IN basket should have an opening of at least 50mm x 50mm, 40mm above the supporting surface (e.g. table)
+* The OUT chute should be higher than 40mm above the supporting surface.
 * IN and OUT feeds should be centred on edges of the grid (e.g. 100mm from a grid intersection)
 * Most modules will be a single rigid unit, that operates on a single level, moving balls from input to output
 * Drop chutes can be used to move balls down through a stack of modules
