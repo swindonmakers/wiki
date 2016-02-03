@@ -42,13 +42,10 @@ please let us know via the [group] or on twitter [@snhack].
 The Swindon Hackspace meets weekly at the [Museum of Computing], located near the Wyvern
 Theatre ([view map]) and next to the Regent Circus bus stops[^busstops] (northbound).
 
-Sessions start at 6.30pm each Wednesday and run until 10pm-11pm. Visitors are strongly
-encouraged to bring along works in progress, new and interesting hardware, or any other
-projects or shiny gadgets. There is a doorbell to ring later in the evening when nobody
-is on the reception desk.
-
-Session price is £4 and paid on admission. Membership is paid annually in advance
-and costs £10 (waived until third visit for new members, due each July thereafter).
+Sessions start at 6.30pm each Wednesday and run until 10pm-11pm. Session price is £6 and
+paid on admission. Visitors are strongly encouraged to bring along works in progress, new
+and interesting hardware, or any other projects or shiny gadgets. There is a doorbell to
+ring later in the evening when nobody is on the reception desk.
 
 Limited free parking can normally be found on [Euclid Street], while the [Wyvern Car Park]
 costs £1.00 for upto two hours, or £2 all night (both after 6pm).
