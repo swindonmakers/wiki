@@ -48,6 +48,15 @@ An evolving group project to build out a modular Rube Goldberg / GBC style ball-
 * Contraptions can be supplied with up to three power rails: 12v, 5v and 3.3v (i.e. from an ATX supply)
 * Modules that need power should have terminal block connections for relevant power rails
 
+Here's a simple visualisation of a single module, showing the IN basket (grey), optional secondary IN basket (transparent grey), out chute (red arrow) and optional support posts:
+
+![Single module](https://lh3.googleusercontent.com/-kBw0UkKBKq8/VryeBvnunUI/AAAAAAAAAuc/YcbACCmze74/s1600/view2.png)
+
+The next visualisation shows a more complex arrangement, to illustrate the kind of thing we'd actually like to end up with :)
+
+![Complex arrangement](https://lh3.googleusercontent.com/-kckSA-Lta84/VryeEYn6Z2I/AAAAAAAAAug/8rCsmTZHifw/s1600/view1.png)
+
+
 ## Prototype
 
 See progress on associated Group:
