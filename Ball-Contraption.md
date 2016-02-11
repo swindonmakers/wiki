@@ -21,16 +21,18 @@ An evolving group project to build out a modular Rube Goldberg / GBC style ball-
 * Power sources should be kept to a minimum and be shared/standardised (i.e. so all modules can work from a common power bus)
 * Support for vertical arrangements/stacking (i.e. on shelves) for interest and to help pack more into table-top displays
 * Interoperability with other ball-contraption standards would be nice
+* Support **gravity** only modules
 
 ## Specification
 
-* Modules should be cuboid, and fit within a fixed 200mm grid.  Each side should be an even multiple of 200mm.
+* Modules should be cuboid, and fit within a fixed 200mm grid.  Each side should be an integer multiple of 200mm (e.g. 400mm, 600mm, 800mm).  Cubes within the grid shall be referred to as Boxels.
 * Modules are intended to be chained together side to side and/or stacked
 * Modules should have an input on one side with an output on the opposite side.  Plus an additional input on one of the other sides to allow balls to enter from above. This permits horizontal and vertical arrangements.
 * Modules may optionally have a second output on the remaining edge.
 * Modules may contain a manual divert mechanism to allow OUTPUTS to be selectively enabled
-* The IN basket should have an opening of at least 50mm x 50mm, 40mm above the supporting surface (e.g. table)
-* The OUT chute should be higher than 40mm above the supporting surface.
+* The IN basket should have an opening of at least 50mm x 50mm, 40mm above a grid datum (e.g. table surface, 200mm high, 400mm high, etc)
+* The OUT chute should be higher than 40mm above a grid datum
+* Gravity driven modules will need to be at least 2 boxels high, such that the IN basket is in the upper boxel and the OUT cute is in the lower boxel
 * IN and OUT feeds should be centred on edges of the grid (e.g. 100mm from a grid intersection)
 * Most modules will be a single rigid unit, that operates on a single level, moving balls from input to output
 * Drop chutes can be used to move balls down through a stack of modules
@@ -43,8 +45,8 @@ An evolving group project to build out a modular Rube Goldberg / GBC style ball-
 * Balls should be 16mm (nominal, assume +-1mm tolerance) and either metal or glass 
 * Any modules that rely on metal balls (e.g. magnetism based) should fail gracefully if non magnetic balls (e.g. marbles) are used - i.e. just pass the balls straight to the next module
 * Ball weight may vary considerably (e.g. between metal/glass), so modules should be tolerant to weight changes (e.g. by rejecting balls that do not have an appropriate weight)
-* Contraptions should be supplied with two power rails, 12v and 5v (e.g. from a single ATX supply)
-* Modules that need power should have terminal block connections for 12v, 5v and Ground.
+* Contraptions can be supplied with up to three power rails: 12v, 5v and 3.3v (i.e. from an ATX supply)
+* Modules that need power should have terminal block connections for relevant power rails
 
 ## Prototype
 
