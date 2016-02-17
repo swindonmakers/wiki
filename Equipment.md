@@ -51,5 +51,9 @@ List of things people are willing to donate or relocate to a new space, i.e. one
 * Metal Vice - Steve (Subject to new location)
 * Bench metal lathe - Damian (already at the Museum)
 
+### Radio Gear
 
+* Transceiver(s) - Steve N (Subject to new location + SDARC interest)
+* Antenna(s) & Rotator - Steve N (Subject to new location + SDARC interest)
+* RF Test Gear - Steve N (Subject to new location + SDARC interest)
 
