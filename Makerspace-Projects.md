@@ -1,4 +1,4 @@
-Collection of ongoing projects and their notes.  If a project isn't listed here, it may have its own repository at [github.com/snhack](https://github.com/snhack/).
+Collection of ongoing projects and their notes.  If a project isn't listed here, it may have its own repository at [github.com/swindonmakers](https://github.com/swindonmakers/).
 
 #### Projects (most recent first)
 
