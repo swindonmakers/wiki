@@ -1,6 +1,6 @@
 List of events - planned, completed or wanted - most recent/active first.  
 
-[Link to associated Google Calendar](https://www.google.com/calendar/embed?src=axford.me.uk_1k8r0721ckgjv5p51u97gued1c%40group.calendar.google.com&ctz=Europe/London)
+[Link to Events Calendar](http://www.swindon-makerspace.org/calendar)
 
 [Link to associated Google Group](https://groups.google.com/forum/#!topic/swindon-hackspace/QHFl8R4k1AU)
 
@@ -16,7 +16,7 @@ List of events - planned, completed or wanted - most recent/active first.
 
 | Event Title                       | Organiser   | Format      | Supported By      | Date(s)
 | --------------------------------- | ----------- | ----------- | ----------------- | --------------------
-| [[Browser-based 3D for robotics simulation]] part 2 | Damian | Workshop | NA      | 17th Feb 2016
+| [[Browser-based 3D for robotics simulation]] part 2 | Damian | Workshop | NA      | TBC
 
 
 ### Wanted or Planning
