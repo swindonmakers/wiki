@@ -1,0 +1,44 @@
+For the moment, this is a fairly quick-and-dirty inventory of tools at the space.  In theory, it should list everything that has a dust extraction port and was out (IE not in a box on the big shelves) as of 2016-04-02.
+
+* Planer/Thicknesser
+** Titan TTB579PLN
+*** [http://www.screwfix.com/p/titan-ttb579pln-204mm-planer-thicknesser-230v/15774#product_additional_details_container sales page], [http://www.free-instruction-manuals.com/pdf/pa_1403498.pdf user manual]
+*** On loan from Damian
+*** dust extration: measured: 95mm id circular
+
+* Table Saw
+** Dewalt DW745-GB
+*** [http://www.screwfix.com/p/dewalt-dw745-250mm-table-saw-240v/83053 sales page],  [http://www.manualslib.com/manual/792361/Dewalt-Dw745.html#manual user manual]
+*** On loan from Damian
+*** dust extraction: From manual, page 10: 57/65mm, supplied with reducer for 34-40mm.
+
+* Electric plane
+** Bosch PHO 100 / Scintilla SA 0 603 272 042
+*** Manuals?  Seem to be difficult to find for the pho 100.  The pho 1 seems to have subsumed it.
+*** property of space?
+*** dust extraction: measured: annoying parallelogram: width 24.4, height norm to width 40, height along tilt 41.9
+
+* belt sander
+** Makita 9911
+*** [https://www.icmsmakita.eu/cms/custom/uk/user_manual/9911_G223.pdf user manual]
+*** on loan from damian
+*** dust extraction: manual page 6: 28mm inner diameter
+
+* circular saw (hand-held)
+** FKS-180 / Ferm 726800
+*** http://doc.ferm.com/item/C/CSM1003/CSM1003_MANUAL.pdf
+*** on loan from damian
+*** dust extraction: measured: 31.7 mm id
+
+* mitre saw
+** Dewalt DW707
+*** [https://www.sitebox.ltd.uk/dewalt-dw707-crosscut-mitre-saw-1200-watt-with-legstand-240-volt-only-oDWdw707 sales page], [http://service.dewalt.co.uk/PDMSDocuments/EU/Docs//docpdf/dw707_eur.pdf user manual], [http://service.dewalt.co.uk/Products/ProductDetail.aspx?ProductID=3001&BOMRegionID=1 ?]
+*** on loan from steve wood
+*** dust extraction: page 19/en-4 & page 4 diagram B: Dust extration meant to be via three hoses -- one on motor part, each above & below x-z tilt clamp thing.
+
+* Huge power supply
+** Farnel H60/25
+*** [http://www.advanceproductservices.co.uk/data/H.pdf short datasheet], [http://www.vintage-radio.net/forum/showpost.php?s=1efee214bc8a9bde3135c4984f1a54c6&p=549486&postcount=11 full manual for H60/50].
+*** output: 0-60V, 0-25A
+*** input: 240v
+*** size: (h x w x depth): 17.8 x 48.25 x 50.8 cm
