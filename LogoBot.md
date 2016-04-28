@@ -1,19 +1,15 @@
 _See the **[LogoBot Documentation]** for detailed instructions on how to build a LogoBot._
 
-LogoBot is a simple, extensible, Arduino-based mobile robot developed by the Swindon Hackspace.  It is heavily inspired by the vast number of existing mobile robots designs (Mirobot in particular).  The development of the reference design has been kicked-off through the OpenSCAD Course and will be an ongoing collaborative project for all members of the Hackspace to participate in.  
-
+LogoBot is a simple, extensible, Arduino-based mobile robot developed by the Swindon Makerspace.  It is heavily inspired by the vast number of existing mobile robots designs (Mirobot in particular).  The development of the reference design has been kicked-off through the OpenSCAD Course and will be an ongoing collaborative project for all members of the Makerspace to participate in.  
 
 <!--
-[Assembly Guides](http://swindon.hackspace.org.uk/LogoBot/hardware/docs/index.htm)
+[Assembly Guides](http://rawgit.com/swindonmakers/LogoBot/master/hardware/docs/LogoBotAssemblyGuide.htm)
 
-This is the wiki page for LogoBot and is used to collect project and technical information not collated into the [documentation](https://rawgit.com/snhack/LogoBot/master/hardware/docs/index.htm)
+This is the wiki page for LogoBot and is used to collect project and technical information not collated into the [documentation](http://rawgit.com/swindonmakers/LogoBot/master/hardware/docs/index.htm)
 -->
 
-[LogoBot Documentation]: https://rawgit.com/snhack/LogoBot/master/hardware/docs/index.htm
-[LogoBot Scribbler]: https://rawgit.com/snhack/LogoBot/master/hardware/docs/index.htm#logobot-scribbler
-
-[![](http://swindon.hackspace.org.uk/images/layout/site_pano_6.jpg)][LogoBot Documentation]
-
+[LogoBot Documentation]: http://rawgit.com/swindonmakers/LogoBot/master/hardware/docs/index.htm
+[LogoBot Scribbler]: http://rawgit.com/swindonmakers/LogoBot/master/hardware/docs/index.htm#logobot-scribbler
 
 ## Principles / Requirements
 
@@ -29,12 +25,12 @@ This is the wiki page for LogoBot and is used to collect project and technical i
 
 <!-- Latest WIP model -->
 
-[![WIP Model](https://rawgit.com/snhack/LogoBot/master/hardware/images/LogoBotScribbler_view.png)][LogoBot Scribbler]
+[![WIP Model](http://rawgit.com/swindonmakers/LogoBot/master/hardware/images/LogoBotScribbler_view.png)][LogoBot Scribbler]
 
 
 ## BOM
 
-For the latest BOM see the [Assembly Guides](https://rawgit.com/snhack/LogoBot/master/hardware/docs/index.htm), the table below lists the most common items and sources.
+For the latest BOM see the [Assembly Guides](https://rawgit.com/swindonmakers/LogoBot/master/hardware/docs/index.htm), the table below lists the most common items and sources.
 
 Qty | Item | Line Total | Source 
 --- | ---- | ---------- | ------ 
@@ -52,7 +48,7 @@ Qty | Item | Line Total | Source
 
 ## Design
 
-The rest of this Wiki page is dedicated to design discussion, collected ideas, etc.  For the latest designs, guides and printable STLs, please refer to the [github site](https://github.com/snhack/LogoBot).
+The rest of this Wiki page is dedicated to design discussion, collected ideas, etc.  For the latest designs, guides and printable STLs, please refer to the [github site](https://github.com/swindonmakers/LogoBot).
 
 Having discussed a variety configurations, we've settled on the following starter design:
 
@@ -97,7 +93,7 @@ Please add suggestions below, and if you start developing a design, then put you
 ## Source Files
 
 All source files (hardware and software) are stored on github:
-[https://github.com/snhack/LogoBot](https://github.com/snhack/LogoBot)
+[https://github.com/swindonmakers/LogoBot](https://github.com/swindonmakers/LogoBot)
 
 Notes:
 * Clone the repo to get started
