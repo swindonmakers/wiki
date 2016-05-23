@@ -69,16 +69,16 @@ Integration: No integration into the main website as yet, look into including th
 
 
 [Swindon Hackspace]: http://swindon.hackspace.org.uk/
-[Google Group]: http://groups.google.com/group/swindon-hackspace
-[Twitter]: http://twitter.com/snhack
-[@snhack]: http://twitter.com/snhack
+[Google Group]: https://groups.google.com/group/swindon-makerspace
+[Twitter]: https://twitter.com/swindonmakers
+[@snhack]: https://twitter.com/swindonmakers
 [YouTube]: http://www.youtube.com/user/snhackspace
 [YouTube Playlist]: https://www.youtube.com/playlist?list=PLYuoVOMOzIhpehXWllA0vdYpHrcD5ouTd
 [Flickr]: https://www.flickr.com/groups/swindon-hackspace/
 [Facebook]: https://www.facebook.com/swindon.hackspace
-[Github]: https://github.com/snhack
-[Thingiverse]: http://www.thingiverse.com/Swindon-Hackspace/overview
-[group rss]: https://groups.google.com/forum/feed/swindon-hackspace/topics/rss_v2_0.xml
+[Github]: https://github.com/swindonmakers
+[Thingiverse]: http://www.thingiverse.com/Swindon-Makerspace/about
+[group rss]: https://groups.google.com/forum/feed/swindon-makerspace/topics/rss_v2_0.xml
 
 
 [Create a Repo]: https://help.github.com/articles/create-a-repo
