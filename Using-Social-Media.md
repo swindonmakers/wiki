@@ -35,11 +35,9 @@ Integration: Recent videos and pics are not currently integrated into the main w
 
 #### [Google Group]
 
-The [hackspace group][Google Group] is the main forum online for members to share ideas, discuss hackspace issues, and find help on projects, etc.  New or potential members may also use the forum for general enquiries and introductions.
+The [makerspace group][Google Group] is the main forum online for members to share ideas, discuss makerspace issues, and find help on projects, etc.  New or potential members may also use the forum for general enquiries and introductions.
 
-You're welcome to post news on your own projects here - especially to invite further discussion - but please consider using twitter (and mentioning [@snhack]) for one-off links, pictures, and other media.
-
-Integration: [[New blog posts are posted|Workflow-for-New-Posts]] to a new google group topic, which serves as the discussion thread for that post. Recent google group topics are linked from the main website using the group's [rss feed][group rss].
+You're welcome to post news on your own projects here - especially to invite further discussion - but please consider using twitter (and mentioning [@swindonmakers]) for one-off links, pictures, and other media.
 
 <!-- Please add some awesome examples here -->
 
