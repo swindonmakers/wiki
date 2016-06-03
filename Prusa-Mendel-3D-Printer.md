@@ -42,7 +42,7 @@ Software | Profiles | | |
 
 ### Print Server
 
-The printer has a dedicated Raspberry Pi that serves a web interface using [OctoPrint](http://octoprint.org). It can be accessed on the `MOCBTHUB` wifi network at <http://172.16.0.21:5000>.
+The printer has a dedicated Raspberry Pi that serves a web interface using [OctoPrint](http://octoprint.org). It can be accessed on the `swindon-makerspace` wifi network at <http://192.168.1.111:5000>.
 
 > TO BE ADDED: Instructions on printer setup, and use of OctoPrint.
 
