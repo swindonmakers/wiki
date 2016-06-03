@@ -1,4 +1,8 @@
-> This page only contains project information, such as installation and modification of the printer and its software. For general usage information, please see the [[Prusa Mendel 3D Printer]] page.
+
+### Individual Printers
+
+* [[Prusa Mendel 3D Printer]]
+* [[Wanhao Prusa i3 Printer]]
 
 ### Upgrading OctoPrint
 
