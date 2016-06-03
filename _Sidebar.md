@@ -19,7 +19,7 @@
 
 [[LogoBot]] • 
 [[Pen Plotter]] • 
-[[3D Printer]] • 
+[[3D Printers]] • 
 [[Heathkit Hero]] • 
 [[RobotArm]] • 
 [[Teaching Binary]] • 
