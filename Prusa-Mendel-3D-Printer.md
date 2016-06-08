@@ -42,7 +42,7 @@ Software | Profiles | | |
 
 ### Print Server
 
-The printer has a dedicated Raspberry Pi that serves a web interface using [OctoPrint](http://octoprint.org). It can be accessed on the `swindon-makerspace` wifi network at <http://192.168.1.111:5000>.
+The printer has a dedicated Raspberry Pi that serves a web interface using [OctoPrint](http://octoprint.org). It can be accessed on the `swindon-makerspace` wifi network via http://ip:port as displayed on the Raspberry Pi LCD screen.
 
 > TO BE ADDED: Instructions on printer setup, and use of OctoPrint.
 
