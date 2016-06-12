@@ -90,6 +90,7 @@ Rather than changing tool and getting the machine to drill the holes and risking
 * Define roughly the area you are going to cut in by setting Start and End X & Y, this will make the auto level process much quicker (and more reliable).  You really need to pick a totally clear area.  Any "misses" with the homing will mean you have to start all over again.  Make sure the autolevel area you choose is bigger than what you intend to cut by at least 5mm.  Note that by default it starts at 5,5.  It's probably worth always changing this to 0,0.
 * !!! Ensure Z-endstop croc clip is connect to PCB and to Dremel bit !!!
 * !!! Ensure there is a connection via the copper where you will be levelling to where you have the other end clipped on !!!
+* !!! Make sure the dremel bit is not touching the copper board when you start !!!
 * Click "Start".  Machine should go and z-home at a grid of points.
 * !!! Watch it to ensure the homing works and it makes it to every point !!!
 * You should get a pretty coloured gradient map of the board levels.
