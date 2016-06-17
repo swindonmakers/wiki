@@ -113,7 +113,12 @@ Rather than changing tool and getting the machine to drill the holes and risking
 * If its looking good, before the first G01 Z-0.2 command untick Single Step and hit resume to let the machine run.  You can re-tick single step at any time or pause.
 
 ## Drilling Guides
-* Still on the CNC Milling tab, load the gcode you generated for the drilling guides and follow the same steps as above to mark the drilling points.  If you drill immediately after cutting all you should need to do is load the file and click on (3) Milling.  Take the same precautions with end stops, cables, the Dremel and stepping through the first few lines of gcode.
+* Still on the CNC Milling tab, load the gcode you generated for the drilling guides and follow the same steps as above to mark the drilling points.  
+* If you drill immediately after cutting all you should need to do is 
+** load the file
+** update the F1.000 step in the gcode 
+** click on (3) Milling.  
+* Take the same precautions with end stops, cables, the Dremel and stepping through the first few lines of gcode.
 
 
 ## Post Clean Up & Drilling
