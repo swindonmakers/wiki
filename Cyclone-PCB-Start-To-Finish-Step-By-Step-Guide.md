@@ -114,10 +114,7 @@ Rather than changing tool and getting the machine to drill the holes and risking
 
 ## Drilling Guides
 * Still on the CNC Milling tab, load the gcode you generated for the drilling guides and follow the same steps as above to mark the drilling points.  
-* If you drill immediately after cutting all you should need to do is 
-** load the file
-** update the F1.000 step in the gcode 
-** click on (3) Milling.  
+* If you drill immediately after cutting all you should need to do is load the file, update the F1.000 step in the gcode, and click on (3) Milling.
 * Take the same precautions with end stops, cables, the Dremel and stepping through the first few lines of gcode.
 
 
