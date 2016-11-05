@@ -13,7 +13,7 @@ Gerber Options
 * Isolation Routing Tool Dia: 0.1mm is the actual tool dia, but using 0.35 seems to work well, adjust if tracks get merged or overlap.
 
 Excellon Options
-* Cut Z: -0.4 (this is the depth of drill markings)
+* Cut Z: -0.3 (this is the depth of drill markings)
 * Travel Z: 4.0
 * Feed Rate: 1.0
 
@@ -37,11 +37,11 @@ AutoLevel/Options:
 * Zero Height: 0
 * Max Depth: 1
 * Safe Height: 5
-* Clearance: 5
+* Clearance: 2
 * Feedrate: 50
 
 AutoLevel/Distance:
-* Distance: 10
+* Distance: 5
 
 
 ***
@@ -72,7 +72,7 @@ Rather than changing tool and getting the machine to drill the holes and risking
 * File -> Open Excellon -> select the xxx_drill.txt (red circles should appear in the view)
 * Project tab: select the file you just loaded.
 * Selected tab: in the tools list, select all rows.  (click in and ctrl-A in Windows)
-* Check Cut Z = -0.4, Travel Z = 4.0
+* Check Cut Z = -0.3, Travel Z = 4.0
 * Click Generate.
 * Project tab: select the _drill.txt_cnc you just created.
 * Selected tab: click Export G-Code
@@ -87,7 +87,7 @@ Rather than changing tool and getting the machine to drill the holes and risking
 * Home Z -  be ready to switch the machine off if it doesn't stop when it hits the board.  Hitting the board and not stopping isn't too much of an issue so long as you stop the machine quickly, it will simply jack the dremel up out of the z-axis.  If this happens, power the machine off, be sure to also disconnect from the Arduino (or reset it) and power everything back on.  Then use CNC GCode Controller to lift Z before doing anything else.  Maybe check the z-endstop is working by pressing home and touching the dremel croc clip onto the PCB board, z should go back up a bit then come down.  Touch again and z should stop.
 
 ### Auto Level tab
-* Define roughly the area you are going to cut in by setting Start and End X & Y, this will make the auto level process much quicker (and more reliable).  You really need to pick a totally clear area.  Any "misses" with the homing will mean you have to start all over again.  Make sure the autolevel area you choose is bigger than what you intend to cut by at least 5mm.  Note that by default it starts at 5,5.  It's probably worth always changing this to 0,0.
+* Define roughly the area you are going to cut in by setting Start and End X & Y, this will make the auto level process much quicker (and more reliable).  You really need to pick a totally clear area.  Any "misses" with the homing will mean you have to start all over again.  Make sure the autolevel area you choose is bigger than what you intend to cut by at least 5mm.  Note that by default it starts at 5,5.  It's probably worth always changing this to 1,1.
 * !!! Ensure Z-endstop croc clip is connect to PCB and to Dremel bit !!!
 * !!! Ensure there is a connection via the copper where you will be levelling to where you have the other end clipped on !!!
 * !!! Make sure the dremel bit is not touching the copper board when you start !!!
@@ -98,16 +98,16 @@ Rather than changing tool and getting the machine to drill the holes and risking
 ### CNC Milling tab
 * Click (1) Load File (the .gcode file you exported from FlatCam)
 * The file will probably load with 2 warnings and 2 errors, ignore them(?)  You should see your isolation routing cut in the grid.
-* In the Preview box, you should have two "depths" -0.2 which are the cuts and 5.0 which are the travels.  View both, check they look sensible.
+* In the Preview box, you should have two "depths" -0.2 which are the cuts and 4.0 which are the travels.  View both, check they look sensible.
 * In the Positioning box Tick Z Autolevelling and set X & Y to be the Start X and Start Y you used in the Auto Level step.  (maybe add 5mm for good luck)
 * In the Positioning box Tick Mirror X (or mirror Y) if you have any connectors that need to be the right way round.  Remember you are cutting the underside of the board.
 * Click (2) Optimise (will save some time in the drilling, but generally doesn't for the isolation routing layer)
 * Replace the F1.000 command near the start with G01 F1000 (or the machine will move incredibly slowly in Z and just wont work right)  To do this, right click on the command in the list and select "Edit"
 * !!! Disconnect the z-endstop croc clip from the dremel, clip it somewhere safe that is not attached to the other croc clip, i.e. not onto the edge of the PCB !!!
 * Disconnect the other end of the z-endstop from the PCB and clip it somewhere out of the way.  This should stop false z-endstop triggers while cutting.  (Don't clip it onto the other croc clip.)
-* Plug in the Dremel and power it up.  Give it 30s to get up to speed.
+* Plug in the Dremel and power it up.  Give it 30s to get up to speed (you should hear a change in sound as it hits full speed)
 * Ensure that the Dremel power cable is away from other wires, it seems to trigger end stops and sometimes upsets motor control.
-* Tick Single step, this will allow you to step though the gcode a line at a time, this is a good plan until you know the machine is working okay
+* Tick Single step, this will allow you to step though the gcode a line at a time, this is a good plan until you know the machine is working okay.
 * Click (3) Milling
 * Press Resume over and over to step through the first few lines of G-Code.  The dremel should move out to the point at which it will start the first cut.
 * If its looking good, before the first G01 Z-0.2 command untick Single Step and hit resume to let the machine run.  You can re-tick single step at any time or pause.
