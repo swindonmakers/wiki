@@ -2,7 +2,7 @@ The hackspace has a growing collection of equipment - some items even have their
 
 - [[Prusa Mendel 3D Printer]]
 
-  The 3D Printer that is being rebuilt and upgraded by the Hackspace.
+- [[HPC Laser Cutter]]
 
 - [[Pen Plotter]] (in progress)
 
