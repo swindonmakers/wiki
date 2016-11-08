@@ -1,11 +1,17 @@
 A page for collecting notes and information about the HPC laser cutter that we have on loan from Reprap Ltd.
 
 * Initial hardware settings, main electronics bay (right side):
+
 ** Main control board, bottom board: JP6 is on pins 1-2.
+
 *** According to the Hardware Manual 4.2, there are several more jumpers that I didn't see on my first reconnaissance mission, will check for them next time I (theorbtwo) am in the space.
+
 ** Motor controller DIP switches:
+
 *** X: 1001 0000
+
 *** Y: 1001 0100
+
 *** Z: 0100 0010
 
 The main controller itself is a Leetro MPC6525, which seems extremely common in lasers of this general sort.  http://www.leetro.com/english/sale/1-2.html is Leetro's page on it, which includes detailed documentation (download/manual/hardware manual), as well as the software / drivers (win32 only).  Also, if the sticker is to be believed, it has newer firmware.
@@ -20,12 +26,20 @@ Our chiller is a PH-LW06-BLP/?? (FIXME: note down the ??).  http://www.wklaser.c
 I've also found a manual for a closely related chiller at http://www.checkmatelasers.com/docs/GM/PowerHouseChillerManual.pdf, which leaves less to the imagination.  Using this information, we find the following settings:
 
 * dC: 15 -- I believe this is the desired maximum tempurature of the output water.
+
 * dh: 2 -- I believe this is the allowable tempurature range of the output water -- the water is allowed to be 13-15 degC.
+
 * Pt: 1 -- Failure alarm delay, 1 minute (do not sound alarm unless temp out of range for more then 1 minute).
+
 * Lt: 5 -- Low temp. alarm, 5 degC
+
 * Ht: 25 -- High temp. Alarm, 25 degC
+
 * ca: 0 -- ?
+
 * t1: 1 -- ?
+
 * t2: on -- ?
+
 * f1: 1 -- ?
 
