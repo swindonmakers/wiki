@@ -1,0 +1,1 @@
+A page for collecting notes and information about the HPC laser cutter that we have on loan from Reprap.
