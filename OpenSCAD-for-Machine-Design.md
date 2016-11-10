@@ -6,7 +6,7 @@ Template project can be found in the git repo at: [OpenSCAD Machine Design Frame
 
 Examples images from various projects:
 
-![GyroAnt Animated Assembly](http://rawgit.com/swindonmakers/GyroAnt/master/hardware/assemblies/GyroAnt/GyroAnt.gif)
+![GyroAnt Animated Assembly](https://github.com/swindonmakers/GyroAnt/raw/master/hardware/assemblies/GyroAnt/GyroAnt.gif)
 
 ## Principles
 
