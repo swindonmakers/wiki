@@ -2,11 +2,11 @@
 
 Guide to using OpenSCAD for complex machine design (e.g. CNC machines, robotics).
 
-Template project can be found in the git repo at: [OpenSCAD_Machine_Design_Template](https://github.com/Axford/OpenSCAD_Machine_Design_Template)
+Template project can be found in the git repo at: [OpenSCAD Machine Design Framework](https://github.com/Axford/OpenSCADMachineDesignFramework)
 
 Examples images from various projects:
 
-![Logobot](https://rawgit.com/snhack/LogoBot/master/hardware/images/LogoBot_view.png)
+![GyroAnt Animated Assembly](https://rawgit.com/swindonmakers/GyroAnt/master/hardware/assemblies/GyroAnt/GyroAnt.gif)
 
 ## Principles
 
