@@ -1,6 +1,6 @@
 A page for collecting notes and information about the HPC laser cutter that we have on loan from Reprap Ltd.
 
-* Initial hardware settings, main electronics bay (right side):
+# Initial hardware settings, main electronics bay (right side):
 
 ** Main control board, bottom board: JP6 is on pins 1-2.
 
@@ -18,8 +18,7 @@ The main controller itself is a Leetro MPC6525, which seems extremely common in 
 
 Chapter 6 of the hardware manual is also interesting reading -- it specifies the protocol spoken between the PAD03 (front panel) and the main controller.  At the lowest level, it's standard RS232 serial, 9600bps 8N1, on a standard DE9 connector.  On top of that is Modbus RTU, which is a well-known protocol for doing this sort of thing -- http://www.modbus.org/docs/Modbus_Application_Protocol_V1_1b3.pdf is the full specification.  Chapter 6 of the hardware manual specifies the individual meanings of the "relays" (single-bit values) and "registers" (multi-bit values).
 
-Chiller
-=======
+# Chiller
 
 Our chiller is a PH-LW06-BLP/?? (FIXME: note down the ??).  http://www.wklaser.com/uploadfile/file/20150410/201504100145000.zip is a manual for that exact model, though it leaves a fair bit to the imagination.  2.2.1 defines PH-LW06-BLP/?? as being PH=Sunrise family, LW=water chiller for laser, 06=600 W cooling capacity, B=back-exhausting, L=low lift pump, P=with flow switch, /??=code for client.  
 
@@ -43,3 +42,10 @@ I've also found a manual for a closely related chiller at http://www.checkmatela
 
 * f1: 1 -- ?
 
+# Cut Settings
+
+## Foamboard
+Initial settings for foam board, needs some refinement
+* score = 250mm, 18, 14, 1 pass
+* half  = 100mm, 35, 31, 1 pass
+* cut   = 100mm, 35, 31, 2 passes
