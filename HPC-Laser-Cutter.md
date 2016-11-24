@@ -1,5 +1,17 @@
 A page for collecting notes and information about the HPC laser cutter that we have on loan from Reprap Ltd.
 
+# Cut Settings
+
+## Foamboard
+Initial settings for foam board, needs some refinement
+* score = 250mm, 18, 14, 1 pass
+* half  = 100mm, 35, 31, 1 pass
+* cut   = 100mm, 35, 31, 2 passes
+
+## 3mm Plywood
+* cut: speed 15, power 98/98, total kerf 0.6mm (use offset of 0.3)
+
+
 # Initial hardware settings, main electronics bay (right side):
 
 ** Main control board, bottom board: JP6 is on pins 1-2.
@@ -42,14 +54,4 @@ I've also found a manual for a closely related chiller at http://www.checkmatela
 
 * f1: 1 -- ?
 
-# Cut Settings
-
-## Foamboard
-Initial settings for foam board, needs some refinement
-* score = 250mm, 18, 14, 1 pass
-* half  = 100mm, 35, 31, 1 pass
-* cut   = 100mm, 35, 31, 2 passes
-
-## 3mm Plywood
-* cut: speed 15, power 98/98, total kerf 0.6mm (use offset of 0.3)
 
