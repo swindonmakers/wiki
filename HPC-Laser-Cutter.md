@@ -49,3 +49,7 @@ Initial settings for foam board, needs some refinement
 * score = 250mm, 18, 14, 1 pass
 * half  = 100mm, 35, 31, 1 pass
 * cut   = 100mm, 35, 31, 2 passes
+
+## 3mm Plywood
+* cut: speed 15, power 98/98, total kerf 0.6mm (use offset of 0.3)
+
