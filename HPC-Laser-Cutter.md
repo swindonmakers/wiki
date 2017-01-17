@@ -5,7 +5,7 @@ Note: Power rating of 10% or less does not fire the laser.
 # Cut Settings
 
 ## Cardboard 0.22mm Thickness (UPDATE GSM value)
-* Kerf value of 0.1mm (Oversize edges of design by 0.1mm)
+* Kerf value of 0.1mm (or oversize edges of design by 0.1mm)
 * Cut: speed 300, power 18, passes 1
 * Engrave: speed , power , passes 1
 
