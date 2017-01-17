@@ -1,6 +1,22 @@
 A page for collecting notes and information about the HPC laser cutter that we have on loan from Reprap Ltd.
 
+Note: Power rating of 10% or less does not fire the laser.
+
 # Cut Settings
+
+## Cardboard 0.22mm Thickness (UPDATE GSM value)
+*Kerf value of 0.1mm (Oversize edges of design by 0.1mm)
+*Cut: speed 300, power 18, passes 1
+*Engrave: speed , power , passes 1
+
+## Corrugated Cardboard single wall
+*Cut: speed , power , passes 1
+*Engrave: speed , power , passes 1
+
+BETA ## Fleece to cut through just support material on back. NOTE TEST on your material, fluffy side down.
+*Cut: speed 250, power 13/14, passes 1/2 depending
+*Engrave: speed 300, power 13, passes 1 - Engraving is useful for marking material for hand cutting.
+
 
 ## Foamboard
 Still a bit sketchy on long curves for some reason, where the head goes slower than it should / does on straights.
