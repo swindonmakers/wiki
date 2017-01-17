@@ -7,7 +7,7 @@ Note: Power rating of 10% or less does not fire the laser.
 ## Cardboard 0.22mm Thickness (UPDATE GSM value)
 * Kerf value of 0.1mm (or oversize edges of design by 0.1mm)
 * Cut: speed 300, power 18, passes 1
-* Engrave: speed , power , passes 1
+* Engrave: speed 400, power 14/13, passes 1, note corners may still pinhole due to laser power and thickness of material
 
 ## Corrugated Cardboard single wall
 * Cut: speed , power , passes 1
