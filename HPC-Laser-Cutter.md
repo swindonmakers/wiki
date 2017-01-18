@@ -15,6 +15,7 @@ Rolls of material on roof - @TheOrbTwo
 
 ## Rubbery material
 * Cut  MORE TESTING REQUIRED. didnt cut fully at 250s 45p
+* Engrave nicely: speed 250, power 15/15, passes 1
 
 ## Cardboard 0.22mm Thickness (UPDATE GSM value)
 * Kerf value of 0.1mm (or oversize edges of design by 0.1mm)
