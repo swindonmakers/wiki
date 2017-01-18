@@ -4,6 +4,18 @@ Note: Power rating of 10% or less does not fire the laser.
 
 # Cut Settings
 
+Rolls of material on roof - @TheOrbTwo
+## Red cotton
+* Cut: speed 200, power 30, passes 1
+* Engrave (shallow): Speed 250, power 18, passes 1
+
+## Black mesh netting
+* Cut: speed 200, power 16, passes 1/2 depending on threads
+* Engrave nicely: Speed 250, power 13, passes 1
+
+## Rubbery material
+* Cut  MORE TESTING REQUIRED. didnt cut fully at 250s 45p
+
 ## Cardboard 0.22mm Thickness (UPDATE GSM value)
 * Kerf value of 0.1mm (or oversize edges of design by 0.1mm)
 * Cut: speed 320, power 17, passes 1
