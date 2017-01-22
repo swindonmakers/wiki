@@ -3,14 +3,14 @@
 [[Useful Links]] • [[Contacts]]  
 [[Contributing]] • [[Git Resources]]
 
-###### [[Hackspace|Welcome]]
+###### [[Makerspace|Welcome]]
 
 [[Equipment]]  
 [[Tools and Consumables]]  
 [[Shopping List]]  
 [[Hackspace Management]]
 
-###### [[Makeerspace Events]]
+###### [[Makerspace Events]]
 [[Exhibitions and Field Trips]]
 [[OpenSCAD Training]]  
 [[Arduino Workshop]]
