@@ -10,7 +10,7 @@
 [[Shopping List]]  
 [[Hackspace Management]]
 
-###### [[Hackspace Events]]
+###### [[Makeerspace Events]]
 [[Exhibitions and Field Trips]]
 [[OpenSCAD Training]]  
 [[Arduino Workshop]]
