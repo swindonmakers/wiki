@@ -9,17 +9,17 @@ Welcome to the Wiki for Swindon Hackspace.  Please use this wiki to [[share or r
 - [[Useful Links]] • [[Contacts]]
 
 
-#### Hackspace
+#### Makerspace
 
 - [[Equipment]]
 
 - [[Tools and consumables]]
 
-- [[Hackspace Events]]
+- [[Makerspace Events]]
 
 - [[Shopping List]]
 
-- [[Hackspace Management]]
+- [[Makerspace Management]]
 
 
 #### Projects
