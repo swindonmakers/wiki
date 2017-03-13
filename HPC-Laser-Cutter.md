@@ -26,10 +26,12 @@ Rolls of material on roof - @TheOrbTwo
 * Cut: speed , power , passes 1
 * Engrave: speed , power , passes 1
 
-BETA ## Fleece to cut through just support material on back. NOTE TEST on your material, fluffy side down.
+## Fleece to cut through just support material on back. NOTE TEST on your material, fluffy side down.
 * Cut: speed 250, power 13/14, passes 1/2 depending
 * Engrave: speed 300, power 13, passes 1 - Engraving is useful for marking material for hand cutting.
 
+## Thin fleece to cut through just support material on back. NOTE TEST on you material, fluffy side down
+* Cut: speed 180, power 14, passes 1
 
 ## Foamboard
 Still a bit sketchy on long curves for some reason, where the head goes slower than it should / does on straights.
