@@ -10,7 +10,7 @@ Welcome to the Wiki for Swindon Makerspace.  Please use this wiki to share or re
 
 - [[Equipment]]
 
-#### Projects
+#### [Projects](Makerspace-Projects)
 
 - [[Twitter to Teletype]]
 
