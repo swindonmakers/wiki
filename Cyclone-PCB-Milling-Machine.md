@@ -1,7 +1,4 @@
-Mal has brought in his almost-working [Cyclone PCB Milling Machine](http://reprap.org/wiki/Cyclone_PCB_Factory) for us to get working.  The first job is to get it actually cutting PCBs.
-
-# Todo
-* Replace x-axis lead screw, it's slightly bent causing wiggles in the cuts.  What dia is it? How long?
+Mal donated an almost-working [Cyclone PCB Milling Machine](http://reprap.org/wiki/Cyclone_PCB_Factory), which has since been made to work!
 
 # Step By Step Guides
 * [[Cyclone-PCB-Start-To-Finish-Step-By-Step-Guide]]
