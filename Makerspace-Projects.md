@@ -25,7 +25,7 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
   An event visitor recently donated a pen plotter, with which we would like to try plotting etch resist for making circuit boards.
 
-- [[3D Printer]]
+- [[Prusa Mendel 3D Printer]]
 
   The Prusa Mendel 3D Printer that is being rebuilt and upgraded by the Hackspace.
 
