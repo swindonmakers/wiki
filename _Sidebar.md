@@ -1,21 +1,18 @@
 ###### [[Home]]
 
-[[Useful Links]] • [[Contacts]]  
-[[Contributing]] • [[Git Resources]]
+[Contacts](http://www.swindon-makerspace.org/contact/)
 
-###### [[Makerspace|Welcome]]
+
+###### Makerspace
 
 [[Equipment]]  
-[[Tools and Consumables]]  
-[[Shopping List]]  
-[[Hackspace Management]]
 
 ###### [[Makerspace Events]]
 [[Exhibitions and Field Trips]]
 [[OpenSCAD Training]]  
 [[Arduino Workshop]]
 
-###### [[Projects|Hackspace Projects]]
+###### Projects
 
 [[LogoBot]] • 
 [[Pen Plotter]] • 
@@ -27,9 +24,6 @@
 [[Big Curvy LED Screen]] • 
 [[Twitter to Teletype]]
 
-###### [[Meetings]]
-
-[[Planning/Organisation-2014-10-14]]
 
 <!-- footer links -->
 
@@ -38,14 +32,14 @@
 [twitter] • [group][Google Group] • [flickr] • [thingiverse][]  
 [web][Website] • [github] • [youtube] • [facebook]
 
-[Website]: http://swindon.hackspace.org.uk/
-[Google Group]: http://groups.google.com/group/swindon-hackspace
-[Twitter]: http://twitter.com/snhack
+[Website]: http://www.swindon-makerspace.org/
+[Google Group]: http://groups.google.com/group/swindon-makerspace
+[Twitter]: https://twitter.com/swindonmakers
 [YouTube]: http://www.youtube.com/user/snhackspace
 [Flickr]: https://www.flickr.com/groups/swindon-hackspace/
-[Facebook]: https://www.facebook.com/swindon.hackspace
-[Github]: https://github.com/snhack
-[Thingiverse]: http://www.thingiverse.com/Swindon-Hackspace/
+[Facebook]: https://www.facebook.com/swindon.makerspace
+[Github]: https://github.com/swindonmakers
+[Thingiverse]: http://www.thingiverse.com/Swindon-Makerspace
 
 <!--
 [`web`][web]
