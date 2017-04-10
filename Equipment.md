@@ -2,6 +2,8 @@ The Makerspace has a growing collection of equipment - some items even have thei
 
 - [[Prusa Mendel 3D Printer]]
 
+- [[Wanhao-Prusa-i3-Printer]]
+
 - [[HPC Laser Cutter]]
 
 - [[Cyclone PCB Milling Machine]]
