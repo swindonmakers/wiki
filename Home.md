@@ -14,6 +14,8 @@ Welcome to the Wiki for Swindon Makerspace.  Please use this wiki to share or re
 
 - [[Twitter to Teletype]]
 
+- [[LogoBot]]
+
 #### Web Presence
 
 - [[Using Social Media]]
