@@ -33,11 +33,11 @@ Rolls of material on roof - @TheOrbTwo
 ## Thin fleece to cut through just support material on back. NOTE TEST on you material, fluffy side down
 * Cut: speed 180, power 14, passes 1
 
-## Foamboard
+## Foamboard (stuff Rob has)
 Still a bit sketchy on long curves for some reason, where the head goes slower than it should / does on straights.
 * score: speed 250, power 18/14, passes 1
 * half: speed 130, power 28/24, passes 1
-* cut: speed 120, power 28/24, passes 1
+* cut: speed 100, power 42/40, passes 1
 
 ## Simon's 10mm packaging foam (velvet facing)
 * cut: speed 20, power 20, passes 1
