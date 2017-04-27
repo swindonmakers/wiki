@@ -1,6 +1,21 @@
 A page for collecting notes and information about the HPC laser cutter that we have on loan from Reprap Ltd.
 
-Note: Power rating of 10% or less does not fire the laser.
+# Using the cutter:
+
+To begin with, you will want to make your drawings into a dxf file, and get it on to the computer by the cutter.  You can do this using a usb key, emailing it to yourself, sticking it on the internet somewhere... just remember that if you log in to your email, you should log back out.
+
+Next, open the laser cutter software, which is named, imaginatively, "laser cut".  It's pinned to the taskbar.
+
+Import your dxf file -- file/import.
+
+Unify lines.
+
+In the top-right corner of the program, there is a list with some colour swatches in, which match the colours of your imported dxf file.  Each of these is a sort of layer.  When you go to cut, it will start at the top of the list, cut all lines of that colour, and then move on to the next one.  You can drag-and-drop if you don't like the order.  (For example, you should try to leave cuts that will create small pieces until after the cuts that will add features to those small features.)  Each colour also has it's own settings associated with them -- type, speed, and power.  You'll want to change these to get a good cut, and the kind of cut you want.  If you want to cut shapes into your workpiece, even if you don't want to cut all the way through, leave the type on "cut".  Change the power and speeds to where you want them -- look at most of the rest of this page for starting places, but note that similar looking materials can require different settings anyway -- for example, different densities of foamboard, even if they are the same thickness, or wood with or without knots in it.  The power level is in percent.  Going over 100% will not be helpful, and seems to cause odd things to happen.  The physics of the laser mean that there's a minimum power level under which the laser doesn't fire, which seems to be around 10%.  FIXME: what are the units of speed, anyway?  There are two speeds listed -- "speed" and "corner speed".  "Speed" is how fast it moves on straight lines, and "corner speed" is how fast it moves when going around corners, which should generally be about 5 slower.  There are also some advanced settings for doing things like cutting dashed lines.  Most of these are untested and not really understood.
+
+Go around to the chiller, lift the lid, and smell the water.  If it smells like chlorine (think swimming pool), that's good.  If it doesn't, throw in a capful of the "sterilizing fluid" that should be sitting on top of the chiller.  That keeps stuff from growing in the water cooling water, which would end up burning up inside the laser tube, where it's really hard to clean.
+
+Flip the key-switch on the side of the laser cutter to turn it on.  This will turn on the compressor, the extractor fan on the roof, the chiller, and provide power to the fancy stainless steel extractor/filter unit.  (Which won't turn on quite yet.)  If any of that stuff doesn't turn on, something is wrong, and you shouldn't cut until everything is working properly.
+
 
 # Cut Settings
 
