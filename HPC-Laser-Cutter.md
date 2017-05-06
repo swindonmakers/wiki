@@ -19,7 +19,10 @@ Flip the key-switch on the side of the laser cutter to turn it on.  This will tu
 
 # Cut Settings
 
+Work area: 680 x 400mm
+
 Rolls of material on roof - @TheOrbTwo
+
 ## Red cotton
 * Cut: speed 200, power 30, passes 1
 * Engrave (shallow): Speed 250, power 18, passes 1
