@@ -48,7 +48,7 @@ Rolls of material on roof - @TheOrbTwo
 ## Thin fleece to cut through just support material on back. NOTE TEST on you material, fluffy side down
 * Cut: speed 180, power 14, passes 1
 
-## Foamboard (stuff Rob has)
+## Foamboard (stuff Rob has) [link](http://www.artdiscount.co.uk/paper-board/board/foam-board/white-foam-board-5mm.html)
 Still a bit sketchy on long curves for some reason, where the head goes slower than it should / does on straights.
 * score: speed 250, power 18/14, passes 1
 * half: speed 130, power 28/24, passes 1
