@@ -6,22 +6,57 @@ To begin with, you will want to make your drawings into a dxf file, and get it o
 
 Next, open the laser cutter software, which is named, imaginatively, "laser cut".  It's pinned to the taskbar.
 
-Import your dxf file -- file/import.
+* Import your dxf file -- File Menu -> Import.
 
-Unify lines.
+* Simplify the lines to cut -- Tools Menu -> Unify lines. 
 
-In the top-right corner of the program, there is a list with some colour swatches in, which match the colours of your imported dxf file.  Each of these is a sort of layer.  When you go to cut, it will start at the top of the list, cut all lines of that colour, and then move on to the next one.  You can drag-and-drop if you don't like the order.  (For example, you should try to leave cuts that will create small pieces until after the cuts that will add features to those small features.)  Each colour also has it's own settings associated with them -- type, speed, and power.  You'll want to change these to get a good cut, and the kind of cut you want.  If you want to cut shapes into your workpiece, even if you don't want to cut all the way through, leave the type on "cut".  Change the power and speeds to where you want them -- look at most of the rest of this page for starting places, but note that similar looking materials can require different settings anyway -- for example, different densities of foamboard, even if they are the same thickness, or wood with or without knots in it.  The power level is in percent.  Going over 100% will not be helpful, and seems to cause odd things to happen.  The physics of the laser mean that there's a minimum power level under which the laser doesn't fire, which seems to be around 10%.  FIXME: what are the units of speed, anyway?  There are two speeds listed -- "speed" and "corner speed".  "Speed" is how fast it moves on straight lines, and "corner speed" is how fast it moves when going around corners, which should generally be about 5 slower.  There are also some advanced settings for doing things like cutting dashed lines.  Most of these are untested and not really understood.
+* Create layers if needed
 
-Go around to the chiller, lift the lid, and smell the water.  If it smells like chlorine (think swimming pool), that's good.  If it doesn't, throw in a capful of the "sterilizing fluid" that should be sitting on top of the chiller.  That keeps stuff from growing in the water cooling water, which would end up burning up inside the laser tube, where it's really hard to clean.
+    If your dxf file is all one layer, but you want to actually engrave some parts, and cut others, or only partially cut some, create some layers. Do this by using the mouse to pick (or click + drag) all the parts for the new layer, then click on a colour in this list at the bottom of the screen. Repeat to add more to the same layer, or create a third one, etc.
 
-Flip the key-switch on the side of the laser cutter to turn it on.  This will turn on the compressor, the extractor fan on the roof, the chiller, and provide power to the fancy stainless steel extractor/filter unit.  (Which won't turn on quite yet.)  If any of that stuff doesn't turn on, something is wrong, and you shouldn't cut until everything is working properly.
+* Specify how to cut or engrave various layers
 
+    In the top-right corner of the program, there is a list with some colour swatches in, which match the colours of your imported dxf file, one for each layer.  When you go to cut, it will start at the top of the list, cut all lines of that colour, and then move on to the next one.  You can drag-and-drop if you don't like the order.  (For example, you should try to leave cuts that will create small pieces until after the cuts that will add features to those small features.)  Each colour also has it's own settings associated with them -- type, speed, and power.  You'll want to change these to get a good cut, and the kind of cut you want.  If you want to cut shapes into your workpiece, even if you don't want to cut all the way through, leave the type on "cut".  Change the power and speeds to where you want them -- look at most of the rest of this page for starting places, but note that similar looking materials can require different settings anyway -- for example, different densities of foamboard, even if they are the same thickness, or wood with or without knots in it.  The power level is in percent.  Going over 100% will not be helpful, and seems to cause odd things to happen.  The physics of the laser mean that there's a minimum power level under which the laser doesn't fire, which seems to be around 10%.  FIXME: what are the units of speed, anyway?  There are two speeds listed -- "speed" and "corner speed".  "Speed" is how fast it moves on straight lines, and "corner speed" is how fast it moves when going around corners, which should generally be about 5 slower.  There are also some advanced settings for doing things like cutting dashed lines.  Most of these are untested and not really understood.
+
+* Arrange parts
+
+    If you're cutting a bunch of parts, and your dxf has them scattered all over the place, drag & drop them until you have them arranged as close as possible in a vaguely rectangular shape. This saves on material.
+
+* Check the equipment
+
+    Go around to the chiller, lift the lid, and smell the water.  If it smells like chlorine (think swimming pool), that's good.  If it doesn't, throw in a capful of the "sterilizing fluid" that should be sitting on top of the chiller.  That keeps stuff from growing in the water cooling water, which would end up burning up inside the laser tube, where it's really hard to clean.
+
+* Turn on
+
+    Flip the key-switch on the side of the laser cutter to turn it on.  This will turn on the compressor, the extractor fan on the roof, the chiller, and provide power to the fancy stainless steel extractor/filter unit.  (Which won't turn on quite yet.)  If any of that stuff doesn't turn on, something is wrong, and you shouldn't cut until everything is working properly.
+
+* Send data to laser
+
+    Once the laser is on, you can send over your instructions by hitting the "Download" button, on the far right of the lasercut software, then "Download Current". Once this is done counting, all the work is on the laser (unless you need to rejig something..). To ensure your items are cut starting at the top-right of the laser bed, make sure the "immediate" checkbox near the button is checked. If it wasn't, do it and Download again.
+
+* Align laser material in the laser
+
+    Open the lid of the laser and put in your material, if the laser head isn't currently top-right, hit the "Datum" button on the laser to move it there. Align your material so that the top-right corner is under the laser head (red light!)
+
+* Make sure the laser is focused
+
+    To make an ideal cut, the red dot of the laser head should be a single dot - all around the work piece. Hit ESC on the laser controls, hands outta the way, then "Test" - this will move the laser head around the extreme edges of the thing you told it to cut. This shows you a) where the edges are and b) whether its in focus everywhere. If its not in focus at all, hit the Z button in the middle of the control pad, and then Up or Down to adjust - this *should* move in tiny increments.. if it doesn't - then someone needs to insert instructions here on how to change the increments.
+
+    If the laser is focused in some places and not others, tape down or weigh down your material with something.. keep hitting "Test" to check, and also make sure your weights are outside of the cutting area!
+
+* Turn on the Filter
+
+    Press the ! button in the middle of the control pad on the filter (behind the PC, the large shiny thing!).. it will make lots of noise!
+
+* Cut!
+
+    Close the laser lid, and press the "Start/Pause" button
 
 # Cut Settings
 
 Work area: 680 x 400mm
 
-Rolls of material on roof - @TheOrbTwo
+Rolls of fabric on roof - @TheOrbTwo
 
 ## Red cotton
 * Cut: speed 200, power 30, passes 1
