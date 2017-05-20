@@ -42,4 +42,6 @@ I've also found a manual for a closely related chiller at http://www.checkmatela
 
 * f1: 1 -- ?
 
+# Filter
 
+This is a Purex Filter, it has all sorts of sensors, see their [Digital Control System](http://www.purex.co.uk/fume-extraction/control-systems/digital-control-system/) for details on the UI.
