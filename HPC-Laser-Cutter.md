@@ -102,3 +102,5 @@ Still a bit sketchy on long curves for some reason, where the head goes slower t
 ## 1.5mm Plywood
 * cut: speed 20, power 28/26
 
+# Details
+For details on the actual equipment, see the [[HPC Laser Cutter Internals]] page
