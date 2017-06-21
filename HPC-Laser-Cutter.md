@@ -102,5 +102,12 @@ Still a bit sketchy on long curves for some reason, where the head goes slower t
 ## 1.5mm Plywood
 * cut: speed 20, power 28/26
 
+##3mm Acrylic
+
+NOTE: Focus must be dead on to avoid non-parallel cuts, some experimentation may be required as focus indicator does not give optimum focus.
+
+* cut: speed 20, power 60/55
+* engrave: coming soon
+
 # Details
 For details on the actual equipment, see the [[HPC Laser Cutter Internals]] page
