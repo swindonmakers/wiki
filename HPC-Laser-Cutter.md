@@ -97,7 +97,7 @@ Still a bit sketchy on long curves for some reason, where the head goes slower t
 
 ## 3mm Plywood
 * cut: speed 20, power 50/45, total kerf 0.2mm (use offset of 0.1)
-* engrave: speed 50, power 18/14, passes 1
+* engrave: speed 200, power 15, bidir = 0
 
 ## 1.5mm Plywood
 * cut: speed 20, power 28/26
