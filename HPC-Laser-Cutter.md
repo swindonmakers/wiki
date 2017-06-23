@@ -104,11 +104,12 @@ Still a bit sketchy on long curves for some reason, where the head goes slower t
 
 ## 3mm Acrylic
 
-NOTE: Focus must be dead on to avoid non-parallel cuts, some experimentation may be required as focus indicator does not always give optimum focus.
+Clear material absorbs less laser, so needs marginally higher power settings.
 
 NOTE: Engrave with the plastic film removed.
 
-* cut: speed 20, power 60/55
+* cut (solid colours): speed 20, power 60/55
+* cut (transparent/translucent): speed 20, power 65/60
 * engrave: speed 150, power 15
 
 # Details
