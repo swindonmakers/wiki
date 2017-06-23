@@ -106,11 +106,11 @@ Still a bit sketchy on long curves for some reason, where the head goes slower t
 
 Clear material absorbs less laser, so needs marginally higher power settings.
 
-NOTE: Leave protective film attached
+NOTE: Remove protective film once laser is focused.
 
 * cut (solid colours): speed 20, power 60/55
-* cut (transparent/translucent): speed 20, power 70/65
-* engrave: speed 150, power 25
+* cut (transparent/translucent): speed 15, power 70/65
+* engrave: speed 150, power 20
 
 # Details
 For details on the actual equipment, see the [[HPC Laser Cutter Internals]] page
