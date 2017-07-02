@@ -24,6 +24,8 @@ FIXME: what are the units of speed, anyway?  There are two speeds listed -- "spe
 
     If you're cutting a bunch of parts, and your dxf has them scattered all over the place, drag & drop them until you have them arranged as close as possible in a vaguely rectangular shape. This saves on material.
 
+    If engraving text, ensure the text is arranged with the longest dimension left/right. This speeds up engraving as the laser has to make fewer passes.
+
 * Check the equipment
 
     Go around to the chiller, lift the lid, and check the colour of the water. If it's brown, lumpy or has sediment in, change the water according to the procedure below. Next, smell the water. If it smells like chlorine (think swimming pool), that's good. If it doesn't, throw in a capful of the "sterilising fluid" that should be sitting on top of the chiller. That keeps the water sterile, as any contaminants can damage the laser tube.
