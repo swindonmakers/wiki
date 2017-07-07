@@ -36,7 +36,7 @@ FIXME: what are the units of speed, anyway?  There are two speeds listed -- "spe
 
     Flip the key-switch on the side of the laser cutter to turn it on.  This will turn on the compressor, the extractor fan on the roof, the chiller, and provide power to the fancy stainless steel extractor/filter unit.  (Which won't turn on quite yet.)  If any of that stuff doesn't turn on, something is wrong, and you shouldn't cut until everything is working properly.
 
-Note: If cutting in hot weather, make sure the chiller's temperature drops to withing 2-3C of the target temperature before starting work. The target temperature is the bottom figure (currently 18C), the current temperature the top figure. It may take five minutes to chill sufficiently if ambient temperature in the space is over 25C.
+**Note: If cutting in hot weather, make sure the chiller's temperature drops to withing 2-3C of the target temperature before starting work. The target temperature is the bottom figure (currently 18C), the current temperature the top figure. It may take five minutes to chill sufficiently if ambient temperature in the space is over 25C.**
 
 * Send data to laser
 
