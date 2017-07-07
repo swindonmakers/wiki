@@ -10,13 +10,15 @@ Next, open the laser cutter software, which is named, imaginatively, "laser cut"
 
 * Simplify the lines to cut -- Tools Menu -> Unify lines. 
 
+   This joins up lines that touch or almost touch, and allows the software to select a (relatively) efficient path forthe laser to travel in. If you have issues with engraving text, make sure you're running this step.
+
 * Create layers if needed
 
-    Layers define the laser settings for different lines. If you wish to engrave some parts and cut others, or to perform partial cuts, you will need to set layers for your different operations. This is accomplished by using the mouse to pick (or ctrl-click or click + drag) all the parts for the new layer, then click on a colour in this list at the bottom of the screen. Repeat to add more to the same layer, or create a third one, etc.
+    Layers define the laser settings. If you wish to engrave some parts and cut others, or to perform partial cuts, you will need to set layers for your different operations. This is accomplished by using the mouse to pick (or ctrl-click or click + drag) all the lines or parts for the new layer, then click on a colour in this list at the bottom of the screen. Repeat to add more to the same layer, or create a third one, etc.
 
 * Specify how layers are treated.
 
-    In the top-right corner of the program, there is a list with some colour swatches in, which match the colours of the layers in your drawing. The laser will cut each layer in the order shown in the list, top to bottom - this can be changed by dragging and dropping the layers. For example, you should perform engraving and minor cuts before big cuts which will leave loose pieces. Each colour also has its own settings associated with them -- type, speed, and power. These should be set to match the material being worked on - the materials list below will give starting points, but note that similar looking materials can require different settings anyway -- for example, different densities of foamboard, even if they are the same thickness, or wood with or without knots in it. Power ranges from 10% (the laser will not fire below 10%) and 100%. Generally it's helpful to perform some test operations before committing to a job to ensure that your settings are correct.
+    In the top-right corner of the program, there is a list with some colour swatches in, which match the colours of the layers in your drawing. The laser will cut each layer in the order shown in the list, top to bottom - this can be changed by dragging and dropping the layers. For example, you should perform engraving and minor cuts before big cuts which will leave loose pieces. Each colour also has its own settings associated with them -- type, speed, and power. These should be set to match the material being worked on - the materials list below will give starting points, but note that similar looking materials can require different settings anyway -- for example, different densities of foamboard, even if they are the same thickness, or wood with or without knots in it. Power ranges from 10% (the laser will not fire below 10%) and 100%. **Generally it's helpful to perform some test operations before committing to a job to ensure that your settings are correct.**
 
 FIXME: what are the units of speed, anyway?  There are two speeds listed -- "speed" and "corner speed".  "Speed" is how fast it moves on straight lines, and "corner speed" is how fast it moves when going around corners, which should generally be about 5 slower.  There are also some advanced settings for doing things like cutting dashed lines.  Most of these are untested and not really understood.
 
@@ -24,17 +26,17 @@ FIXME: what are the units of speed, anyway?  There are two speeds listed -- "spe
 
     If you're cutting a bunch of parts, and your dxf has them scattered all over the place, drag & drop them until you have them arranged as close as possible in a vaguely rectangular shape. This saves on material.
 
-    If engraving text, ensure the text is arranged with the longest dimension left/right. This speeds up engraving as the laser has to make fewer passes.
+    If engraving text, ensure the text is arranged with the longest dimension left/right. This speeds up engraving as the laser has to make fewer passes (it engraves left and right, back and forth).
 
 * Check the equipment
 
-    Go around to the chiller, lift the lid, and check the colour of the water. If it's brown, lumpy or has sediment in, change the water according to the procedure below. Next, smell the water. If it smells like chlorine (think swimming pool), that's good. If it doesn't, throw in a capful of the "sterilising fluid" that should be sitting on top of the chiller. That keeps the water sterile, as any contaminants can damage the laser tube.
+    Go around to the chiller, lift the lid, and check the colour of the water. If it's brown, lumpy or has sediment in, change the water according to the procedure below. Next, smell the water. If it smells like chlorine (think swimming pool), that's good. If it doesn't, throw in an inner capful of the "sterilising fluid" that should be sitting on top of the chiller (instructions are on the bottle). That keeps the water sterile, as any organic contaminants can damage the laser tube.
 
 * Turn on
 
     Flip the key-switch on the side of the laser cutter to turn it on.  This will turn on the compressor, the extractor fan on the roof, the chiller, and provide power to the fancy stainless steel extractor/filter unit.  (Which won't turn on quite yet.)  If any of that stuff doesn't turn on, something is wrong, and you shouldn't cut until everything is working properly.
 
-Note: If cutting in hot weather, make sure the chiller's temperature drops to withing 2-3C of the target temperature before starting work. The target temperature is the bottom figure (currently 18C), the current temperature the top figure. It may take five minutes to chill sufficiently.
+Note: If cutting in hot weather, make sure the chiller's temperature drops to withing 2-3C of the target temperature before starting work. The target temperature is the bottom figure (currently 18C), the current temperature the top figure. It may take five minutes to chill sufficiently if ambient temperature in the space is over 25C.
 
 * Send data to laser
 
@@ -50,6 +52,8 @@ Note: If cutting in hot weather, make sure the chiller's temperature drops to wi
 
     If the laser is focused in some places and not others, tape down or weigh down your material with something.. keep hitting "Test" to check, and also make sure your weights are outside of the cutting area!
 
+**Note: If cutting transparent or translucent acrylic, focus the laser *before* removing the plastic film**
+
 * Turn on the Filter
 
     Press the ! button in the middle of the control pad on the filter (large silver cabinet with a blue screen and tumble dryer type hoses attached) and wait a few seconds. If it's noisy, it's working!
@@ -62,7 +66,7 @@ Note: If cutting in hot weather, make sure the chiller's temperature drops to wi
 
 * If the water needs to be changed, take an empty bucket, and around four to six litres of clean tap water. 
 * Turn off the laser cutter and chiller, and pull the chiller forwards slightly for easier access. 
-* Around the back of the chiller, position a bike behind the water pipe fittings and remove the "outlet" pipe carefully. It will likely drip into the bucket.
+* Around the back of the chiller, position your bucket behind the water pipe fittings and remove the "outlet" pipe carefully. It will likely drip into the bucket.
 * Remove the lid of the chiller, and the lid of your water container (if applicable).
 * Turn on the laser cutter with the key, and the chiller will start pumping water into the bucket. Note: It will beep angrily, this is how it warns of a leak. Ignore it, because you should be catching the leak in your bucket. 
 * Pour your water into the chiller to keep the level roughly constant. It will pump through the chiller, through the laser and into the bucket, hopefully flushing out any contaminants.
