@@ -142,7 +142,8 @@ It's best to cover the leather in masking tape as this will reduce the surface b
 * cut: speed 4, power 30/30
 * engrave: speed 150, power 20 (very shallow) - (try 30 for a bit deeper)
 
-
+![Cutting and Engraving examples](https://github.com/swindonmakers/documentation/blob/master/20170906_210624.jpg?raw=true)
+![Cross cut of leather](https://github.com/swindonmakers/documentation/blob/master/20170906_210646.jpg?raw=true)
 
 # Details
 For details on the actual equipment, see the [[HPC Laser Cutter Internals]] page
