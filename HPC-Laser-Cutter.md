@@ -135,5 +135,12 @@ NOTE: Remove protective film once laser is focused.
 * cut (transparent/translucent): speed 15, power 70/65
 * engrave: speed 150, power 20
 
+## Leather (4mm) - Veg tanned
+
+It's best to cover the leather in masking tape as this will reduce the surface burning.
+
+* cut: speed 4, power 30/30
+* engrave: speed 150, power 20 (very shallow) - (try 30 for a bit deeper)
+
 # Details
 For details on the actual equipment, see the [[HPC Laser Cutter Internals]] page
