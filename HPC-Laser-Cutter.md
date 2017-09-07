@@ -79,6 +79,9 @@ FIXME: what are the units of speed, anyway?  There are two speeds listed -- "spe
 
 Work area: 680 x 400mm
 
+Website of useful settings for different materials (you will need to test and trial some settings first to be sure)
+[Bosslaser Laser Settings](https://www.bosslaser.com/laser-settings)
+
 Rolls of fabric on roof - @TheOrbTwo
 
 ## Red cotton
