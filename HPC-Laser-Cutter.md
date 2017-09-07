@@ -1,5 +1,7 @@
 A page for collecting notes and information about the HPC laser cutter that we have on loan from Reprap Ltd.
 
+Link to [Laserscript LS6840](http://www.laserscript.co.uk/LS6840.html) info page
+
 # Using the cutter:
 
 You will need your drawings in dxf format, and some way to transfer them to the computer by the cutter. USB flash drives are preferred for ease of use, but you can use dropbox or similar - remember to use private browsing so that your details aren't saved when you're finished.
