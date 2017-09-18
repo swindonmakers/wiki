@@ -1,6 +1,9 @@
 Swindon Hackspace Pen Plotter
 =============================
 
+*** 18th Sep 2017 *** This project has been abandoned and the Pen Plotter thrown out.
+
+
 What is it?
 -----------
 
