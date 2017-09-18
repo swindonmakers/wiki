@@ -8,7 +8,5 @@ The Makerspace has a growing collection of equipment - some items even have thei
 
 - [[Cyclone PCB Milling Machine]]
 
-- [[Pen Plotter]] (in progress)
-
-  Plotter intended to be repurposed to apply etch resist for making circuit boards.
+- [[Proxxon Cnc Mill]]
 
