@@ -138,7 +138,12 @@ NOTE: Remove protective film once laser is focused.
 
 * cut (solid colours): speed 20, power 60/55
 * cut (transparent/translucent): speed 15, power 70/65
-* engrave: speed 150, power 20
+* engrave: speed 200, power 15
+
+## 6mm acrylic (clear)
+*cut (transparent): speed 4, power 60/55
+
+NOTE: 6mm acrylic in space Very smelly and antisocial, cut when no one around!
 
 ## Leather (4mm) - Veg tanned
 
