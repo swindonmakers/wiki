@@ -104,8 +104,9 @@ Rolls of fabric on roof - @TheOrbTwo
 * Engrave: speed 400, power 14/13, passes 1, note corners may still pinhole due to laser power and thickness of material
 
 ## Corrugated Cardboard single wall
-* Cut: speed , power , passes 1
-* Engrave: speed , power , passes 1
+* Cut: speed 50 , power 65, passes 1
+* Partial cut: speed 125 , power 60 , passes 1
+* Engrave: speed 480 , power 30 , passes 1
 
 ## Fleece to cut through just support material on back. NOTE TEST on your material, fluffy side down.
 * Cut: speed 250, power 13/14, passes 1/2 depending
