@@ -12,6 +12,12 @@ The Makerspace has a growing collection of equipment - some items even have thei
 
 - [[Proxxon Cnc Mill]]
 
+# General
+
+- [[Pillar Drill]]
+
+- [[Vertical Bandsaw]]
+
 # Metalwork
 
 - [[Horizontal-bandsaw]]
@@ -29,3 +35,5 @@ The Makerspace has a growing collection of equipment - some items even have thei
 - [[Wood Lathe]]
 
 - [[Mitre Saw]]
+
+- [[Powered hand tools]]
