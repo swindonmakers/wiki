@@ -18,11 +18,13 @@ The Makerspace has a growing collection of equipment - some items even have thei
 
 - [[Vertical Bandsaw]]
 
+- [[Powered hand tools]]
+
 # Metalwork
 
 - [[Horizontal Bandsaw]]
 
-- [[Mill and lathe]]
+- [[Metal Mill and Lathe]]
 
 - [[MIG welder]]
 
@@ -35,5 +37,3 @@ The Makerspace has a growing collection of equipment - some items even have thei
 - [[Wood Lathe]]
 
 - [[Mitre Saw]]
-
-- [[Powered hand tools]]
