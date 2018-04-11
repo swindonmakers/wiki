@@ -20,7 +20,7 @@ The Makerspace has a growing collection of equipment - some items even have thei
 
 # Metalwork
 
-- [[Horizontal-bandsaw]]
+- [[Horizontal Bandsaw]]
 
 - [[Mill and lathe]]
 
