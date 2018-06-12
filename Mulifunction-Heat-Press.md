@@ -20,6 +20,8 @@ When you first switch the device on it will show the setting from the last time 
 
 Set the controller as follows
 
+Press the Set button - SP will appear in the top display, use the < > buttons to increase and decrease the temperature seen in the bottom display
+
 
 
 
