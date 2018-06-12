@@ -37,3 +37,8 @@ The Makerspace has a growing collection of equipment - some items even have thei
 - [[Wood Lathe]]
 
 - [[Mitre Saw]]
+
+# Craftwork
+
+- [[Mulifunction Heat Press]
+]
