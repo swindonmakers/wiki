@@ -22,6 +22,13 @@ When you first switch the device on it will show the setting from the last time 
 
 Press the Set button - SP will appear in the top display, use the arrow buttons to increase and decrease the temperature seen in the bottom display to the required temp.
 
+Press the set button - Sb will appear in the top display, use the arrow buttons to set the time required in seconds.
+
+Press the set button - the top display will show  C - F, use the arrows to select Celcius or Faranhight.
+
+Press the set button - the displays now show the temperature at the top and time on the bottom you have set
+(Note: if you have just switched on the machine then the temperature will not have reached the required temperature and you will see the displayed temperature increase until it reaches the set temperature.)
+
 
 
 
