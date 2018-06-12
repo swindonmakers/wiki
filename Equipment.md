@@ -40,5 +40,6 @@ The Makerspace has a growing collection of equipment - some items even have thei
 
 # Craftwork
 
-- [[Mulifunction Heat Press]
-]
+- [[Mulifunction Heat Press]]
+
+
