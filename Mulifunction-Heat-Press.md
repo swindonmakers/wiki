@@ -9,3 +9,6 @@ This multifunctional 5 in 1 heat press machine can transfer photos or text onto 
 * Digital Dual display electronic control unit with LCD timer allows you presetting time and temperature control unit
 
 ### Operating
+
+WARNING the various heating plates get very hot use extream care when operating and make sure the device is off before leaving.
+
