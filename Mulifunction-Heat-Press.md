@@ -30,6 +30,9 @@ Press the set button - the displays now show the temperature at the top and time
 (Note: if you have just switched on the machine then the temperature will not have reached the required temperature and you will see the displayed temperature increase until it reaches the set temperature.)
 
 
+_Work in progress - to be continued_
+
+
 
 
 
