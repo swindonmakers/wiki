@@ -12,3 +12,7 @@ This multifunctional 5 in 1 heat press machine can transfer photos or text onto 
 
 WARNING the various heating plates get very hot use extream care when operating and make sure the device is off before leaving.
 
+Each of heating plates has two cables which have to be connected to the man control unit before they can be used, make sure the main control unit is switched off before connecting the cables, each cable plug has a different number of connectors and can only be connected to its corresponding socket.
+
+
+
