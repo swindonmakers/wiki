@@ -43,13 +43,13 @@ This is required when printing onto mugs and plates as the cold mug or plate wil
 _work in progress to decipher Chineesium instructions_
 
 
-## T-Shirt Transfer
+## T-shirt Transfer
 
 1. Create the artwork for transferring to the T-Shirt then print the image onto T-shirt Transfer paper as a mirror image
 
 1. Set the controller to a temperature of 191 degrees C with a time of 18 secs
 
-1. When the plate has reached the desired temperature pre-press the T-Shirt for 3-4 secs to remove any creases
+1. When the plate has reached the desired temperature pre-press the T-shirt for 3-4 secs to remove any creases
 
 1. Place the transfer print image down on the T-shirt in the desired position.
 
@@ -57,6 +57,6 @@ _work in progress to decipher Chineesium instructions_
 
 1. Wait for about 30 seconds for the T-shirt to cool then peel off the transfer paper.
 
-
+_The temperature and time may vary slighty depending on the make of Transfer paper, the above teperature and time was used with IBM T-shirt Transfer paper_
 
 
