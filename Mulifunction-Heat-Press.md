@@ -12,7 +12,11 @@ This multifunctional 5 in 1 heat press machine can transfer photos or text onto 
 
 WARNING the various heating plates get very hot use extream care when operating and make sure the device is off before leaving.
 
-Each of heating plates has two cables which have to be connected to the man control unit before they can be used, make sure the main control unit is switched off before connecting the cables, each cable plug has a different number of connectors and can only be connected to its corresponding socket.
+The main heating plate and the mug plate have two cables which connect to the main control unit, the 4 pin cable supplies the heating element and controls the temperature, the two pin cable is for the microswitch, this is what activates the timer when the plate is compressed.
+
+The Cap plate and the Plates plate do not have a microswitch so only have the 4 pin cable to connect.
+
+Make sure the main control unit is switched off before connecting the cables, each cable plug has a different number of connectors and can only be connected to its corresponding socket.
 
 The top display of the control unit displays the temperature of the plate being used and the bottom display show the time that has been set.
 
