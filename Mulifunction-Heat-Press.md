@@ -43,7 +43,7 @@ This is required when printing onto mugs and plates as the cold mug or plate wil
 _work in progress to decipher Chineesium instructions_
 
 
-##T-Shirt Transfer
+## T-Shirt Transfer
 
 
 
