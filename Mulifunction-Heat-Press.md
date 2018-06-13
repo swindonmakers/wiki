@@ -38,12 +38,12 @@ Press the set button - the displays now show the temperature at the top and time
 
 The advanced setting allows the plate to start at a pre-set temperature and then increase the temperature to a higher level when the plate is compressed when this higher level is reached the timer will start and after the pre-set time stop and sound the alarm.
 
-This is required when printing onto mugs and plates as the cold mug will initially reduce the temperature and needs time to reach an operating temperature.
+This is required when printing onto mugs and plates as the cold mug or plate will initially reduce the temperature and needs time to reach the operating temperature.
 
 _work in progress to decipher Chineesium instructions_
 
 
-
+##T-Shirt Transfer
 
 
 
