@@ -24,6 +24,8 @@ The Makerspace has a growing collection of equipment - some items even have thei
 
 - [[Horizontal Bandsaw]]
 
+- [[Bridgeport Mill]]
+
 - [[Metal Mill and Lathe]]
 
 - [[MIG welder]]
