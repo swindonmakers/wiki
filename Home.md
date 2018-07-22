@@ -16,6 +16,8 @@ Welcome to the Wiki for Swindon Makerspace.  Please use this wiki to share or re
 
 - [[LogoBot]]
 
+- [[Chill Room]]
+
 #### Web Presence
 
 - [[Using Social Media]]
