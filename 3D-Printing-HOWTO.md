@@ -69,6 +69,14 @@ To change the current filament, see the "changing filament" section of each prin
 
 ## Troubleshooting
 
-If you are having issues with the printer(s), please record them on the [3d printing group on the forum](https://forum.swindon-makerspace.org/c/3d-printing-group)m the 3d printer maintainers may also be able to help via Telegram.
+If you are having issues with the printer(s), please record them on the [3d printing group on the forum](https://forum.swindon-makerspace.org/c/3d-printing-group) the 3d printer maintainers may also be able to help via Telegram.
 
 ## Designing your own models
+
+Here comes the hard bit... Luckily the internet has got us covered here too, in no particular order:
+
+- [Hackaday - 3d printering series (SketchUp, OpenSCAD, FreeCad, AutoCAD, Blender)](https://hackaday.com/2014/01/15/3d-printering-making-a-thing-with-sketchup/)
+- [OpenSCAD manual](https://en.wikibooks.org/wiki/OpenSCAD_User_Manual)
+- [Solvespace Tutorials (youtube)](https://www.youtube.com/watch?v=1Em_XESnqUM&list=PLEvJVXu3VfGMSOdpA0jrGRzoM7NlNOl5s)
+- [Fusion 360 Tutorial](http://help.autodesk.com/view/fusion360/ENU/)
+
