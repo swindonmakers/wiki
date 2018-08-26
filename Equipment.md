@@ -2,7 +2,11 @@ The Makerspace has a growing collection of equipment - some items even have thei
 
 # Digital Fabrication
 
-- [[Prusa Mendel 3D Printer]]
+- [[3D Printing HOWTO]]
+
+- _[[Prusa Mendel 3D Printer]]_
+
+- [[Prusa MK2 3D Printer]]
 
 - [[Wanhao-Prusa-i3-Printer]]
 
