@@ -67,10 +67,8 @@ The Makerspace has several spools of filament members are free to use. You may a
 
 To change the current filament, see the "changing filament" section of each printer's Wiki page.
 
-## Bed levelling
-
 ## Troubleshooting
 
-- [Matterhackers - 3d printer trouble shooting](https://www.matterhackers.com/articles/3d-printer-troubleshooting-guide)
+If you are having issues with the printer(s), please record them on the [3d printing group on the forum](https://forum.swindon-makerspace.org/c/3d-printing-group)m the 3d printer maintainers may also be able to help via Telegram.
 
 ## Designing your own models
