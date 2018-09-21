@@ -133,6 +133,10 @@ Still a bit sketchy on long curves for some reason, where the head goes slower t
 ## 1.5mm Plywood
 * cut: speed 20, power 28/26
 
+## 1/16th Balsa Wood Sheet
+* cut:  speed 150, power 24/18
+* mark: speed 250, power 12/12 (for writing on surface, etc)
+
 ## 3mm Acrylic
 
 Clear material absorbs less laser, so needs marginally higher power settings.
