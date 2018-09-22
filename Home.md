@@ -18,6 +18,7 @@ Welcome to the Wiki for Swindon Makerspace.  Please use this wiki to share or re
 
 - [[Chill Room]]
 
+- [[Tool Control]]
 #### Web Presence
 
 - [[Using Social Media]]
