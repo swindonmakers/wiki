@@ -1,4 +1,4 @@
-The Tool Control system is built around an Arduino Uno.
+The Tool Control system is built around an Arduino Uno. The LCD Display requires four GND connections, plus two 5V connections, so terminal blocks are used to connect multiple wires to these pins.
 
 # Components
 * Arduino Uno
@@ -11,7 +11,7 @@ The Tool Control system is built around an Arduino Uno.
 * 2 x Terminal Strip Terminals (or 2 x 5-way Wago)
 * 7 x Male-Female Jumper Wires
 * 2 x Male-Bare Jumper Wires (Can use Male-Any Jumpers and cut off the non male end depending on what you have available)
-* 5 x Female-Bare Jumper Wires (same as above)
+* 6 x Female-Bare Jumper Wires (same as above)
 * 6 x Male-Female Jumper Wires
 * Junction Box Style Enclosure (To be replace with 3D Printed Enclosure in Version 2)
 
