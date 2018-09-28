@@ -1,4 +1,4 @@
-The Tool Control system is built around an Arduino Uno. The LCD Display requires four GND connections, plus two 5V connections, so terminal blocks are used to connect multiple wires to these pins.
+The Tool Control system is built around an Arduino Uno. The LCD Display requires four GND connections, plus two 5V connections, plus the 5V and GND connections for the two buttons, so terminal blocks are used to connect multiple wires to these pins.
 
 # Components
 * Arduino Uno
@@ -28,6 +28,8 @@ The Tool Control system is built around an Arduino Uno. The LCD Display requires
 | 2 | LCD RS Pin | Register Select pin for LCD Display |
 | 3 | LCD E Pin | Enable pin for LCD Display |
 | 5 | RFID SDA Pin | Slave Select for RFID SPI |
+| 6 | Induct Button | Input for Induct Button |
+| 7 | Sign Out Button | Induct for Sign Out Button |
 | 9 | RFID RST Pin | Reset pin for RFID |
 | 11 | RFID SCK Pin | SCK pin for RFID SPI |
 | 12 | RFID MOSI Pin | MOSI pin for RFID SPI |
