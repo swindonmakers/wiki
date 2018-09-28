@@ -1,6 +1,6 @@
 The Tool Control system is built around an Arduino Uno.
 
-Components:
+# Components
 * Arduino Uno
 * Ethernet Shield
 * 16x2 LCD Screen
@@ -15,7 +15,32 @@ Components:
 * 6 x Male-Female Jumper Wires
 * Junction Box Style Enclosure (To be replace with 3D Printed Enclosure in Version 2)
 
+# Pin Mapping
 
-How it works:
+## Arduino
+
+| Arduino Pin | Destination | Use |
+| ------------- | ------------- | ------------- |
+| A0 | LCD D4 Pin | Data pin for LCD Display |
+| A1 | LCD D5 Pin | Data pin for LCD Display |
+| A2 | LCD D6 Pin | Data pin for LCD Display |
+| A3 | LCD D7 Pin | Data pin for LCD Display |
+| 2 | LCD RS Pin | Register Select pin for LCD Display |
+| 3 | LCD E Pin | Enable pin for LCD Display |
+| 5 | RFID SDA Pin | Slave Select for RFID SPI |
+| 9 | RFID RST Pin | Reset pin for RFID |
+| 11 | RFID SCK Pin | SCK pin for RFID SPI |
+| 12 | RFID MOSI Pin | MOSI pin for RFID SPI |
+| 13 | RFID MISO Pin | MISO pin for RFID SPI |
+| GND (next to 13) | RFID GND Pin | Ground pin for RFID |
+| 3.3V | RFID 3.3V Pin | Power pin for RFID |
+| GND (next to power pins) | Terminal Block | Ground ref for LCD |
+| 5V | Terminal Block | 5V ref for LCD |
+
+## RFID 
+
+## LCD
+
+# How it works
 
 [[TBC]]
