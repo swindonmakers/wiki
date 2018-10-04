@@ -6,7 +6,7 @@ This Printer probably works best with its own proprietary software, downloadable
 
 Octoprint / Cura are still being investigated, investigation so far:
 
-[Plugin for Cura](https://github.com/Ghostkeeper/X3GWriter) - Install using Cura itself; Toolbox -> Packages - This will enable Cura to save Makerbot format (.x3g) files. These are binary files, Octoprint will not be able to send them to the printer! Copy onto an SD card to use. Initial attempts to do this did not result in the printer doing anything useful.
+[Plugin for Cura](https://github.com/Ghostkeeper/X3GWriter) - Install using Cura itself; Toolbox -> Packages - This will enable Cura to save Makerbot format (.x3g) files. These are binary files, Octoprint will not be able to send them to the printer! Copy onto an SD card to use. Also choose "MakerBot Replicator" under Settings/Add Printer. Initial attempts to do this did not result in the printer doing anything useful.
 
 Octoprint will not connect to the printer without a plugin, install this one: [Plugin for Octoprint](https://plugins.octoprint.org/plugins/gpx/) - install using Octoprint Plugin Manager (under Settings). After install, make sure you go to the settings again after reboot and setup the plugin itself. This enables the printer to be heated / moved etc via the Octoprint UI, it *should* also convert any gcode files sent to it to x3g on the fly - initial attempts made the printer move, but not print usefully.
 
