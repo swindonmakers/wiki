@@ -10,6 +10,8 @@ The Makerspace has a growing collection of equipment - some items even have thei
 
 - [[Wanhao-Prusa-i3-Printer]]
 
+- [[Makerbot Replicator 2x Printer]]
+
 - [[HPC Laser Cutter]]
 
 - [[Cyclone PCB Milling Machine]]
