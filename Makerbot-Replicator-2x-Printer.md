@@ -10,7 +10,7 @@ Octoprint / Cura are still being investigated, investigation so far:
 
 Octoprint will not connect to the printer without a plugin, install this one: [Plugin for Octoprint](https://plugins.octoprint.org/plugins/gpx/) - install using Octoprint Plugin Manager (under Settings). After install, make sure you go to the settings again after reboot and setup the plugin itself.
 
-Both of these plugins build+install the (GPX tool for converting GCODE into X3G files)[https://github.com/markwal/GPX]. 
+Both of these plugins build+install the [GPX tool for converting GCODE into X3G files](https://github.com/markwal/GPX). 
 
 ### Changing filament
 
