@@ -57,6 +57,22 @@ _work in progress to decipher Chineesium instructions_
 
 1. Wait for about 30 seconds for the T-shirt to cool then peel off the transfer paper.
 
-_The temperature and time may vary slighty depending on the make of Transfer paper, the above teperature and time was used with IBM T-shirt Transfer paper_
+_The temperature and time may vary slighty depending on the make of Transfer paper, the above temperature and time was used with IBM T-shirt Transfer paper_
 
+
+## Mugs
+
+1. Create the artwork for transferring to the Mug (approx. 92mm high x 230mm max width) then print onto Transfer paper as a mirror image (i.e. flipped horizontally) using the dye-sublimation printer (the Epson, on the shelf above the 3D printers)
+
+1. Cut-out and tape the image around the mug using some pieces of Kapton tape (the transparent orange stuff) - make sure it is tight and level!
+
+1. Hook up the cables for the mug-press.  Set the controller to a temperature of 200 degrees C with a time of 300 secs (see instructions above)
+
+1. When the press has reached the desired temperature, insert the mug and apply the clamp
+
+1. Reset the controller to restart the count-down at 300sec
+
+1. After the pre-set time the alarm will sound.  Turn off the controller, open the press and remove the mug
+
+1. Peel off the transfer paper (careful, it'll be HOT) and immediately slosh the mug in some cool water to cool/seal the surface
 
