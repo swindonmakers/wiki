@@ -128,7 +128,7 @@ Speed is measured in mm/s. There are two speeds listed -- "speed" and "corner sp
 * Put in an inner capful (~15ml) of the sterilising fluid kept by the chiller, and leave the chiller on for two minutes to allow the sterilised water to be circulated.
 * Re-fit the lid and turn off the chiller. Carefully slide it back into position.
 
-# Cut Settings
+# Settings
 
 **Note: The lens has been replaced as of 06/06/2018. Cutting efficiency is markedly better than before, so test your cut settings first! If you find you can cut just as well with a lower power, please update the wiki to reflect the new settings.**
 
@@ -139,76 +139,39 @@ Website of useful settings for different materials (you will need to test and tr
 
 Rolls of fabric - @TheOrbTwo
 
-## Red cotton
-* Cut: speed 200, power 30, passes 1
-* Engrave (shallow): Speed 250, power 18, passes 1
+## Cut Settings
+| Material | Speed (mm/s) | Power (%) | Passes | Note |
+| -------- | ------------ | --------- | ------ | ---- |
+| Red cotton | 200 | 30 | 1 | | 
+| Black mesh | 200 | 16 | 1-2 | | 
+| Rubbery material | <250 | 45 | 1 | |
+| Card, 250gsm | 320 | 17 | 1 | |
+| Cardboard, Single Wall, 4mm | 50 | 30 | 1 | |
+| Fleece, support material only | 250 | 14 | 1-2 | Test first, fluffy side down |
+| Thin fleece, support material only | 180 | 14 | 1 | Test first, fluffy side down |
+| Foamboard, 5mm | 100 | 42 | 1 | To cut all the way through |
+| Foamboard, 5mm | 130 | 28 | 1 | To cut half way through | 
+| Foamboard, 5mm | 250 | 18 | 1 | To score |
+| Plywood, 3mm | 20 | 50 | 1 | |
+| Plywood, 1.5mm | 20 | 28 | 1 | |
+| Balsa, 1/16th | 150 | 24 | 1 | |
+| Acrylic, 3mm, Clear | 15 | 65 | 1 | |
+| Acrylic, 3mm, Colour | 20 | 65 | 1 | |
+| Acrylic, 6mm, Clear | 4 | 65 | 1 | |
+| Leather, 4mm | 4 | 30 | 1 | MUST BE REAL LEATHER! Cover with masking tape to reduce burning |
 
-## Black mesh netting
-* Cut: speed 200, power 16, passes 1/2 depending on threads
-* Engrave nicely: Speed 250, power 13, passes 1
-
-## Rubbery material
-* Cut  MORE TESTING REQUIRED. didnt cut fully at 250s 45p
-* Engrave nicely: speed 250, power 15/15, passes 1
-
-## Cardboard 0.22mm Thickness (UPDATE GSM value)
-* Kerf value of 0.1mm (or oversize edges of design by 0.1mm)
-* Cut: speed 320, power 17, passes 1
-* Engrave: speed 400, power 14/13, passes 1, note corners may still pinhole due to laser power and thickness of material
-
-## Corrugated Cardboard 4mm thick single wall
-* Cut: speed 50 , power 30, passes 1
-* Partial cut: speed 250, power 30, passes 1
-* Engrave: speed 250, power 15, passes 1
-
-## Fleece to cut through just support material on back. NOTE TEST on your material, fluffy side down.
-* Cut: speed 250, power 13/14, passes 1/2 depending
-* Engrave: speed 300, power 13, passes 1 - Engraving is useful for marking material for hand cutting.
-
-## Thin fleece to cut through just support material on back. NOTE TEST on you material, fluffy side down
-* Cut: speed 180, power 14, passes 1
-
-## Foamboard (stuff Rob has) [link](http://www.artdiscount.co.uk/paper-board/board/foam-board/white-foam-board-5mm.html)
-Still a bit sketchy on long curves for some reason, where the head goes slower than it should / does on straights.
-* score: speed 250, power 18/14, passes 1
-* half: speed 130, power 28/24, passes 1
-* cut: speed 100, power 42/40, passes 1
-
-## Simon's 10mm packaging foam (velvet facing)
-* cut: speed 20, power 20, passes 1
-
-## 3mm Plywood
-* cut: speed 20, power 50/45, total kerf 0.2mm (use offset of 0.1)
-* engrave: speed 200, power 20, bidir = 0
-
-## 1.5mm Plywood
-* cut: speed 20, power 28/26
-
-## 1/16th Balsa Wood Sheet
-* cut:  speed 150, power 24/18
-* mark: speed 250, power 12/12 (for writing on surface, etc)
-
-## 3mm Acrylic
-
-Clear material absorbs less laser, so needs marginally higher power settings.
-
-NOTE: Remove protective film once laser is focused.
-
-* cut (solid colours): speed 20, power 60/55
-* cut (transparent/translucent): speed 15, power 70/65
-* engrave: speed 200, power 15
-
-## 6mm acrylic (clear)
-*cut (transparent): speed 4, power 60/55
-
-NOTE: 6mm acrylic in space Very smelly and antisocial, cut when no one around!
-
-## Leather (4mm) - Veg tanned
-
-It's best to cover the leather in masking tape as this will reduce the surface burning.
-
-* cut: speed 4, power 30/30
-* engrave: speed 150, power 20 (very shallow) - (try 30 for a bit deeper)
+## Engrave Settings
+| Material | Speed (mm/s) | Power (%) | Passes | Note |
+| -------- | ------------ | --------- | ------ | ---- |
+| Red cotton | 250 | 18 | 1 | |
+| Black mesh | 250 | 13 | 1 | |
+| Rubbery material | 250 | 15 | 1 | |
+| Card 250gsm | 400 | 14 | 1 | |
+| Cardboard, Single Wall, 4mm | 250 | 15 | 1 | |
+| Fleece, support material only | 300 | 13 | 1 | Test first, fluffy side down |
+| Plywood 3mm | 200 | 20 | 1 | | 
+| Acrylic, 3mm | 200 | 15 | 1 | |
+| Leather, 4mm | 150 | 20 | 1 | MUST BE REAL LEATHER! Cover with masking tape to reduce burning |
 
 ![Cutting and Engraving examples](https://github.com/swindonmakers/documentation/blob/master/20170906_210624.jpg?raw=true)
 ![Cross cut of leather](https://github.com/swindonmakers/documentation/blob/master/20170906_210646.jpg?raw=true)
