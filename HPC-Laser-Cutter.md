@@ -1,5 +1,15 @@
 The [HPC LS6840](http://hpclaser.co.uk/index.php?main_page=product_info&cPath=1&products_id=38) laser cutter was obtained by free loan agreement from [Reprap LTD](https://reprapltd.com/) in October 2016. A condition of this loan agreement is that a notice of the free loan will be displayed on the laser at all times, therefore this notice MUST NOT be removed.
 
+| Contents |
+| --- |
+| [Designing for the Laser](#designing-for-the-laser) |
+| ***   [Tabbed Box Maker](#tabbed-box-maker) |
+| [Preparing your file](#preparing-your-file) |
+| [Using the cutter](#using-the-cutter) |
+| [Settings](#settings) |
+| [Maintenance](#maintenance) |
+
+
 # Designing for the Laser
 
 The best format for the LaserCut 5.3 software to import is a .dxf file (R14, if multiple options are available). This can be generated using many different design programs, but the recommended option is Inkscape (available for free download from https://inkscape.org/en/).
