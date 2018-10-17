@@ -4,7 +4,7 @@ This is an FDM printer. It takes 3mm/2.85mm filament, PLA is generally used. The
 
 The [Octoprint](http://192.168.1.12/) for it (only reachable on the internal space network/wifi).
 
-Cura profile (for flexible filament): [[http://inside.swindon-makerspace.org/WanhaoFFX.ini]]
+Cura profile (for flexible filament): [[http://inside.swindon-makerspace.org/pla_new_working.profile]]
 
 ### Changing filament
 
