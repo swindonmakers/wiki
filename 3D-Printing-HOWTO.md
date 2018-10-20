@@ -29,8 +29,8 @@ To get started in 3D printing, you can look for models that other people have al
 ### Summary
 
 - Find and download (see above), or make (see below), an .stl file of the model you wish to print.
-- Slice the model, this creates a .gcode (or .gco) file of the same model, using commands specific to the printer you wish to print on
-- Send the file to the printer, use the "Upload" button on Octoprint.
+- Slice the model, this creates a .gcode (or .gco) file of the same model, using commands specific to the printer you wish to print on, save the .gcode file to your computer.
+- Send the file to the printer, using the "Upload" button on Octoprint.
 - Load the filament you want, ensure the printer bed is clear and freshly sprayed with hair spray (yes really!)
 - Choose the uploaded file, then hit the "Print" button on Octoprint
 - Watch closely to ensure the first few layers are printed correctly
