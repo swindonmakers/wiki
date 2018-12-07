@@ -43,6 +43,21 @@ The Tool Control system is built around an Arduino Uno. The LCD Display requires
 
 ## LCD
 
+| LCD Pin | Destination | Use |
+| ------------- | ------------- | ------------- |
+| VSS | Ground Terminal Block | Ground |
+| VDD | +5V Terminal Block | Power |
+| V0 | Ground Terminal Block | Contrast |
+| RS | Arduino Pin 2 | Register Select |
+| R/W | Ground Terminal Block | Read/Write Signal |
+| E | Arduino Pin 3 | Enable Signal |
+| DB4 | Arduino Pin A0 | Data Pin |
+| DB5 | Arduino Pin A1 | Data Pin |
+| DB6 | Arduino Pin A2 | Data Pin |
+| DB7 | Arduino Pin A3 | Data Pin |
+| A | +5V Terminal Block | Backlight Power |
+| K | Ground Terminal Block | Backlight Ground |
+
 # How it works
 
 [[TBC]]
