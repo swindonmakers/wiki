@@ -6,7 +6,7 @@ The [HPC LS6840](http://hpclaser.co.uk/index.php?main_page=product_info&cPath=1&
 | ***   [Tabbed Box Maker](#tabbed-box-maker) |
 | [Preparing your file](#preparing-your-file) |
 | [Using the cutter](#using-the-cutter) |
-| [What you can't Cut](#what-you-cant-cut) |
+| [What you can't Cut](#what-you-can-not-cut) |
 | [Settings](#settings) |
 | [Maintenance](#maintenance) |
 
@@ -115,6 +115,10 @@ Speed is measured in mm/s. There are two speeds listed -- "speed" and "corner sp
 * Cut!
 
     Close the laser lid, and press the "Start/Pause" button
+
+# What you can not cut
+
+
 
 # Changing the water
 
