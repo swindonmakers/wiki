@@ -6,6 +6,7 @@ The [HPC LS6840](http://hpclaser.co.uk/index.php?main_page=product_info&cPath=1&
 | ***   [Tabbed Box Maker](#tabbed-box-maker) |
 | [Preparing your file](#preparing-your-file) |
 | [Using the cutter](#using-the-cutter) |
+| [What you can't Cut](#what-you-cant-cut) |
 | [Settings](#settings) |
 | [Maintenance](#maintenance) |
 
