@@ -118,7 +118,7 @@ Speed is measured in mm/s. There are two speeds listed -- "speed" and "corner sp
 
 # What you can not cut
 
-
+    To see what you can and can not cut go [here](https://goo.gl/xDYn4T)
 
 # Changing the water
 
