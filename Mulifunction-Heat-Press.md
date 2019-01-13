@@ -1,5 +1,7 @@
 This multifunctional 5 in 1 heat press machine can transfer photos or text onto cotton, fibre, metal, ceramic, glass and other materials through thermal transfer.
 
+[Main document about use - maintained on Google Drive](https://drive.google.com/file/d/1fDQqWHGEJ8UmhO1nPdquTbKyhGeA_HGN/view?usp=sharing)
+
 ### Component Parts
 
 * 12" x 15" heat platen for transferring onto T-shirts, Fabric etc
