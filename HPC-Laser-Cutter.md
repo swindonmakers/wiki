@@ -145,25 +145,28 @@ Website of useful settings for different materials (you will need to test and tr
 Rolls of fabric - @TheOrbTwo
 
 ## Cut Settings
-| Material | Speed (mm/s) | Power (%) | Passes | Note |
-| -------- | ------------ | --------- | ------ | ---- |
-| Red cotton | 200 | 30 | 1 | | 
-| Black mesh | 200 | 16 | 1-2 | | 
-| Rubbery material | <250 | 45 | 1 | |
-| Card, 250gsm | 320 | 17 | 1 | |
-| Cardboard, Single Wall, 4mm | 50 | 30 | 1 | |
-| Fleece, support material only | 250 | 14 | 1-2 | Test first, fluffy side down |
-| Thin fleece, support material only | 180 | 14 | 1 | Test first, fluffy side down |
-| Foamboard, 5mm | 100 | 42 | 1 | To cut all the way through |
-| Foamboard, 5mm | 130 | 28 | 1 | To cut half way through | 
-| Foamboard, 5mm | 250 | 18 | 1 | To score |
-| Plywood, 3mm | 20 | 50 | 1 | |
-| Plywood, 1.5mm | 20 | 28 | 1 | |
-| Balsa, 1/16th | 150 | 24 | 1 | |
-| Acrylic, 3mm, Clear | 15 | 65 | 1 | |
-| Acrylic, 3mm, Colour | 20 | 65 | 1 | |
-| Acrylic, 6mm, Clear | 4 | 65 | 1 | |
-| Leather, 4mm | 4 | 30 | 1 | MUST BE REAL LEATHER! Cover with masking tape to reduce burning |
+| Material | Speed (mm/s) | Power (%) | Corner Power | Passes | Note |
+| -------- | ------------ | --------- | ------------ | ------ | ---- |
+| Red cotton | 200 | 30 | | 1 | | 
+| Black mesh | 200 | 16 | | 1-2 | | 
+| Rubbery material | <250 | 45 | | 1 | |
+| Card, 250gsm | 320 | 17 | | 1 | |
+| Cardboard, Single Wall, 4mm | 50 | 30 | | 1 | |
+| Fleece, support material only | 250 | 14 | | 1-2 | Test first, fluffy side down |
+| Thin fleece, support material only | 180 | 14 | | 1 | Test first, fluffy side down |
+| Foamboard, 5mm | 100 | 42 | | 1 | To cut all the way through |
+| Foamboard, 5mm | 130 | 28 | | 1 | To cut half way through | 
+| Foamboard, 5mm | 250 | 18 | | 1 | To score |
+| Flite test waterproof Foamboard | 90 | 44 | 42 | 1 | Full cut |
+| Flite test waterproof Foamboard | 130 | 26 | 24 | 1 | 1/2 cut |
+| Flite test waterproof Foamboard | 250 | 16 | 14 | 1 | Mark surface |
+| Plywood, 3mm | 20 | 50 | | 1 | |
+| Plywood, 1.5mm | 20 | 28 | | 1 | |
+| Balsa, 1/16th | 150 | 24 | | 1 | |
+| Acrylic, 3mm, Clear | 15 | 65 | | 1 | |
+| Acrylic, 3mm, Colour | 20 | 65 | | 1 | |
+| Acrylic, 6mm, Clear | 4 | 65 | | 1 | |
+| Leather, 4mm | 4 | 30 | | 1 | MUST BE REAL LEATHER! Cover with masking tape to reduce burning |
 
 ## Engrave Settings
 | Material | Speed (mm/s) | Power (%) | Passes | Note |
