@@ -1,3 +1,5 @@
+**As of the end of 2018, The Cyclone was dismantled due to lack of use and the Proxxon being better at doing PCBs.**
+
 Mal donated an almost-working [Cyclone PCB Milling Machine](http://reprap.org/wiki/Cyclone_PCB_Factory), which has since been made to work!
 
 # Step By Step Guides
