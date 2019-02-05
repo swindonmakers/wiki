@@ -14,8 +14,6 @@ The Makerspace has a growing collection of equipment - some items even have thei
 
 - [[HPC Laser Cutter]]
 
-- [[Cyclone PCB Milling Machine]]
-
 - [[Proxxon Cnc Mill]]
 
 # General
