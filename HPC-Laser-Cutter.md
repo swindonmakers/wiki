@@ -3,7 +3,6 @@ The [HPC LS6840](http://hpclaser.co.uk/index.php?main_page=product_info&cPath=1&
 | Contents |
 | --- |
 | [Designing for the Laser](#designing-for-the-laser) |
-| [Preparing your file](#preparing-your-file) |
 | [Using the cutter](#using-the-cutter) |
 | [What you can and can not Cut](#what-you-can-and-can-not-cut) |
 | [Settings](#settings) |
@@ -15,8 +14,6 @@ The [HPC LS6840](http://hpclaser.co.uk/index.php?main_page=product_info&cPath=1&
 The best format for the LaserCut 5.3 software to import is a .dxf file (R14, if multiple options are available). This can be generated using many different design programs, but the recommended option is Inkscape (available for free download from https://inkscape.org/en/).
 
 Specific tips / processes can be found on this page: [[Designing for the Laser Cutter]]
-
-# Preparing your file
 
 # Using the cutter:
 
