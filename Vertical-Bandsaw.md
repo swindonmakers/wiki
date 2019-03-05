@@ -1,4 +1,4 @@
-Owner: Joe Earlam/Space (when pledges collected).
+Owner: Space
 
 Maintainer: Joe Earlam (ask for inductions).
 
