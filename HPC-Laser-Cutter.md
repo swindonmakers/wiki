@@ -128,6 +128,7 @@ Rolls of fabric - @TheOrbTwo
 | Acrylic, 3mm, Colour | 20 | 65 | | 1 | |
 | Acrylic, 6mm, Clear | 4 | 65 | | 1 | |
 | Leather, 4mm | 4 | 30 | | 1 | MUST BE REAL LEATHER! Cover with masking tape to reduce burning |
+| Felt, 8mm, 100% wool, dense | 7 | 65 | 70 | 1 | full cut |
 
 ## Engrave Settings
 | Material | Speed (mm/s) | Power (%) | Passes | Note |
