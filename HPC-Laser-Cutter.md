@@ -118,8 +118,8 @@ Rolls of fabric - @TheOrbTwo
 | Foamboard, 5mm | 100 | 42 | | 1 | To cut all the way through |
 | Foamboard, 5mm | 130 | 28 | | 1 | To cut half way through | 
 | Foamboard, 5mm | 250 | 18 | | 1 | To score |
-| Flite test waterproof Foamboard | 90 | 44 | 42 | 1 | Full cut |
-| Flite test waterproof Foamboard | 130 | 26 | 24 | 1 | 1/2 cut |
+| Flite test waterproof Foamboard | 120 | 44 | 36 | 1 | Full cut |
+| Flite test waterproof Foamboard | 160 | 26 | 24 | 1 | 1/2 cut |
 | Flite test waterproof Foamboard | 250 | 16 | 14 | 1 | Mark surface |
 | Plywood, 3mm | 20 | 50 | | 1 | |
 | Plywood, 1.5mm | 20 | 28 | | 1 | |
