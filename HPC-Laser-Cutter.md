@@ -124,7 +124,7 @@ Rolls of fabric - @TheOrbTwo
 | Plywood, 3mm | 20 | 50 | | 1 | |
 | Plywood, 1.5mm | 20 | 28 | | 1 | |
 | Balsa, 1/16th | 150 | 24 | | 1 | |
-| Acrylic, 3mm, Clear | 15 | 65 | | 1 | |
+| Polypropylene, 1mm | 15 | 30 | | 1 | |
 | Acrylic, 3mm, Colour | 20 | 65 | | 1 | |
 | Acrylic, 6mm, Clear | 4 | 65 | | 1 | |
 | Leather, 4mm | 4 | 30 | | 1 | MUST BE REAL LEATHER! Cover with masking tape to reduce burning |
