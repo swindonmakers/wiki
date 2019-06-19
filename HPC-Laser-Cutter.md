@@ -15,7 +15,8 @@ The best format for the LaserCut 5.3 software to import is a .dxf file (R14, if 
 
 Specific tips / processes can be found on this page: [[Designing for the Laser Cutter]]
 
-#Font selection
+*#Font selection:*
+
 I have added fonts to the laptop including Pacifico, Waltograph and Waltograph UI.
 The PACIFICO font gives joined up script writing - usefull when laser cutting nice text.
 
