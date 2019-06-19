@@ -146,5 +146,23 @@ Rolls of fabric - @TheOrbTwo
 ![Cutting and Engraving examples](https://github.com/swindonmakers/documentation/blob/master/20170906_210624.jpg?raw=true)
 ![Cross cut of leather](https://github.com/swindonmakers/documentation/blob/master/20170906_210646.jpg?raw=true)
 
+#Font selection.
+I have added fonts to the laptop including Pacifico, Waltograph and Waltograph UI.
+The PACIFICO font gives joined up script writing - usefull when laser cutting nice text.
+
+Waltograph (& UI) are DISNEY FONTS. The font is of the Disney typeface.
+
+In order to use the script font correctly, use CAMBAM. installed on the laser laptop.
+
+Open CAMBAM. With the window open, displaying the black screen with green cross, click the T in the menu bar at the top.
+This opens the TEXT input. Select the font you wish to use and size 36 - this is adjusted later. Type the words you want to use.
+Click OK. You will then be prompted to locate the text in the design. Useful if using the drawing tools to design a shape.
+Click where you want to put the text. 
+When using SCRIPT text, you will need to unite all letters to form a single continual line. Do this by HIGHLIGHTING ALL THE TEXT and press Control + U to unite all the lines. Do this when using PACIFICO. 
+
+When completing your design go to File-> Export-> DXF. 
+Save the file in a useful location, and then open Lasercut5.x and import your dxf file. 
+Use the scale tool to get the text to the correct size you want.
+
 # Details
 For details on the actual equipment, see the [[HPC Laser Cutter Internals]] page
