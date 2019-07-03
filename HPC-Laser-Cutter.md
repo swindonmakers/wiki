@@ -140,6 +140,7 @@ Rolls of fabric - @TheOrbTwo
 | Flite test waterproof Foamboard | 120 | 44 | 36 | 1 | Full cut |
 | Flite test waterproof Foamboard | 160 | 26 | 24 | 1 | 1/2 cut |
 | Flite test waterproof Foamboard | 250 | 16 | 14 | 1 | Mark surface |
+| Plywood, 6mm | 8 | 75 | | 1 | |
 | Plywood, 3mm | 20 | 50 | | 1 | |
 | Plywood, 1.5mm | 20 | 28 | | 1 | |
 | Balsa, 1/16th | 150 | 24 | | 1 | |
