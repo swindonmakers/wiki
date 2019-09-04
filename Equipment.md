@@ -50,4 +50,7 @@ Looking for consumables to use with our equipment? Try the [[Consumables]] list.
 
 - [[Mulifunction Heat Press]]
 
+- [[Cameo Silhouette Vinyl Cutter]]
+
+
 
