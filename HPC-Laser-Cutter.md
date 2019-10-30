@@ -1,5 +1,7 @@
 The [HPC LS6840](http://hpclaser.co.uk/index.php?main_page=product_info&cPath=1&products_id=38) laser cutter was obtained by free loan agreement from [Reprap LTD](https://reprapltd.com/) in October 2016. A condition of this loan agreement is that a notice of the free loan will be displayed on the laser at all times, therefore this notice MUST NOT be removed.
 
+Work area: 680 x 400mm
+
 | Contents |
 | --- |
 | [Designing for the Laser](#designing-for-the-laser) |
@@ -117,11 +119,6 @@ To see what you can and can not cut go here [http://atxhackerspace.org/wiki/Lase
 
 **Note: The lens has been replaced as of 06/06/2018. Cutting efficiency is markedly better than before, so test your cut settings first! If you find you can cut just as well with a lower power, please update the wiki to reflect the new settings.**
 
-Work area: 680 x 400mm
-
-Website of useful settings for different materials (you will need to test and trial some settings first to be sure)
-[Bosslaser Laser Settings](https://www.bosslaser.com/laser-settings)
-
 Rolls of fabric - @TheOrbTwo
 
 ## Cut Settings
@@ -165,6 +162,8 @@ Rolls of fabric - @TheOrbTwo
 
 ![Cutting and Engraving examples](https://github.com/swindonmakers/documentation/blob/master/20170906_210624.jpg?raw=true)
 ![Cross cut of leather](https://github.com/swindonmakers/documentation/blob/master/20170906_210646.jpg?raw=true)
+
+See also: Website of useful settings for different materials (you will need to test and trial some settings first to be sure) [Bosslaser Laser Settings](https://www.bosslaser.com/laser-settings) - if details from here are tested and proven to be useful, please add to the table above.
 
 
 # Details
