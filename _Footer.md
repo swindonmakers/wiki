@@ -1,7 +1,7 @@
 [Website] • [Forum] • [Twitter] / [Facebook] • [YouTube] • [Flickr] • [Github] • [Thingiverse]
 
 [Website]: http://swindon.hackspace.org.uk/
-[Forum]: https://forum.swindon-makerspaceo.org
+[Forum]: https://forum.swindon-makerspace.org
 [Twitter]: http://twitter.com/snhack
 [YouTube]: http://www.youtube.com/user/snhackspace
 [Flickr]: https://www.flickr.com/groups/swindon-hackspace/
