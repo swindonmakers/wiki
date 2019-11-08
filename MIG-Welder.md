@@ -1,8 +1,6 @@
 Owner: Steve Wood
 
-Maintainer: Steve Wood/Joe Earlam
-
-The MIG welder requires induction. Speak to Joe Earlam for induction.
+The MIG welder requires induction. Speak to the metalwork team for induction.
 
 The MIG welder is like a hot glue gun but for metal. It is currently set up for gassless operation, using 0.8mm flux core wire such as [this wire](https://www.toolstation.com/shop/p13760) from Toolstation. Flux core wire is simpler to use than standard wire with gas, but requires more clean-up due to spatter.
 
