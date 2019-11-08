@@ -16,22 +16,22 @@ Safety
 
 Safety glasses and hearing protection are required for this machine. Long hair should be tied back and sleeves rolled up as they may catch in the blade.
 
-Attach the dust extraction machine (scheppach) to the T pipe on the back. There ahould be a tube from it to a guard over the main blade.
+Do not lean over blade when it is running.
 
-Do not lean over blade when running.
-
-Do not push work piece near blade with hands, use a stick.
+Do not push work piece near blade with your hands, use a stick.
 
 Use
 ===
 
-Move the machine so that you have room to catch your enture piev=ce of wood off the back of the machine. If its a large board do not operate alone.
+Move the machine so that you have room to catch your entire piece of wood off the back of the machine. If its a large board do not operate alone.
+
+Attach the dust extraction machine (scheppach) to the T pipe on the back. There ahould be a tube from it to a guard over the main blade.
 
 Adjust the cut width by unlocking the lever on the right hand side, moving the fence using the dial on the front (not by hand!), and relocking the lever.
 
 Use the large wheel on the front to change the blade height to be just taller than the wood to cut (a tooth showing).
 
-If required the whole table can be angled by unlocking the lever behind the wheel  and pushing the table, relock when done.
+If required the whole blade can be angled by unlocking the lever behind the wheel and pushing the lever, relock when done.
 
 Make sure you have a pusher stick to push your workpiece past the blade.
 
@@ -44,9 +44,9 @@ Return to Default state
 
 Blade should be vertical.
 
-Blade shouls be retracted under bed.
+Blade should be retracted under bed.
 
-Fence should be would in ao that it ia over the bed (minimum width for storage).
+Fence should be wound in so that it is over the bed (minimum width for storage).
 
 Unplug and wrap power cable onto machine.
 
