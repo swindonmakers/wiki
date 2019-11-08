@@ -6,6 +6,11 @@ The table saw requires induction. See Inductors list
 
 The table saw is used for long, straight cuts to wood and plastic. It may be capable of cutting thin aluminium, but this has not been tried yet. It requires dust extraction using the portable dust extraction unit (blue barrel with long hose attached).
 
+Consumables
+===========
+
+Blades, if we have spares they will be in the blue box labeled "spares" in the workshop.
+
 Safety
 ======
 
