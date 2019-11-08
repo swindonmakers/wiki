@@ -33,3 +33,18 @@ Make sure you have a pusher stick to push your workpiece past the blade.
 Push your entire work piece past the blade, so that it is no longer touching the blade, before turning off.
 
 Do not stand in front of the machine with loose pieces of wood right of the blade, as the spinning blade may fire them into you.
+
+Return to Default state
+=======================
+
+Blade should be vertical.
+
+Blade shouls be retracted under bed.
+
+Fence should be would in ao that it ia over the bed (minimum width for storage).
+
+Unplug and wrap power cable onto machine.
+
+Check if extractor needs emptying, if so empty into a black bag (found under kitchen sink).
+
+Return machine to edge of workshop.
