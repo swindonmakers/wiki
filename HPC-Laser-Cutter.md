@@ -140,7 +140,9 @@ Rolls of fabric - @TheOrbTwo
 | Plywood, 6mm | 8 | 75 | | 1 | |
 | Plywood, 3mm | 20 | 50 | | 1 | |
 | Plywood, 1.5mm | 20 | 28 | | 1 | |
-| Balsa, 1/16th | 150 | 24 | | 1 | |
+| Balsa | 250 | 14 | 12 | 1 | Mark surface |
+| Balsa, 1.6mm (1/16th) | 110 | 24 | 24 | 1 | Cut |
+| Balsa, 3mm | 40 | 50 | 50 | 1 | Cut |
 | Polypropylene, 1mm | 15 | 30 | | 1 | |
 | Acrylic, 3mm, Colour | 20 | 65 | | 1 | |
 | Acrylic, 6mm, Clear | 4 | 65 | | 1 | |
