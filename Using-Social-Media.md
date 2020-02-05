@@ -1,8 +1,7 @@
-> _todo: Add some examples, remove some verbosity._
 
 The makerspace uses various services to share makerspace information, news, and media.  While longer project posts on the [main website][Swindon Makerspace], don't let that deter you from sharing smaller amounts of text, pictures, and video.
 
-This page aims to document the makerspace's web presence on various services, and also serves as a guide for where certain types of media are best posted.  Rule 1 however, is that there are no rules (just joking, there's a crazy amount of rules, seriously).
+This page aims to document the makerspace's web presence on various services, and also serves as a guide for where certain types of media are best posted.
 
 <!-- Note: gollum's [[_TOC_]] tag doesn't seem to work here. :( -->
 
@@ -11,6 +10,11 @@ This page aims to document the makerspace's web presence on various services, an
 - [Google Group](#google-group)
 - [Github](#github)
 - [Thingiverse](#thingiverse)
+
+
+#### [Forum]
+
+The [Forum] is an area for members to share ideas, discuss makerspace issues, and find help on projects, etc.  You're welcome to post questions or news on your own projects here.
 
 
 #### [Twitter] and [Facebook]
@@ -29,15 +33,6 @@ Examples: makerspace [evenings], [events], [donations], [members], [posts], [pri
 Pictures are submitted by members into the [Swindon Makerspace Flickr Group][Flickr], while videos are posted from the [Swindon Makerspacespace YouTube Account][YouTube Playlist] (either directly, or via member's who have been nominated as "managers").  There's also a [YouTube Playlist] for videos posted by makerspace members, similar to a flickr group, kinda, only not.
 
 Integration: Recent videos and pics are not currently integrated into the main website, although that is planned for a future upgrade.
-
-<!-- Please add some awesome examples here -->
-
-
-#### [Google Group]
-
-The [makerspace group][Google Group] is the main forum online for members to share ideas, discuss makerspace issues, and find help on projects, etc.  New or potential members may also use the forum for general enquiries and introductions.
-
-You're welcome to post news on your own projects here - especially to invite further discussion - but please consider using twitter (and mentioning [@swindonmakers]) for one-off links, pictures, and other media.
 
 <!-- Please add some awesome examples here -->
 
@@ -63,11 +58,15 @@ Integration: No integration into the main website as yet, look into including th
 
 <!-- Please add some awesome examples here -->
 
+#### [Google Group]
+
+The [makerspace group][Google Group] is no longer used, but the information remains there for archive
+
 
 
 
 [Swindon Makerspace]: https://www.swindon-makerspace.org/
-[Google Group]: https://groups.google.com/group/swindon-makerspace
+[Forum]: https://forum.swindon-makerspace.org/
 [Twitter]: https://twitter.com/swindonmakers
 [@snhack]: https://twitter.com/swindonmakers
 [YouTube]: https://www.youtube.com/user/snmakerspace
@@ -76,6 +75,7 @@ Integration: No integration into the main website as yet, look into including th
 [Facebook]: https://www.facebook.com/swindon.makerspace
 [Github]: https://github.com/swindonmakers
 [Thingiverse]: https://www.thingiverse.com/Swindon-Makerspace/about
+[Google Group]: https://groups.google.com/group/swindon-makerspace
 [group rss]: https://groups.google.com/forum/feed/swindon-makerspace/topics/rss_v2_0.xml
 
 
