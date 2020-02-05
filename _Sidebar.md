@@ -1,21 +1,20 @@
-###### [[Home]]
+### [[Home]]
 
 [Contacts](http://www.swindon-makerspace.org/contact/)
 
 
-###### Makerspace
+### Makerspace
 
 [[Equipment]]  
 
-###### [[Makerspace Events]]
+### Makerspace Events
 [[Exhibitions and Field Trips]]
 [[OpenSCAD Training]]  
 [[Arduino Workshop]]
 
-###### Projects
+### Projects
 
 [[LogoBot]] • 
-[[Pen Plotter]] • 
 [[3D Printers]] • 
 [[Heathkit Hero]] • 
 [[RobotArm]] • 
@@ -27,27 +26,22 @@
 
 <!-- footer links -->
 
-###### [[Web Presence|Using-Social-Media]]
+### [[Web Presence|Using-Social-Media]]
 
-[twitter] • [group][Google Group] • [flickr] • [thingiverse][]  
-[web][Website] • [github] • [youtube] • [facebook]
+[Website] •
+[Forum] • 
+[Twitter] • 
+[Facebook] •
+[YouTube] • 
+[Flickr] • 
+[GitHub] • 
+[Thingiverse] 
 
-[Website]: http://www.swindon-makerspace.org/
-[Google Group]: http://groups.google.com/group/swindon-makerspace
+[Website]: https://www.swindon-makerspace.org/
+[Forum]: https://forum.swindon-makerspace.org/
+[GitHub]: https://github.com/swindonmakers
 [Twitter]: https://twitter.com/swindonmakers
 [YouTube]: http://www.youtube.com/user/snhackspace
 [Flickr]: https://www.flickr.com/groups/swindon-hackspace/
 [Facebook]: https://www.facebook.com/swindon.makerspace
-[Github]: https://github.com/swindonmakers
-[Thingiverse]: http://www.thingiverse.com/Swindon-Makerspace
-
-<!--
-[`web`][web]
-[`group`][Google Group]
-[`twitter`][Twitter]
-[`flickr`][Flickr]
-[`youtube`][YouTube]
-[`fbook`][Facebook]
-[`thingiverse`][Thingiverse]
-[`github`][Github]
--->
+[Thingiverse]: https://www.thingiverse.com/Swindon-Makerspace/about

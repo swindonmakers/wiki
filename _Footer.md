@@ -1,32 +1,17 @@
-[Website] • [Forum] • [Twitter] / [Facebook] • [YouTube] • [Flickr] • [Github] • [Thingiverse]
+[Website] •
+[Forum] • 
+[Twitter] • 
+[Facebook] •
+[YouTube] • 
+[Flickr] • 
+[GitHub] • 
+[Thingiverse] 
 
-[Website]: http://swindon.hackspace.org.uk/
-[Forum]: https://forum.swindon-makerspace.org
-[Twitter]: http://twitter.com/snhack
+[Website]: https://www.swindon-makerspace.org/
+[Forum]: https://forum.swindon-makerspace.org/
+[GitHub]: https://github.com/swindonmakers
+[Twitter]: https://twitter.com/swindonmakers
 [YouTube]: http://www.youtube.com/user/snhackspace
 [Flickr]: https://www.flickr.com/groups/swindon-hackspace/
-[Facebook]: https://www.facebook.com/swindon.hackspace
-[Github]: https://github.com/snhack
-[Thingiverse]: http://www.thingiverse.com/Swindon-Hackspace/
-
-
-
-<!--
-
-[`website`][Swindon Hackspace]
-[`google group`][Google Group]
-[`twitter`][Twitter]
-[`facebook`][Facebook]
-[`youtube`][YouTube]
-[`flickr`][Flickr]
-[`github`][Github]
-
-[Swindon Hackspace]: http://swindon.hackspace.org.uk/
-[Google Group]: http://groups.google.com/group/swindon-hackspace
-[Twitter]: http://twitter.com/snhack
-[YouTube]: http://www.youtube.com/user/snhackspace
-[Flickr]: https://www.flickr.com/groups/swindon-hackspace/
-[Facebook]: https://www.facebook.com/swindon.hackspace
-[Github]: https://github.com/snhack
-
--->
+[Facebook]: https://www.facebook.com/swindon.makerspace
+[Thingiverse]: https://www.thingiverse.com/Swindon-Makerspace/about
