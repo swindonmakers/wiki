@@ -5,12 +5,16 @@ This page aims to document the makerspace's web presence on various services, an
 
 <!-- Note: gollum's [[_TOC_]] tag doesn't seem to work here. :( -->
 
+- [Telegram Chat](#telegram-chat)
 - [Forum](#forum)
 - [Twitter and Facebook](#twitter-and-facebook)
 - [Flickr and YouTube](#flickr-and-youtube)
 - [Github](#github)
 - [Thingiverse](#thingiverse)
 
+#### [Telegram] Chat
+
+Telegram is the most active area for contacting other members or asking questions about anything related to the Makerspace.  There are a number of groups for various discussion topics, join the main [Telegram] group to get started.
 
 #### [Forum]
 
@@ -66,6 +70,7 @@ The [makerspace group][Google Group] is no longer used, but the information rema
 
 
 [Swindon Makerspace]: https://www.swindon-makerspace.org/
+[Telegram]: https://t.me/joinchat/A5Xbrj7rku0D-F3p8wAgtQ
 [Forum]: https://forum.swindon-makerspace.org/
 [Twitter]: https://twitter.com/swindonmakers
 [@snhack]: https://twitter.com/swindonmakers
