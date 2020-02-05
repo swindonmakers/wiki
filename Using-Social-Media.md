@@ -5,9 +5,9 @@ This page aims to document the makerspace's web presence on various services, an
 
 <!-- Note: gollum's [[_TOC_]] tag doesn't seem to work here. :( -->
 
+- [Forum](#forum)
 - [Twitter and Facebook](#twitter-and-facebook)
 - [Flickr and YouTube](#flickr-and-youtube)
-- [Google Group](#google-group)
 - [Github](#github)
 - [Thingiverse](#thingiverse)
 
