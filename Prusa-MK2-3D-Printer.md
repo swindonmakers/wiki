@@ -15,6 +15,11 @@ To change the filament:
 - feed the end into the top of the extruder, shove gently while using the "load filament" option on the printer screen; answer "no" until the colour changes coming out of the extruder.
 - use pliers or similar to remove the excess filament dribble
 
+### Maintenance
+
+[The Assembly Manual](https://manual.prusa3d.com/c/Original_Prusa_i3_MK2S_kit_assembly)
+[Prusa Farm Maint Tips](https://blog.prusaprinters.org/top-6-tips-original-prusa-i3-3d-printer-maintenance/)
+[Prusa 3D Maint List](https://help.prusa3d.com/article/sVQHD6vtfm-bearings-maintenance)
 
 ## General notes
 
