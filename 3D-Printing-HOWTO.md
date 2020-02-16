@@ -14,7 +14,7 @@ Several resources on the general principle, while reading please note that the M
 The Makerspace currently has three working 3D printers:
 
 - [[Prusa MK2 3D Printer]]
-- [[Wanhao Prusa i3 Printer]]
+- [[Wanhao Duplicator i3 Printer]]
 - [[Makerbot Replicator 2x Printer]]
 
 ## Finding models
