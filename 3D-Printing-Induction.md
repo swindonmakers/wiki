@@ -42,6 +42,10 @@ Repeat above until satisfied with the result - this may also include starting a 
 
 ## Now wait and watch!
 
-## Troubleshooting
+## See Also
 
-...
+* [[3D Printing HOWTO]]
+* [[3D Printing Troubleshooting]]
+* [[Prusa MK2 3D Printer]]
+* [[Wanhao Duplicator i3 Printer]]
+* [[Makerbot Replicator 2x Printer]]
