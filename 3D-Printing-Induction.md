@@ -1,5 +1,3 @@
-![Application Icon](images/3d-printer/3d-printing.png)
-
 (Will add images later)
 
 ## Mainly based on using the Prusa i3 MK2, the orange + black one
