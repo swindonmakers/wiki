@@ -34,7 +34,6 @@ Repeat above until satisfied with the result - this may also include starting a 
 
 * Turn on the printer and its Raspberry pi (2 power switches!)
 * Check the printer bed is clear and clean of old prints.
-* Spray a little hairspray on the bed.
 * Open the printer's [Octoprint](http://192.168.1.11) page in a browser.
 * *Connect* the printer using the button in Octoprint, if not connected.
 * *Upload* your .gcode file and wait for it to save and appear in the list.
