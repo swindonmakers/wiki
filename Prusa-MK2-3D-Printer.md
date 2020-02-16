@@ -17,9 +17,10 @@ To change the filament:
 
 ### Maintenance
 
-[The Assembly Manual](https://manual.prusa3d.com/c/Original_Prusa_i3_MK2S_kit_assembly)
-[Prusa Farm Maint Tips](https://blog.prusaprinters.org/top-6-tips-original-prusa-i3-3d-printer-maintenance/)
-[Prusa 3D Maint List](https://help.prusa3d.com/article/sVQHD6vtfm-bearings-maintenance)
+* [The Assembly Manual](https://manual.prusa3d.com/c/Original_Prusa_i3_MK2S_kit_assembly)
+* [Prusa Farm Maint Tips](https://blog.prusaprinters.org/top-6-tips-original-prusa-i3-3d-printer-maintenance/)
+* [Prusa 3D Maint List](https://help.prusa3d.com/article/sVQHD6vtfm-bearings-maintenance)
+* [Original intro video, somewhat outdated](https://www.youtube.com/watch?v=JqH41K2vq0g)
 
 ## General notes
 
