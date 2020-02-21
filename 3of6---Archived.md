@@ -1,9 +1,0 @@
-# ARCHIVED
-
-3 of 6 refers to the simplified decision making process for the Hackspace, primarily focused on committing funds for routine purchases. It requires that a discussion can only reach agreement, when held in a usual forum (weekly session, scheduled meeting, or online group), with at least 3 of the 6 core Hackspace members (Jamie, Rob, Steve, Jess, James and Damian) present.
-
-
-Note: the above does not exclude other members from taking part in such discussions.
-
-#### Origin
-See meeting minutes from [[Planning Organisation 2014 10 14]]
