@@ -9,7 +9,7 @@ Welcome to the Wiki for Swindon Makerspace.  Please use this wiki to share or re
 #### Makerspace
 
 - [[Equipment]]
-- [Software](https://github.com/swindonmakers/wiki/wiki/Software-typically-used)
+- [[Software]]
 
 #### [Projects](Makerspace-Projects)
 
