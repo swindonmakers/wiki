@@ -139,6 +139,7 @@ Rolls of fabric - @TheOrbTwo
 | Flite test waterproof Foamboard | 250 | 16 | 14 | 1 | Mark surface |
 | Plywood, 6mm | 8 | 75 | | 1 | |
 | Plywood, 3mm | 20 | 50 | | 1 | |
+| Plywood - Birch, 3mm | 15 | 50 | | 1 | |
 | Plywood, 1.5mm | 20 | 28 | | 1 | |
 | Balsa | 250 | 14 | 12 | 1 | Mark surface |
 | Balsa, 1.6mm (1/16th) | 110 | 24 | 24 | 1 | Cut |
