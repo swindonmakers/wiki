@@ -119,10 +119,6 @@ To see what you can and can not cut go here [http://atxhackerspace.org/wiki/Lase
 
 # Settings
 
-**Note: The lens has been replaced as of 06/06/2018. Cutting efficiency is markedly better than before, so test your cut settings first! If you find you can cut just as well with a lower power, please update the wiki to reflect the new settings.**
-
-Rolls of fabric - @TheOrbTwo
-
 ## Cut Settings
 | Material | Speed (mm/s) | Power (%) | Corner Power | Passes | Note |
 | -------- | ------------ | --------- | ------------ | ------ | ---- |
