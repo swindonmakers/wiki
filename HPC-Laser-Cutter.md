@@ -84,7 +84,9 @@ Speed is measured in mm/s. There are two speeds listed -- "speed" and "corner sp
 
 * Make sure the laser is focused
 
-    To make an ideal cut, the red dot of the laser head should be a single dot - all around the work piece. Hit ESC on the laser controls, remove your hands and other appendages from the work area, then press "Test" - this will move the laser head around the extreme edges of your workpiece. This shows you a) where the edges are and b) whether it is in focus everywhere. If it is not in focus at all, hit the Z button in the middle of the control pad, and then Up or Down to adjust - this *should* move in tiny increments.. if it doesn't - then someone needs to insert instructions here on how to change the increments.
+![Laser focus assist tool](https://i.imgur.com/OhgOvWJ.jpg)
+   
+    On the bench next to the laser should be some MDF focus assist tools shaped like the one in the above photo Take one, and hit ESC on the laser controls, remove your hands and other appendages from the work area, then press "Test" - this will move the laser head around the extreme edges of your workpiece. The laser head is in the correct position (calibrated for 3mm material) if the tool fits neatly between the head and workpiece as pictured. If there are gaps above or below, hit the Z button in the middle of the control pad, and then Up or Down to adjust - this *should* move in tiny increments.. if it doesn't - then someone needs to insert instructions here on how to change the increments.
 
     If the laser is focused in some places and not others, tape down or weigh down your material with something.. keep hitting "Test" to check, and also make sure your weights are outside of the cutting area!
 
