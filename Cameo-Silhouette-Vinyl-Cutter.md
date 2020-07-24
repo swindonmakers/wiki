@@ -36,3 +36,5 @@ Purchasing Vinyl.
 Generally comes in 1 to 1.5 meter length roughly £5
 
 Contrubtion works out at £1 per 20 cm length.
+
+Contact Nathaniel Poate (Roboteernat on telegram) to see if he can get you some vinyl in multiple colours, although delivery would be restricted to when passing through Swindon.
