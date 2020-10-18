@@ -1,6 +1,6 @@
 The [HPC LS6840](http://hpclaser.co.uk/index.php?main_page=product_info&cPath=1&products_id=38) laser cutter was obtained by free loan agreement from [Reprap LTD](https://reprapltd.com/) in October 2016. A condition of this loan agreement is that a notice of the free loan will be displayed on the laser at all times, therefore this notice MUST NOT be removed.
 
-Work area: 680 x 400mm
+Work area: **680 x 400mm**
 
 | Contents |
 | --- |
@@ -9,7 +9,10 @@ Work area: 680 x 400mm
 | [What you can and can not Cut](#what-you-can-and-can-not-cut) |
 | [Settings](#settings) |
 | [Maintenance](#maintenance) |
-| [Font selection](#Font selection) |
+| [Font selection](#Font-selection) |
+| [Useful Links](Userful-Links) |
+
+---
 
 # Designing for the Laser
 
@@ -165,6 +168,18 @@ To see what you can and can not cut go here [http://atxhackerspace.org/wiki/Lase
 ![Cross cut of leather](https://github.com/swindonmakers/documentation/blob/master/20170906_210646.jpg?raw=true)
 
 See also: Website of useful settings for different materials (you will need to test and trial some settings first to be sure) [Bosslaser Laser Settings](https://www.bosslaser.com/laser-settings) - if details from here are tested and proven to be useful, please add to the table above.
+
+# Useful Links
+
+### Box Designers
+
+* [BOXES.py](https://www.festi.info/boxes.py/)
+
+* [MakeABox.io](https://makeabox.io/)
+
+* [MakerCase](https://en.makercase.com/#/)
+
+* [Big list of box making programs](https://wiki.umiacs.umd.edu/sandbox/index.php/Laser_Box_Generator_Programs)
 
 
 # Details
