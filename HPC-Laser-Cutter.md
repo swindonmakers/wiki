@@ -10,7 +10,7 @@ Work area: **680 x 400mm**
 | [Settings](#settings) |
 | [Maintenance](#maintenance) |
 | [Font selection](#Font-selection) |
-| [Useful Links](Userful-Links) |
+| [Useful Links](Useful-Links) |
 
 ---
 
