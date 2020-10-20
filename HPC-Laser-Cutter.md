@@ -171,6 +171,11 @@ See also: Website of useful settings for different materials (you will need to t
 
 # Useful Links
 
+### Useful tools
+
+* [Deep Nest](https://deepnest.io/) - This tool will allow you to compact all parts you plan to cut to minimize material waste and optimize cutting paths.
+* [SVG Nest](https://svgnest.com/) - Similar program to **Deep Nest**
+
 ### Box Designers
 
 * [BOXES.py](https://www.festi.info/boxes.py/)
