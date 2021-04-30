@@ -3,6 +3,17 @@
 This is an FDM printer. It takes 1.75 filament, PLA is generally used. The bed is 200x200mm.
 
 The [Octoprint](http://192.168.1.11/) for it (only reachable on the internal space network/wifi).
+<details><summary>Octoprint Login Info</summary>
+<p>
+
+```
+Login: makerspace
+Password: makenow
+```
+
+</p>
+</details>
+
 
 Cura profile (for flexible filament): 
 
