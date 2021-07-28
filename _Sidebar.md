@@ -20,7 +20,6 @@
 [[RobotArm]] • 
 [[Teaching Binary]] • 
 [[Launchpad Display Driver]] • 
-[[Big Curvy LED Screen]] • 
 [[Twitter to Teletype]]
 
 
