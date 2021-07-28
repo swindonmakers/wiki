@@ -1,7 +1,7 @@
 name: Wiki backup
 on:
   schedule:
-    - cron:  '10 19 * * *'
+    - cron:  '30 19 * * *'
   gollum:
   
 jobs:
