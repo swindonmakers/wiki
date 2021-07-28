@@ -1,0 +1,19 @@
+name: Wiki backup
+on:
+  schedule:
+    - cron:  '35 18 * * *'
+  gollum:
+  
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get current date
+        id: date
+        # Week number and year 
+        run: echo "::set-output name=date::$(date +wk%U-%Y)"
+      - name: Backup wiki
+        uses: Mine02C4/auto_backup_wiki_action@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          target_branch: wiki-${{ steps.date.outputs.date }}
