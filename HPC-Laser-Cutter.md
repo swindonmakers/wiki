@@ -125,45 +125,45 @@ To see what you can and can not cut go here [http://atxhackerspace.org/wiki/Lase
 ## Cut Settings
 | Material | Speed (mm/s) | Power (%) | Corner Power | Passes | Note |
 | -------- | ------------ | --------- | ------------ | ------ | ---- |
-| Red cotton | 200 | 30 | | 1 | | 
-| Black mesh | 200 | 16 | | 1-2 | | 
-| Rubbery material | <250 | 45 | | 1 | |
-| Card, 250gsm | 320 | 17 | | 1 | |
-| Cardboard, Single Wall, 4mm | 50 | 30 | | 1 | |
-| Fleece, support material only | 250 | 14 | | 1-2 | Test first, fluffy side down |
-| Thin fleece, support material only | 180 | 14 | | 1 | Test first, fluffy side down |
-| Foamboard, 5mm | 100 | 42 | | 1 | To cut all the way through |
-| Foamboard, 5mm | 130 | 28 | | 1 | To cut half way through | 
-| Foamboard, 5mm | 250 | 18 | | 1 | To score |
-| Flite test waterproof Foamboard | 120 | 44 | 36 | 1 | Full cut |
-| Flite test waterproof Foamboard | 160 | 26 | 24 | 1 | 1/2 cut |
-| Flite test waterproof Foamboard | 250 | 16 | 14 | 1 | Mark surface |
-| Plywood, 6mm | 8 | 75 | | 1 | |
-| Plywood, 3mm | 20 | 50 | | 1 | |
-| Plywood - Birch, 3mm | 15 | 50 | | 1 | |
-| Plywood, 1.5mm | 20 | 28 | | 1 | |
+| Acrylic, 3mm, Clear | 10 | 65 | | 1 | |
+| Acrylic, 3mm, Colour | 20 | 65 | | 1 | |
+| Acrylic, 6mm, Clear | 4 | 65 | | 1 | |
 | Balsa | 250 | 14 | 12 | 1 | Mark surface |
 | Balsa, 1.6mm (1/16th) | 110 | 24 | 24 | 1 | Cut |
 | Balsa, 3mm | 40 | 50 | 50 | 1 | Cut |
-| Polypropylene, 1mm | 15 | 30 | | 1 | |
-| Acrylic, 3mm, Colour | 20 | 65 | | 1 | |
-| Acrylic, 3mm, Clear | 10 | 65 | | 1 | |
-| Acrylic, 6mm, Clear | 4 | 65 | | 1 | |
-| Leather, 4mm | 4 | 30 | | 1 | MUST BE REAL LEATHER! Cover with masking tape to reduce burning |
+| Black mesh | 200 | 16 | | 1-2 | | 
+| Card, 250gsm | 320 | 17 | | 1 | |
+| Cardboard, Single Wall, 4mm | 50 | 30 | | 1 | |
 | Felt, 8mm, 100% wool, dense | 7 | 65 | 70 | 1 | full cut |
+| Fleece, support material only | 250 | 14 | | 1-2 | Test first, fluffy side down |
+| Flite test waterproof Foamboard | 120 | 44 | 36 | 1 | Full cut |
+| Flite test waterproof Foamboard | 160 | 26 | 24 | 1 | 1/2 cut |
+| Flite test waterproof Foamboard | 250 | 16 | 14 | 1 | Mark surface |
+| Foamboard, 5mm | 100 | 42 | | 1 | To cut all the way through |
+| Foamboard, 5mm | 130 | 28 | | 1 | To cut half way through | 
+| Foamboard, 5mm | 250 | 18 | | 1 | To score |
+| Leather, 4mm | 4 | 30 | | 1 | MUST BE REAL LEATHER! Cover with masking tape to reduce burning |
+| Plywood - Birch, 3mm | 15 | 50 | | 1 | |
+| Plywood, 1.5mm | 20 | 28 | | 1 | |
+| Plywood, 3mm | 20 | 50 | | 1 | |
+| Plywood, 6mm | 8 | 75 | | 1 | |
+| Polypropylene, 1mm | 15 | 30 | | 1 | |
+| Red cotton | 200 | 30 | | 1 | | 
+| Rubbery material | <250 | 45 | | 1 | |
+| Thin fleece, support material only | 180 | 14 | | 1 | Test first, fluffy side down |
 
 ## Engrave Settings
 | Material | Speed (mm/s) | Power (%) | Passes | Note |
 | -------- | ------------ | --------- | ------ | ---- |
-| Red cotton | 250 | 18 | 1 | |
+| Acrylic, 3mm | 200 | 15 | 1 | |
 | Black mesh | 250 | 13 | 1 | |
-| Rubbery material | 250 | 15 | 1 | |
 | Card 250gsm | 400 | 14 | 1 | |
 | Cardboard, Single Wall, 4mm | 250 | 15 | 1 | |
 | Fleece, support material only | 300 | 13 | 1 | Test first, fluffy side down |
-| Plywood 3mm | 200 | 20 | 1 | | 
-| Acrylic, 3mm | 200 | 15 | 1 | |
 | Leather, 4mm | 150 | 20 | 1 | MUST BE REAL LEATHER! Cover with masking tape to reduce burning |
+| Plywood 3mm | 200 | 20 | 1 | | 
+| Red cotton | 250 | 18 | 1 | |
+| Rubbery material | 250 | 15 | 1 | |
 
 ![Cutting and Engraving examples](https://github.com/swindonmakers/documentation/blob/master/20170906_210624.jpg?raw=true)
 ![Cross cut of leather](https://github.com/swindonmakers/documentation/blob/master/20170906_210646.jpg?raw=true)
