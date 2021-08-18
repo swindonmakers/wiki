@@ -2,15 +2,20 @@ The [HPC LS6840](http://hpclaser.co.uk/index.php?main_page=product_info&cPath=1&
 
 Work area: **680 x 400mm**
 
-| Contents |
-| --- |
-| [Designing for the Laser](#designing-for-the-laser) |
-| [Using the cutter](#using-the-cutter) |
-| [What you can and can not Cut](#what-you-can-and-can-not-cut) |
-| [Settings](#settings) |
-| [Maintenance](#maintenance) |
-| [Font selection](#Font-selection) |
-| [Useful Links](#Useful-Links) |
+# Table of Contents
+
+- [Designing for the Laser](#designing-for-the-laser)
+- [Font selection:](#font-selection-)
+- [Using the cutter:](#using-the-cutter-)
+- [What you can and can not cut](#what-you-can-and-can-not-cut)
+- [Changing the water](#changing-the-water)
+- [Settings](#settings)
+  * [Cut Settings](#cut-settings)
+  * [Engrave Settings](#engrave-settings)
+- [Useful Links](#useful-links)
+    + [Useful tools](#useful-tools)
+    + [Box Designers](#box-designers)
+- [Details](#details)
 
 ---
 
