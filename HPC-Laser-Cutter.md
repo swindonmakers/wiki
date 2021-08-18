@@ -15,6 +15,7 @@ Work area: **680 x 400mm**
 - [Useful Links](#useful-links)
     + [Useful tools](#useful-tools)
     + [Box Designers](#box-designers)
+    + [Templates](#templates)
 - [Details](#details)
 
 ---
@@ -194,6 +195,8 @@ See also: Website of useful settings for different materials (you will need to t
 * [Big list of box making programs](https://wiki.umiacs.umd.edu/sandbox/index.php/Laser_Box_Generator_Programs)
 
 * [Box Designer](http://boxdesigner.frag-den-spatz.de/) Starts in German, there is an English button - Lots of options on this one. **THIS ONE IS PAY** 
+
+### Templates 
 
 * [LED Light box templates](https://www.fluid3dworkshop.co.uk/resources/templates) - LED acrylic edge lit signs.
 
