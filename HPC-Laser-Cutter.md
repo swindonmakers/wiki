@@ -195,7 +195,7 @@ See also: Website of useful settings for different materials (you will need to t
 
 * [Box Designer](http://boxdesigner.frag-den-spatz.de/) Starts in German, there is an English button - Lots of options on this one. **THIS ONE IS PAY** 
 
-* [LED Light box templates](https://www.fluid3dworkshop.co.uk/resources/templates) - LED signs cut from acrylic.
+* [LED Light box templates](https://www.fluid3dworkshop.co.uk/resources/templates) - LED acrylic edge lit signs.
 
 # Details
 For details on the actual equipment, see the [[HPC Laser Cutter Internals]] page
