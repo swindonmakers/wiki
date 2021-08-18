@@ -147,6 +147,7 @@ To see what you can and can not cut go here [http://atxhackerspace.org/wiki/Lase
 | Balsa, 3mm | 40 | 50 | 50 | 1 | Cut |
 | Polypropylene, 1mm | 15 | 30 | | 1 | |
 | Acrylic, 3mm, Colour | 20 | 65 | | 1 | |
+| Acrylic, 3mm, Clear | 10 | 65 | | 1 | |
 | Acrylic, 6mm, Clear | 4 | 65 | | 1 | |
 | Leather, 4mm | 4 | 30 | | 1 | MUST BE REAL LEATHER! Cover with masking tape to reduce burning |
 | Felt, 8mm, 100% wool, dense | 7 | 65 | 70 | 1 | full cut |
