@@ -45,6 +45,10 @@ When completing your design go to File-> Export-> DXF.
 Save the file in a useful location, and then open Lasercut5.x and import your dxf file. 
 Use the scale tool to get the text to the correct size you want.
 
+__NOTE 1:__ If you want to install fonts, download (and unzip if needed), right click on the font file (either TTF or OTF) and select `Install for all`. If this isn't done and you just double click on font to install through the GUI, not all apps can use that font.
+
+__NOTE 2:__ A good source for a huge source of fonts is [dafont.com](https://dafont.com)
+
 # Using the cutter:
 
 You will need your drawings in dxf format, and some way to transfer them to the computer by the cutter. USB flash drives are preferred for ease of use, but you can use dropbox or similar - remember to use private browsing so that your details aren't saved when you're finished.
