@@ -16,6 +16,7 @@ Work area: **680 x 400mm**
     + [Useful tools](#useful-tools)
     + [Box Designers](#box-designers)
     + [Templates](#templates)
+    + [Fonts](#fonts)
 - [Details](#details)
 
 ---
@@ -205,6 +206,12 @@ See also: Website of useful settings for different materials (you will need to t
 ### Templates 
 
 * [LED Light box templates](https://www.fluid3dworkshop.co.uk/resources/templates) - LED acrylic edge lit signs.
+
+### Fonts
+
+If you want to install fonts, `download` (and unzip if needed), `right click` on the font file (either TTF or OTF) and select `Install for all`. If this isn't done and you just double click on font to install through the GUI, not all apps can use that font.
+
+* [dafont.com](https://dafont.com) - Massive selection of free fonts
 
 # Details
 For details on the actual equipment, see the [[HPC Laser Cutter Internals]] page
