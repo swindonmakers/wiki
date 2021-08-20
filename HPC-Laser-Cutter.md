@@ -133,6 +133,7 @@ To see what you can and can not cut go here [http://atxhackerspace.org/wiki/Lase
 | -------- | ------------ | --------- | ------------ | ------ | ---- |
 | Acrylic, 3mm, Clear | 10 | 65 | | 1 | |
 | Acrylic, 3mm, Colour | 20 | 65 | | 1 | |
+| Acrylic, 4mm, Clear | 8 | 65 | | 1 | |
 | Acrylic, 6mm, Clear | 4 | 65 | | 1 | |
 | Balsa | 250 | 14 | 12 | 1 | Mark surface |
 | Balsa, 1.6mm (1/16th) | 110 | 24 | 24 | 1 | Cut |
@@ -162,6 +163,7 @@ To see what you can and can not cut go here [http://atxhackerspace.org/wiki/Lase
 | Material | Speed (mm/s) | Power (%) | Passes | Note |
 | -------- | ------------ | --------- | ------ | ---- |
 | Acrylic, 3mm | 200 | 15 | 1 | |
+| Acrylic, 4mm | 160 | 60 | 1 | Gives a nice depth, less power and more passes might be required depending on desired depth |
 | Black mesh | 250 | 13 | 1 | |
 | Card 250gsm | 400 | 14 | 1 | |
 | Cardboard, Single Wall, 4mm | 250 | 15 | 1 | |
