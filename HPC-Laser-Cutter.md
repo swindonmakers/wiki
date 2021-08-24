@@ -4,19 +4,20 @@ Work area: **680 x 400mm**
 
 # Table of Contents
 
+- [Table of Contents](#table-of-contents)
 - [Designing for the Laser](#designing-for-the-laser)
-- [Font selection:](#font-selection-)
-- [Using the cutter:](#using-the-cutter-)
+- [Font selection:](#font-selection)
+- [Using the cutter:](#using-the-cutter)
 - [What you can and can not cut](#what-you-can-and-can-not-cut)
 - [Changing the water](#changing-the-water)
 - [Settings](#settings)
-  * [Cut Settings](#cut-settings)
-  * [Engrave Settings](#engrave-settings)
+  - [Cut Settings](#cut-settings)
+  - [Engrave Settings](#engrave-settings)
 - [Useful Links](#useful-links)
-    + [Useful tools](#useful-tools)
-    + [Box Designers](#box-designers)
-    + [Templates](#templates)
-    + [Fonts](#fonts)
+    - [Useful tools](#useful-tools)
+    - [Box Designers](#box-designers)
+    - [Templates](#templates)
+    - [Fonts](#fonts)
 - [Details](#details)
 
 ---
@@ -68,7 +69,7 @@ Next, open the laser cutter software, which is named, imaginatively, "laser cut"
 
 * Specify how layers are treated.
 
-    In the top-right corner of the program, there is a list with some colour swatches in, which match the colours of the layers in your drawing. The laser will cut each layer in the order shown in the list, top to bottom - this can be changed by dragging and dropping the layers. For example, you should perform engraving and minor cuts before big cuts which will leave loose pieces. Each colour also has its own settings associated with them -- type, speed, and power. These should be set to match the material being worked on - the materials list below will give starting points, but note that similar looking materials can require different settings anyway -- for example, different densities of foamboard, even if they are the same thickness, or wood with or without knots in it. Power ranges from 10% (the laser will not fire below 10%) and 100%. **Generally it's helpful to perform some test operations before committing to a job to ensure that your settings are correct.**
+    In the top-right corner of the program, there is a list with some colour swatches in, which match the colours of the layers in your drawing. The laser will cut each layer in the order shown in the list, top to bottom - this can be changed by dragging and dropping the layers. For example, you should perform engraving and minor cuts before big cuts which will leave loose pieces. Each colour also has its own settings associated with them -- type, speed, and power. These should be set to match the material being worked on - the materials list below will give starting points, but note that similar looking materials can require different settings anyway -- for example, different densities of foam board, even if they are the same thickness, or wood with or without knots in it. Power ranges from 10% (the laser will not fire below 10%) and 100%. **Generally it's helpful to perform some test operations before committing to a job to ensure that your settings are correct.**
 
 Speed is measured in mm/s. There are two speeds listed -- "speed" and "corner speed". "Speed" is how fast it moves on straight lines, and "corner speed" is how fast it moves when going around corners, which should generally be about 5mm/s slower. 
 
@@ -80,17 +81,17 @@ Speed is measured in mm/s. There are two speeds listed -- "speed" and "corner sp
 
 * Check the equipment
 
-    Go around to the chiller, lift the lid, and check the colour of the water. If it's brown, lumpy or has sediment in, change the water according to the procedure below. Next, smell the water. If it smells like chlorine (think swimming pool), that's good. If it doesn't, throw in an inner capful of the "sterilising fluid" that should be sitting on top of the chiller (instructions are on the bottle). That keeps the water sterile, as any organic contaminants can damage the laser tube.
+    Go around to the chiller, lift the lid, and check the colour of the water. If it's brown, lumpy or has sediment in, change the water according to the procedure below. Next, smell the water. If it smells like chlorine (think swimming pool), that's good. If it doesn't, throw in an inner capful of the "sterilizing fluid" that should be sitting on top of the chiller (instructions are on the bottle). That keeps the water sterile, as any organic contaminants can damage the laser tube.
 
 * Turn on
 
     Flip the key-switch on the side of the laser cutter to turn it on.  This will turn on the compressor, the extractor fan on the roof, the chiller, and provide power to the fancy stainless steel extractor/filter unit.  (Which won't turn on quite yet.)  If any of that stuff doesn't turn on, something is wrong, and you shouldn't cut until everything is working properly.
 
-**Note: If cutting in hot weather, make sure the chiller's temperature drops to withing 2-3C of the target temperature before starting work. The target temperature is the bottom figure (currently 18C), the current temperature the top figure. It may take five minutes to chill sufficiently if ambient temperature in the space is over 25C.**
+**Note: If cutting in hot weather, make sure the chiller's temperature drops to with in 2-3C of the target temperature before starting work. The target temperature is the bottom figure (currently 18C), the current temperature the top figure. It may take five minutes to chill sufficiently if ambient temperature in the space is over 25C.**
 
 * Send data to laser
 
-    Once the laser is on, you can send over your instructions by hitting the "Download" button, on the far right of the lasercut software, then "Download Current". Once this is done counting, all the work is on the laser (unless you need to rejig something..). To ensure your items are cut starting at the top-right of the laser bed, make sure the "immediate" checkbox near the button is checked. If it wasn't, do it and Download again.
+    Once the laser is on, you can send over your instructions by hitting the "Download" button, on the far right of the `lasercut` software, then "Download Current". Once this is done counting, all the work is on the laser (unless you need to rejig something..). To ensure your items are cut starting at the top-right of the laser bed, make sure the "immediate" checkbox near the button is checked. If it wasn't, do it and Download again.
 
 * Align laser material in the laser
 
@@ -116,7 +117,9 @@ If the laser is focused in some places and not others, tape down or weigh down y
 
 # What you can and can not cut
 
-To see what you can and can not cut go here [http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS](http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS)
+To see what you can and can not cut go here [NEVER CUT THESE MATERIALS](documents/NEVER-CUT-THESE-MATERIALS.pdf)
+
+Dead link, but leaving here incase it comes back - [http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS](http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS)
 
 # Changing the water
 
