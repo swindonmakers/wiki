@@ -146,6 +146,7 @@ Dead link, but leaving here incase it comes back - [http://atxhackerspace.org/wi
 | Balsa | 250 | 14 | 12 | 1 | Mark surface |
 | Balsa, 1.6mm (1/16th) | 110 | 24 | 24 | 1 | Cut |
 | Balsa, 3mm | 40 | 50 | 50 | 1 | Cut |
+| Bamboo, 6mm | 10 | 40 | | 4 | 4-6 Passes at these settings were needed, more power and it chars too much |
 | Black mesh | 200 | 16 | | 1-2 | | 
 | Card, 250gsm | 320 | 17 | | 1 | |
 | Cardboard, Single Wall, 4mm | 50 | 30 | | 1 | |
