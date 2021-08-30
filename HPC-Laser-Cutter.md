@@ -194,6 +194,8 @@ See also: Website of useful settings for different materials (you will need to t
 
 * [SVG Nest](https://svgnest.com/) - Similar program to **Deep Nest**
 
+* [CDR to SVG Conversion](https://cloudconvert.com/cdr-to-svg) - Online conversion from Corel Draw to SVG
+
 ### Box Designers
 
 * [BOXES.py](https://www.festi.info/boxes.py/)
