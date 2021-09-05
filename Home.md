@@ -5,7 +5,6 @@ Welcome to the Wiki for Swindon Makerspace.  Please use this wiki to share or re
 
 - [Contacts](http://www.swindon-makerspace.org/contact-us/)
 
-
 #### Makerspace
 
 - [[Equipment]]
