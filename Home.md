@@ -3,7 +3,7 @@ Welcome to the Wiki for Swindon Makerspace.  Please use this wiki to share or re
 
 #### Information
 
-- [Contacts](http://www.swindon-makerspace.org/contact/)
+- [Contacts](http://www.swindon-makerspace.org/contact-us/)
 
 
 #### Makerspace
