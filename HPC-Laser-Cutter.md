@@ -1,4 +1,4 @@
-The [HPC LS6840](http://hpclaser.co.uk/index.php?main_page=product_info&cPath=1&products_id=38) laser cutter (60w) was obtained by free loan agreement from [Reprap LTD](https://reprapltd.com/) in October 2016. A condition of this loan agreement is that a notice of the free loan will be displayed on the laser at all times, therefore this notice MUST NOT be removed.
+The [HPC LS6840](http://hpclaser.co.uk/index.php?main_page=product_info&cPath=1&products_id=38) laser cutter (60w) and [CW4000 Chiller](https://hpclaser.co.uk/p/cw4000-water-chiller-unit/) was obtained by free loan agreement from [Reprap LTD](https://reprapltd.com/) in October 2016. A condition of this loan agreement is that a notice of the free loan will be displayed on the laser at all times, therefore this notice MUST NOT be removed.
 
 Work area: **680 x 400mm**
 
@@ -19,6 +19,7 @@ Work area: **680 x 400mm**
     - [Templates](#templates)
     - [Fonts](#fonts)
 - [Details](#details)
+- [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -221,3 +222,10 @@ If you want to install fonts, `download` (and unzip if needed), `right click` on
 
 # Details
 For details on the actual equipment, see the [[HPC Laser Cutter Internals]] page
+
+# Troubleshooting
+
+* Chiller error `E05`
+
+> The chiller unit monitors the flow rate of water and it will emit a warning sound and display the error message E05 if the flow rate is too low, this could be caused by kinks in the water tubing or blockages in the piping, if the error message is displayed checked all the water pipes for kinks or tight turns and check the water quality, if the water is murky it should be replaced.
+
