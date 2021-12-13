@@ -119,6 +119,7 @@ If the laser is focused in some places and not others, tape down or weigh down y
 # What you can and can not cut
 
 To see what you can and can not cut go here [NEVER CUT THESE MATERIALS](documents/NEVER-CUT-THESE-MATERIALS.pdf)
+[NEVER CUT THESE MATERIALS](never-cut-materials)
 
 Dead link, but leaving here incase it comes back - [http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS](http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS)
 
