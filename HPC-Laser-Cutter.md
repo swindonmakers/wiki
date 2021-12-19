@@ -5,6 +5,7 @@ Work area: **680 x 400mm**
 # Table of Contents
 
 - [Table of Contents](#table-of-contents)
+  - [- Troubleshooting](#--troubleshooting)
 - [Designing for the Laser](#designing-for-the-laser)
 - [Font selection:](#font-selection)
 - [Using the cutter:](#using-the-cutter)
@@ -13,6 +14,8 @@ Work area: **680 x 400mm**
 - [Settings](#settings)
   - [Cut Settings](#cut-settings)
   - [Engrave Settings](#engrave-settings)
+    - [Leather Tests](#leather-tests)
+    - [Slate Tests](#slate-tests)
 - [Useful Links](#useful-links)
     - [Useful tools](#useful-tools)
     - [Box Designers](#box-designers)
@@ -20,7 +23,6 @@ Work area: **680 x 400mm**
     - [Fonts](#fonts)
 - [Details](#details)
 - [Troubleshooting](#troubleshooting)
-
 ---
 
 # Designing for the Laser
@@ -186,12 +188,12 @@ Dead link, but leaving here incase it comes back - [http://atxhackerspace.org/wi
 
 ----
 
-## Leather Tests
+### Leather Tests
 
 ![Cutting and Engraving examples](images/HPC-lasercutter/leather-test-1-r.jpg)
 ![Cros cut of leather](images/HPC-lasercutter/leather-test-2-r.jpg)
 
-## Slate Tests
+### Slate Tests
 
 ![Slate Coaster](images/HPC-lasercutter/slate-engraving-test-r.jpg)
 
