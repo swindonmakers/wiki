@@ -197,6 +197,8 @@ Dead link, but leaving here incase it comes back - [http://atxhackerspace.org/wi
 
 ![Slate Coaster](images/HPC-lasercutter/slate-engraving-test-r.jpg)
 
+The coaster used was from [amazon](https://www.amazon.co.uk/gp/product/B0944139N3/ref=ppx_yo_dt_b_asin_title_o01_s00)
+
 ----
 
 Website of useful settings for different materials (you will need to test and trial some settings first to be sure) [Bosslaser Laser Settings](https://www.bosslaser.com/laser-settings) - if details from here are tested and proven to be useful, please add to the table above.
