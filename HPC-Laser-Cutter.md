@@ -180,11 +180,11 @@ Dead link, but leaving here incase it comes back - [http://atxhackerspace.org/wi
 | Card 250gsm | 400 | 14 | 1 | |
 | Cardboard, Single Wall, 4mm | 250 | 15 | 1 | |
 | Fleece, support material only | 300 | 13 | 1 | Test first, fluffy side down |
-| Leather, 4mm | 150 | 20 | 1 | MUST BE REAL LEATHER! Cover with masking tape to reduce burning |
+| Leather, 4mm | 150 | 20 | 1 | MUST BE REAL LEATHER! Cover with masking tape to reduce burning [pics](#leather-tests)|
 | Plywood 3mm | 200 | 20 | 1 | | 
 | Red cotton | 250 | 18 | 1 | |
 | Rubbery material | 250 | 15 | 1 | |
-| Slate (coasters) | 200 | 25/30/35 | 1 | These 2 power settings seemed to work well each with a different level of engraving |
+| Slate (coasters) | 200 | 25/30/35 | 1 | These 2 power settings seemed to work well each with a different level of engraving [pic](#slate-tests)|
 
 ----
 
