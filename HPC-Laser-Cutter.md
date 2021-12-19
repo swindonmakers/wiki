@@ -184,11 +184,20 @@ Dead link, but leaving here incase it comes back - [http://atxhackerspace.org/wi
 | Rubbery material | 250 | 15 | 1 | |
 | Slate (coasters) | 200 | 25/30/35 | 1 | These 2 power settings seemed to work well each with a different level of engraving |
 
+----
 
-![Cutting and Engraving examples](https://github.com/swindonmakers/documentation/blob/master/20170906_210624.jpg?raw=true)
-![Cross cut of leather](https://github.com/swindonmakers/documentation/blob/master/20170906_210646.jpg?raw=true)
+## Leather Tests
 
-See also: Website of useful settings for different materials (you will need to test and trial some settings first to be sure) [Bosslaser Laser Settings](https://www.bosslaser.com/laser-settings) - if details from here are tested and proven to be useful, please add to the table above.
+![Cutting and Engraving examples](images/HPC-lasercutter/leather-test-1-r.jpg)
+![Cros cut of leather](images/HPC-lasercutter/leather-test-2-r.jpg)
+
+## Slate Tests
+
+![Slate Coaster](images/HPC-lasercutter/slate-engraving-test-r.jpg)
+
+----
+
+Website of useful settings for different materials (you will need to test and trial some settings first to be sure) [Bosslaser Laser Settings](https://www.bosslaser.com/laser-settings) - if details from here are tested and proven to be useful, please add to the table above.
 
 # Useful Links
 
