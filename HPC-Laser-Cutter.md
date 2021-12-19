@@ -182,6 +182,8 @@ Dead link, but leaving here incase it comes back - [http://atxhackerspace.org/wi
 | Plywood 3mm | 200 | 20 | 1 | | 
 | Red cotton | 250 | 18 | 1 | |
 | Rubbery material | 250 | 15 | 1 | |
+| Slate (coasters) | 200 | 25/30/35 | 1 | These 2 power settings seemed to work well each with a different level of engraving |
+
 
 ![Cutting and Engraving examples](https://github.com/swindonmakers/documentation/blob/master/20170906_210624.jpg?raw=true)
 ![Cross cut of leather](https://github.com/swindonmakers/documentation/blob/master/20170906_210646.jpg?raw=true)
