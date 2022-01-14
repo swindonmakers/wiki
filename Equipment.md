@@ -12,6 +12,8 @@ Equipment that requires an induction before members are allowed to use it is ind
 
 - [[Wanhao-Prusa-i3-Printer]] (induction)
 
+- [[Elegoo Mars 2 Pro Printer]] (induction)
+
 - [[Makerbot Replicator 2x Printer]] (induction)
 
 - [[HPC Laser Cutter]] (induction)
