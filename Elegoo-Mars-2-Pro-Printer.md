@@ -132,11 +132,19 @@ If this is your last print, open the resin bottle, use the stand, silicone funne
 
 Clean and replace the build platform, using the metal scraper on any remaining supports, the small brush and wipes to remove remaining uncured resin.
 
-Wipe out and replace the resin tank too.
+Wipe out and replace the resin tank too, only use the plastic scraper on this.
 
 Ensure the curing station is open, the entire top lifts off, leaving a clear plastic base on a stand.
 
-Once the sonic cleaner has finished, either carefully squish/pull off the supports (if its a chunky part) or remove using clippers (if its delicate). Move the parts and supports if in large enough pieces, onto the curing station platform. Turn on the curing station.
+Once the sonic cleaner has finished, either carefully squish/pull off the supports (if its a chunky part) or remove using clippers (if its delicate). Move the parts and supports if in large enough pieces, onto the curing station platform. Turn on the curing station for at least 5 minutes. Larger /solid objects may take up to 20 minutes to cure.
+
+_A fully cured resin 3D print has a satin to matt surface. If the object is not yet completely cured, the surface looks glossy or even wet. If the object has been exposed to UV light for too long, it will become extremely dull, brittle and porous._ [3dprintingbee](https://the3dprinterbee.com/resin-curing-duration/)
+
+### Tidy up
+
+Ensure all used gloves, paper towel, wipes etc have been uv treated and thrown out. Ensure the resin bottle is closed and clean. Replace lids on all of the tubs.
+
+Filter and replace water in the tubs if necessary (how/when TBD!)
 
 ## Useful links:
 
