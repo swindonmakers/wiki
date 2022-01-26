@@ -94,7 +94,7 @@ Speed is measured in mm/s. There are two speeds listed -- "speed" and "corner sp
 
 * Send data to laser
 
-    Once the laser is on, you can send over your instructions by hitting the "Download" button, on the far right of the `lasercut` software, then "Download Current". Once this is done counting, all the work is on the laser (unless you need to rejig something..). To ensure your items are cut starting at the top-right of the laser bed, make sure the "immediate" checkbox near the button is checked. If it wasn't, do it and Download again.
+    Once the laser is on, you can send over your instructions by hitting the "Download" button, on the far right of the `lasercut` software, then "Download Current". Once this is done counting, all the work is on the laser (unless you need to rejig something..). To ensure your items are cut starting at the top-right of the laser bed, make sure the `immediate` (sometimes shows as `relative`) checkbox near the button is checked. If it wasn't, do it and Download again.
 
 * Align laser material in the laser
 
