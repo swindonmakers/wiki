@@ -1,5 +1,20 @@
 **WARNING**: This machine uses toxic substances, please follow the handling procedure below for your safety and others.
 
+## Table of Contents
+
+- [Resin handling](#resin-handling)
+- [Spills or skin/eye contact](#spills-or-skin-eye-contact)
+- [Delicate machine parts](#delicate-machine-parts)
+- [General printing procedure](#general-printing-procedure)
+- [Detailed parts of procedure](#detailed-parts-of-procedure)
+  * [Slicing](#slicing)
+  * [Printing](#printing)
+    + [Using gloves](#using-gloves)
+    + [You may remove the gloves after the bottle is recapped](#you-may-remove-the-gloves-after-the-bottle-is-recapped)
+  * [Post processing and tidying up](#post-processing-and-tidying-up)
+  * [Tidy up](#tidy-up)
+- [Useful links:](#useful-links-)
+
 The Elegoo Mars 2 Pro printer is a resin printer, sponsored for the Makerspace by Elegoo Marketing Dept.
 
 Resin 3D printing uses a tank (shallow dish) of liquid resin. The build platform starts suspended in the resin, an LCD screen below the tank shades each layer to be printed from a UB light below that. The object is built upside down, with the build plate rising for each successive layer. Once printed, the object is not yet finished, it is still delicate and dripping with uncured resin. After printing the object needs careful removable from the build plate, and to be washed and cured.
