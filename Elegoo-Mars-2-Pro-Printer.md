@@ -10,7 +10,6 @@
   * [Slicing](#slicing)
   * [Printing](#printing)
     + [Using gloves](#using-gloves)
-    + [You may remove the gloves after the bottle is recapped](#you-may-remove-the-gloves-after-the-bottle-is-recapped)
   * [Post processing and tidying up](#post-processing-and-tidying-up)
   * [Tidy up](#tidy-up)
 - [Useful links:](#useful-links-)
@@ -21,7 +20,7 @@ Resin 3D printing uses a tank (shallow dish) of liquid resin. The build platform
 
 ## Resin handling
 
-Gloves! When handling objects that contain or are covered in uncured resin, wear a pair of **nitrile gloves** (provided in large, or BYO). If you have low dexerity or think you are likely to splash, also wear **saftey glasses** and/or an **apron** (not provided).
+Gloves! When handling objects that contain or are covered in uncured resin, wear a pair of **nitrile gloves** (provided in large, or BYO). If you have low dexterity or think you are likely to splash, also wear **saftey glasses** and/or an **apron** (not provided).
 
 Items that are likely to have uncured resin on them:
 
@@ -61,7 +60,7 @@ Please do NOT get resin on the following items:
 
 This is a low-detailed procedure description for future reference, longer descriptions of each step follow.
 
-1. Slice: Prepare your model for printing, slicing can be done using eithe Lychee or ChituBox slicers, the output must be a **.ctb** file.
+1. Slice: Prepare your model for printing, slicing can be done using either Lychee or ChituBox slicers, the output must be a **.ctb** file.
 2. USB Stick: Transfer the .ctb file onto a/the (should be one available) USB stick and insert it into the front of the printer.
 3. Cover: Remove the printer cover
 4. Plan for spills: Ready a cloth or paper towels for wiping up spillage
@@ -70,7 +69,7 @@ This is a low-detailed procedure description for future reference, longer descri
 7. Tank: Inspect visually or use the plastic scraper to carefully scrape the bottom of the tank, if it catches on old resin, clean the whole thing.
 8. Resin: Remove one glove for picking up the bottle, pour resin into the tank, do not overfill.
 8. Wipe: Clean the edge of the bottle if necessary, replace it in the big tray.
-9. Gloves: Remove, disgard or turn inside out for later if still dry.
+9. Gloves: Remove, discard or turn inside out for later if still dry.
 10. Cover: Replace the machine cover.
 11. Print: Start the print.
 12. **Prepare**: Ensure the build platform box has water and is open, open both of the cleaning containers. Ensure you have the metal scraper in reach and the decanting tray is clear. Open the sonic cleaner and put water in it. Check the curing platform is clean.
@@ -111,15 +110,15 @@ Transfer your .CTB file onto a usb stick (slot is in the front of the printer).
 
 Remove the printer cover by lifting it off.
 
-#### Using gloves
+### Using gloves
 
-Ensure the resin tank does not have any left over resin on the inside (if this is a follow on print, use the plastic scraper). To remove it if necessary, loosen the two small thumb screws at either end, and pull it forward, lifting slightly.
+Ensure the resin tank does not have any leftover resin on the inside (if this is a follow on print, use the plastic scraper). To remove it if necessary, loosen the two small thumb screws at either end, and pull it forward, lifting slightly.
 
 Check the build platform too, this can be loosened using the large dial at the top. Use the metal scraper to remove any left over resin or supports.
 
 Replace and screw down the build platform and tank. Add some resin to the tank - do not overfill, underfill is fine as more can be added later if necessary. Wipe the bottle and replace the cap
 
-#### You may remove the gloves after the bottle is recapped
+You may remove the gloves after the bottle is recapped
 
 Replace the printer cover.
 
@@ -163,7 +162,7 @@ Filter and replace water in the tubs if necessary (how/when TBD!)
 
 ## Useful links:
 
-* https://www.elegoo.com/pages/3d-printing-user-support
+* [Elegoo Printer Support](https://www.elegoo.com/pages/3d-printing-user-support) - Select `Mars 2 Pro` from the menu
 * [User Manual](https://drive.google.com/file/d/13P8Mape_UBEkh02dRYdCLpdhQNJhoqlm/view)
 * [ChituBox Slicer download](https://www.chitubox.com/en/article/support/howto/chitubox-free/installation/50)
 * [Lychee Slicer download](https://mango3d.io/downloads/)
