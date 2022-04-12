@@ -155,7 +155,7 @@ Dead link, but leaving here incase it comes back - [http://atxhackerspace.org/wi
 | Black mesh | 200 | 16 | | 1-2 | | 
 | Card, 250gsm | 320 | 17 | | 1 | |
 | Cardboard, Single Wall, 4mm | 50 | 30 | | 1 | |
-| Cork, 3mm | 60 | 35 | | 1 | Faster speed is ideal to cut down risk of burning |
+| [Cork](https://kitronik.co.uk/collections/materials/products/3287-3mm-laser-cork-600mm-x-400mm-sheet), 3mm | 60 | 35 | | 1 | Faster speed is ideal to cut down risk of burning |
 | Felt, 8mm, 100% wool, dense | 7 | 65 | 70 | 1 | full cut |
 | Fleece, support material only | 250 | 14 | | 1-2 | Test first, fluffy side down |
 | Flite test waterproof Foamboard | 120 | 44 | 36 | 1 | Full cut |
