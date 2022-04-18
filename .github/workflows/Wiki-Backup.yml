@@ -1,4 +1,4 @@
-name: Wiki backup
+name: Swindon Makerspace Wiki Backup
 on:
   #schedule:
   #  - cron:  '30 19 * * *'
