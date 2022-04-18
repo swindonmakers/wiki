@@ -6,4 +6,4 @@ Everything to see is located in the Wiki, click on the link above to get there (
 
 ----
 
-[![Wiki backup](https://github.com/swindonmakers/wiki/actions/workflows/Wiki-Backup.yml/badge.svg)](https://github.com/swindonmakers/wiki/actions/workflows/Wiki-Backup.yml)
+[![Swindon Makerspace Wiki Backup](https://github.com/swindonmakers/wiki/actions/workflows/Swindon-Makerspace-Wiki-Backup.yml/badge.svg)](https://github.com/swindonmakers/wiki/actions/workflows/Swindon-Makerspace-Wiki-Backup.yml)
