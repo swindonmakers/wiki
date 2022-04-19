@@ -15,7 +15,7 @@ Welcome to the Wiki for Swindon Makerspace.  Please use this wiki to share or re
 
 - [[LogoBot]]
 
-- [[Chill Room]]
+- [[Chill Room]] - No longer exists but some equipment does
 
 - [[Tool Control]]
 
