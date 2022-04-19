@@ -1,6 +1,6 @@
 List of events - planned, completed or wanted - most recent/active first.  
 
-[Link to Events Calendar](http://www.swindon-makerspace.org/calendar)
+[Link to Events Calendar](https://www.swindon-makerspace.org/calendar)
 
 [Link to associated Google Group](https://groups.google.com/forum/#!topic/swindon-hackspace/QHFl8R4k1AU)
 
