@@ -1,4 +1,4 @@
-The [HPC LS6840](http://hpclaser.co.uk/index.php?main_page=product_info&cPath=1&products_id=38) laser cutter (60w) and [CW4000 Chiller](https://hpclaser.co.uk/p/cw4000-water-chiller-unit/) ([Manual](documents/CW4000_Manual_2018.pdf)) was obtained by free loan agreement from [Reprap LTD](https://reprapltd.com/) in October 2016. A condition of this loan agreement is that a notice of the free loan will be displayed on the laser at all times, therefore this notice MUST NOT be removed.
+The [HPC LS6840](https://hpclaser.co.uk/index.php?main_page=product_info&cPath=1&products_id=38) laser cutter (60w) and [CW4000 Chiller](https://hpclaser.co.uk/p/cw4000-water-chiller-unit/) ([Manual](documents/CW4000_Manual_2018.pdf)) was obtained by free loan agreement from [Reprap LTD](https://reprapltd.com/) in October 2016. A condition of this loan agreement is that a notice of the free loan will be displayed on the laser at all times, therefore this notice MUST NOT be removed.
 
 The software used to send cutting jobs to the laser is called [LaserCut](https://www.ctrlasers.co.uk/userfiles/downloads/user_manual_operator_93482.pdf) and is installed on the laptop next to the laser.
 
@@ -124,7 +124,7 @@ If the laser is focused in some places and not others, tape down or weigh down y
 
 To see what you can and can not cut go here [NEVER CUT THESE MATERIALS](documents/NEVER-CUT-THESE-MATERIALS.pdf)
 
-Dead link, but leaving here incase it comes back - [http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS](http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS)
+Dead link, but leaving here in case it comes back - [http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS](http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS)
 
 # Changing the water
 
