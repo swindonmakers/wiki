@@ -180,7 +180,7 @@ Dead link, but leaving here in case it comes back - [http://atxhackerspace.org/w
 | -------- | ------------ | --------- | ------ | ---- |
 | Acrylic, 3mm | 200 | 15 | 1 | |
 | Acrylic, 4mm | 160 | 60 | 1 | Gives a nice depth, less power and more passes might be required depending on desired depth |
-| Anodised Aluminium (black) | 10 | 25 | 1 | See [pics](#anodised-aluminium-tests)
+| Anodised Aluminium (black) | 10 | 25 | 1 | See [pics](#anodised-aluminium-tests) - In Laser Cut select `cut` for this |
 | Black mesh | 250 | 13 | 1 | |
 | Card 250gsm | 400 | 14 | 1 | |
 | Cardboard, Single Wall, 4mm | 250 | 15 | 1 | |
