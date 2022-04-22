@@ -18,6 +18,7 @@ Work area: **680 x 400mm**
   - [Engrave Settings](#engrave-settings)
     - [Leather Tests](#leather-tests)
     - [Slate Tests](#slate-tests)
+    - [Anodised Aluminium Tests](#anodised-aluminium-tests)
 - [Useful Links](#useful-links)
     - [Useful tools](#useful-tools)
     - [Box Designers](#box-designers)
@@ -179,6 +180,7 @@ Dead link, but leaving here in case it comes back - [http://atxhackerspace.org/w
 | -------- | ------------ | --------- | ------ | ---- |
 | Acrylic, 3mm | 200 | 15 | 1 | |
 | Acrylic, 4mm | 160 | 60 | 1 | Gives a nice depth, less power and more passes might be required depending on desired depth |
+| Anodised Aluminium (black) | 10 | 25 | 1 | See [pics](#anodised-aluminium-tests)
 | Black mesh | 250 | 13 | 1 | |
 | Card 250gsm | 400 | 14 | 1 | |
 | Cardboard, Single Wall, 4mm | 250 | 15 | 1 | |
@@ -201,6 +203,12 @@ Dead link, but leaving here in case it comes back - [http://atxhackerspace.org/w
 ![Slate Coaster](images/HPC-lasercutter/slate-engraving-test-r.jpg)
 
 The coaster used was from [amazon](https://www.amazon.co.uk/gp/product/B0944139N3/ref=ppx_yo_dt_b_asin_title_o01_s00)
+
+### Anodised Aluminium Tests
+
+![Alu block front](images/HPC-lasercutter/anodized-alu-front.jpg)
+
+![Alu block back](images/HPC-lasercutter/anodized-alu-back.jpg)
 
 ----
 
