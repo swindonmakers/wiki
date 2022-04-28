@@ -16,9 +16,10 @@ Work area: **680 x 400mm**
 - [Settings](#settings)
   - [Cut Settings](#cut-settings)
   - [Engrave Settings](#engrave-settings)
-    - [Leather Tests](#leather-tests)
-    - [Slate Tests](#slate-tests)
-    - [Anodised Aluminium Tests](#anodised-aluminium-tests)
+- [Various Test Cuts](#various-test-cuts)
+  - [Leather Tests](#leather-tests)
+  - [Slate Tests](#slate-tests)
+  - [Anodised Aluminium Tests](#anodised-aluminium-tests)
 - [Useful Links](#useful-links)
     - [Useful tools](#useful-tools)
     - [Box Designers](#box-designers)
@@ -187,18 +188,19 @@ To see what you can and can not cut go here [NEVER CUT THESE MATERIALS](document
 
 ----
 
-### Leather Tests
+# Various Test Cuts
+## Leather Tests
 
 ![Cutting and Engraving examples](images/HPC-lasercutter/leather-test-1-r.jpg)
 ![Cros cut of leather](images/HPC-lasercutter/leather-test-2-r.jpg)
 
-### Slate Tests
+## Slate Tests
 
 ![Slate Coaster](images/HPC-lasercutter/slate-engraving-test-r.jpg)
 
 The coaster used was from [amazon](https://www.amazon.co.uk/gp/product/B0944139N3/ref=ppx_yo_dt_b_asin_title_o01_s00)
 
-### Anodised Aluminium Tests
+## Anodised Aluminium Tests
 
 ![Alu block front](images/HPC-lasercutter/anodized-alu-front.jpg)
 
