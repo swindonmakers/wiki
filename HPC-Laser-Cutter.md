@@ -32,30 +32,24 @@ Work area: **680 x 400mm**
 
 The best format for the LaserCut 5.3 software to import is a .dxf file (R14, if multiple options are available). This can be generated using many different design programs, but the recommended option is Inkscape (available for free download from https://inkscape.org/en/).
 
-Specific tips / processes can be found on this page: [[Designing for the Laser Cutter]]
+Specific tips / processes can be found on this page: [Designing for the Laser Cutter](Designing-for-the-Laser-Cutter.md)
 
 # Font selection:
 
-I have added fonts to the laptop including Pacifico, Waltograph and Waltograph UI.
-The PACIFICO font gives joined up script writing - usefull when laser cutting nice text.
-
-Waltograph (& UI) are DISNEY FONTS. The font is of the Disney typeface.
+There is a wide selection of fonts already installed on the laser cutter laptop. Should you want to add more feel free to download more. An excellent source of fonts is [dafont.com](https://dafont.com). Download and extract the `zip` file, select `ttf` file, right click and select `install for all users`. You may have to restart the application you want to use the new font.
 
 In order to use the script font correctly, use CAMBAM. installed on the laser laptop.
 
-Open CAMBAM. With the window open, displaying the black screen with green cross, click the T in the menu bar at the top.
-This opens the TEXT input. Select the font you wish to use and size 36 - this is adjusted later. Type the words you want to use.
-Click OK. You will then be prompted to locate the text in the design. Useful if using the drawing tools to design a shape.
-Click where you want to put the text. 
-When using SCRIPT text, you will need to unite all letters to form a single continual line. Do this by HIGHLIGHTING ALL THE TEXT and press Control + U to unite all the lines. Do this when using PACIFICO. 
+1. Open CAMBAM. 
+2. With the window open, displaying the black screen with green cross, click the `T` in the menu bar at the top.  This opens the TEXT input. Select the font you wish to use and size 36 - this is adjusted later. 
+3. Type the words you want to use.
+4. Click OK. You will then be prompted to locate the text in the design. Useful if using the drawing tools to design a shape.
+5. Click where you want to put the text. 
+6. When using SCRIPT text, you will need to unite all letters to form a single continual line. Do this by HIGHLIGHTING ALL THE TEXT and press Control + U to unite all the lines. Do this when using PACIFICO. 
 
-When completing your design go to File-> Export-> DXF. 
+When completing your design go to **File-> Export-> DXF**. 
 Save the file in a useful location, and then open Lasercut5.x and import your dxf file. 
 Use the scale tool to get the text to the correct size you want.
-
-__NOTE 1:__ If you want to install fonts, download (and unzip if needed), right click on the font file (either TTF or OTF) and select `Install for all`. If this isn't done and you just double click on font to install through the GUI, not all apps can use that font.
-
-__NOTE 2:__ A good source for a huge source of fonts is [dafont.com](https://dafont.com)
 
 # Using the cutter:
 
@@ -125,7 +119,7 @@ If the laser is focused in some places and not others, tape down or weigh down y
 
 To see what you can and can not cut go here [NEVER CUT THESE MATERIALS](documents/NEVER-CUT-THESE-MATERIALS.pdf)
 
-Dead link, but leaving here in case it comes back - [http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS](http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS)
+[http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS](http://atxhackerspace.org/wiki/Laser_Cutter_Materials#NEVER_CUT_THESE_MATERIALS)
 
 # Changing the water
 
@@ -247,7 +241,7 @@ If you want to install fonts, `download` (and unzip if needed), `right click` on
 * [dafont.com](https://dafont.com) - Massive selection of free fonts
 
 # Details
-For details on the actual equipment, see the [[HPC Laser Cutter Internals]] page
+For details on the actual equipment, see the [HPC Laser Cutter Internals](HPC-Laser-Cutter-Internals.md) page
 
 # Troubleshooting
 
