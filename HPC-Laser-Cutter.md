@@ -16,6 +16,7 @@ Work area: **680 x 400mm**
 - [Settings](#settings)
   - [Cut Settings](#cut-settings)
   - [Engrave Settings](#engrave-settings)
+- [Alternate Cutting Bed](#alternate-cutting-bed)
 - [Various Test Cuts](#various-test-cuts)
   - [Leather Tests](#leather-tests)
   - [Slate Tests](#slate-tests)
@@ -188,7 +189,32 @@ To see what you can and can not cut go here [NEVER CUT THESE MATERIALS](document
 
 ----
 
+# Alternate Cutting Bed
+
+⚠️ READ THIS BEFORE PROCEEDING ⚠️
+
+Beside the laser cutter you should find a `honeycomb` cutting bed. This cutting bed doesn't replace the exisiting cutting bed it should be placed on top of the existing one. This bed is especailly good when you want to cut smaller objects and would rather not have them fall through the bed. It's also good if you want to be able to cut and engrave on both sides (engrave, cut then flip the parts in the holes and engrave again)
+
+🚨 Before placing the honeycome bed follow these steps 🚨
+
+Make sure you lower the main cutting bed. 
+
+1. Turn on the laser cutter
+2. Press the `ESC` button followed by the `Datum` button to ensure the head is homed
+4. Press the `ESC` button followed by the `Z` button, press the down arrow button until the bed drops by 3 or 4 cm.
+5. Place the honeycomb bed on top of the main bed but be careful not to hit the cutting head.
+6. Proceed to adjust the bed now as you normally would.
+
+----
+
+![honeycomb 1](images/HPC-lasercutter/honeycomb-1.jpg)
+
+![honeycomb 2](images/HPC-lasercutter/honeycomb-2.jpg)
+
+----
+
 # Various Test Cuts
+
 ## Leather Tests
 
 ![Cutting and Engraving examples](images/HPC-lasercutter/leather-test-1-r.jpg)
