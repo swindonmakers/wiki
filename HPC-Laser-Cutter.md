@@ -211,6 +211,8 @@ Make sure you lower the main cutting bed.
 
 ![honeycomb 2](images/HPC-lasercutter/honeycomb-2.jpg)
 
+Honeycomb bed was purchased from [Smoke&Mirrors](https://smokeandmirrors.store/products/600mm-x-400mm-honeycomb-bed).
+
 ----
 
 # Various Test Cuts
