@@ -6,8 +6,6 @@ Work area: **680 x 400mm**
 
 # Table of Contents
 
-- [Table of Contents](#table-of-contents)
-  - [- Troubleshooting](#--troubleshooting)
 - [Designing for the Laser](#designing-for-the-laser)
 - [Font selection:](#font-selection)
 - [Using the cutter:](#using-the-cutter)
