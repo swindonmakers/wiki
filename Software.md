@@ -7,4 +7,10 @@
 
 ## Fusion 360
 
-## ....
+## Fonts
+
+* [DaFont](https://dafont.com/)
+
+## SVG Images
+
+* [Free SVG](https://freesvg.org/) - Free for non-commercial use.
