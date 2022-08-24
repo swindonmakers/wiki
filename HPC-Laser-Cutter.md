@@ -238,6 +238,10 @@ Website of useful settings for different materials (you will need to test and tr
 
 # Useful Links
 
+### Known good config file
+
+* [Config file](https://github.com/swindonmakers/laser-config) - a known good config file to fix config issues.
+
 ### Useful tools
 
 * [Deep Nest](https://deepnest.io/) - This tool will allow you to compact all parts you plan to cut to minimize material waste and optimize cutting paths.
@@ -276,4 +280,8 @@ For details on the actual equipment, see the [HPC Laser Cutter Internals](HPC-La
 * Chiller error `E05`
 
 > The chiller unit monitors the flow rate of water and it will emit a warning sound and display the error message E05 if the flow rate is too low, this could be caused by kinks in the water tubing or blockages in the piping, if the error message is displayed checked all the water pipes for kinks or tight turns and check the water quality, if the water is murky it should be replaced.
+
+* Machine doesn't engrave
+
+> Sometimes there are issues with the config file changing/becoming corrupted. If this happens, the fix is to replace with a known good version, [here](https://github.com/swindonmakers/laser-config).
 
