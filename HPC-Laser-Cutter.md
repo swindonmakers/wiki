@@ -2,9 +2,7 @@ The [HPC LS6840](https://hpclaser.co.uk/co2-laser-cutters/ls6840/) laser cutter 
 
 The software used to send cutting jobs to the laser is called [LaserCut](https://www.ctrlasers.co.uk/userfiles/downloads/user_manual_operator_93482.pdf) and is installed on the laptop next to the laser.
 
-Work area: **680 x 400mm**
-
-# Table of Contents
+Bed working area: **680 x 400mm**
 
 - [Designing for the Laser](#designing-for-the-laser)
 - [Font selection:](#font-selection)
@@ -20,12 +18,14 @@ Work area: **680 x 400mm**
   - [Slate Tests](#slate-tests)
   - [Anodised Aluminium Tests](#anodised-aluminium-tests)
 - [Useful Links](#useful-links)
+    - [Known good config file](#known-good-config-file)
     - [Useful tools](#useful-tools)
     - [Box Designers](#box-designers)
     - [Templates](#templates)
     - [Fonts](#fonts)
 - [Details](#details)
 - [Troubleshooting](#troubleshooting)
+
 ---
 
 # Designing for the Laser
