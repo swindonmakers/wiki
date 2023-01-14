@@ -1,5 +1,6 @@
 - [Engraving (flat) glass](#engraving-flat-glass)
 - [The template](#the-template)
+- [The Engraving](#the-engraving)
 
 
 # Engraving (flat) glass
@@ -12,5 +13,12 @@ During the test I added 2 additional boxes to the test coaster not covered in th
 
 # The template
 
-![coaster template](images/HPC-lasercutter/glass-engraving/coaster-template.png | width=100)
+The colours are, as you'd expect, for LaserCut so I could set the various speed and power settings. I did each colour one by one so I could check and observe the operation. I also adjusted the black colour so it would be engraved with the same power and speed settings for each of the colours.
+
+![coaster template](images/HPC-lasercutter/glass-engraving/coaster-template.png)
+
+The line art image is suppose to be a paper airplane, this was put on the glass using a `cut` rather then using `engrave` setting. 
+
+# The Engraving
+
 
