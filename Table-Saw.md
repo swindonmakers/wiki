@@ -38,7 +38,9 @@ Use
 ===
 
 Position machine so there is sufficient room to safely move around, attach the dust extractor to the vent on the rear of the saw. 
- 
+
+Make sure you are familiar with control layout, particular on/off switch. Check fance scale is set to the default one and that bevel angle has been returned to square. 
+
 Check material, particularly recycled wood, carefully for any metal e.g. nails / staples that might damage blade.  
 
 Adjust the cut width by unlocking the lever on the right-hand side, moving the fence using the dial on the front (not by hand!), and relocking the lever. The fence has two possible settings make sure you are using the correct scale – yellow scale is the default.
@@ -71,10 +73,11 @@ Fence should be wound in so that it is central over the bed (minimum width for s
 
 Workshop Cleanliness
 ====================
+
 Put any hand tools used back in the rack.
 
 Brush down any machines you have used and store appropriately. Sweep workshop floor – doesn’t need to be spotless but clean and tidy – a good aim is cleaner than you found it 😊
 
 Check if dust extractor needs emptying, if so empty into a black bin bag, stocks found under kitchen sink, or workshop bin if room.
-Please take full bags/bins to skip or one of the other bins on Biz Space site. 
+Please take full bags/bins to the skip or one of the other bins on Biz Space site. 
 
