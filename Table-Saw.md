@@ -20,7 +20,7 @@ Layout
 Manual
 ===========
 
-You will need access to the Makerspace Google Drive to access this.
+You will need access to the Makerspace Google Drive to access this. English starts on Page 32.
 
 [Manual (PDF)](https://drive.google.com/drive/folders/12Satpe5N3LhT_xGcDvl7c5Mw0Ow2IBzM)
 
