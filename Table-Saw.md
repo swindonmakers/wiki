@@ -10,8 +10,12 @@ The table saw is used for long, straight cuts to wood typically referred to as r
 
 Layout
 =========
+
+![Saw_01](https://user-images.githubusercontent.com/86499131/215067361-1bcbf796-b9ec-459b-8b03-0d105cc9edb5.JPG)
+
 ![image](https://user-images.githubusercontent.com/86499131/215067142-36ef46bc-00ce-459a-b54e-48e7f08e2d9c.png)
 
+![image](https://user-images.githubusercontent.com/86499131/215067311-de5ccd88-62db-481d-987c-3a8b57930f31.png)
 
 
 Consumables
