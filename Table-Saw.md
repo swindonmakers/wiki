@@ -17,6 +17,12 @@ Layout
 
 ![image](https://user-images.githubusercontent.com/86499131/215067311-de5ccd88-62db-481d-987c-3a8b57930f31.png)
 
+Manual
+===========
+
+You will need access to the Makerspace Google Drive to access this.
+
+[Manual (PDF)](https://drive.google.com/drive/folders/12Satpe5N3LhT_xGcDvl7c5Mw0Ow2IBzM)
 
 Consumables
 ===========
