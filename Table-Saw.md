@@ -48,13 +48,13 @@ Use
 
 Position machine so there is sufficient room to safely move around, attach the dust extractor to the vent on the rear of the saw. 
 
-Make sure you are familiar with control layout, particular on/off switch. Check fance scale is set to the default one and that bevel angle has been returned to square. 
+Make sure you are familiar with control layout, particular on/off switch. Check fence scale is set to the default one and that bevel angle has been returned to square. 
 
 Check material, particularly recycled wood, carefully for any metal e.g. nails / staples that might damage blade.  
 
 Adjust the cut width by unlocking the lever on the right-hand side, moving the fence using the dial on the front (not by hand!), and relocking the lever. The fence has two possible settings make sure you are using the correct scale – yellow scale is the default.
 
-Use the large wheel on the front to change the blade height to be just taller than the wood to cut (a tooth showing).
+Use the large wheel on the front to change the blade height to be just taller than the material to be cut (a tooth showing).
 
 If required the whole blade can be angled by unlocking the lever behind the wheel and pushing the lever, tilt the blade until the required bevel angle is set, relock when done.
 
