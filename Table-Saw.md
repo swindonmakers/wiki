@@ -8,6 +8,11 @@ Inductors list – Link here
 
 The table saw is used for long, straight cuts to wood typically referred to as ripping, and hard plastics (with care). It requires dust extraction using the portable dust extractor.
 
+Layout
+=========
+![image](https://user-images.githubusercontent.com/86499131/215067142-36ef46bc-00ce-459a-b54e-48e7f08e2d9c.png)
+
+
 
 Consumables
 ===========
