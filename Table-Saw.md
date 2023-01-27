@@ -2,7 +2,7 @@ Owner: Damian Axford
 
 Maintainer: Damian Axford
 
-Model: DeWalt DW780  **The table saw requires induction prior to use. ** 
+Model: DeWalt DW780  **The table saw requires induction prior to use**. 
 
 Inductors list – Link here
 
