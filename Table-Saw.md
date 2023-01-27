@@ -4,7 +4,7 @@ Maintainer: Damian Axford
 
 Model: DeWalt DW780  **The table saw requires induction prior to use**. 
 
-Inductors list – Link here
+To identify an inductor go to / join Inductions chat group on Telegram and use command "/inducted_on Table Saw"
 
 The table saw is used for long, straight cuts to wood typically referred to as ripping, and hard plastics (with care). It requires dust extraction using the portable dust extractor.
 
