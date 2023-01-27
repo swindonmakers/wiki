@@ -68,3 +68,13 @@ Blade should be vertical, reset fence to standard if you have used alternate sca
 Blade should be retracted under bed i.e. no teeth proud of table top.
 
 Fence should be wound in so that it is central over the bed (minimum width for storage). Return machine to its storage place.
+
+### Workshop Cleanliness
+
+Put any hand tools used back in the rack.
+
+Brush down any machines you have used and store appropriately. Sweep workshop floor – doesn’t need to be spotless but clean and tidy – a good aim is cleaner than you found it 😊
+
+Check if dust extractor needs emptying, if so empty into a black bin bag, stocks found under kitchen sink, or workshop bin if room.
+Please take full bags/bins to skip or one of the other bins on Biz Space site. 
+
