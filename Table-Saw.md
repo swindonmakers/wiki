@@ -72,6 +72,15 @@ Push your entire work piece past the blade, so that it is no longer touching the
 
 Do not stand in front of the machine with loose pieces of wood right of the blade, as the spinning blade may fire them into you.
 
+Jigs
+=========
+
+There are a couple of jigs that have been made to increase flexibility of saw.
+
+**Cross cut sled**.Although a table saw is primarily used for ripping this allows cross cutting simply and more accurately. Its basically a fence at right angles to the standard fence with a guide that runs in the mitre (gauge) slot. When using this **DO NOT** have the workpiece in contact with the sled and and table fence simultaneously when cutting as it can cause kick back as the cut piece, to the right of the blade, can jam between blade and table saw fence. Have the workpiece against the cross cut sled only as it feeds past the blade. To make accurate, repetitive cuts use a spacer between the table fence and workpiece before the blade to set the size, then as you feed the sled past the blade the workpiece is clear from the table fence. Be sure to place your hands well away from where the blade exits back of jig. 
+
+**Straight Edge** Used to create a straight edge on a board - typically after thicknessing. There are 2 versions, one that runs in the mitre slot which is particularly suitable for recycled pallet wood and a more general purpose one, for wider boards, that uses the table saw fence for more width adjustment. For either jig simply clamp the board to the jig using the inbuilt clamps with the board just proud of the edge and run through the saw make sure saw is stopped before moving jig. Once you have one straight edge the board can be ripped to width using the table fence as normal. 
+
 
 Return to Default state
 =======================
