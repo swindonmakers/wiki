@@ -2,6 +2,9 @@ Collection of ongoing projects and their notes.  If a project isn't listed here,
 
 #### Projects (most recent first)
 
+- [[Thing Controller]]
+  RFID access control of machines and usage logging
+
 - [[Ball Contraption]]
   An evolving group project to build out a Rube Goldberg / GBC style ball-bearing churning machine
 
