@@ -11,6 +11,10 @@ The [Thing Controller](https://github.com/swindonmakers/new-thing-controller) is
 * WS2812B Neopixel LED and expansion header.
 * Breakouts for unused GPIO including I2C, SPI, and 3x ADC inputs.
 
+![new-thing-ctrl-hardware1](https://user-images.githubusercontent.com/9080810/217372453-794665c6-d6d7-4dc2-ae6f-56075bf9ab24.jpg)
+![new-thing-ctrl-hardware2](https://user-images.githubusercontent.com/9080810/217372484-b480ec0b-d752-4853-8034-8d807e8727b2.jpg)
+
+
 ## Power input/output specs
 * Power input: 12-24V, <50mA idle current, fused @ 2A
 * Coil outputs: 1.5A cumulative maximum current, output voltage equal to input voltage, switched ground, PWM capable.
