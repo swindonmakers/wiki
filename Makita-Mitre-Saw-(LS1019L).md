@@ -25,17 +25,45 @@ Avoid cutting very short pieces, manufacturer reccomends keeping hands at least 
  
 **In the event of a problem with the machine report it on telegram and if it’s a safety issue clearly mark the machine " Do Not Use"**
 
+Layout
+
+![ls1019l_1](https://user-images.githubusercontent.com/86499131/232328682-7fb863b5-32e7-48cf-9e01-7fe3099f2679.JPG)
+
+![ls1019l_2](https://user-images.githubusercontent.com/86499131/232328689-2f0e105d-d834-43bd-9056-ccb52b8082d0.JPG)
+
+**Use 
+
+
 To cut work pieces narrower than the blade, lock the slide using the small tensioned lock on the slide at the left rear, to cut wider items, unlock the tensioned.
 
-Clamp workpiece to the bed using the clamps, ensuring that the blade assembly/carriage will not hit the clamp head on the way down.
+Clamp workpiece to the bed using the clamp, ensuring that the blade assembly/carriage will not hit the clamp head on the way down.
 
-The red laser line will show where the blade will cut. Test by lowering the blade assembly first with the power off, until the blade reaches your workpiece.
+The red laser line will show where the blade will cut. Test by lowering the blade assembly first with the trigger off, until the blade reaches your workpiece.
 
-To cut, pull the blade assembly forward (if cutting large items), hold in the small button on the handle, pull the handle+power lever down, allow machine to run up to speed (it has a "soft start") lower into workpiece and push back to cut, return the blade assembly upright before letting go.
+To cut, pull the blade assembly forward (if cutting large items), hold in the small button on the handle, pull the handle + power trigger down, allow machine to run up to speed (it has a "soft start") lower into workpiece and push back against the fenceto cut **- never cut by pulling blade towards you -** return the blade assembly upright before letting go.
 
-Return to default
-Ensure the bed/cutting angle is 90 degrees, and the blade assembly angle is 90 degrees.
+When finished Return to default
+
+
+
+
+** When Finished work return saw to default state and clean up**
+
+Unplug/Switch power off at wall and disconnect dust extractor and coil hose.
+
+If you have made bevel cuts return carriage to 90 degress for next user.
 
 Lock the slide.
 
+Ensure the bed/cutting angle is 90 degrees, and the blade assembly angle is 90 degrees.
+
 Use the extractor to hoover up your wood shavings, particularly from the area under the blade.
+
+Brush off any sawdust on saw and bench its mounted on. Check If there are any small pieces of wood not picked up by extractor in saw well. 
+
+**Workshop Cleanliness**
+Put any hand tools used back in the rack.
+
+Brush down any machines you have used and store appropriately. Sweep workshop floor – doesn’t need to be spotless but clean and tidy – a good aim is cleaner than you found it 😊
+
+Check if dust extractor needs emptying, if so empty into a black bin bag, stocks found under kitchen sink, or workshop bin if room. Please take full bags/bins to the skip or one of the other bins on Biz Space site.
