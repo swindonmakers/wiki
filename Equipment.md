@@ -2,8 +2,8 @@ The Makerspace has a growing collection of equipment - some items even have thei
 
 Looking for consumables to use with our equipment? Try the [[Consumables]] list.
 
-Equipment that requires an induction before members are allowed to use it is indicated below, please ask on Telegram if you wish to use one of those.
-
+Equipment that requires an induction before members are allowed to use it is indicated below, please ask in Inductors chat group on Telegram if you wish to use one of those. To identify an an Inductor type command "/inducted on <tool name>" will return a list of people inducted on that particualr item and inductor status. 
+ 
 # Digital Fabrication
 
 - [[3D Printing HOWTO]]
