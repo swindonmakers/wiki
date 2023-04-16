@@ -25,13 +25,13 @@ Avoid cutting very short pieces, manufacturer reccomends keeping hands at least 
  
 **In the event of a problem with the machine report it on telegram and if it’s a safety issue clearly mark the machine " Do Not Use"**
 
-Layout
+# Layout
 
 ![ls1019l_1](https://user-images.githubusercontent.com/86499131/232328682-7fb863b5-32e7-48cf-9e01-7fe3099f2679.JPG)
 
 ![ls1019l_2](https://user-images.githubusercontent.com/86499131/232328689-2f0e105d-d834-43bd-9056-ccb52b8082d0.JPG)
 
-**Use 
+# Use 
 
 
 To cut work pieces narrower than the blade, lock the slide using the small tensioned lock on the slide at the left rear, to cut wider items, unlock the tensioned.
