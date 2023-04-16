@@ -51,6 +51,11 @@ the workpiece without cutting, start the motor, press the saw head down and push
 
 ![Capture3](https://user-images.githubusercontent.com/86499131/232331616-15c3ad1b-8934-4cb8-8f8a-c7645c70cacc.jpg)
 
+Saw allows for Bevel cuts up to 48 degress, to acheive this, in addition to the instructions above you need to use the release lever as illustrated in the photo below.
+
+![Capture](https://user-images.githubusercontent.com/86499131/232332415-d81c35f9-f4f8-441e-a032-b1e2c149d389.JPG)
+
+
 
 # When Finished work return saw to default state and clean up
 
