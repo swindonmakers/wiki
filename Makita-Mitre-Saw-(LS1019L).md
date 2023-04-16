@@ -22,7 +22,7 @@ Do not lean over blade when it is running or stand directly behind blade when cu
 
 Avoid cutting very short pieces, manufacturer reccomends keeping hands at least 100mm from blade. Clamp small pieces rather than hand hold.
  
-**In the event of a problem with the machine report it on telegram and if it’s a safety issue clearly mark the machine as do not use.**
+**In the event of a problem with the machine report it on telegram and if it’s a safety issue clearly mark the machine " Do Not Use"**
 
 To cut work pieces narrower than the blade, lock the slide using the small tensioned lock on the slide at the bck.
 
