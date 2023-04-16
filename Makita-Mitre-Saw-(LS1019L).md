@@ -45,7 +45,9 @@ the workpiece without cutting, start the motor, press the saw head down and push
 
 **Mitre cuts.** Set the required angle (L or R) by releasing the front grip and depressing lock lever for the turn base and swing carriage. There are positive stops at 0°, 15°, 22.5°, 31.6°, 45°, and 60° right/left to set miter angle quickly. (31.6 is for certain Crown Moulding compound cuts). Lock the turn base and proceed as with 90 degree cuts.
 
-**Bevel Cuts** **For L side bevels**, release knob on upper slide pole, depress latch lever on bevel scale (see photo). Tilt carriage to required angle and tighten release knob. Note there are positive stops at 22.5, 33.9 (for coving, crown moulding) and 45 degress. Lock the turn base knob and proceed as with 90 degree cuts.
+**Bevel Cuts** The high fence extensions** MUST **be removed to use bevel function.
+
+**For L side bevels**, release knob on upper slide pole, depress latch lever on bevel scale (see photo). Tilt carriage to required angle and tighten release knob. Note there are positive stops at 22.5, 33.9 (for coving, crown moulding) and 45 degress. Lock the turn base knob and proceed as with 90 degree cuts.
 
 **For R side bevels**, release knob on upper slide pole, depress latch lever on bevel scale (see photo) tilt slightly left and depress button on LH side then tilt right to desired angle. Lock the turn base knob and proceed as with 90 degree cuts.
 
