@@ -52,7 +52,7 @@ Equipment that requires an induction before members are allowed to use it is ind
 
 - [[Wood Lathe]] (induction)
 
-- [Makita Mitre Saw] (Makita induction)
+- [[Makita Mitre Saw]] (Makita induction)
 
 - [[Mitre Saw]] (Parkside induction)
 
