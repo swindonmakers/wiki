@@ -43,7 +43,7 @@ The red laser line will show where the blade will cut. Test by lowering the blad
 
 To cut, pull the blade assembly forward (if cutting large items), hold in the small button on the handle, pull the handle + power trigger down, allow machine to run up to speed (it has a "soft start") lower into workpiece and push back against the fenceto cut **- never cut by pulling blade towards you -** return the blade assembly upright before letting go.
 
-** When Finished work return saw to default state and clean up**
+# When Finished work return saw to default state and clean up
 
 Unplug/Switch power off at wall and disconnect dust extractor and coil hose.
 
