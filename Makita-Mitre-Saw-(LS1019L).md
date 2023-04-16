@@ -2,7 +2,7 @@
 
 Maintainer: Mitre Saw Inductors
 
-# Model: **Model Makita LS1019L**, The sliding mitre saw requires induction prior to use by space members.
+# Model: **Makita LS1019L**, The sliding mitre saw requires induction prior to use by space members.
 
 ![image](https://user-images.githubusercontent.com/86499131/232309925-fb54aa53-7022-4e6d-8ab0-edf896afca56.png)
 
