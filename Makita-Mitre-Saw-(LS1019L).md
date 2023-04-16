@@ -33,15 +33,22 @@ Avoid cutting very short pieces, manufacturer reccomends keeping hands at least 
 ![ls1019l_2](https://user-images.githubusercontent.com/86499131/232328689-2f0e105d-d834-43bd-9056-ccb52b8082d0.JPG)
 
 # Use 
+**90 degree cuts**
+Always ensure workpiece is firmly held and aligned with fence, preferably hold workpiece down to the bed using the clamp, ensuring that the blade assembly/carriage will not hit the clamp head on the way down.
 
+To cut work pieces narrower than the blade, lock the slide using the small tensioned lock on the slide at the left rear, to cut wider items unlock.
 
-To cut work pieces narrower than the blade, lock the slide using the small tensioned lock on the slide at the left rear, to cut wider items, unlock the tensioned.
+If switched on the red laser line will show where the blade will cut. Test by lowering the blade assembly first with the trigger off, until the blade reaches your workpiece.
 
-Clamp workpiece to the bed using the clamp, ensuring that the blade assembly/carriage will not hit the clamp head on the way down.
+Push the saw through the workpiece. **Never pull the saw through the workpiece**. To make a cut, raise the saw head and pull it out over
+the workpiece without cutting, start the motor, press the saw head down and push the saw through the workpiece, return the blade assembly upright before letting go.
 
-The red laser line will show where the blade will cut. Test by lowering the blade assembly first with the trigger off, until the blade reaches your workpiece.
+**Mitre cuts.** Set the required angle (L or R) by releasing the front grip and depressing lock lever for the turn base and swing carriage. There are positive stops at 0°, 15°, 22.5°, 31.6°, 45°, and 60° right/left to set miter angle quickly. (31.6 is for certain Crown Moulding compound cuts). Lock the turn base and proceed as with 90 degree cuts.
 
-To cut, pull the blade assembly forward (if cutting large items), hold in the small button on the handle, pull the handle + power trigger down, allow machine to run up to speed (it has a "soft start") lower into workpiece and push back against the fenceto cut **- never cut by pulling blade towards you -** return the blade assembly upright before letting go.
+**Bevel Cuts** For L side bevels, release knob on upper slide pole, depress latch lever on bevel scale. Tilt carriage to required angle. Note there are positive stops 
+
+![Capture3](https://user-images.githubusercontent.com/86499131/232331616-15c3ad1b-8934-4cb8-8f8a-c7645c70cacc.jpg)
+
 
 # When Finished work return saw to default state and clean up
 
