@@ -7,6 +7,8 @@ Maintainer: Mitre Saw Inductors
 ![MAKITA_LS1019L](https://user-images.githubusercontent.com/86499131/232327834-9b4a9c0e-b06c-4a63-b743-f5f99933ea05.jpg)
 
 
+**User Manual click [User Manual LS1019L](https://drive.google.com/drive/folders/18qebcnrD0bUGeYpdYcAJrMUSyxWXZpZK) **
+
 To identify an inductor go to/join Inductions chat group on Telegram and use command "/inducted_on Mitre Saw"
 
 The mitre saw is typically used for cutting wood to lentgh, typically referred to as cross cutting. It is best used with dust extraction using the portable dust extractor.
