@@ -17,7 +17,7 @@ The mitre saw is bolted to the bench and is not to be moved.
 
 # Safety
 
-Safety glasses and hearing protection are highly recommended for use with this machine. Long hair should be tied back, loose clothing and jewellery should be rolled up / removed as they may catch in the blade.
+Safety glasses and hearing protection are highly recommended for use with this machine. Long hair should be tied back, loose clothing and jewellery should be rolled up / removed as they may catch.
 
 Do not lean over blade when it is running or stand directly behind blade when cutting as if “kick back” occurs workpiece can strike you.
 
@@ -25,9 +25,7 @@ Avoid cutting very short pieces, manufacturer reccomends keeping hands at least 
  
 **In the event of a problem with the machine report it on telegram and if it’s a safety issue clearly mark the machine " Do Not Use"**
 
-To cut work pieces narrower than the blade, lock the slide using the small tensioned lock on the slide at the bck.
-
-To cut wider items, unlock the tensioned lock on the slde.
+To cut work pieces narrower than the blade, lock the slide using the small tensioned lock on the slide at the left rear, to cut wider items, unlock the tensioned.
 
 Clamp workpiece to the bed using the clamps, ensuring that the blade assembly/carriage will not hit the clamp head on the way down.
 
