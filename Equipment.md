@@ -52,7 +52,7 @@ Equipment that requires an induction before members are allowed to use it is ind
 
 - [[Wood Lathe]] (induction)
 
-- [[Mitre Saw]] (induction)
+- [[Parkside Mitre Saw]] (induction)
 
 - [[Disc Sander]] (induction)
 
