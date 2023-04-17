@@ -38,7 +38,7 @@ Always ensure workpiece is firmly held and aligned with fence, preferably hold w
 
 To cut work pieces narrower than the blade, lock the slide using the small tensioned lock on the slide at the left rear, to cut wider items unlock.
 
-If switched on the red laser line will show where the blade will cut. Test by lowering the blade assembly first with the trigger off, until the blade reaches your workpiece. **Please note :** The laser can be set to L or R of blade, slacken screw (11 in layout above) and slide to the appropiate side and retighten screw.
+If switched on the red laser line will show where the blade will cut. Test by lowering the blade assembly first with the trigger off, until the blade reaches your workpiece. **Please note :** The laser can be set to indicate L or R of blade, slacken screw, (part no : 11 in first layout illustration above) slide to the appropiate side and retighten screw.
 
 Push the saw through the workpiece. **Never pull the saw through the workpiece**. To make a cut, raise the saw head and pull it out over
 the workpiece without cutting, start the motor, press the saw head down and push the saw through the workpiece, return the blade assembly upright before letting go.
