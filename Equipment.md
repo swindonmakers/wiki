@@ -46,9 +46,9 @@ Equipment that requires an induction before members are allowed to use it is ind
 
 # Woodwork
 
-- [[DeWalt Table Saw]] (induction)
+- [[Table Saw]] (induction)
 
-- [[Titan Thicknesser/planer]] (induction)
+- [[Thicknesser/planer]] (induction)
 
 - [[Wood Lathe]] (induction)
 
