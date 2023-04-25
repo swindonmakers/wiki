@@ -1,4 +1,4 @@
-The [HPC LS6840](https://hpclaser.co.uk/co2-laser-cutters/ls6840/) laser cutter (60w) and [CW4000 Chiller](https://hpclaser.co.uk/p/cw4000-water-chiller-unit/) ([Manual](documents/CW4000_Manual_2018.pdf)) was obtained by free loan agreement from [Reprap LTD](https://reprapltd.com/) in October 2016. A condition of this loan agreement is that a notice of the free loan will be displayed on the laser at all times, therefore this notice MUST NOT be removed.
+The [HPC LS6840](https://hpclaser.co.uk/co2-laser-cutters/ls6840/) laser cutter (60w) and [CW5200 Chiller](https://hpclaser.co.uk/p/cw5200-water-chiller/) ([Manual](documents/CW5200_Manual.pdf)) was obtained by free loan agreement from [Reprap LTD](https://reprapltd.com/) in October 2016. A condition of this loan agreement is that a notice of the free loan will be displayed on the laser at all times, therefore this notice MUST NOT be removed.
 
 The software used to send cutting jobs to the laser is called [LaserCut](https://www.ctrlasers.co.uk/userfiles/downloads/user_manual_operator_93482.pdf) and is installed on the laptop next to the laser.
 
@@ -81,8 +81,8 @@ Speed is measured in mm/s. There are two speeds listed -- "speed" and "corner sp
 
 * Check the equipment
 
-    Go around to the chiller, lift the lid, and check the colour of the water. If it's brown, lumpy or has sediment in, change the water according to the procedure below. Next, smell the water. If it smells like chlorine (think swimming pool), that's good. If it doesn't, throw in an inner capful of the "sterilizing fluid" that should be sitting on top of the chiller (instructions are on the bottle). That keeps the water sterile, as any organic contaminants can damage the laser tube.
-
+    Go around to the chiller, carefully remove the fill cap and look inside, can you see the water? Good. It's a good idea to do a smell test on the water from time to time, it should smell like clean water, if it has an oder please tell someone on Telegram so it can be investigated and flushed.  **DO NOT** put bleach or anything else into the water tank as this will damage the inner workings and lead to malfunction.
+    
 * Turn on
 
     Flip the key-switch on the side of the laser cutter to turn it on.  This will turn on the compressor, the extractor fan on the roof, the chiller, and provide power to the fancy stainless steel extractor/filter unit.  (Which won't turn on quite yet.)  If any of that stuff doesn't turn on, something is wrong, and you shouldn't cut until everything is working properly.
@@ -123,7 +123,7 @@ To see what you can and can not cut go here [NEVER CUT THESE MATERIALS](document
 
 # Changing the water
 
-* If the water needs to be changed, take an empty bucket, and around four to six litres of clean tap water. 
+* If the water needs to be changed, take an empty bucket, and around four to six litres of clean tap water. **WARNING** Chiller contains around 6L of water!
 * Turn off the laser cutter and chiller, and pull the chiller forwards slightly for easier access. 
 * Around the back of the chiller, position your bucket behind the water pipe fittings and remove the "outlet" pipe carefully. It will likely drip into the bucket.
 * Remove the lid of the chiller, and the lid of your water container (if applicable).
