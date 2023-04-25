@@ -10,9 +10,9 @@ Maintainer: Mitre Saw Inductors
 
 To identify an inductor go to/join Inductions chat group on Telegram and use command "/inducted_on Mitre Saw"
 
-The mitre saw is typically used for cutting wood to lentgh, typically referred to as cross cutting. It is best used with dust extraction using the portable dust extractor.
+The mitre saw is generally used for cutting wood to lentgh, typically referred to as cross cutting. It is best used with dust extraction using the portable dust extractor.
 
-This is a compound saw which means apart from plain 90 degree cuts it can make angled cuts in the horizontal plane (up to 60 degrees L & R) known as a mitre cut and in the vertical plane (up to 48 degrees L & R) known as a bevel cut. When cuts are made in both planes at the same time time it is a compound cut.
+This is a compound saw which means apart from plain 90 degree cuts it can make angled cuts in the horizontal plane (up to 60 degrees L & R) known as a mitre cut and in the vertical plane (up to 48 degrees L & R) known as a bevel cut. When cuts are made in both planes at the same time time it is known as a compound cut.
 
 The mitre saw is bolted to the bench and is not to be moved.  
 
