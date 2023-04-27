@@ -10,7 +10,7 @@ Bed working area: **680 x 400mm**
     - [LaserCut Software](#lasercut-software)
     - [Laser Cutter Hardware](#laser-cutter-hardware)
     - [Adjusting the Focus (cutting bed height)](#adjusting-the-focus-cutting-bed-height)
-    - [Ajust the bed height](#ajust-the-bed-height)
+    - [Adjust the bed height](#adjust-the-bed-height)
 - [What you can and can not cut](#what-you-can-and-can-not-cut)
 - [Changing the water](#changing-the-water)
 - [Settings](#settings)
@@ -111,7 +111,7 @@ Speed is measured in mm/s. There are two speeds listed -- "speed" and "corner sp
    
 On the bench next to the laser should be some MDF focus assist tools shaped like the one in the above photo Take one, and hit ESC on the laser controls, remove your hands and other appendages from the work area, then press "Test" - this will move the laser head around the extreme edges of your workpiece. Hold the tool to the workpiece and laser head as pictured. The laser head is in the correct position (calibrated for 3mm material) if the tool fits neatly between the head and workpiece. 
 
-### Ajust the bed height
+### Adjust the bed height
 
 If the bed is too high or low. 
 
