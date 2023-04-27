@@ -9,7 +9,7 @@ Bed working area: **680 x 400mm**
 - [Using the cutter:](#using-the-cutter)
     - [LaserCut Software](#lasercut-software)
     - [Laser Cutter Hardware](#laser-cutter-hardware)
-    - [Adjusting the Focus](#adjusting-the-focus)
+    - [Adjusting the Focus (cutting bed height)](#adjusting-the-focus-cutting-bed-height)
 - [What you can and can not cut](#what-you-can-and-can-not-cut)
 - [Changing the water](#changing-the-water)
 - [Settings](#settings)
@@ -102,7 +102,7 @@ Speed is measured in mm/s. There are two speeds listed -- "speed" and "corner sp
 
     Open the lid of the laser and put in your material, if the laser head isn't currently top-right, hit the "Datum" button on the laser to move it there. Align your material so that the top-right corner is under the laser head (red light!)
 
-### Adjusting the Focus 
+### Adjusting the Focus (cutting bed height)
 
 * Make sure the laser is focused, this also includes raising or lowering the cutting bed (Z axis)
 
