@@ -7,6 +7,9 @@ Bed working area: **680 x 400mm**
 - [Designing for the Laser](#designing-for-the-laser)
 - [Font selection:](#font-selection)
 - [Using the cutter:](#using-the-cutter)
+    - [LaserCut Software](#lasercut-software)
+    - [Laser Cutter Hardware](#laser-cutter-hardware)
+    - [Adjusting the Focus](#adjusting-the-focus)
 - [What you can and can not cut](#what-you-can-and-can-not-cut)
 - [Changing the water](#changing-the-water)
 - [Settings](#settings)
@@ -55,6 +58,7 @@ Use the scale tool to get the text to the correct size you want.
 
 You will need your drawings in dxf format, and some way to transfer them to the computer by the cutter. USB flash drives are preferred for ease of use, but you can use dropbox or similar - remember to use private browsing so that your details aren't saved when you're finished.
 
+### LaserCut Software
 Next, open the laser cutter software, which is named, imaginatively, "laser cut".  It's pinned to the taskbar and also on the desktop.
 
 * Import your dxf file -- File Menu -> Import.
@@ -79,6 +83,7 @@ Speed is measured in mm/s. There are two speeds listed -- "speed" and "corner sp
 
     If engraving text, ensure the text is arranged with the longest dimension left/right. This speeds up engraving as the laser has to make fewer passes (it engraves left and right, back and forth).
 
+### Laser Cutter Hardware
 * Check the equipment
 
     Go around to the chiller, carefully remove the fill cap and look inside, can you see the water? Good. It's a good idea to do a smell test on the water from time to time, it should smell like clean water, if it has an oder please tell someone on Telegram so it can be investigated and flushed.  **DO NOT** put bleach or anything else into the water tank as this will damage the inner workings and lead to malfunction.
@@ -97,19 +102,25 @@ Speed is measured in mm/s. There are two speeds listed -- "speed" and "corner sp
 
     Open the lid of the laser and put in your material, if the laser head isn't currently top-right, hit the "Datum" button on the laser to move it there. Align your material so that the top-right corner is under the laser head (red light!)
 
-* Make sure the laser is focused
+### Adjusting the Focus 
+
+* Make sure the laser is focused, this also includes raising or lowering the cutting bed (Z axis)
 
 ![Laser focus assist tool](https://i.imgur.com/OhgOvWJ.jpg)
    
-On the bench next to the laser should be some MDF focus assist tools shaped like the one in the above photo Take one, and hit ESC on the laser controls, remove your hands and other appendages from the work area, then press "Test" - this will move the laser head around the extreme edges of your workpiece. Hold the tool to the workpiece and laser head as pictured. The laser head is in the correct position (calibrated for 3mm material) if the tool fits neatly between the head and workpiece. If the bed is too high or low, hit the Z button in the middle of the control pad, and then Up or Down to adjust - this *should* move in tiny increments.. if it doesn't - then someone needs to insert instructions here on how to change the increments.
+On the bench next to the laser should be some MDF focus assist tools shaped like the one in the above photo Take one, and hit ESC on the laser controls, remove your hands and other appendages from the work area, then press "Test" - this will move the laser head around the extreme edges of your workpiece. Hold the tool to the workpiece and laser head as pictured. The laser head is in the correct position (calibrated for 3mm material) if the tool fits neatly between the head and workpiece. 
+
+If the bed is too high or low, hit the Z button in the middle of the control pad, and then Up or Down to adjust - this *should* move in tiny increments.. if it doesn't - then someone needs to insert instructions here on how to change the increments.
 
 If the laser is focused in some places and not others, tape down or weigh down your material with something.. keep hitting "Test" to check, and also make sure your weights are outside of the cutting area!
 
 **Note: If cutting transparent or translucent acrylic, focus the laser *before* removing the plastic film**
 
-* Turn on the Filter
+* Turn on the extraction system
 
-    Press the ! button in the middle of the control pad on the filter (large silver cabinet with a blue screen and tumble dryer type hoses attached) and wait a few seconds. If it's noisy, it's working!
+    On the wall socket behind the Laser Cutter, switch on the second socket, this is for the blue extraction fan unit. If it's noisy, it's working! 
+    
+    ⚠️ If this fails to turn on stop and investigate or ask on Telegram. Without the extraction system the Laser Cutter should not be used no matter how small the job. ⚠️ 
 
 * Cut!
 
