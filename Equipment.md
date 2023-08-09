@@ -10,6 +10,8 @@ Equipment that requires an induction before members are allowed to use it is ind
 
 - [[Prusa MK2 3D Printer]] (induction)
 
+- [[Creality CR10‐Max 3D printer]] (induction)
+
 - [[Wanhao Duplicator i3 Printer]] (induction)
 
 - [[Elegoo Mars 2 Pro Printer]] (induction)
