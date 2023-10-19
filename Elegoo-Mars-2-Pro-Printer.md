@@ -5,6 +5,7 @@
 - [Resin handling](#resin-handling)
 - [Spills or skin/eye contact](#spills-or-skin-eye-contact)
 - [Delicate machine parts](#delicate-machine-parts)
+- [Unattended printing](#unattended-printing)
 - [General printing procedure](#general-printing-procedure)
 - [Detailed parts of procedure](#detailed-parts-of-procedure)
   * [Slicing](#slicing)
@@ -55,6 +56,15 @@ Please do NOT get resin on the following items:
 
 * This machine contains an **LCD screen** under the resin tank, this is a consumable part (it will eventually fail) please avoid breaking it before that.
 * The base of the resin tank is a plastic layer (**FEP**), this is also a consumable part (we have spares), this should get replaced when it is too gunked up to use, please only use the plastic scraper on it.
+
+## Unattended printing
+
+It is allowed to use this machine in an unattended way, that is you may leave the space while it is running. However:
+
+1. Do not overfill the tank, if you need more than the "max" fill you'll have to return and add more.
+2. Please wait and verify that the first few layers / milimeters of the print have started before you leave.
+3. Leave a note saying who is running the printer and your contact details.
+4. Return near the end of the print time (or by ~8am if over night) to extract your print and clean up.
 
 ## General printing procedure
 
