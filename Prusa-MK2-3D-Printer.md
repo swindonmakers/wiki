@@ -14,8 +14,9 @@ Password: makenow
 </p>
 </details>
 
+## Induction reference
 
-Cura profile (for flexible filament): 
+See [[3D Printing HOWTO]]
 
 ### Changing filament
 
@@ -35,4 +36,4 @@ To change the filament:
 
 ## General notes
 
-Some specs: [[https://www.prusa3d.com/]], [[https://makezine.com/product-review/prusa-i3-mk2/]] NB: It is a MK2, not a MK2S
+Some specs: [[https://www.prusa3d.com/]], [[https://makezine.com/product-review/prusa-i3-mk2/]] 
