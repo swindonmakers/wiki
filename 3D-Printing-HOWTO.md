@@ -30,13 +30,13 @@ To get started in 3D printing, you can look for models that other people have al
 ### Summary
 
 - Find and download (see above), or make (see below), an .stl file of the model you wish to print.
-- Slice the model, this creates a .gcode (or .gco) file of the same model, using commands specific to the printer you wish to print on, save the .gcode file to your computer.
+- Slice the model, this creates a .gcode (or .gco) file of the same model, which contains commands specific to the printer you wish to print on, save the .gcode file to your computer.
 - Send the file to the printer, using the "Upload" button on Octoprint.
-- Load the filament you want, ensure the printer bed is clear and freshly sprayed with hair spray (yes really!)
+- Load the filament you want, ensure the printer bed is clear and freshly cleaned with IPA (spray bottle provided)
 - Choose the uploaded file, then hit the "Print" button on Octoprint
 - Watch closely to ensure the first few layers are printed correctly
-- Keep an eye on the rest of the print.
-- Remove object carefully from the bed using the scraper.
+- Keep an eye on the rest of the print
+- Remove object carefully from the bed. (How depends on which printer)
 
 See also:
 - [nvbots - from idea to 3d part](https://nvbots.com/blog/going-idea-3d-part-expect-3d-printing/)
@@ -45,19 +45,15 @@ See also:
 
 .stl files are generic files which describe a model using points and triangles. To operate a printer, we need a file which describes a model using motor movements. Eg: Move extruder head left 2mm, turn on extruder, move motor head left 2mm, turn off extruder, move z motor up 0.1mm. These commands are written in [GCODE](https://reprap.org/wiki/G-code).
 
-The process of converting .stl files into .gcode files is called slicing, this is because the gcode commands instruct the printer to print the object one tiny layer at a time. The size of the layer (layer height), can be set in the slicing software, and is usually between 0.1mm (quite fine), and 0.3mm (coarse) - 0.2mm is a good average.
+The process of converting .stl files into .gcode files is called **slicing**, this is because the gcode commands instruct the printer to print the object one tiny layer at a time. The size of the layer (layer height), can be set in the slicing software, and is usually between 0.1mm (quite fine), and 0.3mm (coarse) - 0.2mm is a good average, for printers with a 0.4mm nozzle.
 
 There are several slicing softwares:
 
-- [Cura (by Ultimaker)](https://ultimaker.com/en/products/ultimaker-cura-software)
+- [Cura (by Ultimaker)](https://ultimaker.com/en/products/ultimaker-cura-software) - installed on the laptop in the fab room
 - [Slic3r](http://slic3r.org/)
 - [Craftware](https://craftunique.com/craftware/)
 
-The Octoprint instances for each of our printers also have a cura slicing engine installed. The .stl file can be directly uploaded to the printer, and then sliced. This will only produce good results if the model does not need to be rotated in order to print it.
-
-Each of the individual printer pages (see above) contains a link to cura profiles for that printer (or instructions on how to get one).
-
-NB: The suggested layer height values are good for printers with a 0.4mm or similar nozzle.
+The Cura slicing software has built-in profilea for both of the 3D printers we own.
 
 See also:
 - [nvbots - introduction to slicing](https://nvbots.com/blog/introduction-to-slicing/)
