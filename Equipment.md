@@ -16,11 +16,9 @@ Equipment that requires an induction before members are allowed to use it is ind
 
 - [[Elegoo Mars 2 Pro Printer]] (induction)
 
-- [[Makerbot Replicator 2x Printer]] (induction)
-
 - [[HPC Laser Cutter]] (induction)
 
-- [[Proxxon Cnc Mill]] (induction)
+- [[Mosaic Palette 2]] (induction)
 
 # General
 
@@ -70,13 +68,19 @@ Equipment that requires an induction before members are allowed to use it is ind
 
 - [[Cameo Silhouette Vinyl Cutter]]
 
-- [[Industrial sewing machine]] (induction)
+- [[Sewing Machine]]
 
 # Ex-equipment
 
 - _[[Prusa Mendel 3D Printer]]_ (gone)
 
 - _[[Metal Mill and Lathe]]_ (gone)
+
+- _[[Makerbot Replicator 2x Printer]]_ (gone)
+
+- _[[Proxxon Cnc Mill]]_ (gone)
+
+- _[[Industrial sewing machine]]_ (gone)
 
 
 
