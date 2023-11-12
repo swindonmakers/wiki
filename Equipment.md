@@ -18,7 +18,7 @@ Equipment that requires an induction before members are allowed to use it is ind
 
 - [[HPC Laser Cutter]] (induction)
 
-- [[Mosaic Palette 2]] (induction)
+- [[Mosaic Palette+]] (induction)
 
 # General
 
