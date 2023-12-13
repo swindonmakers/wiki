@@ -4,4 +4,4 @@ The chuck is keyless. Bed height is changed using the clamp at the back of the b
 
 Drill bits are found in the green box next to the drill, or in the box of miscellaneous drills. Any broken drills should be replaced with a matching one from the miscellaneous box, or from Toolstation's cheapest range of HSS drills (less than a pound per drill, smaller sizes sold two per packet).
 
-[Pillar Drill Induction](https://docs.google.com/document/d/1aefsfwn_Lqy8MWO_lU-U-2CASknRYL0ptZIJJp_COsc/edit?usp=sharing)
+[Pillar Drill Induction](https://docs.google.com/document/d/e/2PACX-1vSHKaPOeoHK1I3qIwSA_vhlTvsAf7S-gs6R4zDifn0UisBFmsmM8bHR0uhV6v1MVVvYPXiE8T6LMx3P/pub)
