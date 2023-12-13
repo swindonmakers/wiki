@@ -3,6 +3,7 @@ Welcome to the Wiki for Swindon Makerspace.  Please use this wiki to share or re
 #### Information
 
 - [Contacts](http://www.swindon-makerspace.org/contact-us/)
+- [Tips on writing documentation](https://github.com/swindonmakers/wiki/wiki/DocumentationTips)
 
 #### Makerspace
 
