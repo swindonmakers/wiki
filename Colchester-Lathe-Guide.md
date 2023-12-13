@@ -2,7 +2,9 @@
 
 ## Safety 
 
-* Sensible clothing (nothing too loose or with dangly bits inc. hoodie strings), sensible shoes (swarf hurts, basically only closed toe shoes, ones with toe caps if you have them), also safety glasses are required.
+* Sensible clothing (nothing too loose or with dangly bits inc. hoodie strings)
+  - sensible shoes (swarf hurts, basically only closed toe shoes, ones with toe caps if you have them).
+  - safety glasses are required.
 * Emergency Stops: Main switch on the headstock, and footbrake (shown in photos)
 * Don’t spin anything that is not firmly secured - failing to do so can result in heavy, flying objects, this list includes:
 The workpiece - this should be tightly held within the chuck
