@@ -1,4 +1,4 @@
-# Tips on writing documentation or Swindon Makers Wiki
+# Tips on writing documentation for Swindon Makers Wiki
 
   - There is no preferred format for writing documentation. Use whatever you feel comfortable with, though ideally the format should be generally available across platforms and devices. It also obviously needs to be able to be located on the web.  
 
