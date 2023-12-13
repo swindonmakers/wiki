@@ -24,4 +24,3 @@ Welcome to the Wiki for Swindon Makerspace.  Please use this wiki to share or re
 
 - [[Using Social Media]]
 
-test
