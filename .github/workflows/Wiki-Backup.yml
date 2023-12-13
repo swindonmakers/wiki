@@ -11,7 +11,7 @@ jobs:
       - name: Get current date
         id: date
         # Week number and year 
-        run: echo "::set-output name=date::$(date +wk%Y-%U)"
+        run: echo "::set-output name=date::$(date +%Y-wk%U)"
       - name: Backup wiki
         uses: Mine02C4/auto_backup_wiki_action@v1
         with:
