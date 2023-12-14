@@ -7,5 +7,5 @@ The thicknesser side is used to plane wood down to a specific thickness with par
 
 Planing / Thicknesser is useful for cleaning up reclaimed wood (pallets etc), and making warped wood straighter. **please note** all (new and recycled) material should be carefully checked for any nails, screws, staples, bullets prior to planing. Even new material often has price tags stapled to it.
 
-The thicknesser/planer requires sawdust extraction using the mobile unit. It produces enormous amounts of wood chips, so the extraction unit should be regulary checked to ensure it does not back up. Extraction is required not only to collect chips but also to prevent the machine jamming.
+The thicknesser/planer requires sawdust extraction using the mobile unit. It produces enormous amounts of wood chips, so the extraction unit should be regulary checked to ensure it does not back up. Effective extraction is required not only to collect chips but also to prevent the machine jamming.
 
