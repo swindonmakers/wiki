@@ -48,7 +48,9 @@ Equipment that requires an induction before members are allowed to use it is ind
 
 - [[Table Saw]] (induction)
 
-- [[Thicknesser/planer]] (induction)
+- [[Thicknesser/planer]] (induction, note being replaced by Record)
+
+- [[Record Planer/Thicknesser]] (induction)
 
 - [[Wood Lathe]] (induction)
 
