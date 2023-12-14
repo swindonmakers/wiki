@@ -50,7 +50,7 @@ Equipment that requires an induction before members are allowed to use it is ind
 
 - [[Thicknesser/planer]] (induction, note being replaced by Record)
 
-- [[Record Planer/Thicknesser]] (induction)
+- [[Record Planer / Thicknesser](https://github.com/swindonmakers/wiki/wiki/Record-Planer---Thicknesser)]] (induction)
 
 - [[Wood Lathe]] (induction)
 
