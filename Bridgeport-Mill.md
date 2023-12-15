@@ -9,3 +9,5 @@ The Bridgeport has been converted from three phase to single phase using a Sieme
 The VFD is attached to the motor output contactor via a resettable overload set to ~3.5A. This takes the single phase (as delivered by the machine tool circuit from the consumer unit by the front door), and converts it to a simulated three phase. A remote control panel has been built to control power, speed and direction. This is connected via an umbilical with a 7 pin XLR connector into the base of the wall mounted VFD enclosure.
 
 Pinout to be added later, currently on paper inside door pocket of mill.
+
+[Bridgeport Mill DRO manual](https://drive.google.com/file/d/1DW75VNWocFVtwZUIfiZqerS9qsWs1Jzj/view?usp=drive_link)
