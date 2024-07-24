@@ -169,6 +169,7 @@ To see what you can and can not cut go here [NEVER CUT THESE MATERIALS](document
 | Card, 250gsm | 320 | 17 | | 1 | |
 | Cardboard, Single Wall, 4mm | 50 | 30 | | 1 | |
 | [Cork](https://kitronik.co.uk/collections/materials/products/3287-3mm-laser-cork-600mm-x-400mm-sheet), 3mm | 60 | 35 | | 1 | Faster speed is ideal to cut down risk of burning |
+| EVA Foam, 5mm | 70 | 50 | 25 | 1 | |
 | Felt, 8mm, 100% wool, dense | 7 | 65 | 70 | 1 | full cut |
 | Fleece, support material only | 250 | 14 | | 1-2 | Test first, fluffy side down |
 | Flite test waterproof Foamboard | 120 | 44 | 36 | 1 | Full cut |
@@ -196,6 +197,7 @@ To see what you can and can not cut go here [NEVER CUT THESE MATERIALS](document
 | Black mesh | 250 | 13 | 1 | |
 | Card 250gsm | 400 | 14 | 1 | |
 | Cardboard, Single Wall, 4mm | 250 | 15 | 1 | |
+| EVA FOAM | 300 | 16 | 1| |
 | Fleece, support material only | 300 | 13 | 1 | Test first, fluffy side down |
 | Leather, 4mm | 150 | 20 | 1 | MUST BE REAL LEATHER! Cover with masking tape to reduce burning [pics](#leather-tests)|
 | Plywood 3mm | 200 | 20 | 1 | | 
