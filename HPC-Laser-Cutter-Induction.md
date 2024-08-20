@@ -7,8 +7,10 @@ There's a laptop that lives in the Fab Room next to the Laser, which has a copy 
 ## Design
 To get the best results, create a DXF or SVG file (vector format). Lightburn supports a number of file formats, and has various tools to create simple shapes and text, their docs are at [Design & File Importing](https://docs.lightburnsoftware.com/BasicUsageEssentials.html)
 
+Use the File -> Import menu item or the toolbar icon to import your DXF (or other) file.
+
 ## Line/Fill settings (previously Cut/Engrave)
-Lightburn can do multiple types of operation in one file. If you would like to fill/engrave/partly cut a part of your design, it will need to be a completely enclosed area. Select that outline with the mouse, and choose a different colour for it in the colour bar at the bottom of the screen, this will create a separate entry in the Cuts/Layers window. If your design consists of a detailed part and an outline (eg an image inside a circle for a coaster), then add a separate layer for the outer rim as well
+Lightburn can do multiple types of operation in one file. If you would like to fill/engrave/partly cut a part of your design, it will need to be a completely enclosed area. Select that line, or lines with the mouse (hold CTRL to select multiple at once), and choose a different colour for it in the colour bar at the bottom of the screen, this will create a separate entry in the Cuts/Layers window. If your design consists of a detailed part and an outline (eg an image inside a circle for a coaster), then add a separate layer for the outer rim as well
 
 ![Cuts / Layers Window](https://docs.lightburnsoftware.com/img/CutsAndLayers.png)
 
