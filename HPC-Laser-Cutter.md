@@ -1,17 +1,16 @@
 The [HPC LS6840](https://hpclaser.co.uk/co2-laser-cutters/ls6840/) laser cutter (60w) and [CW5200 Chiller](https://hpclaser.co.uk/p/cw5200-water-chiller/) ([Manual](documents/CW5200_Manual.pdf)) was obtained by free loan agreement from [Reprap LTD](https://reprapltd.com/) in October 2016. A condition of this loan agreement is that a notice of the free loan will be displayed on the laser at all times, therefore this notice MUST NOT be removed.
 
-[HPC Laser Cutter Induction] - Full Induction reference
+[[HPC Laser Cutter Induction]] - Full Induction reference
 
 The software used to send cutting jobs to the laser is called [LightBurn](https://docs.lightburnsoftware.com) and is installed on the laptop next to the laser.
 
-[Old LaserCut instructions]
+[[Old LaserCut instructions]]
 
 Bed working area: **680 x 400mm**
 
 - [Designing for the Laser](#designing-for-the-laser)
 - [Font selection:](#font-selection)
 - [Using the cutter:](#using-the-cutter)
-    - [LaserCut Software](#lasercut-software)
     - [Laser Cutter Hardware](#laser-cutter-hardware)
     - [Adjusting the Focus (cutting bed height)](#adjusting-the-focus-cutting-bed-height)
     - [Adjust the bed height](#adjust-the-bed-height)
@@ -75,27 +74,27 @@ Use the scale tool to get the text to the correct size you want.
 
 * Send data to laser
 
-    Once the laser is on, you can send over your instructions by hitting the "Download" button, on the far right of the `lasercut` software, then "Download Current". Once this is done counting, all the work is on the laser (unless you need to rejig something..). To ensure your items are cut starting at the top-right of the laser bed, make sure the `immediate` (sometimes shows as `relative`) checkbox near the button is checked. If it wasn't, do it and Download again.
+    Once the laser is on, you can send over your instructions by hitting the "Send" button, on the far right of the `lightburn` software, then confirm the default filename. Once this is done, all the work is on the laser (unless you need to rejig something..). 
 
 * Align laser material in the laser
 
-    Open the lid of the laser and put in your material, if the laser head isn't currently top-right, hit the "Datum" button on the laser to move it there. Align your material so that the top-right corner is under the laser head (red light!)
+    Open the lid of the laser and put in your material, if the laser head is in the way, hit the arrow buttons on the laser to move it. Align your material.
 
 ### Adjusting the Focus (cutting bed height)
 
-* Make sure the laser is focused, this also includes raising or lowering the cutting bed (Z axis)
+* Make sure the laser is focused, this means raising or lowering the cutting bed (Z axis)
 
 ![Laser focus assist tool](https://i.imgur.com/OhgOvWJ.jpg)
    
-On the bench next to the laser should be some MDF focus assist tools shaped like the one in the above photo Take one, and hit ESC on the laser controls, remove your hands and other appendages from the work area, then press "Test" - this will move the laser head around the extreme edges of your workpiece. Hold the tool to the workpiece and laser head as pictured. The laser head is in the correct position (calibrated for 3mm material) if the tool fits neatly between the head and workpiece. 
+In a plastic tub on the laser should be some MDF focus assist tools shaped like the one in the above photo, take one, and hit ESC on the laser controls, remove your hands and other appendages from the work area, then press "Frame" - this will move the laser head around the extreme edges of your workpiece. Hold the tool to the workpiece and laser head as pictured. The laser head is in the correct position (calibrated for 3mm material) if the tool fits neatly between the head and workpiece. 
 
 ### Adjust the bed height
 
 If the bed is too high or low. 
 
-1. Hit the ESC key first
-2. Hit the Z button in the middle of the control pad
-3. Press the Up or Down to adjust the height, this should be done in small increments
+1. Hit the `ESC` key first
+2. Hit the `Z/U` button in the middle of the control pad
+3. Press the Right or Left arrow keys to adjust the height, this should be done in small increments
 
 If the laser is focused in some places and not others, tape down or weigh down your material with something.. keep hitting "Test" to check, and also make sure your weights are outside of the cutting area!
 
@@ -191,13 +190,13 @@ To see what you can and can not cut go here [NEVER CUT THESE MATERIALS](document
 
 Beside the laser cutter you should find a `honeycomb` cutting bed. This cutting bed doesn't replace the exisiting cutting bed it should be placed on top of the existing one. This bed is especailly good when you want to cut smaller objects and would rather not have them fall through the bed. It's also good if you want to be able to cut and engrave on both sides (engrave, cut then flip the parts in the holes and engrave again)
 
-🚨 Before placing the honeycome bed follow these steps 🚨
+🚨 Before placing the honeycomb bed follow these steps 🚨
 
 Make sure you lower the main cutting bed. 
 
 1. Turn on the laser cutter
-2. Press the `ESC` button followed by the `Datum` button to ensure the head is homed
-4. Press the `ESC` button followed by the `Z` button, press the down arrow button until the bed drops by 3 or 4 cm.
+2. Press the `ESC`, then `Z/U` button, navigate using the `Up` arrow to the `Axes reset` option, press Enter, then Enter again for `XY axis reset` to home the laser head.
+4. Press the `ESC` button followed by the `Z/U` button, press the right arrow button until the bed drops by 3 or 4 cm.
 5. Place the honeycomb bed on top of the main bed but be careful not to hit the cutting head.
 6. Proceed to adjust the bed now as you normally would.
 
@@ -235,10 +234,6 @@ The coaster used was from [amazon](https://www.amazon.co.uk/gp/product/B0944139N
 Website of useful settings for different materials (you will need to test and trial some settings first to be sure) [Bosslaser Laser Settings](https://www.bosslaser.com/laser-settings) - if details from here are tested and proven to be useful, please add to the table above.
 
 # Useful Links
-
-### Known good config file
-
-* [Config file](https://github.com/swindonmakers/laser-config) - a known good config file to fix config issues.
 
 ### Useful tools
 
@@ -278,8 +273,4 @@ For details on the actual equipment, see the [HPC Laser Cutter Internals](HPC-La
 * Chiller error `E05`
 
 > The chiller unit monitors the flow rate of water and it will emit a warning sound and display the error message E05 if the flow rate is too low, this could be caused by kinks in the water tubing or blockages in the piping, if the error message is displayed checked all the water pipes for kinks or tight turns and check the water quality, if the water is murky it should be replaced.
-
-* Machine doesn't engrave
-
-> Sometimes there are issues with the config file changing/becoming corrupted. If this happens, the fix is to replace with a known good version, [here](https://github.com/swindonmakers/laser-config).
 
