@@ -39,7 +39,7 @@ If your material is not yet in the library, look it up in the [Settings List](ht
 ## Positioning on the material
 The Laser cutter bed is 680cm x 400cm, the Lightburn software on the laser laptop is setup for the correct size and origin (top-right).
 
-There are 2 settings for positioning your design:
+There are 2 settings for positioning your design, piece positioning (start from), and job origin:
 
 ![Lightburn Start From settings](https://docs.lightburnsoftware.com/img/CoordinatesStartFrom.png)
 
