@@ -2,9 +2,7 @@ The [HPC LS6840](https://hpclaser.co.uk/co2-laser-cutters/ls6840/) laser cutter 
 
 [[HPC Laser Cutter Induction]] - Full Induction reference
 
-The software used to send cutting jobs to the laser is called [LightBurn](https://docs.lightburnsoftware.com) and is installed on the laptop next to the laser.
-
-[[Old LaserCut instructions]]
+The software used to send cutting jobs to the laser is called [LightBurn](https://docs.lightburnsoftware.com) and is installed on the laptop next to the laser. NB LaserCut can still be used, if you're a fan... [[Old LaserCut instructions]]
 
 Bed working area: **680 x 400mm**
 
