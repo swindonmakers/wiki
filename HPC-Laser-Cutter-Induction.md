@@ -4,6 +4,13 @@ The Laser Cutter can be used to cut Acrylic, Laserable Plywood, and various othe
 ## Software
 There's a laptop that lives in the Fab Room next to the Laser, which has a copy of Lightburn installed on it, which is the software used to layout and transfer files onto the Laser for cutting. You can obtain your own copy and pre-prepare your files at home here: [Lightburn Download](https://lightburnsoftware.com/pages/download-trial). We have some machine settings & material library (link tbd) you can import to setup for the Makerspace Laser.
 
+Please do NOT change any settings in Lightburn on the Fab Room laptop without asking, other than:
+
+* The library (please add to this if materials not yet there!)
+* The positioning settings (see below)
+
+Feel free to try out other settings on your own copy, and report back if they seem useful.
+
 ## Design
 To get the best results, create a DXF or SVG file (vector format). Lightburn supports a number of file formats, and has various tools to create simple shapes and text, their docs are at [Design & File Importing](https://docs.lightburnsoftware.com/BasicUsageEssentials.html)
 
