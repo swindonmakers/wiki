@@ -24,3 +24,9 @@ Speed is measured in mm/s. There are two speeds listed -- "speed" and "corner sp
     If you're cutting a bunch of parts, and your dxf has them scattered all over the place, drag & drop them until you have them arranged as close as possible in a vaguely rectangular shape. This saves on material.
 
     If engraving text, ensure the text is arranged with the longest dimension left/right. This speeds up engraving as the laser has to make fewer passes (it engraves left and right, back and forth).
+
+### Known good config file
+
+* [Config file](https://github.com/swindonmakers/laser-config) - a known good config file to fix config issues.
+
+
