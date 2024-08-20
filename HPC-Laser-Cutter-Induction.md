@@ -40,7 +40,7 @@ The absolute or relative position:
 
 * Absolute Coordinates - the design will be cut where it is positioned on the bed representation in the lightburn design window.
 * User Origin - the design will be cut where the controller "Origin" is saved.
-* Current Position - the design will be cut at the laser position when its set
+* Current Position - the design will be cut at the current laser head position (use the arrow keys to move it around, `ESC` out of the menu first if necessary)
 
 The Job Origin:
 
@@ -56,7 +56,7 @@ On the laser controller, press the Z/U button. Use the Left arrow button to move
 ## Set User Origin
 To cut a design repeatably at a particular position on the laser bed, you can set an Origin which the head will be reset to after homing, and the design will be cut at when using "User Origin".
 
-On the laser controller, ensure you are out of any menus by hitting the ESC button. Use the arrow keys to move the laser head to your chosen position, hit the "Origin" button on the controller (it doesn't beep).
+On the laser controller, ensure you are out of any menus by hitting the `ESC` button. Use the arrow keys to move the laser head to your chosen position, hit the "Origin" button on the controller (it doesn't beep).
 
 ## Testing & Cutting
 Once the design is laid out, you must verify the positioning and whether any fill operations are far enough away from the edge. To do this click the "Frame" button on the Laser tab (switch back from the Material library if you had it open). This will send the file to the laser and cause it to move the laser head to the chosen starting position, it will then move the laser head in a box shape showing where the extents of the design will be cut.
