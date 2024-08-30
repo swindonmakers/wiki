@@ -79,4 +79,6 @@ You can also do this operation in three steps:
 # Running the laser
 With the design positioned, cut layers setup, file on the laser and the outline verified with Frame, you can now cut. Ensure the extraction tube is connected (goes from laser out of the ceiling), turn on the Extraction fan (white power switch next to the extraction tube).
 
+The Extractor fan has a green LED in the switch box, if the green light is on, the fan is running. If the switch does not turn on the green light, check that the fan power (under the TV upstairs) is on. If when you turn off the extractor switch, the green light stays on, that means another switch in the circuit is also using it, just leave the extractor switch in the off position.
+
 Tap "Start" on the laser controller.
