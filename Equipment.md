@@ -2,17 +2,15 @@ The Makerspace has a growing collection of equipment - some items even have thei
 
 Looking for consumables to use with our equipment? Try the [[Consumables]] list.
 
-Equipment that requires an induction before members are allowed to use it is indicated below, please ask in Inductors chat group on Telegram if you wish to get inducted on a psecific machine. To identify an Inductor type command "/inducted on <tool name>" this will return a list of people inducted on that particualr item and inductor status. 
+Equipment that requires an induction before members are allowed to use it is indicated below, please ask in Inductors chat group on Telegram if you wish to get inducted on a specific machine. To identify the inductors, type the command "/inducted_on <tool name>" this will return a list of people inducted on that particular item and inductor status. 
  
 # Digital Fabrication
 
 - [[3D Printing HOWTO]]
 
-- [[Prusa MK2 3D Printer]] (induction)
+- [[Bambu P1S 3D Printer]] (induction)
 
-- [[Creality CR10‐Max 3D printer]] (induction)
-
-- [[Wanhao Duplicator i3 Printer]] (induction)
+- [[Creality Ender 5 Plus]] (induction)
 
 - [[Elegoo Mars 2 Pro Printer]] (induction)
 
@@ -83,6 +81,12 @@ Equipment that requires an induction before members are allowed to use it is ind
 - _[[Proxxon Cnc Mill]]_ (gone)
 
 - _[[Industrial sewing machine]]_ (gone)
+
+- _[[Prusa MK2 3D Printer]]_ (gone)
+
+- _[[Creality CR10‐Max 3D printer]]_ (gone)
+
+- _[[Wanhao Duplicator i3 Printer]]_ (gone)
 
 
 
