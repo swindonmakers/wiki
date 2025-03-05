@@ -6,6 +6,8 @@ Risk Assessment
 Induction Reference
 -------------------
 
+[[ FDM 3D Printing Induction]]
+
 See [[3D Printing HOWTO]].
 
 Description
