@@ -266,6 +266,10 @@ If you want to install fonts, `download` (and unzip if needed), `right click` on
 # Details
 For details on the actual equipment, see the [HPC Laser Cutter Internals](HPC-Laser-Cutter-Internals.md) page
 
+## Laser/Tube usage data
+
+In Lightburn, use the "Laser Tools" -> "Get Controller Info" option to display the cutting time/usage time of the Laser from the Ruida Controller
+
 # Troubleshooting
 
 * Chiller error `E05`
