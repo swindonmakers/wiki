@@ -28,5 +28,6 @@ Laser cutting issues are mostly either:
 
 * The CO2 tube is getting old (which means it doesnt cut as well, anywhere), this means the test cuts are likely terrible everywhere on the bed, and the "Current" readout is lower than a new tube.
 * The mirrors which direct the laser beam from the tube to the laser head (there are 3) are either dirty or misaligned, this means the test cuts may work fine in some places and not in others, but the "Current" readout is normal.
+* The lens (this focuses the end of the beam onto the material) is dirty or scratched, has a similar effect to dirty mirrors.
 
 ## Known Issues
