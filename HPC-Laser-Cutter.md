@@ -1,6 +1,7 @@
 The [HPC LS6840](https://hpclaser.co.uk/co2-laser-cutters/ls6840/) laser cutter (60w) and [CW5200 Chiller](https://hpclaser.co.uk/p/cw5200-water-chiller/) ([Manual](documents/CW5200_Manual.pdf)) was obtained by free loan agreement from [Reprap LTD](https://reprapltd.com/) in October 2016. A condition of this loan agreement is that a notice of the free loan will be displayed on the laser at all times, therefore this notice MUST NOT be removed.
 
 [[HPC Laser Cutter Induction]] - Full Induction reference
+[[HPC Laser Cutter Issues]]
 
 The software used to send cutting jobs to the laser is called [LightBurn](https://docs.lightburnsoftware.com) and is installed on the laptop next to the laser. NB LaserCut can still be used, if you're a fan... [[Old LaserCut instructions]]
 
